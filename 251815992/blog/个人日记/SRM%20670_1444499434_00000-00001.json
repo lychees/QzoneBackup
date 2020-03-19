@@ -1,0 +1,57 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1444499654,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "居然not coming！ ",
+                "capacity": 12023,
+                "poster": {
+                    "id": "446079414",
+                    "platform": 1,
+                    "name": "旺仔嚎婆婆 ",
+                    "emoji": []
+                },
+                "bmp": "38449da00000c201",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "513621014",
+                            "name": "HandIeNeeded ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:446079414,nick:旺仔嚎婆婆,who:1,auto:1} 和毛子近真好！ ",
+                        "postTime": 1444499756,
+                        "id": 1444499756,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1444547556,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "突然发现BGM是endless legend的..感觉制作相当赞的游戏... ",
+                "capacity": 12113,
+                "poster": {
+                    "id": "389568481",
+                    "platform": 1,
+                    "name": "Teveillan ",
+                    "emoji": []
+                },
+                "bmp": "189495a00142a401",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

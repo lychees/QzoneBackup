@@ -1,0 +1,130 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 7,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1386311943,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "sf ",
+                "capacity": 12165,
+                "poster": {
+                    "id": "457085624",
+                    "platform": 1,
+                    "name": "胡萝卜素 ",
+                    "emoji": []
+                },
+                "bmp": "98c095a00000c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1386314067,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "现充…… ",
+                "capacity": 12161,
+                "poster": {
+                    "id": "751723392",
+                    "platform": 1,
+                    "name": "wwwwodddd ",
+                    "emoji": []
+                },
+                "bmp": "18c095a80000c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1386315452,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "是时候出线了！ ",
+                "capacity": 12156,
+                "poster": {
+                    "id": "137466930",
+                    "platform": 1,
+                    "name": "陈爱道 ",
+                    "emoji": []
+                },
+                "bmp": "18c415a00000c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1386323480,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "拿个好名次吧，哈哈 ",
+                "capacity": 12149,
+                "poster": {
+                    "id": "455037117",
+                    "platform": 1,
+                    "name": "【&LC】↑ ",
+                    "emoji": []
+                },
+                "bmp": "98d495e000428201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1386333692,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "祝出线然后BG全群~~~~~ ",
+                "capacity": 12147,
+                "poster": {
+                    "id": "1216446045",
+                    "platform": 1,
+                    "name": "[弱爆]UnkelTao ",
+                    "emoji": []
+                },
+                "bmp": "98d095e0000ec001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 6,
+                "postTime": 1386335798,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[em]e142[/em] ",
+                "capacity": 12155,
+                "poster": {
+                    "id": "1483335912",
+                    "platform": 1,
+                    "name": "[NEFU]cyendra ",
+                    "emoji": []
+                },
+                "bmp": "08c095800200c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 7,
+                "postTime": 1386338409,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "祝出线 ",
+                "capacity": 12168,
+                "poster": {
+                    "id": "707105671",
+                    "platform": 1,
+                    "name": "Level Upper ",
+                    "emoji": []
+                },
+                "bmp": "58c49d844000e121",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1289089345,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "C……   我们学的是C++ ",
+                "capacity": 12145,
+                "poster": {
+                    "id": "791577378",
+                    "platform": 1,
+                    "name": "Spirit ",
+                    "emoji": []
+                },
+                "bmp": "18c095a00100c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1289121198,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "[ft=#6633ff,,]话说int main() [/ft]\n[ft=#6633ff,,]         { [/ft]\n[ft=#6633ff,,]         } [/ft]\n[ft=#6633ff,,]为什么没有返回值..- -[/ft] ",
+                "capacity": 11939,
+                "poster": {
+                    "id": "289419320",
+                    "platform": 1,
+                    "name": "SugarXmi ",
+                    "emoji": []
+                },
+                "bmp": "98d08de00110c009",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "默认范围0。。。。 ",
+                        "postTime": 1289122847,
+                        "id": 1289122847,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "289419320",
+                            "name": "SugarXmi ",
+                            "platform": 1
+                        },
+                        "content": "- -..受教\n[em]e154[/em] ",
+                        "postTime": 1289122947,
+                        "id": 1289122947,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

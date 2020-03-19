@@ -1,0 +1,382 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    Free pascal函数查询表..
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             Free pascal函数查询表..
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2007-10-01 02:41:17
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(26)	è¯è®º(0)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1191220877,
+"voteids":0,
+"pubtime":1191220877,
+"replynum":0,
+"category":"个人日记",
+"title":"Free pascal函数查询表..",
+"effect":512,
+"effect2":0,
+"exblogtype":0,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":0,
+"lp_style":0,
+"lp_flag":0,
+"orguin":251815992,
+"orgblogid":1191220877,
+"mention_uins":[ ],
+"attach":[],"comments":[]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              一、数学函数：
+              <br/>
+              Inc(i) 使I:=I+1;
+              <br/>
+              Inc(I,b) 使I:=I+b;
+              <br/>
+              Abs(x) 求x的绝对值 例：abs(-3)=3
+              <br/>
+              Chr(x) 求编号x对应的字符。例：Chr(65)=’A’ chr(97)=’a’ chr(48)=’0’
+              <br/>
+              Ord(x) 求字符x对应的编号。例:ord(‘A’)=65 ord(‘a’)=97 另外：ord(false)=0 ord(true)=1
+              <br/>
+              Sqr(x) 求x的平方。 例：sqr(4)=16
+              <br/>
+              Sqrt(x)求x的开方. 例：sqrt(16)=4
+              <br/>
+              round(x) 求x的四舍五入 例：round(4.5)=5
+              <br/>
+              trunc(x) 求x的整数部分 例：trunc(5.6)=5 结果是integer型
+              <br/>
+              int(x) 求x的整数部分 例int(5.6)=5.0 结果是real型
+              <br/>
+              frac (x)求x的小数部分 例 frac(5.6)=0.6
+              <br/>
+              pred(x) 求x的前导 pred(‘b’)=’a’ pred(5)=4 pred(true)=false
+              <br/>
+              succ(x) 求x的后继 succ(‘b’)=’c’ succ(5)=6 succ(false)=true
+              <br/>
+              odd(x) 判断x是否为奇数。如果是值为true，反之值为false. Odd(2)=false odd(5)=true
+              <br/>
+              power(a,n) 求a的n次方 power(2,3)=8
+              <br/>
+              random 取0~1之间的随机数（不能取到1）
+              <br/>
+              randomize 随机数的种子函数,在每次设置随机数时都要把这个函数放在最前面.
+              <br/>
+              Fillchar(a,size(a),0) 数组初始化，即把数组a的值全部置为0
+              <br/>
+              SHR: x SHR n 把x换成二进制后向右移n位，相当于 把x 除以 2n
+              <br/>
+              SHL: x SHL n把x换成二进制后向左移n位，相当于 把x 乘以 2n
+              <br/>
+              二、字符串函数
+              <br/>
+              1. 连接运算 concat(s1,s2,s3…sn) 相当于s1+s2+s3+…+sn.
+              <br/>
+              例：concat(‘11’,’aa’)=’11aa’;
+              <br/>
+              2. 求子串。 Copy(s,I,L) 从字符串s中截取第I个字符开始后的长度为l的子串。
+              <br/>
+              例:copy(‘abdag’,2,3)=’bda’
+              <br/>
+              3. 删除子串。过程 Delete(s,I,l) 从字符串s中删除第I个字符开始后的长度为l的子串。
+              <br/>
+              例：s:=’abcde’;delete(s,2,3);结果s:=’ae’
+              <br/>
+              4. 插入子串。 过程Insert(s1,s2,I) 把s1插入到s2的第I个位置
+              <br/>
+              例：s:=abc;insert(‘12’,s,2);结果s:=’a12bc’
+              <br/>
+              5. 求字符串长度 length(s) 例：length(‘12abc’)=5
+              <br/>
+              6. 搜索子串的位置 pos(s1,s2) 如果s1是s2的子串 ，则返回s1的第一个字符在s2中的位置，若不是子串，则返回0.
+              <br/>
+              例：pos(‘ab’,’12abcd’)=3
+              <br/>
+              7. 字符的大写转换。Upcase(ch) 求字符ch的大写体。
+              <br/>
+              例：upcase(‘a’)=’A’
+              <br/>
+              8. 数值转换为数串。 过程 Str(x,s) 把数值x化为数串s.
+              <br/>
+              例：str(12345,s); 结果s=’12345’
+              <br/>
+              9. 数串转换为数值。 过程val(s,x,I) 把数串s转化为数值x,如果成功则i=0,不成功则I为无效字符的序数
+              <br/>
+              例：val(‘1234’,x,I);结果 x:=1234
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

@@ -1,0 +1,85 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1289292511,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "来随便问问。。岛哥现在手头还有多少钱。。你的外块呢？。。 ",
+                "capacity": 11976,
+                "poster": {
+                    "id": "420836131",
+                    "platform": 1,
+                    "name": "doc ",
+                    "emoji": []
+                },
+                "bmp": "18d025a00000e101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "不足100?....  =。 =||。。。家教小孩没进复赛。z 财路断了 ",
+                        "postTime": 1289298990,
+                        "id": 1289298990,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "420836131",
+                            "name": "doc ",
+                            "platform": 1
+                        },
+                        "content": "那你还是给你剩下的唯一的钱的来源联系吧。。 ",
+                        "postTime": 1289313278,
+                        "id": 1289313278,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1289304779,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "不会吧、这个月某个人去给了二千多大洋,花的太爽了吧....哈哈 ",
+                "capacity": 12113,
+                "poster": {
+                    "id": "438730150",
+                    "platform": 1,
+                    "name": "木林森 ",
+                    "emoji": []
+                },
+                "bmp": "08809c0000000001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1289641328,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ffg,#9900ff,#ffffff]我要是去汇钱会不会被索要“相关证件”……干脆先放点和信一起寄去试试能不能收到……[/ft] ",
+                "capacity": 12060,
+                "poster": {
+                    "id": "784237318",
+                    "platform": 1,
+                    "name": "叙眄 ",
+                    "emoji": []
+                },
+                "bmp": "585095a00102c009",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

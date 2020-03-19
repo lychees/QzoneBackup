@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1425920584,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "要加上本地行为预测 ",
+                "capacity": 12150,
+                "poster": {
+                    "id": "25241274",
+                    "platform": 1,
+                    "name": "七星瓢虫 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00000e101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

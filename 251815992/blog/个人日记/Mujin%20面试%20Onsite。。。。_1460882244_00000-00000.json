@@ -1,0 +1,51 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1460884522,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "创业公司的安利D人技能是不是都点满的... ",
+                "capacity": 11957,
+                "poster": {
+                    "id": "479447834",
+                    "platform": 1,
+                    "name": " ",
+                    "emoji": []
+                },
+                "bmp": "18c195a00100a201",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:479447834,nick:&#9839;,auto:1} hhhhh。。。。 ",
+                        "postTime": 1460884728,
+                        "id": 1460884728,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:479447834,nick:&#9839;,auto:1} 我是身经百战，见得多啦。 ",
+                        "postTime": 1460884751,
+                        "id": 1460884751,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 2,
+                "postTime": 1436940126,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "小学老师：你愿意成为魔法少女吗 —— 就此打开了一个新的世界 ",
+                "capacity": 12107,
+                "poster": {
+                    "id": "307442893",
+                    "platform": 1,
+                    "name": "12-计-史睿萌 ",
+                    "emoji": []
+                },
+                "bmp": "08c195800000c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1436945027,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "什么时候出书～ ",
+                "capacity": 12155,
+                "poster": {
+                    "id": "814463561",
+                    "platform": 1,
+                    "name": "子非我 ",
+                    "emoji": []
+                },
+                "bmp": "088494a00000c401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1436946673,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "倒数第二自然段的最后一句很感人 ",
+                "capacity": 12136,
+                "poster": {
+                    "id": "2584468854",
+                    "platform": 1,
+                    "name": "SweetLover ",
+                    "emoji": []
+                },
+                "bmp": "1850958002028101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1436951467,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "“很失望。”唐飞虎说， ",
+                "capacity": 12134,
+                "poster": {
+                    "id": "368586905",
+                    "platform": 1,
+                    "name": "[HIT] For_the_Love ",
+                    "emoji": []
+                },
+                "bmp": "18d09d800000c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1466262899,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "害怕 ",
+                "capacity": 12160,
+                "poster": {
+                    "id": "464388324",
+                    "platform": 1,
+                    "name": "音 ",
+                    "emoji": []
+                },
+                "bmp": "18d19d880102e021",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1466263243,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "这算什么 游戏思维? ",
+                "capacity": 12146,
+                "poster": {
+                    "id": "932152571",
+                    "platform": 1,
+                    "name": "Deaso ",
+                    "emoji": []
+                },
+                "bmp": "08848da00002e221",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

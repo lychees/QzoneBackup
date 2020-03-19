@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1324694820,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]文艺。[/ft] ",
+                "capacity": 12149,
+                "poster": {
+                    "id": "122155302",
+                    "platform": 1,
+                    "name": "木子日匀 ",
+                    "emoji": []
+                },
+                "bmp": "38d40da00102c209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1332079494,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "巨文艺！！！只不过说得也是。谁能读懂谁。 ",
+                "capacity": 12126,
+                "poster": {
+                    "id": "1281052001",
+                    "platform": 1,
+                    "name": "思想的星空 ",
+                    "emoji": []
+                },
+                "bmp": "98c095800a00e201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1396792102,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "其实558就是个简单题。。。别想多了 ",
+                "capacity": 12134,
+                "poster": {
+                    "id": "826513189",
+                    "platform": 1,
+                    "name": "叉姐 ",
+                    "emoji": []
+                },
+                "bmp": "988095a80000e201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1483586625,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "是的 .. 我感觉获取信息的速度，严重制约了我的发展。\n所以很多时候我会一目十行的过一遍，但是捕获到有用内容以后，只有用慢阅读才能理解 .. ",
+                "capacity": 12030,
+                "poster": {
+                    "id": "327739187",
+                    "platform": 1,
+                    "name": "ChouUn ",
+                    "emoji": []
+                },
+                "bmp": "18c095000000a001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1483594414,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "所以上传成为硅基生物吧！ ",
+                "capacity": 12144,
+                "poster": {
+                    "id": "451524137",
+                    "platform": 1,
+                    "name": "光之神圣 ",
+                    "emoji": []
+                },
+                "bmp": "18c1f4a40080c109",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1483595737,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "看视频不就快了嘛[em]e141[/em] ",
+                "capacity": 12136,
+                "poster": {
+                    "id": "1182032752",
+                    "platform": 1,
+                    "name": "楠瓜@Moenen ",
+                    "emoji": []
+                },
+                "bmp": "084595800a00c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

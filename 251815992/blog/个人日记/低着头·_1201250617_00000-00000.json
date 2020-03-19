@@ -1,0 +1,40 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1201437513,
+                "effect": 4194336,
+                "replyNum": 1,
+                "content": "[B][ft=#ff0000,,]呵呵.[/ft][/B]\n[B][/B] \n[B][ft=#ff0000,,]哈哈.[/ft][/B]\n[B][/B] \n[B][ft=#ff0000,,]嘿嘿.[/ft][/B]\n[B][/B] \n[B][ft=#ff0000,,]HO HO[/ft][/B] ",
+                "capacity": 11990,
+                "poster": {
+                    "id": "284293874",
+                    "platform": 1,
+                    "name": "孟修竹 ",
+                    "emoji": []
+                },
+                "bmp": "08d40da80102c109",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "什么啊= -\n傻乎乎的～ ",
+                        "postTime": 0,
+                        "id": 0,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

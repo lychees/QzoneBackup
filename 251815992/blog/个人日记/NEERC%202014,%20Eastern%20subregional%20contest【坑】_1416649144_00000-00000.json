@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1416662454,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "spfa乱搞过的 ",
+                "capacity": 12156,
+                "poster": {
+                    "id": "865319505",
+                    "platform": 1,
+                    "name": "Error202 ",
+                    "emoji": []
+                },
+                "bmp": "08c09d800000c020",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

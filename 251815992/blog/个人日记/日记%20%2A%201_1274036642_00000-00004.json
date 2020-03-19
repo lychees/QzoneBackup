@@ -1,0 +1,175 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 5,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1274040896,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "高考完我带你打～搞个VIP我们去专一！ ",
+                "capacity": 12132,
+                "poster": {
+                    "id": "626003679",
+                    "platform": 1,
+                    "name": "沙了个皮 ",
+                    "emoji": []
+                },
+                "bmp": "18d48de00108e401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1274051611,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "晕… ",
+                "capacity": 12168,
+                "poster": {
+                    "id": "276500942",
+                    "platform": 1,
+                    "name": "酒仙 ",
+                    "emoji": []
+                },
+                "bmp": "b8c1dda00102e229",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1274060437,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "哇，全民dota ",
+                "capacity": 12152,
+                "poster": {
+                    "id": "334139090",
+                    "platform": 1,
+                    "name": "大板砖.. ",
+                    "emoji": []
+                },
+                "bmp": "18d0d5a00102c0a1",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1274107423,
+                "effect": 32,
+                "replyNum": 5,
+                "content": "[ft=,2,]Oh yeah,超神了[em]e113[/em][/ft] ",
+                "capacity": 11900,
+                "poster": {
+                    "id": "65713782",
+                    "platform": 1,
+                    "name": "blackjack ",
+                    "emoji": []
+                },
+                "bmp": "08c09d2001008001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "476058914",
+                            "name": " ",
+                            "platform": 1
+                        },
+                        "content": "是“Oh,shit”超神 ",
+                        "postTime": 1274110450,
+                        "id": 1274110450,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "65713782",
+                            "name": "blackjack ",
+                            "platform": 1
+                        },
+                        "content": "……是holy shit，我就是那个超神的…… ",
+                        "postTime": 1274115194,
+                        "id": 1274115194,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "476058914",
+                            "name": " ",
+                            "platform": 1
+                        },
+                        "content": "臭P了吧，你玩啥的？ ",
+                        "postTime": 1274140331,
+                        "id": 1274140331,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "65713782",
+                            "name": "blackjack ",
+                            "platform": 1
+                        },
+                        "content": "小鱼人。。。 ",
+                        "postTime": 1274143785,
+                        "id": 1274143785,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "476058914",
+                            "name": " ",
+                            "platform": 1
+                        },
+                        "content": "－－|||\n小渔人和冰魂永远是我的心痛… ",
+                        "postTime": 1274144901,
+                        "id": 1274144901,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "postTime": 1274110573,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "大家的注意力全都集中在你前文的DotA上了… ",
+                "capacity": 11903,
+                "poster": {
+                    "id": "476058914",
+                    "platform": 1,
+                    "name": " ",
+                    "emoji": []
+                },
+                "bmp": "18f4052001029020",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "不是。。下文是断断续续后来补的。( 果然要一次发完的好 )。。# \n有点衔接不上呢。。 ",
+                        "postTime": 1274112887,
+                        "id": 1274112887,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "476058914",
+                            "name": " ",
+                            "platform": 1
+                        },
+                        "content": "大家都关注前文的内容，就像DotA里很多少都关注FB一样…其实真正的男人关注的不是FB和杀敌数，而是最终的胜利 ",
+                        "postTime": 1274114307,
+                        "id": 1274114307,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

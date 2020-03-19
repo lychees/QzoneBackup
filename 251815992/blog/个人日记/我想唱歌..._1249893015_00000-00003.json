@@ -1,0 +1,79 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1249903690,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]sofa..[/ft] ",
+                "capacity": 12145,
+                "poster": {
+                    "id": "315593370",
+                    "platform": 1,
+                    "name": "大魔导师会让你挂科 ",
+                    "emoji": []
+                },
+                "bmp": "18c09da04000c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1250078731,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]与其说是看日志，不如说是看标题。。。。。[/ft] ",
+                "capacity": 12115,
+                "poster": {
+                    "id": "599172252",
+                    "platform": 1,
+                    "name": "Maverick ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00000c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1250178962,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "谁可以告诉我你到底在写什么… ",
+                "capacity": 12145,
+                "poster": {
+                    "id": "199302279",
+                    "platform": 1,
+                    "name": "元家草草 ",
+                    "emoji": []
+                },
+                "bmp": "18c095a001008121",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1252762090,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]...还没唱够啊~  [/ft] ",
+                "capacity": 12139,
+                "poster": {
+                    "id": "114099336",
+                    "platform": 1,
+                    "name": "光禾 ",
+                    "emoji": []
+                },
+                "bmp": "18d094a50000c401",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

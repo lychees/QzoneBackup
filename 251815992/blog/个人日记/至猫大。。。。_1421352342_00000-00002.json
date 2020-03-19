@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1421419501,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "[em]e110[/em] ",
+                "capacity": 12155,
+                "poster": {
+                    "id": "814730610",
+                    "platform": 1,
+                    "name": "法务-符小瑜 ",
+                    "emoji": []
+                },
+                "bmp": "18909d800000e401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1421487228,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "岛神的说说我都要~~~混个脸熟 ",
+                "capacity": 12147,
+                "poster": {
+                    "id": "2822576816",
+                    "platform": 1,
+                    "name": "我滴 ",
+                    "emoji": []
+                },
+                "bmp": "08409d800200c901",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1421488006,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "哈哈一首好歌 ",
+                "capacity": 12161,
+                "poster": {
+                    "id": "3051226741",
+                    "platform": 1,
+                    "name": "你微笑时很美 ",
+                    "emoji": []
+                },
+                "bmp": "08009c0002000001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1479629346,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "我前天弄这个弄好半天。 ",
+                "capacity": 12145,
+                "poster": {
+                    "id": "9304893",
+                    "platform": 1,
+                    "name": "绿色夹克泪 ",
+                    "emoji": []
+                },
+                "bmp": "08900dc00012c121",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

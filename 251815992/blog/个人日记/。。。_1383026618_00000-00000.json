@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1383026986,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "? ",
+                "capacity": 12173,
+                "poster": {
+                    "id": "402701292",
+                    "platform": 1,
+                    "name": "x. ",
+                    "emoji": []
+                },
+                "bmp": "185495a00102e101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

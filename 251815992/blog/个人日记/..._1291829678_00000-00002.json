@@ -1,0 +1,85 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1291903910,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "总是对LDX有种敬畏的感觉… ",
+                "capacity": 12038,
+                "poster": {
+                    "id": "583029995",
+                    "platform": 1,
+                    "name": "UCSB门将死忠！ ",
+                    "emoji": []
+                },
+                "bmp": "18d00da40102d109",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "。你是谁？。。。你知道他。。？ ",
+                        "postTime": 1291904285,
+                        "id": 1291904285,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "583029995",
+                            "name": "UCSB门将死忠！ ",
+                            "platform": 1
+                        },
+                        "content": "话说我还想写篇日志纪念加你Q好友一周年呢 ",
+                        "postTime": 1291904311,
+                        "id": 1291904311,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1291934836,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "最后他们得到了3000￥。。。。但是他们原计划是得到20000￥。。。。他们竞争不过哪些正规的教师办的补习班。。。。仔细想想,为什么,,,,,,,,,,,因为不正规,,,希望我的小岛以后所做的一切都正规起来,别指望你妈妈那点小钱了,等你学成归来,我给你投100万,让你好好干,努力吧\n ",
+                "capacity": 11917,
+                "poster": {
+                    "id": "1084081420",
+                    "platform": 1,
+                    "name": "安徽老虎 ",
+                    "emoji": []
+                },
+                "bmp": "88419da00000c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1292063199,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]你也只能做敬佩人之辈了,一个逃学的学生,去死吧,然后让,医学院的去做,,解破,看看是什么原因,不上学的学生还有脸在这说三道四、真不要脸[/ft] ",
+                "capacity": 12029,
+                "poster": {
+                    "id": "1084081420",
+                    "platform": 1,
+                    "name": "安徽老虎 ",
+                    "emoji": []
+                },
+                "bmp": "88419da00000c101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

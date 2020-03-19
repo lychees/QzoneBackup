@@ -1,0 +1,79 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1411809786,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "1003~~~哎 ",
+                "capacity": 12159,
+                "poster": {
+                    "id": "1216446045",
+                    "platform": 1,
+                    "name": "[弱爆]UnkelTao ",
+                    "emoji": []
+                },
+                "bmp": "98d095e0000ec001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1411812146,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "唯有不停吃药... ",
+                "capacity": 12154,
+                "poster": {
+                    "id": "505575200",
+                    "platform": 1,
+                    "name": "两年铜牌狗 ",
+                    "emoji": []
+                },
+                "bmp": "18c19da00100c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1411816518,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "不停吃药 ",
+                "capacity": 12157,
+                "poster": {
+                    "id": "450978053",
+                    "platform": 1,
+                    "name": "Sd.无心插柳 ",
+                    "emoji": []
+                },
+                "bmp": "18d1d5800000c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1411818563,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "药不能停！ ",
+                "capacity": 12160,
+                "poster": {
+                    "id": "497778632",
+                    "platform": 1,
+                    "name": "Ronnoc ",
+                    "emoji": []
+                },
+                "bmp": "48801d8000004001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

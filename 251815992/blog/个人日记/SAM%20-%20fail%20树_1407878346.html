@@ -1,0 +1,810 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    SAM - fail 树
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             SAM - fail 树
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2014-08-12 17:19:06
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(65)	è¯è®º(0)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1407878346,
+"voteids":0,
+"pubtime":1407878346,
+"replynum":0,
+"category":"个人日记",
+"title":"SAM - fail 树",
+"effect":8389120,
+"effect2":524294,
+"exblogtype":3,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":81177,
+"lp_style":16843520,
+"lp_flag":0,
+"lp_topvalue":0,
+"orguin":251815992,
+"orgblogid":1407878346,
+"mention_uins":[ ],
+"attach":[],"comments":[]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <div>
+                <br/>
+                回顾：
+                <br/>
+                <a href="http://codeforces.com/contest/204/problem/E" target="_blank">
+                 http://codeforces.com/contest/204/problem/E
+                </a>
+                <br/>
+                <a href="https://13331.org/205.html" target="_blank">
+                 https://13331.org/205.html
+                </a>
+                <br/>
+                <a href="http://fanhq666.blog.163.com/blog/static/8194342620123352232937/" target="_blank">
+                 http://fanhq666.blog.163.com/blog/static/8194342620123352232937/
+                </a>
+                <br/>
+                <br/>
+                。。。我们观察从根结点出发，可以走向每个状态的路径。。。发现是一些子串的集合。
+                <br/>
+                。。。更进一步。。。是某个子串，以及该子串的最长的一部分后缀所组成的集合。
+                <br/>
+                <br/>
+                <a href="http://roosephu.blog.163.com/blog/static/2037060302012399282476/" target="_blank">
+                 http://roosephu.blog.163.com/blog/static/2037060302012399282476/
+                </a>
+                <br/>
+                看图。。。
+                <br/>
+                <br/>
+                。。超过这个范围的话。。。就会沿着 fail 树的 par 指针跑到上一个结点中去了。。（逆序的后缀树。）
+                <br/>
+                <br/>
+                ——————
+                <br/>
+                <br/>
+                。。现在我们以 fail 树的视角来考察这些结点。。
+                <br/>
+                <br/>
+                每个结点表示了某个子串，以及及该子串的最长的一部分后缀所组成的集合。。。（准确的说是这些子串的逆构成了一个后缀树。）
+                <br/>
+                <br/>
+                。其中最长的那个子串的长度是 len[u]，最短的子串长度是 len[p]+1。。
+                <br/>
+                。所包含的子串数目。。是 len[u] - len[p]。。。（对应后缀树的边长）
+                <br/>
+                。我们称一个状态中最长的子串为这个状态的特征子串。。。
+                <br/>
+                <br/>
+                ——————
+                <br/>
+                。。。其中所有叶子结点表示的特征子串恰好在这个字符串中仅出现一次。。（。。。满足这个要求的肯定是一些前缀。。。）
+                <br/>
+                （参见 识别子串 问题。。。）
+                <br/>
+                <br/>
+                。。。而一个结点到根的路径。。恰好构成该结点所包含的特征子串的所有后缀。。。
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                1. 对于原问题。。。我们主要任务就是。。
+                <br/>
+                。。。。
+                <span style="color:rgb(255, 0, 0)">
+                 得到每个结点（所表示的子串）。。可以匹配哪些字符串。
+                </span>
+                <br/>
+                当然由于原字符串数目过多。。要对每个结点都得到具体匹配哪些字符串
+                <span style="color:rgb(255, 0, 0)">
+                 并不现实
+                </span>
+                。
+                <br/>
+                <br/>
+                <br/>
+                2. tire 也是具有一定定位能力的。。。它仅能得知每个结点是否是某个字符串的一个前缀。。。。。
+                <br/>
+                。。。而根据之前的讨论。。我们找到这些前缀在 SAM 中的对应结点。。显然所有这些结点到根的路径的并所包含的结点。。
+                <br/>
+                。。。恰好包含了关联于这个字符串的所有子串。。在 SAM 中的状态。。。
+                <br/>
+                <br/>
+                3. 我们可以使用 tarjan lca 来求树上链的并。。。这样我们就可以统计出。。
+                <span style="color:rgb(255, 0, 0)">
+                 每个结点。。。匹配了多少字符串。。
+                </span>
+                <br/>
+                。。如果这个值 &gt;= K。。。那么我们就对这个结点打上待统计的标记。。 cnt[u] = len[u] - len[p]。。
+                <br/>
+                <br/>
+                <br/>
+                4. 回到第二步。。我们知道每个结点是否是某个字符串的前缀。。而这个结点到根的路径上所有的结点。。构成了这个前缀的所有后缀。
+                <br/>
+                。。。显然这些后缀也应该属于这个字符串。。。于是我们可以用 dfs() 。得到由根到这个结点的路径上所有经过结点的 cnt 和。。。。
+                <br/>
+                。。。。把所有前缀都访问到就可以统计所有子串的贡献。。。。总得复杂度是线性的。。。。。。
+                <br/>
+                <br/>
+                Ext：
+                <br/>
+                。。。如果对每个字符串。。相同的子串只计数一次。。那么每个结点只能向下统计一次。。因此需要记录其所在 substree 中。。是否包含 xxx 的一个前缀。。。
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <a href="http://codeforces.com/contest/204/submission/4601803" target="_blank">
+                 http://codeforces.com/contest/204/submission/4601803
+                </a>
+                <br/>
+                <br/>
+                <div>
+                 //}/* .................................................................................................................................. */
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 const int N = 200009, LN = 24, Z = 26;
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 char buf[N/2]; LL ans[N/2];
+                </div>
+                <div>
+                 int TtoM[N/2], MtoT[N], nn, K;
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 namespace Trie{
+                </div>
+                <div>
+                 int trans[N/2][Z]; VI b[N/2];
+                </div>
+                <div>
+                 int tot;
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 #define v trans[u][c]
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 int new_node(){
+                </div>
+                <div>
+                 return tot++;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 void Insert(int id){
+                </div>
+                <div>
+                 RS(buf); int u = 0; REP_S(cur, buf){
+                </div>
+                <div>
+                 int c = *cur - 'a';
+                </div>
+                <div>
+                 if (!v) v = new_node();
+                </div>
+                <div>
+                 b[u = v].PB(id);
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 void Init(){
+                </div>
+                <div>
+                 tot = 0, new_node();
+                </div>
+                <div>
+                 REP(i, nn) Insert(i);
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 namespace SAM{
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 int trans[N][Z], par[N], len[N], cnt[N], tot;
+                </div>
+                <div>
+                 VI adj[N]; int P[N], R[N], A[N], L[N/2];
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 #define p par[u]
+                </div>
+                <div>
+                 #define pp par[uu]
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 void Make(int x){R[x] = 0, P[x] = x, A[x] = x;}
+                </div>
+                <div>
+                 int Find(int x){return x == P[x] ? x : P[x] = Find(P[x]);}
+                </div>
+                <div>
+                 void Union(int _x, int _y){
+                </div>
+                <div>
+                 int x = Find(_x), y = Find(_y);
+                </div>
+                <div>
+                 if (R[x] &lt; R[y]) P[y] = x;
+                </div>
+                <div>
+                 else{
+                </div>
+                <div>
+                 P[x] = y, A[y] = _x;
+                </div>
+                <div>
+                 if (R[x] == R[y]) ++R[x];
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 inline int new_node(){
+                </div>
+                <div>
+                 RST(trans[tot]); //cnt[tot] = 0;
+                </div>
+                <div>
+                 return tot++;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 inline int new_node(int u){
+                </div>
+                <div>
+                 CPY(trans[tot], trans[u]); par[tot] = par[u]; //cnt[tot] = cnt[u];
+                </div>
+                <div>
+                 return tot++;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 inline int h(int u){
+                </div>
+                <div>
+                 return len[u] - len[p];
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 int Ext(int c, int tail){
+                </div>
+                <div>
+                 int u = tail, uu = new_node(); len[uu] = len[u] + 1;
+                </div>
+                <div>
+                 while (u &amp;&amp; !v) v = uu, u = p; // 向上遍历没有 c-转移 的祖先 ..
+                </div>
+                <div>
+                 if (!u &amp;&amp; !v) v = uu, pp = 0;
+                </div>
+                <div>
+                 else{
+                </div>
+                <div>
+                 if (len[v] == len[u] + 1) pp = v;
+                </div>
+                <div>
+                 else{
+                </div>
+                <div>
+                 int _v = v, vv = new_node(_v); len[vv] = len[u] + 1; par[_v] = pp = vv;
+                </div>
+                <div>
+                 while (u &amp;&amp; v == _v) v = vv, u = p;
+                </div>
+                <div>
+                 if (!u &amp;&amp; v == _v) v = vv;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 return uu;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 #undef v
+                </div>
+                <div>
+                 #define v (*it)
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 void tarjan(int u = 0){
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 Make(u); ECH(it, adj[u]) tarjan(v), Union(u, v);
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 if(MtoT[u]) ECH(it, Trie::b[MtoT[u]]){
+                </div>
+                <div>
+                 --cnt[A[Find(L[v])]]; ++cnt[u], L[v] = u;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 void dfs1(int u = 0){
+                </div>
+                <div>
+                 ECH(it, adj[u]) dfs1(v), cnt[u] += cnt[v];
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 void dfs2(int u = 0){
+                </div>
+                <div>
+                 ECH(it, adj[u]) cnt[v] += cnt[u], dfs2(v);
+                </div>
+                <div>
+                 ECH(it, Trie::b[MtoT[u]]) ans[v] += cnt[u];
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 #undef v
+                </div>
+                <div>
+                 #define v Trie::trans[u][c]
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 void Init(){
+                </div>
+                <div>
+                 tot = 0; queue&lt;int&gt; Q; Q.push(0); TtoM[0] = new_node();
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 while(SZ(Q)){
+                </div>
+                <div>
+                 int u = Q.front(); Q.pop();
+                </div>
+                <div>
+                 REP(c, 26) if (v) Q.push(MtoT[TtoM[v] = Ext(c, TtoM[u])] = v);
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 FOR(u, 1, tot) adj[p].PB(u); fill(L, L+nn, 0); tarjan();
+                </div>
+                <div>
+                 dfs1(); FOR(u, 1, tot) cnt[u] = cnt[u] &gt;= K ? h(u) : 0; dfs2();
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 int main(){
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 #ifndef ONLINE_JUDGE
+                </div>
+                <div>
+                 freopen("in.txt", "r", stdin);
+                </div>
+                <div>
+                 //freopen("out.txt", "w", stdout);
+                </div>
+                <div>
+                 #endif
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 RD(nn, K); Trie::Init(); SAM::Init();
+                </div>
+                <div>
+                 REP(i, nn) OT(ans[i]);
+                </div>
+                <div>
+                 }
+                </div>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+               </div>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

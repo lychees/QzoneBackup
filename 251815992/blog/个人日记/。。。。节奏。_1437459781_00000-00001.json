@@ -1,0 +1,57 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1437467603,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "她今年还能拿铜牌吗 ",
+                "capacity": 12040,
+                "poster": {
+                    "id": "307442893",
+                    "platform": 1,
+                    "name": "12-计-史睿萌 ",
+                    "emoji": []
+                },
+                "bmp": "08c195800000c001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:307442893,nick:12-计-史睿萌,who:1,auto:1}你知道的太多了。 ",
+                        "postTime": 1437471078,
+                        "id": 1437471078,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1437481516,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "膜拜准final牛 ",
+                "capacity": 12157,
+                "poster": {
+                    "id": "978632333",
+                    "platform": 1,
+                    "name": "特种兵-何骐 ",
+                    "emoji": []
+                },
+                "bmp": "98c09da00002e121",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

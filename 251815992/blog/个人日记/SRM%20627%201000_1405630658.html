@@ -1,0 +1,861 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    SRM 627 1000
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             SRM 627 1000
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2014-07-17 16:57:38
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(59)	è¯è®º(0)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1405630658,
+"voteids":0,
+"pubtime":1405630658,
+"replynum":0,
+"category":"个人日记",
+"title":"SRM 627 1000",
+"effect":8389120,
+"effect2":524294,
+"exblogtype":3,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":81177,
+"lp_style":16843520,
+"lp_flag":0,
+"lp_topvalue":0,
+"orguin":251815992,
+"orgblogid":1405630658,
+"mention_uins":[ ],
+"attach":[],"comments":[]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <div>
+                <div>
+                 。。。
+                 <br/>
+                 显然我膜拜了 wuzhengkai 酱的代码。！！。
+                 <br/>
+                 <br/>
+                 <br/>
+                 。。显然横纵向的塔可以分开处理。搞成二分图。。
+                 <br/>
+                 。第一眼感觉是独立集。。但是无法处理一束镭射只能打一面塔的情况。。
+                 <br/>
+                 。。
+                 <br/>
+                 <br/>
+                 <br/>
+                 。。每个得分点拆成左右两侧。连 INF 表示不能同时被两个方向击中。（方便统一处理。。'.' 视作分数为 0.。。）
+                 <br/>
+                 。。对于塔。。我们只保留一侧。。然后连接源汇。（方便统一处理。。可以写成拆点后只保留一侧）。。。
+                 <br/>
+                 <br/>
+                 <br/>
+                 。。考虑最和谐的情况。。所有的塔都能得到自己领域中得分最大的格点。。。我们记录这个为初值
+                 <br/>
+                 。。考虑冲突。。。。
+                 <br/>
+                 <br/>
+                 。。不妨让我们考察一下这种数据。。。
+                 <div>
+                  <br/>
+                  "&gt;59"
+                 </div>
+                 <div>
+                  "..5"
+                 </div>
+                 <div>
+                  "..A"
+                 </div>
+                 <br/>
+                 。。 &gt; 1 2 3 4 5 6 7 8 9 ....
+                 <br/>
+                 比如这种。。对于所有初始情况中有冲突的格点。。
+                 <br/>
+                 。。 我们需要用最小割来处理这束光线在
+                 <span style="color:rgb(255, 0, 0)">
+                  何处断开
+                 </span>
+                 。。
+                 <br/>
+                 。。而
+                 <span style="color:rgb(255, 0, 0)">
+                  断开的代价
+                 </span>
+                 （割边的流量）就是
+                 <span style="font-size:14px">
+                  整行的最大得分。。与
+                 </span>
+                 <span style="font-size:14px">
+                  中断位置之前的局部最大得分的差。
+                  <br/>
+                  <span>
+                  </span>
+                 </span>
+                </div>
+                <div>
+                 <div>
+                  <span style="font-size:14px">
+                   。建出的图大概是这样。。
+                   <span>
+                    <br/>
+                   </span>
+                  </span>
+                  <br/>
+                 </div>
+                 // s-'&gt;'-9-|-4-oo-4-9-'A'-t
+                 <br/>
+                 <br/>
+                 <br/>
+                 也就是说。。这里用最小割的动机是：
+                 <br/>
+                 。。首先不考虑冲突。取最值。。再用。。
+                 <br/>
+                 <span style="color:rgb(255, 0, 0)">
+                  。。再用最小割表示代价最小的没有冲突的方案。。这个问题中表示方案的是割边。
+                  <br/>
+                  <span>
+                   <br/>
+                   <br/>
+                   ————————————————————————————————————
+                  </span>
+                 </span>
+                 <br/>
+                 <br/>
+                 <a href="https://gist.github.com/lychees/ed83604d832e59fa4474#file-sap-cpp" target="_blank">
+                  https://gist.github.com/lychees/ed83604d832e59fa4474#file-sap-cpp
+                 </a>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <div>
+                  #include &lt;functional&gt;
+                 </div>
+                 <div>
+                  #include &lt;algorithm&gt;
+                 </div>
+                 <div>
+                  #include &lt;iostream&gt;
+                 </div>
+                 <div>
+                  #include &lt;fstream&gt;
+                 </div>
+                 <div>
+                  #include &lt;sstream&gt;
+                 </div>
+                 <div>
+                  #include &lt;iomanip&gt;
+                 </div>
+                 <div>
+                  #include &lt;numeric&gt;
+                 </div>
+                 <div>
+                  #include &lt;cstring&gt;
+                 </div>
+                 <div>
+                  #include &lt;climits&gt;
+                 </div>
+                 <div>
+                  #include &lt;cassert&gt;
+                 </div>
+                 <div>
+                  #include &lt;complex&gt;
+                 </div>
+                 <div>
+                  #include &lt;cstdio&gt;
+                 </div>
+                 <div>
+                  #include &lt;string&gt;
+                 </div>
+                 <div>
+                  #include &lt;vector&gt;
+                 </div>
+                 <div>
+                  #include &lt;bitset&gt;
+                 </div>
+                 <div>
+                  #include &lt;queue&gt;
+                 </div>
+                 <div>
+                  #include &lt;stack&gt;
+                 </div>
+                 <div>
+                  #include &lt;cmath&gt;
+                 </div>
+                 <div>
+                  #include &lt;ctime&gt;
+                 </div>
+                 <div>
+                  #include &lt;list&gt;
+                 </div>
+                 <div>
+                  #include &lt;set&gt;
+                 </div>
+                 <div>
+                  #include &lt;map&gt;
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  using namespace std;
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  #define REP(i, n) for (int i=0;i&lt;n;++i)
+                 </div>
+                 <div>
+                  #define FOR(i, a, b) for (int i=a;i&lt;b;++i)
+                 </div>
+                 <div>
+                  #define REP_2(i, j, n, m) REP(i, n) REP(j, m)
+                 </div>
+                 <div>
+                  #define REP_L(i, hd, suc) for (int i=hd;i;i=suc[i])
+                 </div>
+                 <div>
+                  #define REP_G(i, u) REP_L(i,hd[u],suc)
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  template&lt;class T&gt; inline void RST(T &amp;A){memset(A, 0, sizeof(A));}
+                 </div>
+                 <div>
+                  template&lt;class T&gt; inline void FLC(T &amp;A, int x){memset(A, x, sizeof(A));}
+                 </div>
+                 <div>
+                  template&lt;class T&gt; inline T&amp; checkMin(T &amp;a,const T b){if (b&lt;a) a=b;return a;}
+                 </div>
+                 <div>
+                  template&lt;class T&gt; inline T&amp; checkMax(T &amp;a,const T b){if (a&lt;b) a=b;return a;}
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  const int INF = 0x3f3f3f3f;
+                 </div>
+                 <div>
+                  const int N = 5009, M = 250009;
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  struct Network_Flow{
+                 </div>
+                 <div>
+                  int D[N], hd[N], suc[M], to[M], cap[M];
+                 </div>
+                 <div>
+                  int n, m, s, t;
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  inline void ae(int x, int y, int c){
+                 </div>
+                 <div>
+                  suc[m] = hd[x], hd[x] = m, to[m] = y, cap[m++] = c,
+                 </div>
+                 <div>
+                  suc[m] = hd[y], hd[y] = m, to[m] = x, cap[m++] = 0;
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  inline void aee(int x, int y, int c1, int c2){
+                 </div>
+                 <div>
+                  suc[m] = hd[x], hd[x] = m, to[m] = y, cap[m++] = c1,
+                 </div>
+                 <div>
+                  suc[m] = hd[y], hd[y] = m, to[m] = x, cap[m++] = c2;
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  #define v to[i]
+                 </div>
+                 <div>
+                  #define c cap[i]
+                 </div>
+                 <div>
+                  #define f cap[i^1]
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  int sap(){
+                 </div>
+                 <div>
+                  int z=0; static int cnt[N],cur[N],pre[N];
+                 </div>
+                 <div>
+                  fill(D,D+n,n),fill(cnt,cnt+n,0);cnt[n]=n;
+                 </div>
+                 <div>
+                  int u=s;cur[s]=hd[s];while (D[s]){
+                 </div>
+                 <div>
+                  #define i cur[u]
+                 </div>
+                 <div>
+                  if (u==t){
+                 </div>
+                 <div>
+                  int d=INF;for(u=s;u!=t;u=v)checkMin(d,c);
+                 </div>
+                 <div>
+                  z+=d;for(u=s;u!=t;u=v)f+=d,c-=d;u=s;
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  #undef i
+                 </div>
+                 <div>
+                  int i;for(i=cur[u];i;i=suc[i]){
+                 </div>
+                 <div>
+                  if(D[u]+1==D[v]&amp;&amp;c){cur[u]=i,cur[v]=hd[v],pre[v]=u,u=v;break;}
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  if (!i){
+                 </div>
+                 <div>
+                  if (!--cnt[D[u]])break;
+                 </div>
+                 <div>
+                  D[u]=1;REP_G(i,u)if(c)checkMax(D[u],D[v]);--D[u];
+                 </div>
+                 <div>
+                  ++cnt[D[u]];if(u==s)cur[u]=hd[u];else u=pre[u];
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  return z;
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  #undef v
+                 </div>
+                 <div>
+                  #undef c
+                 </div>
+                 <div>
+                  #undef f
+                 </div>
+                 <div>
+                  void init(int nn){
+                 </div>
+                 <div>
+                  s = 0, t = nn+1, n = t+1;
+                 </div>
+                 <div>
+                  m = 2; fill(hd, hd+n, 0);
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  } G;
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  int n, m;
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  int V(int t, int i, int j){
+                 </div>
+                 <div>
+                  return t*n*m+i*m+j+1;
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  bool inGrid(int i, int j){
+                 </div>
+                 <div>
+                  return (i&gt;=0&amp;&amp;j&gt;=0&amp;&amp;i&lt;n&amp;&amp;j&lt;m);
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  const int dx[] = {-1, 0, 1, 0};
+                 </div>
+                 <div>
+                  const int dy[] = {0, -1, 0, 1};
+                 </div>
+                 <div>
+                  int ord[128];
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  class LaserTowersDiv1 {
+                 </div>
+                 <div>
+                  public:
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  int countMaxEnemies(vector &lt;string&gt; board){
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  FLC(ord, -1); ord['A'] = 0, ord['&lt;'] = 1, ord['V'] = 2, ord['&gt;'] = 3;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  n = board.size(), m = board[0].size();
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  REP_2(i, j, n, m) if (board[i][j] == '.') board[i][j] = '0';
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  G.init(n*m*2); int ini=0; REP_2(i, j, n, m){
+                 </div>
+                 <div>
+                  #define d (ord[board[i][j]])
+                 </div>
+                 <div>
+                  #define dd (board[ii][jj]-'0')
+                 </div>
+                 <div>
+                  if (~d){
+                 </div>
+                 <div>
+                  int mx = 0;
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  for (int ii=i+dx[d],jj=j+dy[d];inGrid(ii, jj);ii+=dx[d],jj+=dy[d]){
+                 </div>
+                 <div>
+                  checkMax(mx, dd);
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  ini += mx;
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  for (int t=d&amp;1,mxx=0,ii=i+dx[d],jj=j+dy[d],lv=t?G.s:G.t;inGrid(ii,jj);ii+=dx[d],jj+=dy[d]){
+                 </div>
+                 <div>
+                  int vv = V(!t,ii,jj);G.ae(t?lv:vv,t?vv:lv,mx-mxx);lv = vv;
+                 </div>
+                 <div>
+                  checkMax(mxx, dd);if (mx==mxx) break;
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  else{
+                 </div>
+                 <div>
+                  G.ae(V(0,i,j),V(1,i,j),INF);
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  }
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  return ini-G.sap();
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  }
+                 </div>
+                 <div>
+                  };
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  /*
+                 </div>
+                 <div>
+                  "&gt;59"
+                 </div>
+                 <div>
+                  "..5"
+                 </div>
+                 <div>
+                  "..A"*/
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  //         |
+                 </div>
+                 <div>
+                  // s-'&gt;'-9-|-4-oo-4-9-'A'-t
+                 </div>
+                 <div>
+                  //         |
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <br/>
+                 <br/>
+                </div>
+                <br/>
+                <br/>
+               </div>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

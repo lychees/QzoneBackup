@@ -1,0 +1,545 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    稠密图上的次小生成树
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             稠密图上的次小生成树
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2013-09-21 15:16:13
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(167)	è¯è®º(1)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1379790973,
+"voteids":0,
+"pubtime":1379790973,
+"replynum":1,
+"category":"个人日记",
+"title":"稠密图上的次小生成树",
+"effect":8389121,
+"effect2":524294,
+"exblogtype":3,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":81177,
+"lp_style":16843520,
+"lp_flag":0,
+"lp_topvalue":0,
+"orguin":251815992,
+"orgblogid":1379790973,
+"mention_uins":[ ],
+"attach":[],"comments":[{"id":1,
+"postTime":1380033732,
+"effect":32,
+"replyNum":1,
+"content":"= =||| 网络赛那个我使用\u003C疯狂的馒头>染色法，轻松就过了... ",
+"capacity":12030,
+"poster":{
+"id":"182035045",
+"platform":1,
+"name":"罗翔宇 ",
+"emoji":[ ]}
+,
+"bmp":"18d415a00000c121",
+"ismyreply":0,
+"replies":[{"poster":{
+"id":"10848584",
+"name":"主席 ",
+"platform":1}
+,
+"content":"@{uin:182035045,nick:罗翔宇,auto:1} 所以那是啥.. ",
+"postTime":1380071799,
+"id":1380071799,
+"effect":0}]}]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <div>
+                <div>
+                 <div>
+                  <a href="http://www.cppblog.com/MatoNo1/archive/2011/05/29/147627.aspx" target="_blank">
+                   http://www.cppblog.com/MatoNo1/archive/2011/05/29/147627.aspx
+                  </a>
+                  <br/>
+                  <a href="http://blog.sina.com.cn/s/blog_6c7729450100wh9x.html" target="_blank" title="http://blog.sina.com.cn/s/blog_6c7729450100wh9x.html">
+                   http://blog.sina.com.cn/s/blog_6c7729450100wh9x.html
+                  </a>
+                  <br/>
+                  <a href="http://www.shuizilong.com/house/archives/hdu-4126-genghis-khan-the-conqueror/" target="_blank">
+                   http://www.shuizilong.com/house/archives/hdu-4126-genghis-khan-the-conqueror/
+                  </a>
+                  <br/>
+                  <br/>
+                  。。 w[x][y] (weight) 表示边权。
+                  <br/>
+                  。。s[x][y] (subsititue) 。。表示。。如果这条边是树边。那么删掉这条边之后用何边去替代时。。最优。。
+                  <br/>
+                  以下算法最后都是要搞出 s[][]。。。
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  算法1. doc - cfy
+                  <br/>
+                  <a href="http://acm.hust.edu.cn/vjudge/problem/viewSource.action?id=1569906" target="_blank">
+                   http://acm.hust.edu.cn/vjudge/problem/viewSource.action?id=1569906
+                  </a>
+                  （2000ms
+                  <br/>
+                  。。。Kruskal 后边已经是排好序的了。。我们继续利用这个排序。。从小到大用非树边松弛树。。
+                  <br/>
+                  。。每次检查一条非树边。。可以暴力消圈。。因为每条边至多被检查一次。。因此复杂度是 O(mlogm + m)。。
+                  <br/>
+                  。复杂度的瓶颈仅仅是对边表的排序。。而这通常都比较快（？）。。
+                  <br/>
+                  <br/>
+                  <br/>
+                  。。。。前年 Fuzhou 赛的时候就只会这个算法。。。结果比赛时因为犹豫 mlogm 没敲。（敲了就早早的混了个金牌了。。。。。。。今天南京网络赛又出了道次小生成树。。我还是只会这个算法。艹。。结果它直接就给你一个欧几里得图。。
+                  <br/>
+                  。。。TLE 成傻逼。。
+                  <span>
+                   。。教训。
+                  </span>
+                  <span>
+                   以后
+                  </span>
+                  <span>
+                   学什么算法一定要把相关的东西全部整理清楚。。。正赛的时候。。
+                  </span>
+                  <br/>
+                  。。像我这种只留一根救命稻草。有时甚至比完全不会还要危险！。。。
+                  <br/>
+                  <br/>
+                  嘛。。其实这题做法非常多。。而且也不是很难嘛。。（主要是算法 1 太过优美。。。使得我认为他可以 handle 所有情况了ww。。）
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  算法2. Hime
+                  <br/>
+                  <a href="http://acm.hust.edu.cn/vjudge/problem/viewSource.action?id=1570056" target="_blank">
+                   http://acm.hust.edu.cn/vjudge/problem/viewSource.action?id=1570056
+                  </a>
+                  （700ms
+                  <span>
+                   <br/>
+                   <span>
+                    。。。Prim 后。。。检查每条非树边 (x, y, w)。。记 lca(x, y) = z。。
+                    <br/>
+                    。。松弛 (z, x, w) 到 (z, y, w)。。和前面不同。。这次我们设
+                   </span>
+                  </span>
+                  <span>
+                   s_up[u][lv] 表示。
+                  </span>
+                  <span>
+                   用这个权值。沿着
+                  </span>
+                  <span>
+                   u
+                  </span>
+                  <span>
+                   向上还可以推几条边。。。
+                   <br/>
+                   <span>
+                    。。。然后就是一个很经典的离线思路。。。枚举的时候先做记号。。。。最后一遍 gao()。。。全部搞出来。。。
+                   </span>
+                  </span>
+                 </div>
+                 <div>
+                  <span>
+                   <span>
+                    <br/>
+                   </span>
+                  </span>
+                  <span>
+                   <br/>
+                   <br/>
+                   算法3. Hlword
+                  </span>
+                  <span>
+                   <span>
+                    <br/>
+                   </span>
+                  </span>
+                  <a href="http://acm.hust.edu.cn/vjudge/problem/viewSource.action?id=1570145" target="_blank">
+                   http://acm.hust.edu.cn/vjudge/problem/viewSource.action?id=1570145
+                  </a>
+                  （900ms
+                  <br/>
+                  <br/>
+                  <span>
+                   让我们来观察一条树边 (u, v) ... （上 u 下 v
+                  </span>
+                  <br/>
+                  <br/>
+                  <span>
+                  </span>
+                  <div style="text-align:center">
+                   <img alt="图片" src="http://a1.qpic.cn/psb?/a7723d22-15e1-452d-817f-ed63333f3d7d/SxJ7vx4zHdKtt3K3BbzYPM6UKxnFMlFOO1qx4bwpG8A!/b/dMvkhqRACgAA&amp;ek=1&amp;kp=1&amp;pt=0&amp;bo=ZgCcAAAAAAADAN8!&amp;tl=1&amp;su=0220781697&amp;tm=1584576000&amp;sce=0-12-12&amp;rf=2-9" style="width:102px;height:156px"/>
+                  </div>
+                 </div>
+                 <br/>
+                 <br/>
+                 <span>
+                  。。一条
+                 </span>
+                 <span>
+                  非树边要想松弛 TA 的话。。
+                  <br/>
+                  <br/>
+                  。。1.  要么
+                 </span>
+                 <span>
+                  是一端在 v 的子树中
+                 </span>
+                 <span>
+                  。。另一端在 u 的子树之外。。。
+                  <br/>
+                  。。2.  要么是一端在 v 的子树中。。另一端在 u 的子树之中。。（但不在 v 子树之中）。。
+                  <br/>
+                 </span>
+                 <span>
+                  。看起来似乎不是太好弄ww。。 如果判断的情况少一点就好了。。。
+                  <br/>
+                  <span>
+                   <br/>
+                  </span>
+                 </span>
+                 <span>
+                  <br/>
+                  <span>
+                   <span>
+                    。。。于是我们可以两次 dfs ！。。。第一次暴力枚举根。。。  搞出 _s[r][u] 表示以 r 为根时。。u 的子树里最优的边权。。
+                    <br/>
+                    。。第二次回到原树。。。开一个栈。。在搜到 (p, u) 边时。。暴力检查 u 的子树中所有结点 v。。用 _s[v][p] 来更新 s[u][p]。！。。
+                    <br/>
+                   </span>
+                  </span>
+                 </span>
+                 <span>
+                  。。。这个搞法
+                 </span>
+                 <span>
+                  不需要排序。。
+                 </span>
+                 <span>
+                  不需要 LCA 。。
+                 </span>
+                 <span>
+                 </span>
+                 <span>
+                  非常具有可写性ww。。
+                 </span>
+                 <span>
+                  <span>
+                   <span>
+                    <br/>
+                   </span>
+                  </span>
+                 </span>
+                </div>
+                <div>
+                 <span>
+                  <span>
+                   <span>
+                    <br/>
+                   </span>
+                  </span>
+                 </span>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <a href="http://www.shuizilong.com/house/archives/hdu-4756-install-air-conditioning/" target="_blank">
+                  http://www.shuizilong.com/house/archives/hdu-4756-install-air-conditioning/
+                 </a>
+                 <br/>
+                 <br/>
+                 <br/>
+                </div>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+               </div>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

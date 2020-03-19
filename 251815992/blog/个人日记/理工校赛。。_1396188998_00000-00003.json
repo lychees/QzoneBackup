@@ -1,0 +1,79 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1396190590,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "貌似今天坐在你的后面！酱油了四个小时呀！ ",
+                "capacity": 12126,
+                "poster": {
+                    "id": "578716673",
+                    "platform": 1,
+                    "name": "一直在努力 ",
+                    "emoji": []
+                },
+                "bmp": "18d09d0401028001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1396191473,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "哈工大的题几乎每题都有你←_← ",
+                "capacity": 12143,
+                "poster": {
+                    "id": "342660880",
+                    "platform": 1,
+                    "name": "梦 ",
+                    "emoji": []
+                },
+                "bmp": "38949d880100d021",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1396192475,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "srO 岛 ",
+                "capacity": 12168,
+                "poster": {
+                    "id": "1483335912",
+                    "platform": 1,
+                    "name": "[NEFU]cyendra ",
+                    "emoji": []
+                },
+                "bmp": "08c095800200c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1396227312,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "太弱了 ",
+                "capacity": 12160,
+                "poster": {
+                    "id": "911574351",
+                    "platform": 1,
+                    "name": "Yuko丶柚子 ",
+                    "emoji": []
+                },
+                "bmp": "184495800410c821",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

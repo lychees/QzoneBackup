@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1431797266,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "谁的语录？ ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "397427019",
+                    "platform": 1,
+                    "name": " ",
+                    "emoji": []
+                },
+                "bmp": "18809da40102c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

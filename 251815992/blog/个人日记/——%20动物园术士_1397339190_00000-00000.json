@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1397475098,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "请允许我叫你一声：战术大湿~ ",
+                "capacity": 12141,
+                "poster": {
+                    "id": "601598644",
+                    "platform": 1,
+                    "name": "金天 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00002c109",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

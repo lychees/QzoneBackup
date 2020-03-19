@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1419789000,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "然后换ip6? ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "418615910",
+                    "platform": 1,
+                    "name": "特种兵3-郭泽晖 ",
+                    "emoji": []
+                },
+                "bmp": "18c49d8800009401",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

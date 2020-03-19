@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1491103564,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "买个路由器再加个硬盘，time machine走起 ",
+                "capacity": 12128,
+                "poster": {
+                    "id": "3105179337",
+                    "platform": 1,
+                    "name": "一只辣鸡 ",
+                    "emoji": []
+                },
+                "bmp": "08009d8002006201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

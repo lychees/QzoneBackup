@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1386820036,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "那明年夏天来bnu training虐场吧~ ",
+                "capacity": 12139,
+                "poster": {
+                    "id": "371686865",
+                    "platform": 1,
+                    "name": "芳姐 ",
+                    "emoji": []
+                },
+                "bmp": "18c09da00002d001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

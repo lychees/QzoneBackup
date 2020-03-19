@@ -1,0 +1,74 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1500601181,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "把户口弄到上海，岂不美哉？ ",
+                "capacity": 12033,
+                "poster": {
+                    "id": "751723392",
+                    "platform": 1,
+                    "name": "wwwwodddd ",
+                    "emoji": []
+                },
+                "bmp": "18c095a80000c001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:751723392,nick:wwwwodddd,who:1,auto:1}工作年限不够啊。。。 ",
+                        "postTime": 1500601714,
+                        "id": 1500601714,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1500608313,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "为啥不人肉自取 ",
+                "capacity": 12154,
+                "poster": {
+                    "id": "122155302",
+                    "platform": 1,
+                    "name": "木子日匀 ",
+                    "emoji": []
+                },
+                "bmp": "38d40da00102c209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1500628230,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "所以为什么不提前申 ",
+                "capacity": 12156,
+                "poster": {
+                    "id": "529325188",
+                    "platform": 1,
+                    "name": "nike0good ",
+                    "emoji": []
+                },
+                "bmp": "085495e0000cc009",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

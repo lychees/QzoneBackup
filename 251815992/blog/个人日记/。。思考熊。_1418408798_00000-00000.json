@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1418437573,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "第三杯只要1/4 ",
+                "capacity": 12149,
+                "poster": {
+                    "id": "976366091",
+                    "platform": 1,
+                    "name": "Alstroemeria Alice ",
+                    "emoji": []
+                },
+                "bmp": "1884d58100004101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

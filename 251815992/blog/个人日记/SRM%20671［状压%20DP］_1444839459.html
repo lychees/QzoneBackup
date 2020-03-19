@@ -1,0 +1,1080 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    SRM 671［状压 DP］
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             SRM 671［状压 DP］
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2015-10-14 12:17:39
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(150)	è¯è®º(0)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1444839459,
+"voteids":0,
+"pubtime":1444839459,
+"replynum":0,
+"category":"个人日记",
+"title":"SRM 671［状压 DP］",
+"effect":8454657,
+"effect2":524294,
+"exblogtype":3,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":81177,
+"lp_style":16843520,
+"lp_flag":0,
+"lp_topvalue":0,
+"orguin":251815992,
+"orgblogid":1444839459,
+"mention_uins":[ ],
+"attach":[],"comments":[]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <div>
+                <div>
+                 <div>
+                  <img alt="图片" src="http://r.photo.store.qq.com/psb?/a7723d22-15e1-452d-817f-ed63333f3d7d/YJ9HYmmuHWc8K7DtbNqZnCfTWmO6cU3Dhrd6Dw*SEyQ!/o/dEqQT26kPQAA&amp;ek=1&amp;kp=1&amp;pt=0&amp;bo=OAMcATgDHAEDACU!&amp;tl=1&amp;su=0214125745&amp;tm=1584568800&amp;sce=0-12-12&amp;rf=2-9" style="width:824px;height:284px"/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  。。。你们都好拼啊。。。。
+                  <br/>
+                  <span>
+                   <br/>
+                   <br/>
+                   <span>
+                    <br/>
+                    250:
+                    <br/>
+                    DP
+                    <br/>
+                    <br/>
+                    500:
+                    <br/>
+                    折半 + map 大法
+                    <br/>
+                    <br/>
+                    900:
+                    <br/>
+                    SCDP？？？
+                    <br/>
+                    <br/>
+                    给定 n*m 的矩阵，每个格子有 E 或 S。。。
+                    <br/>
+                    <span>
+                     对于一个矩阵。。有一个计分方案。。按照行优先的规则扫描每个格子，
+                    </span>
+                   </span>
+                  </span>
+                  <span>
+                   如果这个格子之前被骨牌占据，则 skip。
+                   <br/>
+                   否则
+                  </span>
+                  <span>
+                   尝试放多米诺骨牌。
+                  </span>
+                  <span>
+                   如果放骨牌的方向在矩阵外或被其他骨牌占据，则放置失败，切换另一种方案或 skip。
+                  </span>
+                 </div>
+                 <div>
+                  <span>
+                   <span>
+                    <span>
+                     如果是 E 则优先放一个 1*2 的骨牌，
+                     <br/>
+                     如果是 S 则优先放一个 2*1 的骨牌。
+                     <span>
+                      <br/>
+                      一个矩阵的得分为最后放的骨牌数。
+                      <br/>
+                      问所有 2^(n*m) 种矩阵的得分的和。
+                     </span>
+                    </span>
+                   </span>
+                  </span>
+                  <br/>
+                  <br/>
+                  <br/>
+                 </div>
+                 ————
+                 <br/>
+                 状态记录骨牌数？
+                 <br/>
+                 。。不需要，记录方案数即可。。无论每种状态有多少枚骨牌，放一枚多米块的得分都是相同的。
+                 <br/>
+                 W 太大，刚好开不下 SCDP 需要的空间？
+                 <br/>
+                 按对角线 DP。。轮廓线记录 H+1 维。。之后从上往下。
+                 <br/>
+                 第 i 位，表示上一行状态是否 counter 到这一格。
+                </div>
+                <div>
+                 第 i+1 位，表示上一对角线是否 counter 到这一格。
+                 <br/>
+                 <br/>
+                 <span>
+                 </span>
+                 <span>
+                  //}/* .................................................................................................................................. */
+                 </span>
+                </div>
+                <p>
+                 <span>
+                 </span>
+                 <br/>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <br/>
+                </p>
+                <p>
+                 <span>
+                  const
+                 </span>
+                 <span>
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  N =
+                 </span>
+                 <span>
+                  14
+                 </span>
+                 <span>
+                  ;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <br/>
+                </p>
+                <p>
+                 <span>
+                  PII f[
+                 </span>
+                 <span>
+                  2
+                 </span>
+                 <span>
+                  ][
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  &lt;&lt;N];
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  src, des;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  // ways, score
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <br/>
+                </p>
+                <p>
+                 <span>
+                  PII u;
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  s, ss, i, j, W, H;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <br/>
+                </p>
+                <p>
+                 <span>
+                  void
+                 </span>
+                 <span>
+                  skip(){
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  PII&amp; v = f[des][s];
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  INC(v.fi, u.fi);
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  INC(v.se, u.se);
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  void
+                 </span>
+                 <span>
+                  put(){
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  PII&amp; v = f[des][ss];
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  INC(v.fi, u.fi);
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  INC(v.se, sum(u.fi ,u.se));
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <br/>
+                </p>
+                <p>
+                 <span>
+                  bool
+                 </span>
+                 <span>
+                  tryPutDown(){
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  if
+                 </span>
+                 <span>
+                  (i == H-
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  )
+                 </span>
+                 <span>
+                  return
+                 </span>
+                 <span>
+                 </span>
+                 <span>
+                  false
+                 </span>
+                 <span>
+                  ;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  ss = s ^ _1(i+
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  ); put();
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  return
+                 </span>
+                 <span>
+                 </span>
+                 <span>
+                  true
+                 </span>
+                 <span>
+                  ;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <br/>
+                </p>
+                <p>
+                 <span>
+                  bool
+                 </span>
+                 <span>
+                  tryPutRight(){
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  if
+                 </span>
+                 <span>
+                  (j == W-
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  || _1(s, i))
+                 </span>
+                 <span>
+                  return
+                 </span>
+                 <span>
+                 </span>
+                 <span>
+                  false
+                 </span>
+                 <span>
+                  ;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  ss = s ^ _1(i); put();
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  return
+                 </span>
+                 <span>
+                 </span>
+                 <span>
+                  true
+                 </span>
+                 <span>
+                  ;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <br/>
+                </p>
+                <p>
+                 <span>
+                  class
+                 </span>
+                 <span>
+                  BearDestroys {
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  public
+                 </span>
+                 <span>
+                  :
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  sumUp(
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  W,
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  H,
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  MOD) {
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  ::W = W, ::H = H; ::MOD = MOD;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  src =
+                 </span>
+                 <span>
+                  0
+                 </span>
+                 <span>
+                  , des =
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  ; RST(f[des]); f[des][
+                 </span>
+                 <span>
+                  0
+                 </span>
+                 <span>
+                  ] = MP(
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  0
+                 </span>
+                 <span>
+                  );
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  REP(di, W+H-
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  ){
+                 </span>
+                 <span>
+                  //
+                 </span>
+                 <span>
+                  对角线
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  ia = max(
+                 </span>
+                 <span>
+                  0
+                 </span>
+                 <span>
+                  , di-W+
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  ), ib = min(H, di+
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  );
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  FOR_N(i, ia, ib){
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  j = di-i; swap(src, des); RST(f[des]);
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  REP_N(s,
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  &lt;&lt;(H+
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  ))
+                 </span>
+                 <span>
+                  if
+                 </span>
+                 <span>
+                  (f[src][s] != MP(
+                 </span>
+                 <span>
+                  0
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  0
+                 </span>
+                 <span>
+                  )){
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  u = f[src][s];
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  // Coverd
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  if
+                 </span>
+                 <span>
+                  (_1(s, i+
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  )){
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  s ^= _1(i+
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  );
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  DO(
+                 </span>
+                 <span>
+                  2
+                 </span>
+                 <span>
+                  ) skip();
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  s ^= _1(i+
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  );
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  else
+                 </span>
+                 <span>
+                  {
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  if
+                 </span>
+                 <span>
+                  (!tryPutRight())
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  if
+                 </span>
+                 <span>
+                  (!tryPutDown()) skip();
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  if
+                 </span>
+                 <span>
+                  (!tryPutDown())
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  if
+                 </span>
+                 <span>
+                  (!tryPutRight()) skip();
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  swap(src, des); RST(f[des]);
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  REP_N(s,
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  &lt;&lt;H)
+                 </span>
+                 <span>
+                  if
+                 </span>
+                 <span>
+                  (f[src][s] != MP(
+                 </span>
+                 <span>
+                  0
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  0
+                 </span>
+                 <span>
+                  )){
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  f[des][s&lt;&lt;
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  ] = f[src][s];
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  return
+                 </span>
+                 <span>
+                  f[des][
+                 </span>
+                 <span>
+                  0
+                 </span>
+                 <span>
+                  ].se;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  };
+                 </span>
+                </p>
+                <br/>
+                <br/>
+               </div>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

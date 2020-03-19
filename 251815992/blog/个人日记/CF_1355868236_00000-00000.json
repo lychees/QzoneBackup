@@ -1,0 +1,51 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1355943264,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "能不能别坑我们安大的希望了？ ",
+                "capacity": 12055,
+                "poster": {
+                    "id": "276500942",
+                    "platform": 1,
+                    "name": "酒仙 ",
+                    "emoji": []
+                },
+                "bmp": "b8c1dda00102e229",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "安大因你更精彩。 ",
+                        "postTime": 1355954891,
+                        "id": 1355954891,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "276500942",
+                            "name": "酒仙 ",
+                            "platform": 1
+                        },
+                        "content": "你妹。 ",
+                        "postTime": 1355957413,
+                        "id": 1355957413,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

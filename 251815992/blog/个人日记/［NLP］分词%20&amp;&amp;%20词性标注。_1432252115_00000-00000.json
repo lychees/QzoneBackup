@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1432254333,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "how-old.net ",
+                "capacity": 12159,
+                "poster": {
+                    "id": "393382242",
+                    "platform": 1,
+                    "name": "椰蓉菠萝包 ",
+                    "emoji": []
+                },
+                "bmp": "18d19d840002e221",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1270856486,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[ft=,,]我知道那个人是谁！！[/ft]\n[ft=,,]精神亢奋中...[/ft]\n[ft=,,]什么跟什么呢？[/ft]\n[ft=,,]有人问我：[/ft]\n[ft=,,]小岛和吴零（另一个沙茶）那一个好呢？[/ft]\n[ft=,,]...[/ft] ",
+                "capacity": 11969,
+                "poster": {
+                    "id": "1303552653",
+                    "platform": 1,
+                    "name": "赫敏·格兰杰 ",
+                    "emoji": []
+                },
+                "bmp": "18909da00608c209",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "... ",
+                        "postTime": 1271051594,
+                        "id": 1271051594,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

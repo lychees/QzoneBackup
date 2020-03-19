@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1418908087,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "看到爽爷了 ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "610759089",
+                    "platform": 1,
+                    "name": "晴天小猪 ",
+                    "emoji": []
+                },
+                "bmp": "185085a00002c428",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1419179947,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "完善贪吃蛇吧 ",
+                "capacity": 12155,
+                "poster": {
+                    "id": "605718199",
+                    "platform": 1,
+                    "name": "BIGBALLON ",
+                    "emoji": []
+                },
+                "bmp": "98449da40902e021",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1479107293,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "沙发 ",
+                "capacity": 12166,
+                "poster": {
+                    "id": "41785691",
+                    "platform": 1,
+                    "name": "iceboy ",
+                    "emoji": []
+                },
+                "bmp": "08c13d800002c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1479111538,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "[em]e248[/em] ",
+                "capacity": 12156,
+                "poster": {
+                    "id": "1025787355",
+                    "platform": 1,
+                    "name": "呼啦呼啦 ",
+                    "emoji": []
+                },
+                "bmp": "18409da00902c121",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

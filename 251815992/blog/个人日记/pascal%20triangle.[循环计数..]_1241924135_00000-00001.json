@@ -1,0 +1,57 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1242106455,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,][B]- -好像有个地方不太对劲..[/B][/ft]\n[B][ft=,2,]回头我yao修改一下xia ...[/ft][/B] ",
+                "capacity": 12082,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1242463042,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[ft=,2,]我看着看着..发觉自己的脑袋不对劲了..[/ft] ",
+                "capacity": 12092,
+                "poster": {
+                    "id": "315593370",
+                    "platform": 1,
+                    "name": "大魔导师会让你挂科 ",
+                    "emoji": []
+                },
+                "bmp": "18c09da04000c001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "- -~ ",
+                        "postTime": 1244093938,
+                        "id": 1244093938,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

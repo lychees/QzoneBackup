@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1411902549,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "这个题好像题目与题意完全无关… ",
+                "capacity": 12122,
+                "poster": {
+                    "id": "499678267",
+                    "platform": 1,
+                    "name": "向鹏达 ",
+                    "emoji": []
+                },
+                "bmp": "18d48da00040e201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1411906825,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "没暴力快？吓傻了 ",
+                "capacity": 12152,
+                "poster": {
+                    "id": "892431401",
+                    "platform": 1,
+                    "name": "ydc ",
+                    "emoji": []
+                },
+                "bmp": "18c08d840002c201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1411945096,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "为何不用O(Q(logn)^3)的方法? ",
+                "capacity": 12144,
+                "poster": {
+                    "id": "420836131",
+                    "platform": 1,
+                    "name": "doc ",
+                    "emoji": []
+                },
+                "bmp": "18d025a00000e101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

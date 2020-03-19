@@ -1,0 +1,40 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1288668358,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "工数期中习题答案你都敢说出来 不怕有人抢啊- - ",
+                "capacity": 12095,
+                "poster": {
+                    "id": "401551816",
+                    "platform": 1,
+                    "name": "鹅喵大魔王 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a400008221",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "已經。。。。 ",
+                        "postTime": 1288668979,
+                        "id": 1288668979,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

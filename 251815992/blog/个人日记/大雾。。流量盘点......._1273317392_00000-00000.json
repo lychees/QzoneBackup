@@ -1,0 +1,40 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1273318856,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "明天也是母亲节 ",
+                "capacity": 12103,
+                "poster": {
+                    "id": "476058914",
+                    "platform": 1,
+                    "name": " ",
+                    "emoji": []
+                },
+                "bmp": "18f4052001029020",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "多麦牌花生油，妈妈都说好。。。 ",
+                        "postTime": 1273319144,
+                        "id": 1273319144,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

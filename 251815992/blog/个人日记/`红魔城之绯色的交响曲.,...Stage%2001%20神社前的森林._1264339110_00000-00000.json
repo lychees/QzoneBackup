@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1264358005,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "我也是月下迷……………真-真空刃…………嘿！ ",
+                "capacity": 12121,
+                "poster": {
+                    "id": "232903398",
+                    "platform": 1,
+                    "name": "大萝卜 ",
+                    "emoji": []
+                },
+                "bmp": "18d1952001001028",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

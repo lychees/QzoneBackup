@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1408466974,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "……你都java了 ",
+                "capacity": 12155,
+                "poster": {
+                    "id": "751723392",
+                    "platform": 1,
+                    "name": "wwwwodddd ",
+                    "emoji": []
+                },
+                "bmp": "18c095a80000c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1408525107,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "代码看起来非常规范的样子 ",
+                "capacity": 12145,
+                "poster": {
+                    "id": "774367334",
+                    "platform": 1,
+                    "name": "zjut_DD ",
+                    "emoji": []
+                },
+                "bmp": "18c09da00080c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

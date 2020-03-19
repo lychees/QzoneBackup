@@ -1,0 +1,40 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1268653307,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[em]e141[/em]小虎你电脑怎么了？哪坏了需要修？ ",
+                "capacity": 12076,
+                "poster": {
+                    "id": "414211691",
+                    "platform": 1,
+                    "name": "红豆熬的汤 ",
+                    "emoji": []
+                },
+                "bmp": "184015a00140d421",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "...我自己的电脑到是好的啊- ",
+                        "postTime": 1268665548,
+                        "id": 1268665548,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

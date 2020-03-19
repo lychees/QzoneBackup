@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1401025664,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "两天的火车一做 ",
+                "capacity": 12154,
+                "poster": {
+                    "id": "122155302",
+                    "platform": 1,
+                    "name": "木子日匀 ",
+                    "emoji": []
+                },
+                "bmp": "38d40da00102c209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1401075224,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]两天的火车一做 [/ft] ",
+                "capacity": 12141,
+                "poster": {
+                    "id": "328092571",
+                    "platform": 1,
+                    "name": "[BUPT]LXYXYNT ",
+                    "emoji": []
+                },
+                "bmp": "18c0d5a00080c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

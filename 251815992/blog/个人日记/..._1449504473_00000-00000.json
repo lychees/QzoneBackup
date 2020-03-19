@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1449568475,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "路线全靠你了～ ",
+                "capacity": 12154,
+                "poster": {
+                    "id": "419172261",
+                    "platform": 1,
+                    "name": "雪鸦 ",
+                    "emoji": []
+                },
+                "bmp": "98809da04000d409",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

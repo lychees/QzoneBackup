@@ -1,0 +1,74 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1270352974,
+                "effect": 1048576,
+                "replyNum": 0,
+                "content": "分尸啊。。。唉  分尸总是有目的的 ",
+                "capacity": 12138,
+                "poster": {
+                    "id": "443164766",
+                    "platform": 1,
+                    "name": "\"zrp\" ",
+                    "emoji": []
+                },
+                "bmp": "088094a10000c301",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1270388585,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[ft=,2,]难道你不相信我能考上重点大学吗？我希望这是一种打击，也是一种激励！！！化挫折为动力吧！[/ft] ",
+                "capacity": 12017,
+                "poster": {
+                    "id": "876760789",
+                    "platform": 1,
+                    "name": "Jack ",
+                    "emoji": []
+                },
+                "bmp": "18d495ac0102c201",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "哎呀，我不是那个意思啦- -...# \n ",
+                        "postTime": 1270390836,
+                        "id": 1270390836,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1271505624,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]好长啊，好多字，伤感ing[/ft] ",
+                "capacity": 12132,
+                "poster": {
+                    "id": "390478240",
+                    "platform": 1,
+                    "name": "我决定换个昵称= = ",
+                    "emoji": []
+                },
+                "bmp": "18019c0000000001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1400057265,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "我啊我啊！ ",
+                "capacity": 12156,
+                "poster": {
+                    "id": "276500942",
+                    "platform": 1,
+                    "name": "酒仙 ",
+                    "emoji": []
+                },
+                "bmp": "b8c1dda00102e229",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1400059727,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "摸摸头加油 ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "562610498",
+                    "platform": 1,
+                    "name": "御坂拓海 ",
+                    "emoji": []
+                },
+                "bmp": "98d495a00908e001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1400063216,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "摸摸头 加油！ ",
+                "capacity": 12160,
+                "poster": {
+                    "id": "398422953",
+                    "platform": 1,
+                    "name": "梅露露 ",
+                    "emoji": []
+                },
+                "bmp": "98d015a000408421",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

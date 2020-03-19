@@ -1,0 +1,57 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1187706434,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "[em]e5[/em] 凑字 绝对是凑字！ ",
+                "capacity": 12135,
+                "poster": {
+                    "id": "307420773",
+                    "platform": 1,
+                    "name": "无关路人甲 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a40000c009",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1246150700,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[ft=,2,]hefan吧  我ailiuxi     好久没见你 还打cs么？  Bwin 绝对是你一个人生经历，起码在你网络世界里 它算你精彩的一笔， 大家打比赛，大家一起训练，大家一起打野战，在vs驰骋的日子。大家永远不会忘记Bwin这个队伍，是大家一手一手建立起来了的！ 祝你在以后的日子里开心快乐！[/ft] ",
+                "capacity": 11827,
+                "poster": {
+                    "id": "494127689",
+                    "platform": 1,
+                    "name": "北京地接 ",
+                    "emoji": []
+                },
+                "bmp": "18c19da200008101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "- -....队长您认错人de啦....\n人家是lychees呀...囧 ",
+                        "postTime": 1246373367,
+                        "id": 1246373367,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

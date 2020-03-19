@@ -1,0 +1,849 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    小笼包【状态压缩 DP】
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             小笼包【状态压缩 DP】
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2014-11-24 03:17:49
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(54)	è¯è®º(1)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1416817069,
+"voteids":0,
+"pubtime":1416817069,
+"replynum":1,
+"category":"个人日记",
+"title":"小笼包【状态压缩 DP】",
+"effect":8389120,
+"effect2":524294,
+"exblogtype":3,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":81177,
+"lp_style":16843520,
+"lp_flag":0,
+"lp_topvalue":0,
+"orguin":251815992,
+"orgblogid":1416817069,
+"mention_uins":[ ],
+"attach":[],"comments":[{"id":1,
+"postTime":1416817294,
+"effect":1024,
+"replyNum":0,
+"content":"流口水…这是在报社（ ",
+"capacity":12148,
+"poster":{
+"id":"446079414",
+"platform":1,
+"name":"旺仔嚎婆婆 ",
+"emoji":[ ]}
+,
+"bmp":"38449da00000c201",
+"ismyreply":0,
+"replies":[]}]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <div>
+                <a href="http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0597" target="_blank">
+                 http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0597
+                </a>
+                <br/>
+                <a href="http://www.ioi-jp.org/joi/2013/2014-yo/" target="_blank">
+                 http://www.ioi-jp.org/joi/2013/2014-yo/
+                </a>
+                <br/>
+                <br/>
+                <br/>
+                <span style="color:rgb(25, 25, 25);font-family:arial;font-size:16px">
+                 JOI 君はお昼ごはんに，中華料理屋で小籠包を食べることにした．
+                 <br/>
+                 小籠包とは，具と熱いスープを小麦粉の皮で包んだ料理であり，
+                 <br/>
+                 食べるときにスープが周囲に飛び散ることで知られている．
+                 <br/>
+                 <span>
+                  <br/>
+                 </span>
+                </span>
+                <span style="color:rgb(25, 25, 25);font-family:arial;font-size:16.363636016845703px">
+                 スープ：Soup，
+                </span>
+                <span style="color:rgb(25, 25, 25);font-family:arial;font-size:16px">
+                 <span>
+                  汤汁
+                  <br/>
+                  <span>
+                   <br/>
+                  </span>
+                 </span>
+                </span>
+                <span style="color:rgb(25, 25, 25);font-family:arial;font-size:16px">
+                 JOI 君が注文した小籠包のセットは，具やスープの異なる N 個の小籠包からなる．
+                 <br/>
+                 N 個の小籠包は等間隔に一列に並んでおり，順番に 1 から N の番号がつけられている． i 番目の小籠包と j 番目の小籠包の間の距離は絶対値 |i - j| である．
+                </span>
+                <span style="color:rgb(25, 25, 25);font-family:arial;font-size:16px">
+                 <span>
+                  <span>
+                   <br/>
+                   <span>
+                    <br/>
+                    <br/>
+                    N 个小笼包，等间距分布，第 i 个与第 j 个的距离为 |i-j|。
+                    <br/>
+                    <br/>
+                    <br/>
+                   </span>
+                  </span>
+                 </span>
+                </span>
+                <span style="color:rgb(25, 25, 25);font-family:arial;font-size:16px">
+                 JOI 君は小籠包をある順番で食べていく． 最初，すべての小籠包のおいしさは 0 である． i 番目の小籠包を食べると，周囲にその汁が飛び散り，まだ食べられていない小籠包のうち，小籠包 i からの距離が D
+                </span>
+                <span style="margin:0px;padding:0px;border:0px;outline:0px;font-size:0.8em;vertical-align:baseline;position:relative;top:0.4em;color:rgb(25, 25, 25);font-family:arial">
+                 i
+                </span>
+                <span style="color:rgb(25, 25, 25);font-family:arial;font-size:16px">
+                 以下の小籠包に汁がかかる．汁がかかった小籠包はおいしさが A
+                </span>
+                <span style="margin:0px;padding:0px;border:0px;outline:0px;font-size:0.8em;vertical-align:baseline;position:relative;top:0.4em;color:rgb(25, 25, 25);font-family:arial">
+                 i
+                </span>
+                <span style="color:rgb(25, 25, 25);font-family:arial;font-size:16px">
+                 増える．すなわち， i 番目の小籠包を食べたときに， j 番目の小籠包 (1 ≤ j ≤ N かつ i - D
+                </span>
+                <span style="margin:0px;padding:0px;border:0px;outline:0px;font-size:0.8em;vertical-align:baseline;position:relative;top:0.4em;color:rgb(25, 25, 25);font-family:arial">
+                 i
+                </span>
+                <span style="color:rgb(25, 25, 25);font-family:arial;font-size:16px">
+                 ≤ j ≤ i + D
+                </span>
+                <span style="margin:0px;padding:0px;border:0px;outline:0px;font-size:0.8em;vertical-align:baseline;position:relative;top:0.4em;color:rgb(25, 25, 25);font-family:arial">
+                 i
+                </span>
+                <span style="color:rgb(25, 25, 25);font-family:arial;font-size:16px">
+                 ) がまだ食べられずに残っているならば， j 番目の小籠包のおいしさが A
+                </span>
+                <span style="margin:0px;padding:0px;border:0px;outline:0px;font-size:0.8em;vertical-align:baseline;position:relative;top:0.4em;color:rgb(25, 25, 25);font-family:arial">
+                 i
+                </span>
+                <span style="color:rgb(25, 25, 25);font-family:arial;font-size:16px">
+                 増える．
+                </span>
+                <br/>
+                <span style="color:rgb(25, 25, 25);font-family:arial;font-size:16px">
+                </span>
+                <br/>
+                <br/>
+                ある順番，certain order，某种顺序
+                <br/>
+                <span style="color:rgb(25, 25, 25);font-family:arial;font-size:16.363636016845703px">
+                 おいしさ，
+                </span>
+                <span style="color:rgb(25, 25, 25);font-family:arial;font-size:16.363636016845703px">
+                 Palatability，美味值。
+                </span>
+                <br/>
+                <span style="color:rgb(25, 25, 25);font-family:arial;font-size:16.363636016845703px">
+                 まだ食べられていない，
+                </span>
+                <span style="color:rgb(25, 25, 25);font-family:arial;font-size:16.363636016845703px">
+                 have not eaten yet
+                 <br/>
+                 <span>
+                  <br/>
+                  <br/>
+                  每吃一个小笼包，与其距离在 Di 以内的小笼包的
+                 </span>
+                </span>
+                <span style="color:rgb(25, 25, 25);font-family:arial;font-size:16.363636016845703px">
+                 おいしさ 都将会
+                </span>
+                <span style="color:rgb(25, 25, 25);font-family:arial;font-size:16px">
+                 A
+                </span>
+                <span style="margin:0px;padding:0px;border:0px;outline:0px;font-size:0.8em;vertical-align:baseline;position:relative;top:0.4em;color:rgb(25, 25, 25);font-family:arial">
+                 i
+                </span>
+                <span style="color:rgb(25, 25, 25);font-family:arial;font-size:16px">
+                 増える！
+                 <br/>
+                 <span>
+                  <br/>
+                 </span>
+                </span>
+                <span style="color:rgb(25, 25, 25);font-family:arial;font-size:16px">
+                 JOI 君は，食べる順番を工夫することで，食べる小籠包のおいしさの合計を最大化したい． もっとも良い順番で食べたときの，JOI 君が食べる小籠包のおいしさの合計を求めるプログラムを作成せよ．
+                 <br/>
+                 <span>
+                  <br/>
+                  <br/>
+                  求一个吃的顺序，
+                 </span>
+                </span>
+                <span style="color:rgb(25, 25, 25);font-family:arial;font-size:16px">
+                 <span>
+                  最大化总的
+                 </span>
+                </span>
+                <span style="color:rgb(25, 25, 25);font-family:arial;font-size:16.363636016845703px">
+                 おいしさ ！
+                </span>
+                <span style="color:rgb(25, 25, 25);font-family:arial;font-size:16.363636016845703px">
+                 <span>
+                  <br/>
+                  <br/>
+                 </span>
+                </span>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                暴力：
+                <br/>
+                <br/>
+                枚举排列。。。暴力
+                <br/>
+                O(n! n^2)。。。
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <p style="margin-left:30px;margin-right:30px;font-family:Simsun;font-size:large;font-weight:bold">
+                </p>
+                <div style="text-align:left">
+                 <p style="margin-left:30px;margin-right:30px;font-family:Simsun;font-size:large;font-weight:bold">
+                  満点解法
+                 </p>
+                 <p style="margin-left:30px;margin-right:30px;font-family:Simsun;font-size:medium">
+                  <br/>
+                  <br/>
+                  D
+                  <sub>
+                   1
+                  </sub>
+                  , ... , D
+                  <sub>
+                   N
+                  </sub>
+                  の最大値を DMAX とすると，上の解法で， |i - j| ≦ DMAX となる (i, j) の組のみについて調べればよいことになる．すなわち， p
+                  <sub>
+                   i
+                  </sub>
+                  と p
+                  <sub>
+                   j
+                  </sub>
+                  の大小関係が問題になるのは， |i - j| ≦ DMAX のときのみである．
+                  <br/>
+                  <span>
+                   <br/>
+                  </span>
+                  すなわち：That is。。。
+                  <br/>
+                  p
+                  <sub>
+                   i
+                  </sub>
+                  と p
+                  <sub>
+                   j
+                  </sub>
+                  の大小関係が問題になるのは， |i - j| ≦ DMAX のときのみである．
+                  <br/>
+                  pi 与 pj 的大小关系需要被考察，当且仅当 |i - j| ≦ DMAX
+                  <br/>
+                  <span>
+                   <br/>
+                   <br/>
+                  </span>
+                 </p>
+                 <p style="margin-left:30px;margin-right:30px">
+                  <span style="font-family:Simsun;font-size:medium">
+                   よって，小籠包を 1 番目から i 番目までの小籠包についてそれらの中での食べる順番を決めたとき， それ以降の小籠包の食べる順番を決めるのに関わってくるのは， i - DMAX + 1 番目から i 番目までの小籠包(の食べる順番)のみである．したがって，次のような dp テーブルを定義して動的計画法を行えばよい．
+                  </span>
+                  <br/>
+                  <br/>
+                  <br/>
+                  （注意到 Di 都非常小。。。考虑
+                  <span style="font-family:Simsun;font-size:medium">
+                   状态压缩 DP。。。压缩的对象是排列。。。也就是最后几个包子吃的顺序。。
+                   <br/>
+                   <span>
+                    dp[i][排列]。。。
+                    <span>
+                     <br/>
+                    </span>
+                   </span>
+                  </span>
+                  <span style="font-family:Simsun;font-size:medium">
+                   ．
+                  </span>
+                  <span style="font-family:Simsun;font-size:medium">
+                   <span>
+                    <span>
+                     <br/>
+                    </span>
+                   </span>
+                  </span>
+                 </p>
+                 。。。枚举最后一位，状态压 7 位。。预处理转移后所到达的状态。。。
+                 <br/>
+                 。。。代价分为两类。。
+                 <br/>
+                 <br/>
+                 在 i 前面删除，影响到 i 的。。
+                 <br/>
+                 在 i 后面删除，被 i 影响的。
+                 <br/>
+                 <span style="color:rgb(25, 25, 25);font-family:arial;font-size:16px">
+                  <br/>
+                  <br/>
+                  复杂度 O(nD D!)
+                  <br/>
+                  <span>
+                   <br/>
+                   <br/>
+                   <br/>
+                  </span>
+                 </span>
+                </div>
+                <span>
+                </span>
+                <br/>
+                <div>
+                 #include&lt;iostream&gt;
+                </div>
+                <div>
+                 #include&lt;algorithm&gt;
+                </div>
+                <div>
+                 #include&lt;vector&gt;
+                </div>
+                <div>
+                 #include&lt;cstdio&gt;
+                </div>
+                <div>
+                 #include&lt;cassert&gt;
+                </div>
+                <div>
+                 using namespace std;
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 typedef vector&lt;int&gt; VI;
+                </div>
+                <div>
+                 typedef long long LL;
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 #define REP(i, n) for (int i=0;i&lt;n;++i)
+                </div>
+                <div>
+                 #define FOR(i, a, b) for (int i=a;i&lt;b;++i)
+                </div>
+                <div>
+                 #define REP_1(i, n) for (int i=1;i&lt;=n;++i)
+                </div>
+                <div>
+                 #define ALL(A) A.begin(), A.end()
+                </div>
+                <div>
+                 #define PB push_back
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 template&lt;class T&gt; inline bool checkMin(T &amp;a,const T b){return b &lt; a ? a = b, 1 : 0;}
+                </div>
+                <div>
+                 template&lt;class T&gt; inline bool checkMax(T &amp;a,const T b){return a &lt; b ? a = b, 1 : 0;}
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 /** I/O Accelerator Interface .. **/ //{
+                </div>
+                <div>
+                 #define g (c=getchar())
+                </div>
+                <div>
+                 #define d isdigit(g)
+                </div>
+                <div>
+                 #define p x=x*10+c-'0'
+                </div>
+                <div>
+                 #define n x=x*10+'0'-c
+                </div>
+                <div>
+                 #define pp l/=10,p
+                </div>
+                <div>
+                 #define nn l/=10,n
+                </div>
+                <div>
+                 template&lt;class T&gt; inline T&amp; RD(T &amp;x){
+                </div>
+                <div>
+                 char c;while(!d);x=c-'0';while(d)p;
+                </div>
+                <div>
+                 return x;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 #undef nn
+                </div>
+                <div>
+                 #undef pp
+                </div>
+                <div>
+                 #undef n
+                </div>
+                <div>
+                 #undef p
+                </div>
+                <div>
+                 #undef d
+                </div>
+                <div>
+                 #undef g
+                </div>
+                <div>
+                 inline char* RS(char *s){
+                </div>
+                <div>
+                 //gets(s);
+                </div>
+                <div>
+                 scanf("%s", s);
+                </div>
+                <div>
+                 return s;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 LL last_ans; int Case; template&lt;class T&gt; inline void OT(const T &amp;x){
+                </div>
+                <div>
+                 cout &lt;&lt; x &lt;&lt; endl;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 //}/* .................................................................................................................................. */
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 const int N = 109, M = 5040;
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 int dp[N][M], a[N], d[N]; vector&lt;VI&gt; P; VI p;
+                </div>
+                <div>
+                 int ne[M][8], pos[7], n;
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 int main(){
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 #ifndef ONLINE_JUDGE
+                </div>
+                <div>
+                 freopen("in.txt", "r", stdin);
+                </div>
+                <div>
+                 //freopen("out.txt", "w", stdout);
+                </div>
+                <div>
+                 #endif
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 RD(n); REP(i, n) RD(d[i]); REP(i, n) RD(a[i]);
+                </div>
+                <div>
+                 VI p; REP(i, 7) p.PB(i); do P.PB(p); while(next_permutation(ALL(p)));
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 REP(i, M) REP(j, 8){
+                </div>
+                <div>
+                 p = P[i]; REP(i, 7) if (p[i] &gt;= j) ++p[i];
+                </div>
+                <div>
+                 FOR(i, 1, 7) if (p[i] &gt;= p[0]) --p[i]; p.erase(p.begin());
+                </div>
+                <div>
+                 ne[i][j] = lower_bound(ALL(P), p) - P.begin();
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 REP(i, n) REP(j, M){
+                </div>
+                <div>
+                 int u = dp[i][j]; REP(k, 7) pos[P[j][k]] = k;
+                </div>
+                <div>
+                 FOR(k, 1, 8) if(i-k &gt;= 0 &amp;&amp; k&lt;=d[i]) u += a[i];
+                </div>
+                <div>
+                 #define v  dp[i + 1][ne[j][k]]
+                </div>
+                <div>
+                 int k; for (k=0;k&lt;7;++k){
+                </div>
+                <div>
+                 checkMax(v, u); int dd = 7-pos[k];
+                </div>
+                <div>
+                 if(i-dd &gt;= 0 &amp;&amp; dd &lt;= d[i]) u -= a[i];
+                </div>
+                <div>
+                 if(i-dd &gt;= 0 &amp;&amp; dd &lt;= d[i-dd]) u += a[i-dd];
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 checkMax(v, u);
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 int ans = 0; REP(j, M) checkMax(ans, dp[n][j]);
+                </div>
+                <div>
+                 OT(ans);
+                </div>
+                <div>
+                 }
+                </div>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+               </div>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

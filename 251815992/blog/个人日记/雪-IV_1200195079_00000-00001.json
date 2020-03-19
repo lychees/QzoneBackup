@@ -1,0 +1,57 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1200219948,
+                "effect": 4194336,
+                "replyNum": 1,
+                "content": "..........这就是雪？？？你的理解太挫了~ ",
+                "capacity": 12117,
+                "poster": {
+                    "id": "122698324",
+                    "platform": 1,
+                    "name": "张晓晨 ",
+                    "emoji": []
+                },
+                "bmp": "18d19560010e8009",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "你懂什么哦～ ",
+                        "postTime": 0,
+                        "id": 0,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1201926383,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "\n[B]...[/B]\n[B]...[/B]\n[B]原来小虎还那么浪漫啊[/B]\n[B]小虾们[/B] ",
+                "capacity": 12103,
+                "poster": {
+                    "id": "328074703",
+                    "platform": 1,
+                    "name": "周小刚 ",
+                    "emoji": []
+                },
+                "bmp": "180095a00002c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

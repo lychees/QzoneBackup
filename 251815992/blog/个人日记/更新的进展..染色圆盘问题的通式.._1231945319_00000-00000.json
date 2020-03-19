@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1232169568,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "》》 ",
+                "capacity": 12164,
+                "poster": {
+                    "id": "307757035",
+                    "platform": 1,
+                    "name": "税子龙 ",
+                    "emoji": []
+                },
+                "bmp": "084195a40000c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

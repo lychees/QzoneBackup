@@ -1,0 +1,40 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1469175216,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "哪个家里？ ",
+                "capacity": 12070,
+                "poster": {
+                    "id": "2350640510",
+                    "platform": 1,
+                    "name": "HR-玲玲 ",
+                    "emoji": []
+                },
+                "bmp": "08509d8002008401",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:2350640510,nick:HR-玲玲,auto:1} =、= 合肥 ",
+                        "postTime": 1469175237,
+                        "id": 1469175237,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

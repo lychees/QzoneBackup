@@ -1,0 +1,40 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1266584792,
+                "effect": 1048608,
+                "replyNum": 1,
+                "content": "强烈抗议。。。  小岛乱晒私聊记录。。。 ",
+                "capacity": 12080,
+                "poster": {
+                    "id": "917640727",
+                    "platform": 1,
+                    "name": "euclid ",
+                    "emoji": []
+                },
+                "bmp": "0880942000000001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "..以后不会了...已经有人批评过我了 ",
+                        "postTime": 1266593231,
+                        "id": 1266593231,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

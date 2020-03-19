@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1380193204,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "看xiaodao~~~学姿势~~~ ",
+                "capacity": 12147,
+                "poster": {
+                    "id": "1216446045",
+                    "platform": 1,
+                    "name": "[弱爆]UnkelTao ",
+                    "emoji": []
+                },
+                "bmp": "98d095e0000ec001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

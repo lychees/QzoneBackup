@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1386843451,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "回归正轨了．．． ",
+                "capacity": 12156,
+                "poster": {
+                    "id": "1993406668",
+                    "platform": 1,
+                    "name": "Ze ",
+                    "emoji": []
+                },
+                "bmp": "08001c8002004101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

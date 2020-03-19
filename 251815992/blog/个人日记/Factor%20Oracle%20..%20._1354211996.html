@@ -1,0 +1,715 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    Factor Oracle .. .
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             Factor Oracle .. .
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2012-11-29 12:59:56
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(69)	è¯è®º(0)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1354211996,
+"voteids":0,
+"pubtime":1354211996,
+"replynum":0,
+"category":"个人日记",
+"title":"Factor Oracle .. .",
+"effect":513,
+"effect2":524294,
+"exblogtype":0,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":0,
+"lp_style":0,
+"lp_flag":0,
+"orguin":251815992,
+"orgblogid":1354211996,
+"mention_uins":[ ],
+"attach":[],"comments":[]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <div>
+                <div>
+                 <br/>
+                 单词 P 的 Factor Oracle （Oracle(P) ），是一个结点和边都为线性的有限状态自动机 。
+                 <br/>
+                 （。设 n = |P|， 状态 Q ={0, 1, .., n}，初始状态 s = 0, 接受状态 F = Q （即所有状态均为接受状态）
+                 <br/>
+                 （。。边的数目介于 [m, 2m) 。。下证。。。
+                 <br/>
+                 <br/>
+                 。。另外最重要一点。。Factor Oracle 是有向无环的。。（从图论角度看的话。。
+                 <br/>
+                 <span>
+                  。因此每个状态我们直接用其下标 i 表示出。。（。
+                 </span>
+                 拓扑有序。。。
+                 <br/>
+                 <span>
+                  <br/>
+                  <br/>
+                  <span>
+                   <br/>
+                   <img alt="图片" src="http://a4.qpic.cn/psb?/a7723d22-15e1-452d-817f-ed63333f3d7d/qm.YGAWmQENSX6lwHvkZdzGL9jZ*4kmzFTjwr8TM38o!/b/dPtiL0IXIwAA&amp;ek=1&amp;kp=1&amp;pt=0&amp;bo=0wF1AAAAAAABAIA!&amp;t=5&amp;tl=3&amp;su=084668609&amp;tm=1584576000&amp;sce=0-12-12&amp;rf=2-9" style="width:467px;height:117px"/>
+                  </span>
+                 </span>
+                </div>
+                <div>
+                 <span>
+                  <br/>
+                  。。Figure 1. Oracle（abbbaab）。。。
+                  <br/>
+                  <br/>
+                  先来阅读所能找到的最早文献。。[ACR 99] 。。。
+                  <br/>
+                  <br/>
+                  Factor Oracle 某种程度上可以看成一个简化的后缀自动机。。和后缀自动机一样她的主要功能也是识别子串 （Factor）。。
+                  <br/>
+                  所不同的是她所能识别的是所有子串的一个超集。。。也就是说有一定概率会误判。。
+                  <br/>
+                  。。例如。。上图中发送  aba 会到 5 但是 aba 并不是 abbbaab 的子串。。。
+                  <br/>
+                  <br/>
+                  <br/>
+                  （Open Problem： Oracle(P) 所能识别的语言到底是神马？。。和 P 有什么关系？。。
+                  <br/>
+                  <br/>
+                  <br/>
+                  Se 2.1 给出了一个 High_Level 的构造算法。。。
+                  <br/>
+                  。。（。这个算法需要维护每个状态的 minimal length word。。然后对每个其他转移还要做一次匹配。。
+                  <br/>
+                  。。。主要用来证明 Factor Oracle 的一些性质。。
+                 </span>
+                 基本不具有实际价值。。。
+                 <br/>
+                 <br/>
+                 <div>
+                  。。。以下假设已经得到 Oracle(P)。。
+                 </div>
+                 <div>
+                  设 min(i) 是状态 i 的最小可识别单词 （minimal length word
+                 </div>
+                 <div>
+                  设 poccur(min(i), P) 是 min(i) 在 P 中的最小位移。。。
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  Lemma 1. i = min(i) 在 p 中的最小位移。。。（对构造算法做归纳。。
+                 </div>
+                 <div>
+                  Corollary 1. min(i) 是唯一的。
+                 </div>
+                 <div>
+                  Corollary 2. 设 j 和 i 为 Oracle(P) 中的前后两个状态，且 j &lt; i。。
+                 </div>
+                 <div>
+                  。。则 min(i) 不可能是 min(j) 的后缀。。
+                 </div>
+                 <div>
+                  （否则 j 成为了 min(i) 的最小位移。。和 Lemma 1 矛盾。。
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  Lemma 2. min(i)是所有 i 可识别单词的后缀。
+                 </div>
+                 <div>
+                  Lemma 3. 对 Oracle(P) 发送任意一个子串，则停留的位置小于等于其最小位移。
+                 </div>
+                 <div>
+                  （。注意引理 3 非常重要。。注意这里是 小于等于 。。并且不总是等于。。
+                 </div>
+                 <div>
+                  。。至于什么时候是等于什么时候是小于有待研究。。）。。
+                 </div>
+                 <div>
+                  Corollary 3. 子串 -&gt; 后缀
+                 </div>
+                 <div>
+                  Lemma 4. （有向无环引理）
+                 </div>
+                 <div>
+                  。发送任何以 min(i) 为后缀的单词都比 min(i) 靠后。。
+                 </div>
+                 <div>
+                  Lemma 5. 单词 w 的任何后缀的识别位置都比她自己靠前。。
+                 </div>
+                 <div>
+                  Lemma 6. 边数规模引理
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <br/>
+                 <div>
+                  Se 2.2
+                 </div>
+                 <div>
+                  本节给出了在线构造算法。。
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  引出了两个重要概念。。
+                 </div>
+                 <div>
+                  lrs (longest repeat suffix 。。
+                 </div>
+                 <div>
+                  <span style="font-size:10px">
+                   ... . " We denote lrs(i) the longest suffix of pref(i) that apeears at least twice in pref(i)." .. .
+                  </span>
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  sp （supply function。 （或者 suffix link）。。类比 AC 自动机里的 fail function。。注意这个指针是后向的。。
+                 </div>
+                 <div>
+                  <span style="font-size:10px">
+                   ...  " We define a function sp defined on the states of the automaton, called supply function,
+                  </span>
+                 </div>
+                 <div>
+                  <span style="font-size:10px">
+                   that maps each state i &gt; 0 of Oracle(P) to state j in which the reading of lrs(i) ends.  " .. .
+                  </span>
+                  <br/>
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <br/>
+                 <span>
+                  <br/>
+                  <img alt="图片" src="http://a3.qpic.cn/psb?/a7723d22-15e1-452d-817f-ed63333f3d7d/Oe1VL3Y22MSg4XnraFjf64kkoRhJNZe.OwtBxnnlk30!/b/dIcwQj8AUAAA&amp;ek=1&amp;kp=1&amp;pt=0&amp;bo=AwM9AwAAAAABABk!&amp;t=5&amp;tl=3&amp;su=0195982897&amp;tm=1584576000&amp;sce=0-12-12&amp;rf=2-9" style="width:771px;height:829px"/>
+                  <br/>
+                  <br/>
+                  Figure 2. 带 Supply Function 的 “子串神谕”。。。
+                  <br/>
+                  <br/>
+                  <br/>
+                  <div>
+                   。。根据引理 3。。
+                  </div>
+                  <div>
+                   <span>
+                    发送任意一个后缀肯定不会跑到自动机外面去。。所以 sp 是良定义的。。
+                   </span>
+                   <br/>
+                  </div>
+                  <div>
+                   且这个指针一定是后向的。。。
+                   <span>
+                    <br/>
+                   </span>
+                  </div>
+                  <div>
+                   。。。在任何一个状态都可以通过一系列的 sp 转移回到起点。。。
+                   <div>
+                    。从最后一个结点出进行的这个过程。。称之为后缀路径 （suffix path ...。。。
+                   </div>
+                  </div>
+                  <br/>
+                  <div>
+                   Lemma 7. 考察 sp 指针转移前后的两个状态 u, v。。（ v 不为 0。。
+                  </div>
+                  <div>
+                   。。则 lsp(v) 是 lsp(u) 的后缀。。。
+                  </div>
+                  <div>
+                   Corollary 4. 以 suffix path 的角度考察 Lemma 7。。。
+                  </div>
+                  <div>
+                   。。设 Pc 为 P 后面接一个字符。。对于 Oracle(P) 和 Oracle(Pc) 之间。。
+                  </div>
+                  <div>
+                   。大部分的结点和状态都是一样的。。。
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   于是我们考察 Oracle(Pc) 和 Oracle(P) 的差集。。。
+                  </div>
+                  <div>
+                   。。也就是集中考察。。哪些状态现在会多出一条引向新状态的边。（。新的边肯定是由 c 转移出去。。
+                  </div>
+                  <div>
+                   我们设 i 为这样一个状态。。设最后添加的字符为 c。。则 ic 。。。(。。简写。。也就是 min(i)c。。。
+                  </div>
+                  <div>
+                   。。则 i 必须是 P 的某一个后缀。。。
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   <div>
+                    Corollary 4. 以 suffix path 的角度考察 Lemma 7。。。
+                   </div>
+                   <div>
+                    。。设 Pc 为 P 后面接一个字符。。对于 Oracle(P) 和 Oracle(Pc) 之间。。
+                   </div>
+                   <div>
+                    。大部分的结点和状态都是一样的。。。
+                   </div>
+                   <div>
+                    于是我们考察 Oracle(Pc) 和 Oracle(P) 的差集。。。
+                   </div>
+                   <div>
+                    <br/>
+                   </div>
+                   <div>
+                    。。也就是集中考察。。哪些状态现在会多出一条引向新状态的边。（。新的边肯定是由 c 转移出去。。
+                   </div>
+                   <div>
+                    我们设 i 为这样一个状态。。设最后添加的字符为 c。。则 ic 。。。(。。简写。。也就是 min(i)c。。。
+                   </div>
+                   <div>
+                    。。则 i 必须是 P 的某一个后缀。。。
+                   </div>
+                   <div>
+                    。。（。显然所有这些 i 可以沿着后缀路径。。一个一个找到。。。Lemma 8.
+                   </div>
+                   <div>
+                    。。。对于所有后缀路径上的状态。如果在 Oracle(P) 中没有由 c 引发的边。。（c-转移
+                   </div>
+                   <div>
+                    。。则必然在 Oracle(Pc) 中将会转移至新状态。。。Lemma 9.
+                    <span>
+                    </span>
+                   </div>
+                   <div>
+                    同时如果后缀路径的某个位置已经有 c-转移 了。。。则前面的位置也一定有 c-转移了。。（break 引理。。Lemma 10.
+                    <br/>
+                    <span>
+                    </span>
+                   </div>
+                   <div>
+                    。。。最后还要考虑用这个中断位置的 c-转移 更新 sp 指针。。（Lemma 11... 类比 AC 自动机。。。。
+                   </div>
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <a href="http://paste.ubuntu.com/1397587/" target="_blank" title="http://paste.ubuntu.com/1397587/">
+                   。。。Factor Oracle 在线构造算法。。
+                  </a>
+                  <br/>
+                  <br/>
+                  ——————————————————————————————————————————————
+                  <br/>
+                  <br/>
+                  。。 当然。。对于 A - C - M 来说以上全是废话。。
+                  <span>
+                   <br/>
+                  </span>
+                 </span>
+                 <span>
+                  <span>
+                   。。这里以
+                   <a href="http://acm.hust.edu.cn:8080/judge/problem/viewProblem.action?id=19246" target="_blank" title="http://acm.hust.edu.cn:8080/judge/problem/viewProblem.action?id=19246">
+                    POJ 2774
+                   </a>
+                   为例。。（
+                  </span>
+                 </span>
+                 <a href="http://hi.baidu.com/fpkelejggfbfimd/item/69ea98bcf87efee94fc7fda2" target="_blank" title="http://hi.baidu.com/fpkelejggfbfimd/item/69ea98bcf87efee94fc7fda2">
+                  参考  zyf0701
+                 </a>
+                 。。
+                </div>
+                <div>
+                 <span>
+                  <span>
+                   <span style="text-decoration:underline">
+                    <a href="http://acm.hust.edu.cn:8080/judge/problem/viewSource.action?id=843190" style="text-decoration:underline" target="_blank" title="http://acm.hust.edu.cn:8080/judge/problem/viewSource.action?id=843190">
+                     。后缀数组。。（dc3 。。235ms
+                    </a>
+                   </span>
+                  </span>
+                 </span>
+                </div>
+                <a href="http://acm.hust.edu.cn:8080/judge/problem/viewSource.action?id=844668" target="_blank" title="http://acm.hust.edu.cn:8080/judge/problem/viewSource.action?id=844668">
+                 。。Fractor Oracle （。。100ms +-。。。
+                </a>
+                <br/>
+                <br/>
+                <br/>
+                <a href="http://acm.hust.edu.cn:8080/judge/problem/viewProblem.action?id=28016" target="_blank" title="http://acm.hust.edu.cn:8080/judge/problem/viewProblem.action?id=28016">
+                 SPOJ LCS
+                </a>
+                <br/>
+                <a href="http://acm.hust.edu.cn:8080/judge/problem/viewSource.action?id=844676" target="_blank" title="http://acm.hust.edu.cn:8080/judge/problem/viewSource.action?id=844676">
+                 . 后缀数组。。（dc3 。。。 TLE。。。
+                 <span>
+                  <br/>
+                 </span>
+                </a>
+                <a href="http://acm.hust.edu.cn:8080/judge/problem/viewSource.action?id=828843" target="_blank" title="http://acm.hust.edu.cn:8080/judge/problem/viewSource.action?id=828843">
+                 后缀自动机。。（。。0.5s +- ..
+                </a>
+                <br/>
+                <a href="http://acm.hust.edu.cn:8080/judge/problem/status.action?reset=1" target="_blank" title="http://acm.hust.edu.cn:8080/judge/problem/status.action?reset=1">
+                 .. Fractor Oracle.. ( 1s +- .. .
+                </a>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                --- UPD ---
+                <br/>
+                <br/>
+                。。继续来看 Factor Oracle  还能做什么。。
+                <br/>
+                。首先尼玛我肯定不敢拿这个东西来做字符串匹配。。。（死都不知道在哪死的。。缺少关于误判结构认识。。
+                <br/>
+                （。可以考虑拿它来做后缀自动机的替代？。。 ）
+                <br/>
+                <br/>
+                。。。再来考虑 Distinct Substring 问题。。
+                <br/>
+                。。好像只需要 用 n*(n+1) / 2 -  Sigma lrs[i] 就行。。。
+                <br/>
+                （但是我随机数据谜之 WA 。。总是稍微大一些。。求破...
+                <br/>
+                <a href="http://www.spoj.pl/problems/DISUBSTR/" target="_blank">
+                 http://www.spoj.pl/problems/DISUBSTR/
+                </a>
+                <br/>
+                <br/>
+                <br/>
+                。。。再来看。。。 最长重复子串。问题。。
+                <a href="http://poj.org/problem?id=1743" target="_blank">
+                 http://poj.org/problem?id=1743
+                </a>
+                <br/>
+                。。。。。那么只做一次 suffix link 转移显然是有可能不够的。（有可能发生重叠位置。。那么继续向前跳直到
+                <br/>
+                i - u &gt;=  lrs[u]  ...
+                <br/>
+                其实这里就是 AC 自动机里的 dicti failure 。。。。不过懒得再申请新的数组了。。
+                <br/>
+                直接把 suffix link 破坏掉吧。。
+                <br/>
+                <a href="http://paste.ubuntu.com/1398006/" target="_blank" title="http://paste.ubuntu.com/1398006/">
+                 （。。。谜之 WA。。
+                </a>
+                <br/>
+                <br/>
+                <br/>
+                。。。卧槽。。这个东西谜之不靠谱啊。。是我写渣了还是怎么搞的啊。。QAQ。。。看来这能用来理性愉悦了。。
+                <br/>
+                <a href="http://paste.ubuntu.com/1398010/" target="_blank" title="http://paste.ubuntu.com/1398010/">
+                 随机数据生成器。。
+                </a>
+                <br/>
+                <br/>
+                ——————————————————————
+                <br/>
+                问：随机选自字符集大小为 m 的长度为 n 的字符串。。
+                <br/>
+                期望的 最长重复子串（可重叠，不可重叠）。。期望的 子串幂。。。期望的 Distinct Substring 个数。。各是多少？。。。
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+               </div>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

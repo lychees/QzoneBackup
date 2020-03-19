@@ -1,0 +1,113 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 6,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1457541757,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "头像。。。好魔性。。。 ",
+                "capacity": 12149,
+                "poster": {
+                    "id": "569620205",
+                    "platform": 1,
+                    "name": " [ ccnu ] Tmono ",
+                    "emoji": []
+                },
+                "bmp": "58d08da8000ec209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1457542675,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "我也想勾搭你来着( &#180;&#8226;灬&#8226;｀) ",
+                "capacity": 12113,
+                "poster": {
+                    "id": "2196492713",
+                    "platform": 1,
+                    "name": "┕蕝綪蒗孒墨慎語┑ ",
+                    "emoji": []
+                },
+                "bmp": "08009c8802024101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1457560130,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "去东京作甚 ",
+                "capacity": 12108,
+                "poster": {
+                    "id": "624050143",
+                    "platform": 1,
+                    "name": "倪亦帅 ",
+                    "emoji": []
+                },
+                "bmp": "18d48da80002c201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1457563531,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "学长已经面试完了吗？ ",
+                "capacity": 12152,
+                "poster": {
+                    "id": "306359430",
+                    "platform": 1,
+                    "name": "雨翌 ",
+                    "emoji": []
+                },
+                "bmp": "38d41de41d108201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1457571691,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "论文好长.. ",
+                "capacity": 12160,
+                "poster": {
+                    "id": "978632333",
+                    "platform": 1,
+                    "name": "特种兵-何骐 ",
+                    "emoji": []
+                },
+                "bmp": "98c09da00002e121",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 6,
+                "postTime": 1457576027,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "好腻害 ",
+                "capacity": 12164,
+                "poster": {
+                    "id": "519937663",
+                    "platform": 1,
+                    "name": "xsong0211 ",
+                    "emoji": []
+                },
+                "bmp": "18d09da000008201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

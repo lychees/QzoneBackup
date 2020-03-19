@@ -1,0 +1,40 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1380033732,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "= =||| 网络赛那个我使用<疯狂的馒头>染色法，轻松就过了... ",
+                "capacity": 12030,
+                "poster": {
+                    "id": "182035045",
+                    "platform": 1,
+                    "name": "罗翔宇 ",
+                    "emoji": []
+                },
+                "bmp": "18d415a00000c121",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "10848584",
+                            "name": "主席 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:182035045,nick:罗翔宇,auto:1} 所以那是啥.. ",
+                        "postTime": 1380071799,
+                        "id": 1380071799,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

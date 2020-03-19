@@ -1,0 +1,108 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 5,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1201569526,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "我迫不及待的想玩啦 ",
+                "capacity": 12150,
+                "poster": {
+                    "id": "770976045",
+                    "platform": 1,
+                    "name": "┈┾葬亽 ╄ ",
+                    "emoji": []
+                },
+                "bmp": "18d015a40000c209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1201592821,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "\n道具怎么没有MP4 ...手机 ...PSP....这些都很重要的啊..嘿嘿 不过太expensive了\n \n还要有麦斯康威咖啡...熬夜要用的 还有达能小王子饼干呢..晕\n \nPS  我的支线剧情不要忘记了 ",
+                "capacity": 12010,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1201704108,
+                "effect": 4194336,
+                "replyNum": 1,
+                "content": "道具：卫生巾 图标：24×24 位图格式 \n说明：女生专用。（己方单体回复40HP） \n价格：8￥ \n可能使用：平时/战斗 \n效果：己方单体回复40HP ",
+                "capacity": 12033,
+                "poster": {
+                    "id": "173324507",
+                    "platform": 1,
+                    "name": "Groot ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a201",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "... ",
+                        "postTime": 0,
+                        "id": 0,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "postTime": 1202052294,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "楼上的..汗[em]e3[/em] ",
+                "capacity": 12152,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1202571582,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "楼上的楼上，T服了YOU ",
+                "capacity": 12150,
+                "poster": {
+                    "id": "363297713",
+                    "platform": 1,
+                    "name": "猴子.豆子 ",
+                    "emoji": []
+                },
+                "bmp": "18d1cda00140c020",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

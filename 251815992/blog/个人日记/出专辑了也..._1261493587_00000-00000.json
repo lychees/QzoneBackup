@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1262665855,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]我日，曾哥[/ft] ",
+                "capacity": 12141,
+                "poster": {
+                    "id": "545534129",
+                    "platform": 1,
+                    "name": "味道很正 ",
+                    "emoji": []
+                },
+                "bmp": "18c1d5a000800401",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

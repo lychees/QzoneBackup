@@ -1,0 +1,79 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1292061633,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "火焰纹章？ ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "451524137",
+                    "platform": 1,
+                    "name": "光之神圣 ",
+                    "emoji": []
+                },
+                "bmp": "18c1f4a40080c109",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1292062384,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]小虎你就烧吧、不上课,不考试,你烧个屁呀,不要让老爸见到你,仔细想想见到的后果吧。到时候会让你发烧个够[/ft] ",
+                "capacity": 12057,
+                "poster": {
+                    "id": "1084081420",
+                    "platform": 1,
+                    "name": "安徽老虎 ",
+                    "emoji": []
+                },
+                "bmp": "88419da00000c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1292063885,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "让我抓注你,不把你打残,我就叫你爸爸 ",
+                "capacity": 12134,
+                "poster": {
+                    "id": "1084081420",
+                    "platform": 1,
+                    "name": "安徽老虎 ",
+                    "emoji": []
+                },
+                "bmp": "88419da00000c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1292069316,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "·········火···········不错· ",
+                "capacity": 12124,
+                "poster": {
+                    "id": "915910623",
+                    "platform": 1,
+                    "name": "lanlan ",
+                    "emoji": []
+                },
+                "bmp": "18d0952000008001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

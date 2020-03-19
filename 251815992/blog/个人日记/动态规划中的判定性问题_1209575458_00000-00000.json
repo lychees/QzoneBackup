@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1209612684,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "是的！动态规划判定性问题 ",
+                "capacity": 12150,
+                "poster": {
+                    "id": "838515060",
+                    "platform": 1,
+                    "name": "丶心竞 ",
+                    "emoji": []
+                },
+                "bmp": "38549de0050ec001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

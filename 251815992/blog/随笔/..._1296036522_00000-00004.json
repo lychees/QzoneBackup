@@ -1,0 +1,108 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 5,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1296038392,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[ft=,2,]。。我果然还是喜欢看你写的东西。。[/ft] ",
+                "capacity": 12096,
+                "poster": {
+                    "id": "315593370",
+                    "platform": 1,
+                    "name": "大魔导师会让你挂科 ",
+                    "emoji": []
+                },
+                "bmp": "18c09da04000c001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "445950142",
+                            "name": "Mea ",
+                            "platform": 1
+                        },
+                        "content": "+1 ",
+                        "postTime": 1296056367,
+                        "id": 1296056367,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1296044523,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[url=http://b62.photo.store.qq.com/http_imgload.cgi?/rurl4_b=b4fcd2c323828f07790076d4c3b1a0345b9c3386d574d81aefe967727d100eb1718d2a741c82d09f5ca624c1beb3a26c98e12e5d7c69f77f3aef9244af55ce9aa3e4b82dd3154156676557e5b9906cc31db1520b&amp;amp;a=70&amp;amp;b=62][img,100,75]http://b62.photo.store.qq.com/http_imgload.cgi?/rurl4_b=b4fcd2c323828f07790076d4c3b1a0345b9c3386d574d81aefe967727d100eb1718d2a741c82d09f5ca624c1beb3a26c98e12e5d7c69f77f3aef9244af55ce9aa3e4b82dd3154156676557e5b9906cc31db1520b&amp;amp;a=70&amp;amp;b=62[/img][/url]\n逆天的色彩…… ",
+                "capacity": 11882,
+                "poster": {
+                    "id": "307420773",
+                    "platform": 1,
+                    "name": "无关路人甲 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a40000c009",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1296115829,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]。。。过年了呀。。。。岛君。。[/ft] ",
+                "capacity": 12129,
+                "poster": {
+                    "id": "1530491627",
+                    "platform": 1,
+                    "name": "钱冰忆 ",
+                    "emoji": []
+                },
+                "bmp": "1a519dc80210c201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1296192226,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]新年要快乐的[/ft]\n \n[ft=,2,]岛[/ft] ",
+                "capacity": 12119,
+                "poster": {
+                    "id": "784237318",
+                    "platform": 1,
+                    "name": "叙眄 ",
+                    "emoji": []
+                },
+                "bmp": "585095a00102c009",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1296589914,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]这文好搞。。。。[/ft] ",
+                "capacity": 12143,
+                "poster": {
+                    "id": "1252959374",
+                    "platform": 1,
+                    "name": "肥猫 ",
+                    "emoji": []
+                },
+                "bmp": "0880940002000001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

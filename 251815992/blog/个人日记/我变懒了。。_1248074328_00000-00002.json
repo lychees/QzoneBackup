@@ -1,0 +1,109 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1248090296,
+                "effect": 4194336,
+                "replyNum": 1,
+                "content": "[ft=,2,]就这一句.. [/ft] ",
+                "capacity": 12120,
+                "poster": {
+                    "id": "241721246",
+                    "platform": 1,
+                    "name": "-Zoey-D ",
+                    "emoji": []
+                },
+                "bmp": "18d495a001008121",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "......# ",
+                        "postTime": 1248091899,
+                        "id": 1248091899,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1248140877,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "[ft=,2,]。。我晕。[/ft] ",
+                "capacity": 12078,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "我们两个太神奇了....# ",
+                        "postTime": 1248149152,
+                        "id": 1248149152,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "。。嗯嗯。 ",
+                        "postTime": 1248149698,
+                        "id": 1248149698,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1248147635,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[ft=,2,]一口气小枪 两口气机关枪。。[/ft]\n[ft=,2,]我们来玩。。[/ft] ",
+                "capacity": 12043,
+                "poster": {
+                    "id": "770976045",
+                    "platform": 1,
+                    "name": "┈┾葬亽 ╄ ",
+                    "emoji": []
+                },
+                "bmp": "18d015a40000c209",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "。。。两口气AWP。。\n三口气才机关枪。。。 ",
+                        "postTime": 1248157452,
+                        "id": 1248157452,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

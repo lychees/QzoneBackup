@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1475344445,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "可爱多怎么能当饭吃。。。不过我也喜欢可爱多～男神代言的[em]e106[/em] ",
+                "capacity": 12105,
+                "poster": {
+                    "id": "530600414",
+                    "platform": 1,
+                    "name": "汐铃 ",
+                    "emoji": []
+                },
+                "bmp": "18509da00100e209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1475385721,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "浓郁香草，巧克玛瑙～ ",
+                "capacity": 12146,
+                "poster": {
+                    "id": "821224117",
+                    "platform": 1,
+                    "name": "瑣碎的牵绊 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00102e209",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1233978689,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "``` ",
+                "capacity": 12161,
+                "poster": {
+                    "id": "89929992",
+                    "platform": 1,
+                    "name": "追梦， ",
+                    "emoji": []
+                },
+                "bmp": "18d1952000000001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1233990113,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "....唐飞虎.....你够狠\n \n有本事我们把聊天记录晾在这里,到底看哪个的话猥琐```` ",
+                "capacity": 12098,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1233990520,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "感谢你没把那一段贴出来.. ",
+                "capacity": 12149,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

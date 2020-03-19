@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1444155477,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "B点分hash就行了 ",
+                "capacity": 12156,
+                "poster": {
+                    "id": "291445140",
+                    "platform": 1,
+                    "name": "Seter ",
+                    "emoji": []
+                },
+                "bmp": "18c415a00142e209",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

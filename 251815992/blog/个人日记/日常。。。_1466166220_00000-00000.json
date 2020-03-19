@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1466166331,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "感觉岛老师的女子力有所提升啊[em]e400905[/em] ",
+                "capacity": 12120,
+                "poster": {
+                    "id": "1020555806",
+                    "platform": 1,
+                    "name": "Res.5_MinZhongyu ",
+                    "emoji": []
+                },
+                "bmp": "18c08da00102c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

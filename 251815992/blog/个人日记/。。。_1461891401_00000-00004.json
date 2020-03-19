@@ -1,0 +1,96 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 5,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1461891681,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "張無名同志，吳生駒同志 ",
+                "capacity": 12146,
+                "poster": {
+                    "id": "397427019",
+                    "platform": 1,
+                    "name": " ",
+                    "emoji": []
+                },
+                "bmp": "18809da40102c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1461894106,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "[em]e400824[/em] ",
+                "capacity": 12151,
+                "poster": {
+                    "id": "2919834557",
+                    "platform": 1,
+                    "name": "明月清风 ",
+                    "emoji": []
+                },
+                "bmp": "0800948002009401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1461894506,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "可恶的刚天魔里 ",
+                "capacity": 12141,
+                "poster": {
+                    "id": "112831313",
+                    "platform": 1,
+                    "name": "12-计-董羽飞 ",
+                    "emoji": []
+                },
+                "bmp": "38d40da00102d101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1461899526,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "哈哈哈哈哈！铁道游击队！好像是这么回事[em]e400824[/em] ",
+                "capacity": 12118,
+                "poster": {
+                    "id": "253042203",
+                    "platform": 1,
+                    "name": "虚度 ",
+                    "emoji": []
+                },
+                "bmp": "0800948000024001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1461899808,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "另一个版本是铁胆火车侠…… ",
+                "capacity": 12142,
+                "poster": {
+                    "id": "594837346",
+                    "platform": 1,
+                    "name": "CCG成员 ",
+                    "emoji": []
+                },
+                "bmp": "18c095a00102c481",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

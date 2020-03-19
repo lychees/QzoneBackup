@@ -1,0 +1,69 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1399259684,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "行列取min明明是对的。 ",
+                "capacity": 12026,
+                "poster": {
+                    "id": "826513189",
+                    "platform": 1,
+                    "name": "叉姐 ",
+                    "emoji": []
+                },
+                "bmp": "988095a80000e201",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:826513189,nick:叉姐,who:1,auto:1}十字型数据怎么破？。还是会有 O(n) 的行？\n ",
+                        "postTime": 1399259755,
+                        "id": 1399259755,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1399333688,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "只有中间那个点是n啊，其他点都是1的。 ",
+                "capacity": 12020,
+                "poster": {
+                    "id": "826513189",
+                    "platform": 1,
+                    "name": "叉姐 ",
+                    "emoji": []
+                },
+                "bmp": "988095a80000e201",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:826513189,nick:叉姐,auto:1} 中间有两行是 n/2。。。所以就 O(n2) 咯？ ",
+                        "postTime": 1399339329,
+                        "id": 1399339329,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

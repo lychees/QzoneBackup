@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1282899804,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=#9900ff,2,]幸好我先全选再看的[/ft]\n[ft=#9900ff,2,]……[/ft]\n[ft=#9900ff,2,]白字……[/ft] ",
+                "capacity": 12074,
+                "poster": {
+                    "id": "784237318",
+                    "platform": 1,
+                    "name": "叙眄 ",
+                    "emoji": []
+                },
+                "bmp": "585095a00102c009",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,142 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 7,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1292770623,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]小岛我支持你的实干精神，你会成功的，但有一点书本知识决不能轻易放弃。[/ft] ",
+                "capacity": 12091,
+                "poster": {
+                    "id": "1216112331",
+                    "platform": 1,
+                    "name": "飞雪 ",
+                    "emoji": []
+                },
+                "bmp": "08009d8002008401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1292770798,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "你父亲的忠言还是要听的，他用心良苦，知道吗？ ",
+                "capacity": 12128,
+                "poster": {
+                    "id": "1216112331",
+                    "platform": 1,
+                    "name": "飞雪 ",
+                    "emoji": []
+                },
+                "bmp": "08009d8002008401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1292772404,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "同意楼上，岛哥回头金不换啊！ ",
+                "capacity": 12140,
+                "poster": {
+                    "id": "1482421777",
+                    "platform": 1,
+                    "name": "还记得那个MJ吗 ",
+                    "emoji": []
+                },
+                "bmp": "18c195800202c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1292773050,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]呵呵，我怎么说这几天没见到你呢[/ft] ",
+                "capacity": 12124,
+                "poster": {
+                    "id": "6572389",
+                    "platform": 1,
+                    "name": "耿彪 ",
+                    "emoji": []
+                },
+                "bmp": "185195840102c409",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1292845461,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]怎么你的身体有问题？看医生了吗？生活要有规律。[/ft] ",
+                "capacity": 12113,
+                "poster": {
+                    "id": "944511827",
+                    "platform": 1,
+                    "name": "慧缘 ",
+                    "emoji": []
+                },
+                "bmp": "18c195a00000c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 6,
+                "postTime": 1292850955,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "。。。又是什么都没有说。。。。 ",
+                "capacity": 12119,
+                "poster": {
+                    "id": "1530491627",
+                    "platform": 1,
+                    "name": "钱冰忆 ",
+                    "emoji": []
+                },
+                "bmp": "1a519dc80210c201",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "...  ",
+                        "postTime": 1293019286,
+                        "id": 1293019286,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "postTime": 1292851366,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "天冷了  要注意... ",
+                "capacity": 12147,
+                "poster": {
+                    "id": "1559398711",
+                    "platform": 1,
+                    "name": "黑夜問白天 ",
+                    "emoji": []
+                },
+                "bmp": "18518dc00206a201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

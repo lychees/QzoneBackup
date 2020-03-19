@@ -1,0 +1,51 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1264379007,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "[ft=,2,]你已经无聊到玩恶魔城不玩梦幻的地步了。。。堕落了[/ft] ",
+                "capacity": 12027,
+                "poster": {
+                    "id": "534470369",
+                    "platform": 1,
+                    "name": "张弛 ",
+                    "emoji": []
+                },
+                "bmp": "08d08ca000000428",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "红魔城..不是恶魔城.. ",
+                        "postTime": 1264387629,
+                        "id": 1264387629,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "534470369",
+                            "name": "张弛 ",
+                            "platform": 1
+                        },
+                        "content": "和恶魔城差不多。。。 ",
+                        "postTime": 1264391508,
+                        "id": 1264391508,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

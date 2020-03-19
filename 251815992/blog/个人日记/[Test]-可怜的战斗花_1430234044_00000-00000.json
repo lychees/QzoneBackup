@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1430272072,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "光工 ",
+                "capacity": 12168,
+                "poster": {
+                    "id": "565473840",
+                    "platform": 1,
+                    "name": "风化了誓言 ",
+                    "emoji": []
+                },
+                "bmp": "18710da801029401",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

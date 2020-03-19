@@ -1,0 +1,51 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1474682319,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "这个B妙啊，可以让慢的先开始，快的后开始，所以每次给最快的贪心不最优 ",
+                "capacity": 11927,
+                "poster": {
+                    "id": "953357213",
+                    "platform": 1,
+                    "name": "蒟蒻 ",
+                    "emoji": []
+                },
+                "bmp": "18d18d800102c201",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "1020965771",
+                            "name": "thaddywu ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:953357213,nick:蒟蒻,who:1,auto:1}B感觉不太能做啊 ",
+                        "postTime": 1474692033,
+                        "id": 1474692033,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "1872518274",
+                            "name": "skyline ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:953357213,nick:蒟蒻,who:1,auto:1}4 1\n2 3 3 3\n6 ",
+                        "postTime": 1474824256,
+                        "id": 1474824256,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

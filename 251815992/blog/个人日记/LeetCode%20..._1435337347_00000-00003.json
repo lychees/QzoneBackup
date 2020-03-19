@@ -1,0 +1,102 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1435366734,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "leetcode至今为止只对了一个 ",
+                "capacity": 12142,
+                "poster": {
+                    "id": "397427019",
+                    "platform": 1,
+                    "name": " ",
+                    "emoji": []
+                },
+                "bmp": "18809da40102c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1435375886,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "谷歌岛娘 ",
+                "capacity": 11983,
+                "poster": {
+                    "id": "122155302",
+                    "platform": 1,
+                    "name": "木子日匀 ",
+                    "emoji": []
+                },
+                "bmp": "38d40da00102c209",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "403528201",
+                            "name": "[scut]aa ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:122155302,nick:木子日匀,who:1,auto:1}谷歌昀神！ ",
+                        "postTime": 1435400213,
+                        "id": 1435400213,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "122155302",
+                            "name": "木子日匀 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:403528201,nick:[scut]aa,auto:1} ex谷歌芳神 ",
+                        "postTime": 1435554471,
+                        "id": 1435554471,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1435377261,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "=，= 居然要进攻哥了！！  球带球飞~ ",
+                "capacity": 12128,
+                "poster": {
+                    "id": "767117440",
+                    "platform": 1,
+                    "name": "GmmmmMy ",
+                    "emoji": []
+                },
+                "bmp": "18c495a00102e201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1435465106,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "我也为了谷歌在刷leetcode... ",
+                "capacity": 12145,
+                "poster": {
+                    "id": "1120090148",
+                    "platform": 1,
+                    "name": "[nbu]嘟嘟洒水车 ",
+                    "emoji": []
+                },
+                "bmp": "084495a00000c421",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

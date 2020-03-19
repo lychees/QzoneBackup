@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1403855874,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "棒，开始刷SGU了！ ",
+                "capacity": 12153,
+                "poster": {
+                    "id": "419247371",
+                    "platform": 1,
+                    "name": "飞过海 ",
+                    "emoji": []
+                },
+                "bmp": "18d09da40040c201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1274852898,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "^ ^ ",
+                "capacity": 12163,
+                "poster": {
+                    "id": "276500942",
+                    "platform": 1,
+                    "name": "酒仙 ",
+                    "emoji": []
+                },
+                "bmp": "b8c1dda00102e229",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1274852979,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "  ^ ^ ",
+                "capacity": 12161,
+                "poster": {
+                    "id": "276500942",
+                    "platform": 1,
+                    "name": "酒仙 ",
+                    "emoji": []
+                },
+                "bmp": "b8c1dda00102e229",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1274856762,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "高考完来看你们。 ",
+                "capacity": 12151,
+                "poster": {
+                    "id": "626003679",
+                    "platform": 1,
+                    "name": "沙了个皮 ",
+                    "emoji": []
+                },
+                "bmp": "18d48de00108e401",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

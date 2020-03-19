@@ -1,0 +1,85 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1377731359,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "小岛 ",
+                "capacity": 12037,
+                "poster": {
+                    "id": "651994959",
+                    "platform": 1,
+                    "name": "Trigon ",
+                    "emoji": []
+                },
+                "bmp": "18c59de00002c121",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:651994959,nick:Trigon,who:1,auto:1}尼玛。。头像吓死了。。 ",
+                        "postTime": 1377731680,
+                        "id": 1377731680,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "651994959",
+                            "name": "Trigon ",
+                            "platform": 1
+                        },
+                        "content": ".... ",
+                        "postTime": 1377731700,
+                        "id": 1377731700,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1377731530,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "某岛 ",
+                "capacity": 12165,
+                "poster": {
+                    "id": "751723392",
+                    "platform": 1,
+                    "name": "wwwwodddd ",
+                    "emoji": []
+                },
+                "bmp": "18c095a80000c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1377738712,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "小岛的灯塔饥渴难耐了 ",
+                "capacity": 12146,
+                "poster": {
+                    "id": "112831313",
+                    "platform": 1,
+                    "name": "12-计-董羽飞 ",
+                    "emoji": []
+                },
+                "bmp": "38d40da00102d101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

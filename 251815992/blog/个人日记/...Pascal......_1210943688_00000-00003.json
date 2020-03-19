@@ -1,0 +1,102 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1210950532,
+                "effect": 4194336,
+                "replyNum": 2,
+                "content": "祝你成功``` 亲爱的\n \n \nPS：你的数学貌似很懒。。。在网上问哪种弱智问题——看来你要好好学习了~ 尤其是数学哦！\n \n 还有英语。 ",
+                "capacity": 11941,
+                "poster": {
+                    "id": "391255889",
+                    "platform": 1,
+                    "name": "Helloworld ",
+                    "emoji": []
+                },
+                "bmp": "08c09da40100c409",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "...几何很好- =\n   代数不行～～\n ",
+                        "postTime": 1210950596,
+                        "id": 1210950596,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "391255889",
+                            "name": "Helloworld ",
+                            "platform": 1
+                        },
+                        "content": "那就好好学... 省队````遥远的梦\n ",
+                        "postTime": 1210950698,
+                        "id": 1210950698,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1210952541,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "+u，转过可以问我问题了。 ",
+                "capacity": 12148,
+                "poster": {
+                    "id": "804451813",
+                    "platform": 1,
+                    "name": "胡观泰 ",
+                    "emoji": []
+                },
+                "bmp": "18c095a40080e121",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1211000710,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "…… ",
+                "capacity": 12161,
+                "poster": {
+                    "id": "276500942",
+                    "platform": 1,
+                    "name": "酒仙 ",
+                    "emoji": []
+                },
+                "bmp": "b8c1dda00102e229",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1211027258,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "再搞，就只有我和老孙继续坚守P了！ ",
+                "capacity": 12141,
+                "poster": {
+                    "id": "838515060",
+                    "platform": 1,
+                    "name": "丶心竞 ",
+                    "emoji": []
+                },
+                "bmp": "38549de0050ec001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

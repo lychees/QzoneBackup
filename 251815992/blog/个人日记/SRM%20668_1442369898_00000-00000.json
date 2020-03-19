@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1442386599,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "能夠淫蕩的解說下就好了 ",
+                "capacity": 12146,
+                "poster": {
+                    "id": "529520158",
+                    "platform": 1,
+                    "name": "雪人墙 ",
+                    "emoji": []
+                },
+                "bmp": "18d08da00802c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1288797293,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "。。。我明白了。。。\n\n12号生日一起过吧。。。 ",
+                "capacity": 12128,
+                "poster": {
+                    "id": "1530491627",
+                    "platform": 1,
+                    "name": "钱冰忆 ",
+                    "emoji": []
+                },
+                "bmp": "1a519dc80210c201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1288856909,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "....我就说嘛。。你在那必然酒量++。。 ",
+                "capacity": 12083,
+                "poster": {
+                    "id": "420836131",
+                    "platform": 1,
+                    "name": "doc ",
+                    "emoji": []
+                },
+                "bmp": "18d025a00000e101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "酒量＋＋ 酒量＋＋....   =   =||  ",
+                        "postTime": 1288871694,
+                        "id": 1288871694,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

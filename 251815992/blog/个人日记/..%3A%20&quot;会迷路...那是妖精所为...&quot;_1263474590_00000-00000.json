@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1263739168,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "GOBLIN－  － ",
+                "capacity": 12161,
+                "poster": {
+                    "id": "583029995",
+                    "platform": 1,
+                    "name": "UCSB门将死忠！ ",
+                    "emoji": []
+                },
+                "bmp": "18d00da40102d109",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,96 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 5,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1238243998,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "实话说\n我们在9月前应该不会见面的\n除非...\n还有,明天的现在\n我就只是普通的初三学生了\n明天的现在\n我暂别OI...\n所以...\n最后拼搏24h\n合86400s ",
+                "capacity": 12037,
+                "poster": {
+                    "id": "420836131",
+                    "platform": 1,
+                    "name": "doc ",
+                    "emoji": []
+                },
+                "bmp": "18d025a00000e101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1238257919,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "........下次好好考吧.. ",
+                "capacity": 12151,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1238315919,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "同上。。 ",
+                "capacity": 12160,
+                "poster": {
+                    "id": "770976045",
+                    "platform": 1,
+                    "name": "┈┾葬亽 ╄ ",
+                    "emoji": []
+                },
+                "bmp": "18d015a40000c209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1238330369,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "基本可以无视你了 ",
+                "capacity": 12148,
+                "poster": {
+                    "id": "122698324",
+                    "platform": 1,
+                    "name": "张晓晨 ",
+                    "emoji": []
+                },
+                "bmp": "18d19560010e8009",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1238411466,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "...zxc...#24\n你要看到我的作文的话会感动死的...#24 ",
+                "capacity": 12123,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            }
+        ]
+    }
+}

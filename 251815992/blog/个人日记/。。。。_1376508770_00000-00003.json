@@ -1,0 +1,79 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1376519310,
+                "effect": 0,
+                "replyNum": 0,
+                "content": " 抓紧补习吧，，，，别搞的众判亲离，自寻死路好不好 ",
+                "capacity": 12119,
+                "poster": {
+                    "id": "1084081420",
+                    "platform": 1,
+                    "name": "安徽老虎 ",
+                    "emoji": []
+                },
+                "bmp": "88419da00000c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1376544118,
+                "effect": 1048576,
+                "replyNum": 0,
+                "content": "。。。不管怎样，岛娘要撑到毕业啊。。。 ",
+                "capacity": 12134,
+                "poster": {
+                    "id": "47785268",
+                    "platform": 1,
+                    "name": "阿拉飞仔 ",
+                    "emoji": []
+                },
+                "bmp": "18d1956000028001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1376560079,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "把酒长歌花落盏、人间自古各悲欢 ",
+                "capacity": 12141,
+                "poster": {
+                    "id": "903336279",
+                    "platform": 1,
+                    "name": "偏疾 ",
+                    "emoji": []
+                },
+                "bmp": "58d49d800002a201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1408112216,
+                "effect": 128,
+                "replyNum": 0,
+                "content": "你爸爸好凶。。。 ",
+                "capacity": 12144,
+                "poster": {
+                    "id": "784237318",
+                    "platform": 1,
+                    "name": "叙眄 ",
+                    "emoji": []
+                },
+                "bmp": "585095a00102c009",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

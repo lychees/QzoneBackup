@@ -1,0 +1,44 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1260068845,
+                "effect": 524288,
+                "replyNum": 0,
+                "content": "2*2矩阵。！ ",
+                "capacity": 12134,
+                "poster": {
+                    "id": "c265e4bd629300c5ad2f979bd626daa2b99112b91badaac3",
+                    "platform": 2,
+                    "name": "陶志鹏"
+                },
+                "bmp": "0000000000000000",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1260077435,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]呜呜~~~~~~~~~~~~~~·肥婆纳妾数列.............!!!!!!!!!!!!!!!!!!!!!!![/ft] ",
+                "capacity": 12084,
+                "poster": {
+                    "id": "923809093",
+                    "platform": 1,
+                    "name": "S。 ",
+                    "emoji": []
+                },
+                "bmp": "18d195a00100c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1403267094,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "=_=。你这样真的不会把神奇的东西透露出来吗… ",
+                "capacity": 12015,
+                "poster": {
+                    "id": "365273817",
+                    "platform": 1,
+                    "name": "Picks ",
+                    "emoji": []
+                },
+                "bmp": "18c095800002c001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:365273817,nick:Picks,auto:1} 。。。看一眼就会的东西。。。这不是 tld 嘛！ ",
+                        "postTime": 1403267129,
+                        "id": 1403267129,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

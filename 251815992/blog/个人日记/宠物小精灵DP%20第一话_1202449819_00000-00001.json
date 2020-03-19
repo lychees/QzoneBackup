@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1202565428,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "\n[ft=#ff6666,,]好 CUTE~~~~[/ft]\n[ft=#ff6666,,]呵呵[/ft] ",
+                "capacity": 12107,
+                "poster": {
+                    "id": "448058358",
+                    "platform": 1,
+                    "name": "Rae ",
+                    "emoji": []
+                },
+                "bmp": "18c095840000c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1202607906,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "\n[B]我想起了初中时微机课上疯玩的口袋怪兽...[/B]\n \n[B]晕。好后悔没拷下来..[/B] ",
+                "capacity": 12088,
+                "poster": {
+                    "id": "284293874",
+                    "platform": 1,
+                    "name": "孟修竹 ",
+                    "emoji": []
+                },
+                "bmp": "08d40da80102c109",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

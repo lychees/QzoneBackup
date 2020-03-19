@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1461145130,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "为啥不给差评 ",
+                "capacity": 12160,
+                "poster": {
+                    "id": "195719555",
+                    "platform": 1,
+                    "name": "方宇浩 ",
+                    "emoji": []
+                },
+                "bmp": "188095a000020421",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

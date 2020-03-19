@@ -1,0 +1,1174 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    HDU 4943. K-th good string
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             HDU 4943. K-th good string
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2014-08-13 13:12:36
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(63)	è¯è®º(0)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1407949956,
+"voteids":0,
+"pubtime":1407949956,
+"replynum":0,
+"category":"个人日记",
+"title":"HDU 4943. K-th good string",
+"effect":8389120,
+"effect2":524294,
+"exblogtype":3,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":81177,
+"lp_style":16843520,
+"lp_flag":0,
+"lp_topvalue":0,
+"orguin":251815992,
+"orgblogid":1407949956,
+"mention_uins":[ ],
+"attach":[],"comments":[]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <div>
+                <div>
+                 <br/>
+                 —————— 最后这个题就变成了一个数据结构题。。。
+                 <br/>
+                 <span>
+                  <br/>
+                  给定 [0, n) 个格子。。。每个格子初始时 0.。。。要求支持
+                  <br/>
+                  <br/>
+                  ：向某个格子中插入一个数。。
+                  <br/>
+                  ：删除某个格子中的一个数。
+                  <br/>
+                  ：询问 [l, r] 区间的格子中第 kth 大的数是多少。。。
+                  <br/>
+                  <br/>
+                  —————— 其中每个格子对应 SAM 中的一个状态。。。能插入的数对应这个状态中所有字符串的长度。。
+                  <br/>
+                 </span>
+                 注意有一个 trick 。。。“该结点里有可能有长度小于当前串长度的值” 。。。
+                 <br/>
+                 <span>
+                  。。由于这个范围可能是 O(n) 的。。例如。。。bbbbbbbbbbba 。。。。
+                  <br/>
+                  因此还需要支持
+                  <br/>
+                 </span>
+                 ：询问某个格子中，&lt; x 的数有多少个。
+                 <br/>
+                 <span>
+                  <br/>
+                  <br/>
+                  主要还是区间 kth 值。。。
+                  <br/>
+                  <a href="http://www.shuizilong.com/house/archives/poj-2104-k-th-number/" target="_blank">
+                   http://www.shuizilong.com/house/archives/poj-2104-k-th-number/
+                  </a>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  这似乎是
+                  <a href="http://www.shuizilong.com/house/archives/zoj-2112-dynamic-rankings/" target="_blank">
+                   http://www.shuizilong.com/house/archives/zoj-2112-dynamic-rankings/
+                  </a>
+                  <br/>
+                  而我已经非常生疏了。。。
+                  <br/>
+                  <br/>
+                  <br/>
+                  1. 线段树（树状数组）套平衡树
+                  <br/>
+                  。。线段树分割区间。。。平衡树记录
+                 </span>
+                 <span style="font-size:14px">
+                  值
+                 </span>
+                 <span style="font-size:14px">
+                  。。。
+                 </span>
+                </div>
+                <div>
+                 <span>
+                  。。每次二分答案。。。每次在平衡树或树状数组中找到对应区间。。。求这些平衡树的 rank 和。。。
+                  <br/>
+                  。。。复杂度是 O(log^3n) 的。。。
+                  <br/>
+                  <br/>
+                  <br/>
+                 </span>
+                 2. 线段树（树状数组）套平衡树
+                 <span>
+                  <br/>
+                  。。线段树分割值域。。。平衡树记录拥有这个
+                 </span>
+                 值域的位置。。。
+                 <br/>
+                 <span>
+                  。。。然后直接 select 第 kth 大。。。 。。。
+                  <br/>
+                  。。。复杂度 O(log^2n)
+                  <br/>
+                  <br/>
+                  <br/>
+                  3. 线段树（树状数组）套主席树
+                  <br/>
+                  和方法 2 一样。。
+                  <br/>
+                  。。。复杂度 O(log^2n)
+                  <br/>
+                  <br/>
+                  <br/>
+                  ——————————————————
+                  <br/>
+                  <a href="http://blog.sina.com.cn/s/blog_6bddecdc0102uzka.html" target="_blank">
+                   http://blog.sina.com.cn/s/blog_6bddecdc0102uzka.html
+                  </a>
+                  <br/>
+                  <a href="http://www.shuizilong.com/house/archives/coci-20112012-round-2/" target="_blank">
+                   http://www.shuizilong.com/house/archives/coci-20112012-round-2/
+                  </a>
+                  <br/>
+                  <br/>
+                  经过一番努力。。。我发现 splay 实现这个东西十分麻烦。。。（插入 / 删除什么的）。。。
+                  <br/>
+                  <a href="https://gist.github.com/lychees/11144aa9eb5250b2b553" target="_blank">
+                   https://gist.github.com/lychees/11144aa9eb5250b2b553
+                  </a>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  三个 namespace;
+                  <br/>
+                  SAM： 后缀自动机
+                  <br/>
+                  SBT：平衡树
+                  <br/>
+                  SGT：线段树。。。
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <div>
+                   //}/* .................................................................................................................................. */
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   const int N = int(4e5) + 9, Z = 26, LV = 20;
+                  </div>
+                  <div>
+                   int L[N],R[N],T[N];int n;
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   namespace SAM{
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   int trans[N][Z], par[N], len[N], tot, tail;
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   #define v trans[u][c]
+                  </div>
+                  <div>
+                   #define p par[u]
+                  </div>
+                  <div>
+                   #define pp par[uu]
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   inline int new_node(){
+                  </div>
+                  <div>
+                   RST(trans[tot]);
+                  </div>
+                  <div>
+                   return tot++;
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   inline int new_node(int u){
+                  </div>
+                  <div>
+                   CPY(trans[tot], trans[u]); par[tot] = par[u];
+                  </div>
+                  <div>
+                   return tot++;
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   inline int h(int u){
+                  </div>
+                  <div>
+                   return len[u] - len[p];
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   int Ext(int c){
+                  </div>
+                  <div>
+                   int u = tail, uu = new_node(); len[uu] = len[u] + 1;
+                  </div>
+                  <div>
+                   while (u &amp;&amp; !v) v = uu, u = p;
+                  </div>
+                  <div>
+                   if (!u &amp;&amp; !v) v = uu, pp = 0;
+                  </div>
+                  <div>
+                   else{
+                  </div>
+                  <div>
+                   if (len[v] == len[u] + 1) pp = v;
+                  </div>
+                  <div>
+                   else{
+                  </div>
+                  <div>
+                   int _v = v, vv = new_node(_v); len[vv] = len[u] + 1; par[_v] = pp = vv;
+                  </div>
+                  <div>
+                   while (u &amp;&amp; v == _v) v = vv, u = p;
+                  </div>
+                  <div>
+                   if (!u &amp;&amp; v == _v) v = vv;
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   return tail = uu;
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   char str[N/2];int prefix[N/2];VI adj[N];int fa[LV][N],L[N],R[N],tt;
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   int Find(int u, int l){
+                  </div>
+                  <div>
+                   u = prefix[u]; DWN(lv, LV, 0){
+                  </div>
+                  <div>
+                   if(len[fa[lv][u]] &gt;= l) u = fa[lv][u];
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   return u;
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   #undef v
+                  </div>
+                  <div>
+                   #define v (*it)
+                  </div>
+                  <div>
+                   void dfs(int u = 0){
+                  </div>
+                  <div>
+                   L[u]=++tt; ECH(it, adj[u]){
+                  </div>
+                  <div>
+                   fa[0][v] = u;
+                  </div>
+                  <div>
+                   FOR(lv, 1, LV) fa[lv][v] = fa[lv-1][fa[lv-1][v]];
+                  </div>
+                  <div>
+                   dfs(v);
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   R[u]=tt;
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   void Init(){
+                  </div>
+                  <div>
+                   tail = tot = 0; new_node();
+                  </div>
+                  <div>
+                   RS(str); n = 0; REP_S(cur, str) prefix[n++] = Ext(*cur-'a');
+                  </div>
+                  <div>
+                   REP(u, tot) adj[u].clear(); FOR(u, 1, tot) adj[p].PB(u),T[u]=0;tt=0,dfs();
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   #undef v
+                  </div>
+                  <div>
+                   #undef p
+                  </div>
+                  <div>
+                   #undef pp
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   namespace SBT{
+                  </div>
+                  <div>
+                   const int NN = N*LV;
+                  </div>
+                  <div>
+                   int c[2][NN], sz[NN], ky[NN], tot;
+                  </div>
+                  <div>
+                   #define lx l[x]
+                  </div>
+                  <div>
+                   #define rx r[x]
+                  </div>
+                  <div>
+                   #define l c[d]
+                  </div>
+                  <div>
+                   #define r c[!d]
+                  </div>
+                  <div>
+                   #define kx ky[x]
+                  </div>
+                  <div>
+                   #define sx sz[x]
+                  </div>
+                  <div>
+                   #define d 0
+                  </div>
+                  <div>
+                   int new_node(int v = 0){
+                  </div>
+                  <div>
+                   int x=++tot;lx=rx=0;
+                  </div>
+                  <div>
+                   sx=1;kx=v;
+                  </div>
+                  <div>
+                   return x;
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   void upd(int x){
+                  </div>
+                  <div>
+                   sx=sz[lx]+1+sz[rx];
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   #undef d
+                  </div>
+                  <div>
+                   void rot(int &amp;x,int d){
+                  </div>
+                  <div>
+                   int y=rx;rx=l[y];l[y]=x;
+                  </div>
+                  <div>
+                   upd(x),upd(y),x=y;
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   void fix(int &amp;x,int d){
+                  </div>
+                  <div>
+                   if (sz[l[lx]] &gt; sz[rx]) rot(x,!d);
+                  </div>
+                  <div>
+                   else{
+                  </div>
+                  <div>
+                   if (sz[r[lx]] &gt; sz[rx]) rot(lx,d),rot(x,!d);
+                  </div>
+                  <div>
+                   else return;
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   d=0,fix(lx,0),fix(rx,1);
+                  </div>
+                  <div>
+                   fix(x,0),fix(x,1);
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   #define d 0
+                  </div>
+                  <div>
+                   void Ins(int &amp;x,int v){
+                  </div>
+                  <div>
+                   if(!x) x = new_node(v);
+                  </div>
+                  <div>
+                   else{
+                  </div>
+                  <div>
+                   ++sz[x]; Ins(c[v&gt;kx][x],v);
+                  </div>
+                  <div>
+                   fix(x,v&gt;=kx);
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   int d_key; void Del(int &amp;x,int v){
+                  </div>
+                  <div>
+                   --sx;if(kx==v||(v&lt;kx&amp;&amp;!lx)||(v&gt;kx&amp;&amp;!rx)){
+                  </div>
+                  <div>
+                   if(!lx||!rx) d_key = kx, x = lx | rx;
+                  </div>
+                  <div>
+                   else Del(lx,v+1), kx = d_key;
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   else Del(c[v&gt;kx][x],v);
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   int Rank(int x,int v){
+                  </div>
+                  <div>
+                   int z=0;while(x){
+                  </div>
+                  <div>
+                   if(kx&lt;v){
+                  </div>
+                  <div>
+                   z+=sz[lx]+1;
+                  </div>
+                  <div>
+                   x=rx;
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   else x=lx;
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   return z;
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   bool Find(int x,int v){
+                  </div>
+                  <div>
+                   if (!x) return 0;if (kx==v) return 1;
+                  </div>
+                  <div>
+                   return Find(c[v&gt;kx][x],v);
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   void Init(){
+                  </div>
+                  <div>
+                   tot = 0;
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   #undef d
+                  </div>
+                  <div>
+                   #undef l
+                  </div>
+                  <div>
+                   #undef r
+                  </div>
+                  <div>
+                   #undef lx
+                  </div>
+                  <div>
+                   #undef rx
+                  </div>
+                  <div>
+                   #undef sx
+                  </div>
+                  <div>
+                   #undef kx
+                  </div>
+                  <div>
+                   };
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   namespace SGT{
+                  </div>
+                  <div>
+                   #define rt 1, 1, n
+                  </div>
+                  <div>
+                   #define lx (x&lt;&lt;1)
+                  </div>
+                  <div>
+                   #define rx (lx|1)
+                  </div>
+                  <div>
+                   #define ml (l+r&gt;&gt;1)
+                  </div>
+                  <div>
+                   #define mr (ml+1)
+                  </div>
+                  <div>
+                   #define lc lx, l, ml
+                  </div>
+                  <div>
+                   #define rc rx, mr, r
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   int T[N*4], p, v;
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   void Build(int x, int l, int r){
+                  </div>
+                  <div>
+                   T[x]=0;if (l&lt;r) Build(lc), Build(rc);
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   void Ins(int x, int l, int r){
+                  </div>
+                  <div>
+                   SBT::Ins(T[x], v);
+                  </div>
+                  <div>
+                   if (l &lt; r){
+                  </div>
+                  <div>
+                   if (p &lt; mr) Ins(lc); else Ins(rc);
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   void Del(int x, int l, int r){
+                  </div>
+                  <div>
+                   SBT::Del(T[x], v);
+                  </div>
+                  <div>
+                   if (l &lt; r){
+                  </div>
+                  <div>
+                   if (p &lt; mr) Del(lc); else Del(rc);
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   void Ins(int _p, int _v){
+                  </div>
+                  <div>
+                   p = _p, v = _v; Ins(rt);
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   void Del(int _p, int _v){
+                  </div>
+                  <div>
+                   p = _p, v = _v; Del(rt);
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   inline int Select(int x,int l,int r,int ll,int rr,int k){
+                  </div>
+                  <div>
+                   #define cnt(x) (SBT::Rank(T[x],rr+1)-SBT::Rank(T[x],ll))
+                  </div>
+                  <div>
+                   while(l &lt; r){
+                  </div>
+                  <div>
+                   if(cnt(lx)&gt;=k){
+                  </div>
+                  <div>
+                   x = lx, r = ml;
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   else
+                  </div>
+                  <div>
+                   {
+                  </div>
+                  <div>
+                   k-=cnt(lx);
+                  </div>
+                  <div>
+                   x = rx, l = mr;
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   return cnt(x)&gt;=k ? l : -1;
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   void Init(){
+                  </div>
+                  <div>
+                   Build(rt);
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   int main(){
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   #ifndef ONLINE_JUDGE
+                  </div>
+                  <div>
+                   //freopen("in.txt", "r", stdin);
+                  </div>
+                  <div>
+                   freopen("1009.in", "r", stdin);
+                  </div>
+                  <div>
+                   //freopen("out2.txt", "w", stdout);
+                  </div>
+                  <div>
+                   #endif
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   //汇编调栈
+                  </div>
+                  <div>
+                   int __size__ = 256 &lt;&lt; 20; // 256MB
+                  </div>
+                  <div>
+                   char *__p__ = (char*)malloc(__size__) + __size__;
+                  </div>
+                  <div>
+                   __asm__("movl %0, %%esp\n" :: "r"(__p__));
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   Rush{
+                  </div>
+                  <div>
+                   printf("Case #%d:\n",++Case);
+                  </div>
+                  <div>
+                   SAM::Init();SBT::Init();SGT::Init();
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   Rush{
+                  </div>
+                  <div>
+                   int t,x,p,k;if(RD(t,x,p)==1){
+                  </div>
+                  <div>
+                   int u=SAM::Find(p,x);if(SBT::Find(T[u],x))continue;
+                  </div>
+                  <div>
+                   SGT::Ins(x,L[u]);SBT::Ins(T[u],x);
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   else if(t==2){
+                  </div>
+                  <div>
+                   int u=SAM::Find(p,x);if(!SBT::Find(T[u],x)) continue;
+                  </div>
+                  <div>
+                   SGT::Del(x,L[u]);SBT::Del(T[u],x);
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   else{
+                  </div>
+                  <div>
+                   int u=SAM::Find(p,x);RD(k)+=SBT::Rank(T[u],x);
+                  </div>
+                  <div>
+                   printf("%d\n", SGT::Select(rt,L[u],R[u],k));
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <span>
+                  </span>
+                 </span>
+                </div>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+               </div>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

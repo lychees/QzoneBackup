@@ -1,0 +1,40 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1402665453,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "妈蛋昨晚点错了手残点450点到了1000的，结果看完觉得不难啊，开始搞，搞完发现看错题，最后1000没过450没看。 ",
+                "capacity": 11958,
+                "poster": {
+                    "id": "403528201",
+                    "platform": 1,
+                    "name": "[scut]aa ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00042c109",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "403528201",
+                            "name": "[scut]aa ",
+                            "platform": 1
+                        },
+                        "content": "话说这个题可以不用LCT，找个最长链出来树状数组搞一搞就行了 ",
+                        "postTime": 1402665481,
+                        "id": 1402665481,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

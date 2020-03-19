@@ -1,0 +1,155 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 5,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1219848680,
+                "effect": 4194336,
+                "replyNum": 1,
+                "content": "你有没有发现.\n你的高一生活从\"[B]因为计算机免试进入理实...\n  开始放弃物理竞赛\"[/B]之后,\n就与我们无关了.. ",
+                "capacity": 12017,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "确实那是一个...转折...\n ",
+                        "postTime": 1219849180,
+                        "id": 1219849180,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1219849065,
+                "effect": 4194336,
+                "replyNum": 1,
+                "content": "生活本就是这样呀\n谁都无法预料下一刻会发生什么\n呃....呃.....呃...\n \n你的高二生活似乎就没有我了吧..[em]e149[/em]\n \n \n邓子珣[em]e175[/em] ",
+                "capacity": 12000,
+                "poster": {
+                    "id": "241721246",
+                    "platform": 1,
+                    "name": "-Zoey-D ",
+                    "emoji": []
+                },
+                "bmp": "18d495a001008121",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "呵呵...怎么会啦～ ",
+                        "postTime": 1219851040,
+                        "id": 1219851040,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1219899248,
+                "effect": 4194336,
+                "replyNum": 2,
+                "content": "无我邪。 ",
+                "capacity": 12071,
+                "poster": {
+                    "id": "838515060",
+                    "platform": 1,
+                    "name": "丶心竞 ",
+                    "emoji": []
+                },
+                "bmp": "38549de0050ec001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "呵呵，因为你和GJ我早就认识了呀～～ ",
+                        "postTime": 1219927430,
+                        "id": 1219927430,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "838515060",
+                            "name": "丶心竞 ",
+                            "platform": 1
+                        },
+                        "content": "[em]e140[/em]???忽忽 ",
+                        "postTime": 1220006637,
+                        "id": 1220006637,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "postTime": 1219973980,
+                "effect": 4194336,
+                "replyNum": 1,
+                "content": "一帆风顺的人生只不过是由许多幸运的巧合构成 ",
+                "capacity": 12099,
+                "poster": {
+                    "id": "307757035",
+                    "platform": 1,
+                    "name": "税子龙 ",
+                    "emoji": []
+                },
+                "bmp": "084195a40000c001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "Really?~ ",
+                        "postTime": 1219989298,
+                        "id": 1219989298,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "postTime": 1219999209,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "还有一次我拉你玩游戏到两点多...\n \n不记得了?...\n 才发现我高一什么都没干.. ",
+                "capacity": 12098,
+                "poster": {
+                    "id": "841623477",
+                    "platform": 1,
+                    "name": "Vicasy ",
+                    "emoji": []
+                },
+                "bmp": "08c1950000008001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

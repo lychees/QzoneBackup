@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1382409117,
+                "effect": 0,
+                "replyNum": 0,
+                "content": " 0 0 ke [pa ",
+                "capacity": 12163,
+                "poster": {
+                    "id": "402701292",
+                    "platform": 1,
+                    "name": "x. ",
+                    "emoji": []
+                },
+                "bmp": "185495a00102e101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1382435541,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "上周才从书上看了伸展书……\n感觉和你们这些ACM 大牛距离好遥远 ",
+                "capacity": 12108,
+                "poster": {
+                    "id": "236632935",
+                    "platform": 1,
+                    "name": "惰性求治 ",
+                    "emoji": []
+                },
+                "bmp": "18c5dd880000c121",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1382447569,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "上周才从书上看了伸展书……感觉和你们这些ACM 大牛距离好遥远 ",
+                "capacity": 12110,
+                "poster": {
+                    "id": "122155302",
+                    "platform": 1,
+                    "name": "木子日匀 ",
+                    "emoji": []
+                },
+                "bmp": "38d40da00102c209",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

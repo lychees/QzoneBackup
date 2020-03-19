@@ -1,0 +1,479 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    SRM 624. 1000
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             SRM 624. 1000
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2014-06-14 13:57:49
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(41)	è¯è®º(0)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1402768669,
+"voteids":0,
+"pubtime":1402768669,
+"replynum":0,
+"category":"个人日记",
+"title":"SRM 624. 1000",
+"effect":8389120,
+"effect2":524294,
+"exblogtype":3,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":81177,
+"lp_style":16843520,
+"lp_flag":0,
+"lp_topvalue":0,
+"orguin":251815992,
+"orgblogid":1402768669,
+"mention_uins":[ ],
+"attach":[],"comments":[]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <div>
+                <a href="https://gist.github.com/lychees/dfb76fbb8ec98fee87f1" target="_blank">
+                 https://gist.github.com/lychees/dfb76fbb8ec98fee87f1
+                </a>
+                <br/>
+                <br/>
+                <br/>
+                Brief description：
+                <br/>
+                <table cellspacing="0" style="font-family:'';word-wrap:break-word;word-break:break-all" width="100%">
+                 <tbody>
+                  <tr bkindex="1" dcount="1">
+                   <td style="font-size:9pt;border:1px solid transparent">
+                    <span style="font-size:14px">
+                     动态维护一个树，支持，将一个点染成蓝色。
+                    </span>
+                    <span style="font-size:14px">
+                     询问 u 点到所有结点到所有蓝色结点的距离和。
+                    </span>
+                   </td>
+                  </tr>
+                 </tbody>
+                </table>
+                <div>
+                 时间只有 4s。。染色只有白色 -&gt; 蓝色，初始都是白色、、
+                </div>
+                <br/>
+                <br/>
+                如果是子树和的话。。就可以直接离线树状数组搞。。但是这个题是所有四周的和。。。。
+                <br/>
+                。。。。似乎可以点分治不过动态树的做法更加直觉。。
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                _________________
+                <br/>
+                <br/>
+                。。。。终于调过了。。。几个月没弄。。。动态树竟变得如此生疏。。
+                <br/>
+                <span>
+                 。。。本地测试的时候需要汇编调栈。。。（但是这段代码似乎必须放在 main() 函数中。。否则直接 RE ？？？）
+                 <br/>
+                 。。。而 TC 是没有 main() 函数的。。不过交上去似乎没错。。看来 TC 栈足够的深。
+                 <br/>
+                 <br/>
+                 <br/>
+                 。（。。比赛时若能用 LCT 全场 A 掉这题。。那将多么华丽！！。。。）
+                 <br/>
+                </span>
+                <span>
+                 <br/>
+                 ————————
+                 <br/>
+                 <br/>
+                 其实就这三行。。唉。。
+                 <br/>
+                 <br/>
+                </span>
+                <span style="font-size:14px">
+                 inline void upd(){
+                </span>
+               </div>
+               <div>
+                sz = l-&gt;sz+c0+r-&gt;sz+_sz, dd = l-&gt;dd+d0+r-&gt;dd;
+               </div>
+               <div>
+                ls = l-&gt;ls+_ls+r-&gt;ls+(l-&gt;dd+d0)*(sz-l-&gt;sz);
+               </div>
+               <div>
+                rs = l-&gt;rs+_ls+r-&gt;rs+r-&gt;dd*(sz-r-&gt;sz)+(LL)d0*l-&gt;sz;
+               </div>
+               <div>
+                }
+                <br/>
+                <span>
+                 <br/>
+                 做法就是三叉动态树。。。。
+                 <br/>
+                 <br/>
+                 <br/>
+                </span>
+                <div>
+                 static node *NIL; node *c[2], *p; int _sz; LL _ls;
+                </div>
+                <div>
+                 int c0, d0, sz; LL dd, ls, rs;
+                 <br/>
+                 <br/>
+                 c0: 是否染色。
+                 <br/>
+                 d0: 到父亲的边权。
+                 <br/>
+                 sz: 子树中包含染色结点的个数。
+                 <br/>
+                 dd:
+                 <span style="font-size:14px">
+                  重
+                 </span>
+                 <span style="font-size:14px">
+                  链的长度。
+                 </span>
+                </div>
+                <div>
+                 <br/>
+                 ls: 左端点出发的距离和
+                 <span style="font-size:14px">
+                  。
+                 </span>
+                </div>
+                <div>
+                 rs: 右端点出发的距离和。
+                 <br/>
+                 <span>
+                  <br/>
+                  _sz: 虚孩子的 sz 和。。。
+                  <br/>
+                  _ls: 虚孩子的 ls 和。。
+                 </span>
+                </div>
+                <span>
+                 <br/>
+                 如果比赛时大脑实在进水。。。不妨先考虑一条链版本的问题。。。
+                 <br/>
+                 （给定一条链，每次 toggle 一个点，询问所有染色点到某个点的距离和 ）
+                 <br/>
+                 （显然我们可以使用 splay 去维护这个问题。。略加思索。。。。upd() 的雏形就有了。。)
+                 <br/>
+                 （。之后把 _sz 和 _ls 一并考虑进来就可以了。。虚孩子的作用和右孩子是一致的。。）
+                 <br/>
+                 <div>
+                  <br/>
+                 </div>
+                </span>
+                <span>
+                 <div>
+                  <span>
+                   询问的时候我们 access() 这个点。。那么它现在就成为一条重链的末尾（右端点）。。
+                   <br/>
+                   <span>
+                    。。因此此时 rs 就是答案。。。
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                   </span>
+                  </span>
+                 </div>
+                </span>
+                <span>
+                 <div>
+                  <span>
+                   <br/>
+                   <br/>
+                   <br/>
+                   <br/>
+                  </span>
+                 </div>
+                 <br/>
+                 <br/>
+                </span>
+               </div>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

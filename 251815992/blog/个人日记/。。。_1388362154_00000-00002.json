@@ -1,0 +1,85 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1388363475,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "求问…这个课教了些什么？下学期选了… ",
+                "capacity": 11913,
+                "poster": {
+                    "id": "124406268",
+                    "platform": 1,
+                    "name": "天天向上. ",
+                    "emoji": []
+                },
+                "bmp": "18d0d5a00100c201",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:124406268,nick:天天向上.,who:1,auto:1}。。教你论文措辞。。。。但老师都是用生物或者工程方面的论文举例子。。实际还没有自己读自己专业的文献有帮助。 ",
+                        "postTime": 1388440910,
+                        "id": 1388440910,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "124406268",
+                            "name": "天天向上. ",
+                            "platform": 1
+                        },
+                        "content": "感谢～ ",
+                        "postTime": 1388450346,
+                        "id": 1388450346,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1388364970,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "[em]e131[/em] ",
+                "capacity": 12153,
+                "poster": {
+                    "id": "911574351",
+                    "platform": 1,
+                    "name": "Yuko丶柚子 ",
+                    "emoji": []
+                },
+                "bmp": "184495800410c821",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1388401360,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "加油，，一定通过 ",
+                "capacity": 12152,
+                "poster": {
+                    "id": "1084081420",
+                    "platform": 1,
+                    "name": "安徽老虎 ",
+                    "emoji": []
+                },
+                "bmp": "88419da00000c101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

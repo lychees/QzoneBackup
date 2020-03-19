@@ -1,0 +1,57 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1269000564,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[ft=#999999,1,]刚刚打个电话过去，是个男的接的，然后三秒就挂了。哎。[/ft] ",
+                "capacity": 12069,
+                "poster": {
+                    "id": "226297033",
+                    "platform": 1,
+                    "name": "尛、胡糊 ",
+                    "emoji": []
+                },
+                "bmp": "28d40de00942c409",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "^  ^... ",
+                        "postTime": 1269004665,
+                        "id": 1269004665,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1269007621,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "师父、好惨唠！我现在也打个过去看看…… ",
+                "capacity": 12129,
+                "poster": {
+                    "id": "923809093",
+                    "platform": 1,
+                    "name": "S。 ",
+                    "emoji": []
+                },
+                "bmp": "18d195a00100c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

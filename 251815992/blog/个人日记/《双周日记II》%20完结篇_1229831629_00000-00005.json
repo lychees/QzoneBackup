@@ -1,0 +1,113 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 6,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1229873865,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "权权整个一唬人，这明明是道数学题... ",
+                "capacity": 12137,
+                "poster": {
+                    "id": "534470369",
+                    "platform": 1,
+                    "name": "张弛 ",
+                    "emoji": []
+                },
+                "bmp": "08d08ca000000428",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1230355214,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "我。 ",
+                "capacity": 12164,
+                "poster": {
+                    "id": "307757035",
+                    "platform": 1,
+                    "name": "税子龙 ",
+                    "emoji": []
+                },
+                "bmp": "084195a40000c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1230360923,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "[B]怎么能做到这么认真的做怎么多事情[/B] ",
+                "capacity": 12125,
+                "poster": {
+                    "id": "173324507",
+                    "platform": 1,
+                    "name": "Groot ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1230365056,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "很有地进来..\n \n发现对于我来说前面部分没有用... ",
+                "capacity": 12127,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1230374507,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "这道题我好像也有碰到。 ",
+                "capacity": 12146,
+                "poster": {
+                    "id": "770976045",
+                    "platform": 1,
+                    "name": "┈┾葬亽 ╄ ",
+                    "emoji": []
+                },
+                "bmp": "18d015a40000c209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 6,
+                "postTime": 1230447406,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "我只能说我智商比不上你们... ",
+                "capacity": 12146,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

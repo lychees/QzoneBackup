@@ -1,0 +1,103 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1436030208,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "书的话。。。线性的问题可以通过指示导向什么的来解决（小时候看过那种按照选项找页书的书），评价机制的话，通过二维码访问网页怎么样。。 ",
+                "capacity": 12038,
+                "poster": {
+                    "id": "418791131",
+                    "platform": 1,
+                    "name": "赵强 ",
+                    "emoji": []
+                },
+                "bmp": "98c095800000e101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1436031481,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "国内cs好书太少。国外原版书又太贵。哎。。 ",
+                "capacity": 12126,
+                "poster": {
+                    "id": "489271171",
+                    "platform": 1,
+                    "name": "突然华尔兹 ",
+                    "emoji": []
+                },
+                "bmp": "18959da00000c201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1436037047,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "Srednicki那本量子场论每章都标上依赖的前面章节号 挺爽的 ",
+                "capacity": 12023,
+                "poster": {
+                    "id": "822060658",
+                    "platform": 1,
+                    "name": "Kanae ",
+                    "emoji": []
+                },
+                "bmp": "18d09da00002a309",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:822060658,nick:Kanae,who:1,auto:1}Mark ... ",
+                        "postTime": 1436038314,
+                        "id": 1436038314,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "postTime": 1436087936,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "不是有向无环图？ ",
+                "capacity": 12066,
+                "poster": {
+                    "id": "790188351",
+                    "platform": 1,
+                    "name": "鶸鶸鶸鶸鶸 ",
+                    "emoji": []
+                },
+                "bmp": "18d49d8000000301",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:790188351,nick:鶸鶸鶸鶸鶸,auto:1} 是哦。 ",
+                        "postTime": 1436088704,
+                        "id": 1436088704,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

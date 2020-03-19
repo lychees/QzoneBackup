@@ -1,0 +1,40 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1382143261,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "splay能持续化么 ",
+                "capacity": 11981,
+                "poster": {
+                    "id": "865319505",
+                    "platform": 1,
+                    "name": "Error202 ",
+                    "emoji": []
+                },
+                "bmp": "08c09d800000c020",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:865319505,nick:Error202,who:1,auto:1}splay 不能使用 link path 策略进行持续化。因为同一颗坏的子树会被使用多次。使得均摊分析失效。 ",
+                        "postTime": 1382146965,
+                        "id": 1382146965,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

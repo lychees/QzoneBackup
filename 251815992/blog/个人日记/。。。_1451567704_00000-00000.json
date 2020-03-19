@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1451579381,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "每次都是看不懂又很厉害的样子的大段说说 ",
+                "capacity": 12130,
+                "poster": {
+                    "id": "540399122",
+                    "platform": 1,
+                    "name": "游奇阿飞[em]e327977[/em]z[em]e257921[/em] ",
+                    "emoji": []
+                },
+                "bmp": "085195ac00020201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

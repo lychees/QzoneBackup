@@ -1,0 +1,113 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 6,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1280276972,
+                "effect": 1048576,
+                "replyNum": 0,
+                "content": "哈尔滨啊？。。。 ",
+                "capacity": 12155,
+                "poster": {
+                    "id": "443164766",
+                    "platform": 1,
+                    "name": "\"zrp\" ",
+                    "emoji": []
+                },
+                "bmp": "088094a10000c301",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1280295343,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]哈尔滨火车站。。。[/ft]\n[ft=,2,]我老家[/ft] ",
+                "capacity": 12115,
+                "poster": {
+                    "id": "102897108",
+                    "platform": 1,
+                    "name": " Alex ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00100e009",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1280383359,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]我宁可相信你死了，也不相信你把我忘了！！[/ft] ",
+                "capacity": 12112,
+                "poster": {
+                    "id": "675215297",
+                    "platform": 1,
+                    "name": "赫敏 格兰杰 ",
+                    "emoji": []
+                },
+                "bmp": "18409c0000008001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1280486374,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]这么早就去了[/ft] ",
+                "capacity": 12139,
+                "poster": {
+                    "id": "41537583",
+                    "platform": 1,
+                    "name": "槑狼 ",
+                    "emoji": []
+                },
+                "bmp": "18d195a041008101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1280587464,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]要我坐火车去哈尔滨，估计我会跳车的！！！[/ft] ",
+                "capacity": 12114,
+                "poster": {
+                    "id": "226297033",
+                    "platform": 1,
+                    "name": "尛、胡糊 ",
+                    "emoji": []
+                },
+                "bmp": "28d40de00942c409",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 6,
+                "postTime": 1280651081,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=#9900ff,2,]不知道赫敏为何留言的内容是那样……[/ft]\n[ft=#9900ff,2,]先祝福一下吧……[/ft] ",
+                "capacity": 12075,
+                "poster": {
+                    "id": "784237318",
+                    "platform": 1,
+                    "name": "叙眄 ",
+                    "emoji": []
+                },
+                "bmp": "585095a00102c009",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

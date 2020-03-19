@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1289414621,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "... ",
+                "capacity": 12169,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1298884593,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]就这么晒聊天记录。。。。。。[/ft] ",
+                "capacity": 12127,
+                "poster": {
+                    "id": "578559967",
+                    "platform": 1,
+                    "name": " 忍的阵雨 ",
+                    "emoji": []
+                },
+                "bmp": "18c49da40100c101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1388103183,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "221吧 ",
+                "capacity": 12163,
+                "poster": {
+                    "id": "593572013",
+                    "platform": 1,
+                    "name": "wuyiqi ",
+                    "emoji": []
+                },
+                "bmp": "98d095800000c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1388103686,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "211 orz ",
+                "capacity": 12163,
+                "poster": {
+                    "id": "441748146",
+                    "platform": 1,
+                    "name": "lirau ",
+                    "emoji": []
+                },
+                "bmp": "185495a001008109",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1388137521,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "哇。Chinese round真是有趣啊 ",
+                "capacity": 12144,
+                "poster": {
+                    "id": "1595007850",
+                    "platform": 1,
+                    "name": "法海 ",
+                    "emoji": []
+                },
+                "bmp": "18c19d800200c201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1388137812,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "D是一个log的呀0 0 ",
+                "capacity": 12147,
+                "poster": {
+                    "id": "410644548",
+                    "platform": 1,
+                    "name": "ztxz16 ",
+                    "emoji": []
+                },
+                "bmp": "98d015a00000c201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

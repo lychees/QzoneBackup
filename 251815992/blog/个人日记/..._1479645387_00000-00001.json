@@ -1,0 +1,69 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1479650996,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "搂校长头摔了一下，合肥话233 ",
+                "capacity": 12051,
+                "poster": {
+                    "id": "953357213",
+                    "platform": 1,
+                    "name": "蒟蒻 ",
+                    "emoji": []
+                },
+                "bmp": "18d18d800102c201",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:953357213,nick:蒟蒻,who:1,auto:1}哈哈哈哈哈哈哈 ",
+                        "postTime": 1479651427,
+                        "id": 1479651427,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1479656019,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "100,100,973,672 ",
+                "capacity": 12054,
+                "poster": {
+                    "id": "450978053",
+                    "platform": 1,
+                    "name": "Sd.无心插柳 ",
+                    "emoji": []
+                },
+                "bmp": "18d1d5800000c001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:450978053,nick:Sd.无心插柳,who:1,auto:1}=  ??? ",
+                        "postTime": 1479845558,
+                        "id": 1479845558,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

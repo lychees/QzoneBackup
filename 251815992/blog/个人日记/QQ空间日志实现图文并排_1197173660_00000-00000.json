@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1197176413,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "呵呵 这个我会\n \n不过你真的挺聪明的 ",
+                "capacity": 12139,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

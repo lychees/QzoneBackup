@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1202574113,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "\nsf... ",
+                "capacity": 12167,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1202574148,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "郁闷中. ",
+                "capacity": 12166,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1202607854,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "\n[B]我的键盘已经一片模糊了..[/B]\n \n[B]不知道是不是它们流的眼泪....[/B]\n \n[B]呵呵[/B] ",
+                "capacity": 12081,
+                "poster": {
+                    "id": "284293874",
+                    "platform": 1,
+                    "name": "孟修竹 ",
+                    "emoji": []
+                },
+                "bmp": "08d40da80102c109",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1512466292,
+                "postTime": 1512466292,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "岛娘你也开始玩BTC了？ ",
+                "capacity": 12146,
+                "poster": {
+                    "id": "513548138",
+                    "platform": 1,
+                    "name": "MacleChen ",
+                    "emoji": []
+                },
+                "bmp": "18d195800002e201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

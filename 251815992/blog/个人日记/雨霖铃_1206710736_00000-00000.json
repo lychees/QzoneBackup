@@ -1,0 +1,40 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1206786646,
+                "effect": 4194336,
+                "replyNum": 1,
+                "content": "自己写的吧。。不错啊~那为什么还要去理科实验班？？\n浪费了~\n可惜了~\n21世纪又少了个天才诗人。。。\n唉~\n莫大的悲哀~ ",
+                "capacity": 12054,
+                "poster": {
+                    "id": "122698324",
+                    "platform": 1,
+                    "name": "张晓晨 ",
+                    "emoji": []
+                },
+                "bmp": "18d19560010e8009",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "...# ",
+                        "postTime": 0,
+                        "id": 0,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

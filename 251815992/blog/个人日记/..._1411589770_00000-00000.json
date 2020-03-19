@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1411601917,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "弱弱的问句你们不睡觉的吗。 ",
+                "capacity": 12142,
+                "poster": {
+                    "id": "435082156",
+                    "platform": 1,
+                    "name": "起风了 ",
+                    "emoji": []
+                },
+                "bmp": "584095a80802c121",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1449057962,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "a怎么dp啊？岛娘 [em]e400832[/em] ",
+                "capacity": 12144,
+                "poster": {
+                    "id": "2408669054",
+                    "platform": 1,
+                    "name": " ",
+                    "emoji": []
+                },
+                "bmp": "88508d800202c101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

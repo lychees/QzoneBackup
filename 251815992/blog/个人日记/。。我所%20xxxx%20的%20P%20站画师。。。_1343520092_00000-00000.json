@@ -1,0 +1,40 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 2,
+                "postTime": 1343530469,
+                "effect": 32,
+                "replyNum": 1,
+                "content": ".....好久不见.....\n话说，楼上。。。。。 ",
+                "capacity": 12073,
+                "poster": {
+                    "id": "1303552653",
+                    "platform": 1,
+                    "name": "赫敏·格兰杰 ",
+                    "emoji": []
+                },
+                "bmp": "18909da00608c209",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "... 好久不见。。 ",
+                        "postTime": 1343546900,
+                        "id": 1343546900,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

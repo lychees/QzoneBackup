@@ -1,0 +1,188 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 9,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1492847725,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "带菜鸡吗[em]e154[/em] ",
+                "capacity": 11978,
+                "poster": {
+                    "id": "362755766",
+                    "platform": 1,
+                    "name": "[em]e257871[/em]快楽埖生℡[em]e258679[/em]   ",
+                    "emoji": []
+                },
+                "bmp": "18d595a00102c101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:362755766,nick:[em]e257871[/em]快楽埖生℡[em]e258679[/em]  ,who:1,auto:1}我就是菜鸡 ",
+                        "postTime": 1492848615,
+                        "id": 1492848615,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1492848236,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "现在。。还能报名吗 ",
+                "capacity": 12058,
+                "poster": {
+                    "id": "417672621",
+                    "platform": 1,
+                    "name": "vicious ",
+                    "emoji": []
+                },
+                "bmp": "18d195a401028229",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:417672621,nick:vicious,who:1,auto:1}24 截止 ",
+                        "postTime": 1492848603,
+                        "id": 1492848603,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1492849022,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "要是在THU比赛。。我可能能充数吧 ",
+                "capacity": 12138,
+                "poster": {
+                    "id": "417672621",
+                    "platform": 1,
+                    "name": "vicious ",
+                    "emoji": []
+                },
+                "bmp": "18d195a401028229",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1492854757,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "来我HLJU校赛，[em]e248[/em] ",
+                "capacity": 12140,
+                "poster": {
+                    "id": "9304893",
+                    "platform": 1,
+                    "name": "绿色夹克泪 ",
+                    "emoji": []
+                },
+                "bmp": "08900dc00012c121",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1492856510,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "你去单挑呀 ",
+                "capacity": 12159,
+                "poster": {
+                    "id": "785535171",
+                    "platform": 1,
+                    "name": "Jの星愿 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a40100a201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 6,
+                "postTime": 1492864741,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "最佳女队！ ",
+                "capacity": 12164,
+                "poster": {
+                    "id": "1554577057",
+                    "platform": 1,
+                    "name": "其他猫做得到嘛？ ",
+                    "emoji": []
+                },
+                "bmp": "585095800202c401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 7,
+                "postTime": 1492868372,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "[em]e139[/em] ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "569620205",
+                    "platform": 1,
+                    "name": " [ ccnu ] Tmono ",
+                    "emoji": []
+                },
+                "bmp": "58d08da8000ec209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 8,
+                "postTime": 1492872767,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "THU校赛何时开 ",
+                "capacity": 12154,
+                "poster": {
+                    "id": "513548138",
+                    "platform": 1,
+                    "name": "MacleChen ",
+                    "emoji": []
+                },
+                "bmp": "18d195800002e201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 9,
+                "postTime": 1492878908,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "去solo\n ",
+                "capacity": 12160,
+                "poster": {
+                    "id": "397427019",
+                    "platform": 1,
+                    "name": " ",
+                    "emoji": []
+                },
+                "bmp": "18809da40102c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

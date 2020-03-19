@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1453692606,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "。。。 ",
+                "capacity": 12162,
+                "poster": {
+                    "id": "25241274",
+                    "platform": 1,
+                    "name": "七星瓢虫 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00000e101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1453881621,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "噗哈哈哈 ",
+                "capacity": 12168,
+                "poster": {
+                    "id": "550111434",
+                    "platform": 1,
+                    "name": "EL10-39M ",
+                    "emoji": []
+                },
+                "bmp": "1881d5ac4100d420",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

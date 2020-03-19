@@ -1,0 +1,418 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    【四省赛】凸包问题
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             【四省赛】凸包问题
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2014-06-09 19:03:34
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(90)	è¯è®º(0)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1402355014,
+"voteids":0,
+"pubtime":1402355014,
+"replynum":0,
+"category":"个人日记",
+"title":"【四省赛】凸包问题",
+"effect":8389121,
+"effect2":524294,
+"exblogtype":3,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":81177,
+"lp_style":16843520,
+"lp_flag":0,
+"lp_topvalue":0,
+"orguin":251815992,
+"orgblogid":1402355014,
+"mention_uins":[ ],
+"attach":[],"comments":[]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <div>
+                <br/>
+                。。。
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <span>
+                 <img alt="图片" src="http://a4.qpic.cn/psb?/a7723d22-15e1-452d-817f-ed63333f3d7d/OoVlFUZE3qk7hL3jrI6mvIG9i8ePkQJwvsOIGt1wrFk!/b/dGu7U6ZqIQAA&amp;ek=1&amp;kp=1&amp;pt=0&amp;bo=nQKKAQAAAAABADM!&amp;t=5&amp;tl=3&amp;su=0109299505&amp;tm=1584572400&amp;sce=0-12-12&amp;rf=2-9" style="width:669px;height:394px"/>
+                 <br/>
+                 <span>
+                  <br/>
+                  <br/>
+                  <br/>
+                  。。。。你看到的这个是我人肉搬运下来的以前的 blog 的存档。。。原数据在一次服务器故障中全部丢失了。。。。
+                  <br/>
+                  。。。（当然现在不会再发生那种情况了。。）
+                  <br/>
+                  <br/>
+                  。。。很多博文我觉得过于没有营养。。或者缺少整理。。就弃掉了。。（但是果然我仍然需要时不时去 revise 他们、。）
+                  <br/>
+                  <br/>
+                  <br/>
+                  <img alt="图片" src="http://a3.qpic.cn/psb?/a7723d22-15e1-452d-817f-ed63333f3d7d/d3Nkt2iS.C6Bk.itS69BuDDuhDeJJaFWgBfczeXOcQE!/b/dJugtqUPIgAA&amp;ek=1&amp;kp=1&amp;pt=0&amp;bo=tgE2AQAAAAABAKc!&amp;t=5&amp;tl=3&amp;su=051688577&amp;tm=1584572400&amp;sce=0-12-12&amp;rf=2-9" style="width:438px;height:310px"/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  （23333 若不是我现在手速太慢。、、、怎能让你们在我的地盘儿逞凶、、、。。）
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  首先这张列表上现在。。。要多一个问题了、、。。给定 n 个点（n = 200）和一个坏点。
+                  <br/>
+                  从这 n 个点中选出一些点，构成一个包含这个坏点的凸包。。。使得面积最大。
+                  <br/>
+                  <br/>
+                  <br/>
+                  这个问题可以用上面的问题 1 解决。。。
+                  <br/>
+                  而这个问题 1 就是。。。
+                  <br/>
+                  <br/>
+                  <br/>
+                 </span>
+                </span>
+                <img alt="图片" src="http://a4.qpic.cn/psb?/a7723d22-15e1-452d-817f-ed63333f3d7d/3h0UEBkIgsLGO2UFN5WtQ5bhI0xGBkbeVQJzxX0yO7o!/b/dK8nUqaSHgAA&amp;ek=1&amp;kp=1&amp;pt=0&amp;bo=7wKFAQAAAAABAE4!&amp;t=5&amp;tl=3&amp;su=035945729&amp;tm=1584572400&amp;sce=0-12-12&amp;rf=2-9" style="width:751px;height:389px"/>
+                <span>
+                 <span>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  这是一道 USACO GOLD 金组题。。。被原封不动的用在（如果我没记错的）前年的 HLJ 省赛中。。（但是那场我似乎因为父母的原因没有参加）。。。后来有人问我的时候我去补掉了。。
+                  <br/>
+                  <br/>
+                  <a href="http://www.lydsy.com/JudgeOnline/problem.php?id=1591" target="_blank">
+                   http://www.lydsy.com/JudgeOnline/problem.php?id=1591
+                  </a>
+                  <br/>
+                  <br/>
+                  当年这道题还不是权限狗题。。我是抄了一遍官方题解给出的 DP 过掉的。。。但是这篇官方题解写的非常 Nice。。
+                  <br/>
+                  （这个题同样出现在了 zej 的论文中。。不过使用的是截然不同的方法）。。。
+                  <br/>
+                  <br/>
+                  <br/>
+                  。。。。原题的做法是。O(n) 枚举左端点。。
+                  <br/>
+                  。。每次做二维 DP[][] 记录这个凸壳的末尾两个端点。。。转移从 o，i 枚举。。。。。
+                  <br/>
+                  。。。然后利用一种神奇的方法（改变规划方向 + 记忆化搜索。。）可以将转移优化到 O(1)。。。
+                  <br/>
+                  <br/>
+                  <br/>
+                  。。。。这个题唯一的不同。。。。。。
+                  <br/>
+                  。。。几乎没有不同。。。你把 checkMax 函数改成求面积。。。多加一维。。记录坏点是否被覆盖就行了。
+                  <br/>
+                  <br/>
+                  <br/>
+                  <div>
+                   <br/>
+                  </div>
+                  <br/>
+                  <img alt="图片" src="http://a4.qpic.cn/psb?/a7723d22-15e1-452d-817f-ed63333f3d7d/aUFbUGJYq.9gJyZSW2ATlDC3dLewF.GWjEhIwh.f0cs!/b/dB.yUKY2IAAA&amp;ek=1&amp;kp=1&amp;pt=0&amp;bo=egI6AwAAAAABAGY!&amp;t=5&amp;tl=3&amp;su=0268200097&amp;tm=1584572400&amp;sce=0-12-12&amp;rf=2-9" style="width:634px;height:826px"/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  原题虽然打不开了。。。但是我当年 debug 留下的 Cena Package 居然还能打开。。
+                  <br/>
+                  。。。这个英文题解网上一搜应该到处都是。。。。
+                  <br/>
+                  <br/>
+                  <a href="http://www.shuizilong.com/house/wp-content/uploads/2011/08/BZOJ-1591.-Usaco2008-DecLargest-Fence.zip" target="_blank">
+                   http://www.shuizilong.com/house/wp-content/uploads/2011/08/BZOJ-1591.-Usaco2008-DecLargest-Fence.zip
+                  </a>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                 </span>
+                </span>
+                <br/>
+                <br/>
+               </div>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

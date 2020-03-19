@@ -1,0 +1,57 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1207324073,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "[ffg,#00ffff,#ffffff]I believe[/ft] ",
+                "capacity": 12137,
+                "poster": {
+                    "id": "837785710",
+                    "platform": 1,
+                    "name": "李雪莹 ",
+                    "emoji": []
+                },
+                "bmp": "18d01da40000c129",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1207373445,
+                "effect": 4194336,
+                "replyNum": 1,
+                "content": "[B][ft=#6633ff,,]耍我~[/ft][/B] ",
+                "capacity": 12139,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "... ",
+                        "postTime": 0,
+                        "id": 0,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

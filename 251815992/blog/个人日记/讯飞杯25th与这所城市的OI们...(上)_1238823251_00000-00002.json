@@ -1,0 +1,85 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1238855870,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "毫无意义。。。 ",
+                "capacity": 12068,
+                "poster": {
+                    "id": "474697421",
+                    "platform": 1,
+                    "name": "朱明琪 ",
+                    "emoji": []
+                },
+                "bmp": "18d195a000028209",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "...顺便完成了一件增加RP的事情#24 ",
+                        "postTime": 1238936385,
+                        "id": 1238936385,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "474697421",
+                            "name": "朱明琪 ",
+                            "platform": 1
+                        },
+                        "content": "我今天公交让座了 ",
+                        "postTime": 1238936476,
+                        "id": 1238936476,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1239429099,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[B]张志刚是出面了[/B]\n[B]但是教具局的人就是不给我改[/B]\n[B]说是1程序不能改2评测系统不能改[/B]\n[B]只能复测[/B]\n[B]所以还是没有解决[/B] ",
+                "capacity": 12037,
+                "poster": {
+                    "id": "420836131",
+                    "platform": 1,
+                    "name": "doc ",
+                    "emoji": []
+                },
+                "bmp": "18d025a00000e101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1239448817,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "...... ",
+                "capacity": 12166,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,106 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1381887751,
+                "effect": 1056,
+                "replyNum": 7,
+                "content": "。。这个哪里保持平衡了。。 ",
+                "capacity": 11404,
+                "poster": {
+                    "id": "935099327",
+                    "platform": 1,
+                    "name": "不愿透露姓名的 ",
+                    "emoji": []
+                },
+                "bmp": "08c09d2000000001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "365273817",
+                            "name": "Picks ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:935099327,nick:不愿透露姓名的,who:1,auto:1}0.0Treap不是重量平衡吗… ",
+                        "postTime": 1381899197,
+                        "id": 1381899197,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "935099327",
+                            "name": "不愿透露姓名的 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:365273817,nick:Picks,who:1,auto:1}。。可是这个我代码没有堆的关键字啊。。 ",
+                        "postTime": 1381900548,
+                        "id": 1381900548,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "365273817",
+                            "name": "Picks ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:935099327,nick:不愿透露姓名的,who:1,auto:1}0.0没有仔细看不好意思…… ",
+                        "postTime": 1381901038,
+                        "id": 1381901038,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "365273817",
+                            "name": "Picks ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:935099327,nick:不愿透露姓名的,who:1,auto:1}这个代码ww不是关键字吗0.0…(也有可能是我看错了… ",
+                        "postTime": 1381901137,
+                        "id": 1381901137,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "935099327",
+                            "name": "不愿透露姓名的 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:365273817,nick:Picks,who:1,auto:1}哎。。好像有key2。。那key的比较呢。。。QaQ ",
+                        "postTime": 1381901765,
+                        "id": 1381901765,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "365273817",
+                            "name": "Picks ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:935099327,nick:不愿透露姓名的,who:1,auto:1}在fhq式写法的treap中(我一般这么叫…)，在split和merge时其实有维护树形态的…\n多看看…？ ",
+                        "postTime": 1381905869,
+                        "id": 1381905869,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "935099327",
+                            "name": "不愿透露姓名的 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:365273817,nick:Picks,who:1,auto:1}TAT ",
+                        "postTime": 1381906136,
+                        "id": 1381906136,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

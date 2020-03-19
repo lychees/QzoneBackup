@@ -1,0 +1,182 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 6,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1285649005,
+                "effect": 1056,
+                "replyNum": 4,
+                "content": "把补码原码之类的知识发给我邮箱 ",
+                "capacity": 11836,
+                "poster": {
+                    "id": "276500942",
+                    "platform": 1,
+                    "name": "酒仙 ",
+                    "emoji": []
+                },
+                "bmp": "b8c1dda00102e229",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "514370796",
+                            "name": "百公里 ",
+                            "platform": 1
+                        },
+                        "content": "最近上课我一直在纠结这个东西。。。 ",
+                        "postTime": 1285673406,
+                        "id": 1285673406,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "276500942",
+                            "name": "酒仙 ",
+                            "platform": 1
+                        },
+                        "content": "就是机器储存数据的方式问题   只是有人问我我没资料不好说   死小岛都不吱一声 ",
+                        "postTime": 1285674378,
+                        "id": 1285674378,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "514370796",
+                            "name": "百公里 ",
+                            "platform": 1
+                        },
+                        "content": "我上课跟听天书样。。。p都听不懂。。。 ",
+                        "postTime": 1285675037,
+                        "id": 1285675037,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "http://www.shuizilong.com/house/archives/1568   @ leone 你不会自己百度啊。。。 ",
+                        "postTime": 1285727218,
+                        "id": 1285727218,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1285649253,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "长点记性别再乱丢东西了诶 ",
+                "capacity": 12144,
+                "poster": {
+                    "id": "229496537",
+                    "platform": 1,
+                    "name": "Kb ",
+                    "emoji": []
+                },
+                "bmp": "18d195a001028401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1285688698,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "做事情不要慌 ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "985061865",
+                    "platform": 1,
+                    "name": "姑姑 ",
+                    "emoji": []
+                },
+                "bmp": "184195a100004301",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1285727153,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "呵呵 长记性啊 ",
+                "capacity": 12161,
+                "poster": {
+                    "id": "87974035",
+                    "platform": 1,
+                    "name": "Be ",
+                    "emoji": []
+                },
+                "bmp": "0894d4a00040e101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1285816287,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "写作水平已经掉到小学一年级了……… ",
+                "capacity": 12101,
+                "poster": {
+                    "id": "515016441",
+                    "platform": 1,
+                    "name": "时 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a40102c929",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "。。。我靠。。 ",
+                        "postTime": 1285847996,
+                        "id": 1285847996,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "postTime": 1285949472,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "用什么再上课的时侯上 pixiv 临摹铅笔画？。。\n\n好羡慕........（于是我打定主意今天要把这里所有的日志翻一遍...... ",
+                "capacity": 12022,
+                "poster": {
+                    "id": "1461414926",
+                    "platform": 1,
+                    "name": "森 ",
+                    "emoji": []
+                },
+                "bmp": "18409d8002004101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": " . .. . .   . .... ",
+                        "postTime": 1286301704,
+                        "id": 1286301704,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

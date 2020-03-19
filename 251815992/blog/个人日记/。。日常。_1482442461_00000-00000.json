@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1482471747,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "md大家都是这样的啊 ",
+                "capacity": 12151,
+                "poster": {
+                    "id": "632863440",
+                    "platform": 1,
+                    "name": "李超 ",
+                    "emoji": []
+                },
+                "bmp": "18c19ca00000c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

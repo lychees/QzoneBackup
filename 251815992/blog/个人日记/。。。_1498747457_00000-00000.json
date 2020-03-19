@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1498754357,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "盐老师公司的魔都分部？ ",
+                "capacity": 12148,
+                "poster": {
+                    "id": "594837346",
+                    "platform": 1,
+                    "name": "CCG成员 ",
+                    "emoji": []
+                },
+                "bmp": "18c095a00102c481",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

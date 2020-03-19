@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1293189419,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]坐个沙发[/ft]\n[ft=,2,]岛[/ft]\n[ft=,2,]开心点……[/ft] ",
+                "capacity": 12105,
+                "poster": {
+                    "id": "784237318",
+                    "platform": 1,
+                    "name": "叙眄 ",
+                    "emoji": []
+                },
+                "bmp": "585095a00102c009",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

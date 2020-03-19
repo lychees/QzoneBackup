@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 2,
+                "postTime": 1410526809,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "L是poj/usaco的原题，直接在poj搜题号就能找到.... ",
+                "capacity": 12123,
+                "poster": {
+                    "id": "497778632",
+                    "platform": 1,
+                    "name": "Ronnoc ",
+                    "emoji": []
+                },
+                "bmp": "48801d8000004001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

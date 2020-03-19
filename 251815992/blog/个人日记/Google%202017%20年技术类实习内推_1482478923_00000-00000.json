@@ -1,0 +1,40 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1482479419,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "咦没有18届的本科生嘛？ ",
+                "capacity": 12042,
+                "poster": {
+                    "id": "736726758",
+                    "platform": 1,
+                    "name": "[scut18] 龙 ",
+                    "emoji": []
+                },
+                "bmp": "189095000000a021",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:736726758,nick:[scut18] 龙,who:1,auto:1}fulltime 还没开始。 ",
+                        "postTime": 1482483464,
+                        "id": 1482483464,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

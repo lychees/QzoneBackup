@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1198942242,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "再一次，晕... ",
+                "capacity": 12160,
+                "poster": {
+                    "id": "534470369",
+                    "platform": 1,
+                    "name": "张弛 ",
+                    "emoji": []
+                },
+                "bmp": "08d08ca000000428",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1199030000,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "来踩你的空间了~我的空间也很漂亮，欢迎回踩。\n\n推荐一款编辑图片和视频的软件，希望对你装扮\n\n漂亮空间有帮助。\n\n点击下面的连接就可以了..欢迎交流..\n\n ",
+                "capacity": 12021,
+                "poster": {
+                    "id": "103631583",
+                    "platform": 1,
+                    "name": "哆啦 ",
+                    "emoji": []
+                },
+                "bmp": "1851ada00102c409",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

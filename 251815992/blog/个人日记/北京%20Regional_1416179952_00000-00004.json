@@ -1,0 +1,120 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 5,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1416182803,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "考据到1977好可怕ヽ(；▽；)ノ ",
+                "capacity": 12140,
+                "poster": {
+                    "id": "446079414",
+                    "platform": 1,
+                    "name": "旺仔嚎婆婆 ",
+                    "emoji": []
+                },
+                "bmp": "38449da00000c201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1416182923,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "mb。 ",
+                "capacity": 12164,
+                "poster": {
+                    "id": "568778055",
+                    "platform": 1,
+                    "name": "123456 ",
+                    "emoji": []
+                },
+                "bmp": "18d09da00100c221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1416183629,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "某一个group拼错了... ",
+                "capacity": 12064,
+                "poster": {
+                    "id": "286830682",
+                    "platform": 1,
+                    "name": "MetTheSoul ",
+                    "emoji": []
+                },
+                "bmp": "08d49de0000c8221",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:286830682,nick:MetTheSoul,who:1,auto:1}fixed\n ",
+                        "postTime": 1416183667,
+                        "id": 1416183667,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "postTime": 1416189808,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "岛君难道是没有奥利奥队？ ",
+                "capacity": 12101,
+                "poster": {
+                    "id": "489271171",
+                    "platform": 1,
+                    "name": "突然华尔兹 ",
+                    "emoji": []
+                },
+                "bmp": "18959da00000c201",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "Saki。 ",
+                        "postTime": 1416189845,
+                        "id": 1416189845,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "postTime": 1416193199,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "为队友准备的题目单，，可以求一下吗0 0 ",
+                "capacity": 12129,
+                "poster": {
+                    "id": "1597119500",
+                    "platform": 1,
+                    "name": "[hnu]喵帕斯 ",
+                    "emoji": []
+                },
+                "bmp": "0814958002024201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

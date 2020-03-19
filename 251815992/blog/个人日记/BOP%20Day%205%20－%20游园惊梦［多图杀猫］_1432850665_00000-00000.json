@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1432858126,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "老司机！唷唷 ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "978632333",
+                    "platform": 1,
+                    "name": "特种兵-何骐 ",
+                    "emoji": []
+                },
+                "bmp": "98c09da00002e121",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

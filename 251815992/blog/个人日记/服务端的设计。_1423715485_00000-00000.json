@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1423715847,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "脑洞越来越大了…… ",
+                "capacity": 12148,
+                "poster": {
+                    "id": "285102305",
+                    "platform": 1,
+                    "name": "cannot ",
+                    "emoji": []
+                },
+                "bmp": "988095a50000c029",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

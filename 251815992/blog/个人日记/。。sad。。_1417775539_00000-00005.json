@@ -1,0 +1,113 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 6,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1417776745,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "抱抱 ",
+                "capacity": 12156,
+                "poster": {
+                    "id": "784237318",
+                    "platform": 1,
+                    "name": "叙眄 ",
+                    "emoji": []
+                },
+                "bmp": "585095a00102c009",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1417777102,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "抚摸 ",
+                "capacity": 12164,
+                "poster": {
+                    "id": "529520158",
+                    "platform": 1,
+                    "name": "雪人墙 ",
+                    "emoji": []
+                },
+                "bmp": "18d08da00802c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1417777127,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "mac丢机房一学期是厉害 ",
+                "capacity": 12147,
+                "poster": {
+                    "id": "529520158",
+                    "platform": 1,
+                    "name": "雪人墙 ",
+                    "emoji": []
+                },
+                "bmp": "18d08da00802c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1417777931,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "简直可怕…… ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "494611539",
+                    "platform": 1,
+                    "name": "KID ",
+                    "emoji": []
+                },
+                "bmp": "18d49da00100e201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1417779999,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "主楼机房的话是有监控的，到底有没有正常工作就不清楚了 ",
+                "capacity": 12120,
+                "poster": {
+                    "id": "657021262",
+                    "platform": 1,
+                    "name": "LOCK ",
+                    "emoji": []
+                },
+                "bmp": "08d19da00102a121",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 6,
+                "postTime": 1417793543,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "没事 你支付宝一万多呢 不怕 ",
+                "capacity": 12135,
+                "poster": {
+                    "id": "911574351",
+                    "platform": 1,
+                    "name": "Yuko丶柚子 ",
+                    "emoji": []
+                },
+                "bmp": "184495800410c821",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

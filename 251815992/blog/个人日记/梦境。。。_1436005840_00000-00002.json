@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1436006127,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "我觉得你应该冷静一下。。 ",
+                "capacity": 12142,
+                "poster": {
+                    "id": "2830264590",
+                    "platform": 1,
+                    "name": "Farewell. ",
+                    "emoji": []
+                },
+                "bmp": "080094800200c401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1436009124,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "我觉得你需要给我加个buff ",
+                "capacity": 12142,
+                "poster": {
+                    "id": "470967221",
+                    "platform": 1,
+                    "name": "自闭 ",
+                    "emoji": []
+                },
+                "bmp": "18c19d800102c120",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1436022740,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "永远不离像素 ",
+                "capacity": 12156,
+                "poster": {
+                    "id": "25241274",
+                    "platform": 1,
+                    "name": "七星瓢虫 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00000e101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

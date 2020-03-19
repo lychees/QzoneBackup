@@ -1,0 +1,79 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1403263648,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "加油，相信你可以的 ",
+                "capacity": 12154,
+                "poster": {
+                    "id": "250640000",
+                    "platform": 1,
+                    "name": "淡乐 ",
+                    "emoji": []
+                },
+                "bmp": "18d48de00102c401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1403265368,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "你太牛了 ",
+                "capacity": 12160,
+                "poster": {
+                    "id": "623770784",
+                    "platform": 1,
+                    "name": "混沌星海 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00100e281",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1403267677,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "跟kuangbin要名额 ",
+                "capacity": 12152,
+                "poster": {
+                    "id": "593572013",
+                    "platform": 1,
+                    "name": "wuyiqi ",
+                    "emoji": []
+                },
+                "bmp": "98d095800000c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1403271387,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "我也打不成了~(>_<)~ ",
+                "capacity": 12139,
+                "poster": {
+                    "id": "604195710",
+                    "platform": 1,
+                    "name": "liouzhou_101 ",
+                    "emoji": []
+                },
+                "bmp": "08c1942000008001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

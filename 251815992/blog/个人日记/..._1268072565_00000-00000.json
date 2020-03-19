@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1268100435,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]感觉正弦函数就可以解决了[/ft] ",
+                "capacity": 12136,
+                "poster": {
+                    "id": "583029995",
+                    "platform": 1,
+                    "name": "UCSB门将死忠！ ",
+                    "emoji": []
+                },
+                "bmp": "18d00da40102d109",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

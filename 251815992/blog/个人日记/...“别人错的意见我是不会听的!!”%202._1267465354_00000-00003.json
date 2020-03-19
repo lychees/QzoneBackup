@@ -1,0 +1,79 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1267507736,
+                "effect": 1048576,
+                "replyNum": 0,
+                "content": "....原来猫同学也是你徒弟啊 ",
+                "capacity": 12144,
+                "poster": {
+                    "id": "443164766",
+                    "platform": 1,
+                    "name": "\"zrp\" ",
+                    "emoji": []
+                },
+                "bmp": "088094a10000c301",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1267532147,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,][em]e154[/em]liang ge shi fu [/ft] ",
+                "capacity": 12128,
+                "poster": {
+                    "id": "1393904777",
+                    "platform": 1,
+                    "name": "猫猫 ",
+                    "emoji": []
+                },
+                "bmp": "08809c2002008001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1267550590,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]....#[/ft] ",
+                "capacity": 12149,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1267835760,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]长头发的她。。。女鬼？[/ft] ",
+                "capacity": 12136,
+                "poster": {
+                    "id": "114099336",
+                    "platform": 1,
+                    "name": "光禾 ",
+                    "emoji": []
+                },
+                "bmp": "18d094a50000c401",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

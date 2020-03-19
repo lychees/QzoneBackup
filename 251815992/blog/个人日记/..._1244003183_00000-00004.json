@@ -1,0 +1,96 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 5,
+        "comments": [
+            {
+                "id": 5,
+                "postTime": 1244470643,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "const\n   mm=720;\n   nn=6;\ntype\n   int=longint;\n   arr=array[1..nn] of int;\n   rec=record\n     data:array[1..mm] of arr;\n     len:int; tot:int;\n   end;\nvar\n   a,b:rec; n,i:int;\nprocedure print(a:rec);\nvar i,j:int;\nbegin\n   with a do begin\n     for i:=1 to tot do\n     begin\n       for j:=1 to len-1 do\n         write(data[I],' ');\n       writeln(data[I]);\n     end;\n   end;\nend;\nfunction consititute(depth:int):rec;\nvar  a,b:rec;\n     i,j,k,t:int;\n     function insert:arr;\n     var c:arr;\n         t:int;\n     begin\n       fillchar(c,sizeof(c),0);\n       for t:=1 to j-1 do\n         c[t]:=b.data[I];\n       c[j]:=a.len;\n       for t:=j+1 to a.len do\n         c[t]:=b.data[I];\n       exit(c);\n     end;\nbegin\n   fillchar(a,sizeof(a),0);\n   a.len:=depth;\n   if a.len=1 then begin\n     a.data[1,1]:=1;\n     a.tot:=1;\n   end\n   else begin\n     b:=consititute(depth-1);\n     a.tot:=b.tot*a.len;\n     t:=0;\n   for i:=1 to b.tot do\n       for j:=1 to a.len do\n       begin\n         inc(t);\n         for k:=1 to b.len do\n           if b.data[I]>=j then a.data[t,k]:=b.data[I]+1\n                             else a.data[t,k]:=b.data[I];\n         a.data[t,a.len]:=j;\n       end;\n   end;\n   exit(a);\nend;\nbegin\n   readln(n);\n   print(consititute(n));\n   readln(n)\nend.[/I][/I][/I][/I][/I][/I][/I] ",
+                "capacity": 10894,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 6,
+                "postTime": 1244522826,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "program vijos1551;\nconst\n  nn=200; mm=nn*nn;\n  inf=mm+nn;\ntype\n  int=longint;\nvar\n  p:array[0..nn,0..mm] of boolean;\n  d:array[1..nn,0..mm] of int;\n  a,b:array[1..nn] of int;\n  c:array[1..nn] of boolean;\n  n,m:int; ans:int;\nfunction min(a,b:int):int;\nbegin\n  if a<b then exit(a)\n         else exit(b);\nend;\nfunction max(a,b:int):int;\nbegin\n  if a>b then exit(a)\n         else exit(b);\nend;\nprocedure exchange(i,j:int);\nvar k:int;\nbegin\n  k:=a[I];a[I]:=a[j];a[j]:=k;\n  k:=b[I];b[I]:=b[j];b[j]:=k;\nend;\nprocedure init;\nvar i,j:int;\nbegin\n  readln(n);\n  for i:=1 to n do\n  begin\n    readln(a[I],b[I]);\n    inc(m,a[I]);\n  end;\n  for i:=1 to n-1 do\n    for j:=i+1 to n do\n      if b[I]<b[j] then exchange(i,j);\n  for i:=0 to n do\n    for j:=0 to m do\n      d[I]:=inf;\n  d[0,0]:=0;\nend;\nprocedure solve;\nvar\n  i,j,k:int;\n  q1,q2:int; e2:int;\nbegin\n  for i:=1 to n do\n  begin\n    for j:=m downto a[I] do\n    begin\n      d[I]:=min(d[I],max(d[I]],j+b[I]));\n      if d[I]<>d[I] then p[I]:=true;\n    end;\n    for j:=a[I]-1 downto 0 do\n      d[I]:=d[I];\n  end;\n  \n  ans:=inf;\n  for j:=0 to m do\n  begin\n    q1:=d[n,j]; q2:=0; e2:=0; k:=j;\n    fillchar(c,sizeof(c),false);\n    for i:=n downto 1 do\n    begin\n      if not p[I] then c[I]:=true\n                    else dec(k,a[I]);\n    end;\n    \n    for i:=1 to n do\n      if c[I] then begin\n        inc(q2,a[I]);\n        e2:=max(e2,q2+b[I]);\n      end;\n    q2:=max(q2,e2);\n    \n    // writeln(j,' ',q1,' ',q2,' ',q3);\n    ans:=min(ans,max(q1,q2));\n    //if q2<q1 then exit;\n  end;\nend;\nbegin\n  init; solve;\n  writeln(ans);\n  readln(n)\nend.[/I][/I][/I][/I][/I][/I][/I][/I][/I][/I][/I][/I][/I][/I][/I][/I][/I][/I][/I][/I][/I][/I][/I][/I][/I][/I] ",
+                "capacity": 10547,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 7,
+                "postTime": 1244523190,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "program vijos1551;\nconst\n  nn=200; mm=nn*nn;\n  inf=mm+nn;\n  orz=20000;\ntype\n  int=longint;\nvar\n  d:array[0..orz,0..orz] of int;\n  a,b:array[1..nn] of int;\n  n,m:int; ans:int;\nfunction min(a,b:int):int;\nbegin\n  if a<b then exit(a)\n         else exit(b);\nend;\nfunction max(a,b:int):int;\nbegin\n  if a>b then exit(a)\n         else exit(b);\nend;\nprocedure exchange(i,j:int);\nvar k:int;\nbegin\n  k:=a[I];a[I]:=a[j];a[j]:=k;\n  k:=b[I];b[I]:=b[j];b[j]:=k;\nend;\nprocedure init;\nvar i,j:int;\nbegin\n  readln(n);\n  for i:=1 to n do\n  begin\n    readln(a[I],b[I]);\n    inc(m,a[I]);\n  end;\n  for i:=1 to n-1 do\n    for j:=i+1 to n do\n      if b[I]<b[j] then exchange(i,j);\n  for i:=0 to m do\n    for j:=0 to m do\n      d[I]:=inf;\n  d[0,0]:=0;\nend;\nprocedure solve;\nvar i,j,k:int;\nbegin\n  for i:=1 to n do\n    for j:=m downto 0 do\n      for k:=m downto 0 do\n      begin\n        if j>=a[I] then\n          d[j,k]:=min(d[j,k],max(d[j-a[I],k],j+b[I]));\n        if k>=a[I] then\n          d[j,k]:=min(d[j,k],max(d[j,k-a[I]],k+b[I]));\n      end;\n  ans:=inf;\n  for j:=0 to m do\n  begin\n    k:=m-j;\n    ans:=min(ans,d[j,k]);\n  end;\nend;\nbegin\n  init; solve;\n  writeln(ans);\n  readln(n)\nend.[/I][/I][/I][/I][/I][/I][/I][/I][/I][/I][/I][/I][/I][/I][/I] ",
+                "capacity": 10991,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 8,
+                "postTime": 1244523493,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "program vijos1551;\nconst\n  nn=200; mm=nn*nn;\n  inf=mm+nn;\ntype\n  int=longint;\nvar\n  d:array[0..mm,0..mm] of int;\n  a,b:array[1..nn] of int;\n  n,m:int; ans:int;\nfunction min(a,b:int):int;\nbegin\n  if a<b then exit(a)\n         else exit(b);\nend;\nfunction max(a,b:int):int;\nbegin\n  if a>b then exit(a)\n         else exit(b);\nend;\nprocedure exchange(i,j:int);\nvar k:int;\nbegin\n  k:=a[I];a[I]:=a[j];a[j]:=k;\n  k:=b[I];b[I]:=b[j];b[j]:=k;\nend;\nprocedure init;\nvar i,j:int;\nbegin\n  readln(n);\n  for i:=1 to n do\n  begin\n    readln(a[I],b[I]);\n    inc(m,a[I]);\n  end;\n  for i:=1 to n-1 do\n    for j:=i+1 to n do\n      if b[I]<b[j] then exchange(i,j);\n  for i:=0 to m do\n    for j:=0 to m do\n      d[I]:=inf;\n  d[0,0]:=0;\nend;\nprocedure solve;\nvar i,j,k:int;\nbegin\n  for i:=1 to n do\n    for j:=m downto 0 do\n      for k:=m downto 0 do\n      begin\n        if j>=a[I] then\n          d[j,k]:=min(d[j,k],max(d[j-a[I],k],j+b[I]));\n        if k>=a[I] then\n          d[j,k]:=min(d[j,k],max(d[j,k-a[I]],k+b[I]));\n      end;\n  ans:=inf;\n  for j:=0 to m do\n  begin\n    k:=m-j;\n    ans:=min(ans,d[j,k]);\n  end;\nend;\nbegin\n  init; solve;\n  writeln(ans);\n  readln(n)\nend.[/I][/I][/I][/I][/I][/I][/I][/I][/I][/I][/I][/I][/I][/I][/I] ",
+                "capacity": 11006,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 10,
+                "postTime": 1244525762,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "program vijos1037_2;\nconst\n  nmax=100;\n  mmax=2000;\n  infinity=mmax;\ntype\n  int=longint;\nvar\n dp:array[0..1,0..mmax] of int;\n  A:array[1..nmax] of int;\n  n,m,i,j,k:int;\n  p,q:int;\n  \nfunction max(a,b:int):int;\nbegin\n  if a>b then exit(a)\n         else exit(b);\nend;\nbegin\n  readln(n);\n  for i:=1 to n do\n  begin\n    read(A[I]);\n    inc(m,A[I]);\n  end;m:=m div 2;\n  for i:=0 to 1 do\n    for j:=0 to m do\n    dp[I]:=-infinity;\n  dp[0,0]:=0;p:=0;\n  \n  for i:=1 to n do\n  begin\n    q:=p;p:=1-p;\n    for j:=0 to m do\n    begin\n      dp[p,j]:=dp[q,j];\n      if j-A[I]>=0 then dp[p,j]:=max(dp[p,j],dp[q,j-A[I]]);\n      if j+A[I]<=m then dp[p,j]:=max(dp[p,j],dp[q,j+A[I]]+A[I]);\n      if A[I]-j>=0 then dp[p,j]:=max(dp[p,j],dp[q,A[I]-j]+A[I]-j);\n    end;\n  end;\n  if dp[p,0]=0 then writeln('Impossible')\n               else writeln(dp[p,0]);\n  readln(n);\nend.[/I][/I][/I][/I][/I][/I][/I][/I][/I][/I][/I] ",
+                "capacity": 11307,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            }
+        ]
+    }
+}

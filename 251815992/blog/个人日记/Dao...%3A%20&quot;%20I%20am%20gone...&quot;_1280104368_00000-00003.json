@@ -1,0 +1,79 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1280105118,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "哈,沙发 ",
+                "capacity": 12167,
+                "poster": {
+                    "id": "1252959374",
+                    "platform": 1,
+                    "name": "肥猫 ",
+                    "emoji": []
+                },
+                "bmp": "0880940002000001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1280119840,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]那张是男孩女孩？是你吗？[em]e132[/em][/ft] ",
+                "capacity": 12116,
+                "poster": {
+                    "id": "102897108",
+                    "platform": 1,
+                    "name": " Alex ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00100e009",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1280135513,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]回楼上。。男的。。[/ft] ",
+                "capacity": 12142,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1280142340,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]你要去哪？[/ft] ",
+                "capacity": 12149,
+                "poster": {
+                    "id": "799745573",
+                    "platform": 1,
+                    "name": "MaKi ",
+                    "emoji": []
+                },
+                "bmp": "18409c8000004401",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

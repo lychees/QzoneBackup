@@ -1,0 +1,125 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1381447552,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "又挖坑 ",
+                "capacity": 12162,
+                "poster": {
+                    "id": "10848584",
+                    "platform": 1,
+                    "name": "主席 ",
+                    "emoji": []
+                },
+                "bmp": "0880dd8000000221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1381460081,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "花擦这是什么黑科技 ",
+                "capacity": 11989,
+                "poster": {
+                    "id": "935099327",
+                    "platform": 1,
+                    "name": "不愿透露姓名的 ",
+                    "emoji": []
+                },
+                "bmp": "08c09d2000000001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "489271171",
+                            "name": "突然华尔兹 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:935099327,nick:不愿透露姓名的,auto:1} 杨芳芳也认识岛娘？ ",
+                        "postTime": 1381460393,
+                        "id": 1381460393,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "935099327",
+                            "name": "不愿透露姓名的 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:489271171,nick:突然华尔兹,who:1,auto:1}QAQ ",
+                        "postTime": 1381464220,
+                        "id": 1381464220,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1381460354,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "和sam有啥区别qaq ",
+                "capacity": 11986,
+                "poster": {
+                    "id": "935099327",
+                    "platform": 1,
+                    "name": "不愿透露姓名的 ",
+                    "emoji": []
+                },
+                "bmp": "08c09d2000000001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "10848584",
+                            "name": "主席 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:935099327,nick:不愿透露姓名的,auto:1} 娘化sam ",
+                        "postTime": 1381482005,
+                        "id": 1381482005,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "935099327",
+                            "name": "不愿透露姓名的 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:10848584,nick:主席,who:1,auto:1}。。长着仙人掌的sam。。 ",
+                        "postTime": 1381492372,
+                        "id": 1381492372,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "postTime": 1381474305,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "Orz！ ",
+                "capacity": 12157,
+                "poster": {
+                    "id": "403528201",
+                    "platform": 1,
+                    "name": "[scut]aa ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00042c109",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

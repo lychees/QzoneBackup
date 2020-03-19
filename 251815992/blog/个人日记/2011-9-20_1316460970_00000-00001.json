@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1316479233,
+                "effect": 1048576,
+                "replyNum": 0,
+                "content": "钢炼... ",
+                "capacity": 12164,
+                "poster": {
+                    "id": "443164766",
+                    "platform": 1,
+                    "name": "\"zrp\" ",
+                    "emoji": []
+                },
+                "bmp": "088094a10000c301",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1316705204,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]简洁...[/ft] ",
+                "capacity": 12150,
+                "poster": {
+                    "id": "1185442737",
+                    "platform": 1,
+                    "name": "幻影射手 ",
+                    "emoji": []
+                },
+                "bmp": "18959d800000d401",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

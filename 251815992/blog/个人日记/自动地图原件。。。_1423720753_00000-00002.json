@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1423726209,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "可以让她参考一个游戏的风格 ",
+                "capacity": 12142,
+                "poster": {
+                    "id": "418615910",
+                    "platform": 1,
+                    "name": "特种兵3-郭泽晖 ",
+                    "emoji": []
+                },
+                "bmp": "18c49d8800009401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1423732858,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "我也想做游戏[em]e328557[/em] ",
+                "capacity": 12134,
+                "poster": {
+                    "id": "8644325",
+                    "platform": 1,
+                    "name": "死月·吃圡蕾特 ",
+                    "emoji": []
+                },
+                "bmp": "18518da805128101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1423738022,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "听说MC的地图是通过插值生成的。岛娘可以试试类似思路。 ",
+                "capacity": 12114,
+                "poster": {
+                    "id": "489271171",
+                    "platform": 1,
+                    "name": "突然华尔兹 ",
+                    "emoji": []
+                },
+                "bmp": "18959da00000c201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

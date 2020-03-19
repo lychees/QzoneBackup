@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1280713854,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]看来sugar老湿在那边挺给力的嘛[/ft] ",
+                "capacity": 12125,
+                "poster": {
+                    "id": "226297033",
+                    "platform": 1,
+                    "name": "尛、胡糊 ",
+                    "emoji": []
+                },
+                "bmp": "28d40de00942c409",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1280730712,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "[ft=,2,]最好明白一点，是哈工大，容易给人搞误会啊[/ft] ",
+                "capacity": 12115,
+                "poster": {
+                    "id": "515016441",
+                    "platform": 1,
+                    "name": "时 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a40102c929",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

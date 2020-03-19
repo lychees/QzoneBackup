@@ -1,0 +1,79 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1222997664,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "11： 把奇数位的数的和减去偶数位的和（谁减谁无所谓）得到的数是11的整数倍或0（其实也是11的倍数啦）就说明可以被11整除。 ",
+                "capacity": 12056,
+                "poster": {
+                    "id": "534470369",
+                    "platform": 1,
+                    "name": "张弛 ",
+                    "emoji": []
+                },
+                "bmp": "08d08ca000000428",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1222997726,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "9：把所有数加起来看是不是9的整数倍 ",
+                "capacity": 12138,
+                "poster": {
+                    "id": "534470369",
+                    "platform": 1,
+                    "name": "张弛 ",
+                    "emoji": []
+                },
+                "bmp": "08d08ca000000428",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1222997760,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "7：我忘了......用计算器试吧 ",
+                "capacity": 12145,
+                "poster": {
+                    "id": "534470369",
+                    "platform": 1,
+                    "name": "张弛 ",
+                    "emoji": []
+                },
+                "bmp": "08d08ca000000428",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1223129312,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "[M][B]睽倒[/B][/M]\n ",
+                "capacity": 12146,
+                "poster": {
+                    "id": "173324507",
+                    "platform": 1,
+                    "name": "Groot ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

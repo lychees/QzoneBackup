@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1507881830,
+                "postTime": 1507881830,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "大佬\n啥是srm  百度没有。。 ",
+                "capacity": 12134,
+                "poster": {
+                    "id": "908642712",
+                    "platform": 1,
+                    "name": "pontus ",
+                    "emoji": []
+                },
+                "bmp": "18549da00102c0a1",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

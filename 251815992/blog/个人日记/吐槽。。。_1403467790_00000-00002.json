@@ -1,0 +1,85 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1403483356,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "想去么？ ",
+                "capacity": 12001,
+                "poster": {
+                    "id": "593572013",
+                    "platform": 1,
+                    "name": "wuyiqi ",
+                    "emoji": []
+                },
+                "bmp": "98d095800000c101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:593572013,nick:wuyiqi,who:1,auto:1} 不屑 ",
+                        "postTime": 1403483619,
+                        "id": 1403483619,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "513621014",
+                            "name": "HandIeNeeded ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:593572013,nick:wuyiqi,who:1,auto:1} 想去！ ",
+                        "postTime": 1403493182,
+                        "id": 1403493182,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1403508344,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "→_→哪里的妹纸 ",
+                "capacity": 12156,
+                "poster": {
+                    "id": "365273817",
+                    "platform": 1,
+                    "name": "Picks ",
+                    "emoji": []
+                },
+                "bmp": "18c095800002c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1403509295,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "唐飞虎。avi。。。 ",
+                "capacity": 12151,
+                "poster": {
+                    "id": "2942228678",
+                    "platform": 1,
+                    "name": "青城烟雨 ",
+                    "emoji": []
+                },
+                "bmp": "08109d800200e020",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

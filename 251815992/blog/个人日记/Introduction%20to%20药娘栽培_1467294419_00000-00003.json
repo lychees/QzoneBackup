@@ -1,0 +1,79 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1467295577,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "善良可爱的岛老师！ ",
+                "capacity": 12150,
+                "poster": {
+                    "id": "594837346",
+                    "platform": 1,
+                    "name": "CCG成员 ",
+                    "emoji": []
+                },
+                "bmp": "18c095a00102c481",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1467341834,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "这是研究药娘心理学？ ",
+                "capacity": 12145,
+                "poster": {
+                    "id": "529003192",
+                    "platform": 1,
+                    "name": "【XDU】数学lover ",
+                    "emoji": []
+                },
+                "bmp": "18d19dac09828909",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1467430277,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "好想来围观 ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "25241274",
+                    "platform": 1,
+                    "name": "七星瓢虫 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00000e101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1467470374,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "原来豆浆不富含雌激素呀。。。 ",
+                "capacity": 12145,
+                "poster": {
+                    "id": "785044754",
+                    "platform": 1,
+                    "name": "管清文 ",
+                    "emoji": []
+                },
+                "bmp": "18c095800000c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

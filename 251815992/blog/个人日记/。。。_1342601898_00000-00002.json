@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1343654374,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "求[ft=#545454,,tahoma, microsoft yahei]Continue。。。[/ft] ",
+                "capacity": 12107,
+                "poster": {
+                    "id": "122155302",
+                    "platform": 1,
+                    "name": "木子日匀 ",
+                    "emoji": []
+                },
+                "bmp": "38d40da00102c209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1343654431,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "。。。OOOOOOrz。。。可持续化数据结构真神了。。。 ",
+                "capacity": 12120,
+                "poster": {
+                    "id": "122155302",
+                    "platform": 1,
+                    "name": "木子日匀 ",
+                    "emoji": []
+                },
+                "bmp": "38d40da00102c209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1343655622,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "xiaodao犇要入坑了.. ",
+                "capacity": 12151,
+                "poster": {
+                    "id": "10848584",
+                    "platform": 1,
+                    "name": "主席 ",
+                    "emoji": []
+                },
+                "bmp": "0880dd8000000221",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

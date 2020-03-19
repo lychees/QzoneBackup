@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1465665586,
+                "effect": 1056,
+                "replyNum": 3,
+                "content": "并不是每次随机扩展一个点。。。 ",
+                "capacity": 11700,
+                "poster": {
+                    "id": "306233006",
+                    "platform": 1,
+                    "name": "konjac_wqs ",
+                    "emoji": []
+                },
+                "bmp": "0880950400008001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:306233006,nick:konjac_wqs,auto:1} 那个定义比较麻烦= =。。。我后来记了每个子数的 size。。。每次展开。。按个数扔进一个 vector 里。。再随机取出来。。。最后只能跑 10000 次。。。 ",
+                        "postTime": 1465665654,
+                        "id": 1465665654,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "306233006",
+                            "name": "konjac_wqs ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1}我是合并的。。。10000次跑不出，只能跑5000次 ",
+                        "postTime": 1465665727,
+                        "id": 1465665727,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "306233006",
+                            "name": "konjac_wqs ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1}第一次time expired了。。。 ",
+                        "postTime": 1465665760,
+                        "id": 1465665760,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

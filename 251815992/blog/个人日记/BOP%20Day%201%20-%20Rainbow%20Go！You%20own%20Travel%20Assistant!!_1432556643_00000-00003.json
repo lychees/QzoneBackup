@@ -1,0 +1,102 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1432557914,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "看到w3c就點進來了 ",
+                "capacity": 12151,
+                "poster": {
+                    "id": "397427019",
+                    "platform": 1,
+                    "name": " ",
+                    "emoji": []
+                },
+                "bmp": "18809da40102c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1432558592,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "这个很不错啊，小岛用过没？ ",
+                "capacity": 12142,
+                "poster": {
+                    "id": "835485368",
+                    "platform": 1,
+                    "name": "软饭-熊熊 ",
+                    "emoji": []
+                },
+                "bmp": "18d4cde40902e201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1432613262,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "我表示手机没法看 ",
+                "capacity": 12152,
+                "poster": {
+                    "id": "835485368",
+                    "platform": 1,
+                    "name": "软饭-熊熊 ",
+                    "emoji": []
+                },
+                "bmp": "18d4cde40902e201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1432616160,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "三天后 之类的时间词好像不支持。 ",
+                "capacity": 11912,
+                "poster": {
+                    "id": "489271171",
+                    "platform": 1,
+                    "name": "突然华尔兹 ",
+                    "emoji": []
+                },
+                "bmp": "18959da00000c201",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:489271171,nick:突然华尔兹,who:1,auto:1}太多了。。一大堆 if else 要写啊＝ ＝ ",
+                        "postTime": 1432626659,
+                        "id": 1432626659,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "489271171",
+                            "name": "突然华尔兹 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,auto:1} 我最初也以为AI是靠一大堆if..else来实现的…… ",
+                        "postTime": 1432626855,
+                        "id": 1432626855,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

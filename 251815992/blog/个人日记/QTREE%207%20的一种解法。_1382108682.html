@@ -1,0 +1,648 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    QTREE 7 的一种解法。
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             QTREE 7 的一种解法。
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2013-10-18 11:04:42
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(133)	è¯è®º(1)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1382108682,
+"voteids":0,
+"pubtime":1382108682,
+"replynum":1,
+"category":"个人日记",
+"title":"QTREE 7 的一种解法。",
+"effect":512,
+"effect2":524294,
+"exblogtype":0,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":0,
+"lp_style":0,
+"lp_flag":0,
+"orguin":251815992,
+"orgblogid":1382108682,
+"mention_uins":[ ],
+"attach":[],"comments":[{"id":1,
+"postTime":1382109178,
+"effect":1024,
+"replyNum":0,
+"content":"。。。太神了 orz ",
+"capacity":12150,
+"poster":{
+"id":"191318138",
+"platform":1,
+"name":"跪RZ ",
+"emoji":[ ]}
+,
+"bmp":"18c09d800002e121",
+"ismyreply":0,
+"replies":[]}]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <div>
+                <span style="font-family:'Times New Roman'">
+                 <br/>
+                 <br/>
+                 向动态树发明人 yangzhe1990 致敬！。
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 You are given a tree (an acyclic undirected connected graph) with n nodes. The tree nodes are numbered from 1 to n.
+                </span>
+                <br/>
+               </div>
+               <span style="font-family:'Times New Roman'">
+                Each node has a color, white or black, and a weight.
+               </span>
+               <br style="font-family:'Times New Roman'"/>
+               <span style="font-family:'Times New Roman'">
+                We will ask you to perfrom some instructions of the following form:
+               </span>
+               <br style="font-family:'Times New Roman'"/>
+               <strong style="font-family:'Times New Roman'">
+                0 u
+               </strong>
+               <span style="font-family:'Times New Roman'">
+                : ask for the maximum weight among the nodes which are connected to u, two nodes are connected if all the node on the path from u to v (inclusive u and v) have a same color.
+               </span>
+               <br style="font-family:'Times New Roman'"/>
+               <strong style="font-family:'Times New Roman'">
+                1 u
+               </strong>
+               <span style="font-family:'Times New Roman'">
+                : toggle the color of u(that is, from black to white, or from white to black).
+               </span>
+               <br style="font-family:'Times New Roman'"/>
+               <strong style="font-family:'Times New Roman'">
+                2 u w
+               </strong>
+               <span style="font-family:'Times New Roman'">
+                : change the weight of u to w.
+                <br/>
+                <span>
+                 <br/>
+                </span>
+               </span>
+               <a href="http://acm.hdu.edu.cn/showproblem.php?pid=4645" target="_blank">
+                http://acm.hdu.edu.cn/showproblem.php?pid=4645
+               </a>
+               <br/>
+               <span style="font-family:'Times New Roman'">
+                <span>
+                 <br/>
+                 <br/>
+                 这个题涉及动态树的子树求 min 操作。。不妨先考虑子树求和。。。QTREE 6.。。
+                 <br/>
+                 。。。
+                 <br/>
+                 <div>
+                  。。给定 n 个结点的黑白树。。初始颜色给定。。支持以下操作
+                 </div>
+                 <div>
+                  0. 询问与某个结点颜色相同的连通块的大小。。（就是 dfs() 进去染色。。。看和他颜色相同的有多少个点。。。
+                 </div>
+                 <div>
+                  1. 单点颜色 toggle
+                  <br/>
+                  <span>
+                   <br/>
+                   <br/>
+                  </span>
+                  <span style="font-family:Arial">
+                   我们对每个节点建立两个辅助节点。。
+                  </span>
+                  <span style="font-family:Arial">
+                   分别连接它的所有黑孩子和所有白孩子。。。
+                  </span>
+                  <span>
+                   <br/>
+                  </span>
+                 </div>
+                </span>
+               </span>
+               <div>
+                每个节点的父亲指针指向它的父亲对应颜色的辅助节点。。
+                <span style="font-family:'Times New Roman'">
+                 这样 Toggle 的复杂度就和结点的度数
+                </span>
+                <span>
+                 无关了。。
+                 <br/>
+                 <span>
+                  。
+                 </span>
+                </span>
+                <span>
+                 。
+                </span>
+                <span>
+                 于是每次修改 Cut、Link 两次即可。。。
+                 <br/>
+                 <span>
+                  <br/>
+                  这样就是每个结点要分出三个结点（其本身（实）。以及黑 / 白。(虚）。虚结点不存结点本身的信息。。。
+                  <br/>
+                  。。进一步我们每个结点建两 黑/白 两个实结点就行了。。
+                  <br/>
+                  这样每次修改。只需要 Cut、Link 各一次。。。（但修改的时候要改两个了。。。
+                  <br/>
+                  <br/>
+                  <br/>
+                  对于 QTREE 6 我们每个结点维护其子树的和。。。每次 Cut / Link 都是只对这个结点到根的路径产生影响。。
+                  <br/>
+                  所以用标准的 LCT 就可以解决。。
+                  <br/>
+                  <br/>
+                  ——————
+                  <br/>
+                  <br/>
+                  再回到 QTREE 7 。。。存在一种非常好写的处理子树的方法。。。每个结点我们直接存一个 multiset&lt;int&gt; s; 。。
+                  <br/>
+                  保存其子树中（所有虚孩子）的信息。。。
+                  <br/>
+                  <br/>
+                  <br/>
+                  那么 upd 操作现在写作。。
+                  <br/>
+                  <br/>
+                  <div>
+                   inline void upd(){
+                  </div>
+                  <div>
+                   w1 = max(l-&gt;w1, w0, r-&gt;w1, *s.rbegin());
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <br/>
+                  。。。注意 acs() 的时候维护 s 即可。。
+                  <br/>
+                  <br/>
+                  <div>
+                   inline node* acs(){
+                  </div>
+                  <div>
+                   node *x = this, *y = NIL; do{
+                  </div>
+                  <div>
+                   x-&gt;splay();
+                  </div>
+                  <div>
+                   if (y != NIL) x-&gt;s.erase(y-&gt;w1);
+                  </div>
+                  <div>
+                   if (rx != NIL) x-&gt;s.insert(rx-&gt;w1);
+                  </div>
+                  <div>
+                   rx = y, x-&gt;upd();
+                  </div>
+                  <div>
+                   y = x, x = px;
+                  </div>
+                  <div>
+                   } while (x != NIL);
+                  </div>
+                  <div>
+                   return y;
+                  </div>
+                  <div>
+                   }
+                   <br/>
+                   <br/>
+                   <br/>
+                   然后 cut / link 的时候也需要维护。。
+                   <br/>
+                   <br/>
+                   <div>
+                    void cut(node *x){
+                   </div>
+                   <div>
+                    x-&gt;acss(); splay();
+                   </div>
+                   <div>
+                    x-&gt;s.erase(w1); p = NIL;
+                   </div>
+                   <div>
+                    }
+                   </div>
+                   <div>
+                    <br/>
+                   </div>
+                   <div>
+                    void link(node *x){
+                   </div>
+                   <div>
+                    x-&gt;acss(); splay(); //assert(p == NIL);
+                   </div>
+                   <div>
+                    p = x; p-&gt;s.insert(w1); p-&gt;upd();
+                   </div>
+                   <div>
+                    }
+                   </div>
+                   <span>
+                    <br/>
+                    ————————————————
+                    <br/>
+                    <br/>
+                    几乎就是在 LCT 的基础上做很少的改动。。。。复杂度大概是 O(nlog^2n)。。。
+                    <br/>
+                    但是实践中确是最好写。速度也最快的方法。。。
+                   </span>
+                   <span>
+                    。。。（四叉动态树居然就被这样虐爆了？。）
+                    <br/>
+                    <br/>
+                    <br/>
+                   </span>
+                   <br/>
+                  </div>
+                  --- UPD ---
+                  <br/>
+                  <span>
+                   修复QTREE5 文
+                  </span>
+                 </span>
+                </span>
+                <span style="font-size:14px">
+                 中所提到的 bug
+                </span>
+                <span style="font-size:14px">
+                </span>
+                <span style="font-size:14px">
+                </span>
+                <span style="font-size:14px">
+                 <a href="http://user.qzone.qq.com/251815992/blog/1383678643" target="_blank">
+                  http://user.qzone.qq.com/251815992/blog/1383678643
+                 </a>
+                </span>
+               </div>
+               <div>
+                （erase 的问题）。。。
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <span>
+                 。。。并且对 link/cut 函数做了一定修改。。。。。
+                 <br/>
+                 <br/>
+                 原先是。。。
+                 <br/>
+                 <div>
+                  void link(node *x){
+                 </div>
+                 <div>
+                  splay(); x-&gt;acs();
+                 </div>
+                 <div>
+                  p = x; p-&gt;s.insert(w1);
+                 </div>
+                 <div>
+                  }
+                  <br/>
+                  <span>
+                  </span>
+                 </div>
+                </span>
+                <span style="font-size:14px">
+                 void cut(node *x){
+                </span>
+               </div>
+               <div>
+                x-&gt;acs(); splay(); x-&gt;s.erase(w1); p = NIL;
+               </div>
+               <div>
+                }
+                <br/>
+                <span>
+                 <br/>
+                 改成了。。。
+                 <br/>
+                 <br/>
+                 <div>
+                  void link(node *x){
+                 </div>
+                 <div>
+                  splay(); x-&gt;acs();
+                 </div>
+                 <div>
+                  p = x; x-&gt;r = this;
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <br/>
+                 <div>
+                  void cut(){
+                 </div>
+                 <div>
+                  acs(); l-&gt;p = NIL, l = NIL;
+                 </div>
+                </span>
+                <span style="font-size:14px">
+                 }
+                </span>
+                <span>
+                </span>
+               </div>
+               <div>
+                <br/>
+                <br/>
+               </div>
+               注意这样是错的。。l-&gt;p = l = NIL;
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <a href="https://gist.github.com/lychees/7042923" target="_blank">
+                https://gist.github.com/lychees/7042923
+               </a>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

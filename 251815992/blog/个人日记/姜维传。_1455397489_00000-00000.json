@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1455441138,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "我粉邓艾钟会[em]e103[/em][em]e103[/em] ",
+                "capacity": 12130,
+                "poster": {
+                    "id": "601598644",
+                    "platform": 1,
+                    "name": "金天 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00002c109",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

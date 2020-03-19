@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1521883105,
+                "postTime": 1521883105,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "跨链价值交换您怎么看 ",
+                "capacity": 12148,
+                "poster": {
+                    "id": "329526532",
+                    "platform": 1,
+                    "name": "不足为奇 ",
+                    "emoji": []
+                },
+                "bmp": "18d19da50102c201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 1521941023,
+                "postTime": 1521941023,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "又打仗 ",
+                "capacity": 12164,
+                "poster": {
+                    "id": "41785691",
+                    "platform": 1,
+                    "name": "iceboy ",
+                    "emoji": []
+                },
+                "bmp": "08c13d800002c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 1522036518,
+                "postTime": 1522036518,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "天天打仗[em]e113[/em] ",
+                "capacity": 12149,
+                "poster": {
+                    "id": "31898890",
+                    "platform": 1,
+                    "name": "伟大的哲学家 ",
+                    "emoji": []
+                },
+                "bmp": "1841952400009001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

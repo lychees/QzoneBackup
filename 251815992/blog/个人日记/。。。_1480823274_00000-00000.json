@@ -1,0 +1,51 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1480824644,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "哼。。。肯定是梦到番茄了。。。 ",
+                "capacity": 11960,
+                "poster": {
+                    "id": "569620205",
+                    "platform": 1,
+                    "name": " [ ccnu ] Tmono ",
+                    "emoji": []
+                },
+                "bmp": "58d08da8000ec209",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:569620205,nick: [ ccnu ] Tmono,who:1,auto:1}梦到我爸了。 ",
+                        "postTime": 1480825148,
+                        "id": 1480825148,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "569620205",
+                            "name": " [ ccnu ] Tmono ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1} [em]e141[/em] ",
+                        "postTime": 1480832580,
+                        "id": 1480832580,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1339650439,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,3,]ORZ[/ft] ",
+                "capacity": 12136,
+                "poster": {
+                    "id": "375243140",
+                    "platform": 1,
+                    "name": "cxlove ",
+                    "emoji": []
+                },
+                "bmp": "18c09da80100d429",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1339676327,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "score ... YM. ",
+                "capacity": 12157,
+                "poster": {
+                    "id": "945637290",
+                    "platform": 1,
+                    "name": "糖果 ",
+                    "emoji": []
+                },
+                "bmp": "088495800000d001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1339680189,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "ym,我后面既没有时间，也没想做了 ",
+                "capacity": 12137,
+                "poster": {
+                    "id": "451734587",
+                    "platform": 1,
+                    "name": "倚剑天涯 ",
+                    "emoji": []
+                },
+                "bmp": "18c095a400008301",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1339746662,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "orz...\n很蛋疼地裸了一个模拟退火，然后发现调整函数想不出来，就随机了= =| ",
+                "capacity": 12098,
+                "poster": {
+                    "id": "123488212",
+                    "platform": 1,
+                    "name": "wolf5x ",
+                    "emoji": []
+                },
+                "bmp": "1884d5a84980a101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

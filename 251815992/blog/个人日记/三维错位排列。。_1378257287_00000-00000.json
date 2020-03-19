@@ -1,0 +1,51 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1378285621,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "为啥总是有省略号在各种状态中。。\n表示1年没坐过题了\n\n你会去今年各种acm吗 ",
+                "capacity": 11886,
+                "poster": {
+                    "id": "499678267",
+                    "platform": 1,
+                    "name": "向鹏达 ",
+                    "emoji": []
+                },
+                "bmp": "18d48da00040e201",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:499678267,nick:向鹏达,auto:1} 看情况。。 ",
+                        "postTime": 1378291819,
+                        "id": 1378291819,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "499678267",
+                            "name": "向鹏达 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1}为啥这么喜欢省略号 ",
+                        "postTime": 1378356820,
+                        "id": 1378356820,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1418841257,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "枚举会不会超时怕怕[em]e117[/em][em]e117[/em] ",
+                "capacity": 12128,
+                "poster": {
+                    "id": "1184989240",
+                    "platform": 1,
+                    "name": "年少 ",
+                    "emoji": []
+                },
+                "bmp": "18c09da80000e401",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

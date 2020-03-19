@@ -1,0 +1,743 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    ...
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             ...
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2014-11-04 19:56:07
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(94)	è¯è®º(0)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1415148967,
+"voteids":0,
+"pubtime":1415148967,
+"replynum":0,
+"category":"个人日记",
+"title":"...",
+"effect":8389120,
+"effect2":524294,
+"exblogtype":3,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":81177,
+"lp_style":16843520,
+"lp_flag":0,
+"lp_topvalue":0,
+"orguin":251815992,
+"orgblogid":1415148967,
+"mention_uins":[ ],
+"attach":[],"comments":[]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <div>
+                1000：
+                <br/>
+                <br/>
+                。给定一个无根树(n = 200）。。。选择一些叶子。。同时点燃。。
+                <br/>
+                。问烧光整个树所需要的时间有多少种可能。。。？
+                <br/>
+                <br/>
+                <br/>
+                1.
+                <br/>
+                方案不会很多。
+                <br/>
+                —— 只可能是 D[u][v] 或者 D[u][v] / 2。
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+               </div>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                int N;
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                vector&lt;pint&gt; G[1010];
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                int D[1010][1010];
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                int dists[1010];
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                bool check(int a, int da, int b, int db, int l) {
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                // cout&lt;&lt;"check "&lt;&lt;a&lt;&lt;" "&lt;&lt;da&lt;&lt;"  "&lt;&lt;b&lt;&lt;" "&lt;&lt;db&lt;&lt;"  "&lt;&lt;l&lt;&lt;endl;
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                priority_queue&lt;pint,vector&lt;pint&gt;,greater&lt;pint&gt;&gt; q;
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                fill(dists, dists + N, INF);
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                for (int u = 0; u &lt; N; ++u) if (G[u].size() == 1) {
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                if (D[u][a] &lt;= D[u][b]) {
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                if (D[u][a] + da &gt;= l) {
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                dists[u] = 0;
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                q.emplace(0, u);
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                }
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                } else {
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                if (D[u][b] + db &gt;= l) {
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                dists[u] = 0;
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                q.emplace(0, u);
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                }
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                }
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                }
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                for (; !q.empty(); ) {
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                const int c = q.top().first;
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                const int u = q.top().second;
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                q.pop();
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                if (dists[u] == c) {
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                for (const auto &amp;e : G[u]) {
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                const int cc = c + e.first;
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                const int v = e.second;
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                if (dists[v] &gt; cc) {
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                dists[v] = cc;
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                q.emplace(cc, v);
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                }
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                }
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                }
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                }
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                for (int u = 0; u &lt; N; ++u) {
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                for (const auto &amp;e : G[u]) {
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                const int v = e.second;
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                if ((dists[u] + dists[v] + e.first) / 2 &gt; l) {
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                return false;
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                }
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                }
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                }
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                return true;
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                }
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                struct CandleTimer {
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                int differentTime(vector &lt;int&gt; A, vector &lt;int&gt; B, vector &lt;int&gt; len) {
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                N = A.size() + 1;
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                for (int u = 0; u &lt; N; ++u) {
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                fill(D[u], D[u] + N, INF);
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                D[u][u] = 0;
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                }
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                for (int i = 0; i &lt; N - 1; ++i) {
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                const int u = A[i];
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                const int v = B[i];
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                const int c = len[i] * 2;
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                G[u].emplace_back(c, v);
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                G[v].emplace_back(c, u);
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                chmin(D[u][v], c);
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                chmin(D[v][u], c);
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                }
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                for (int w = 0; w &lt; N; ++w) for (int u = 0; u &lt; N; ++u) for (int v = 0; v &lt; N; ++v) {
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                chmin(D[u][v], D[u][w] + D[w][v]);
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                }
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                set&lt;int&gt; ans;
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                for (int u = 0; u &lt; N; ++u) {
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                for (int w = 0; w &lt; N; ++w) if (w != u) {
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                if (ans.count(D[u][w])) {
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                continue;
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                }
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                if (check(w, 0, G[w][0].second, G[w][0].first, D[u][w])) {
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                ans.insert(D[u][w]);
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                }
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                }
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                }
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                for (int u = 0; u &lt; N; ++u) for (int v = u + 1; v &lt; N; ++v) if (G[u].size() == 1 &amp;&amp; G[v].size() == 1) {
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                if (ans.count(D[u][v] / 2)) {
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                continue;
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                }
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                // cout&lt;&lt;"midpoint "&lt;&lt;u&lt;&lt;" "&lt;&lt;v&lt;&lt;endl;
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                for (int w = 0; w &lt; N; ++w) {
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                for (const auto &amp;e : G[w]) {
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                const int x = e.second;
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                if (D[u][v] == D[u][w] + e.first + D[x][v]) {
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                if (D[u][w] &lt;= D[u][v] / 2 &amp;&amp; D[u][v] / 2 &lt; D[u][w] + e.first) {
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                if (check(w, D[u][v] / 2 - D[u][w], x, D[u][w] + e.first - D[u][v] / 2, D[u][v] / 2)) {
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                ans.insert(D[u][v] / 2);
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                }
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                goto found;
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                }
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                }
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                }
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                }
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                assert(false);
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                found:;
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                }
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                cout&lt;&lt;"ans : ";pv(ans.begin(),ans.end());
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                return ans.size();
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                }
+               </span>
+               <br style="color:rgb(255, 255, 255);font-family:Courier, 'Courier New', sans-serif;font-size:12px"/>
+               <span style="color:rgb(0, 0, 0);font-family:Courier, 'Courier New', sans-serif;font-size:12px">
+                };
+               </span>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

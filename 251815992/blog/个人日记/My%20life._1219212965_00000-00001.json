@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 11,
+                "postTime": 1242110510,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "喔靠！这么多人浏览，怎么没人留言呢？还有写了这么的日记真是不简单阿！ ",
+                "capacity": 12100,
+                "poster": {
+                    "id": "383015873",
+                    "platform": 1,
+                    "name": "N ",
+                    "emoji": []
+                },
+                "bmp": "98d595a00002e421",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 12,
+                "postTime": 1242291909,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "我也很奇怪。。。近两百的浏览量﹑回复却很少。。 ",
+                "capacity": 12118,
+                "poster": {
+                    "id": "122698324",
+                    "platform": 1,
+                    "name": "张晓晨 ",
+                    "emoji": []
+                },
+                "bmp": "18d19560010e8009",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

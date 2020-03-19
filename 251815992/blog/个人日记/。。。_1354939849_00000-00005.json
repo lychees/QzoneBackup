@@ -1,0 +1,113 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 6,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1354941344,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "ORZ.... ",
+                "capacity": 12161,
+                "poster": {
+                    "id": "623770784",
+                    "platform": 1,
+                    "name": "混沌星海 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00100e281",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1354945914,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "ORZ.... ",
+                "capacity": 12149,
+                "poster": {
+                    "id": "368586905",
+                    "platform": 1,
+                    "name": "[HIT] For_the_Love ",
+                    "emoji": []
+                },
+                "bmp": "18d09d800000c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1354952849,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "ORZ... ",
+                "capacity": 12163,
+                "poster": {
+                    "id": "751723392",
+                    "platform": 1,
+                    "name": "wwwwodddd ",
+                    "emoji": []
+                },
+                "bmp": "18c095a80000c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1354961628,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "ORZ ",
+                "capacity": 12167,
+                "poster": {
+                    "id": "945637290",
+                    "platform": 1,
+                    "name": "糖果 ",
+                    "emoji": []
+                },
+                "bmp": "088495800000d001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1354967511,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "ORZ... ",
+                "capacity": 12161,
+                "poster": {
+                    "id": "93032924",
+                    "platform": 1,
+                    "name": "Edelweiss ",
+                    "emoji": []
+                },
+                "bmp": "18c0950000008001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 6,
+                "postTime": 1354968117,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "ORZ ",
+                "capacity": 12165,
+                "poster": {
+                    "id": "451734587",
+                    "platform": 1,
+                    "name": "倚剑天涯 ",
+                    "emoji": []
+                },
+                "bmp": "18c095a400008301",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

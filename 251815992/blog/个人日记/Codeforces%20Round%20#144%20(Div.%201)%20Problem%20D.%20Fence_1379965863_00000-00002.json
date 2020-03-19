@@ -1,0 +1,74 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1379982670,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "还以为有算法2 ",
+                "capacity": 12055,
+                "poster": {
+                    "id": "10848584",
+                    "platform": 1,
+                    "name": "主席 ",
+                    "emoji": []
+                },
+                "bmp": "0880dd8000000221",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:10848584,nick:主席,who:1,auto:1}肯定有吧只是我不会ww。。。 ",
+                        "postTime": 1379982703,
+                        "id": 1379982703,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1379986654,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "看上去好复杂的东西…… ",
+                "capacity": 12150,
+                "poster": {
+                    "id": "441748146",
+                    "platform": 1,
+                    "name": "lirau ",
+                    "emoji": []
+                },
+                "bmp": "185495a001008109",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1380015173,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "不是好早的题了吗。 ",
+                "capacity": 12152,
+                "poster": {
+                    "id": "935099327",
+                    "platform": 1,
+                    "name": "不愿透露姓名的 ",
+                    "emoji": []
+                },
+                "bmp": "08c09d2000000001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

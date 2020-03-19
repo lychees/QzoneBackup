@@ -1,0 +1,74 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1395798274,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "欢迎回来 ",
+                "capacity": 12164,
+                "poster": {
+                    "id": "1223756469",
+                    "platform": 1,
+                    "name": "12-软-刘阳 ",
+                    "emoji": []
+                },
+                "bmp": "18c195800000e001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1395800675,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "冠军岛 ",
+                "capacity": 12069,
+                "poster": {
+                    "id": "122155302",
+                    "platform": 1,
+                    "name": "木子日匀 ",
+                    "emoji": []
+                },
+                "bmp": "38d40da00102c209",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:122155302,nick:木子日匀,who:1,auto:1}谷歌昀带我。\n ",
+                        "postTime": 1395881586,
+                        "id": 1395881586,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1395834074,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "表示D题是个O(n)的水DP。。。 ",
+                "capacity": 12138,
+                "poster": {
+                    "id": "251870949",
+                    "platform": 1,
+                    "name": "赵林娇 ",
+                    "emoji": []
+                },
+                "bmp": "18c095a10002c209",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

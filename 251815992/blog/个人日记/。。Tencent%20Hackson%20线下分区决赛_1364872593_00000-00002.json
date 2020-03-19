@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1364897294,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "xiaodao加油，馬拉松還蠻好玩的，雖然我只是打醬油的... ",
+                "capacity": 12120,
+                "poster": {
+                    "id": "550984753",
+                    "platform": 1,
+                    "name": "iSea ",
+                    "emoji": []
+                },
+                "bmp": "18c19da00000c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1364898056,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "唔。。。看来得安排在上海了，不能投奔xiaodao和Dshawn了 ",
+                "capacity": 12117,
+                "poster": {
+                    "id": "375243140",
+                    "platform": 1,
+                    "name": "cxlove ",
+                    "emoji": []
+                },
+                "bmp": "18c09da80100d429",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1364902294,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "似乎我是去深圳…… ",
+                "capacity": 12149,
+                "poster": {
+                    "id": "657339976",
+                    "platform": 1,
+                    "name": "→_→ ",
+                    "emoji": []
+                },
+                "bmp": "188095800000c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

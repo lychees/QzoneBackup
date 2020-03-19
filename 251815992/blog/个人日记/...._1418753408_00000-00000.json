@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1418838029,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "慢慢的读完。除了代码。其他看得懂。 ",
+                "capacity": 12136,
+                "poster": {
+                    "id": "799793326",
+                    "platform": 1,
+                    "name": "李林霏 ",
+                    "emoji": []
+                },
+                "bmp": "18c095a00102e201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

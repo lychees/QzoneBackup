@@ -1,0 +1,117 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1333594004,
+                "effect": 32,
+                "replyNum": 8,
+                "content": "[ft=,3,]orz，求解1000。。。[/ft] ",
+                "capacity": 11703,
+                "poster": {
+                    "id": "381352239",
+                    "platform": 1,
+                    "name": "QzQ ",
+                    "emoji": []
+                },
+                "bmp": "188495850000c120",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "。。嘛。。没做出来我就不乱说了。。先等评测吧。~~。 ",
+                        "postTime": 1333594061,
+                        "id": 1333594061,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "381352239",
+                            "name": "QzQ ",
+                            "platform": 1
+                        },
+                        "content": "[em]e117[/em] ",
+                        "postTime": 1333594083,
+                        "id": 1333594083,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "381352239",
+                            "name": "QzQ ",
+                            "platform": 1
+                        },
+                        "content": "现在可以求了吧。。。 ",
+                        "postTime": 1333618441,
+                        "id": 1333618441,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "建树后最小费用流或裸DP。。 ",
+                        "postTime": 1333621516,
+                        "id": 1333621516,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "381352239",
+                            "name": "QzQ ",
+                            "platform": 1
+                        },
+                        "content": "能具体点吗。。 ",
+                        "postTime": 1333627781,
+                        "id": 1333627781,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "等 Practice 房开出来吧。。就是树的最小支配集。。 ",
+                        "postTime": 1333627822,
+                        "id": 1333627822,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "381352239",
+                            "name": "QzQ ",
+                            "platform": 1
+                        },
+                        "content": "哦~需要处理处理的支配集。。。囧。。。 ",
+                        "postTime": 1333628117,
+                        "id": 1333628117,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "190303874",
+                            "name": "玉子 ",
+                            "platform": 1
+                        },
+                        "content": "QAQ竟然Unrated ",
+                        "postTime": 1333705836,
+                        "id": 1333705836,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

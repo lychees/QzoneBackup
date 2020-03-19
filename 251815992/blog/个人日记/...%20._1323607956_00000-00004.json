@@ -1,0 +1,130 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 5,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1323615332,
+                "effect": 1056,
+                "replyNum": 3,
+                "content": "下午卡倒数第二题了，呼 ",
+                "capacity": 11982,
+                "poster": {
+                    "id": "122155302",
+                    "platform": 1,
+                    "name": "木子日匀 ",
+                    "emoji": []
+                },
+                "bmp": "38d40da00102c209",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "倒数第二题目测就是个扫描。。待我赛后怒艹。。 ",
+                        "postTime": 1323615485,
+                        "id": 1323615485,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "122155302",
+                            "name": "木子日匀 ",
+                            "platform": 1
+                        },
+                        "content": "呜~暂时还不知道挂哪里了~我想了个很优越的算法 ",
+                        "postTime": 1323619319,
+                        "id": 1323619319,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "824989449",
+                            "name": "824989449 ",
+                            "platform": 1
+                        },
+                        "content": "膜拜啊~各位神 ",
+                        "postTime": 1323711295,
+                        "id": 1323711295,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1323615691,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]不知道你在干啥。。。总之，加油吧。。。[/ft] ",
+                "capacity": 12118,
+                "poster": {
+                    "id": "1559580331",
+                    "platform": 1,
+                    "name": "吴超尘 ",
+                    "emoji": []
+                },
+                "bmp": "08001d800002c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1323624012,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "霸气有余然压制力不足 话说纪录片最后的摇滚略带感 ",
+                "capacity": 12119,
+                "poster": {
+                    "id": "844242114",
+                    "platform": 1,
+                    "name": "MoonMayCry ",
+                    "emoji": []
+                },
+                "bmp": "08d095a000028101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1323658134,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]你前天晚在北京看月全食了？[/ft] ",
+                "capacity": 12133,
+                "poster": {
+                    "id": "1023150849",
+                    "platform": 1,
+                    "name": "Lazy Lee ",
+                    "emoji": []
+                },
+                "bmp": "18d49da00102c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1323681507,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]F题是成都regional热身赛得题目，E题HOJ有原题？貌似[/ft] ",
+                "capacity": 12106,
+                "poster": {
+                    "id": "298151232",
+                    "platform": 1,
+                    "name": "银白之翼 ",
+                    "emoji": []
+                },
+                "bmp": "18c095a40000c109",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

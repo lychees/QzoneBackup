@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1474321036,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "岛娘美利坚和日本工作签似乎都要求最低本科学历，加油毕业 ",
+                "capacity": 12104,
+                "poster": {
+                    "id": "121371490",
+                    "platform": 1,
+                    "name": "詹艳玲 ",
+                    "emoji": []
+                },
+                "bmp": "18d5dda00102e409",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

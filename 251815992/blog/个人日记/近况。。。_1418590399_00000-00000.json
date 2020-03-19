@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1418604036,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "。。。。。。 ",
+                "capacity": 12159,
+                "poster": {
+                    "id": "903336279",
+                    "platform": 1,
+                    "name": "偏疾 ",
+                    "emoji": []
+                },
+                "bmp": "58d49d800002a201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

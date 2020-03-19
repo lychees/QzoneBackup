@@ -1,0 +1,97 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1446137226,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "。。。。。。 ",
+                "capacity": 12142,
+                "poster": {
+                    "id": "446079414",
+                    "platform": 1,
+                    "name": "旺仔嚎婆婆 ",
+                    "emoji": []
+                },
+                "bmp": "38449da00000c201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1446150770,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "不早说后面有中文，对着英文看了半天…… ",
+                "capacity": 11993,
+                "poster": {
+                    "id": "114770374",
+                    "platform": 1,
+                    "name": "lxhgww ",
+                    "emoji": []
+                },
+                "bmp": "98c0950400028009",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "460680968",
+                            "name": "密都人士 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:114770374,nick:lxhgww,who:1,auto:1}看来原邮件开头注明“（中文版在下面）”还是很机智的…… ",
+                        "postTime": 1446164480,
+                        "id": 1446164480,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "postTime": 1446164422,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "只报400不理想…… ",
+                "capacity": 11929,
+                "poster": {
+                    "id": "460680968",
+                    "platform": 1,
+                    "name": "密都人士 ",
+                    "emoji": []
+                },
+                "bmp": "18c09da00002c009",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:460680968,nick:密都人士,who:1,auto:1}Argue 一下强行报 800￥ 应该问题不大。。。） ",
+                        "postTime": 1446184584,
+                        "id": 1446184584,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "460680968",
+                            "name": "密都人士 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1}woc 还能这么玩… ",
+                        "postTime": 1446184617,
+                        "id": 1446184617,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

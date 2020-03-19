@@ -1,0 +1,73 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1488953894,
+                "effect": 1056,
+                "replyNum": 4,
+                "content": "我只用过echarts 所以最后谁赢了 ",
+                "capacity": 11776,
+                "poster": {
+                    "id": "1559580331",
+                    "platform": 1,
+                    "name": "吴超尘 ",
+                    "emoji": []
+                },
+                "bmp": "08001d800002c101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:1559580331,nick:吴超尘,who:1,auto:1}low货 ",
+                        "postTime": 1488956937,
+                        "id": 1488956937,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:1559580331,nick:吴超尘,who:1,auto:1}讲道理我觉得echarts好用 ",
+                        "postTime": 1488956969,
+                        "id": 1488956969,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:1559580331,nick:吴超尘,who:1,auto:1}[em]e271[/em] ",
+                        "postTime": 1488956980,
+                        "id": 1488956980,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "1559580331",
+                            "name": "吴超尘 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,auto:1} 擦。。。用个echats还被鄙视了。。。 ",
+                        "postTime": 1488957191,
+                        "id": 1488957191,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

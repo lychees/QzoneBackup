@@ -1,0 +1,979 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    CEOI09 tri
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             CEOI09 tri
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2013-12-11 19:41:10
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(51)	è¯è®º(1)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1386808870,
+"voteids":0,
+"pubtime":1386808870,
+"replynum":1,
+"category":"个人日记",
+"title":"CEOI09 tri",
+"effect":8389120,
+"effect2":524294,
+"exblogtype":3,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":81177,
+"lp_style":16843520,
+"lp_flag":0,
+"lp_topvalue":0,
+"orguin":251815992,
+"orgblogid":1386808870,
+"mention_uins":[ ],
+"attach":[],"comments":[{"id":1,
+"postTime":1386809408,
+"effect":32,
+"replyNum":2,
+"content":"@{uin:10848584,nick:主席}   ... 算法 2 对么。。。 ",
+"capacity":11938,
+"poster":{
+"id":"251815992",
+"platform":1,
+"name":"小岛美奈子 ",
+"emoji":[ ]}
+,
+"bmp":"18d18da40002c001",
+"ismyreply":1,
+"replies":[{"poster":{
+"id":"122155302",
+"name":"木子日匀 ",
+"platform":1}
+,
+"content":"@{uin:251815992,nick:小岛美奈子,who:1,auto:1} 我一开始想到的就是算法二 ",
+"postTime":1386812972,
+"id":1386812972,
+"effect":0},
+{"poster":{
+"id":"251815992",
+"name":"小岛美奈子 ",
+"platform":1}
+,
+"content":"我傻逼了。。无视我。 ",
+"postTime":1386833868,
+"id":1386833868,
+"effect":0}]}]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <div>
+                <a href="http://www.spoj.com/problems/CEOI09TR/" target="_blank">
+                 http://www.spoj.com/problems/CEOI09TR/
+                </a>
+                <br/>
+                <br/>
+                <br/>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 Brief description:
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 给定一组点集（第一象限），每次询问一个三角形。（其中一个顶点在原点）
+                </div>
+                <div>
+                 问在该三角形的内部是否存在点集中的点。。。
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 ——————
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 Solution:
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 首先考虑所有三角形都是一条边在 x 轴上，一条边在 y 轴的直角三角形。。。
+                </div>
+                <div>
+                 那么问题等于。。测试一条直线。是否与一段凸壳相交。。。
+                </div>
+                <div>
+                 。。。直线与凸壳的距离单峰。。。所以可以二分答案。
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 对于一般情况。。。就是测试。。在某段夹角内的点集的凸壳。。与该直线是否与一条直线相交。。。
+                </div>
+                <div>
+                 。。。可以对点集按照极角排序。。然后用线段树分割区间。。。每次在线段树中找出对应的区间。。分别测试即可。。
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 预处理：O(nlogn + nlog^2n )
+                </div>
+                <div>
+                 每次询问复杂度：O(log^2n )
+                 <br/>
+                 <span>
+                  <br/>
+                  <div>
+                   //}/* .................................................................................................................................. */
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   #define cPo const Po&amp;
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   struct Po{
+                  </div>
+                  <div>
+                   <span style="white-space:pre">
+                   </span>
+                   int x, y; inline Po(int x=0, int y=0):x(x),y(y){} void in(){RD(x, y);}
+                  </div>
+                  <div>
+                   <span style="white-space:pre">
+                   </span>
+                   Po operator -(cPo r)const{return Po(x-r.x,y-r.y);}
+                  </div>
+                  <div>
+                   <span style="white-space:pre">
+                   </span>
+                   LL operator *(cPo r)const{return (LL)x*r.y-(LL)y*r.x;}
+                  </div>
+                  <div>
+                   <span style="white-space:pre">
+                   </span>
+                   bool operator &lt;(cPo r) const {return Ts*r&gt;0;}
+                  </div>
+                  <div>
+                   };
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   const int N = 100001;
+                  </div>
+                  <div>
+                   Po P[N]; vector&lt;Po&gt; C[4*N]; int n, Q;
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   #define lx (x&lt;&lt;1)
+                  </div>
+                  <div>
+                   #define rx (lx|1)
+                  </div>
+                  <div>
+                   #define ml (l+r&gt;&gt;1)
+                  </div>
+                  <div>
+                   #define mr (ml+1)
+                  </div>
+                  <div>
+                   #define lc lx,l,ml
+                  </div>
+                  <div>
+                   #define rc rx,mr,r
+                  </div>
+                  <div>
+                   #define root 1,0,n-1
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   #define C C[x]
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   void Build(int x, int l, int r){
+                  </div>
+                  <div>
+                   <span style="white-space:pre">
+                   </span>
+                   if(l==r) C.PB(P[l]);
+                  </div>
+                  <div>
+                   <span style="white-space:pre">
+                   </span>
+                   else{
+                  </div>
+                  <div>
+                   C.resize(r-l+1), C[0] = P[r], C[1] = P[r-1]; int nn=1;
+                  </div>
+                  <div>
+                   <span style="white-space:pre">
+                   </span>
+                   for(int i=r-2;i&gt;=l;i--){
+                  </div>
+                  <div>
+                   <span style="white-space:pre">
+                   </span>
+                   while(nn&gt;0&amp;&amp;(C[nn]-C[nn-1])*(P[i]-C[nn-1])&lt;=0)--nn;
+                  </div>
+                  <div>
+                   <span style="white-space:pre">
+                   </span>
+                   C[++nn]=P[i];
+                  </div>
+                  <div>
+                   <span style="white-space:pre">
+                   </span>
+                   }
+                  </div>
+                  <div>
+                   <span style="white-space:pre">
+                   </span>
+                   C.resize(nn+1);
+                  </div>
+                  <div>
+                   <span style="white-space:pre">
+                   </span>
+                   Build(lc),Build(rc);
+                  </div>
+                  <div>
+                   <span style="white-space:pre">
+                   </span>
+                   }
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   Po pa, pb; int a, b;
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   inline bool ck(cPo x){
+                  </div>
+                  <div>
+                   <span style="white-space:pre">
+                   </span>
+                   return pa*x+x*pb&lt;=pa*pb;
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   bool Query(int x,int l,int r){
+                  </div>
+                  <div>
+                   <span style="white-space:pre">
+                   </span>
+                   if(a&lt;=l&amp;&amp;r&lt;=b){
+                  </div>
+                  <div>
+                   <span style="white-space:pre">
+                   </span>
+                   Po v = pb-pa; l=0,r=SZ(C)-1; while(l&lt;r){
+                  </div>
+                  <div>
+                   <span style="white-space:pre">
+                   </span>
+                   if(v*(C[mr]-C[ml])&gt;0)l=mr;
+                  </div>
+                  <div>
+                   <span style="white-space:pre">
+                   </span>
+                   else r=ml;
+                  </div>
+                  <div>
+                   <span style="white-space:pre">
+                   </span>
+                   }
+                  </div>
+                  <div>
+                   <span style="white-space:pre">
+                   </span>
+                   return ck(C[l]);
+                  </div>
+                  <div>
+                   <span style="white-space:pre">
+                   </span>
+                   }
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   <span style="white-space:pre">
+                   </span>
+                   return a &lt; mr &amp;&amp; Query(lc) || ml &lt; b &amp;&amp; Query(rc);
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   int main()
+                  </div>
+                  <div>
+                   {
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   #ifndef ONLINE_JUDGE
+                  </div>
+                  <div>
+                   freopen("in.txt", "r", stdin);
+                  </div>
+                  <div>
+                   //freopen("out.txt", "w", stdout);
+                  </div>
+                  <div>
+                   #endif
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   <span style="white-space:pre">
+                   </span>
+                   RD(n, Q); REP(i, n) P[i].in(); sort(P, P+n);
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   Build(root); DO(Q){
+                  </div>
+                  <div>
+                   <span style="white-space:pre">
+                   </span>
+                   pa.in(), pb.in(); if(pb&lt;pa)swap(pa,pb);
+                  </div>
+                  <div>
+                   <span style="white-space:pre">
+                   </span>
+                   a = lower_bound(P,P+n,pa)-P, b = lower_bound(P,P+n,pb)-P-1;
+                  </div>
+                  <div>
+                   <span style="white-space:pre">
+                   </span>
+                   puts(Query(root) ? "Y" : "N");
+                  </div>
+                  <div>
+                   <span style="white-space:pre">
+                   </span>
+                   }
+                  </div>
+                  <div>
+                   <span style="white-space:pre">
+                   </span>
+                   return 0;
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                 </span>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 进一步思考：
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 。。。实际也可以只求一次凸壳。。然后每次询问时。。先二分出所需凸壳的区间。。再做相交
+                 <span style="font-size:14px">
+                  测试
+                 </span>
+                 <span style="font-size:14px">
+                  即可。。
+                 </span>
+                </div>
+                <div>
+                 预处理：O(nlogn)
+                </div>
+                <div>
+                 每次询问复杂度：O(logn )
+                 <br/>
+                 <br/>
+                 。。。。（好吧。。这个是不对的。。。实际上时每次求在一个扇形角度区间里所有的点求一次凸壳。。。）。
+                 <span>
+                  <br/>
+                  <br/>
+                  <div>
+                   //}/* .................................................................................................................................. */
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   #define cPo const Po&amp;
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   struct Po{
+                  </div>
+                  <div>
+                   <span style="white-space:pre">
+                   </span>
+                   int x, y; inline Po(int x=0, int y=0):x(x),y(y){} void in(){RD(x, y);}
+                  </div>
+                  <div>
+                   <span style="white-space:pre">
+                   </span>
+                   Po operator -(cPo r)const{return Po(x-r.x,y-r.y);}
+                  </div>
+                  <div>
+                   <span style="white-space:pre">
+                   </span>
+                   LL operator *(cPo r)const{return (LL)x*r.y-(LL)y*r.x;}
+                  </div>
+                  <div>
+                   <span style="white-space:pre">
+                   </span>
+                   bool operator &lt;(cPo r) const {return Ts*r&gt;0;}
+                  </div>
+                  <div>
+                   };
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   const int N = 100009;
+                  </div>
+                  <div>
+                   Po P[N]; VI C;
+                  </div>
+                  <div>
+                   int n, Q;
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   #define lx (x&lt;&lt;1)
+                  </div>
+                  <div>
+                   #define rx (lx|1)
+                  </div>
+                  <div>
+                   #define ml (l+r&gt;&gt;1)
+                  </div>
+                  <div>
+                   #define mr (ml+1)
+                  </div>
+                  <div>
+                   #define lc lx,l,ml
+                  </div>
+                  <div>
+                   #define rc rx,mr,r
+                  </div>
+                  <div>
+                   #define root 1,0,n-1
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   Po pa, pb; int a, b;
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   inline bool ck(cPo x){
+                  </div>
+                  <div>
+                   <span style="white-space:pre">
+                   </span>
+                   return pa*x+x*pb&lt;=pa*pb;
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   int main()
+                  </div>
+                  <div>
+                   {
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   #ifndef ONLINE_JUDGE
+                  </div>
+                  <div>
+                   freopen("in.txt", "r", stdin);
+                  </div>
+                  <div>
+                   //freopen("out.txt", "w", stdout);
+                  </div>
+                  <div>
+                   #endif
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   <span style="white-space:pre">
+                   </span>
+                   RD(n, Q); REP(i, n) P[i].in(); sort(P, P+n);
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   C.resize(n), C[0]=n-1, C[1]=n-2; int nn=1; for(int i=n-3;i&gt;=0;i--){
+                  </div>
+                  <div>
+                   while(nn&gt;0&amp;&amp;(P[C[nn]]-P[C[nn-1]])*(P[i]-P[C[nn-1]])&lt;=0)--nn;
+                  </div>
+                  <div>
+                   C[++nn]=i;
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   C.resize(++nn); RVS(C);
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   DO(Q){
+                  </div>
+                  <div>
+                   <span style="white-space:pre">
+                   </span>
+                   pa.in(), pb.in(); if(pb&lt;pa)swap(pa,pb);
+                  </div>
+                  <div>
+                   <span style="white-space:pre">
+                   </span>
+                   a = lower_bound(P,P+n,pa)-P, b = lower_bound(P,P+n,pb)-P-1;
+                  </div>
+                  <div>
+                   <span style="white-space:pre">
+                   </span>
+                   int l = upper_bound(ALL(C),a)-C.begin()-1, r = upper_bound(ALL(C),b)-C.begin();
+                  </div>
+                  <div>
+                   Po v = pb-pa; while(l&lt;r){
+                  </div>
+                  <div>
+                   <span style="white-space:pre">
+                   </span>
+                   if(v*(P[C[mr]]-P[C[ml]])&lt;0)l=mr;
+                  </div>
+                  <div>
+                   <span style="white-space:pre">
+                   </span>
+                   else r=ml;
+                  </div>
+                  <div>
+                   <span style="white-space:pre">
+                   </span>
+                   }
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   <span style="white-space:pre">
+                   </span>
+                   puts(ck(P[C[l]]) ? "Y" : "N");
+                  </div>
+                  <div>
+                   <span style="white-space:pre">
+                   </span>
+                   }
+                  </div>
+                  <div>
+                   <span style="white-space:pre">
+                   </span>
+                   return 0;
+                  </div>
+                  <div>
+                   }
+                  </div>
+                 </span>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 EXT：
+                </div>
+                <div>
+                 <span style="font-size:14px">
+                  <br/>
+                  如果支持动态点集。。。？。
+                 </span>
+                 <br/>
+                </div>
+                <div>
+                 <span style="font-size:14px">
+                  <br/>
+                  平衡树 + 动态维护凸壳。。。
+                  <br/>
+                  <span>
+                  </span>
+                 </span>
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+               </div>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

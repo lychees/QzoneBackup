@@ -1,0 +1,57 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1218450199,
+                "effect": 4194336,
+                "replyNum": 1,
+                "content": "谁写的?? ",
+                "capacity": 12127,
+                "poster": {
+                    "id": "122698324",
+                    "platform": 1,
+                    "name": "张晓晨 ",
+                    "emoji": []
+                },
+                "bmp": "18d19560010e8009",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "北宋词人，柳永 ",
+                        "postTime": 1218469564,
+                        "id": 1218469564,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1218517462,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "早知道了= - ",
+                "capacity": 12157,
+                "poster": {
+                    "id": "574712047",
+                    "platform": 1,
+                    "name": "陈志浩 ",
+                    "emoji": []
+                },
+                "bmp": "189095e4010ee101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

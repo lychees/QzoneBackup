@@ -1,0 +1,153 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 7,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1291912891,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,,]啊啊，我压力好大啊。。[/ft]\n[ft=,,]感觉整个人都刘和珍了。。。[/ft] ",
+                "capacity": 12099,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1291934440,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]因为有才别人才敬佩,如果你不才,没有上一中,没有去上哈大,没有电脑方面的努力,别人不会记起你,希望你好好学习,打牢基础,再去创业,我现在也在为你以后的创业在积极准备资金,我也有朋友非常看好你,愿意投资你,但所有的前提都是你毕业后,努力吧,,,、有空多掌握一门外语也行呀,祝小岛天天向上[/ft] ",
+                "capacity": 11888,
+                "poster": {
+                    "id": "1084081420",
+                    "platform": 1,
+                    "name": "安徽老虎 ",
+                    "emoji": []
+                },
+                "bmp": "88419da00000c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1291955307,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "诶嘿嘿，刘和珍=_= ",
+                "capacity": 12156,
+                "poster": {
+                    "id": "445950142",
+                    "platform": 1,
+                    "name": "Mea ",
+                    "emoji": []
+                },
+                "bmp": "08851da04040c421",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1291980857,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "你爸真有意思 ",
+                "capacity": 12082,
+                "poster": {
+                    "id": "541632773",
+                    "platform": 1,
+                    "name": "Q ",
+                    "emoji": []
+                },
+                "bmp": "989095a40000e101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "家父位高而多金...  ",
+                        "postTime": 1291986393,
+                        "id": 1291986393,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "541632773",
+                            "name": "Q ",
+                            "platform": 1
+                        },
+                        "content": "早有耳闻，ym ",
+                        "postTime": 1291986801,
+                        "id": 1291986801,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "postTime": 1291991386,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "纪念…… ",
+                "capacity": 12160,
+                "poster": {
+                    "id": "451524137",
+                    "platform": 1,
+                    "name": "光之神圣 ",
+                    "emoji": []
+                },
+                "bmp": "18c1f4a40080c109",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 6,
+                "postTime": 1292062850,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]学生不去上课,真不知丑,,[/ft] ",
+                "capacity": 12132,
+                "poster": {
+                    "id": "1084081420",
+                    "platform": 1,
+                    "name": "安徽老虎 ",
+                    "emoji": []
+                },
+                "bmp": "88419da00000c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 7,
+                "postTime": 1292082169,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "小虎，你看你爸多理性…现在的创业是徒劳，真的不是每个人都是比尔盖茨。真心希望你利用好大学的平台打好基础，以后才能更有作为！ ",
+                "capacity": 12046,
+                "poster": {
+                    "id": "1482421777",
+                    "platform": 1,
+                    "name": "还记得那个MJ吗 ",
+                    "emoji": []
+                },
+                "bmp": "18c195800202c101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

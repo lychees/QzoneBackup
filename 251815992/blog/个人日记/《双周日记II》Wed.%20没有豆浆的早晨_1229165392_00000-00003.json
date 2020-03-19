@@ -1,0 +1,115 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1229225521,
+                "effect": 4194336,
+                "replyNum": 1,
+                "content": "我的名字打错了!! [em]e103[/em]\n \n哼\n不过智力饼干的味道还不错~ ",
+                "capacity": 12086,
+                "poster": {
+                    "id": "241721246",
+                    "platform": 1,
+                    "name": "-Zoey-D ",
+                    "emoji": []
+                },
+                "bmp": "18d495a001008121",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "...# ",
+                        "postTime": 1229227053,
+                        "id": 1229227053,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1229227650,
+                "effect": 4194336,
+                "replyNum": 1,
+                "content": "[B]，对面是12班的胖子季时雨守门[/B]\n \n[B]是11！[/B] ",
+                "capacity": 12079,
+                "poster": {
+                    "id": "474697421",
+                    "platform": 1,
+                    "name": "朱明琪 ",
+                    "emoji": []
+                },
+                "bmp": "18d195a000028209",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "。。。哦 懒得改了~ ",
+                        "postTime": 1229227730,
+                        "id": 1229227730,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1229243218,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "。。。 ",
+                "capacity": 12162,
+                "poster": {
+                    "id": "770976045",
+                    "platform": 1,
+                    "name": "┈┾葬亽 ╄ ",
+                    "emoji": []
+                },
+                "bmp": "18d015a40000c209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1229767945,
+                "effect": 4194336,
+                "replyNum": 1,
+                "content": "我想很无奈地说你不要形容我们班是喽罗...\n还有不要盗我版权而且你也没放出来..\n还有我的怪异的声音.. ",
+                "capacity": 12053,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "....## ",
+                        "postTime": 1229768274,
+                        "id": 1229768274,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

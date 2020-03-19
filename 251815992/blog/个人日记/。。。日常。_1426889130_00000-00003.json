@@ -1,0 +1,79 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1426899545,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "天呐，客户端不同步 ",
+                "capacity": 12154,
+                "poster": {
+                    "id": "1120090148",
+                    "platform": 1,
+                    "name": "[nbu]嘟嘟洒水车 ",
+                    "emoji": []
+                },
+                "bmp": "084495a00000c421",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1426908005,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "做一个没有bug得游戏吧！ ",
+                "capacity": 12146,
+                "poster": {
+                    "id": "785535171",
+                    "platform": 1,
+                    "name": "Jの星愿 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a40100a201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1426933774,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "蛋疼啊~这是要用 ACE 的节奏么 ",
+                "capacity": 12138,
+                "poster": {
+                    "id": "2584468854",
+                    "platform": 1,
+                    "name": "SweetLover ",
+                    "emoji": []
+                },
+                "bmp": "1850958002028101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1427038275,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "这么能扯淡 ",
+                "capacity": 12151,
+                "poster": {
+                    "id": "122422114",
+                    "platform": 1,
+                    "name": "122422114 ",
+                    "emoji": []
+                },
+                "bmp": "0000000000000000",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

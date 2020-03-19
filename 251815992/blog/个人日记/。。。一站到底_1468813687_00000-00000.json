@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1468815405,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "你去了？ ",
+                "capacity": 12162,
+                "poster": {
+                    "id": "474049435",
+                    "platform": 1,
+                    "name": "[HDU19]Darkrai ",
+                    "emoji": []
+                },
+                "bmp": "18909da10002c201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

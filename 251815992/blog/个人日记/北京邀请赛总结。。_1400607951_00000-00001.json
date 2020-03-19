@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1400638476,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "sb ",
+                "capacity": 12164,
+                "poster": {
+                    "id": "911574351",
+                    "platform": 1,
+                    "name": "Yuko丶柚子 ",
+                    "emoji": []
+                },
+                "bmp": "184495800410c821",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1401444744,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "大牛威武！ ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "549877380",
+                    "platform": 1,
+                    "name": "黑暗之神 ",
+                    "emoji": []
+                },
+                "bmp": "08d08d800002c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

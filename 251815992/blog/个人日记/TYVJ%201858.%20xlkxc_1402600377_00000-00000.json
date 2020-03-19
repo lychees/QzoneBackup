@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1402611951,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "真辛苦，孩子！ ",
+                "capacity": 12153,
+                "poster": {
+                    "id": "912124636",
+                    "platform": 1,
+                    "name": "仙人掌 ",
+                    "emoji": []
+                },
+                "bmp": "98c195a00100e001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

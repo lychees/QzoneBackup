@@ -1,0 +1,844 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    我所总结关于 动态树 的一些 AM 战略（攻略 + 代码 原创）。
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             我所总结关于 动态树 的一些 AM 战略（攻略 + 代码 原创）。
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2013-10-18 18:28:22
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(86)	è¯è®º(1)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1382135302,
+"voteids":0,
+"pubtime":1382135302,
+"replynum":1,
+"category":"个人日记",
+"title":"我所总结关于 动态树 的一些 AM 战略（攻略 + 代码 原创）。",
+"effect":8389120,
+"effect2":524294,
+"exblogtype":3,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":81177,
+"lp_style":16843520,
+"lp_flag":0,
+"lp_topvalue":0,
+"orguin":251815992,
+"orgblogid":1382135302,
+"mention_uins":[ ],
+"attach":[],"comments":[{"id":1,
+"postTime":1382143261,
+"effect":1056,
+"replyNum":1,
+"content":"splay能持续化么 ",
+"capacity":11981,
+"poster":{
+"id":"865319505",
+"platform":1,
+"name":"Error202 ",
+"emoji":[ ]}
+,
+"bmp":"08c09d800000c020",
+"ismyreply":0,
+"replies":[{"poster":{
+"id":"251815992",
+"name":"小岛美奈子 ",
+"platform":1}
+,
+"content":"@{uin:865319505,nick:Error202,who:1,auto:1}splay 不能使用 link path 策略进行持续化。因为同一颗坏的子树会被使用多次。使得均摊分析失效。 ",
+"postTime":1382146965,
+"id":1382146965,
+"effect":0}]}]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <div>
+                <br style="font-family:Tahoma, 'Microsoft Yahei'"/>
+                <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                 ————
+                </span>
+                <br style="font-family:Tahoma, 'Microsoft Yahei'"/>
+                <span style="margin:0px;padding:0px;font-family:Tahoma, 'Microsoft Yahei'">
+                 <br/>
+                 数据结构使的其中两个主线是。。。
+                 <br/>
+                 <br/>
+                </span>
+                <span style="margin:0px;padding:0px;font-family:Tahoma, 'Microsoft Yahei'">
+                </span>
+                <span style="margin:0px;padding:0px;font-family:Tahoma, 'Microsoft Yahei'">
+                 Treap -&gt; 可持久化 Treap -&gt; 重量平衡树 -&gt; 替罪羊 -&gt; 可持久化 kd-
+                </span>
+                <span style="margin:0px;padding:0px;font-family:Tahoma, 'Microsoft Yahei'">
+                 tree 。。。
+                </span>
+                <span style="margin:0px;padding:0px;font-family:Tahoma, 'Microsoft Yahei'">
+                 <br/>
+                </span>
+                <span style="margin:0px;padding:0px;font-family:Tahoma, 'Microsoft Yahei'">
+                 Splay
+                </span>
+                <span style="margin:0px;padding:0px;font-family:Tahoma, 'Microsoft Yahei'">
+                 -&gt; LCT
+                </span>
+                <span style="margin:0px;padding:0px;font-family:Tahoma, 'Microsoft Yahei'">
+                 -&gt;  ETT -&gt; 子树
+                </span>
+                <span style="margin:0px;padding:0px;font-family:Tahoma, 'Microsoft Yahei'">
+                 LCT -&gt; 深度 LCT
+                </span>
+                <span style="margin:0px;padding:0px;font-family:Tahoma, 'Microsoft Yahei'">
+                 （用以解决 KDS 系列问题） -&gt; 半径 LCT
+                </span>
+                <span style="margin:0px;padding:0px;font-family:Tahoma, 'Microsoft Yahei'">
+                 （用以解决
+                </span>
+                <span style="margin:0px;padding:0px;font-family:Tahoma, 'Microsoft Yahei'">
+                 KRS 系列问题）。。
+                 <br/>
+                 。(注意后面两个其实是我 yy 的。。。
+                 <br/>
+                 <span style="margin:0px;padding:0px">
+                  <br/>
+                  <br/>
+                 </span>
+                </span>
+                <span style="margin:0px;padding:0px;font-family:Tahoma, 'Microsoft Yahei'">
+                 （以下是脑洞。。。）
+                </span>
+                <br style="font-family:Tahoma, 'Microsoft Yahei'"/>
+                <span style="margin:0px;padding:0px;font-family:Tahoma, 'Microsoft Yahei'">
+                 定义结点 -&gt; 各种 define 。-&gt; 维护结点信息。（。初始化。。部署标记。update。。release。。）。。。
+                </span>
+                <br style="font-family:Tahoma, 'Microsoft Yahei'"/>
+                <span style="margin:0px;padding:0px;font-family:Tahoma, 'Microsoft Yahei'">
+                 -&gt; 旋转 -&gt; 伸展 -&gt; 虚实切换。。-&gt; 换根。。-&gt; Link / Cut -&gt; 其他题目要求的操作。。回收 define （如果需要）。。
+                </span>
+                <br style="font-family:Tahoma, 'Microsoft Yahei'"/>
+                <span style="margin:0px;padding:0px;font-family:Tahoma, 'Microsoft Yahei'">
+                 （注意以上部分没有逗号一定要一气呵成。！。[1]）
+                 <br/>
+                 <span style="margin:0px;padding:0px">
+                  <br/>
+                  <br/>
+                  <br/>
+                 </span>
+                </span>
+                <span style="margin:0px;padding:0px;font-family:Tahoma, 'Microsoft Yahei'">
+                 .。。。这里可能有几个同学会有疑问了。。。
+                 <br/>
+                 。有些 LCT 题树不是静态的。。为什么还要写换根操作呢。我可以很负责任的告诉你：
+                 <br/>
+                </span>
+                <span style="margin:0px;padding:0px;font-family:Tahoma, 'Microsoft Yahei'">
+                 。。。很多不换根的问题也可以借助换根使得 代码 &amp;&amp; 思维 复杂度得到极大的简化。（
+                </span>
+                <span style="margin:0px;padding:0px;font-family:Tahoma, 'Microsoft Yahei'">
+                 。并且也更美观。）。。
+                </span>
+                <span style="margin:0px;padding:0px;font-family:Tahoma, 'Microsoft Yahei'">
+                 <br/>
+                </span>
+                <span style="margin:0px;padding:0px;font-family:Tahoma, 'Microsoft Yahei'">
+                 <br/>
+                 <span style="margin:0px;padding:0px">
+                  <br/>
+                  以
+                 </span>
+                </span>
+                <span style="margin:0px;padding:0px;font-family:Tahoma, 'Microsoft Yahei'">
+                 URAL - 1553.
+                </span>
+                <span style="margin:0px;padding:0px;font-family:Tahoma, 'Microsoft Yahei'">
+                 Caves and Tunnels 为例。
+                </span>
+                <span style="margin:0px;padding:0px;font-family:Tahoma, 'Microsoft Yahei'">
+                 <span style="margin:0px;padding:0px">
+                  <br/>
+                 </span>
+                </span>
+                <span style="margin:0px;padding:0px;font-family:Tahoma, 'Microsoft Yahei'">
+                 <br/>
+                </span>
+                <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                 void Query(node* x){
+                </span>
+                <div style="margin:0px;padding:0px;font-family:Tahoma, 'Microsoft Yahei'">
+                 <br/>
+                </div>
+                <div style="margin:0px;padding:0px;font-family:Tahoma, 'Microsoft Yahei'">
+                 x-&gt;ert(); OT(acs()-&gt;w2);
+                </div>
+                <div style="margin:0px;padding:0px;font-family:Tahoma, 'Microsoft Yahei'">
+                 <br/>
+                </div>
+                <div style="margin:0px;padding:0px;font-family:Tahoma, 'Microsoft Yahei'">
+                 /*
+                </div>
+                <div style="margin:0px;padding:0px;font-family:Tahoma, 'Microsoft Yahei'">
+                 acs(); node *y = NIL; do{
+                </div>
+                <div style="margin:0px;padding:0px;font-family:Tahoma, 'Microsoft Yahei'">
+                 x-&gt;splay(); if (px == NIL) OT(max(rx-&gt;w2, x-&gt;w1, y-&gt;w2));
+                </div>
+                <div style="margin:0px;padding:0px;font-family:Tahoma, 'Microsoft Yahei'">
+                 rx = y, x-&gt;upd();
+                </div>
+                <div style="margin:0px;padding:0px;font-family:Tahoma, 'Microsoft Yahei'">
+                 y = x, x = px;
+                </div>
+                <div style="margin:0px;padding:0px;font-family:Tahoma, 'Microsoft Yahei'">
+                 } while (x != NIL);
+                </div>
+                <div style="margin:0px;padding:0px;font-family:Tahoma, 'Microsoft Yahei'">
+                 */
+                </div>
+                <div style="margin:0px;padding:0px">
+                 <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                  }
+                 </span>
+                 <br/>
+                 <span style="font-family:Tahoma, 'Microsoft Yahei';margin:0px;padding:0px">
+                  <br/>
+                  。。。（。如果没 换根 操作的话。。只能像这样很傻逼的 acs() 搞两次搞出 lca 。
+                 </span>
+                 <span style="font-family:Tahoma, 'Microsoft Yahei';margin:0px;padding:0px">
+                  。而且后面那半啊 TA 的左右关系还是颠倒
+                 </span>
+                 <span style="margin:0px;padding:0px">
+                  <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                   的！。
+                  </span>
+                  <br/>
+                  <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                   在一类区间合并问题中这点才会体现出来。
+                  </span>
+                  <br/>
+                  <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                   例如：
+                   <br/>
+                   <br/>
+                   <br/>
+                   <br/>
+                   <br/>
+                   MSS
+                   <br/>
+                  </span>
+                  <a href="http://acm.hust.edu.cn/vjudge/problem/viewProblem.action?id=19943" style="font-family:Tahoma, 'Microsoft Yahei'" target="_blank">
+                   http://acm.hust.edu.cn/vjudge/problem/viewProblem.action?id=19943
+                  </a>
+                  <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                   <br/>
+                  </span>
+                  <span style="margin:0px;padding:0px">
+                   <a href="http://codeforces.com/problemset/status/280/problem/D" style="font-family:Tahoma, 'Microsoft Yahei'" target="_blank">
+                    http://codeforces.com/problemset/status/280/problem/D
+                   </a>
+                   <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                   </span>
+                  </span>
+                  <span style="font-family:Tahoma, 'Microsoft Yahei';margin:0px;padding:0px">
+                   <br/>
+                  </span>
+                  <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                  </span>
+                  <br/>
+                  （注意 rev 。。）
+                  <br/>
+                  <br/>
+                  inline void rev(){bj^=1,swap(l, r),swap(ls, rs);}
+                  <br/>
+                  <br/>
+                  必须取满 k 段。。
+                  <br/>
+                  <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                   <br/>
+                   inline void sss(){bj|=2, ss = sz * ky, ms = ls = rs = ky &lt; 0 ? ky : ss;}
+                   <br/>
+                   <span>
+                    <br/>
+                   </span>
+                  </span>
+                  <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                   inline void upd(){
+                  </span>
+                  <div style="margin:0px;padding:0px">
+                   <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                    sz = l-&gt;sz + 1 + r-&gt;sz, ss = l-&gt;ss + ky + r-&gt;ss;
+                   </span>
+                  </div>
+                  <div style="margin:0px;padding:0px">
+                   <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                    ls = max(l-&gt;ls, l-&gt;ss + ky + max(0, r-&gt;ls));
+                   </span>
+                  </div>
+                  <div style="margin:0px;padding:0px">
+                   <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                    rs = max(r-&gt;rs, r-&gt;ss + ky + max(0, l-&gt;rs));
+                   </span>
+                  </div>
+                  <div style="margin:0px;padding:0px">
+                   <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                    ms = max(l-&gt;ms, max(0, l-&gt;rs) + ky + max(0, r-&gt;ls), r-&gt;ms);
+                   </span>
+                  </div>
+                  <div style="margin:0px;padding:0px">
+                   <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                    }
+                   </span>
+                  </div>
+                  <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                  </span>
+                  <br/>
+                  不必须。。。
+                  <br/>
+                  <br/>
+                  inline void sss(){bj|=2,ss=sz*ky,ms=ls=rs=max(0,ss);}
+                  <br/>
+                  <br/>
+                  <div style="margin:0px;padding:0px">
+                   <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                    inline void upd(){
+                   </span>
+                  </div>
+                  <div style="margin:0px;padding:0px">
+                   <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                    assert(this != NIL);
+                   </span>
+                  </div>
+                  <div style="margin:0px;padding:0px">
+                   <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                    sz = l-&gt;sz + 1 + r-&gt;sz, ss = l-&gt;ss + ky + r-&gt;ss;
+                   </span>
+                  </div>
+                  <div style="margin:0px;padding:0px">
+                   <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                    ls = max(l-&gt;ls, l-&gt;ss + ky + r-&gt;ls);
+                   </span>
+                  </div>
+                  <div style="margin:0px;padding:0px">
+                   <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                    rs = max(r-&gt;rs, r-&gt;ss + ky + l-&gt;rs);
+                   </span>
+                  </div>
+                  <div style="margin:0px;padding:0px">
+                   <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                    ms = max(l-&gt;ms, l-&gt;rs + ky + r-&gt;ls, r-&gt;ms);
+                   </span>
+                  </div>
+                  <div style="margin:0px;padding:0px">
+                   <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                    }
+                   </span>
+                  </div>
+                  <div style="font-family:Tahoma, 'Microsoft Yahei'">
+                   <br/>
+                  </div>
+                  <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                   LCIS
+                  </span>
+                  <br/>
+                  <a href="http://acm.hust.edu.cn/vjudge/problem/viewProblem.action?id=46498" style="font-family:Tahoma, 'Microsoft Yahei'" target="_blank">
+                   http://acm.hust.edu.cn/vjudge/problem/viewProblem.action?id=46498
+                  </a>
+                  <br/>
+                  <br/>
+                  <div style="margin:0px;padding:0px">
+                   inline void rev(){bj^=1,swap(l,r),swap(bd[0],bd[1]),swap(up[0],dn[1]),swap(up[1],dn[0]),swap(up[2],dn[2]);}
+                  </div>
+                  <br/>
+                  <div style="margin:0px;padding:0px">
+                   <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                    inline void upd(){
+                   </span>
+                  </div>
+                  <div style="margin:0px;padding:0px">
+                   <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                    //assert(this != NIL);
+                   </span>
+                  </div>
+                  <div style="margin:0px;padding:0px">
+                   <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                    sz = l-&gt;sz + 1 + r-&gt;sz;
+                   </span>
+                  </div>
+                  <div style="margin:0px;padding:0px">
+                   <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                    bd[0] = l == NIL ? ky : l-&gt;bd[0];
+                   </span>
+                  </div>
+                  <div style="margin:0px;padding:0px">
+                   <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                    bd[1] = r == NIL ? ky : r-&gt;bd[1];
+                   </span>
+                  </div>
+                  <div style="margin:0px;padding:0px">
+                   <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                    <br/>
+                   </span>
+                  </div>
+                  <div style="margin:0px;padding:0px">
+                   <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                    up[0] = l-&gt;up[0]; if (l == NIL || up[0] == l-&gt;sz &amp;&amp; l-&gt;bd[1] &lt; ky)
+                   </span>
+                  </div>
+                  <div style="margin:0px;padding:0px">
+                   <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                    up[0] += 1 + (ky &lt; r-&gt;bd[0] ? r-&gt;up[0] : 0);
+                   </span>
+                  </div>
+                  <div style="margin:0px;padding:0px">
+                   <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                    dn[0] = l-&gt;dn[0]; if (l == NIL || dn[0] == l-&gt;sz &amp;&amp; l-&gt;bd[1] &gt; ky)
+                   </span>
+                  </div>
+                  <div style="margin:0px;padding:0px">
+                   <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                    dn[0] += 1 + (ky &gt; r-&gt;bd[0] ? r-&gt;dn[0] : 0);
+                   </span>
+                  </div>
+                  <div style="margin:0px;padding:0px">
+                   <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                    up[1] = r-&gt;up[1]; if (r == NIL || up[1] == r-&gt;sz &amp;&amp; ky &lt; r-&gt;bd[0])
+                   </span>
+                  </div>
+                  <div style="margin:0px;padding:0px">
+                   <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                    up[1] += 1 + (l-&gt;bd[1] &lt; ky ? l-&gt;up[1] : 0);
+                   </span>
+                  </div>
+                  <div style="margin:0px;padding:0px">
+                   <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                    dn[1] = r-&gt;dn[1]; if (r == NIL || dn[1] == r-&gt;sz &amp;&amp; ky &gt; r-&gt;bd[0])
+                   </span>
+                  </div>
+                  <div style="margin:0px;padding:0px">
+                   <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                    dn[1] += 1 + (l-&gt;bd[1] &gt; ky ? l-&gt;dn[1] : 0);
+                   </span>
+                  </div>
+                  <div style="margin:0px;padding:0px">
+                   <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                    <br/>
+                   </span>
+                  </div>
+                  <div style="margin:0px;padding:0px">
+                   <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                    up[2] = max(l-&gt;up[2], (l-&gt;bd[1] &lt; ky ? l-&gt;up[1] : 0) + 1 + (ky &lt; r-&gt;bd[0] ? r-&gt;up[0] : 0), r-&gt;up[2]);
+                   </span>
+                  </div>
+                  <div style="margin:0px;padding:0px">
+                   <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                    dn[2] = max(l-&gt;dn[2], (l-&gt;bd[1] &gt; ky ? l-&gt;dn[1] : 0) + 1 + (ky &gt; r-&gt;bd[0] ? r-&gt;dn[0] : 0), r-&gt;dn[2]);
+                   </span>
+                  </div>
+                  <div style="margin:0px;padding:0px">
+                   <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                    <br/>
+                   </span>
+                  </div>
+                  <div style="margin:0px;padding:0px">
+                   <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                    }
+                   </span>
+                  </div>
+                  <br/>
+                  <br/>
+                 </span>
+                 <span style="font-family:Tahoma, 'Microsoft Yahei';margin:0px;padding:0px">
+                  怎么可能写的对？。。。
+                 </span>
+                 <span style="font-family:Tahoma, 'Microsoft Yahei';margin:0px;padding:0px">
+                  <br/>
+                 </span>
+                </div>
+                <span style="margin:0px;padding:0px;font-family:Tahoma, 'Microsoft Yahei'">
+                 所以。模板我们认为
+                </span>
+                <span style="margin:0px;padding:0px;font-family:Tahoma, 'Microsoft Yahei'">
+                 换根是一个基本操作应该直接被镶嵌在模板里。。
+                 <br/>
+                 <br/>
+                </span>
+                <br style="font-family:Tahoma, 'Microsoft Yahei'"/>
+                <br style="font-family:Tahoma, 'Microsoft Yahei'"/>
+                <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                 以下是这一小节的题单。。
+                </span>
+                <br style="font-family:Tahoma, 'Microsoft Yahei'"/>
+                <a href="http://acm.hust.edu.cn/vjudge/contest/view.action?cid=31009#overview" style="color:rgb(183, 77, 74);margin:0px;padding:0px;text-decoration:none;font-family:Tahoma, 'Microsoft Yahei'" target="_blank">
+                 http://acm.hust.edu.cn/vjudge/contest/view.action?cid=31009#overview
+                </a>
+                <br style="font-family:Tahoma, 'Microsoft Yahei'"/>
+                <br style="font-family:Tahoma, 'Microsoft Yahei'"/>
+                <br style="font-family:Tahoma, 'Microsoft Yahei'"/>
+                <br style="font-family:Tahoma, 'Microsoft Yahei'"/>
+                <br style="font-family:Tahoma, 'Microsoft Yahei'"/>
+                <br style="font-family:Tahoma, 'Microsoft Yahei'"/>
+                <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                 学会了用 LCT 维护基础的路径信息后。。我们来看一些复杂信息吧！
+                </span>
+                <br style="font-family:Tahoma, 'Microsoft Yahei'"/>
+                <br style="font-family:Tahoma, 'Microsoft Yahei'"/>
+                <br style="font-family:Tahoma, 'Microsoft Yahei'"/>
+                <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                 质心
+                </span>
+                <br style="font-family:Tahoma, 'Microsoft Yahei'"/>
+                <br style="font-family:Tahoma, 'Microsoft Yahei'"/>
+                <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                 直径
+                </span>
+                <br style="font-family:Tahoma, 'Microsoft Yahei'"/>
+                <br style="font-family:Tahoma, 'Microsoft Yahei'"/>
+                <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                 染色 / 最远黑色结点距离
+                </span>
+                <br style="font-family:Tahoma, 'Microsoft Yahei'"/>
+                <br style="font-family:Tahoma, 'Microsoft Yahei'"/>
+                <br style="font-family:Tahoma, 'Microsoft Yahei'"/>
+                <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                 。。。。天色不早了。我的模板还没调对 。。。。
+                </span>
+                <br style="font-family:Tahoma, 'Microsoft Yahei'"/>
+                <span style="margin:0px;padding:0px;font-family:Tahoma, 'Microsoft Yahei'">
+                 。。。这里记一种直接的维护树的  质心/直径 的方法吧（只支持添加叶子。不需要 LCT 。。（只需要倍增 LCA
+                </span>
+                <span style="margin:0px;padding:0px">
+                 <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                  。。）
+                 </span>
+                 <br/>
+                 <span style="margin:0px;padding:0px">
+                  <br/>
+                  <br/>
+                  <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                   。。。方法就是维护直径的两个端点就行了。。。。
+                  </span>
+                  <br/>
+                  <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                   。。。
+                  </span>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                 </span>
+                </span>
+                <a href="http://www.codechef.com/viewsolution/2848438" style="color:rgb(183, 77, 74);margin:0px;padding:0px;text-decoration:none;font-family:Tahoma, 'Microsoft Yahei'" target="_blank">
+                 http://www.codechef.com/viewsolution/2848438
+                </a>
+                <br/>
+                <br style="font-family:Tahoma, 'Microsoft Yahei'"/>
+                <br style="font-family:Tahoma, 'Microsoft Yahei'"/>
+                <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                 动态维护 重心/直径 原来可以这么简单！？
+                </span>
+                <br style="font-family:Tahoma, 'Microsoft Yahei'"/>
+                <br style="font-family:Tahoma, 'Microsoft Yahei'"/>
+                <br style="font-family:Tahoma, 'Microsoft Yahei'"/>
+                <br style="font-family:Tahoma, 'Microsoft Yahei'"/>
+                <br style="font-family:Tahoma, 'Microsoft Yahei'"/>
+                <br style="font-family:Tahoma, 'Microsoft Yahei'"/>
+                <br style="font-family:Tahoma, 'Microsoft Yahei'"/>
+                <br style="font-family:Tahoma, 'Microsoft Yahei'"/>
+                <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                 ————————
+                </span>
+                <br style="font-family:Tahoma, 'Microsoft Yahei'"/>
+                <span style="font-family:Tahoma, 'Microsoft Yahei'">
+                 [1] 我总结魔兽 3C 的一些 AM 战略（战报 + 攻略 原创）
+                </span>
+                <br style="font-family:Tahoma, 'Microsoft Yahei'"/>
+                <a href="http://hi.baidu.com/pkqs90/item/2994c2e7f207983a4cdcaf30" style="color:rgb(183, 77, 74);margin:0px;padding:0px;text-decoration:none;font-family:Tahoma, 'Microsoft Yahei'" target="_blank">
+                 http://hi.baidu.com/pkqs90/item/2994c2e7f207983a4cdcaf30
+                </a>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+               </div>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

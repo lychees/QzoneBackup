@@ -1,0 +1,57 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1223387127,
+                "effect": 4194336,
+                "replyNum": 1,
+                "content": "18\n \nNPS912 ",
+                "capacity": 12115,
+                "poster": {
+                    "id": "474697421",
+                    "platform": 1,
+                    "name": "朱明琪 ",
+                    "emoji": []
+                },
+                "bmp": "18d195a000028209",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "注意一下~字母是小写- - ",
+                        "postTime": 1230877903,
+                        "id": 1230877903,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1230955360,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "阅读51 评论1   -_- ",
+                "capacity": 12149,
+                "poster": {
+                    "id": "474697421",
+                    "platform": 1,
+                    "name": "朱明琪 ",
+                    "emoji": []
+                },
+                "bmp": "18d195a000028209",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

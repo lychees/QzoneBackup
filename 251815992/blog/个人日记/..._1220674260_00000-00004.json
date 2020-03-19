@@ -1,0 +1,96 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 5,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1220683477,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "恩? 沙发?? ",
+                "capacity": 12160,
+                "poster": {
+                    "id": "241721246",
+                    "platform": 1,
+                    "name": "-Zoey-D ",
+                    "emoji": []
+                },
+                "bmp": "18d495a001008121",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1220684144,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "啊地板! ",
+                "capacity": 12160,
+                "poster": {
+                    "id": "474697421",
+                    "platform": 1,
+                    "name": "朱明琪 ",
+                    "emoji": []
+                },
+                "bmp": "18d195a000028209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1220782099,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "￣￣ ",
+                "capacity": 12162,
+                "poster": {
+                    "id": "626003679",
+                    "platform": 1,
+                    "name": "沙了个皮 ",
+                    "emoji": []
+                },
+                "bmp": "18d48de00108e401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1221367379,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "什么9月1号事件？\n还有Pig你以后不要敲地板了，好冷... ",
+                "capacity": 12121,
+                "poster": {
+                    "id": "534470369",
+                    "platform": 1,
+                    "name": "张弛 ",
+                    "emoji": []
+                },
+                "bmp": "08d08ca000000428",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1222610996,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "怎么图片不能看？ ",
+                "capacity": 12154,
+                "poster": {
+                    "id": "917640727",
+                    "platform": 1,
+                    "name": "euclid ",
+                    "emoji": []
+                },
+                "bmp": "0880942000000001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

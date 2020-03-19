@@ -1,0 +1,40 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1202961419,
+                "effect": 4194336,
+                "replyNum": 1,
+                "content": "[M][B]哎[/B][/M]\n[M][B]是喜还是悲呢[/B][/M]\n ",
+                "capacity": 12108,
+                "poster": {
+                    "id": "173324507",
+                    "platform": 1,
+                    "name": "Groot ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a201",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "好像都有呢...~ ",
+                        "postTime": 0,
+                        "id": 0,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

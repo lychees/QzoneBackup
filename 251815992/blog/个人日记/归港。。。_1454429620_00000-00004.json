@@ -1,0 +1,120 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 5,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1454430754,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "跟lk干，发nature！ ",
+                "capacity": 12055,
+                "poster": {
+                    "id": "479447834",
+                    "platform": 1,
+                    "name": " ",
+                    "emoji": []
+                },
+                "bmp": "18c195a00100a201",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "420836131",
+                            "name": "doc ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:479447834,nick:.调参者 ,who:1,auto:1}不他们没戏 ",
+                        "postTime": 1454437665,
+                        "id": 1454437665,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1454432028,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "来上海搞基 ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "25241274",
+                    "platform": 1,
+                    "name": "七星瓢虫 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00000e101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1454504078,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "[em]e178[/em] ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "569620205",
+                    "platform": 1,
+                    "name": " [ ccnu ] Tmono ",
+                    "emoji": []
+                },
+                "bmp": "58d08da8000ec209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1454557129,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "苦练dota， ti6为国争光 ",
+                "capacity": 12051,
+                "poster": {
+                    "id": "844242114",
+                    "platform": 1,
+                    "name": "MoonMayCry ",
+                    "emoji": []
+                },
+                "bmp": "08d095a000028101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:844242114,nick:MoonMayCry,auto:1} 哥哥带我。 ",
+                        "postTime": 1454590288,
+                        "id": 1454590288,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "postTime": 1454596184,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "岛岛带我 ",
+                "capacity": 12166,
+                "poster": {
+                    "id": "223359382",
+                    "platform": 1,
+                    "name": "[拜戴神教]水 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a400008409",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

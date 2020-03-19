@@ -1,0 +1,91 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1327417091,
+                "effect": 32,
+                "replyNum": 3,
+                "content": "擦鞋不是10086么 ",
+                "capacity": 12002,
+                "poster": {
+                    "id": "190303874",
+                    "platform": 1,
+                    "name": "玉子 ",
+                    "emoji": []
+                },
+                "bmp": "18c09d6000028001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "。。没有的事。。。。总之特别坑吧。。一不小心就被收费了。。 ",
+                        "postTime": 1327417364,
+                        "id": 1327417364,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "190303874",
+                            "name": "玉子 ",
+                            "platform": 1
+                        },
+                        "content": "沒有哲♂學服務嗎 ",
+                        "postTime": 1327417397,
+                        "id": 1327417397,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "这个不可以有。。。 ",
+                        "postTime": 1327425413,
+                        "id": 1327425413,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1327507110,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[ft=,2,]尼轰？[/ft] ",
+                "capacity": 12122,
+                "poster": {
+                    "id": "568836124",
+                    "platform": 1,
+                    "name": "皮皮鲁 ",
+                    "emoji": []
+                },
+                "bmp": "18c595a800026001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "成都。。。 ",
+                        "postTime": 1327562136,
+                        "id": 1327562136,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1407978967,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "用位压不行么。。。取个10000进制 ",
+                "capacity": 12134,
+                "poster": {
+                    "id": "529003192",
+                    "platform": 1,
+                    "name": "【XDU】数学lover ",
+                    "emoji": []
+                },
+                "bmp": "18d19dac09828909",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1407981885,
+                "effect": 1056,
+                "replyNum": 3,
+                "content": "你会感觉到java框架的美 ",
+                "capacity": 11826,
+                "poster": {
+                    "id": "56329669",
+                    "platform": 1,
+                    "name": "Laughing ",
+                    "emoji": []
+                },
+                "bmp": "18d195a40100e201",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "529520158",
+                            "name": "雪人墙 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:56329669,nick:Laughing,who:1,auto:1} 求教～～ ",
+                        "postTime": 1407987622,
+                        "id": 1407987622,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "56329669",
+                            "name": "Laughing ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:529520158,nick:雪人墙,who:1,auto:1} 每种语言都有他的美 而java的美就在于他的设计 框架，看一些开源的就知道了 哈哈 ",
+                        "postTime": 1408076797,
+                        "id": 1408076797,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "529520158",
+                            "name": "雪人墙 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:56329669,nick:Laughing,who:1,auto:1} 举个例子可以么[em]e102[/em] ",
+                        "postTime": 1408077956,
+                        "id": 1408077956,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1289435885,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "画完画·················把板子藏到哪了？··················作为大股东的我························很愤慨啊···························· ",
+                "capacity": 11924,
+                "poster": {
+                    "id": "915910623",
+                    "platform": 1,
+                    "name": "lanlan ",
+                    "emoji": []
+                },
+                "bmp": "18d0952000008001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "自習室....  ",
+                        "postTime": 1289447012,
+                        "id": 1289447012,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1289471214,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "老魏打你电话,也不接、你回个短信,付上卡号、五佰大洋就进帐了、,笨旦 ",
+                "capacity": 12107,
+                "poster": {
+                    "id": "1119392332",
+                    "platform": 1,
+                    "name": "翔哥 ",
+                    "emoji": []
+                },
+                "bmp": "08809c0002000001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1289495358,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]根据专业人士的介绍，你可以在6：00刷一次，6:30刷一次；再6:31刷一次，7:01刷一次。。。。[/ft] ",
+                "capacity": 12074,
+                "poster": {
+                    "id": "1530491627",
+                    "platform": 1,
+                    "name": "钱冰忆 ",
+                    "emoji": []
+                },
+                "bmp": "1a519dc80210c201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

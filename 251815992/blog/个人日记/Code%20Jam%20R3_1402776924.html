@@ -1,0 +1,912 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    Code Jam R3
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             Code Jam R3
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2014-06-14 16:15:24
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(39)	è¯è®º(0)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1402776924,
+"voteids":0,
+"pubtime":1402776924,
+"replynum":0,
+"category":"个人日记",
+"title":"Code Jam R3",
+"effect":8389120,
+"effect2":524294,
+"exblogtype":3,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":81177,
+"lp_style":16843520,
+"lp_flag":0,
+"lp_topvalue":0,
+"orguin":251815992,
+"orgblogid":1402776924,
+"mention_uins":[ ],
+"attach":[],"comments":[]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               B:
+               <br/>
+               <br/>
+               Tower 的攻击是按照顺序的，对于每个 Monster，我们有两个决策，杀/不杀。。。
+               <br/>
+               。。。如果不杀的话。。我们并不是去枚举去攻击的对象，而是把攻击次数攒起来。。。
+               <br/>
+               这样就是 0/1 背包。。背包容量 = 攻击次数。。。因为有负容量的物品，因此必须使用滚动数组。。。
+               <br/>
+               <br/>
+               <div>
+                a[i] = ceil(hp, Q) ： 选择不杀时产生的容量
+               </div>
+               <div>
+                b[i] = ceil(hp%Q?hp%Q:Q, P)-(a[i]-1); 杀时花费的容量。
+               </div>
+               <br/>
+               最后我们注意到 。。
+               <br/>
+               <div>
+                1
+               </div>
+               <div>
+                20 100 3
+               </div>
+               <div>
+                140 100
+               </div>
+               <div>
+                140 100
+               </div>
+               <div>
+                140 100
+                <br/>
+                <br/>
+                第一个怪兽虽然花费 2 但是我们仍然是可以消灭的。
+                <br/>
+                （相当于提前支取了 1 个容量。。。实际上就是背包的初始容量为 1.）
+                <br/>
+               </div>
+               <div>
+                <br/>
+               </div>
+               <div>
+                const int N = int(1e2) + 9, M = int(1e3) + 9;
+               </div>
+               <div>
+                int dp[2][M], a[N], b[N], v[N], P, Q;
+               </div>
+               <div>
+                int n, p, q;
+               </div>
+               <div>
+                <br/>
+               </div>
+               <div>
+                int main(){
+               </div>
+               <div>
+                <br/>
+               </div>
+               <div>
+                #ifndef ONLINE_JUDGE
+               </div>
+               <div>
+                //freopen("in.txt", "r", stdin);
+               </div>
+               <div>
+                freopen("B-large-practice.in", "r", stdin);
+               </div>
+               <div>
+                freopen("out.txt", "w", stdout);
+               </div>
+               <div>
+                #endif
+               </div>
+               <div>
+                <br/>
+               </div>
+               <div>
+                Rush{
+               </div>
+               <div>
+                <br/>
+               </div>
+               <div>
+                RD(P, Q, n); REP(i, n){
+               </div>
+               <div>
+                int hp; RD(hp, v[i]);
+               </div>
+               <div>
+                a[i] = ceil(hp, Q),
+               </div>
+               <div>
+                b[i] = ceil(hp%Q?hp%Q:Q, P)-(a[i]-1);
+               </div>
+               <div>
+                }
+               </div>
+               <div>
+                <br/>
+               </div>
+               <div>
+                p = 0, q = 1; FLC(dp[p], -1); dp[p][1] = 0;
+               </div>
+               <div>
+                <br/>
+               </div>
+               <div>
+                REP(i, n){
+               </div>
+               <div>
+                <br/>
+               </div>
+               <div>
+                swap(p, q); FLC(dp[p], -1);
+               </div>
+               <div>
+                <br/>
+               </div>
+               <div>
+                #define u dp[q][j]
+               </div>
+               <div>
+                <br/>
+               </div>
+               <div>
+                REP(j, M) if (~u){
+               </div>
+               <div>
+                checkMax(dp[p][j+a[i]], u);
+               </div>
+               <div>
+                if (j-b[i] &gt;= 0) checkMax(dp[p][j-b[i]], u+v[i]);
+               </div>
+               <div>
+                }
+               </div>
+               <div>
+                }
+               </div>
+               <div>
+                <br/>
+               </div>
+               <div>
+                int res = 0; swap(p, q); REP(j, M) checkMax(res, u);
+               </div>
+               <div>
+                OT(res);
+               </div>
+               <div>
+                }
+               </div>
+               <div>
+                }
+               </div>
+               <div>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                D:
+                <br/>
+                <span>
+                 <div>
+                  <br/>
+                  <br/>
+                  难道不是博弈搜索？
+                  <br/>
+                  我木有看懂！
+                  <br/>
+                  <br/>
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  typedef pair&lt;int, int&gt; PII;
+                 </div>
+                 <div>
+                  typedef long long ll;
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  #define fi first
+                 </div>
+                 <div>
+                  #define se second
+                 </div>
+                 <div>
+                  #define mp make_pair
+                 </div>
+                 <div>
+                  #define pb push_back
+                 </div>
+                 <div>
+                  #define pct __builtin_popcount
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  #define N 82
+                 </div>
+                 <div>
+                  #define INF 1000000007
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  int f[N][N][N][N];
+                 </div>
+                 <div>
+                  bool st[N][N][N][N];
+                 </div>
+                 <div>
+                  int n,c[N];
+                 </div>
+                 <div>
+                  vector&lt;int&gt; A[N];
+                 </div>
+                 <div>
+                  bool v[N][N][N];
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  typedef vector&lt;int&gt;::iterator VIT;
+                 </div>
+                 <div>
+                  bool u[N];
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  void ff(int z, int x) {
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  u[x] = 1;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (int i = 0; i &lt; n; i ++) v[z][x][i] = u[i];
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (VIT i = A[x].begin(); i != A[x].end(); i ++)
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  if (!u[*i]) ff(z,*i);
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  u[x] = 0;
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  int ff(int x0, int y0, int x1, int y1) {
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  int &amp;S = f[x0][y0][x1][y1];
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  if (S != -INF)
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  return S;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  if (st[x0][y0][x1][y1]) {
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  if (st[x1][y1][x0][y0]) return S = 0;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  return S=-ff(x1,y1,x0,y0);
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  }
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (VIT i = A[y0].begin(); i != A[y0].end(); i ++)
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  if (!v[x0][y0][*i] &amp;&amp; !(v[x1][y1][y0] &amp;&amp; v[x1][y1][*i])) {
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  int p = 0;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  if (!v[x1][y1][*i]) p = c[*i];
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  S = max(S, p-ff(x1,y1,x0,*i));
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  }
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  return S;
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  int main()
+                 </div>
+                 <div>
+                  {
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  int _; cin &gt;&gt; _;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (int __ = 1; __ &lt;= _; __ ++) {
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  cin &gt;&gt; n;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (int i = 0; i &lt; n; i ++) cin &gt;&gt; c[i];
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (int i = 0; i &lt; n; i ++) A[i].clear();
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (int i = 1; i &lt; n; i ++) {
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  int x = i-1,y;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  cin &gt;&gt; y; y --;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  A[x].pb(y), A[y].pb(x);
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  }
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  memset(v,0,sizeof v);
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (int i = 0; i &lt; n; i ++) {
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  memset(u,0,sizeof u);
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  ff(i,i);
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  }
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (int i = 0; i &lt; n; i ++)
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (int j = 0; j &lt; n; j ++)
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (int k = 0; k &lt; n; k ++)
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (int l = 0; l &lt; n; l ++) {
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  f[i][j][k][l] = -INF;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  }
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  memset(st,0,sizeof st);
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (int x0 = 0; x0 &lt; n; x0 ++)
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (int y0 = 0; y0 &lt; n; y0 ++)
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (int x1 = 0; x1 &lt; n; x1 ++)
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (int y1 = 0; y1 &lt; n; y1 ++) {
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  bool &amp;F = st[x0][y0][x1][y1];
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  F = 1;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (VIT i = A[y0].begin(); i != A[y0].end(); i ++)
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  if (!v[x0][y0][*i] &amp;&amp; !(v[x1][y1][y0] &amp;&amp; v[x1][y1][*i])) {
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  F = 0; break;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  }
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  }
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  int S = -INF;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (int i = 0; i &lt; n; i ++) {
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  int T = INF;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (int j = 0; j &lt; n; j ++) {
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  int z = c[i];
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  if (i != j) z -= c[j];
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  T = min(T, z+ff(i,i,j,j));
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  }
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  S = max(S, T);
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  }
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  printf ("Case #%d: %d\n",__, S);
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  }
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  return 0;
+                 </div>
+                </span>
+                }
+                <span>
+                </span>
+               </div>
+               <br/>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

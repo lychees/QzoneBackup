@@ -1,0 +1,125 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 6,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1454286311,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "你还年轻，尽快走出阴影，前面的路还很广阔，WF只是其中一条，ICPC不是你大学的全部 ",
+                "capacity": 11950,
+                "poster": {
+                    "id": "89071086",
+                    "platform": 1,
+                    "name": "Descartes ",
+                    "emoji": []
+                },
+                "bmp": "08809da000004001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "3105179337",
+                            "name": "一只辣鸡 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:89071086,nick:Descartes,who:1,auto:1} 前年这个时候我想了两个月然后考了个烟酒僧做tcs…… ",
+                        "postTime": 1454287866,
+                        "id": 1454287866,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1454293001,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "先把毕业证什么的拿到手吧 ",
+                "capacity": 12147,
+                "poster": {
+                    "id": "569620205",
+                    "platform": 1,
+                    "name": " [ ccnu ] Tmono ",
+                    "emoji": []
+                },
+                "bmp": "58d08da8000ec209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1454301227,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "先把毕业证拿到手 +1 ",
+                "capacity": 12147,
+                "poster": {
+                    "id": "2584468854",
+                    "platform": 1,
+                    "name": "SweetLover ",
+                    "emoji": []
+                },
+                "bmp": "1850958002028101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1454316595,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "先拿毕业证吧[em]e183[/em] ",
+                "capacity": 12143,
+                "poster": {
+                    "id": "451734587",
+                    "platform": 1,
+                    "name": "倚剑天涯 ",
+                    "emoji": []
+                },
+                "bmp": "18c095a400008301",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1454330338,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "明年再打啊 ",
+                "capacity": 12160,
+                "poster": {
+                    "id": "945637290",
+                    "platform": 1,
+                    "name": "糖果 ",
+                    "emoji": []
+                },
+                "bmp": "088495800000d001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 6,
+                "postTime": 1454596282,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "辛卯年[em]e103[/em]，11年 ",
+                "capacity": 12149,
+                "poster": {
+                    "id": "223359382",
+                    "platform": 1,
+                    "name": "[拜戴神教]水 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a400008409",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

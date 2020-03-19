@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1365817674,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "PE ->  AC ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "56329669",
+                    "platform": 1,
+                    "name": "Laughing ",
+                    "emoji": []
+                },
+                "bmp": "18d195a40100e201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

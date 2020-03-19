@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1286714506,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "那个是传说中的“狗洞” ",
+                "capacity": 12150,
+                "poster": {
+                    "id": "451194918",
+                    "platform": 1,
+                    "name": "WADE ",
+                    "emoji": []
+                },
+                "bmp": "d8c195e00002c329",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

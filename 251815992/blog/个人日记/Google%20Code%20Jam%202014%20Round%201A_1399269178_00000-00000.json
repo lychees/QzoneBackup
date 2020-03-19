@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1399278532,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "高大上，必须赞，codejam黑黑的寸衫太漂亮了，什么时候可以进1000名以内啊 ",
+                "capacity": 12101,
+                "poster": {
+                    "id": "951103995",
+                    "platform": 1,
+                    "name": "13 机6 邓广 ",
+                    "emoji": []
+                },
+                "bmp": "18d09da50000c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1505110893,
+                "postTime": 1505110893,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "Welcome to Beijing ",
+                "capacity": 12148,
+                "poster": {
+                    "id": "1078784430",
+                    "platform": 1,
+                    "name": "羽翼の翅膀 ",
+                    "emoji": []
+                },
+                "bmp": "18d49da00102c901",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

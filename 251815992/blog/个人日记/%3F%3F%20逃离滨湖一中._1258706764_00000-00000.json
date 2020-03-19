@@ -1,0 +1,117 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1258708270,
+                "effect": 32,
+                "replyNum": 8,
+                "content": "[ft=,2,]omg, 芜湖一中太先进。。。。[/ft] ",
+                "capacity": 11680,
+                "poster": {
+                    "id": "150247340",
+                    "platform": 1,
+                    "name": "见习吟游人 ",
+                    "emoji": []
+                },
+                "bmp": "38d495a00000e221",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "..我写的是滨湖一中...我现在正在前往芜湖的路上... ",
+                        "postTime": 1258708352,
+                        "id": 1258708352,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "150247340",
+                            "name": "见习吟游人 ",
+                            "platform": 1
+                        },
+                        "content": "= =, 您们没试机？ ",
+                        "postTime": 1258708383,
+                        "id": 1258708383,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "150247340",
+                            "name": "见习吟游人 ",
+                            "platform": 1
+                        },
+                        "content": "俺老眼昏花。。。。 ",
+                        "postTime": 1258708395,
+                        "id": 1258708395,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "...我错过了..我一下午都在忙保送生择校...我累坏了.. ",
+                        "postTime": 1258708452,
+                        "id": 1258708452,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "150247340",
+                            "name": "见习吟游人 ",
+                            "platform": 1
+                        },
+                        "content": "Orz..... ",
+                        "postTime": 1258708476,
+                        "id": 1258708476,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "为什么这两件事情会被安排在一起..但是..不论如何...\n.我一定要去芜湖...无论如何...无论如何...\n... ",
+                        "postTime": 1258708589,
+                        "id": 1258708589,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "150247340",
+                            "name": "见习吟游人 ",
+                            "platform": 1
+                        },
+                        "content": "芜湖欢迎您。。。。 ",
+                        "postTime": 1258708964,
+                        "id": 1258708964,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "...嗯...谢谢你们.. ",
+                        "postTime": 1258709124,
+                        "id": 1258709124,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

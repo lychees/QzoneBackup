@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1393944225,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "因为你不理我了。 ",
+                "capacity": 12153,
+                "poster": {
+                    "id": "751723392",
+                    "platform": 1,
+                    "name": "wwwwodddd ",
+                    "emoji": []
+                },
+                "bmp": "18c095a80000c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1393948812,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "同变黄~加油啊~ ",
+                "capacity": 12150,
+                "poster": {
+                    "id": "604195710",
+                    "platform": 1,
+                    "name": "liouzhou_101 ",
+                    "emoji": []
+                },
+                "bmp": "08c1942000008001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

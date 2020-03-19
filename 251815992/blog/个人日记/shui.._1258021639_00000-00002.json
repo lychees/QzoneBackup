@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1258022696,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]怎么了呀？[/ft] ",
+                "capacity": 12145,
+                "poster": {
+                    "id": "278762954",
+                    "platform": 1,
+                    "name": "叶落有痕 ",
+                    "emoji": []
+                },
+                "bmp": "d8d18fac0000c109",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1258023371,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "VJ怎么样了？A了多题？ ",
+                "capacity": 12145,
+                "poster": {
+                    "id": "276500942",
+                    "platform": 1,
+                    "name": "酒仙 ",
+                    "emoji": []
+                },
+                "bmp": "b8c1dda00102e229",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1258278593,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]wuyu[/ft] ",
+                "capacity": 12151,
+                "poster": {
+                    "id": "307757035",
+                    "platform": 1,
+                    "name": "税子龙 ",
+                    "emoji": []
+                },
+                "bmp": "084195a40000c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

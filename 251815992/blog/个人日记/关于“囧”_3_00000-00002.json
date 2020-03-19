@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1187348135,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "我顶~~这个字搞了我一晚上。我靠都不知道什么字 ",
+                "capacity": 12123,
+                "poster": {
+                    "id": "122698324",
+                    "platform": 1,
+                    "name": "张晓晨 ",
+                    "emoji": []
+                },
+                "bmp": "18d19560010e8009",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1187410089,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "囧…… ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "307420773",
+                    "platform": 1,
+                    "name": "无关路人甲 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a40000c009",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1219729402,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "囧 ",
+                "capacity": 12166,
+                "poster": {
+                    "id": "307757035",
+                    "platform": 1,
+                    "name": "税子龙 ",
+                    "emoji": []
+                },
+                "bmp": "084195a40000c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

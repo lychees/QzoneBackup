@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1449078030,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "嗜洒者[em]e103[/em] ",
+                "capacity": 12155,
+                "poster": {
+                    "id": "492504222",
+                    "platform": 1,
+                    "name": "[cduestc]gmx ",
+                    "emoji": []
+                },
+                "bmp": "18c09da00000c201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

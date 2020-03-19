@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1413763218,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "岛娘机械键盘求推荐(^_^) ",
+                "capacity": 12147,
+                "poster": {
+                    "id": "651994959",
+                    "platform": 1,
+                    "name": "Trigon ",
+                    "emoji": []
+                },
+                "bmp": "18c59de00002c121",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

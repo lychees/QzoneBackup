@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1234088033,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "我想说...人族？\n小温选的是P族 我选T族 那么...谁选Z族呢？ ",
+                "capacity": 12112,
+                "poster": {
+                    "id": "574712047",
+                    "platform": 1,
+                    "name": "陈志浩 ",
+                    "emoji": []
+                },
+                "bmp": "189095e4010ee101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

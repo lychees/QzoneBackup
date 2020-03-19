@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1494756575,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "QwQ人写反啦！ ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "1373130716",
+                    "platform": 1,
+                    "name": "llgyc ",
+                    "emoji": []
+                },
+                "bmp": "08009d800202e101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

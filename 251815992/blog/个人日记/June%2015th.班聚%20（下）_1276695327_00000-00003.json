@@ -1,0 +1,126 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1276695953,
+                "effect": 1048608,
+                "replyNum": 2,
+                "content": "好吧，攒钱买iphone ",
+                "capacity": 12059,
+                "poster": {
+                    "id": "443164766",
+                    "platform": 1,
+                    "name": "\"zrp\" ",
+                    "emoji": []
+                },
+                "bmp": "088094a10000c301",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": " iPhone 应该不是这篇的的主题吧。。 ",
+                        "postTime": 1276696117,
+                        "id": 1276696117,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "443164766",
+                            "name": "\"zrp\" ",
+                            "platform": 1
+                        },
+                        "content": "...对不起，我跑题了 ",
+                        "postTime": 1276772577,
+                        "id": 1276772577,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1276736946,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[ft=,2,][em]e127[/em]开始竟然吧翻盖手机的上盖看成嘴了Oops。。。。。。[/ft] ",
+                "capacity": 11984,
+                "poster": {
+                    "id": "87974035",
+                    "platform": 1,
+                    "name": "Be ",
+                    "emoji": []
+                },
+                "bmp": "0894d4a00040e101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "啊。。#。。。（。。。好吧这是昨天上午的图。。后来画了滑盖的。。结果扫描完以后感觉还没这幅好。。） ",
+                        "postTime": 1276751659,
+                        "id": 1276751659,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1276787093,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]。。。[/ft]\n[ft=,2,]这是一篇没有主题的文章。。谢谢。。谢谢。。[/ft] ",
+                "capacity": 12098,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1276851926,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[ft=,2,楷体_gb2312]方糖的话写成[ft=,,verdana]Funny time[/ft]比较好[/ft]\n[ft=,2,楷体_gb2312][ft=,,verdana]FangTang[/ft]让人比较难理解....[/ft]\n[ft=,2,楷体_gb2312]大爱[ft=,,verdana]Green day[/ft][/ft]\n[ft=,2,楷体_gb2312]很多都非常经典[/ft] ",
+                "capacity": 11886,
+                "poster": {
+                    "id": "747571175",
+                    "platform": 1,
+                    "name": "王宁宁 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a40000e401",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "嗯嗯～。。。说的也对。～ ",
+                        "postTime": 1276852202,
+                        "id": 1276852202,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1434585877,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "做任何你能做到的事来聚拢人才。 ",
+                "capacity": 12137,
+                "poster": {
+                    "id": "1242256806",
+                    "platform": 1,
+                    "name": "无锡-美术-林可 ",
+                    "emoji": []
+                },
+                "bmp": "18408da00002e201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1434615667,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "放多久… ",
+                "capacity": 12160,
+                "poster": {
+                    "id": "236632935",
+                    "platform": 1,
+                    "name": "惰性求治 ",
+                    "emoji": []
+                },
+                "bmp": "18c5dd880000c121",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

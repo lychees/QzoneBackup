@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1218255889,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "所以说你把频率调了= -\n- -|||\n汗~~~ ",
+                "capacity": 12134,
+                "poster": {
+                    "id": "574712047",
+                    "platform": 1,
+                    "name": "陈志浩 ",
+                    "emoji": []
+                },
+                "bmp": "189095e4010ee101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1218297172,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "可不可以写点有意思的东东- - ",
+                "capacity": 12146,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1218370257,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "哦   我们母校还不行呀 ",
+                "capacity": 12153,
+                "poster": {
+                    "id": "328074703",
+                    "platform": 1,
+                    "name": "周小刚 ",
+                    "emoji": []
+                },
+                "bmp": "180095a00002c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

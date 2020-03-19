@@ -1,0 +1,86 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1230743312,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "[B]其实即便这样...这个问题并没有得到很好的解决...[/B]\n[B]推广一下..[/B]\n[B]  原问题中还有一个变量 颜料的种类 没有讨论...[/B]\n[B]  我们也并没有得到一个关于这个问题的通项公式...[/B]\n[B]  还有..如果圆盘可以旋转的话问题又会变的复杂很多呢...#[/B] ",
+                "capacity": 11931,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1230752703,
+                "effect": 4194336,
+                "replyNum": 1,
+                "content": "通项公式应该可以通过那个递归式解出来，我试下。 ",
+                "capacity": 12075,
+                "poster": {
+                    "id": "534470369",
+                    "platform": 1,
+                    "name": "张弛 ",
+                    "emoji": []
+                },
+                "bmp": "08d08ca000000428",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "好的...这个式子解出来会不会带ln? ",
+                        "postTime": 1230825210,
+                        "id": 1230825210,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1231934308,
+                "effect": 4194336,
+                "replyNum": 1,
+                "content": "为什么图上的圆盘只有4格? ",
+                "capacity": 12110,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "从4开始问题变得复杂` ",
+                        "postTime": 1231944327,
+                        "id": 1231944327,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1286696079,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "#include <iostream>\n#define LL long long\nusing namespace std;\nconst int N = 301, T = 31;\nconst int INF = 0x7fffffff;\nstruct edge{\n    int x, y, w;\n    bool c[T];\n\n    bool broken(int x, int y){\n        for (int i=x;i<=y;i++)\n            if (c[I]) return true;\n        return false;\n    }\n    friend bool operator <(edge a, edge b){\n        return a.w < b.w;\n    }\n} E[N];\n\nstruct ufs{\n    int p, n;\n} S[N];\n\nint n, m, t, v, k;\nLL dp[N];\n\n\nvoid Make(int x){\n    S[x].p = x, S[x].n = 0;\n}\nint Find(int x){\n    if (S[x].p!=x) S[x].p = Find(S[x].p);\n    return S[x].p;\n}\nvoid Union(int x, int y){\n    x = Find(x), y = Find(y);\n    if (S[x].n < S[y].n){\n        S[x].p = y;\n    }\n    else {\n        if (S[x].n==S[y].n) S[x].n++;\n        S[y].p = x;\n    }\n}\n\n\n\nLL mst(int x, int y){\n    int i, j = 1, res = 0;\n\n    for (i=1;i<=n;i++)\n        Make(i);\n\n    for (i=0;i<m;i++){\n        if (E[I].broken(x, y)) continue;\n        if (j==n) return res;\n\n        if (Find(E[I].x)==Find(E[I].y)) continue;\n        Union(E[I].x, E[I].y);\n        res += E[I].w;\n        j++;\n    }\n\n    if (j==n) return res;\n    else return INF;\n}\n\n\nLL w(int x, int y){\n    //cout << mst(x, y) << endl;\n    return mst(x, y) * v + k;\n}\n\n\n\n\nvoid init(){\n\n    int F[N][N];\n    memset(F, 0, sizeof(F));\n\n\n    int x, y, w;\n    for (int i=0;i<m;i++){\n        cin >> E[I].x >> E[I].y >> E[I].w;\n        F[E[I].x][E[I].y] = F[E[I].y][E[I].x] =  i;\n        memset(E[I].c, false, sizeof(E[I].c));\n    }\n\n\n    int p, f, l, r;\n    cin >> p;\n    for (int i=0;i<p;i++){\n        cin >> x >> y >> l >> r; f = F[x][y];\n        for (int j=l;j<=r;j++)\n            E[f].c[j] = true;\n    }\n\n    sort(E, E+m);\n}\n\nvoid solve(){\n\n    for (int i=1;i<=t;i++){\n        dp[I] = INF;\n        for (int j=0;j<i;j++)\n            dp[I] = min(dp[I], dp[j] + w(j+1, i));\n        cout << dp[I] << endl;\n    }\n}\n\nint main(){\n    while (cin >> n >> m >> t >> v >> k){\n        init(); solve();\n        cout << dp[t] << endl;\n    }\n}[/I][/I][/I][/I][/I][/I][/I][/I][/I][/I][/I][/I][/I][/I][/I][/I][/I][/I][/I][/I] ",
+                "capacity": 10060,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1286696119,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "http://www.tyvj.cn:8080/Problem_Show.asp?id=1064 ",
+                "capacity": 12124,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            }
+        ]
+    }
+}

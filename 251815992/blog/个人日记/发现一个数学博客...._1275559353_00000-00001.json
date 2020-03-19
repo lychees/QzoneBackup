@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1275561635,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]看了[/ft] ",
+                "capacity": 12153,
+                "poster": {
+                    "id": "917640727",
+                    "platform": 1,
+                    "name": "euclid ",
+                    "emoji": []
+                },
+                "bmp": "0880942000000001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1275633001,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "Great!!!!!!!!!!!!!!!!!!thanks ",
+                "capacity": 12137,
+                "poster": {
+                    "id": "597677829",
+                    "platform": 1,
+                    "name": "charle ",
+                    "emoji": []
+                },
+                "bmp": "98d08de00102e101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

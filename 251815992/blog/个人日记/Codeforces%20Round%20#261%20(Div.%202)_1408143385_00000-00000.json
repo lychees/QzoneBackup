@@ -1,0 +1,51 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1408157997,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "应该是pow(k,d) < n 会无解吧、、 ",
+                "capacity": 11955,
+                "poster": {
+                    "id": "2942228678",
+                    "platform": 1,
+                    "name": "青城烟雨 ",
+                    "emoji": []
+                },
+                "bmp": "08109d800200e020",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:2942228678,nick:青城烟雨,who:1,auto:1}我是傻逼。 ",
+                        "postTime": 1408209555,
+                        "id": 1408209555,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "2942228678",
+                            "name": "青城烟雨 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1}╮(￣▽￣\")╭ ",
+                        "postTime": 1408247662,
+                        "id": 1408247662,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

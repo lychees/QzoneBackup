@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1235880029,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[M][B]知我者谓我心忧，[/B][/M]\n[B]不知我者谓我何求。[/B] ",
+                "capacity": 12118,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1235880182,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[B]从选修课本《扬州慢》的脚注里知道这篇的...[/B] ",
+                "capacity": 12124,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            }
+        ]
+    }
+}

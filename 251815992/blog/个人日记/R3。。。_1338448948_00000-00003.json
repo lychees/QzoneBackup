@@ -1,0 +1,79 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1338464278,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "表示围观 ",
+                "capacity": 12162,
+                "poster": {
+                    "id": "945637290",
+                    "platform": 1,
+                    "name": "糖果 ",
+                    "emoji": []
+                },
+                "bmp": "088495800000d001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1338473655,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "在做马拉松？ ",
+                "capacity": 12161,
+                "poster": {
+                    "id": "825483568",
+                    "platform": 1,
+                    "name": "风色幻想 ",
+                    "emoji": []
+                },
+                "bmp": "18d095800002c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1338481037,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "神牛加油 ",
+                "capacity": 12159,
+                "poster": {
+                    "id": "100562954",
+                    "platform": 1,
+                    "name": "祝风翔 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00002a101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1338523912,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "Orz，就按神牛的题解写 ",
+                "capacity": 12147,
+                "poster": {
+                    "id": "451734587",
+                    "platform": 1,
+                    "name": "倚剑天涯 ",
+                    "emoji": []
+                },
+                "bmp": "18c095a400008301",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

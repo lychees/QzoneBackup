@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1342578133,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "很厉害的样子 ",
+                "capacity": 12163,
+                "poster": {
+                    "id": "303259912",
+                    "platform": 1,
+                    "name": "Pseudo ",
+                    "emoji": []
+                },
+                "bmp": "088495a00000c429",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1342580416,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=#545454,,tahoma, microsoft yahei]很厉害的样子[/ft] ",
+                "capacity": 12111,
+                "poster": {
+                    "id": "122155302",
+                    "platform": 1,
+                    "name": "木子日匀 ",
+                    "emoji": []
+                },
+                "bmp": "38d40da00102c209",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

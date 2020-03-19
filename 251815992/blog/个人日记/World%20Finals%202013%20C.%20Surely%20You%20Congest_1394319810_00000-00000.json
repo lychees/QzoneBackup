@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1394322670,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "貌似有一个限制，你没有看到？ ",
+                "capacity": 12136,
+                "poster": {
+                    "id": "703180800",
+                    "platform": 1,
+                    "name": "moonlight131 ",
+                    "emoji": []
+                },
+                "bmp": "d8c195a00082e101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

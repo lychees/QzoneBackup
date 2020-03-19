@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1441455137,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "orz ",
+                "capacity": 12164,
+                "poster": {
+                    "id": "319172010",
+                    "platform": 1,
+                    "name": "furao0044 ",
+                    "emoji": []
+                },
+                "bmp": "08d0ad800000e201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

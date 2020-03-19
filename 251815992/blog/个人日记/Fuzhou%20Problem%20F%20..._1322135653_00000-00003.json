@@ -1,0 +1,102 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1323147292,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[em]e179[/em]很牛啊~~~ ",
+                "capacity": 12150,
+                "poster": {
+                    "id": "1023150849",
+                    "platform": 1,
+                    "name": "Lazy Lee ",
+                    "emoji": []
+                },
+                "bmp": "18d49da00102c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1323172564,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "[ft=,2,]这个代码是求次小生成树的？小虎，你用C++了吗？[/ft] ",
+                "capacity": 11906,
+                "poster": {
+                    "id": "1185442737",
+                    "platform": 1,
+                    "name": "幻影射手 ",
+                    "emoji": []
+                },
+                "bmp": "18959d800000d401",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "。。虽然我的模板是值得吐槽但是也不至于被这样问。。）。。 ",
+                        "postTime": 1323186353,
+                        "id": 1323186353,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "1185442737",
+                            "name": "幻影射手 ",
+                            "platform": 1
+                        },
+                        "content": "这个代码是竞赛提供的还是你们自己编写的？\n竟然用了那么多宏、泛型模板还有算法的头文件及标准模板库\n ",
+                        "postTime": 1323218689,
+                        "id": 1323218689,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1431520682,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "我觉得模板太长了，没有起到加快手速作用，反而代码可读性好差T T ",
+                "capacity": 12108,
+                "poster": {
+                    "id": "837626197",
+                    "platform": 1,
+                    "name": "richard ",
+                    "emoji": []
+                },
+                "bmp": "18d01d8000008221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 1548606602,
+                "postTime": 1548606602,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "。 ",
+                "capacity": 12156,
+                "poster": {
+                    "id": "450806308",
+                    "platform": 1,
+                    "name": "黑天 ",
+                    "emoji": []
+                },
+                "bmp": "18519da00102c021",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

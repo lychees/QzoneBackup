@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1468555753,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "买买买！ ",
+                "capacity": 12163,
+                "poster": {
+                    "id": "569620205",
+                    "platform": 1,
+                    "name": " [ ccnu ] Tmono ",
+                    "emoji": []
+                },
+                "bmp": "58d08da8000ec209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1468759784,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "你伤害我 ",
+                "capacity": 12153,
+                "poster": {
+                    "id": "911574351",
+                    "platform": 1,
+                    "name": "Yuko丶柚子 ",
+                    "emoji": []
+                },
+                "bmp": "184495800410c821",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,154 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 7,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1296454782,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]额。。这次写的是不是让人有点伤感额。。[/ft] ",
+                "capacity": 12113,
+                "poster": {
+                    "id": "315593370",
+                    "platform": 1,
+                    "name": "大魔导师会让你挂科 ",
+                    "emoji": []
+                },
+                "bmp": "18c09da04000c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1296465797,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[ft=,2,]@ls..[/ft][ft=,2,] 这只自然是很伤人的。。。[/ft] ",
+                "capacity": 12088,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "315593370",
+                            "name": "大魔导师会让你挂科 ",
+                            "platform": 1
+                        },
+                        "content": "额。。 ",
+                        "postTime": 1296555036,
+                        "id": 1296555036,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1296466928,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]^^[/ft] ",
+                "capacity": 12147,
+                "poster": {
+                    "id": "784237318",
+                    "platform": 1,
+                    "name": "叙眄 ",
+                    "emoji": []
+                },
+                "bmp": "585095a00102c009",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1296589823,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[ft=,2,]--. .- -./.-. . .-[/ft] ",
+                "capacity": 12071,
+                "poster": {
+                    "id": "1252959374",
+                    "platform": 1,
+                    "name": "肥猫 ",
+                    "emoji": []
+                },
+                "bmp": "0880940002000001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "猫哥你总是这个时间段出没..  \n兔年了，要保重身体啊。 ",
+                        "postTime": 1296623384,
+                        "id": 1296623384,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "postTime": 1296643838,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]。。。好久不见过得如何？[/ft] ",
+                "capacity": 12127,
+                "poster": {
+                    "id": "1303552653",
+                    "platform": 1,
+                    "name": "赫敏·格兰杰 ",
+                    "emoji": []
+                },
+                "bmp": "18909da00608c209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 7,
+                "postTime": 1296644675,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]........ ..! [/ft]\n[ft=,2,]... 格兰杰 ..[/ft] ",
+                "capacity": 12116,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 8,
+                "postTime": 1298884590,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[em]e163[/em] ",
+                "capacity": 12152,
+                "poster": {
+                    "id": "513890243",
+                    "platform": 1,
+                    "name": "╰余温 ",
+                    "emoji": []
+                },
+                "bmp": "985495a00102c401",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

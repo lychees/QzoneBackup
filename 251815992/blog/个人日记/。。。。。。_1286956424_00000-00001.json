@@ -1,0 +1,68 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1286956514,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "实在是深奥啊。。。此乃感叹中的经典。。。= =看不懂。。 ",
+                "capacity": 11946,
+                "poster": {
+                    "id": "114099336",
+                    "platform": 1,
+                    "name": "光禾 ",
+                    "emoji": []
+                },
+                "bmp": "18d094a50000c401",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "。。。。。（开学以来。。我翘了90％的数学课和100％的体育课）。 ",
+                        "postTime": 1286958048,
+                        "id": 1286958048,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "819122868",
+                            "name": "Oneplus ",
+                            "platform": 1
+                        },
+                        "content": "体育翘太多会挂科的 挂科会重修的 … 而且体育老师都比较烦人 所以小心为妙 ",
+                        "postTime": 1286962973,
+                        "id": 1286962973,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1286965621,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "你这家伙。。。 ",
+                "capacity": 12157,
+                "poster": {
+                    "id": "114099336",
+                    "platform": 1,
+                    "name": "光禾 ",
+                    "emoji": []
+                },
+                "bmp": "18d094a50000c401",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

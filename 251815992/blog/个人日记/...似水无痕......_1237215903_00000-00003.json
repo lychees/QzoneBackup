@@ -1,0 +1,79 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1237256353,
+                "effect": 5242880,
+                "replyNum": 0,
+                "content": "怂掉了，教师机怎么删掉你的数据的？ ",
+                "capacity": 12138,
+                "poster": {
+                    "id": "534470369",
+                    "platform": 1,
+                    "name": "张弛 ",
+                    "emoji": []
+                },
+                "bmp": "08d08ca000000428",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1237266875,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "VIRUS……\n还好我拷资料都用P……\n8G的原棒~~~ ",
+                "capacity": 12126,
+                "poster": {
+                    "id": "821339950",
+                    "platform": 1,
+                    "name": "颠哥 ",
+                    "emoji": []
+                },
+                "bmp": "1880dd2000008001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1237267619,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[url=http://baike.360.cn/4024037/9652433.html]http://baike.360.cn/4024037/9652433.html[/url] ",
+                "capacity": 12080,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1237629549,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "good job...- - ",
+                "capacity": 12157,
+                "poster": {
+                    "id": "474697421",
+                    "platform": 1,
+                    "name": "朱明琪 ",
+                    "emoji": []
+                },
+                "bmp": "18d195a000028209",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

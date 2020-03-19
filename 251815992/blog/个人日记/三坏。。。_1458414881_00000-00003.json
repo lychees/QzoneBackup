@@ -1,0 +1,79 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1458466225,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "摸摸头 ",
+                "capacity": 12161,
+                "poster": {
+                    "id": "854003762",
+                    "platform": 1,
+                    "name": "i am billy king ",
+                    "emoji": []
+                },
+                "bmp": "18b11da80002e201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1458479821,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "涔愯�傜殑宀涳�? ",
+                "capacity": 12151,
+                "poster": {
+                    "id": "2584468854",
+                    "platform": 1,
+                    "name": "SweetLover ",
+                    "emoji": []
+                },
+                "bmp": "1850958002028101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1458480122,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "摸摸头 ",
+                "capacity": 12164,
+                "poster": {
+                    "id": "965999806",
+                    "platform": 1,
+                    "name": "绿_L12_Melon_Mars ",
+                    "emoji": []
+                },
+                "bmp": "1840848000004020",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1458481610,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "机器人特长正在开发…… ",
+                "capacity": 12149,
+                "poster": {
+                    "id": "569620205",
+                    "platform": 1,
+                    "name": " [ ccnu ] Tmono ",
+                    "emoji": []
+                },
+                "bmp": "58d08da8000ec209",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

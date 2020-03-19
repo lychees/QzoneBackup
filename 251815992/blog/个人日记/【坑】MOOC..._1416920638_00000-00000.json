@@ -1,0 +1,95 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1416921002,
+                "effect": 1056,
+                "replyNum": 6,
+                "content": "原来你是这么自由的。。。我还奇怪我怎么要上课。 ",
+                "capacity": 11464,
+                "poster": {
+                    "id": "568778055",
+                    "platform": 1,
+                    "name": "123456 ",
+                    "emoji": []
+                },
+                "bmp": "18d09da00100c221",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:568778055,nick:123456,who:1,auto:1}“哥，请你自由的。”。。 ",
+                        "postTime": 1416922369,
+                        "id": 1416922369,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "1303552653",
+                            "name": "赫敏·格兰杰 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1} 这句话不会是卡索和樱空释什么的吧[em]e140[/em] ",
+                        "postTime": 1416927306,
+                        "id": 1416927306,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:568778055,nick:123456,who:1,auto:1}@{uin:1303552653,nick:赫敏·格兰杰} 。。。别鄙视我。。我也就停留在初中生水平了。。。。 ",
+                        "postTime": 1416955108,
+                        "id": 1416955108,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "1303552653",
+                            "name": "赫敏·格兰杰 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1} 哪有鄙视你，看到这句话眼熟而已 ",
+                        "postTime": 1416957093,
+                        "id": 1416957093,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:1303552653,nick:赫敏·格兰杰,who:1,auto:1} 深受毒害 ",
+                        "postTime": 1416957266,
+                        "id": 1416957266,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "1303552653",
+                            "name": "赫敏·格兰杰 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1} 是哦 ",
+                        "postTime": 1416957292,
+                        "id": 1416957292,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

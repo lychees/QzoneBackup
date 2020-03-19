@@ -1,0 +1,556 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    DAG 的支配树。
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             DAG 的支配树。
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2013-09-11 14:10:15
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(60)	è¯è®º(0)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1378923015,
+"voteids":0,
+"pubtime":1378923015,
+"replynum":0,
+"category":"个人日记",
+"title":"DAG 的支配树。",
+"effect":8389121,
+"effect2":524294,
+"exblogtype":3,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":81177,
+"lp_style":16843520,
+"lp_flag":0,
+"lp_topvalue":0,
+"orguin":251815992,
+"orgblogid":1378923015,
+"mention_uins":[ ],
+"attach":[],"comments":[]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <div>
+                <div>
+                 <br/>
+                 <br/>
+                 1003 （动态树
+                 <br/>
+                 不换根
+                 <br/>
+                 <a href="http://acm.hust.edu.cn/vjudge/problem/viewSource.action?id=1551301" target="_blank">
+                  http://acm.hust.edu.cn/vjudge/problem/viewSource.action?id=1551301
+                 </a>
+                 <span>
+                  <br/>
+                  <span>
+                   换根
+                   <br/>
+                  </span>
+                 </span>
+                 <a href="http://acm.hust.edu.cn/vjudge/problem/viewSource.action?id=1551243" target="_blank">
+                  http://acm.hust.edu.cn/vjudge/problem/viewSource.action?id=1551243
+                 </a>
+                 <span>
+                  <span>
+                   <br/>
+                   <span>
+                    <br/>
+                    （。。比赛的时候应该写不换根的。
+                    <br/>
+                    <span>
+                     <br/>
+                     <br/>
+                     ______
+                     <br/>
+                     <br/>
+                    </span>
+                   </span>
+                  </span>
+                 </span>
+                 <a href="http://www.bnuoj.com/bnuoj/status.php?showpid=29534" target="_blank">
+                  http://www.bnuoj.com/bnuoj/status.php?showpid=29534
+                 </a>
+                 <span>
+                  <span>
+                   <span>
+                    <span>
+                     <br/>
+                    </span>
+                   </span>
+                  </span>
+                 </span>
+                 <a href="https://gist.github.com/lychees/6527711" target="_blank">
+                  https://gist.github.com/lychees/6527711
+                 </a>
+                 <span>
+                  <span>
+                   <span>
+                    <span>
+                    </span>
+                   </span>
+                  </span>
+                 </span>
+                 <br/>
+                 <br/>
+                 <br/>
+                 题意简述：
+                 <br/>
+                 给定一个 边权的 DAG，如果一条边是 s-&gt;t 上的必经之路，则认为这条边是
+                 <span>
+                  bridge
+                 </span>
+                 <span>
+                  （桥
+                 </span>
+                 <span>
+                  ，危险边）。。
+                 </span>
+                </div>
+                <div>
+                 。所有经过的桥的边权将被计入【危险值】。现在你可以在 s-&gt;t 的路径上。。覆盖两段不大于 q 长度的连续区间
+                 <br/>
+                 （可以在一条边的中间开始结束。。）。
+                 <br/>
+                 。【覆盖区间】内的危险值。。统计时不被考虑（我们称之为【遮盖】）。
+                 <br/>
+                 。。求一条路径以及覆盖方案。。使得【遮盖】最大。。。输出此时总的危险值。。。
+                 <br/>
+                 <br/>
+                 Analysis：
+                 <br/>
+                 <br/>
+                 首先。。s-&gt;t 的任意一条路径必然会按顺序经过所有 bridge 。。同时 bridge 之间的部分。。一定走最短路径最好。。
+                 <br/>
+                 。。。于是实际上最终我们是在一个  "安全 - 危险" 交错路径上做一个线性的动态规划。。。
+                 <br/>
+                 <br/>
+                 于是分为两个 subtask 。。。
+                 <br/>
+                 <br/>
+                 一个是判断一条边是否是 bridge 。。。。。
+                 <br/>
+                 一个是在交错路径上的 DP。。。(虽然暴力枚举就可以过。。
+                 <br/>
+                 <a href="https://gist.github.com/lychees/6533278#file-1-cpp" target="_blank">
+                  https://gist.github.com/lychees/6533278#file-1-cpp
+                 </a>
+                 <a href="https://gist.github.com/lychees/6533278" target="_blank">
+                  <br/>
+                  <span>
+                   <br/>
+                   <br/>
+                  </span>
+                 </a>
+                 &lt;h4&gt;子问题 2：DP&lt;/h4&gt;
+                 <br/>
+                 。。。我们先分析后者。。。（为了处理方便。。我们让交错路径上的第一条边是安全边。。即使是 0 。。。
+                 <br/>
+                 <br/>
+                 。。首先如果只有一条【覆盖区间】的话非常好办。。。路径一定是在 bridge 的端点开始。。（或者对称考虑其在端点处结束。）。。
+                 <br/>
+                 。。并且希望该边尽可能覆盖满  q 长度。。于是我们需要得到 q 长度之后的位置。。
+                 <br/>
+                 。。可以二分。。更好的方法是 two-point 。。
+                 <br/>
+                 <br/>
+                 。。两条【覆盖区间】的话。。只有在两条覆盖区间连续出现的情况下。。才有可能使得第二条【覆盖区间】从一条危险边的内部开始。
+                 <br/>
+                 。。且当且仅当存在长度大于 q 的 bridge 时。才会发生。。。。而对我们而言只是增加了一种类型的转移。。。
+                 <br/>
+                 <br/>
+                 因此 dp[i][3]: 表示在某位置结束。。。覆盖了 0/1/2 条【覆盖区间】时。。。最多能遮盖掉多少危险值。。。
+                 <br/>
+                 。。。
+                 <br/>
+                 第一种转移用 two-point 处理出 q 长度之后的位置。。0-&gt;1, 1-&gt;2
+                 <br/>
+                 第二种。。。。。。。。。。。2q 长度后的位置。。0-&gt;2。
+                 <br/>
+                 <br/>
+                 <a href="https://gist.github.com/lychees/6533278#file-2-cpp" target="_blank" title="https://gist.github.com/lychees/6533278#file-2-cpp">
+                  https://gist.github.com/lychees/6533278#file-2-cpp
+                 </a>
+                 <a href="https://gist.github.com/lychees/6533278" target="_blank">
+                  <br/>
+                 </a>
+                 <br/>
+                 [cpp]
+                 <br/>
+                 <div>
+                  int ww(int i, int j, int q){
+                 </div>
+                 <div>
+                  return (G[j] - G[i]) - max(0, min(path[2*j-1], F[j] - F[i] - path[i*2] - q));
+                 </div>
+                 <div>
+                  }
+                  <br/>
+                  <span>
+                   [/cpp]
+                   <br/>
+                   <br/>
+                   i, j, 步长为 q 的代价函数 。。。
+                   <br/>
+                   <span>
+                    。。首先求出 G[j] - G[i] 最后的部分可能是多出的。。因此要剪掉。。
+                    <br/>
+                    <span>
+                     <br/>
+                     F[j] - F[i] - path[i*2] 求出这一段的总路径长度。。去掉开始的安全边。。。（这里是压缩到 n/2 。。。
+                     <br/>
+                     <span>
+                      。。再减去 -q 就是末尾多出的部分。。。
+                      <br/>
+                      <br/>
+                      多出部分超过 path[2*j-1] （最后一段危险边）
+                      <br/>
+                      <span>
+                       。。的部分忽略。。。
+                      </span>
+                     </span>
+                    </span>
+                   </span>
+                  </span>
+                 </div>
+                 <br/>
+                 <br/>
+                 .。。。现在考虑如何判断
+                 <br/>
+                 <br/>
+                 <a href="https://gist.github.com/lychees/6533278" target="_blank">
+                 </a>
+                 &lt;h4&gt;子问题 2：判断 (u, v) 是否是 s-&gt;t 的割边。&lt;/h4&gt;
+                 <br/>
+                 <br/>
+                 方法一：方案数取模
+                 <br/>
+                 <span>
+                  F[x], G[x] 分别记录 s 到 x 的方案数和 x 到 t 的方案数。。
+                  <br/>
+                  <span>
+                   。。对于一条边 (u,v)。。如果 F[u] * G[v] = F[u] （总的方案数）。。
+                   <br/>
+                   <span>
+                    。。那么则是割边。。
+                    <br/>
+                    <br/>
+                    。。因为方案数很多。。所以需要取模。。
+                    <br/>
+                    。。模数很大时出错概率很小。。实在不放心的话可以取多个模。。
+                    <br/>
+                    <span>
+                     <br/>
+                     方法二： 缩点。。
+                     <br/>
+                     <span>
+                     </span>
+                    </span>
+                   </span>
+                  </span>
+                 </span>
+                 <div style="text-align:center">
+                  <span>
+                   <span>
+                    <span>
+                     <span>
+                      <span>
+                       <img alt="图片" src="http://a3.qpic.cn/psb?/a7723d22-15e1-452d-817f-ed63333f3d7d/lWjoBYYCAJyEteWl59CD6RcRM*V86Ybil72eEkjSkuQ!/b/dD*FVaPcJQAA&amp;ek=1&amp;kp=1&amp;pt=0&amp;bo=igIQAgAAAAADAL8!&amp;tl=1&amp;su=0208735329&amp;tm=1584576000&amp;sce=0-12-12&amp;rf=2-9" style="width:650px;height:528px"/>
+                      </span>
+                     </span>
+                    </span>
+                   </span>
+                  </span>
+                 </div>
+                </div>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                这个问题叫做 支配树。。。切勿和无向图 割顶 / 桥  什么的混淆。。
+                <br/>
+                <a href="http://www.csie.ntnu.edu.tw/%7Eu91029/Component.html#2" target="_blank">
+                 http://www.csie.ntnu.edu.tw/~u91029/Component.html#2
+                 <br/>
+                 <span>
+                 </span>
+                </a>
+                <br/>
+                <br/>
+               </div>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

@@ -1,0 +1,74 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1264744843,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[ft=,2,]应该需要手机 和 电池[/ft]\n \n[ft=,2,]都要单独放[/ft]\n[ft=,2,][/ft] \n[ft=,2,]两个要收集[/ft]\n[ft=,2,][/ft] \n[ft=,2,]收集一起才能使用。。。[/ft] ",
+                "capacity": 11912,
+                "poster": {
+                    "id": "122698324",
+                    "platform": 1,
+                    "name": "张晓晨 ",
+                    "emoji": []
+                },
+                "bmp": "18d19560010e8009",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "已经设计了一些团队+通信值的支线剧情...\n比如收集齐路由器和外接网卡...可以加100通信值... ",
+                        "postTime": 1264745081,
+                        "id": 1264745081,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1264745356,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]我家长宽。。。[/ft] ",
+                "capacity": 12142,
+                "poster": {
+                    "id": "534470369",
+                    "platform": 1,
+                    "name": "张弛 ",
+                    "emoji": []
+                },
+                "bmp": "08d08ca000000428",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1264761469,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]...[/ft] ",
+                "capacity": 12149,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            }
+        ]
+    }
+}

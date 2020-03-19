@@ -1,0 +1,158 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1462752257,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "害怕 ",
+                "capacity": 12164,
+                "poster": {
+                    "id": "3070414186",
+                    "platform": 1,
+                    "name": "权死 ",
+                    "emoji": []
+                },
+                "bmp": "08009d800200c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1462753979,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "airbnb骗别人的初夜么？ ",
+                "capacity": 12096,
+                "poster": {
+                    "id": "624050143",
+                    "platform": 1,
+                    "name": "倪亦帅 ",
+                    "emoji": []
+                },
+                "bmp": "18d48da80002c201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1462765239,
+                "effect": 1056,
+                "replyNum": 5,
+                "content": "为什么要去gay吧啊。。。 ",
+                "capacity": 11681,
+                "poster": {
+                    "id": "569620205",
+                    "platform": 1,
+                    "name": " [ ccnu ] Tmono ",
+                    "emoji": []
+                },
+                "bmp": "58d08da8000ec209",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:569620205,nick: [ ccnu ] Tmono,who:1,auto:1}骗L2签证啊。。。 ",
+                        "postTime": 1462769523,
+                        "id": 1462769523,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "569620205",
+                            "name": " [ ccnu ] Tmono ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1} [em]e400101[/em] ",
+                        "postTime": 1462769919,
+                        "id": 1462769919,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:569620205,nick: [ ccnu ] Tmono,who:1,auto:1}这关系到我一生的幸福呐。。。 ",
+                        "postTime": 1462771378,
+                        "id": 1462771378,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "569620205",
+                            "name": " [ ccnu ] Tmono ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1} （摸摸头。。 ",
+                        "postTime": 1462771597,
+                        "id": 1462771597,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "121371490",
+                            "name": "詹艳玲 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1}你不是有昀昀L2支持吗 ",
+                        "postTime": 1462785472,
+                        "id": 1462785472,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "postTime": 1462788951,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "为什么要L2签证呢QuQ好奇 ",
+                "capacity": 11874,
+                "poster": {
+                    "id": "464388324",
+                    "platform": 1,
+                    "name": "音 ",
+                    "emoji": []
+                },
+                "bmp": "18d19d880102e021",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:464388324,nick:音,who:1,auto:1}小孩子不懂为好。 ",
+                        "postTime": 1462808682,
+                        "id": 1462808682,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "464388324",
+                            "name": "音 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1}QuQ你要是在一直小孩子小孩子的什么也不告诉我我就要哭了QaQ如果你不告诉你，我怎么成长。 ",
+                        "postTime": 1462821816,
+                        "id": 1462821816,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

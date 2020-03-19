@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1502385184,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "请用简体来证明你是大陆人 ",
+                "capacity": 12142,
+                "poster": {
+                    "id": "1078784430",
+                    "platform": 1,
+                    "name": "羽翼の翅膀 ",
+                    "emoji": []
+                },
+                "bmp": "18d49da00102c901",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

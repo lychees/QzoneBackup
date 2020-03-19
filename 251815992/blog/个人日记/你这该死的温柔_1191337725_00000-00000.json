@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1191407835,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "[ft=,4,]......终于更新了……支持下[/ft] ",
+                "capacity": 12131,
+                "poster": {
+                    "id": "626003679",
+                    "platform": 1,
+                    "name": "沙了个皮 ",
+                    "emoji": []
+                },
+                "bmp": "18d48de00108e401",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

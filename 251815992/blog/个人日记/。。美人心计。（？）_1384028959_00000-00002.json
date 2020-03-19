@@ -1,0 +1,74 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 2,
+                "postTime": 1384030376,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "@Fotile96 ",
+                "capacity": 12041,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "10848584",
+                            "name": "主席 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1}哦才发现这里\nAt失败了啦。。 ",
+                        "postTime": 1385465353,
+                        "id": 1385465353,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "postTime": 1384064413,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "我是来看题目的… ",
+                "capacity": 12151,
+                "poster": {
+                    "id": "460319716",
+                    "platform": 1,
+                    "name": "Venom ",
+                    "emoji": []
+                },
+                "bmp": "28d59de00102c109",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1384081983,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "快来个人证明他是NPC的！ ",
+                "capacity": 12151,
+                "poster": {
+                    "id": "569646561",
+                    "platform": 1,
+                    "name": "L. ",
+                    "emoji": []
+                },
+                "bmp": "18d19d800000c201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

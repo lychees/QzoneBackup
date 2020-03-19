@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1314440528,
+                "effect": 1056,
+                "replyNum": 3,
+                "content": "想建站……只会点php，靠谱么 ",
+                "capacity": 12008,
+                "poster": {
+                    "id": "122155302",
+                    "platform": 1,
+                    "name": "木子日匀 ",
+                    "emoji": []
+                },
+                "bmp": "38d40da00102c209",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "我会教你的嘛。。 ",
+                        "postTime": 1314446274,
+                        "id": 1314446274,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "122155302",
+                            "name": "木子日匀 ",
+                            "platform": 1
+                        },
+                        "content": "[em]e181[/em]好耶好耶。。。不过也要区域赛回来啊 ",
+                        "postTime": 1314452542,
+                        "id": 1314452542,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "嗯嗯。~ ",
+                        "postTime": 1314452559,
+                        "id": 1314452559,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

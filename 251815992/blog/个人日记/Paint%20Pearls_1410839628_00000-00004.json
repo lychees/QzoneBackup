@@ -1,0 +1,96 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 5,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1410839761,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "看不懂思路呀。。为什么可以这样做呢 ",
+                "capacity": 12138,
+                "poster": {
+                    "id": "1184989240",
+                    "platform": 1,
+                    "name": "年少 ",
+                    "emoji": []
+                },
+                "bmp": "18c09da80000e401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1410840822,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "原来如此，这就省掉了set的logn ",
+                "capacity": 12141,
+                "poster": {
+                    "id": "704998702",
+                    "platform": 1,
+                    "name": "北航董适 ",
+                    "emoji": []
+                },
+                "bmp": "18809d0000008001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1410841067,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "好厉害的样子。。 ",
+                "capacity": 12152,
+                "poster": {
+                    "id": "269884921",
+                    "platform": 1,
+                    "name": "人間の本質 ",
+                    "emoji": []
+                },
+                "bmp": "18d08de0010cc121",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1410843787,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[em]e7024[/em] ",
+                "capacity": 12154,
+                "poster": {
+                    "id": "568778055",
+                    "platform": 1,
+                    "name": "123456 ",
+                    "emoji": []
+                },
+                "bmp": "18d09da00100c221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1410863509,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[em]e7024[/em]我就是这样搞的 ",
+                "capacity": 12141,
+                "poster": {
+                    "id": "1691626124",
+                    "platform": 1,
+                    "name": "[SHU]kuangbin ",
+                    "emoji": []
+                },
+                "bmp": "0890958002008101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

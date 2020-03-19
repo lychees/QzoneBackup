@@ -1,0 +1,91 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1407171888,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "不应该是 backend 和 project manager 么[em]e328514[/em] ",
+                "capacity": 12019,
+                "poster": {
+                    "id": "8644325",
+                    "platform": 1,
+                    "name": "死月·吃圡蕾特 ",
+                    "emoji": []
+                },
+                "bmp": "18518da805128101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:8644325,nick:死月·吃圡蕾特,who:1,auto:1} 哈哈哈 ",
+                        "postTime": 1407171953,
+                        "id": 1407171953,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1407193378,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "hackathon一般都是往自己熟得不得了的地方发力，毕竟时间太有限了。岛娘竟然也玩front end了，卧槽，那个坑超大的。 ",
+                "capacity": 12058,
+                "poster": {
+                    "id": "489271171",
+                    "platform": 1,
+                    "name": "突然华尔兹 ",
+                    "emoji": []
+                },
+                "bmp": "18959da00000c201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1407215501,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "我厂的hackathon... ",
+                "capacity": 12147,
+                "poster": {
+                    "id": "76924065",
+                    "platform": 1,
+                    "name": ".KinG XuEf  ",
+                    "emoji": []
+                },
+                "bmp": "18c095a00000e001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1407217822,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "为毛最后一个和倒数第二个名字那么眼熟。。。[em]e103[/em] ",
+                "capacity": 12109,
+                "poster": {
+                    "id": "1303552653",
+                    "platform": 1,
+                    "name": "赫敏·格兰杰 ",
+                    "emoji": []
+                },
+                "bmp": "18909da00608c209",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

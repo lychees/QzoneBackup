@@ -1,0 +1,97 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1327335092,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "岛姐要剪头发了。。。[em]e126[/em] ",
+                "capacity": 12103,
+                "poster": {
+                    "id": "599172252",
+                    "platform": 1,
+                    "name": "Maverick ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00000c001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "和谐 .. . ",
+                        "postTime": 1327335555,
+                        "id": 1327335555,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1327397798,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "岛长得越来越秀气的说…… ",
+                "capacity": 12144,
+                "poster": {
+                    "id": "471084932",
+                    "platform": 1,
+                    "name": "无姓之人 ",
+                    "emoji": []
+                },
+                "bmp": "18d095e4010ed001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1327415429,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "[ft=,2,][ft=,,]cos初春同学么2333333333333333333[/ft][/ft]\n[ft=,2,][ft=,,]话说那两个同仁以前就看到过的。。在我相册还有。。是在暑假和华华去锦里看到的哟[/ft][/ft] ",
+                "capacity": 11943,
+                "poster": {
+                    "id": "122155302",
+                    "platform": 1,
+                    "name": "木子日匀 ",
+                    "emoji": []
+                },
+                "bmp": "38d40da00102c209",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "噗。。＝ ＝。。 ",
+                        "postTime": 1327416652,
+                        "id": 1327416652,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "122155302",
+                            "name": "木子日匀 ",
+                            "platform": 1
+                        },
+                        "content": "我要看正面 ",
+                        "postTime": 1327667140,
+                        "id": 1327667140,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

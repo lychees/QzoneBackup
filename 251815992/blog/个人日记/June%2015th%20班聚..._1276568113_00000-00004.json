@@ -1,0 +1,153 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 5,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1276605784,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]我们的音频视频呢~[/ft] ",
+                "capacity": 12142,
+                "poster": {
+                    "id": "383532005",
+                    "platform": 1,
+                    "name": "E.Lee ",
+                    "emoji": []
+                },
+                "bmp": "189094800000c121",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1276685217,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[ft=,2,]Q1:RJJ是谁来着[/ft] ",
+                "capacity": 12077,
+                "poster": {
+                    "id": "626003679",
+                    "platform": 1,
+                    "name": "沙了个皮 ",
+                    "emoji": []
+                },
+                "bmp": "18d48de00108e401",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "荣俊杰。。我的小学同学。。你不认识的啦。。～ ",
+                        "postTime": 1276695742,
+                        "id": 1276695742,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1276685239,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "Q2:KWN是谁来着 ",
+                "capacity": 12045,
+                "poster": {
+                    "id": "626003679",
+                    "platform": 1,
+                    "name": "沙了个皮 ",
+                    "emoji": []
+                },
+                "bmp": "18d48de00108e401",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "孔维娜。。我的小学同学。。你不认识的啦。。～\n ",
+                        "postTime": 1276695759,
+                        "id": 1276695759,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "626003679",
+                            "name": "沙了个皮 ",
+                            "platform": 1
+                        },
+                        "content": "我知道 六中的 你女朋友 ",
+                        "postTime": 1276696034,
+                        "id": 1276696034,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "postTime": 1276685286,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "Q3;CYR是谁。。 ",
+                "capacity": 12094,
+                "poster": {
+                    "id": "626003679",
+                    "platform": 1,
+                    "name": "沙了个皮 ",
+                    "emoji": []
+                },
+                "bmp": "18d48de00108e401",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "陈悦汝。。 ",
+                        "postTime": 1276695778,
+                        "id": 1276695778,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "626003679",
+                            "name": "沙了个皮 ",
+                            "platform": 1
+                        },
+                        "content": "我认识\n ",
+                        "postTime": 1276696043,
+                        "id": 1276696043,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "postTime": 1276916742,
+                "effect": 524288,
+                "replyNum": 0,
+                "content": "笑 ",
+                "capacity": 12149,
+                "poster": {
+                    "id": "c265e4bd629300c5e0b59762f61a3dfaadc4158b389bc83e",
+                    "platform": 2,
+                    "name": "金天"
+                },
+                "bmp": "0000000000000000",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

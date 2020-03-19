@@ -1,0 +1,718 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    旋转卡壳。
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             旋转卡壳。
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2013-09-12 13:29:06
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(47)	è¯è®º(0)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1379006946,
+"voteids":0,
+"pubtime":1379006946,
+"replynum":0,
+"category":"个人日记",
+"title":"旋转卡壳。",
+"effect":8389120,
+"effect2":524294,
+"exblogtype":3,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":81177,
+"lp_style":16843520,
+"lp_flag":0,
+"lp_topvalue":0,
+"orguin":251815992,
+"orgblogid":1379006946,
+"mention_uins":[ ],
+"attach":[],"comments":[]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <div>
+                <div>
+                 <div>
+                  <br/>
+                  资料：
+                  <br/>
+                  <a href="http://www.cnblogs.com/ch3656468/archive/2011/03/02/1969303.html" target="_blank">
+                   http://www.cnblogs.com/ch3656468/archive/2011/03/02/1969303.html
+                   <br/>
+                  </a>
+                  <a href="http://cgm.cs.mcgill.ca/%7Eorm/rotcal.html" target="_blank">
+                   http://cgm.cs.mcgill.ca/~orm/rotcal.html
+                  </a>
+                  （玛德。。这个写的实在是太好了。。我要给你 Yes ！。。
+                  <br/>
+                  <span>
+                  </span>
+                  <br/>
+                  <br/>
+                  <div>
+                   VP getCH(VP&amp; P){ //逆时针，无共线
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   int n=SZ(P); if(n&lt;=3) return P.PB(P[0]),getArea(P)&lt;0?RVS(P):P;
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   SRT(P); VP C; C.resize(n+9); int nn = -1; REP(i, n){ //#
+                  </div>
+                  <div>
+                   while (nn &gt; 0 &amp;&amp; dett(C[nn-1], C[nn], P[i]) &lt;= 0) --nn; //#
+                  </div>
+                  <div>
+                   C[++nn] = P[i];
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   int _nn = nn; DWN(i, n-1, 0){
+                  </div>
+                  <div>
+                   while (nn &gt; _nn &amp;&amp; dett(C[nn-1], C[nn], P[i]) &lt;= 0) --nn; //#
+                  </div>
+                  <div>
+                   C[++nn] = P[i];
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   C.resize(nn+1);
+                  </div>
+                  <div>
+                   return C;
+                  </div>
+                  <div>
+                   }
+                  </div>
+                 </div>
+                 <br/>
+                 <span style="color:rgb(0, 0, 0)">
+                  。要卡壳。。先凸包
+                 </span>
+                 <br/>
+                 <br/>
+                 <br/>
+                 。。。学习一般多边形直径受到巨大打击。。。。决定以退为进。。先学习下旋转卡壳。。
+                 <br/>
+                 <br/>
+                 <br/>
+                 。。以下全程逆时针。。。各种约定遵守凸包算法。。。
+                 <br/>
+                 。。三张图解释旋转卡壳的本质！。。
+                 <br/>
+                 <a href="http://cgm.cs.mcgill.ca/%7Eorm/app.html" target="_blank">
+                  http://cgm.cs.mcgill.ca/~orm/app.html
+                 </a>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <a href="http://acm.hust.edu.cn/vjudge/problem/viewProblem.action?id=15777" target="_blank" title="http://acm.hust.edu.cn/vjudge/problem/viewProblem.action?id=15777">
+                  http://acm.hust.edu.cn/vjudge/problem/viewProblem.action?id=15777
+                 </a>
+                 <br/>
+                 凸包直径。。
+                 <br/>
+                 <div>
+                  <div>
+                   #define suc(x) (x+1==n?0:x+1)
+                  </div>
+                  <div>
+                   DB rc(const VP&amp; P){
+                  </div>
+                  <div>
+                   int n = SZ(P)-1, j = 1; DB d2 = 0; REP(i, n){
+                  </div>
+                  <div>
+                   while (dett(P[i+1]-P[i], P[j+1]-P[j])&gt;0) j=suc(j);
+                  </div>
+                  <div>
+                   checkMax(d2, max(dist2(P[i], P[j]), dist2(P[i+1], P[j+1])));
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   return d2;
+                  </div>
+                  <div>
+                   }
+                  </div>
+                 </div>
+                 <br/>
+                 <br/>
+                 凸包宽度。。
+                 <br/>
+                 <div>
+                  <div>
+                   #define suc(x) (x+1==n?0:x+1)
+                  </div>
+                  <div>
+                   DB rc(const VP&amp; P){
+                  </div>
+                  <div>
+                   int n = SZ(P)-1, j = 1; DB w2 = OO; REP(i, n){
+                  </div>
+                  <div>
+                   while (dett(P[i+1]-P[i], P[j+1]-P[j])&gt;0) j=suc(j);
+                  </div>
+                  <div>
+                   checkMin(w2, dist2(Line(P[i], P[i+1]), P[j]));
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   return w2;
+                  </div>
+                  <div>
+                   }
+                  </div>
+                 </div>
+                 （题目：
+                 <br/>
+                 <a href="http://acm.hust.edu.cn/vjudge/problem/viewProblem.action?id=23104" target="_blank">
+                  http://acm.hust.edu.cn/vjudge/problem/viewProblem.action?id=23104
+                 </a>
+                 <br/>
+                 ）
+                 <br/>
+                 <br/>
+                 <br/>
+                 <a href="http://acm.hust.edu.cn/vjudge/problem/viewSource.action?id=1554076" target="_blank">
+                  http://acm.hust.edu.cn/vjudge/problem/viewSource.action?id=1554076
+                 </a>
+                 <a href="http://acm.hust.edu.cn/vjudge/problem/viewSource.action?id=1553919" target="_blank">
+                  <br/>
+                  <span>
+                  </span>
+                 </a>
+                 <br/>
+                 。。两个凸包间的距离。。
+                 <br/>
+                 <div>
+                  <div>
+                   #define suc(x, n) (x+1==n?0:x+1)
+                  </div>
+                  <div>
+                   DB _rc(const VP&amp; P1, const VP&amp; P2){
+                  </div>
+                  <div>
+                   int n = SZ(P1)-1, m = SZ(P2)-1;
+                  </div>
+                  <div>
+                   int i=0, j=0; DB d2=OO;
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   REP(k, n) if (P1[k].y &gt; P1[i].y) i = k;  //#
+                  </div>
+                  <div>
+                   REP(k, m) if (P2[k].y &lt; P2[i].y) i = k;
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   DO(n){
+                  </div>
+                  <div>
+                   Seg h(P1[i], P1[i+1]); while (dett(h.d(), P2[j+1]-P2[j])&gt;0) j=suc(j,m);
+                  </div>
+                  <div>
+                   checkMin(d2, dist2(h, Seg(P2[j],P2[j+1])));
+                  </div>
+                  <div>
+                   i=suc(i,n);
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   return d2;
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   DB rc(const VP&amp; P1, const VP&amp; P2){
+                  </div>
+                  <div>
+                   return min(_rc(P1, P2), _rc(P2, P1));
+                  </div>
+                  <div>
+                   }
+                  </div>
+                 </div>
+                 <div>
+                  <span>
+                   <br/>
+                   （Another Method。。两边同时旋转。
+                  </span>
+                  <a href="http://blog.csdn.net/zxy_snow/article/details/6540150" target="_blank">
+                   http://blog.csdn.net/zxy_snow/article/details/6540150
+                  </a>
+                  <span>
+                   <br/>
+                   <span>
+                    <br/>
+                    <br/>
+                    <br/>
+                   </span>
+                  </span>
+                  <a href="http://acm.hust.edu.cn/vjudge/problem/viewProblem.action?id=20288" target="_blank">
+                   http://acm.hust.edu.cn/vjudge/problem/viewProblem.action?id=20288
+                   <br/>
+                   <span>
+                    。。。
+                   </span>
+                  </a>
+                  <span>
+                   <span>
+                    <br/>
+                   </span>
+                  </span>
+                  <span>
+                   。。最小覆盖矩形。。。
+                  </span>
+                  <span>
+                   <span>
+                    <br/>
+                   </span>
+                  </span>
+                  <span>
+                   <span>
+                    。。。。枚举其中一条边转。。其它三个边跟着转。。。
+                    <br/>
+                    有一些恶心的边界情况要考虑。。
+                    <br/>
+                    <div>
+                     <div>
+                      #define suc(x) (x+1==n?0:x+1)
+                     </div>
+                     <div>
+                      DB rc(const VP&amp; P){
+                     </div>
+                     <div>
+                      <br/>
+                     </div>
+                     <div>
+                      int n=SZ(P)-1,l=1,r=1,u=1,ll=1,rr=1,uu=1; DB res=OO; REP(i, n){
+                     </div>
+                     <div>
+                      <br/>
+                     </div>
+                     <div>
+                      Line p(P[i], P[i+1]); p.b = p.a + p.d()._1();
+                     </div>
+                     <div>
+                      <br/>
+                     </div>
+                     <div>
+                      while (dott(p.d(), P[r+1]-P[r])&gt;0) r=suc(r),++rr; if (uu&lt;rr)u=r,uu=rr; //#
+                     </div>
+                     <div>
+                      while (dett(p.d(), P[u+1]-P[u])&gt;0) u=suc(u),++uu; if (ll&lt;uu)l=u,ll=uu;
+                     </div>
+                     <div>
+                      while (dott(p.d(), P[l+1]-P[l])&lt;0) l=suc(l),++ll;
+                     </div>
+                     <div>
+                      <br/>
+                     </div>
+                     <div>
+                      DB w = //dist(Line(P[r], P[r]+p.d().lt()), Line(P[l], P[l]+p.d().lt())); //?
+                     </div>
+                     <div>
+                      dot(p, P[r]) - dot(p, P[l]);
+                     </div>
+                     <div>
+                      DB h = dist(p, P[u]);
+                     </div>
+                     <div>
+                      //cout &lt;&lt; w &lt;&lt; " " &lt;&lt; h &lt;&lt; endl;
+                     </div>
+                     <div>
+                      checkMin(res, w*h);
+                     </div>
+                     <div>
+                      }
+                     </div>
+                     <div>
+                      //cout &lt;&lt; res &lt;&lt; endl;
+                     </div>
+                     <div>
+                      <br/>
+                     </div>
+                     <div>
+                      return res;
+                     </div>
+                     <div>
+                      }
+                     </div>
+                    </div>
+                   </span>
+                  </span>
+                 </div>
+                 <br/>
+                 <br/>
+                 <a href="http://acm.hust.edu.cn/vjudge/problem/viewSource.action?id=1554091" target="_blank">
+                  http://acm.hust.edu.cn/vjudge/problem/viewSource.action?id=1554091
+                  <br/>
+                 </a>
+                 <a href="http://acm.hust.edu.cn/vjudge/problem/viewSource.action?id=1555853" target="_blank">
+                  http://acm.hust.edu.cn/vjudge/problem/viewSource.action?id=1555853
+                 </a>
+                 <span>
+                 </span>
+                 <br/>
+                 。。凸包内面积最大三角。（复杂度整个增加一维。。。似乎有优化的余地。。
+                 <div>
+                  #define suc(x) (x+1==n?0:x+1)
+                 </div>
+                 <div>
+                  DB rc(const VP&amp; P){
+                 </div>
+                 <div>
+                  int n = SZ(P)-1; DB res = 0; int j, k; REP(i, n){
+                 </div>
+                 <div>
+                  for (j=k=suc(i);j!=i;j=suc(j)){
+                 </div>
+                 <div>
+                  while (dett(P[j]-P[i], P[k+1]-P[k])&gt;0) k=suc(k);
+                 </div>
+                 <div>
+                  checkMax(res, fabs(det(P[i], P[j], P[k])));
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  return res/2;
+                 </div>
+                 <div>
+                  }
+                  <br/>
+                  <span>
+                   <br/>
+                   （ 妈蛋。。这帮狗逼。。  O(n2) 算法。。。n = 10^6 就随便出。。。。
+                  </span>
+                 </div>
+                </div>
+                <div>
+                 <span>
+                  <br/>
+                  <br/>
+                  <br/>
+                 </span>
+                </div>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+               </div>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

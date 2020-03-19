@@ -1,0 +1,380 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    ...
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             ...
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2009-06-03 00:26:23
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(45)	è¯è®º(5)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1244003183,
+"voteids":0,
+"pubtime":1244003183,
+"replynum":5,
+"category":"个人日记",
+"title":"...",
+"effect":134218240,
+"effect2":2,
+"exblogtype":0,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":0,
+"lp_style":0,
+"lp_flag":0,
+"orguin":251815992,
+"orgblogid":1244003183,
+"mention_uins":[ ],
+"attach":[],"comments":[{"id":5,
+"postTime":1244470643,
+"effect":0,
+"replyNum":0,
+"content":"const\n   mm=720;\n   nn=6;\ntype\n   int=longint;\n   arr=array[1..nn] of int;\n   rec=record\n     data:array[1..mm] of arr;\n     len:int; tot:int;\n   end;\nvar\n   a,b:rec; n,i:int;\nprocedure print(a:rec);\nvar i,j:int;\nbegin\n   with a do begin\n     for i:=1 to tot do\n     begin\n       for j:=1 to len-1 do\n         write(data[I],\u0027 \u0027);\n       writeln(data[I]);\n     end;\n   end;\nend;\nfunction consititute(depth:int):rec;\nvar  a,b:rec;\n     i,j,k,t:int;\n     function insert:arr;\n     var c:arr;\n         t:int;\n     begin\n       fillchar(c,sizeof(c),0);\n       for t:=1 to j-1 do\n         c[t]:=b.data[I];\n       c[j]:=a.len;\n       for t:=j+1 to a.len do\n         c[t]:=b.data[I];\n       exit(c);\n     end;\nbegin\n   fillchar(a,sizeof(a),0);\n   a.len:=depth;\n   if a.len=1 then begin\n     a.data[1,1]:=1;\n     a.tot:=1;\n   end\n   else begin\n     b:=consititute(depth-1);\n     a.tot:=b.tot*a.len;\n     t:=0;\n   for i:=1 to b.tot do\n       for j:=1 to a.len do\n       begin\n         inc(t);\n         for k:=1 to b.len do\n           if b.data[I]>=j then a.data[t,k]:=b.data[I]+1\n                             else a.data[t,k]:=b.data[I];\n         a.data[t,a.len]:=j;\n       end;\n   end;\n   exit(a);\nend;\nbegin\n   readln(n);\n   print(consititute(n));\n   readln(n)\nend.[\/I][\/I][\/I][\/I][\/I][\/I][\/I] ",
+"capacity":10894,
+"poster":{
+"id":"251815992",
+"platform":1,
+"name":"小岛美奈子 ",
+"emoji":[ ]}
+,
+"bmp":"18d18da40002c001",
+"ismyreply":1,
+"replies":[]},
+{"id":6,
+"postTime":1244522826,
+"effect":0,
+"replyNum":0,
+"content":"program vijos1551;\nconst\n  nn=200; mm=nn*nn;\n  inf=mm+nn;\ntype\n  int=longint;\nvar\n  p:array[0..nn,0..mm] of boolean;\n  d:array[1..nn,0..mm] of int;\n  a,b:array[1..nn] of int;\n  c:array[1..nn] of boolean;\n  n,m:int; ans:int;\nfunction min(a,b:int):int;\nbegin\n  if a\u003Cb then exit(a)\n         else exit(b);\nend;\nfunction max(a,b:int):int;\nbegin\n  if a>b then exit(a)\n         else exit(b);\nend;\nprocedure exchange(i,j:int);\nvar k:int;\nbegin\n  k:=a[I];a[I]:=a[j];a[j]:=k;\n  k:=b[I];b[I]:=b[j];b[j]:=k;\nend;\nprocedure init;\nvar i,j:int;\nbegin\n  readln(n);\n  for i:=1 to n do\n  begin\n    readln(a[I],b[I]);\n    inc(m,a[I]);\n  end;\n  for i:=1 to n-1 do\n    for j:=i+1 to n do\n      if b[I]\u003Cb[j] then exchange(i,j);\n  for i:=0 to n do\n    for j:=0 to m do\n      d[I]:=inf;\n  d[0,0]:=0;\nend;\nprocedure solve;\nvar\n  i,j,k:int;\n  q1,q2:int; e2:int;\nbegin\n  for i:=1 to n do\n  begin\n    for j:=m downto a[I] do\n    begin\n      d[I]:=min(d[I],max(d[I]],j+b[I]));\n      if d[I]\u003C>d[I] then p[I]:=true;\n    end;\n    for j:=a[I]-1 downto 0 do\n      d[I]:=d[I];\n  end;\n  \n  ans:=inf;\n  for j:=0 to m do\n  begin\n    q1:=d[n,j]; q2:=0; e2:=0; k:=j;\n    fillchar(c,sizeof(c),false);\n    for i:=n downto 1 do\n    begin\n      if not p[I] then c[I]:=true\n                    else dec(k,a[I]);\n    end;\n    \n    for i:=1 to n do\n      if c[I] then begin\n        inc(q2,a[I]);\n        e2:=max(e2,q2+b[I]);\n      end;\n    q2:=max(q2,e2);\n    \n    \/\/ writeln(j,\u0027 \u0027,q1,\u0027 \u0027,q2,\u0027 \u0027,q3);\n    ans:=min(ans,max(q1,q2));\n    \/\/if q2\u003Cq1 then exit;\n  end;\nend;\nbegin\n  init; solve;\n  writeln(ans);\n  readln(n)\nend.[\/I][\/I][\/I][\/I][\/I][\/I][\/I][\/I][\/I][\/I][\/I][\/I][\/I][\/I][\/I][\/I][\/I][\/I][\/I][\/I][\/I][\/I][\/I][\/I][\/I][\/I] ",
+"capacity":10547,
+"poster":{
+"id":"251815992",
+"platform":1,
+"name":"小岛美奈子 ",
+"emoji":[ ]}
+,
+"bmp":"18d18da40002c001",
+"ismyreply":1,
+"replies":[]},
+{"id":7,
+"postTime":1244523190,
+"effect":0,
+"replyNum":0,
+"content":"program vijos1551;\nconst\n  nn=200; mm=nn*nn;\n  inf=mm+nn;\n  orz=20000;\ntype\n  int=longint;\nvar\n  d:array[0..orz,0..orz] of int;\n  a,b:array[1..nn] of int;\n  n,m:int; ans:int;\nfunction min(a,b:int):int;\nbegin\n  if a\u003Cb then exit(a)\n         else exit(b);\nend;\nfunction max(a,b:int):int;\nbegin\n  if a>b then exit(a)\n         else exit(b);\nend;\nprocedure exchange(i,j:int);\nvar k:int;\nbegin\n  k:=a[I];a[I]:=a[j];a[j]:=k;\n  k:=b[I];b[I]:=b[j];b[j]:=k;\nend;\nprocedure init;\nvar i,j:int;\nbegin\n  readln(n);\n  for i:=1 to n do\n  begin\n    readln(a[I],b[I]);\n    inc(m,a[I]);\n  end;\n  for i:=1 to n-1 do\n    for j:=i+1 to n do\n      if b[I]\u003Cb[j] then exchange(i,j);\n  for i:=0 to m do\n    for j:=0 to m do\n      d[I]:=inf;\n  d[0,0]:=0;\nend;\nprocedure solve;\nvar i,j,k:int;\nbegin\n  for i:=1 to n do\n    for j:=m downto 0 do\n      for k:=m downto 0 do\n      begin\n        if j>=a[I] then\n          d[j,k]:=min(d[j,k],max(d[j-a[I],k],j+b[I]));\n        if k>=a[I] then\n          d[j,k]:=min(d[j,k],max(d[j,k-a[I]],k+b[I]));\n      end;\n  ans:=inf;\n  for j:=0 to m do\n  begin\n    k:=m-j;\n    ans:=min(ans,d[j,k]);\n  end;\nend;\nbegin\n  init; solve;\n  writeln(ans);\n  readln(n)\nend.[\/I][\/I][\/I][\/I][\/I][\/I][\/I][\/I][\/I][\/I][\/I][\/I][\/I][\/I][\/I] ",
+"capacity":10991,
+"poster":{
+"id":"251815992",
+"platform":1,
+"name":"小岛美奈子 ",
+"emoji":[ ]}
+,
+"bmp":"18d18da40002c001",
+"ismyreply":1,
+"replies":[]},
+{"id":8,
+"postTime":1244523493,
+"effect":0,
+"replyNum":0,
+"content":"program vijos1551;\nconst\n  nn=200; mm=nn*nn;\n  inf=mm+nn;\ntype\n  int=longint;\nvar\n  d:array[0..mm,0..mm] of int;\n  a,b:array[1..nn] of int;\n  n,m:int; ans:int;\nfunction min(a,b:int):int;\nbegin\n  if a\u003Cb then exit(a)\n         else exit(b);\nend;\nfunction max(a,b:int):int;\nbegin\n  if a>b then exit(a)\n         else exit(b);\nend;\nprocedure exchange(i,j:int);\nvar k:int;\nbegin\n  k:=a[I];a[I]:=a[j];a[j]:=k;\n  k:=b[I];b[I]:=b[j];b[j]:=k;\nend;\nprocedure init;\nvar i,j:int;\nbegin\n  readln(n);\n  for i:=1 to n do\n  begin\n    readln(a[I],b[I]);\n    inc(m,a[I]);\n  end;\n  for i:=1 to n-1 do\n    for j:=i+1 to n do\n      if b[I]\u003Cb[j] then exchange(i,j);\n  for i:=0 to m do\n    for j:=0 to m do\n      d[I]:=inf;\n  d[0,0]:=0;\nend;\nprocedure solve;\nvar i,j,k:int;\nbegin\n  for i:=1 to n do\n    for j:=m downto 0 do\n      for k:=m downto 0 do\n      begin\n        if j>=a[I] then\n          d[j,k]:=min(d[j,k],max(d[j-a[I],k],j+b[I]));\n        if k>=a[I] then\n          d[j,k]:=min(d[j,k],max(d[j,k-a[I]],k+b[I]));\n      end;\n  ans:=inf;\n  for j:=0 to m do\n  begin\n    k:=m-j;\n    ans:=min(ans,d[j,k]);\n  end;\nend;\nbegin\n  init; solve;\n  writeln(ans);\n  readln(n)\nend.[\/I][\/I][\/I][\/I][\/I][\/I][\/I][\/I][\/I][\/I][\/I][\/I][\/I][\/I][\/I] ",
+"capacity":11006,
+"poster":{
+"id":"251815992",
+"platform":1,
+"name":"小岛美奈子 ",
+"emoji":[ ]}
+,
+"bmp":"18d18da40002c001",
+"ismyreply":1,
+"replies":[]},
+{"id":10,
+"postTime":1244525762,
+"effect":0,
+"replyNum":0,
+"content":"program vijos1037_2;\nconst\n  nmax=100;\n  mmax=2000;\n  infinity=mmax;\ntype\n  int=longint;\nvar\n dp:array[0..1,0..mmax] of int;\n  A:array[1..nmax] of int;\n  n,m,i,j,k:int;\n  p,q:int;\n  \nfunction max(a,b:int):int;\nbegin\n  if a>b then exit(a)\n         else exit(b);\nend;\nbegin\n  readln(n);\n  for i:=1 to n do\n  begin\n    read(A[I]);\n    inc(m,A[I]);\n  end;m:=m div 2;\n  for i:=0 to 1 do\n    for j:=0 to m do\n    dp[I]:=-infinity;\n  dp[0,0]:=0;p:=0;\n  \n  for i:=1 to n do\n  begin\n    q:=p;p:=1-p;\n    for j:=0 to m do\n    begin\n      dp[p,j]:=dp[q,j];\n      if j-A[I]>=0 then dp[p,j]:=max(dp[p,j],dp[q,j-A[I]]);\n      if j+A[I]\u003C=m then dp[p,j]:=max(dp[p,j],dp[q,j+A[I]]+A[I]);\n      if A[I]-j>=0 then dp[p,j]:=max(dp[p,j],dp[q,A[I]-j]+A[I]-j);\n    end;\n  end;\n  if dp[p,0]=0 then writeln(\u0027Impossible\u0027)\n               else writeln(dp[p,0]);\n  readln(n);\nend.[\/I][\/I][\/I][\/I][\/I][\/I][\/I][\/I][\/I][\/I][\/I] ",
+"capacity":11307,
+"poster":{
+"id":"251815992",
+"platform":1,
+"name":"小岛美奈子 ",
+"emoji":[ ]}
+,
+"bmp":"18d18da40002c001",
+"ismyreply":1,
+"replies":[]}]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              ...
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

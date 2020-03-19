@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1480728194,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "没和盐老师一起去么(⊙_⊙) ",
+                "capacity": 12143,
+                "poster": {
+                    "id": "594837346",
+                    "platform": 1,
+                    "name": "CCG成员 ",
+                    "emoji": []
+                },
+                "bmp": "18c095a00102c481",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

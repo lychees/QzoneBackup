@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1288671374,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "我的妹妹不可能那么可爱？ ",
+                "capacity": 12140,
+                "poster": {
+                    "id": "315593370",
+                    "platform": 1,
+                    "name": "大魔导师会让你挂科 ",
+                    "emoji": []
+                },
+                "bmp": "18c09da04000c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

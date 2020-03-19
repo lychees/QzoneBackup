@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1286100822,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "床收拾的很整齐，在外要有很强的生活自理能力。 ",
+                "capacity": 12126,
+                "poster": {
+                    "id": "985061865",
+                    "platform": 1,
+                    "name": "姑姑 ",
+                    "emoji": []
+                },
+                "bmp": "184195a100004301",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1286165834,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "我还以为在叫床呢，哈哈 ",
+                "capacity": 12148,
+                "poster": {
+                    "id": "9179922",
+                    "platform": 1,
+                    "name": "wyl ",
+                    "emoji": []
+                },
+                "bmp": "184195a400000201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

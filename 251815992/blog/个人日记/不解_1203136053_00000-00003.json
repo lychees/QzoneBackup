@@ -1,0 +1,79 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1203157712,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "[M][B]你是唐飞虎[/B][/M]\n[M][B]世界从你的眼睛里来[/B][/M]\n[M][B]你不睁开眼[/B][/M]\n[M][B]世界就不存在[/B][/M]\n[M][B]我们都在等[/B][/M]\n[M][B]死[/B][/M]\n ",
+                "capacity": 12018,
+                "poster": {
+                    "id": "173324507",
+                    "platform": 1,
+                    "name": "Groot ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1203158568,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "[M][B]“唐飞虎”又是谁？[/B][/M]\n[M][B]＼[/B][/M]\n[M][B]如果我死了...[/B][/M]\n[M][B]就不会再睁眼了...[/B][B]那样[/B][/M]\n[M][B]世界[/B][B]就不存在了吗？[/B][/M]\n[M][B] 那以后的人怎么办呢...~[/B][/M]\n ",
+                "capacity": 11972,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1203229413,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "所以你要为你自己活着.更为爱你的人活着.因为世界上有很多爱你的人.如果你想死.就说明你是一个只会伤别人心的无耻的没有人性的人.你死了.你很快活.但是有多少人会为你伤心到心碎.你想过吗.\n \n所以我想.我不只是为了我自己活着. ",
+                "capacity": 11963,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1204382615,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "[M][B]其他人[/B][/M]\n[M][B]都是你生的时候的幻想[/B][/M]\n[M][B]不是真的存在[/B][/M]\n ",
+                "capacity": 12084,
+                "poster": {
+                    "id": "173324507",
+                    "platform": 1,
+                    "name": "Groot ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

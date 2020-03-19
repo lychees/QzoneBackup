@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1330610827,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "买了根 笔，板子很好用，就是小了点 呵呵~ ",
+                "capacity": 12127,
+                "poster": {
+                    "id": "419038169",
+                    "platform": 1,
+                    "name": "小李·炎艺游戏 ",
+                    "emoji": []
+                },
+                "bmp": "18d09de40182c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1330611122,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "。。我也买了撒。。。 ",
+                "capacity": 12149,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            }
+        ]
+    }
+}

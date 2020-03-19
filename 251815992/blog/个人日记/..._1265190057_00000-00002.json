@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1265190805,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "我的人可做好了 ",
+                "capacity": 12151,
+                "poster": {
+                    "id": "506863220",
+                    "platform": 1,
+                    "name": "幸福的/旁边 ",
+                    "emoji": []
+                },
+                "bmp": "18d195ac0142c409",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1265200733,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]光速来踩。。[/ft]\n[ft=,2,]................................................................................................................................[/ft]\n[ft=,2,]除了省略号外我不知道用什么来表达我的心情。[/ft] ",
+                "capacity": 11949,
+                "poster": {
+                    "id": "1393904777",
+                    "platform": 1,
+                    "name": "猫猫 ",
+                    "emoji": []
+                },
+                "bmp": "08809c2002008001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1265274942,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]别让我看到你们两个- -[/ft]\n \n[ft=,2,]两个假御姐天天在猥琐什么我都不知道- -。。。。。、[/ft]\n[ft=,2,][/ft] ",
+                "capacity": 12053,
+                "poster": {
+                    "id": "122698324",
+                    "platform": 1,
+                    "name": "张晓晨 ",
+                    "emoji": []
+                },
+                "bmp": "18d19560010e8009",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

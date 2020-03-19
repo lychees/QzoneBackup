@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1403801644,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "这不是和这不是上海09年D题一样吗…… ",
+                "capacity": 12138,
+                "poster": {
+                    "id": "451376709",
+                    "platform": 1,
+                    "name": "AAA ",
+                    "emoji": []
+                },
+                "bmp": "18c09da00002c101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

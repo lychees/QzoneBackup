@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1442200592,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "办事效率高啊[em]e113[/em] ",
+                "capacity": 12143,
+                "poster": {
+                    "id": "30109847",
+                    "platform": 1,
+                    "name": "蓝天阳鑫 ",
+                    "emoji": []
+                },
+                "bmp": "08c19c800000c201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1442205566,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "退錢，重要 ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "397427019",
+                    "platform": 1,
+                    "name": " ",
+                    "emoji": []
+                },
+                "bmp": "18809da40102c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1442215017,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "还要交学费么 ",
+                "capacity": 12155,
+                "poster": {
+                    "id": "1242256806",
+                    "platform": 1,
+                    "name": "无锡-美术-林可 ",
+                    "emoji": []
+                },
+                "bmp": "18408da00002e201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

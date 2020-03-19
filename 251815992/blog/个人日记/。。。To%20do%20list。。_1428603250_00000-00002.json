@@ -1,0 +1,85 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1428621117,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "飞虎，上班了？还是还在上学？ ",
+                "capacity": 12144,
+                "poster": {
+                    "id": "275579835",
+                    "platform": 1,
+                    "name": "随缘 ",
+                    "emoji": []
+                },
+                "bmp": "184115a40002c409",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1428644625,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "厉害 ",
+                "capacity": 12165,
+                "poster": {
+                    "id": "785535171",
+                    "platform": 1,
+                    "name": "Jの星愿 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a40100a201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1428731848,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "开发者大会我参与了，里面主要就是说了 Cocos2d-x 出了 v3.6 版本，并且支持了 3D，那个外国哥们作为触控首席 Cocos2dx 引擎架构师，正在做 Cocos2d-x v4.0 的引擎，Cocos2d-x 大会上演示了三国战斗、魔兽世界等贴图包在手机上运行的实际情况…… ",
+                "capacity": 11729,
+                "poster": {
+                    "id": "2584468854",
+                    "platform": 1,
+                    "name": "SweetLover ",
+                    "emoji": []
+                },
+                "bmp": "1850958002028101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:2584468854,nick:SweetLover,who:1,auto:1}。。。乃现在在哪。。？ ",
+                        "postTime": 1429682071,
+                        "id": 1429682071,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "2584468854",
+                            "name": "SweetLover ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,auto:1} 现在在北京，培训公司里面当老师，很悲惨…… ",
+                        "postTime": 1429693126,
+                        "id": 1429693126,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

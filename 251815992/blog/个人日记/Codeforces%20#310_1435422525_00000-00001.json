@@ -1,0 +1,68 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1435422821,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "C题真有人直接用set的。。。runid:11801897 dyh的 ",
+                "capacity": 11876,
+                "poster": {
+                    "id": "529003192",
+                    "platform": 1,
+                    "name": "【XDU】数学lover ",
+                    "emoji": []
+                },
+                "bmp": "18d19dac09828909",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "953357213",
+                            "name": "蒟蒻 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:529003192,nick:【XDU】数学lover,who:1,auto:1}真是跪傻。。我连离散化都没想起来。。直接动态开点了 ",
+                        "postTime": 1435423305,
+                        "id": 1435423305,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "953357213",
+                            "name": "蒟蒻 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:529003192,nick:【XDU】数学lover,who:1,auto:1}话说不是说说毛子的round吗。。。 ",
+                        "postTime": 1435423332,
+                        "id": 1435423332,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1435425216,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "typical？ ",
+                "capacity": 12162,
+                "poster": {
+                    "id": "365273817",
+                    "platform": 1,
+                    "name": "Picks ",
+                    "emoji": []
+                },
+                "bmp": "18c095800002c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

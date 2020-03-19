@@ -1,0 +1,662 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    。。。Temp（线性规划。
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             。。。Temp（线性规划。
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2014-04-17 18:06:07
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(65)	è¯è®º(0)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1397772367,
+"voteids":0,
+"pubtime":1397772367,
+"replynum":0,
+"category":"个人日记",
+"title":"。。。Temp（线性规划。",
+"effect":8389120,
+"effect2":524294,
+"exblogtype":3,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":81177,
+"lp_style":16843520,
+"lp_flag":0,
+"lp_topvalue":0,
+"orguin":251815992,
+"orgblogid":1397772367,
+"mention_uins":[ ],
+"attach":[],"comments":[]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <div>
+                <div>
+                 <div>
+                  <br/>
+                  <br/>
+                  To do List _
+                  <br/>
+                  <a href="http://en.wikipedia.org/wiki/Linear_programming" target="_blank">
+                   http://en.wikipedia.org/wiki/Linear_programming
+                  </a>
+                  <br/>
+                  <br/>
+                  <a href="http://codeforces.com/problemset/status/375/problem/E" target="_blank">
+                   http://codeforces.com/problemset/status/375/problem/E
+                  </a>
+                  <br/>
+                  <a href="http://community.topcoder.com/tc?module=Static&amp;d1=tutorials&amp;d2=findSolution#lp" target="_blank">
+                   http://community.topcoder.com/tc?module=Static&amp;d1=tutorials&amp;d2=findSolution#lp
+                  </a>
+                  <br/>
+                  <a href="http://foreseeable97.logdown.com/posts/171185-simplex-template" target="_blank">
+                   http://foreseeable97.logdown.com/posts/171185-simplex-template
+                  </a>
+                  <br/>
+                  <a href="http://acmicpc.info/archives/565" target="_blank">
+                   http://acmicpc.info/archives/565
+                  </a>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  //}/* .................................................................................................................................. */
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  const int N = 509;
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  DB A[N][N]; int m, n;
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  int main(){
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  #ifndef ONLINE_JUDGE
+                 </div>
+                 <div>
+                  freopen("in.txt", "r", stdin);
+                 </div>
+                 <div>
+                  //freopen("out.txt", "w", stdout);
+                 </div>
+                 <div>
+                  #endif
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  m = 3, n = 3;
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  A[0][1] = 3, A[0][2] = 1, A[0][3] = 2;
+                 </div>
+                 <div>
+                  A[1][1] = -1, A[1][2] = -1, A[1][3] = -3, A[1][0] = 30;
+                 </div>
+                 <div>
+                  A[2][1] = -2, A[2][2] = -2, A[2][3] = -5, A[2][0] = 24;
+                 </div>
+                 <div>
+                  A[3][1] = -4, A[3][2] = -1, A[3][3] = -2, A[3][0] = 36;
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  for(;;){
+                 </div>
+                 <div>
+                  // Select ...
+                 </div>
+                 <div>
+                  int jj, ii; DB t = -OO; // jj 进基变量所在列，ii 出基变量所在行
+                 </div>
+                 <div>
+                  REP_1_N(jj, n) if (A[0][jj] &gt; EPS) break; if (jj &gt; n) break;
+                 </div>
+                 <div>
+                  REP_1(i, m) if (A[i][jj] &lt; -EPS &amp;&amp; A[i][0]/A[i][jj] &gt; t) t = A[i][0]/A[i][jj], ii = i;
+                 </div>
+                 <div>
+                  t = -A[ii][jj], A[ii][jj] = -1; REP(j, n+1) A[ii][j] /= t;
+                 </div>
+                 <div>
+                  // Pivot ...
+                 </div>
+                 <div>
+                  REP(i, m+1) if (i != ii &amp;&amp; A[i][jj] != 0){
+                 </div>
+                 <div>
+                  t = A[i][jj], A[i][jj] = 0;
+                 </div>
+                 <div>
+                  REP(j, n+1) A[i][j] += A[ii][j]*t;
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  OT(A[0][0]);  // 输出目标函数当前值
+                 </div>
+                 <div>
+                  }
+                 </div>
+                </div>
+                <div>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <a href="http://acm.hust.edu.cn/vjudge/problem/viewProblem.action?id=10499" style="color:blue;text-decoration:none;font-family:Verdana;text-align:center" target="_blank">
+                  POJ 1273
+                  <br/>
+                  ...
+                 </a>
+                 <br/>
+                 <div>
+                  <span>
+                   // 最大流
+                  </span>
+                 </div>
+                 <div>
+                  // 考虑原图中有 n 个顶点，m 条边。。。
+                 </div>
+                 <div>
+                  // 那么所对应的线性规划问题，有 m 个变量。
+                 </div>
+                 <div>
+                  // m （边的容量约束） + （n-2）（中间结点的流量平衡约束） 个约束条件。。。
+                  <br/>
+                  <br/>
+                  。。。。(注意考虑到我们是标准型。。流量平衡条件是等号。。所以要一分为 2.。。。)
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  (
+                  <br/>
+                  注意下面的代码有问题。。。
+                  <br/>
+                  理论上注释里的 3 种建模方式得到的结果都应该是一样的。。。。
+                  <br/>
+                  。。。但是包括网上其他代码。。都只有最后一种可以 过。。。实在是意味不明。。。。
+                  <br/>
+                  <br/>
+                  <br/>
+                  <span>
+                   <div>
+                    const int N = 609;
+                   </div>
+                   <div>
+                    <br/>
+                   </div>
+                   <div>
+                    DB A[N][N]; int m, n;
+                   </div>
+                   <div>
+                    <br/>
+                   </div>
+                   <div>
+                    void gao(){
+                   </div>
+                   <div>
+                    <br/>
+                   </div>
+                   <div>
+                    /*REP(i, m+1){
+                   </div>
+                   <div>
+                    REP(j, n+1){
+                   </div>
+                   <div>
+                    cout &lt;&lt; A[i][j] &lt;&lt; " ";
+                   </div>
+                   <div>
+                    }
+                   </div>
+                   <div>
+                    cout &lt;&lt; endl;
+                   </div>
+                   <div>
+                    }*/
+                   </div>
+                   <div>
+                    <br/>
+                   </div>
+                   <div>
+                    for(;;){
+                   </div>
+                   <div>
+                    // Select ...
+                   </div>
+                   <div>
+                    int jj, ii; DB t = -OO; // jj 进基变量所在列，ii 出基变量所在行
+                   </div>
+                   <div>
+                    REP_1_N(jj, n) if (A[0][jj] &gt; EPS) break; if (jj &gt; n) break;
+                   </div>
+                   <div>
+                    REP_1(i, m) if (A[i][jj] &lt; -EPS &amp;&amp; A[i][0]/A[i][jj] &gt; t) t = A[i][0]/A[i][jj], ii = i;
+                   </div>
+                   <div>
+                    t = -A[ii][jj], A[ii][jj] = -1; REP(j, n+1) A[ii][j] /= t;
+                   </div>
+                   <div>
+                    // Pivot ...
+                   </div>
+                   <div>
+                    REP(i, m+1) if (i != ii &amp;&amp; A[i][jj] != 0){
+                   </div>
+                   <div>
+                    t = A[i][jj], A[i][jj] = 0;
+                   </div>
+                   <div>
+                    REP(j, n+1) A[i][j] += A[ii][j]*t;
+                   </div>
+                   <div>
+                    }
+                   </div>
+                   <div>
+                    }
+                   </div>
+                   <div>
+                    <br/>
+                   </div>
+                   <div>
+                    OT(A[0][0]);  // 输出目标函数当前值
+                   </div>
+                   <div>
+                    }
+                   </div>
+                   <div>
+                    <br/>
+                   </div>
+                   <div>
+                    int main(){
+                   </div>
+                   <div>
+                    <br/>
+                   </div>
+                   <div>
+                    #ifndef ONLINE_JUDGE
+                   </div>
+                   <div>
+                    freopen("in.txt", "r", stdin);
+                   </div>
+                   <div>
+                    //freopen("out.txt", "w", stdout);
+                   </div>
+                   <div>
+                    #endif
+                   </div>
+                   <div>
+                    <br/>
+                   </div>
+                   <div>
+                    int m, n; while(~scanf("%d%d", &amp;m, &amp;n)){
+                   </div>
+                   <div>
+                    <br/>
+                   </div>
+                   <div>
+                    RST(A); REP_1(i, m){
+                   </div>
+                   <div>
+                    int u, v; RD(u, v); A[i][0] = RF(); A[i][i] = -1;
+                   </div>
+                   <div>
+                    //if (u != 1) A[m+(u-1)*2-1][i] = 1, A[m+(u-1)*2][i] = -1; else A[0][i] = 1;
+                   </div>
+                   <div>
+                    //if (v != n) A[m+(v-1)*2-1][i] = -1, A[m+(v-1)*2][i] = 1;
+                   </div>
+                   <div>
+                    //if (u != 1) A[m+u-1][i] = 1, A[m+n+u-3][i] = -1; else A[0][i] = 1;
+                   </div>
+                   <div>
+                    //if (v != n) A[m+v-1][i] = -1, A[m+n+v-3][i] = 1;
+                   </div>
+                   <div>
+                    if (u != 1) A[m+u-1][i] = -1, A[m+n+u-3][i] = 1; else A[0][i] = 1;
+                   </div>
+                   <div>
+                    if (v != n) A[m+v-1][i] = 1, A[m+n+v-3][i] = -1;
+                   </div>
+                   <div>
+                    }
+                   </div>
+                   <div>
+                    <br/>
+                   </div>
+                   <div>
+                    ::m = m+2*(n-2), ::n = m, gao();
+                   </div>
+                   <div>
+                    }
+                   </div>
+                   <div>
+                    }
+                   </div>
+                   <div>
+                    <br/>
+                   </div>
+                  </span>
+                 </div>
+                 <a href="http://acm.hust.edu.cn/vjudge/problem/viewProblem.action?id=10499" style="color:blue;text-decoration:none;font-family:Verdana;text-align:center" target="_blank">
+                  <span>
+                   <br/>
+                   <br/>
+                   <br/>
+                  </span>
+                 </a>
+                 <br/>
+                </div>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+               </div>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

@@ -1,0 +1,79 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1283507641,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]那个push box很赞[/ft] ",
+                "capacity": 12140,
+                "poster": {
+                    "id": "819122868",
+                    "platform": 1,
+                    "name": "Oneplus ",
+                    "emoji": []
+                },
+                "bmp": "18d0892000008020",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1283565688,
+                "effect": 32,
+                "replyNum": 3,
+                "content": "你是水货的嘛！ ",
+                "capacity": 12044,
+                "poster": {
+                    "id": "1482421777",
+                    "platform": 1,
+                    "name": "还记得那个MJ吗 ",
+                    "emoji": []
+                },
+                "bmp": "18c195800202c101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "恩恩恩~.. ",
+                        "postTime": 1283565728,
+                        "id": 1283565728,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "1482421777",
+                            "name": "还记得那个MJ吗 ",
+                            "platform": 1
+                        },
+                        "content": "随时都在线？ ",
+                        "postTime": 1283565750,
+                        "id": 1283565750,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "人家中午还是要睡觉的.. .# ",
+                        "postTime": 1283565788,
+                        "id": 1283565788,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

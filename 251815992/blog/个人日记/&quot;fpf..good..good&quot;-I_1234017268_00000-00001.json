@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1234018519,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "....生物很多人都厉害的啊..吴超尘就比我高几分,,但是一个是省三,,另一个就是市一了...差别太远 ",
+                "capacity": 12084,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1235216846,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "去死吧，我完全愤怒了！谁谈恋爱？？？\n我和我弟弟关系好你不给啊！！！\n弟弟！！！弟弟！！！！！懂么？\n我喜欢我弟弟不给么？？？\n喜欢不等于谈恋爱吧？？？\n有种你谈恋爱我看你能不能考到年纪第一！！！！！\n我火了...... ",
+                "capacity": 11958,
+                "poster": {
+                    "id": "294886481",
+                    "platform": 1,
+                    "name": "Yuqing ",
+                    "emoji": []
+                },
+                "bmp": "18d5148000000409",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

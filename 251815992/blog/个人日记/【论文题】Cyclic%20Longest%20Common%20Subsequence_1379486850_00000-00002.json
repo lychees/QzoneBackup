@@ -1,0 +1,74 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1379488812,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "觉厉 ",
+                "capacity": 12164,
+                "poster": {
+                    "id": "10848584",
+                    "platform": 1,
+                    "name": "主席 ",
+                    "emoji": []
+                },
+                "bmp": "0880dd8000000221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1379489597,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "雖然看不懂''但是好厲害！ ",
+                "capacity": 12140,
+                "poster": {
+                    "id": "308388541",
+                    "platform": 1,
+                    "name": "◇﹏oかがみ. ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00100c009",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1379605074,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "最后那个题 = =|| 我们训练过，当时交了200多次随机枚举断点，然后就过了。。 ",
+                "capacity": 12026,
+                "poster": {
+                    "id": "182035045",
+                    "platform": 1,
+                    "name": "罗翔宇 ",
+                    "emoji": []
+                },
+                "bmp": "18d415a00000c121",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:182035045,nick:罗翔宇,auto:1} = = ",
+                        "postTime": 1379605107,
+                        "id": 1379605107,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

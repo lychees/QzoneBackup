@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1437753129,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "水题啊 ",
+                "capacity": 12163,
+                "poster": {
+                    "id": "1691626124",
+                    "platform": 1,
+                    "name": "[SHU]kuangbin ",
+                    "emoji": []
+                },
+                "bmp": "0890958002008101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

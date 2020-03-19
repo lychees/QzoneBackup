@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1397454086,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "迭代打法好， 暴力出奇迹 ",
+                "capacity": 12151,
+                "poster": {
+                    "id": "223359382",
+                    "platform": 1,
+                    "name": "[拜戴神教]水 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a400008409",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

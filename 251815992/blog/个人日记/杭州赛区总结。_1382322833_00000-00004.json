@@ -1,0 +1,96 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 5,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1382323682,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "穿越了？ ",
+                "capacity": 12154,
+                "poster": {
+                    "id": "403528201",
+                    "platform": 1,
+                    "name": "[scut]aa ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00042c109",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1382324181,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "经典结尾\"。。。很遗憾吧\" ",
+                "capacity": 12136,
+                "poster": {
+                    "id": "137466930",
+                    "platform": 1,
+                    "name": "陈爱道 ",
+                    "emoji": []
+                },
+                "bmp": "18c415a00000c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1382326427,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "喂喂。。。 ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "122155302",
+                    "platform": 1,
+                    "name": "木子日匀 ",
+                    "emoji": []
+                },
+                "bmp": "38d40da00102c209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1382337431,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "吓尿了。。 ",
+                "capacity": 12146,
+                "poster": {
+                    "id": "368586905",
+                    "platform": 1,
+                    "name": "[HIT] For_the_Love ",
+                    "emoji": []
+                },
+                "bmp": "18d09d800000c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1382399295,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "这是选择了不出女装的世界线吧233 ",
+                "capacity": 12138,
+                "poster": {
+                    "id": "328092571",
+                    "platform": 1,
+                    "name": "[BUPT]LXYXYNT ",
+                    "emoji": []
+                },
+                "bmp": "18c0d5a00080c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

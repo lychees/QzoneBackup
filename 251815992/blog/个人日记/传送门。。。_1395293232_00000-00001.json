@@ -1,0 +1,68 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1395294469,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "bzoj似乎有 ",
+                "capacity": 11994,
+                "poster": {
+                    "id": "365273817",
+                    "platform": 1,
+                    "name": "Picks ",
+                    "emoji": []
+                },
+                "bmp": "18c095800002c001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:365273817,nick:Picks,auto:1} 求题号0 0。。 ",
+                        "postTime": 1395294501,
+                        "id": 1395294501,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "365273817",
+                            "name": "Picks ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1}清澄 1231 ",
+                        "postTime": 1395294534,
+                        "id": 1395294534,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1395297260,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "2693 ",
+                "capacity": 12162,
+                "poster": {
+                    "id": "2830264590",
+                    "platform": 1,
+                    "name": "Farewell. ",
+                    "emoji": []
+                },
+                "bmp": "080094800200c401",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1395358230,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "在怒切数论啊 ",
+                "capacity": 12154,
+                "poster": {
+                    "id": "342333349",
+                    "platform": 1,
+                    "name": "Immortal.S ",
+                    "emoji": []
+                },
+                "bmp": "18d09d800002e101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

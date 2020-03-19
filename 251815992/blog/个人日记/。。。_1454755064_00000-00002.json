@@ -1,0 +1,74 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1454756400,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "第二封信讲啥 ",
+                "capacity": 12150,
+                "poster": {
+                    "id": "945637290",
+                    "platform": 1,
+                    "name": "糖果 ",
+                    "emoji": []
+                },
+                "bmp": "088495800000d001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1454757456,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "delton主要还是吃基础的亏。。。 ",
+                "capacity": 12138,
+                "poster": {
+                    "id": "25241274",
+                    "platform": 1,
+                    "name": "七星瓢虫 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00000e101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1454757570,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "人生成长的道路有很多，你可以从其他方面成为更优秀的人。从你的经历，给我的启示是：以后绝对不能向队员灌输比赛是大学生活的唯一追求的错误观念。 ",
+                "capacity": 11932,
+                "poster": {
+                    "id": "89071086",
+                    "platform": 1,
+                    "name": "Descartes ",
+                    "emoji": []
+                },
+                "bmp": "08809da000004001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "418791131",
+                            "name": "赵强 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:89071086,nick:Descartes,who:1,auto:1} 点个赞呀 ",
+                        "postTime": 1454760202,
+                        "id": 1454760202,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

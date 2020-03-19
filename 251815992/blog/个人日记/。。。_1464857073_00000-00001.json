@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1464857629,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "[em]e103[/em] ",
+                "capacity": 12155,
+                "poster": {
+                    "id": "562610498",
+                    "platform": 1,
+                    "name": "御坂拓海 ",
+                    "emoji": []
+                },
+                "bmp": "98d495a00908e001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1464944872,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "我也想去全聚德[em]e154[/em] ",
+                "capacity": 12146,
+                "poster": {
+                    "id": "854198141",
+                    "platform": 1,
+                    "name": "xzq ",
+                    "emoji": []
+                },
+                "bmp": "08c19c8000000401",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

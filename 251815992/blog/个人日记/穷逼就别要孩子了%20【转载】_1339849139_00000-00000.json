@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1372656083,
+                "effect": 1048576,
+                "replyNum": 0,
+                "content": "废怯少女小岛子 好文 发现了一个非常不错的斗地主地方，真人，真钱，这段时间赢了不少，有空一起来完吧 http://808.g9v.net ",
+                "capacity": 12052,
+                "poster": {
+                    "id": "554695236",
+                    "platform": 1,
+                    "name": "梦随风逝 ",
+                    "emoji": []
+                },
+                "bmp": "089015a40000e001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

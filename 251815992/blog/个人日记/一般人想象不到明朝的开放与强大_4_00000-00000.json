@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1187374400,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "[em]e15[/em] ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "360859795",
+                    "platform": 1,
+                    "name": "朱兴阳 ",
+                    "emoji": []
+                },
+                "bmp": "185095a00142a181",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

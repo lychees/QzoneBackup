@@ -1,0 +1,96 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 5,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1273833386,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]拜……[/ft] ",
+                "capacity": 12151,
+                "poster": {
+                    "id": "244570349",
+                    "platform": 1,
+                    "name": "qiling ",
+                    "emoji": []
+                },
+                "bmp": "08c09c2000008001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1273920142,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "徒手可以开n次方的，这样的算法的确是存在的……\n ",
+                "capacity": 12119,
+                "poster": {
+                    "id": "354884569",
+                    "platform": 1,
+                    "name": "E=mc^2.mk ",
+                    "emoji": []
+                },
+                "bmp": "18c095a40100c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1273988777,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "膜拜... ",
+                "capacity": 12166,
+                "poster": {
+                    "id": "583029995",
+                    "platform": 1,
+                    "name": "UCSB门将死忠！ ",
+                    "emoji": []
+                },
+                "bmp": "18d00da40102d109",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1273995748,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]orz。。。 忘了来看了。。。搞得我自己研究。。。[/ft]\n[ft=,2,]可以推广四位一组。。。[/ft]\n[ft=,2,]顺便徒口五六位数的平方。。。\n[/ft] ",
+                "capacity": 12032,
+                "poster": {
+                    "id": "1393904777",
+                    "platform": 1,
+                    "name": "猫猫 ",
+                    "emoji": []
+                },
+                "bmp": "08809c2002008001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1274110252,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "额，淡定淡定。我落伍了 ",
+                "capacity": 12144,
+                "poster": {
+                    "id": "476058914",
+                    "platform": 1,
+                    "name": " ",
+                    "emoji": []
+                },
+                "bmp": "18f4052001029020",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

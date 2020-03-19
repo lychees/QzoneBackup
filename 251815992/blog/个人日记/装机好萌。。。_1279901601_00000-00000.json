@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1279944395,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[em]e126[/em] ",
+                "capacity": 12154,
+                "poster": {
+                    "id": "563487080",
+                    "platform": 1,
+                    "name": "Sandy tea ",
+                    "emoji": []
+                },
+                "bmp": "185494a000006309",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

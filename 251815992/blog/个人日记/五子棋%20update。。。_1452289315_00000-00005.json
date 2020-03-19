@@ -1,0 +1,159 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 6,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1452291458,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "什么鬼 ",
+                "capacity": 12164,
+                "poster": {
+                    "id": "784593493",
+                    "platform": 1,
+                    "name": "Zephyr ",
+                    "emoji": []
+                },
+                "bmp": "18c09d800002c421",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1452299165,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "。。。厉害。。。 ",
+                "capacity": 12153,
+                "poster": {
+                    "id": "3037754077",
+                    "platform": 1,
+                    "name": "Dashgua ",
+                    "emoji": []
+                },
+                "bmp": "880094800202c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1452299475,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "用什么语言写的 ",
+                "capacity": 12151,
+                "poster": {
+                    "id": "929365073",
+                    "platform": 1,
+                    "name": "TALK IS CHEAP ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00002c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1452301263,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "厉害 ",
+                "capacity": 11980,
+                "poster": {
+                    "id": "122155302",
+                    "platform": 1,
+                    "name": "木子日匀 ",
+                    "emoji": []
+                },
+                "bmp": "38d40da00102c209",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "512574487",
+                            "name": "歪朵 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:122155302,nick:木子日匀,who:1,auto:1}有禁手似乎依然必胜 ",
+                        "postTime": 1452410014,
+                        "id": 1452410014,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "512574487",
+                            "name": "歪朵 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:122155302,nick:木子日匀,who:1,auto:1}发错人了 ",
+                        "postTime": 1452410060,
+                        "id": 1452410060,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "postTime": 1452303411,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "五子棋在无禁手的情况下先手必胜... ",
+                "capacity": 11934,
+                "poster": {
+                    "id": "514487282",
+                    "platform": 1,
+                    "name": "[xmut16]__M子__ ",
+                    "emoji": []
+                },
+                "bmp": "08d115a00000c401",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "512574487",
+                            "name": "歪朵 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:514487282,nick:[xmut16]__M子__,who:1,auto:1}有禁手似乎依然必胜 ",
+                        "postTime": 1452410049,
+                        "id": 1452410049,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "514487282",
+                            "name": "[xmut16]__M子__ ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:512574487,nick:歪朵,who:1,auto:1}再加上三手交换的规则就比较平衡了 ",
+                        "postTime": 1452486581,
+                        "id": 1452486581,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "postTime": 1452398684,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "用screen后台啊>.> ",
+                "capacity": 12149,
+                "poster": {
+                    "id": "874065859",
+                    "platform": 1,
+                    "name": "[BJTU]Ceva ",
+                    "emoji": []
+                },
+                "bmp": "184095a80100c201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

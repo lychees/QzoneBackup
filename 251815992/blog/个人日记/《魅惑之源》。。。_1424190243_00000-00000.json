@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1424195784,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "欲擒故纵 ",
+                "capacity": 12166,
+                "poster": {
+                    "id": "568778055",
+                    "platform": 1,
+                    "name": "123456 ",
+                    "emoji": []
+                },
+                "bmp": "18d09da00100c221",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

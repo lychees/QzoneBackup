@@ -1,0 +1,90 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1287005511,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "呀哈哈真人好萌。。。\n。。。。 ",
+                "capacity": 12143,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1287058482,
+                "effect": 32,
+                "replyNum": 4,
+                "content": "= = 你脸上好多好多痘痘啊。。。 ",
+                "capacity": 11923,
+                "poster": {
+                    "id": "443164766",
+                    "platform": 1,
+                    "name": "\"zrp\" ",
+                    "emoji": []
+                },
+                "bmp": "088094a10000c301",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊    ",
+                        "postTime": 1287061892,
+                        "id": 1287061892,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "443164766",
+                            "name": "\"zrp\" ",
+                            "platform": 1
+                        },
+                        "content": "我错了。。。 ",
+                        "postTime": 1287061924,
+                        "id": 1287061924,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "啊啊啊啊啊啊啊可是是事实可是是事实可是事实可是是事实。。。。 ",
+                        "postTime": 1287061968,
+                        "id": 1287061968,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "443164766",
+                            "name": "\"zrp\" ",
+                            "platform": 1
+                        },
+                        "content": "是啊。。。。。。。 ",
+                        "postTime": 1287061986,
+                        "id": 1287061986,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

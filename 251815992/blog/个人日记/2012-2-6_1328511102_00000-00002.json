@@ -1,0 +1,61 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1328522095,
+                "effect": 524288,
+                "replyNum": 0,
+                "content": "碉堡了唉 ",
+                "capacity": 12145,
+                "poster": {
+                    "id": "c265e4bd629300c5e0b59762f61a3dfaadc4158b389bc83e",
+                    "platform": 2,
+                    "name": "金天"
+                },
+                "bmp": "0000000000000000",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1328592838,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "一切总将过去 ",
+                "capacity": 12157,
+                "poster": {
+                    "id": "1559580331",
+                    "platform": 1,
+                    "name": "吴超尘 ",
+                    "emoji": []
+                },
+                "bmp": "08001d800002c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1328616109,
+                "effect": 0,
+                "replyNum": 0,
+                "content": " 不会吧，居然会被拆。 ",
+                "capacity": 12145,
+                "poster": {
+                    "id": "234127420",
+                    "platform": 1,
+                    "name": "挑战者号 ",
+                    "emoji": []
+                },
+                "bmp": "985195ac0902e101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

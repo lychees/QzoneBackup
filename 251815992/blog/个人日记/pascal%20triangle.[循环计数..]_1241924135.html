@@ -1,0 +1,888 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    pascal triangle.[循环计数..]
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             pascal triangle.[循环计数..]
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2009-05-09 22:55:35
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(95)	è¯è®º(2)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1241924135,
+"voteids":0,
+"pubtime":1241924135,
+"replynum":2,
+"category":"个人日记",
+"title":"pascal triangle.[循环计数..]",
+"effect":134218240,
+"effect2":6,
+"exblogtype":0,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":0,
+"lp_style":0,
+"lp_flag":0,
+"orguin":251815992,
+"orgblogid":1241924135,
+"mention_uins":[ ],
+"attach":[],"comments":[{"id":1,
+"postTime":1242106455,
+"effect":0,
+"replyNum":0,
+"content":"[ft=,2,][B]- -好像有个地方不太对劲..[\/B][\/ft]\n[B][ft=,2,]回头我yao修改一下xia ...[\/ft][\/B] ",
+"capacity":12082,
+"poster":{
+"id":"251815992",
+"platform":1,
+"name":"小岛美奈子 ",
+"emoji":[ ]}
+,
+"bmp":"18d18da40002c001",
+"ismyreply":1,
+"replies":[]},
+{"id":2,
+"postTime":1242463042,
+"effect":32,
+"replyNum":1,
+"content":"[ft=,2,]我看着看着..发觉自己的脑袋不对劲了..[\/ft] ",
+"capacity":12092,
+"poster":{
+"id":"315593370",
+"platform":1,
+"name":"大魔导师会让你挂科 ",
+"emoji":[ ]}
+,
+"bmp":"18c09da04000c001",
+"ismyreply":0,
+"replies":[{"poster":{
+"id":"251815992",
+"name":"小岛美奈子 ",
+"platform":1}
+,
+"content":"- -~ ",
+"postTime":1244093938,
+"id":1244093938,
+"effect":0}]}]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <p>
+               <b fromubb="1">
+                ...
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                for a:=1 to n do
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                for b:=a to n do
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                for c:=b to n do
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                inc(tot);
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                writeln(tot);
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                ...
+               </b>
+               ­
+              </p>
+              <p>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                我想过这样一些问题....给你一些循环语句.....
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                然后统计它们一共执行了多少次...
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                其中有一部分问题还是很简单的...例如
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                for a:=1 to n do
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                for b:=1 to m do
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                如果我们用缩进表示嵌套的话...这个应该是 n+m....
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                for a:=1 to n do
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                for b:=1 to m do
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                而这个就是n*m了...你看这两个例子是不是能说明组合数学里两个基本原理..
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                加法原理还乘法原理...或者其实也只不过是四则运算呢- -
+               </b>
+               ­
+              </p>
+              <p>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                再考察其中稍微显得复杂一些的...比如
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                for a1:=1 to n do
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                for a2:=a1+1 to n do
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                for a3:=a2+1 to n do
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                ..
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                for am:=am-1+1 to n do
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                ...
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                这个问题看起来比前两个问题都要复杂..尤其是之后的每一重循环...
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                起始位置都在不断的发生变化...似乎没有什么好的方法可以描述它们～～
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                不过....假如你有一点点组合数的知识...你却能立即给出上面这个问题的结果..
+               </b>
+               ­
+              </p>
+              <p>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                现在我想重新叙述一下开头的哪一个问题...我觉得好像变量用a,b,c不太合适...
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                不如也换成a1.a2..am...这样...还可以描述出这个问题里的另一个参数m...
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                当然...Cxt同学希望这样重新叙述这个问题...
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                求满足下列条件的
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                1&lt;=a1&lt;=a2&lt;=a3&lt;=...&lt;=am&lt;=n
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                序列的总数...
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                他说貌似这样数学气息更浓郁一些...#
+               </b>
+               ­
+              </p>
+              <p>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                看起来现在的这个问题和我们第三个问题很相似...但是却又不太相同...
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                如果n=3..m=3...列出最后的结果...应该是..
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                1 1 1
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                1 1 2
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                1 1 3
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                1 2 1..(这个没有...)
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                1 2 2
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                1 2 3
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                1 3 3
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                -----
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                2 2 2
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                2 2 3
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                2 3 3
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                ...
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                一共9个...恩？还少一个3..3.3..一共10个..
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                ..这样统计会累死掉的...不过..我们似乎有意无意的把上面的结果分成了两块...
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                (注意那条分割线...)不知道可不可以这样呢...
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                如果第一个数字是1的话...那么似乎会回到一个m更小的情况...恩恩..如果这样的话...
+               </b>
+               ­
+              </p>
+              <p>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                我们引入一些符号...
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                既然欧拉推荐我们用(n m)表示组合数(这个页面太讨厌了...只好横着写了...)
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                我们不妨用[n m]表示现在的这个问题...看看能不能得到...
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                [n m]=[n m-1] + [n-1 m-1]
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                恩？左边是第一个数字是1...我们回到[n m-1]...如果不是数字1的话就回到[n-1 m-1]..
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                哎..不过第二个数字如果是3怎么办..?之前的[n m-1]也会包含这种情况..
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                我们不妨类比下那个著名的pascal公式..
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                (n m)=(n-1 m-1)+(n-1 m)...
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                可以这样得到它...我们考察最后一个数...如果取的话那么就回到(n-1 m-1)如果不取的话
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                就回到(n-1 m)...反正都要回到n-1层.....（当然如果你考察第一个数字应该也行吧）
+               </b>
+               ­
+              </p>
+              <p>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                好像有点不一样...应该还有不一样的地方...边界条件不一样..
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                我们的边界条件是啥呢....我将把他们列成一张表格...
+               </b>
+               ­
+              </p>
+              <p>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1...
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                2
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                3
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                4
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                ...
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                简陋了一点大家讲究一下吧...纵行是n在增加...横行是m在增加..
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                这个好像还和杨辉三角里最外面的两层1不太一样哦...
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                我们用[n m]=[n m-1] + [n-1 m-1] 把这个表格填满...
+               </b>
+               ­
+              </p>
+              <p>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                反正填满以后你就会看到...好多数字都那么眼熟...就像是杨辉三角里出现过一样..
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                ...如果在进一步..你把最左边多填一层11..1.1.1...再把这个数阵逆时针旋转45度..
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                就会发现其实这个东西也是杨辉三角...
+               </b>
+               ­
+              </p>
+              <p>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                现在应该怎么解释呢...
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                如果寻找某种对应关系...你可以发现...[n m]=(n+m-1 m)..
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                ...如果回过头来...你会发现这个式子的意义...
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                我们可以想想，每选一个数字..都会在它的身后出现一个影子（并且它的身后也会出现一个相同的影子...）...在这前的问题里你看不见.....现在你可以选在它...
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                让试图这个数列滞留一阵..
+               </b>
+               ­
+              </p>
+              <p>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                还有什么启发么...恩...那就是(n+m-1 m)满足一个不同的递推关系...
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                还有么？...恩...还有两个.... 只是我没写出来啦～
+               </b>
+               ­
+              </p>
+              <p>
+               <b fromubb="1">
+                这个问题太有趣了...#- -
+               </b>
+               ­
+              </p>
+              <p>
+               ­
+              </p>
+              <p>
+               ­
+              </p>
+              <p>
+               ­
+              </p>
+              <p>
+               ­
+              </p>
+              <p>
+               ­
+              </p>
+              <p>
+               ­
+              </p>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1338349663,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[url=http://url.cn/1TscQC?26032][img]http://a4.qpic.cn/psb?/V11kOwbf0AKjJ2/W.1JF.bPajAhu5n2AXV243uoXiMexrT0CLyHplYBa.E!/b/YUi874SSHAAAYjmu74QiHAAA&ek=1&kp=1&pt=0&tl=1&su=018091697&tm=1574672400&sce=0-12-12&rf=2-9[/img][/url] ",
+                "capacity": 11995,
+                "poster": {
+                    "id": "1678085892",
+                    "platform": 1,
+                    "name": "吉祥三宝 ",
+                    "emoji": []
+                },
+                "bmp": "08009c0002000001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

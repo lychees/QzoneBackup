@@ -1,0 +1,57 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1490028995,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "《tfh的挑战状》 ",
+                "capacity": 12153,
+                "poster": {
+                    "id": "446079414",
+                    "platform": 1,
+                    "name": "旺仔嚎婆婆 ",
+                    "emoji": []
+                },
+                "bmp": "38449da00000c201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1490030899,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "你解出了几道？ ",
+                "capacity": 12073,
+                "poster": {
+                    "id": "1559580331",
+                    "platform": 1,
+                    "name": "吴超尘 ",
+                    "emoji": []
+                },
+                "bmp": "08001d800002c101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:1559580331,nick:吴超尘,auto:1} 0. ",
+                        "postTime": 1490032118,
+                        "id": 1490032118,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,113 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 6,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1439540638,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "offer收割者 ",
+                "capacity": 12157,
+                "poster": {
+                    "id": "190730860",
+                    "platform": 1,
+                    "name": "策划-sorma ",
+                    "emoji": []
+                },
+                "bmp": "08c095880002d401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1439541556,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "我已经拿到了[em]e104[/em] ",
+                "capacity": 12139,
+                "poster": {
+                    "id": "523591643",
+                    "platform": 1,
+                    "name": "HCO-罗勇林 ",
+                    "emoji": []
+                },
+                "bmp": "98d015a41502c481",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1439542731,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "口怕 ",
+                "capacity": 12164,
+                "poster": {
+                    "id": "397427019",
+                    "platform": 1,
+                    "name": " ",
+                    "emoji": []
+                },
+                "bmp": "18809da40102c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1439547013,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "阿里貌似还可以救？你投的哪个部门啊 ",
+                "capacity": 12136,
+                "poster": {
+                    "id": "371686865",
+                    "platform": 1,
+                    "name": "芳姐 ",
+                    "emoji": []
+                },
+                "bmp": "18c09da00002d001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1439547685,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "你终于能MAN一点了 ",
+                "capacity": 12154,
+                "poster": {
+                    "id": "568778055",
+                    "platform": 1,
+                    "name": "123456 ",
+                    "emoji": []
+                },
+                "bmp": "18d09da00100c221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 6,
+                "postTime": 1439549995,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "offer收割机 ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "1691626124",
+                    "platform": 1,
+                    "name": "[SHU]kuangbin ",
+                    "emoji": []
+                },
+                "bmp": "0890958002008101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

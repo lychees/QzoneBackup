@@ -1,0 +1,454 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    整数规划x最小权路径覆盖
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             整数规划x最小权路径覆盖
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2013-10-13 16:34:24
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(45)	è¯è®º(0)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1381696464,
+"voteids":0,
+"pubtime":1381696464,
+"replynum":0,
+"category":"个人日记",
+"title":"整数规划x最小权路径覆盖",
+"effect":8389120,
+"effect2":524294,
+"exblogtype":3,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":81177,
+"lp_style":16843520,
+"lp_flag":0,
+"lp_topvalue":0,
+"orguin":251815992,
+"orgblogid":1381696464,
+"mention_uins":[ ],
+"attach":[],"comments":[]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <div>
+                “
+                <span style="color:rgb(51, 51, 51);font-family:Arial, sans-serif;font-size:13px;text-align:justify">
+                 最小生成树和二分图最优匹配你可能都熟悉得不能再熟悉了，可是把它们巧妙的隐藏到题目中，再通过不等式组（整数规划问题）联系起来呢？
+                </span>
+                <strong style="padding:0px;margin:0px;color:rgb(51, 51, 51);font-family:Arial, sans-serif;font-size:13px;text-align:justify">
+                 ZOJ 2342 Roads
+                </strong>
+                <span style="color:rgb(51, 51, 51);font-family:Arial, sans-serif;font-size:13px;text-align:justify">
+                 强烈
+                </span>
+                <big style="padding:0px;margin:0px;color:rgb(51, 51, 51);font-family:Arial, sans-serif;text-align:justify">
+                 强烈
+                 <big style="padding:0px;margin:0px">
+                  强烈推荐
+                 </big>
+                </big>
+                <span style="color:rgb(51, 51, 51);font-family:Arial, sans-serif;font-size:13px;text-align:justify">
+                 。”
+                 <span>
+                  ——
+                 </span>
+                </span>
+                <a href="http://blog.watashi.ws/816/andrew-stankevich-2-solution/" target="_blank">
+                 http://blog.watashi.ws/816/andrew-stankevich-2-solution/
+                </a>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                ————————
+                <br/>
+                。。。。。本来是非常巧妙的题。。。但是因为太巧妙了。。结果成了烂大街的题（？）。。。。
+                <br/>
+                <br/>
+                <br/>
+                ————————————
+                <br/>
+                <div>
+                 <span style="font-size:10px">
+                  “某个国家有石头路和烂泥路，石头路恰好是生成树，维护路自然是花钱的，现在希望通过修改路的维护费用使得石头路是最小生成树（可以不是唯一的MST），目标是总的修改量最小，要求输出方案。“
+                  <span>
+                  </span>
+                 </span>
+                </div>
+                <div>
+                 <span style="font-size:10px">
+                  首先，最优的方案里，我们是不会增加石头路的费用的，也不可能去降低烂泥路的费用，所以可以认为对石头路有d=c-l，对烂泥路有d=c+l，l&gt;=0。生成树加上原图一条边，一定构成一个圈；而最小生成树加上原图一条边，不但构成圈，而且有新加上边的权值一定不比圈中其余边的权值小，否则我们就可以得到了一个更小的生成树。利用这个性质，对于每个圈，都可以构造一些列不等式，假设i是石头路，而j是烂泥路，就有di&lt;=dj，即ci-li&lt;=cj+lj，即li+lj&gt;=cj-ci。”
+                  <br/>
+                  ————————————
+                  <br/>
+                  <br/>
+                  <span style="font-size:14px">
+                   （上面最后一步反了。。应该是 li + lj &gt;= ci - cj 。。。。囧。。）
+                  </span>
+                  <br/>
+                 </span>
+                 <span style="font-size:10px">
+                 </span>
+                </div>
+                <span>
+                 <span>
+                  。。。关于 KM。 。。
+                  <br/>
+                  <br/>
+                  庶民の写法。。（
+                 </span>
+                </span>
+                <a href="http://acm.hust.edu.cn/vjudge/problem/viewSource.action?id=1638392" target="_blank">
+                 http://acm.hust.edu.cn/vjudge/problem/viewSource.action?id=1638392
+                </a>
+                <br/>
+                <span>
+                 TC 高端人士の写法。。（
+                </span>
+                <a href="http://acm.hust.edu.cn/vjudge/problem/viewSource.action?id=1638395" target="_blank">
+                 http://acm.hust.edu.cn/vjudge/problem/viewSource.action?id=1638395
+                </a>
+                <span>
+                 <br/>
+                </span>
+                <a href="http://community.topcoder.com/tc?module=Static&amp;d1=tutorials&amp;d2=hungarianAlgorithm" target="_blank">
+                 http://community.topcoder.com/tc?module=Static&amp;d1=tutorials&amp;d2=hungarianAlgorithm
+                </a>
+                <span>
+                 <span>
+                  <br/>
+                  <span>
+                   <br/>
+                   。。。。。接下来。。暴力找环就行撸。
+                  </span>
+                 </span>
+                </span>
+                <span style="font-size:12px">
+                 。。。
+                </span>
+                <span>
+                 <span>
+                  <span>
+                   <br/>
+                  </span>
+                 </span>
+                </span>
+                <a href="http://acm.hust.edu.cn/vjudge/problem/viewSource.action?id=1638411" target="_blank">
+                 http://acm.hust.edu.cn/vjudge/problem/viewSource.action?id=1638411
+                </a>
+                <span>
+                 <span>
+                  <span>
+                   <br/>
+                  </span>
+                 </span>
+                 <br/>
+                 <span>
+                  <br/>
+                  <br/>
+                  ——————————————————————————————
+                  <br/>
+                  上面写法 1 是有 bug 的。。。。
+                  <br/>
+                  KM-1
+                  <br/>
+                 </span>
+                </span>
+                <a href="http://codeforces.com/gym/100273/submission/5035865" target="_blank">
+                 http://codeforces.com/gym/100273/submission/5035865
+                </a>
+                <br/>
+                KM-2
+                <br/>
+                <a href="http://codeforces.com/gym/100273/submission/5035781" target="_blank">
+                 http://codeforces.com/gym/100273/submission/5035781
+                </a>
+                <br/>
+                <span>
+                 <span>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                 </span>
+                </span>
+                <br/>
+                <br/>
+               </div>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

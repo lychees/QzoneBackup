@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1432626389,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "绘画很出彩 ",
+                "capacity": 12156,
+                "poster": {
+                    "id": "2584468854",
+                    "platform": 1,
+                    "name": "SweetLover ",
+                    "emoji": []
+                },
+                "bmp": "1850958002028101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1432628033,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "the！ ",
+                "capacity": 12165,
+                "poster": {
+                    "id": "371686865",
+                    "platform": 1,
+                    "name": "芳姐 ",
+                    "emoji": []
+                },
+                "bmp": "18c09da00002d001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1432641697,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "我拿了你公司的马 ",
+                "capacity": 12156,
+                "poster": {
+                    "id": "1049363290",
+                    "platform": 1,
+                    "name": "丫丫 ",
+                    "emoji": []
+                },
+                "bmp": "18549d800002e001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

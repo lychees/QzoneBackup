@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1260805424,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]sf[/ft] ",
+                "capacity": 12152,
+                "poster": {
+                    "id": "534872060",
+                    "platform": 1,
+                    "name": "Cherubic ",
+                    "emoji": []
+                },
+                "bmp": "18c095a00100c421",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1260965585,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]mac好漂亮啊[/ft] ",
+                "capacity": 12140,
+                "poster": {
+                    "id": "315593370",
+                    "platform": 1,
+                    "name": "大魔导师会让你挂科 ",
+                    "emoji": []
+                },
+                "bmp": "18c09da04000c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

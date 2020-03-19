@@ -1,0 +1,57 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1418872046,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "我想知道我被归到哪一类。 ",
+                "capacity": 12064,
+                "poster": {
+                    "id": "568778055",
+                    "platform": 1,
+                    "name": "123456 ",
+                    "emoji": []
+                },
+                "bmp": "18d09da00100c221",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:568778055,nick:123456,who:1,auto:1} special order ",
+                        "postTime": 1418872337,
+                        "id": 1418872337,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1418874522,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "ヽ(；▽；)ノ我是被小岛sama加的耶。。。 ",
+                "capacity": 12133,
+                "poster": {
+                    "id": "569620205",
+                    "platform": 1,
+                    "name": " [ ccnu ] Tmono ",
+                    "emoji": []
+                },
+                "bmp": "58d08da8000ec209",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

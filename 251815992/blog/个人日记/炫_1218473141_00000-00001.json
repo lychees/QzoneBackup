@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1218507662,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "大家都会在意的啊\n没有你想的那么悲观\n \n还有..\\\n你说3天后开学是啥意思- - ",
+                "capacity": 12103,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1218517116,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "[ffg,#0099ff,#ffffff]支持飞虎哥哥！！^^[/ft]\n[ft=#0099ff,,]真的支持= =[/ft]\n[ft=#0099ff,,]不骗你[/ft] ",
+                "capacity": 12067,
+                "poster": {
+                    "id": "574712047",
+                    "platform": 1,
+                    "name": "陈志浩 ",
+                    "emoji": []
+                },
+                "bmp": "189095e4010ee101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

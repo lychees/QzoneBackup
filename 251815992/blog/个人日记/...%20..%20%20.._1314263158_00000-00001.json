@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1314282131,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "99 ",
+                "capacity": 12166,
+                "poster": {
+                    "id": "578559967",
+                    "platform": 1,
+                    "name": " 忍的阵雨 ",
+                    "emoji": []
+                },
+                "bmp": "18c49da40100c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1314333740,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "= =？U盘掉了神码的？ ",
+                "capacity": 12150,
+                "poster": {
+                    "id": "568836124",
+                    "platform": 1,
+                    "name": "皮皮鲁 ",
+                    "emoji": []
+                },
+                "bmp": "18c595a800026001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

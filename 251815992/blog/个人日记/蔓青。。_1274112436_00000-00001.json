@@ -1,0 +1,80 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1274112571,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "你很有意思嘛！呵呵！ ",
+                "capacity": 11960,
+                "poster": {
+                    "id": "1227061027",
+                    "platform": 1,
+                    "name": "UndefinedZZK ",
+                    "emoji": []
+                },
+                "bmp": "185195a00100c401",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "你你你你什么意思呀。。。拜托能不能发点有价值的回复。。。# ",
+                        "postTime": 1274112921,
+                        "id": 1274112921,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "1227061027",
+                            "name": "UndefinedZZK ",
+                            "platform": 1
+                        },
+                        "content": "额……对于我这种不懂任何PASCAL之外的小菜来说，我还是膜拜你吧~顺便鼓励一下你，表明我很期待！ ",
+                        "postTime": 1274145816,
+                        "id": 1274145816,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1274136960,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "你的确很有意思啊 ",
+                "capacity": 12091,
+                "poster": {
+                    "id": "102897108",
+                    "platform": 1,
+                    "name": " Alex ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00100e009",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "你们。。不要在人家空间里版聊啊。。。！。。 ",
+                        "postTime": 1274175578,
+                        "id": 1274175578,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

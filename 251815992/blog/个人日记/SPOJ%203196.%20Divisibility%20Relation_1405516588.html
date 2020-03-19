@@ -1,0 +1,739 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    SPOJ 3196. Divisibility Relation
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             SPOJ 3196. Divisibility Relation
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2014-07-16 09:16:28
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(75)	è¯è®º(0)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1405516588,
+"voteids":0,
+"pubtime":1405516588,
+"replynum":0,
+"category":"个人日记",
+"title":"SPOJ 3196. Divisibility Relation",
+"effect":8389121,
+"effect2":524294,
+"exblogtype":3,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":81177,
+"lp_style":16843520,
+"lp_flag":0,
+"lp_topvalue":0,
+"orguin":251815992,
+"orgblogid":1405516588,
+"mention_uins":[ ],
+"attach":[],"comments":[]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <div>
+                <div>
+                 这个题实在是太经典。。。
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 。。1. 一般图独立集。。。显然不可做。。
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 。。2.
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 整除关系是偏序集。。
+                </div>
+                <div>
+                 根据 Dilworth's Theorem 。。最大反链 （最多不可相互比较的元素个数） = 最小链划分。。。
+                </div>
+                <div>
+                 而最小链划分等价于 Dag 最小路径覆盖。。。
+                </div>
+                <div>
+                 而 Dag 最小路径覆盖可以拆点后转化成二分图匹配来做。。（一条匹配边，对应一个非结尾结点）。
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 。。3. 进一步思考我们发现上一步中。。
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 Dilworth's Theorem 。。（最大反链 = 最小链划分。。。）
+                </div>
+                <div>
+                 和
+                </div>
+                <div>
+                 König's Theorem （最大匹配 = 最小覆盖）
+                </div>
+                <div>
+                 其实是一个东西。。。
+                 <br/>
+                 <span>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <a href="http://en.wikipedia.org/wiki/Dilworth%27s_theorem" target="_blank">
+                   http://en.wikipedia.org/wiki/Dilworth%27s_theorem
+                  </a>
+                  <br/>
+                  <br/>
+                  <br/>
+                 </span>
+                 <h2 style="background-image:none;font-weight:normal;margin:1em 0px 0.25em;overflow:hidden;padding:0px;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:rgb(170, 170, 170);font-family:'Linux Libertine', Georgia, Times, serif">
+                  <span>
+                   Proof via König's theorem
+                  </span>
+                  <span style="-webkit-user-select:none;font-size:small;margin-left:1em;vertical-align:baseline;display:inline-block;white-space:nowrap;unicode-bidi:-webkit-isolate;font-family:sans-serif">
+                   <span style="margin-right:0px;color:rgb(85, 85, 85);margin-left:0px">
+                    [
+                   </span>
+                   <a href="http://en.wikipedia.org/w/index.php?title=Dilworth%27s_theorem&amp;action=edit&amp;section=2" style="text-decoration:none;color:rgb(11, 0, 128);background-image:none;background-position:initial initial;background-repeat:initial initial" target="_blank" title="Edit section: Proof via König's theorem">
+                    edit
+                   </a>
+                   <span style="margin-left:0px;color:rgb(85, 85, 85);margin-right:0px">
+                    ]
+                   </span>
+                  </span>
+                 </h2>
+                 <div style="clear:right;float:right;margin:0.5em 0px 1.3em 1.4em;width:auto;color:rgb(37, 37, 37);font-family:sans-serif;font-size:14px">
+                  <div style="min-width:100px;border:1px solid rgb(204, 204, 204);font-size:13px;text-align:center;overflow:hidden;padding:3px !important;width:302px">
+                   <a href="http://en.wikipedia.org/wiki/File:Dilworth-via-K%C3%B6nig.svg" style="text-decoration:none;color:rgb(11, 0, 128);background-image:none;background-position:initial initial;background-repeat:initial initial" target="_blank">
+                    <img data-file-height="494" data-file-width="800" height="185" src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Dilworth-via-K%C3%B6nig.svg/300px-Dilworth-via-K%C3%B6nig.svg.png?pt=5&amp;ek=1&amp;kp=1&amp;sce=0-12-12" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Dilworth-via-K%C3%B6nig.svg/450px-Dilworth-via-K%C3%B6nig.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Dilworth-via-K%C3%B6nig.svg/600px-Dilworth-via-K%C3%B6nig.svg.png 2x" style="border:1px solid rgb(204, 204, 204);vertical-align:middle" width="300"/>
+                   </a>
+                   <div style="border:none;font-size:12px;padding:3px !important;text-align:left">
+                    <div style="margin-left:3px;border:none !important;background-image:none !important;float:right;background-position:initial initial !important;background-repeat:initial initial !important">
+                     <a href="http://en.wikipedia.org/wiki/File:Dilworth-via-K%C3%B6nig.svg" style="text-decoration:none;color:rgb(11, 0, 128);background-image:none !important;display:block;border:none !important;background-position:initial initial !important;background-repeat:initial initial !important" target="_blank" title="Enlarge">
+                      <img height="11" src="http://imgcache.qq.com/ac/qzone_v5/app/photo/sysbussy.jpg" style="border:none !important;vertical-align:middle;display:block;background-image:none !important;background-position:initial initial !important;background-repeat:initial initial !important" width="15"/>
+                     </a>
+                    </div>
+                    Proof of Dilworth's theorem via König's theorem: constructing a bipartite graph from a partial order, and partitioning into chains according to a matching
+                   </div>
+                  </div>
+                 </div>
+                 <p style="margin-top:0.5em;margin-bottom:0.5em;color:rgb(37, 37, 37);font-family:sans-serif;font-size:14px">
+                  Like a number of other results in combinatorics, Dilworth's theorem is equivalent to
+                  <a href="http://en.wikipedia.org/wiki/K%C3%B6nig%27s_theorem_(graph_theory)" style="text-decoration:none;color:rgb(11, 0, 128);background-image:none;background-position:initial initial;background-repeat:initial initial" target="_blank" title="König's theorem (graph theory)">
+                   König's theorem
+                  </a>
+                  on
+                  <a href="http://en.wikipedia.org/wiki/Bipartite_graph" style="text-decoration:none;color:rgb(11, 0, 128);background-image:none;background-position:initial initial;background-repeat:initial initial" target="_blank" title="Bipartite graph">
+                   bipartite graph
+                  </a>
+                  matching and several other related theorems including Hall's
+                  <a href="http://en.wikipedia.org/wiki/Marriage_theorem" style="text-decoration:none;color:rgb(11, 0, 128);background-image:none;background-position:initial initial;background-repeat:initial initial" target="_blank" title="Marriage theorem">
+                   Marriage theorem
+                  </a>
+                  (
+                  <a href="http://en.wikipedia.org/wiki/Dilworth%27s_theorem#CITEREFFulkerson1956" style="text-decoration:none;color:rgb(11, 0, 128);background-image:none;background-position:initial initial;background-repeat:initial initial" target="_blank">
+                   Fulkerson 1956
+                  </a>
+                  ).
+                 </p>
+                 <p style="margin-top:0.5em;margin-bottom:0.5em;color:rgb(37, 37, 37);font-family:sans-serif;font-size:14px">
+                  To prove Dilworth's theorem for a partial order
+                  <i>
+                   S
+                  </i>
+                  with
+                  <i>
+                   n
+                  </i>
+                  elements, using König's theorem, define a bipartite graph
+                  <i>
+                   G
+                  </i>
+                  = (
+                  <i>
+                   U
+                  </i>
+                  ,
+                  <i>
+                   V
+                  </i>
+                  ,
+                  <i>
+                   E
+                  </i>
+                  ) where
+                  <i>
+                   U
+                  </i>
+                  =
+                  <i>
+                   V
+                  </i>
+                  =
+                  <i>
+                   S
+                  </i>
+                  and where (
+                  <i>
+                   u
+                  </i>
+                  ,
+                  <i>
+                   v
+                  </i>
+                  ) is an edge in
+                  <i>
+                   G
+                  </i>
+                  when
+                  <i>
+                   u
+                  </i>
+                  &lt;
+                  <i>
+                   v
+                  </i>
+                  in
+                  <i>
+                   S
+                  </i>
+                  . By König's theorem, there exists a matching
+                  <i>
+                   M
+                  </i>
+                  in
+                  <i>
+                   G
+                  </i>
+                  , and a set of vertices
+                  <i>
+                   C
+                  </i>
+                  in
+                  <i>
+                   G
+                  </i>
+                  , such that each edge in the graph contains at least one vertex in
+                  <i>
+                   C
+                  </i>
+                  and such that
+                  <i>
+                   M
+                  </i>
+                  and
+                  <i>
+                   C
+                  </i>
+                  have the same cardinality
+                  <i>
+                   m
+                  </i>
+                  . Let
+                  <i>
+                   A
+                  </i>
+                  be the set of elements of
+                  <i>
+                   S
+                  </i>
+                  that do not correspond to any vertex in
+                  <i>
+                   C
+                  </i>
+                  ; then
+                  <i>
+                   A
+                  </i>
+                  has at least
+                  <i>
+                   n
+                  </i>
+                  -
+                  <i>
+                   m
+                  </i>
+                  elements (possibly more if
+                  <i>
+                   C
+                  </i>
+                  contains vertices corresponding to the same element on both sides of the bipartition). Let
+                  <i>
+                   P
+                  </i>
+                  be a family of chains formed by including
+                  <i>
+                   x
+                  </i>
+                  and
+                  <i>
+                   y
+                  </i>
+                  in the same chain whenever there is an edge (
+                  <i>
+                   x
+                  </i>
+                  ,
+                  <i>
+                   y
+                  </i>
+                  ) in
+                  <i>
+                   M
+                  </i>
+                  ; then
+                  <i>
+                   P
+                  </i>
+                  has
+                  <i>
+                   n
+                  </i>
+                  -
+                  <i>
+                   m
+                  </i>
+                  chains. Therefore, we have constructed an antichain and a partition into chains with the same cardinality.
+                 </p>
+                 <p style="margin-top:0.5em;margin-bottom:0.5em;color:rgb(37, 37, 37);font-family:sans-serif;font-size:14px">
+                  To prove König's theorem from Dilworth's theorem, for a bipartite graph
+                  <i>
+                   G
+                  </i>
+                  = (
+                  <i>
+                   U
+                  </i>
+                  ,
+                  <i>
+                   V
+                  </i>
+                  ,
+                  <i>
+                   E
+                  </i>
+                  ), form a partial order on the vertices of
+                  <i>
+                   G
+                  </i>
+                  in which
+                  <i>
+                   u
+                  </i>
+                  &lt;
+                  <i>
+                   v
+                  </i>
+                  exactly when
+                  <i>
+                   u
+                  </i>
+                  is in
+                  <i>
+                   U
+                  </i>
+                  ,
+                  <i>
+                   v
+                  </i>
+                  is in
+                  <i>
+                   V
+                  </i>
+                  , and there exists an edge in
+                  <i>
+                   E
+                  </i>
+                  from
+                  <i>
+                   u
+                  </i>
+                  to
+                  <i>
+                   v
+                  </i>
+                  . By Dilworth's theorem, there exists an antichain
+                  <i>
+                   A
+                  </i>
+                  and a partition into chains
+                  <i>
+                   P
+                  </i>
+                  both of which have the same size. But the only nontrivial chains in the partial order are pairs of elements corresponding to the edges in the graph, so the nontrivial chains in
+                  <i>
+                   P
+                  </i>
+                  form a matching in the graph. The complement of
+                  <i>
+                   A
+                  </i>
+                  forms a vertex cover in
+                  <i>
+                   G
+                  </i>
+                  with the same cardinality as this matching.
+                 </p>
+                 <p style="margin-top:0.5em;margin-bottom:0.5em;color:rgb(37, 37, 37);font-family:sans-serif;font-size:14px">
+                  This connection to bipartite matching allows the width of any partial order to be computed in
+                  <a href="http://en.wikipedia.org/wiki/Polynomial_time" style="text-decoration:none;color:rgb(11, 0, 128);background-image:none;background-position:initial initial;background-repeat:initial initial" target="_blank" title="Polynomial time">
+                   polynomial time
+                  </a>
+                  .
+                 </p>
+                 <span>
+                  <br/>
+                 </span>
+                 <span style="font-size:14px">
+                  上面互推的过程用的实际就是 Dag 最小路径覆盖。。。
+                  <br/>
+                  并且还说明了 antichain 对应的是二分图最大独立集。。。
+                  <span>
+                   <br/>
+                  </span>
+                 </span>
+                 <span style="font-size:14px">
+                  所以 Dual 来 Dual 去最后还是回到了最初的模型 ——
+                 </span>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <span style="font-size:14px">
+                  。。。最后由于这个图的特殊性。。。我们只需要取单侧覆盖集（的补）就可以了。
+                  <br/>
+                  <span>
+                  </span>
+                 </span>
+                 <br/>
+                 <a href="http://vjudge.net/problem/viewSource.action?id=2419498" target="_blank">
+                  http://vjudge.net/problem/viewSource.action?id=2419498
+                 </a>
+                 <br/>
+                 <div style="font-size:14px">
+                  <br/>
+                 </div>
+                 <span style="font-size:14px">
+                 </span>
+                 <span style="font-size:14px">
+                  <span>
+                   <br/>
+                  </span>
+                 </span>
+                </div>
+                <div>
+                 <br/>
+                 ______
+                 <br/>
+                 <span style="color:rgb(102, 102, 102);font-family:Helvetica, arial, freesans, clean, sans-serif;font-size:16px">
+                  GCJ 2009 R2 Problem C. Stock Charts
+                 </span>
+                 <br/>
+                 <span>
+                  <a href="https://code.google.com/codejam/contest/dashboard?c=204113#s=p2&amp;a=2" target="_blank">
+                   https://code.google.com/codejam/contest/dashboard?c=204113#s=p2&amp;a=2
+                  </a>
+                  <br/>
+                  <a href="https://gist.github.com/lychees/7e4bfe5f191a741a18ac" target="_blank">
+                   https://gist.github.com/lychees/7e4bfe5f191a741a18ac
+                  </a>
+                  <br/>
+                 </span>
+                </div>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+               </div>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

@@ -1,0 +1,119 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 5,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1340287641,
+                "effect": 5242912,
+                "replyNum": 2,
+                "content": "呜呜呜太弱了都收不到这邮件。。 ",
+                "capacity": 12035,
+                "poster": {
+                    "id": "443164766",
+                    "platform": 1,
+                    "name": "\"zrp\" ",
+                    "emoji": []
+                },
+                "bmp": "088094a10000c301",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "决赛狗你们够了。。= =）。。 ",
+                        "postTime": 1340288890,
+                        "id": 1340288890,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "443164766",
+                            "name": "\"zrp\" ",
+                            "platform": 1
+                        },
+                        "content": "呜呜呜变成狗了。。 ",
+                        "postTime": 1340288911,
+                        "id": 1340288911,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1340353700,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "orz ",
+                "capacity": 12167,
+                "poster": {
+                    "id": "945637290",
+                    "platform": 1,
+                    "name": "糖果 ",
+                    "emoji": []
+                },
+                "bmp": "088495800000d001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1340356579,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "岛君，访问受限是什么情况。 ",
+                "capacity": 12145,
+                "poster": {
+                    "id": "568836124",
+                    "platform": 1,
+                    "name": "皮皮鲁 ",
+                    "emoji": []
+                },
+                "bmp": "18c595a800026001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1340357263,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "我压线水了一件，什么RP。。 ",
+                "capacity": 12142,
+                "poster": {
+                    "id": "815282196",
+                    "platform": 1,
+                    "name": "求是吱 ",
+                    "emoji": []
+                },
+                "bmp": "98c09d800002c201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1372656077,
+                "effect": 1048576,
+                "replyNum": 0,
+                "content": "废怯少女小岛子 好文 发现了一个非常不错的斗地主地方，真人，真钱，这段时间赢了不少，有空一起来完吧 http://808.g9v.net ",
+                "capacity": 12052,
+                "poster": {
+                    "id": "554695236",
+                    "platform": 1,
+                    "name": "梦随风逝 ",
+                    "emoji": []
+                },
+                "bmp": "089015a40000e001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1214732086,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "明白了! ",
+                "capacity": 12161,
+                "poster": {
+                    "id": "352467237",
+                    "platform": 1,
+                    "name": "23MNU66 ",
+                    "emoji": []
+                },
+                "bmp": "18805ca400004109",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

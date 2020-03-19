@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1470139309,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "Lcs调参大赛+最稳赌局 ",
+                "capacity": 12156,
+                "poster": {
+                    "id": "1071767969",
+                    "platform": 1,
+                    "name": "二一三十七 ",
+                    "emoji": []
+                },
+                "bmp": "18c09da0000ac101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

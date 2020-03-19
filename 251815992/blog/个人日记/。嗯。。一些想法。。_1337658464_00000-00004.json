@@ -1,0 +1,108 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 5,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1337676785,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "其实就算原生重新刷一下机也没有了。。。 ",
+                "capacity": 12136,
+                "poster": {
+                    "id": "381352239",
+                    "platform": 1,
+                    "name": "QzQ ",
+                    "emoji": []
+                },
+                "bmp": "188495850000c120",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1337677322,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "背景音乐是个啥子？好好听。 ",
+                "capacity": 12142,
+                "poster": {
+                    "id": "451524137",
+                    "platform": 1,
+                    "name": "光之神圣 ",
+                    "emoji": []
+                },
+                "bmp": "18c1f4a40080c109",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1337677597,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "嗯，对了，在学校ACM的网站上应该是看到你的照片了。 ",
+                "capacity": 12119,
+                "poster": {
+                    "id": "451524137",
+                    "platform": 1,
+                    "name": "光之神圣 ",
+                    "emoji": []
+                },
+                "bmp": "18c1f4a40080c109",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1337690161,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "各种COS照表明节操掉得比手机快。 ",
+                "capacity": 12081,
+                "poster": {
+                    "id": "568836124",
+                    "platform": 1,
+                    "name": "皮皮鲁 ",
+                    "emoji": []
+                },
+                "bmp": "18c595a800026001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "快把灵魂交给了路西法~。。 ",
+                        "postTime": 1337729992,
+                        "id": 1337729992,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "postTime": 1337693969,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "背景音乐是个啥子？好好听 ",
+                "capacity": 12142,
+                "poster": {
+                    "id": "1185442737",
+                    "platform": 1,
+                    "name": "幻影射手 ",
+                    "emoji": []
+                },
+                "bmp": "18959d800000d401",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

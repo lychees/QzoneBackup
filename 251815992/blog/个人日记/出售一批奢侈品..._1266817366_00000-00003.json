@@ -1,0 +1,136 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1266820358,
+                "effect": 1056,
+                "replyNum": 3,
+                "content": "我有个汉王的数位板，当时买700，你准备怎么换？ ",
+                "capacity": 11938,
+                "poster": {
+                    "id": "276500942",
+                    "platform": 1,
+                    "name": "酒仙 ",
+                    "emoji": []
+                },
+                "bmp": "b8c1dda00102e229",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "...额..那款有可能和我的笔记本不兼容...\n..正在用抹布擦摄像机...等我会啊。。。# ",
+                        "postTime": 1266820465,
+                        "id": 1266820465,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "276500942",
+                            "name": "酒仙 ",
+                            "platform": 1
+                        },
+                        "content": "放心，全兼容… ",
+                        "postTime": 1266826559,
+                        "id": 1266826559,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "276500942",
+                            "name": "酒仙 ",
+                            "platform": 1
+                        },
+                        "content": "摄像机什么牌子？型号，报价吧。 ",
+                        "postTime": 1266826607,
+                        "id": 1266826607,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1266820689,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "摄像机?军品是什么年代得 ",
+                "capacity": 11891,
+                "poster": {
+                    "id": "506863220",
+                    "platform": 1,
+                    "name": "幸福的/旁边 ",
+                    "emoji": []
+                },
+                "bmp": "18d195ac0142c409",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "军用电台是1973年份的...如果你要的话可以送你子弹...\n画板是130mm火箭炮77型..中国解放军第六零一七工厂...\n好像是用来画弹道轨道的...正在解读说明书中..\n那个电话盖子我打不开..不知道怎么用... ",
+                        "postTime": 1266820877,
+                        "id": 1266820877,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "506863220",
+                            "name": "幸福的/旁边 ",
+                            "platform": 1
+                        },
+                        "content": "有个朋友感兴趣，我问问他 ",
+                        "postTime": 1266822387,
+                        "id": 1266822387,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1266846183,
+                "effect": 1048576,
+                "replyNum": 0,
+                "content": "orz...我有了不好的联想。。。  试想，你的某位祖先是个台湾特务。。。电台的说，摄像机的说，军队大炮资料的说。。。。。  我是个坏银！ ",
+                "capacity": 12042,
+                "poster": {
+                    "id": "443164766",
+                    "platform": 1,
+                    "name": "\"zrp\" ",
+                    "emoji": []
+                },
+                "bmp": "088094a10000c301",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1266847592,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]部队的东西我不要，见多了~[/ft]\n奥运纪念币组给我吧~不是一元起拍么？\n我出价~11~角~。。。 ",
+                "capacity": 12076,
+                "poster": {
+                    "id": "420836131",
+                    "platform": 1,
+                    "name": "doc ",
+                    "emoji": []
+                },
+                "bmp": "18d025a00000e101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

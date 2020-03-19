@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1490667811,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "期待你的优质文章 ",
+                "capacity": 12143,
+                "poster": {
+                    "id": "251346744",
+                    "platform": 1,
+                    "name": "tkskywalker ",
+                    "emoji": []
+                },
+                "bmp": "3850958001028201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

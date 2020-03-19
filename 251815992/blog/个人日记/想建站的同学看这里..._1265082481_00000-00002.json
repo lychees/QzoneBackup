@@ -1,0 +1,108 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1265116764,
+                "effect": 32,
+                "replyNum": 3,
+                "content": "[ft=,2,]……[/ft]\n[ft=,2,]你缺多少钱？[/ft]\n[ft=,2,]……[/ft] ",
+                "capacity": 12020,
+                "poster": {
+                    "id": "784237318",
+                    "platform": 1,
+                    "name": "叙眄 ",
+                    "emoji": []
+                },
+                "bmp": "585095a00102c009",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "见下一篇... ",
+                        "postTime": 1265116890,
+                        "id": 1265116890,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "784237318",
+                            "name": "叙眄 ",
+                            "platform": 1
+                        },
+                        "content": "晚安 ",
+                        "postTime": 1265117451,
+                        "id": 1265117451,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "安... ",
+                        "postTime": 1265117557,
+                        "id": 1265117557,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1265121345,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]报名。。。上线叫我[/ft] ",
+                "capacity": 12141,
+                "poster": {
+                    "id": "1393904777",
+                    "platform": 1,
+                    "name": "猫猫 ",
+                    "emoji": []
+                },
+                "bmp": "08809c2002008001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1265371527,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[ft=,,]我的站已经上线了：http://corodidea.net/[/ft]\n[ft=,,]只有blog。主机在IX web hosting买的，你会惊讶的（注意点底下的secret link）[/ft] ",
+                "capacity": 12001,
+                "poster": {
+                    "id": "821339950",
+                    "platform": 1,
+                    "name": "颠哥 ",
+                    "emoji": []
+                },
+                "bmp": "1880dd2000008001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "....Sofa .. ",
+                        "postTime": 1265372999,
+                        "id": 1265372999,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

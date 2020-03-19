@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1418824014,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "16 d 梗好像眼熟。。 ",
+                "capacity": 12153,
+                "poster": {
+                    "id": "3070414186",
+                    "platform": 1,
+                    "name": "权死 ",
+                    "emoji": []
+                },
+                "bmp": "08009d800200c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1418828455,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "太逗了吧，梦醒了，再睡还能继续接着做。 ",
+                "capacity": 12136,
+                "poster": {
+                    "id": "568778055",
+                    "platform": 1,
+                    "name": "123456 ",
+                    "emoji": []
+                },
+                "bmp": "18d09da00100c221",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,101 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1466788305,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "躺赢 ",
+                "capacity": 12163,
+                "poster": {
+                    "id": "1009321558",
+                    "platform": 1,
+                    "name": "0 o'clock ",
+                    "emoji": []
+                },
+                "bmp": "18519da80102c981",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1466789189,
+                "effect": 1056,
+                "replyNum": 5,
+                "content": "想知道什么是震惊的事实 ",
+                "capacity": 11697,
+                "poster": {
+                    "id": "569620205",
+                    "platform": 1,
+                    "name": " [ ccnu ] Tmono ",
+                    "emoji": []
+                },
+                "bmp": "58d08da8000ec209",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:569620205,nick: [ ccnu ] Tmono,who:1,auto:1}。。。你留意那天节目的最后一幕吧。。。。 ",
+                        "postTime": 1466789458,
+                        "id": 1466789458,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "569620205",
+                            "name": " [ ccnu ] Tmono ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1} _(:3」∠)_ ",
+                        "postTime": 1466789464,
+                        "id": 1466789464,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "569620205",
+                            "name": " [ ccnu ] Tmono ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1} 貌似还要等两个星期 ",
+                        "postTime": 1466789672,
+                        "id": 1466789672,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "3070414186",
+                            "name": "权死 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:569620205,nick: [ ccnu ] Tmono,auto:1} 番茄。 ",
+                        "postTime": 1466855806,
+                        "id": 1466855806,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "569620205",
+                            "name": " [ ccnu ] Tmono ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:3070414186,nick:权死,who:1,auto:1} 此番茄彼番茄 ",
+                        "postTime": 1466860691,
+                        "id": 1466860691,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

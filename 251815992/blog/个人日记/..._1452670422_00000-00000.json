@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1452670662,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "居然围棋 ",
+                "capacity": 12147,
+                "poster": {
+                    "id": "112831313",
+                    "platform": 1,
+                    "name": "12-计-董羽飞 ",
+                    "emoji": []
+                },
+                "bmp": "38d40da00102d101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

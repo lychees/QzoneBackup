@@ -1,0 +1,91 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1453274400,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "gb是啥？ ",
+                "capacity": 11985,
+                "poster": {
+                    "id": "435082156",
+                    "platform": 1,
+                    "name": "起风了 ",
+                    "emoji": []
+                },
+                "bmp": "584095a80802c121",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "785535171",
+                            "name": "Jの星愿 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:435082156,nick:起风了,who:1,auto:1} Golden bear ",
+                        "postTime": 1453274585,
+                        "id": 1453274585,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "435082156",
+                            "name": "起风了 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:785535171,nick:Jの星愿,who:1,auto:1}哦……，thx~ ",
+                        "postTime": 1453274697,
+                        "id": 1453274697,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1453280424,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "我从来没有拒绝加你 ",
+                "capacity": 11908,
+                "poster": {
+                    "id": "89071086",
+                    "platform": 1,
+                    "name": "Descartes ",
+                    "emoji": []
+                },
+                "bmp": "08809da000004001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:89071086,nick:Descartes,who:1,auto:1}误会！ ",
+                        "postTime": 1453280460,
+                        "id": 1453280460,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "89071086",
+                            "name": "Descartes ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:89071086,nick:Descartes,who:0,auto:1} 你真想争取，就不应该仅仅把长春赛区扯进去。其他赛区呢，你怎么就不去批评一下？ ",
+                        "postTime": 1453280564,
+                        "id": 1453280564,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

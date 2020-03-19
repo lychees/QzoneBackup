@@ -1,0 +1,123 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1275956230,
+                "effect": 1048608,
+                "replyNum": 2,
+                "content": "你也爱玩英雄无敌啊！！！  告诉你，3出了一个新的资料片，叫做追随神迹，加了好多新东西！ ",
+                "capacity": 11924,
+                "poster": {
+                    "id": "443164766",
+                    "platform": 1,
+                    "name": "\"zrp\" ",
+                    "emoji": []
+                },
+                "bmp": "088094a10000c301",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "。。。WOG要记的东西太多了。。。（而且新增加的几个兵种看起来了似乎有点很违和。。。） ",
+                        "postTime": 1275962941,
+                        "id": 1275962941,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "443164766",
+                            "name": "\"zrp\" ",
+                            "platform": 1
+                        },
+                        "content": "对，尤其是那个叫幻影射手的东西。。。。 ",
+                        "postTime": 1275963000,
+                        "id": 1275963000,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1275992839,
+                "effect": 524320,
+                "replyNum": 5,
+                "content": "电脑守城为什么会主动开门？ ",
+                "capacity": 11818,
+                "poster": {
+                    "id": "c265e4bd629300c5e0b59762f61a3dfaadc4158b389bc83e",
+                    "platform": 2,
+                    "name": "金天"
+                },
+                "bmp": "0000000000000000",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 2
+                        },
+                        "content": "。。。因为他想围杀我的吸血鬼。。但是空间不够大。。 ",
+                        "postTime": 1275994131,
+                        "id": 1275994131,
+                        "effect": 524288
+                    },
+                    {
+                        "poster": {
+                            "id": "c265e4bd629300c5e0b59762f61a3dfaadc4158b389bc83e",
+                            "name": "金天",
+                            "platform": 2
+                        },
+                        "content": "明白了。。PS，山德鲁是特长魔力的，你家那位是山特。。。\n强哥怎么了？ ",
+                        "postTime": 1275994635,
+                        "id": 1275994635,
+                        "effect": 524288
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 2
+                        },
+                        "content": "。不知道。。。。后来被我拿来做后勤了。。。 ",
+                        "postTime": 1275995760,
+                        "id": 1275995760,
+                        "effect": 524288
+                    },
+                    {
+                        "poster": {
+                            "id": "c265e4bd629300c5e0b59762f61a3dfaadc4158b389bc83e",
+                            "name": "金天",
+                            "platform": 2
+                        },
+                        "content": "电脑英雄逃跑后都不买的？ ",
+                        "postTime": 1276008651,
+                        "id": 1276008651,
+                        "effect": 524288
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 2
+                        },
+                        "content": "也许是被征服了... ",
+                        "postTime": 1276066842,
+                        "id": 1276066842,
+                        "effect": 524288
+                    }
+                ]
+            }
+        ]
+    }
+}

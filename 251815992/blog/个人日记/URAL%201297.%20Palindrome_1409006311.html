@@ -1,0 +1,1484 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    URAL 1297. Palindrome
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             URAL 1297. Palindrome
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2014-08-25 18:38:31
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(8)	è¯è®º(0)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1409006311,
+"voteids":0,
+"pubtime":1409006311,
+"replynum":0,
+"category":"个人日记",
+"title":"URAL 1297. Palindrome",
+"effect":549454336,
+"effect2":655366,
+"exblogtype":3,
+"sus_flag":false,
+"friendrelation":[{"cateid":4,
+"groupid":4}],
+"lp_type":0,
+"lp_id":81177,
+"lp_style":16843520,
+"lp_flag":0,
+"lp_topvalue":0,
+"orguin":251815992,
+"orgblogid":1409006311,
+"mention_uins":[ ],
+"attach":[],"comments":[]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <div>
+                <div>
+                 <a href="https://www.wunderlist.com/shared/72454769/ab556533628f5f7a278978988edd22b37d95eb50~1409583937" target="_blank">
+                  https://www.wunderlist.com/shared/72454769/ab556533628f5f7a278978988edd22b37d95eb50~1409583937
+                 </a>
+                 <br/>
+                 <br/>
+                 <br/>
+                 ,... 卧槽。。我 manacher 模板之前有一个 bug。。。。。之前修正过一次。。好像又回档回去了。。
+                 <br/>
+                 <br/>
+                 Update 一下。。。
+                 <br/>
+                 <br/>
+                 SA：
+                 <br/>
+                 讨论奇偶：
+                 <br/>
+                 <a href="http://vjudge.net/vjudge/problem/viewSource.action?id=2707165" target="_blank">
+                  http://vjudge.net/vjudge/problem/viewSource.action?id=2707165
+                 </a>
+                 <br/>
+                 不讨论：
+                 <br/>
+                 <a href="http://vjudge.net/vjudge/problem/viewSource.action?id=2707201" target="_blank">
+                  http://vjudge.net/vjudge/problem/viewSource.action?id=2707201
+                 </a>
+                 <br/>
+                 <br/>
+                 Manacher：
+                 <br/>
+                 <a href="http://vjudge.net/vjudge/problem/viewSource.action?id=2707216" target="_blank">
+                  http://vjudge.net/vjudge/problem/viewSource.action?id=2707216
+                 </a>
+                 <br/>
+                 <br/>
+                 <span>
+                  <br/>
+                  <span>
+                   <br/>
+                   就是这句。。。
+                   <br/>
+                  </span>
+                 </span>
+                 r[i]=mx&gt;i?min(r[2*mi-i],mx-i
+                 <br/>
+                 有一个版本写的是。。
+                 <br/>
+                 r[i]=mx&gt;i?min(r[2*mi-1],mx-i
+                 <br/>
+                 <span>
+                  <span>
+                   <br/>
+                   。。。这个 bug 坑爹之处是。。。求出来的还是正确的。。。。。。
+                   <br/>
+                   。但是会导致退化成 O(n2)。。以及各种数组越界。。囧。。。
+                   <br/>
+                   <br/>
+                   <br/>
+                   以后遇到回文串问题。。直接全程用处理过的字符串处理。。。
+                   <br/>
+                   ——————————————————————————————————
+                   <br/>
+                   <br/>
+                   <br/>
+                   <div>
+                    const int N = int(1e5)+9;
+                   </div>
+                   <div>
+                    char ss[N], s[N]; int r[N]; int nn, n;
+                   </div>
+                   <div>
+                    <br/>
+                   </div>
+                   <div>
+                    void manacher(const char ss[], int nn, char s[], int r[], int&amp; n) {
+                   </div>
+                   <div>
+                    <br/>
+                   </div>
+                   <div>
+                    n = 2*nn+2; s[0] = '$'; REP(i, nn)s[i*2+1]='.',s[i*2+2]=ss[i];s[n-1]='.';s[n] = 0;
+                   </div>
+                   <div>
+                    //puts(s);
+                   </div>
+                   <div>
+                    <br/>
+                   </div>
+                   <div>
+                    int mx=0,mi=0;FOR(i,1,n){
+                   </div>
+                   <div>
+                    for (r[i]=mx&gt;i?min(r[2*mi-i],mx-i):1;s[i+r[i]]==s[i-r[i]];++r[i]);
+                   </div>
+                   <div>
+                    if (i+r[i]&gt;mx)mx=i+r[i],mi=i;
+                   </div>
+                   <div>
+                    }
+                   </div>
+                   <div>
+                    <br/>
+                   </div>
+                   <div>
+                    mx=0;FOR(i,1,n)if(r[i]&gt;mx)mx=r[i],mi=i;--mx;
+                   </div>
+                   <div>
+                    for(int i=mi-mx+1;i&lt;mi+mx;i+=2)putchar(s[i]);
+                   </div>
+                   <div>
+                    //mi-=mx;mi/=2;FOR(i,mi,mi+mx) putchar(ss[i]);
+                   </div>
+                   <div>
+                    <span style="white-space:pre">
+                    </span>
+                    puts("");
+                   </div>
+                   <div>
+                    }
+                   </div>
+                   <div>
+                    <br/>
+                   </div>
+                   <div>
+                    int main() {
+                   </div>
+                   <div>
+                    <br/>
+                   </div>
+                   <div>
+                    #ifndef ONLINE_JUDGE
+                   </div>
+                   <div>
+                    freopen("in.txt", "r", stdin);
+                   </div>
+                   <div>
+                    //freopen("out.txt", "w", stdout);
+                   </div>
+                   <div>
+                    #endif
+                   </div>
+                   <div>
+                    <br/>
+                   </div>
+                   <div>
+                    while (scanf("%s", ss) == 1){
+                   </div>
+                   <div>
+                    nn = strlen(ss); manacher(ss, nn, s, r, n);
+                   </div>
+                   <div>
+                    }
+                   </div>
+                   <div>
+                    return 0;
+                   </div>
+                  </span>
+                 </span>
+                 }
+                 <span>
+                  <span>
+                   <br/>
+                   <span>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    ————————————————————
+                    <br/>
+                    <br/>
+                    <br/>
+                    Old one。。。。
+                    <br/>
+                    2010：
+                    <br/>
+                    应该已经不需要了。。。
+                    <br/>
+                   </span>
+                  </span>
+                 </span>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  &lt;pre lang="cpp"&gt;
+                 </div>
+                 <div>
+                  /*
+                  <span style="white-space:pre">
+                  </span>
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  Author : xiaodao
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  Prob : URAL 1297. Palindrome
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  Status  : Accepted (Pseudo !!)  0.015s
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  Last modify : GMT +8. Sept 17th 12:24
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  Tags : Suffix Array
+                 </div>
+                 <div>
+                  */
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  #include &lt;iostream&gt;
+                 </div>
+                 <div>
+                  #include &lt;cstdio&gt;
+                 </div>
+                 <div>
+                  #include &lt;cstring&gt;
+                 </div>
+                 <div>
+                  #include &lt;string&gt;
+                 </div>
+                 <div>
+                  using namespace std;
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  const int INF = 500000;
+                 </div>
+                 <div>
+                  const int N = 2001, M = 256;
+                 </div>
+                 <div>
+                  int SA[N], RA[N], height[N], key[N];
+                 </div>
+                 <div>
+                  int A[N], C[N], t1[N+1], t2[N+1];
+                 </div>
+                 <div>
+                  string s; int n, m, p;
+                 </div>
+                 <div>
+                  string ans;
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  void init(){
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  int i, j, k, l; int *X = t1, *Y = t2;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  p = s.size(); s += char(1); for (i=p-1;i&gt;=0;i--) s += s[i]; n = s.size();
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (i=0;i&lt;n;i++) A[i] = s[i];
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  m = M;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  memset(C, 0, sizeof(C));
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (i=0;i&lt;n;i++) C[X[i] = A[i]]++;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (i=1;i&lt;m;i++) C[i] += C[i-1];
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (i=n-1;i&gt;=0;i--) SA[--C[X[i]]] = i;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  X[n] = Y[n] = INF;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (l=1;l&lt;n;l&lt;&lt;=1){
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (i=n-l,j=0;i&lt;n;i++) Y[j++] = i;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (i=0;i&lt;n;i++) if (SA[i] &gt;= l) Y[j++] = SA[i] - l;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (i=0;i&lt;n;i++) key[i] = X[Y[i]];
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  memset(C, 0, sizeof(C));
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (i=0;i&lt;n;i++) C[key[i]]++;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (i=1;i&lt;m;i++) C[i] += C[i-1];
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (i=n-1;i&gt;=0;i--) SA[--C[key[i]]] = Y[i];
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  swap(X, Y);
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  X[SA[0]] = j = 0;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (i=1;i&lt;n;i++){
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  if (Y[SA[i]] != Y[SA[i-1]] || Y[SA[i]+l] != Y[SA[i-1]+l])
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  j++;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  X[SA[i]] = j;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  }
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  m = j + 1;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  if (m==n) break;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  }
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (i=0;i&lt;n;i++)
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  RA[SA[i]] = i;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  k = 0;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (i=0;i&lt;n;i++){
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  if (k&gt;0) k--;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  if (RA[i]==0) height[0] = 0;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  else {
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  j = SA[RA[i] - 1];
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  while (A[i+k]==A[j+k]) k++;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  height[RA[i]] = k;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  }
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  }
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  void solve(){
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  int length = 1, pos = 0;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  /*for (int i=0;i&lt;n;i++)
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  cout &lt;&lt; s.substr(SA[i], n) &lt;&lt; endl;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  cout &lt;&lt; endl; */
+                 </div>
+                 <div>
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (int i=0;i&lt;n-1;i++){
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  if (height[i+1]&gt;=length) {
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (int j=i+1;j&lt;n;j++){
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  if ((SA[i] + SA[j] + height[i+1] == n)){
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  if (height[i+1] &gt; length) length = height[i+1], pos = min(SA[i], SA[j]);
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  else if (height[i+1]==length) pos = min(pos, min(SA[i], SA[j]));
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  //cout &lt;&lt; SA[i] &lt;&lt; ", " &lt;&lt; SA[j] &lt;&lt; ": " &lt;&lt; height[i+1] &lt;&lt; " = " &lt;&lt; n &lt;&lt; endl;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  }
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  if (height[i+1]&gt;height[j+1]) break;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  }
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  }
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  }
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  ans = s.substr(pos, length);
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  int main(){
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  //freopen("in.txt", "r", stdin);
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  while (cin &gt;&gt; s){
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  init(); solve();
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  cout &lt;&lt; ans &lt;&lt; endl;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  }
+                  <span style="white-space:pre">
+                  </span>
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  &lt;/pre&gt;
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  &lt;pre lang="cpp"&gt;
+                 </div>
+                 <div>
+                  /*
+                  <span style="white-space:pre">
+                  </span>
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  Author : xiaodao
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  Prob : URAL 1297. Palindrome
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  Status  : Accepted  0.437s
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  Last modify : GMT +8. Sept 18th 09:34
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  Tags : Suffix Array
+                 </div>
+                 <div>
+                  */
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  #include &lt;iostream&gt;
+                 </div>
+                 <div>
+                  #include &lt;cstdio&gt;
+                 </div>
+                 <div>
+                  #include &lt;cstring&gt;
+                 </div>
+                 <div>
+                  #include &lt;string&gt;
+                 </div>
+                 <div>
+                  using namespace std;
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  const int INF = 500000;
+                 </div>
+                 <div>
+                  const int N = 2001, M = 256;
+                 </div>
+                 <div>
+                  int SA[N], RA[N], height[N], key[N];
+                 </div>
+                 <div>
+                  int A[N], C[N], t1[N+1], t2[N+1];
+                 </div>
+                 <div>
+                  string s; int n, m, p;
+                 </div>
+                 <div>
+                  string ans;
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  void init(){
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  int i, j, k, l; int *X = t1, *Y = t2;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  p = s.size(); s += 1; for (i=p-1;i&gt;=0;i--) s += s[i]; n = s.size();
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (i=0;i&lt;n;i++) A[i] = s[i];
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  m = M;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  memset(C, 0, sizeof(C));
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (i=0;i&lt;n;i++) C[X[i] = A[i]]++;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (i=1;i&lt;m;i++) C[i] += C[i-1];
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (i=n-1;i&gt;=0;i--) SA[--C[X[i]]] = i;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  X[n] = Y[n] = INF;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (l=1;l&lt;n;l&lt;&lt;=1){
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (i=n-l,j=0;i&lt;n;i++) Y[j++] = i;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (i=0;i&lt;n;i++) if (SA[i] &gt;= l) Y[j++] = SA[i] - l;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (i=0;i&lt;n;i++) key[i] = X[Y[i]];
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  memset(C, 0, sizeof(C));
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (i=0;i&lt;n;i++) C[key[i]]++;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (i=1;i&lt;m;i++) C[i] += C[i-1];
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (i=n-1;i&gt;=0;i--) SA[--C[key[i]]] = Y[i];
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  swap(X, Y);
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  X[SA[0]] = j = 0;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (i=1;i&lt;n;i++){
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  if (Y[SA[i]] != Y[SA[i-1]] || Y[SA[i]+l] != Y[SA[i-1]+l])
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  j++;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  X[SA[i]] = j;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  }
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  m = j + 1;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  if (m==n) break;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  }
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (i=0;i&lt;n;i++)
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  RA[SA[i]] = i;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  k = 0;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (i=0;i&lt;n;i++){
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  if (k&gt;0) k--;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  if (RA[i]==0) height[0] = 0;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  else {
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  j = SA[RA[i] - 1];
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  while (A[i+k]==A[j+k]) k++;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  height[RA[i]] = k;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  }
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  }
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  int lcp(int l, int r){
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  int res = INF;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  //if (l&gt;r) swap(l, r); // .~
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  //cout &lt;&lt; l &lt;&lt; " " &lt;&lt; r &lt;&lt; endl;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (int i=l+1;i&lt;=r;i++)
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  res = min(res, height[i]);
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  return res;
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  void solve(){
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  int length = 1, pos = 0;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  /* for (int i=0;i&lt;n;i++)
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  cout &lt;&lt; s.substr(SA[i], n) &lt;&lt; endl;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  cout &lt;&lt; endl; */
+                 </div>
+                 <div>
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  int i, j, k;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  for (i=0;i&lt;n-1;i++){
+                  <span style="white-space:pre">
+                  </span>
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  k = height[i+1] + 1;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  do{
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  if (k &lt;= length) goto a;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  k--, j = RA[n - k - SA[i]];
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  } while (lcp(i, j) != k);
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  if (k &gt; length) length = k, pos = min(SA[i], SA[j]);
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  else if (k == length) pos = min(pos, min(SA[i], SA[j]));
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  //cout &lt;&lt; SA[i] &lt;&lt; ", " &lt;&lt; SA[j] &lt;&lt; ": " &lt;&lt; height[i+1] &lt;&lt; " = " &lt;&lt; n &lt;&lt; endl;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  a:;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  }
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  ans = s.substr(pos, length);
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  int main(){
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  //freopen("in.txt", "r", stdin);
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  while (cin &gt;&gt; s){
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  init(); solve();
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  cout &lt;&lt; ans &lt;&lt; endl;
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  }
+                  <span style="white-space:pre">
+                  </span>
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  &lt;/pre&gt;
+                 </div>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+               </div>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

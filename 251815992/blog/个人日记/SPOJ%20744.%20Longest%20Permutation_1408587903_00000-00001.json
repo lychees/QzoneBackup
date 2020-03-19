@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1408587942,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "@{uin:420836131,nick:doc}  . ",
+                "capacity": 12116,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1408599971,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "IT?! ",
+                "capacity": 12168,
+                "poster": {
+                    "id": "331578398",
+                    "platform": 1,
+                    "name": "寻音 ",
+                    "emoji": []
+                },
+                "bmp": "984095a001008201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

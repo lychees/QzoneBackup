@@ -1,0 +1,108 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1252758046,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "[ft=,2,]岛哥的日志一向看不懂[/ft] ",
+                "capacity": 12058,
+                "poster": {
+                    "id": "599172252",
+                    "platform": 1,
+                    "name": "Maverick ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00000c001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "刚出炉的...热乎乎... ",
+                        "postTime": 1252759725,
+                        "id": 1252759725,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "599172252",
+                            "name": "Maverick ",
+                            "platform": 1
+                        },
+                        "content": "哇，好烫牙好烫！ ",
+                        "postTime": 1252759774,
+                        "id": 1252759774,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1252767268,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "[ft=,2,]不错~不错 我貌似都看懂了[/ft] ",
+                "capacity": 12006,
+                "poster": {
+                    "id": "114099336",
+                    "platform": 1,
+                    "name": "光禾 ",
+                    "emoji": []
+                },
+                "bmp": "18d094a50000c401",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "别\"貌似\"..你可是我的目标读者啊...\n要是看不懂.我岂不是悲剧了..# ",
+                        "postTime": 1252805085,
+                        "id": 1252805085,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "114099336",
+                            "name": "光禾 ",
+                            "platform": 1
+                        },
+                        "content": "..我看懂了拉 ",
+                        "postTime": 1252805682,
+                        "id": 1252805682,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1355377606,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,3,]说说也那么多省略号啊[/ft] ",
+                "capacity": 12129,
+                "poster": {
+                    "id": "499678267",
+                    "platform": 1,
+                    "name": "向鹏达 ",
+                    "emoji": []
+                },
+                "bmp": "18d48da00040e201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

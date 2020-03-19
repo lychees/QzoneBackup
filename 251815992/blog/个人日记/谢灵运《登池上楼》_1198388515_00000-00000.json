@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1198402781,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "[ft=,4,]好！！！飞虎，我们要弄班级主页，我不想用FRONTPAGE，你推荐个软件啊！[/ft] ",
+                "capacity": 12080,
+                "poster": {
+                    "id": "626003679",
+                    "platform": 1,
+                    "name": "沙了个皮 ",
+                    "emoji": []
+                },
+                "bmp": "18d48de00108e401",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

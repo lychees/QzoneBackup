@@ -1,0 +1,117 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1465140271,
+                "effect": 1056,
+                "replyNum": 8,
+                "content": "难证的地方是为什么要一次搞完一列 ",
+                "capacity": 10848,
+                "poster": {
+                    "id": "306233006",
+                    "platform": 1,
+                    "name": "konjac_wqs ",
+                    "emoji": []
+                },
+                "bmp": "0880950400008001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:306233006,nick:konjac_wqs,who:1,auto:1}\n唔。。。比赛时确实犹豫了一下。。。当时的想法是。。\n如果某列的某项出现了 0，那么一定不需要再返回了，\n如果是 1，那么除非其它列打通了，否则一定还要返回。\n但这种情况下，先把这列半通除了造成了额外的代价，\n没有对后续产生过任何帮助。 ",
+                        "postTime": 1465143223,
+                        "id": 1465143223,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "306233006",
+                            "name": "konjac_wqs ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1}差不多？我的argument是，如果一列开始打了，那么我肯定是希望打完这列全是1就结束了，那么我这列打了一半全是1，那么剩下全是1的概率就更大了，所以更应该打完 ",
+                        "postTime": 1465143332,
+                        "id": 1465143332,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:306233006,nick:konjac_wqs,auto:1} ...  PS：。。。最后几分钟冲了你一发。。因为我最后测了点随机数据发现没有把顺序打乱跑的结果优＝ ＝。。。。然后怎么看都觉得写的一样。。。） ",
+                        "postTime": 1465144073,
+                        "id": 1465144073,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "306233006",
+                            "name": "konjac_wqs ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1}所以你fst了？我看看你的 ",
+                        "postTime": 1465144609,
+                        "id": 1465144609,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:306233006,nick:konjac_wqs,who:1,auto:1}。。cmp 函数抄错了。。旁边的注释还是对的。。） ",
+                        "postTime": 1465144668,
+                        "id": 1465144668,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "306233006",
+                            "name": "konjac_wqs ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1}啊，我好像没看你的代码。。。你那个明显不对啊。。。 ",
+                        "postTime": 1465144679,
+                        "id": 1465144679,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "306233006",
+                            "name": "konjac_wqs ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1}还是我的cmp函数好 ",
+                        "postTime": 1465144941,
+                        "id": 1465144941,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "306233006",
+                            "name": "konjac_wqs ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1}唉，我刚才在上面看到你的cnp函数还觉得是对的 ",
+                        "postTime": 1465144989,
+                        "id": 1465144989,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

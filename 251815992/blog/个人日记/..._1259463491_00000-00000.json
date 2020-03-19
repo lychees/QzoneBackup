@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1266672616,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]有一点共鸣，我眼睛真的很难看清字了[/ft] ",
+                "capacity": 12123,
+                "poster": {
+                    "id": "871490473",
+                    "platform": 1,
+                    "name": "大呆呆 ",
+                    "emoji": []
+                },
+                "bmp": "08d495e00150c181",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

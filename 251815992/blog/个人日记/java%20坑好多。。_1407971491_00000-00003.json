@@ -1,0 +1,102 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1407975598,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "两个println结果一样吧？ ",
+                "capacity": 12143,
+                "poster": {
+                    "id": "195719555",
+                    "platform": 1,
+                    "name": "方宇浩 ",
+                    "emoji": []
+                },
+                "bmp": "188095a000020421",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1407983985,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "运算符重载这种制造混乱的东西实在不符合java端庄优雅的气质，学java之前先学习一下设计模式比较好，可以理解为什么要这样。 ",
+                "capacity": 11765,
+                "poster": {
+                    "id": "774367334",
+                    "platform": 1,
+                    "name": "zjut_DD ",
+                    "emoji": []
+                },
+                "bmp": "18c09da00080c001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "1017794634",
+                            "name": "zeus ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:774367334,nick:zjut_DD,who:1,auto:1}运算符重载不是制造混乱，这可以更好的体现出来数学上运算符的抽象意义，最简单的不就是'+'号不仅仅用于实数吗？ ",
+                        "postTime": 1408001622,
+                        "id": 1408001622,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "2830264590",
+                            "name": "Farewell. ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:1017794634,nick:zeus,who:1,auto:1} 如果是一个大型工程的话 确实会产生混乱 ",
+                        "postTime": 1408033939,
+                        "id": 1408033939,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1407987980,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "Java 的基础类型和对象不统一，制造了许多坑，实在不符合“端庄优雅”这个词。。。 ",
+                "capacity": 12093,
+                "poster": {
+                    "id": "914049651",
+                    "platform": 1,
+                    "name": "meijun ",
+                    "emoji": []
+                },
+                "bmp": "98d595880100d4a0",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1439485004,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "VS里的CPP的补全也不错的！ ",
+                "capacity": 12145,
+                "poster": {
+                    "id": "1225176497",
+                    "platform": 1,
+                    "name": "[TJPU]Archer ",
+                    "emoji": []
+                },
+                "bmp": "98419da000028221",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,91 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1413709072,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "岛娘带我打CF ",
+                "capacity": 12160,
+                "poster": {
+                    "id": "286830682",
+                    "platform": 1,
+                    "name": "MetTheSoul ",
+                    "emoji": []
+                },
+                "bmp": "08d49de0000c8221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1413709075,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "祝好运 ",
+                "capacity": 12162,
+                "poster": {
+                    "id": "892431401",
+                    "platform": 1,
+                    "name": "ydc ",
+                    "emoji": []
+                },
+                "bmp": "18c08d840002c201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1413709582,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "跟着岛娘能打金。233. ",
+                "capacity": 12148,
+                "poster": {
+                    "id": "568778055",
+                    "platform": 1,
+                    "name": "123456 ",
+                    "emoji": []
+                },
+                "bmp": "18d09da00100c221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1413710617,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "多谢岛娘栽培！ 北京加油！ ",
+                "capacity": 12035,
+                "poster": {
+                    "id": "1691626124",
+                    "platform": 1,
+                    "name": "[SHU]kuangbin ",
+                    "emoji": []
+                },
+                "bmp": "0890958002008101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "568778055",
+                            "name": "123456 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:1691626124,nick:[SHU]kuangbin,auto:1} 我命怎么没那么好。。。[em]e7024[/em] ",
+                        "postTime": 1413711295,
+                        "id": 1413711295,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1481207935,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "好看！嘤嘤嘤 ",
+                "capacity": 12153,
+                "poster": {
+                    "id": "251870949",
+                    "platform": 1,
+                    "name": "赵林娇 ",
+                    "emoji": []
+                },
+                "bmp": "18c095a10002c209",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

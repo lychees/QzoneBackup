@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1381273507,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "ORZ ",
+                "capacity": 12171,
+                "poster": {
+                    "id": "402701292",
+                    "platform": 1,
+                    "name": "x. ",
+                    "emoji": []
+                },
+                "bmp": "185495a00102e101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1381274632,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "厉害嘛 ",
+                "capacity": 12162,
+                "poster": {
+                    "id": "10848584",
+                    "platform": 1,
+                    "name": "主席 ",
+                    "emoji": []
+                },
+                "bmp": "0880dd8000000221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1381314667,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "ORZ ",
+                "capacity": 12165,
+                "poster": {
+                    "id": "892431401",
+                    "platform": 1,
+                    "name": "ydc ",
+                    "emoji": []
+                },
+                "bmp": "18c08d840002c201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,125 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 6,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1389837446,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "看到了zxr ",
+                "capacity": 12160,
+                "poster": {
+                    "id": "751723392",
+                    "platform": 1,
+                    "name": "wwwwodddd ",
+                    "emoji": []
+                },
+                "bmp": "18c095a80000c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1389839273,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "加油 ",
+                "capacity": 12150,
+                "poster": {
+                    "id": "156378089",
+                    "platform": 1,
+                    "name": "- ",
+                    "emoji": []
+                },
+                "bmp": "18d495e00002d421",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1389847070,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "其实是我丢了你的号码…空间活动又有妈妈监视…所以才留那个言…马上一模……！呃…楼上那个谁看见我了？… ",
+                "capacity": 12066,
+                "poster": {
+                    "id": "784237318",
+                    "platform": 1,
+                    "name": "叙眄 ",
+                    "emoji": []
+                },
+                "bmp": "585095a00102c009",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1389847114,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "其实是我丢了你的号码…空间活动又有妈妈监视…所以才留那个言…马上一模……！呃…楼上那个谁看见我了？… ",
+                "capacity": 12066,
+                "poster": {
+                    "id": "784237318",
+                    "platform": 1,
+                    "name": "叙眄 ",
+                    "emoji": []
+                },
+                "bmp": "585095a00102c009",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1389847445,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "切莫回复…会被妈妈发现的… ",
+                "capacity": 12056,
+                "poster": {
+                    "id": "784237318",
+                    "platform": 1,
+                    "name": "叙眄 ",
+                    "emoji": []
+                },
+                "bmp": "585095a00102c009",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "872934638",
+                            "name": "IAM牙牙 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:784237318,nick:叙眄,who:1,auto:1}好的 ",
+                        "postTime": 1390013709,
+                        "id": 1390013709,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "postTime": 1389847470,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "切莫回复…会被妈妈发现的… ",
+                "capacity": 12140,
+                "poster": {
+                    "id": "784237318",
+                    "platform": 1,
+                    "name": "叙眄 ",
+                    "emoji": []
+                },
+                "bmp": "585095a00102c009",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

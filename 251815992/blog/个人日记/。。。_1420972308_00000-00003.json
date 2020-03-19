@@ -1,0 +1,79 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1420972962,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "我擦 ",
+                "capacity": 12169,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1420986884,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "我相信 ",
+                "capacity": 12162,
+                "poster": {
+                    "id": "601598644",
+                    "platform": 1,
+                    "name": "金天 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00002c109",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1420993633,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "程乐一我认识啊！！ ",
+                "capacity": 12147,
+                "poster": {
+                    "id": "361912954",
+                    "platform": 1,
+                    "name": "萌翻了的娜娜 ",
+                    "emoji": []
+                },
+                "bmp": "98c1d5a00080c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1421023408,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "卧槽。 ",
+                "capacity": 12160,
+                "poster": {
+                    "id": "276500942",
+                    "platform": 1,
+                    "name": "酒仙 ",
+                    "emoji": []
+                },
+                "bmp": "b8c1dda00102e229",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

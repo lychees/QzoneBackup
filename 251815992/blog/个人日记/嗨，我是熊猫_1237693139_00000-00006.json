@@ -1,0 +1,201 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 7,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1237693611,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "图片=X ",
+                "capacity": 12106,
+                "poster": {
+                    "id": "474697421",
+                    "platform": 1,
+                    "name": "朱明琪 ",
+                    "emoji": []
+                },
+                "bmp": "18d195a000028209",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "图片手动传空间里了...这样应该可以了吧#24 ",
+                        "postTime": 1237693874,
+                        "id": 1237693874,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1237693905,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "老图自重。。。 ",
+                "capacity": 12117,
+                "poster": {
+                    "id": "474697421",
+                    "platform": 1,
+                    "name": "朱明琪 ",
+                    "emoji": []
+                },
+                "bmp": "18d195a000028209",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "#...啊..岛儿火星了... ",
+                        "postTime": 1237694092,
+                        "id": 1237694092,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1237693970,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "嗨，我是小c...\n \n你是谁呀?\n \n红衣XXX?\n \n话说那天看你穿红色有点怀念以前.. ",
+                "capacity": 11996,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "<红衣侠大战白衣WS>....#\n ",
+                        "postTime": 1237694168,
+                        "id": 1237694168,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "347956886",
+                            "name": "小c ",
+                            "platform": 1
+                        },
+                        "content": "晕，原来回成功了．．我以为没回．． ",
+                        "postTime": 1237694212,
+                        "id": 1237694212,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "postTime": 1237694122,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "嗨，我是小c．．．．\n \n话说那天看你穿红衣我就怀念起高一的时候....\n你穿红，吴ＣＣ穿蓝...\n然后我就认识了好多人－　－＃＃ ",
+                "capacity": 12056,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1237694535,
+                "effect": 5242912,
+                "replyNum": 1,
+                "content": "我转orc了......怀念panda老大,DH老二的日子...... ",
+                "capacity": 11997,
+                "poster": {
+                    "id": "534470369",
+                    "platform": 1,
+                    "name": "张弛 ",
+                    "emoji": []
+                },
+                "bmp": "08d08ca000000428",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "- -大家回帖的速度真快呀...\nps:\n我本来还担心丢失的数据里有adx和我们的rep..\n#还好我在自己的机子上有备份....# ",
+                        "postTime": 1237694627,
+                        "id": 1237694627,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "postTime": 1237694758,
+                "effect": 5242912,
+                "replyNum": 1,
+                "content": "我也有备份，就忘记放哪了......有空切磋几盘？ ",
+                "capacity": 12095,
+                "poster": {
+                    "id": "534470369",
+                    "platform": 1,
+                    "name": "张弛 ",
+                    "emoji": []
+                },
+                "bmp": "08d08ca000000428",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "额...好的哦... ",
+                        "postTime": 1237694805,
+                        "id": 1237694805,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "postTime": 1237694849,
+                "effect": 5242880,
+                "replyNum": 0,
+                "content": "等我回去再说吧...这两边延迟太大 ",
+                "capacity": 12141,
+                "poster": {
+                    "id": "534470369",
+                    "platform": 1,
+                    "name": "张弛 ",
+                    "emoji": []
+                },
+                "bmp": "08d08ca000000428",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

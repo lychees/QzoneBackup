@@ -1,0 +1,118 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1413303246,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "233333 ",
+                "capacity": 12159,
+                "poster": {
+                    "id": "450978053",
+                    "platform": 1,
+                    "name": "Sd.无心插柳 ",
+                    "emoji": []
+                },
+                "bmp": "18d1d5800000c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1413310362,
+                "effect": 1056,
+                "replyNum": 5,
+                "content": "鞍山没有清华交大 哪里强校云集了..在我们眼里都快成大肥肉了.. ",
+                "capacity": 11633,
+                "poster": {
+                    "id": "291445140",
+                    "platform": 1,
+                    "name": "Seter ",
+                    "emoji": []
+                },
+                "bmp": "18c415a00142e209",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:291445140,nick:Seter,who:1,auto:1}.。。。 我情报有限啊、、随便渲染下气氛。） ",
+                        "postTime": 1413310429,
+                        "id": 1413310429,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "291445140",
+                            "name": "Seter ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1} 当然，有我校吴老师坐镇！ ",
+                        "postTime": 1413310541,
+                        "id": 1413310541,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:291445140,nick:Seter,auto:1} 。。让我们期待他得成功吧！ ",
+                        "postTime": 1413310613,
+                        "id": 1413310613,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "291445140",
+                            "name": "Seter ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1} 期待吴老师埋葬clj！ ",
+                        "postTime": 1413310634,
+                        "id": 1413310634,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "826513189",
+                            "name": "叉姐 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:291445140,nick:Seter,who:1,auto:1} 吴老师是厉害 ",
+                        "postTime": 1413331688,
+                        "id": 1413331688,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1413339344,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "岛娘是厉害 ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "892431401",
+                    "platform": 1,
+                    "name": "ydc ",
+                    "emoji": []
+                },
+                "bmp": "18c08d840002c201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

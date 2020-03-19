@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1550037749,
+                "postTime": 1550037749,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "不就是press.one做的事情么 ",
+                "capacity": 12147,
+                "poster": {
+                    "id": "938286388",
+                    "platform": 1,
+                    "name": "卮客 ",
+                    "emoji": []
+                },
+                "bmp": "38d5dde80910e101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

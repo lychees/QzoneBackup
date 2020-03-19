@@ -1,0 +1,57 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1260021598,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "你们的卷子成功虐倒一片… ",
+                "capacity": 12073,
+                "poster": {
+                    "id": "907206412",
+                    "platform": 1,
+                    "name": "yeye ",
+                    "emoji": []
+                },
+                "bmp": "18d495a001008121",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "我们这边都是.合肥一中联谊校...\n大家都是..华普教育联谊校.. ",
+                        "postTime": 1260023678,
+                        "id": 1260023678,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1260087148,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]哥的歌[/ft]\n[ft=,2,]U BRAINLESS[/ft] ",
+                "capacity": 12122,
+                "poster": {
+                    "id": "844242114",
+                    "platform": 1,
+                    "name": "MoonMayCry ",
+                    "emoji": []
+                },
+                "bmp": "08d095a000028101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

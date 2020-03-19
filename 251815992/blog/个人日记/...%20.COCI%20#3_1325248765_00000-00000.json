@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1325274129,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]WTF……[/ft] ",
+                "capacity": 12146,
+                "poster": {
+                    "id": "844242114",
+                    "platform": 1,
+                    "name": "MoonMayCry ",
+                    "emoji": []
+                },
+                "bmp": "08d095a000028101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

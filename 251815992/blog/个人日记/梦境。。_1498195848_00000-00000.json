@@ -1,0 +1,51 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1498202762,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "我昨晚梦到了去上海找你……还有金士杰老先生…… ",
+                "capacity": 11964,
+                "poster": {
+                    "id": "569620205",
+                    "platform": 1,
+                    "name": " [ ccnu ] Tmono ",
+                    "emoji": []
+                },
+                "bmp": "58d08da8000ec209",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "529003192",
+                            "name": "【XDU】数学lover ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:569620205,nick: [ ccnu ] Tmono,who:1,auto:1}囍 ",
+                        "postTime": 1498203901,
+                        "id": 1498203901,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "569620205",
+                            "name": " [ ccnu ] Tmono ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:529003192,nick:【XDU】数学lover,who:1,auto:1} 叽 ",
+                        "postTime": 1498243019,
+                        "id": 1498243019,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

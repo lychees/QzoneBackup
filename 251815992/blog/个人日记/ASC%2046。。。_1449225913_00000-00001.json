@@ -1,0 +1,79 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1449226566,
+                "effect": 32,
+                "replyNum": 3,
+                "content": "我觉得。。。看懂毛子的英文题。。。真困难。。。 ",
+                "capacity": 11777,
+                "poster": {
+                    "id": "3037754077",
+                    "platform": 1,
+                    "name": "Dashgua ",
+                    "emoji": []
+                },
+                "bmp": "880094800202c101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "3037754077",
+                            "name": "Dashgua ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:3037754077,nick:Dashgua,auto:1} 话说每个题的首字母正好和题目一一对应呢。。。有意思。。。 ",
+                        "postTime": 1449226865,
+                        "id": 1449226865,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "410644548",
+                            "name": "ztxz16 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:3037754077,nick:Dashgua,who:1,auto:1}我校出题也有这个传统！ ",
+                        "postTime": 1449234653,
+                        "id": 1449234653,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "306233006",
+                            "name": "konjac_wqs ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:3037754077,nick:Dashgua,who:1,auto:1}我一直觉得毛子的英文题很爽，国内经常读着不舒服 ",
+                        "postTime": 1449234902,
+                        "id": 1449234902,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1449226678,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "Orz ",
+                "capacity": 12164,
+                "poster": {
+                    "id": "319172010",
+                    "platform": 1,
+                    "name": "furao0044 ",
+                    "emoji": []
+                },
+                "bmp": "08d0ad800000e201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

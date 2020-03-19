@@ -1,0 +1,107 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1411081135,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "早。 ",
+                "capacity": 12164,
+                "poster": {
+                    "id": "568778055",
+                    "platform": 1,
+                    "name": "123456 ",
+                    "emoji": []
+                },
+                "bmp": "18d09da00100c221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1411087111,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "怕了 ",
+                "capacity": 12151,
+                "poster": {
+                    "id": "112831313",
+                    "platform": 1,
+                    "name": "12-计-董羽飞 ",
+                    "emoji": []
+                },
+                "bmp": "38d40da00102d101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1411089239,
+                "effect": 1056,
+                "replyNum": 4,
+                "content": "C要是没那个条件…  最大值肯定是全选吧… ",
+                "capacity": 11689,
+                "poster": {
+                    "id": "410644548",
+                    "platform": 1,
+                    "name": "ztxz16 ",
+                    "emoji": []
+                },
+                "bmp": "98d015a00000c201",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "1113865149",
+                            "name": "飘啊飘 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:410644548,nick:ztxz16,who:1,auto:1}逗 ",
+                        "postTime": 1411113834,
+                        "id": 1411113834,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "410644548",
+                            "name": "ztxz16 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:1113865149,nick:飘啊飘,who:1,auto:1} [em]e103[/em] ",
+                        "postTime": 1411116932,
+                        "id": 1411116932,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:410644548,nick:ztxz16,who:1,auto:1}有负数啊。。。 ",
+                        "postTime": 1411148028,
+                        "id": 1411148028,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "410644548",
+                            "name": "ztxz16 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1} 这题没..  如果有的话就fij i段结尾j  然后转移的时候gj = -sj + max(fi - 1,1~j - 1), fij = sj + max(g1 ~ j - 1)  吧… ",
+                        "postTime": 1411172987,
+                        "id": 1411172987,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

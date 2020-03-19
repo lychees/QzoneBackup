@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1406196481,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "岛娘不是hit一队？ ",
+                "capacity": 12153,
+                "poster": {
+                    "id": "497778632",
+                    "platform": 1,
+                    "name": "Ronnoc ",
+                    "emoji": []
+                },
+                "bmp": "48801d8000004001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1406196666,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "第五题的剪枝可以这么写\n搜出一个组合之后2^k判断是否子集能包含[l,ans+1]区间来剪枝\n这样就飞快了 ",
+                "capacity": 12074,
+                "poster": {
+                    "id": "892431401",
+                    "platform": 1,
+                    "name": "ydc ",
+                    "emoji": []
+                },
+                "bmp": "18c08d840002c201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

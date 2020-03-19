@@ -1,0 +1,757 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    SRM 629
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             SRM 629
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2014-08-12 13:06:58
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(81)	è¯è®º(0)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1407863218,
+"voteids":0,
+"pubtime":1407863218,
+"replynum":0,
+"category":"个人日记",
+"title":"SRM 629",
+"effect":8389121,
+"effect2":524294,
+"exblogtype":3,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":81177,
+"lp_style":16843520,
+"lp_flag":0,
+"lp_topvalue":0,
+"orguin":251815992,
+"orgblogid":1407863218,
+"mention_uins":[ ],
+"attach":[],"comments":[]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <div>
+                Div 2 1000：
+                <br/>
+                <br/>
+                <br/>
+                <div>
+                 初始金钱 m=0, 糖果 c=0
+                 <br/>
+                 每天获得 x ￥, 一个糖果 y ￥
+                 <br/>
+                 每天先获得 ￥。。然后吃一个糖果。。。如果这天没糖吃了就把钱全买了糖果。。。
+                 <br/>
+                 否则一个都不买&gt;.&lt; 。。。问 z 天后剩多少钱
+                 <br/>
+                 <br/>
+                 输入x, y, z
+                 <br/>
+                 输入x=5, y=3, z=3
+                 <br/>
+                 输出 6
+                 <br/>
+                </div>
+                <br/>
+                x, y, z 均 10^9
+                <br/>
+                <br/>
+                <br/>
+                <div>
+                 【迭代】【利用周期加速】
+                </div>
+                <div>
+                 假设当前 rem 块￥，cur 枚糖果，
+                </div>
+                <div>
+                 。。那么 cur 天之后。。
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 你将会有
+                </div>
+                <div>
+                 。。rem' = (rem + cur*x[i]) % y[i] 块钱。。
+                </div>
+                <div>
+                 。。cur' = (rem + cur*x[i]) / y[i] 块糖果
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 。。观察每天的净增长。。。
+                </div>
+                <div>
+                 记 delta = cur*(x[i]-y[i])
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 如果 rem + delta &gt; y[i] 。。。那么
+                </div>
+                <div>
+                 。。rem' = (rem + delta) % y[i];
+                </div>
+                <div>
+                 。。cur' += (rem + delta) / y[i]
+                </div>
+                <div>
+                 我们发现 cur 天之后。。cur 也净增长了。。。
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 否则的话。。。
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 我们找到最小的 period。。。使得
+                </div>
+                <div>
+                 rem + period * delta &gt; y[i]
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 balabala
+                </div>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <a href="http://www.tsinsen.com/ViewGProblem.page?gpid=A1314" target="_blank">
+                 http://www.tsinsen.com/ViewGProblem.page?gpid=A1314
+                </a>
+                <br/>
+                <a href="http://www.tsinsen.com/resources/Train2012-test-clj-calc.pdf" target="_blank">
+                 http://www.tsinsen.com/resources/Train2012-test-clj-calc.pdf
+                </a>
+                <br/>
+                <a href="http://www.wolframalpha.com/input/?i=prevprime%5B10%5E18%5D" target="_blank">
+                 http://www.wolframalpha.com/input/?i=prevprime%5B10%5E18%5D
+                </a>
+                <br/>
+                1999990763
+                <br/>
+                <br/>
+                <br/>
+                ———— UPD
+                <br/>
+                。。其实我的取模模板是 safe 的。。。但是我担惊受怕的 unsigned long long every where。。。结果错了。。。
+                <br/>
+                。。。但是除此之外我还有 K=0 的 trick 没有考虑到。。。
+                <br/>
+                <br/>
+                所以也就不显得那么遗憾了。。。。
+                <br/>
+                <br/>
+                <br/>
+                这种预感自己会挂但是却不知道怎么办的感觉实在非常痛苦。。。。
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <div>
+                 #include &lt;functional&gt;
+                </div>
+                <div>
+                 #include &lt;algorithm&gt;
+                </div>
+                <div>
+                 #include &lt;iostream&gt;
+                </div>
+                <div>
+                 #include &lt;fstream&gt;
+                </div>
+                <div>
+                 #include &lt;sstream&gt;
+                </div>
+                <div>
+                 #include &lt;iomanip&gt;
+                </div>
+                <div>
+                 #include &lt;numeric&gt;
+                </div>
+                <div>
+                 #include &lt;cstring&gt;
+                </div>
+                <div>
+                 #include &lt;climits&gt;
+                </div>
+                <div>
+                 #include &lt;cassert&gt;
+                </div>
+                <div>
+                 #include &lt;complex&gt;
+                </div>
+                <div>
+                 #include &lt;cstdio&gt;
+                </div>
+                <div>
+                 #include &lt;string&gt;
+                </div>
+                <div>
+                 #include &lt;vector&gt;
+                </div>
+                <div>
+                 #include &lt;bitset&gt;
+                </div>
+                <div>
+                 #include &lt;queue&gt;
+                </div>
+                <div>
+                 #include &lt;stack&gt;
+                </div>
+                <div>
+                 #include &lt;cmath&gt;
+                </div>
+                <div>
+                 #include &lt;ctime&gt;
+                </div>
+                <div>
+                 #include &lt;list&gt;
+                </div>
+                <div>
+                 #include &lt;set&gt;
+                </div>
+                <div>
+                 #include &lt;map&gt;
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 using namespace std;
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 #define FOR(i, a, b) for (int i=a;i&lt;b;++i)
+                </div>
+                <div>
+                 #define REP(i, n) FOR(i,0,n)
+                </div>
+                <div>
+                 #define SZ(A) int((A).size())
+                </div>
+                <div>
+                 #define Ts *this
+                </div>
+                <div>
+                 #define rTs return Ts
+                </div>
+                <div>
+                 typedef long long LL;
+                </div>
+                <div>
+                 template&lt;class T&gt; inline void RST(T &amp;A){memset(A, 0, sizeof(A));}
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 LL MOD = int(1e9) + 7;
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 struct Int{
+                </div>
+                <div>
+                 LL val;operator LL() const{return val;}Int():val(0){}
+                </div>
+                <div>
+                 Int(LL _val){_val%=MOD;if(_val&lt;0)_val+=MOD;val=_val;}
+                </div>
+                <div>
+                 Int&amp;operator+=(LL b){rTs=val+b;}
+                </div>
+                <div>
+                 Int&amp;operator-=(LL b){rTs=val-b;}
+                </div>
+                <div>
+                 Int&amp;operator*=(LL b){rTs=val*b;}
+                </div>
+                <div>
+                 bool operator==(LL b)const{return val==b;}
+                </div>
+                <div>
+                 bool operator!=(LL b)const{return val!=b;}
+                </div>
+                <div>
+                 };
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 Int operator+(Int a,LL b){return a+=b;}
+                </div>
+                <div>
+                 Int operator-(Int a,LL b){return a-=b;}
+                </div>
+                <div>
+                 Int operator*(Int a,LL b){return a*=b;}
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 LL exgcd(LL a,LL b,LL&amp;x,LL&amp;y){
+                </div>
+                <div>
+                 LL d;if(b) d=exgcd(b,a%b,y,x),y-=(a/b)*x;
+                </div>
+                <div>
+                 else d=a,x=1,y=0;
+                </div>
+                <div>
+                 return d;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 Int minv(LL a){
+                </div>
+                <div>
+                 LL x, y, d = exgcd(a,MOD,x,y);assert(d == 1);
+                </div>
+                <div>
+                 return x;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 Int&amp;operator/=(Int&amp;a,LL b){return a=a*minv(b);}
+                </div>
+                <div>
+                 Int operator/(Int a,LL b){return a/=b;}
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 const int N = int(2e3) + 9;
+                </div>
+                <div>
+                 Int dp[N][2*N];
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 int f(int n,int m){
+                </div>
+                <div>
+                 if (!m) return 1;
+                </div>
+                <div>
+                 #define u dp[i][j]
+                </div>
+                <div>
+                 RST(dp); dp[0][0] = 1;
+                </div>
+                <div>
+                 REP(i, m*2) REP(j, m+1){
+                </div>
+                <div>
+                 dp[i+1][j+1] += u*(i+1);
+                </div>
+                <div>
+                 dp[i+1][j] += u;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 vector&lt;Int&gt; a(2*m+1); REP(i, 2*m+1) a[i] = dp[i][m];
+                </div>
+                <div>
+                 Int z, fac = 1; REP(d,2*m+1){
+                </div>
+                <div>
+                 Int t=a[0]; REP(i, d) t *= n-i; t /= fac;
+                </div>
+                <div>
+                 z += t; REP(i, SZ(a)-1) a[i]=a[i+1]-a[i];a.pop_back();fac*=d+1;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 return z;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 class CandyDrawing {
+                </div>
+                <div>
+                 public:
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 int findProbability(int N, int K, int MOD) {
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 ::MOD = MOD;
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 return f(N,K);
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 }
+                </div>
+                <div>
+                 };
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <img alt="图片" src="http://r.photo.store.qq.com/psb?/a7723d22-15e1-452d-817f-ed63333f3d7d/VpFsHz*DnPCk5kL4SlLc7TyUib7aCkxBzOg5xKB2YjU!/o/dBigPVXmEwAA&amp;ek=1&amp;kp=1&amp;pt=0&amp;bo=sAKAArICggIBACc!&amp;t=5&amp;tl=3&amp;su=0250345457&amp;tm=1584572400&amp;sce=0-12-12&amp;rf=2-9" style="width:690px;height:642px"/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+               </div>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

@@ -1,0 +1,74 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1325712134,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[ft=,2,]精度很诡异。[/ft] ",
+                "capacity": 12104,
+                "poster": {
+                    "id": "451734587",
+                    "platform": 1,
+                    "name": "倚剑天涯 ",
+                    "emoji": []
+                },
+                "bmp": "18c095a400008301",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "噗。。确实。。。。） ",
+                        "postTime": 1325715000,
+                        "id": 1325715000,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1325734847,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]有襯衫的比賽竟然在半夜。。。[/ft] ",
+                "capacity": 12123,
+                "poster": {
+                    "id": "190303874",
+                    "platform": 1,
+                    "name": "玉子 ",
+                    "emoji": []
+                },
+                "bmp": "18c09d6000028001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1325737507,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "下意识加了eps，然后过了，可惜脑抽了，居然想了半天才做出来 ",
+                "capacity": 12111,
+                "poster": {
+                    "id": "122155302",
+                    "platform": 1,
+                    "name": "木子日匀 ",
+                    "emoji": []
+                },
+                "bmp": "38d40da00102c209",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

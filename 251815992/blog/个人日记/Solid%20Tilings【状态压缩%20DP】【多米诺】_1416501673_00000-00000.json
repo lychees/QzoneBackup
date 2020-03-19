@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1416550484,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "这题我在某场古老的ZJOI里见过 = = ",
+                "capacity": 12140,
+                "poster": {
+                    "id": "182035045",
+                    "platform": 1,
+                    "name": "罗翔宇 ",
+                    "emoji": []
+                },
+                "bmp": "18d415a00000c121",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

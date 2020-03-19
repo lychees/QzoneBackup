@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1397092647,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "哇，碉！ ",
+                "capacity": 12147,
+                "poster": {
+                    "id": "112831313",
+                    "platform": 1,
+                    "name": "12-计-董羽飞 ",
+                    "emoji": []
+                },
+                "bmp": "38d40da00102d101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1397099640,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "猎爹吊打 ",
+                "capacity": 12165,
+                "poster": {
+                    "id": "474697421",
+                    "platform": 1,
+                    "name": "朱明琪 ",
+                    "emoji": []
+                },
+                "bmp": "18d195a000028209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1397311491,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "太厉害了。 我的周卓好像有用了。 ",
+                "capacity": 12125,
+                "poster": {
+                    "id": "853983504",
+                    "platform": 1,
+                    "name": "。 ",
+                    "emoji": []
+                },
+                "bmp": "18c095a00002d001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1406450003,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "你应该加个条件必须HIT吧…… ",
+                "capacity": 12142,
+                "poster": {
+                    "id": "751723392",
+                    "platform": 1,
+                    "name": "wwwwodddd ",
+                    "emoji": []
+                },
+                "bmp": "18c095a80000c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1406505587,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "天热，把自己照顾好！ ",
+                "capacity": 12150,
+                "poster": {
+                    "id": "985061865",
+                    "platform": 1,
+                    "name": "姑姑 ",
+                    "emoji": []
+                },
+                "bmp": "184195a100004301",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1406537492,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "执念啊什么的。。。真是可怕呢。 ",
+                "capacity": 12135,
+                "poster": {
+                    "id": "251870949",
+                    "platform": 1,
+                    "name": "赵林娇 ",
+                    "emoji": []
+                },
+                "bmp": "18c095a10002c209",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

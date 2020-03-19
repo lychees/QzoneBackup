@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1260672084,
+                "effect": 1048576,
+                "replyNum": 0,
+                "content": "你果断悲剧了。。。。  Core 2 Duo Processor P8600  4GB DDR3 memory  320GB hard drive  Facial recognition security  NVIDIA GeForce 9400M Graphics  蓝牙，内置摄像头，录音笔什么的不算了  13.3英寸，真皮机壳 ",
+                "capacity": 11968,
+                "poster": {
+                    "id": "534470369",
+                    "platform": 1,
+                    "name": "张弛 ",
+                    "emoji": []
+                },
+                "bmp": "08d08ca000000428",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1260672092,
+                "effect": 1048576,
+                "replyNum": 0,
+                "content": "$899=￥6300  比你便宜将近￥4000。。。  你又不是没见过我的机子，不比苹果丑。。。 ",
+                "capacity": 12090,
+                "poster": {
+                    "id": "534470369",
+                    "platform": 1,
+                    "name": "张弛 ",
+                    "emoji": []
+                },
+                "bmp": "08d08ca000000428",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

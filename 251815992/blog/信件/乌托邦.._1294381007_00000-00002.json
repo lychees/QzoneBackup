@@ -1,0 +1,142 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1294390507,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "[ft=,2,]要好好练字啊!我们老师就教导我们要好好练字..[/ft] ",
+                "capacity": 11948,
+                "poster": {
+                    "id": "315593370",
+                    "platform": 1,
+                    "name": "大魔导师会让你挂科 ",
+                    "emoji": []
+                },
+                "bmp": "18c09da04000c001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "(... 嗯嗯嗯嗯... 是要好好练字啊。。Z。我们老师也教导我们好好练字啊。。但是人家就是学不会嘛。。实在是不擅长这个呢。。) ",
+                        "postTime": 1294392273,
+                        "id": 1294392273,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "315593370",
+                            "name": "大魔导师会让你挂科 ",
+                            "platform": 1
+                        },
+                        "content": ".. ",
+                        "postTime": 1294392780,
+                        "id": 1294392780,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1294390606,
+                "effect": 32,
+                "replyNum": 3,
+                "content": "P.s.你的画很好.. ",
+                "capacity": 11998,
+                "poster": {
+                    "id": "315593370",
+                    "platform": 1,
+                    "name": "大魔导师会让你挂科 ",
+                    "emoji": []
+                },
+                "bmp": "18c09da04000c001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "(。。喂喂。。是内容吧。。是应该读内容才对吧 ... ) ",
+                        "postTime": 1294391686,
+                        "id": 1294391686,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "315593370",
+                            "name": "大魔导师会让你挂科 ",
+                            "platform": 1
+                        },
+                        "content": "..内容我还是看不懂。。 ",
+                        "postTime": 1294392777,
+                        "id": 1294392777,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "。。。呜呜呜。。 ",
+                        "postTime": 1294511243,
+                        "id": 1294511243,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1294398131,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "[ft=,2,][img]file:///C:/Documents%20and%20Settings/Administrator/Application%20Data/Tencent/Users/784237318/QQ/WinTemp/RichOle/$1NR(21SU55@]T8F1WEL$XH.jpg[/img] \n篡  在下一行就会写叻……？！\n呃……\n就是传说中的\n要打破现在的教育制度\n和建立的新的世界？……\n \n \n好好保重……\n[/ft] ",
+                "capacity": 11732,
+                "poster": {
+                    "id": "784237318",
+                    "platform": 1,
+                    "name": "叙眄 ",
+                    "emoji": []
+                },
+                "bmp": "585095a00102c009",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "因为下一行回想起来了嘛。。。偶尔会忘记某个汉字的。。而且有的时候看起来仿佛有些字好奇怪。。。。 ",
+                        "postTime": 1294404564,
+                        "id": 1294404564,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "784237318",
+                            "name": "叙眄 ",
+                            "platform": 1
+                        },
+                        "content": "拼音看着……好陌生…… ",
+                        "postTime": 1294406459,
+                        "id": 1294406459,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

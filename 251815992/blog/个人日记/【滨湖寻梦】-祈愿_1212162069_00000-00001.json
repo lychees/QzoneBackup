@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1212194475,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "虎哥... ",
+                "capacity": 12157,
+                "poster": {
+                    "id": "872840416",
+                    "platform": 1,
+                    "name": "王羽 ",
+                    "emoji": []
+                },
+                "bmp": "58d015a40102e109",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1212230837,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "你太悲观了\n我们要做的就是尽自己力量献出一份爱心\n[B]一旦死了在做些什么..恐怕已经晚了...[/B] \n一点也不晚.. ",
+                "capacity": 12069,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

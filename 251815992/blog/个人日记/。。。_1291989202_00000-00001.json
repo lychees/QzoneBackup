@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1291994130,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "alice scarllet =_= ",
+                "capacity": 12155,
+                "poster": {
+                    "id": "445950142",
+                    "platform": 1,
+                    "name": "Mea ",
+                    "emoji": []
+                },
+                "bmp": "08851da04040c421",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1292062697,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]学生不上学,不学习,你还有什么脸活在这个世上,去死吧、[/ft] ",
+                "capacity": 12104,
+                "poster": {
+                    "id": "1084081420",
+                    "platform": 1,
+                    "name": "安徽老虎 ",
+                    "emoji": []
+                },
+                "bmp": "88419da00000c101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

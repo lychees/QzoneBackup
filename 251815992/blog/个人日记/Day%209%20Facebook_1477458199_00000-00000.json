@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1477465082,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "来了吗 ",
+                "capacity": 12164,
+                "poster": {
+                    "id": "41785691",
+                    "platform": 1,
+                    "name": "iceboy ",
+                    "emoji": []
+                },
+                "bmp": "08c13d800002c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

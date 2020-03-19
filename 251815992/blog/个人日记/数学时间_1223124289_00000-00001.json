@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1223129372,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "[M][B]算的..[/B][/M]\n ",
+                "capacity": 12144,
+                "poster": {
+                    "id": "173324507",
+                    "platform": 1,
+                    "name": "Groot ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1226760674,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "设正方体棱长为a，体对角线就是sqrt(3)a，键角=2*arccos((1/2)/(sqrt(3)/2)) = 109度28分 ",
+                "capacity": 12086,
+                "poster": {
+                    "id": "821339950",
+                    "platform": 1,
+                    "name": "颠哥 ",
+                    "emoji": []
+                },
+                "bmp": "1880dd2000008001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

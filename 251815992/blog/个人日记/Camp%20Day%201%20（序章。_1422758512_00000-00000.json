@@ -1,0 +1,51 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1422762557,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "钦爷是啥模型 ",
+                "capacity": 11971,
+                "poster": {
+                    "id": "418615910",
+                    "platform": 1,
+                    "name": "特种兵3-郭泽晖 ",
+                    "emoji": []
+                },
+                "bmp": "18c49d8800009401",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "2830264590",
+                            "name": "Farewell. ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:418615910,nick:特种兵3-郭泽晖,who:1,auto:1} 智商爆艹一切 ",
+                        "postTime": 1422767458,
+                        "id": 1422767458,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "418615910",
+                            "name": "特种兵3-郭泽晖 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:2830264590,nick:Farewell.,who:1,auto:1} 那就是天赋咯。。。GG ",
+                        "postTime": 1422810035,
+                        "id": 1422810035,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

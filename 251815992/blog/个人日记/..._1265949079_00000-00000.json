@@ -1,0 +1,73 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1265955654,
+                "effect": 32,
+                "replyNum": 4,
+                "content": "[ft=,2,].......[em]e136[/em]能不能介绍哈利给我认识下[/ft] ",
+                "capacity": 11924,
+                "poster": {
+                    "id": "1393904777",
+                    "platform": 1,
+                    "name": "猫猫 ",
+                    "emoji": []
+                },
+                "bmp": "08809c2002008001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "1303552653",
+                            "name": "赫敏·格兰杰 ",
+                            "platform": 1
+                        },
+                        "content": "929246539 ",
+                        "postTime": 1265985850,
+                        "id": 1265985850,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "。。你你你你你们不要在我空间交友。。。# ",
+                        "postTime": 1265985913,
+                        "id": 1265985913,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "1303552653",
+                            "name": "赫敏·格兰杰 ",
+                            "platform": 1
+                        },
+                        "content": "我在帮他找哈利波特啊？ ",
+                        "postTime": 1265987219,
+                        "id": 1265987219,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "1303552653",
+                            "name": "赫敏·格兰杰 ",
+                            "platform": 1
+                        },
+                        "content": "顺便说句，这位同学要感谢我啊... ",
+                        "postTime": 1265987673,
+                        "id": 1265987673,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

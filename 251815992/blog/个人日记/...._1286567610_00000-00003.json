@@ -1,0 +1,79 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1286571324,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "熬夜看A片不好 ",
+                "capacity": 12153,
+                "poster": {
+                    "id": "102897108",
+                    "platform": 1,
+                    "name": " Alex ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00100e009",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1286581856,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "饿死算了 ",
+                "capacity": 12164,
+                "poster": {
+                    "id": "103529760",
+                    "platform": 1,
+                    "name": "谢卫健 ",
+                    "emoji": []
+                },
+                "bmp": "18c09d2000008001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1286600073,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "作为一名午夜党。。。我感到很不给力，为嘛你睡到中午，我却六点半就得起。 ",
+                "capacity": 12097,
+                "poster": {
+                    "id": "226297033",
+                    "platform": 1,
+                    "name": "尛、胡糊 ",
+                    "emoji": []
+                },
+                "bmp": "28d40de00942c409",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1286616323,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "。。看来我们昨天夜晚的睡眠质量差不多，我也是起床后吃午饭的。 ",
+                "capacity": 12110,
+                "poster": {
+                    "id": "420836131",
+                    "platform": 1,
+                    "name": "doc ",
+                    "emoji": []
+                },
+                "bmp": "18d025a00000e101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

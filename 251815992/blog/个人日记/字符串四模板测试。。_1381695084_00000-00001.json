@@ -1,0 +1,57 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1383215312,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "虽然 不懂 但顶下 哈哈 ",
+                "capacity": 12142,
+                "poster": {
+                    "id": "523591643",
+                    "platform": 1,
+                    "name": "HCO-罗勇林 ",
+                    "emoji": []
+                },
+                "bmp": "98d015a41502c481",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1389108665,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "为什么觉得这个AC自动机好奇怪……匹配的时候好像没用fail的样子……测试一下怎么觉得不对……还是我题意理解错了…… ",
+                "capacity": 11994,
+                "poster": {
+                    "id": "2641127912",
+                    "platform": 1,
+                    "name": "Towerlight ",
+                    "emoji": []
+                },
+                "bmp": "08509d8002008101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "2641127912",
+                            "name": "Towerlight ",
+                            "platform": 1
+                        },
+                        "content": "当我什么都没说好了…… ",
+                        "postTime": 1389446541,
+                        "id": 1389446541,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

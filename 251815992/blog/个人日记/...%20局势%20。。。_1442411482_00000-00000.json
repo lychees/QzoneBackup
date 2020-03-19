@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1442415157,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "好像和长春站现场赛时间重复了 ",
+                "capacity": 12140,
+                "poster": {
+                    "id": "504594852",
+                    "platform": 1,
+                    "name": "里克尔梅 ",
+                    "emoji": []
+                },
+                "bmp": "08c09d800000c401",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

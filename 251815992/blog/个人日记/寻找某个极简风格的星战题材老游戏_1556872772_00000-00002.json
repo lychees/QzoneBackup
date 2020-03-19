@@ -1,0 +1,74 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1556884917,
+                "postTime": 1556884917,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "人工智能战争：舰队指挥官？ ",
+                "capacity": 12034,
+                "poster": {
+                    "id": "297347023",
+                    "platform": 1,
+                    "name": "13-苗禹 ",
+                    "emoji": []
+                },
+                "bmp": "98d195a00000c001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:297347023,nick:13-苗禹,who:1,auto:1}状态是连续的（不是离散的） ",
+                        "postTime": 1556889712,
+                        "id": 1556889712,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 1556905360,
+                "postTime": 1556905360,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "The space game？ ",
+                "capacity": 12154,
+                "poster": {
+                    "id": "317661924",
+                    "platform": 1,
+                    "name": "[保厨]QAQ ",
+                    "emoji": []
+                },
+                "bmp": "984095a00002a201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 1556983414,
+                "postTime": 1556983414,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "看前面的描述以为是银河输送站（galcon），  但是这游戏没武器～～ ",
+                "capacity": 12112,
+                "poster": {
+                    "id": "492504222",
+                    "platform": 1,
+                    "name": "[cduestc]gmx ",
+                    "emoji": []
+                },
+                "bmp": "18c09da00000c201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

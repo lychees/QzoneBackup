@@ -1,0 +1,57 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1268964396,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "......我很想要书架里的这本...《英国贵族の城馆..》\n...《英国贵族の城馆..》 ...《英国贵族の城馆..》 ...《英国贵族の城馆..》 ....................\n有没有人愿意帮我买一本...（请在这篇下面的空白处留言...T   T）....\n....\n 我可以完成[em]e189[/em] ",
+                "capacity": 11900,
+                "poster": {
+                    "id": "416778437",
+                    "platform": 1,
+                    "name": "知道 ",
+                    "emoji": []
+                },
+                "bmp": "18c1d5a00000c101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "....啊－ －.... ",
+                        "postTime": 1268969478,
+                        "id": 1268969478,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1269104757,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]我可以送你一本小虎。。[/ft] ",
+                "capacity": 12131,
+                "poster": {
+                    "id": "264292840",
+                    "platform": 1,
+                    "name": "假扮的天使 ",
+                    "emoji": []
+                },
+                "bmp": "88419da00102c201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

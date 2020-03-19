@@ -1,0 +1,556 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    树上斜率 DP
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             树上斜率 DP
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2013-12-09 14:49:50
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(67)	è¯è®º(2)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1386618590,
+"voteids":0,
+"pubtime":1386618590,
+"replynum":2,
+"category":"个人日记",
+"title":"树上斜率 DP",
+"effect":8389121,
+"effect2":524294,
+"exblogtype":3,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":81177,
+"lp_style":16843520,
+"lp_flag":0,
+"lp_topvalue":0,
+"orguin":251815992,
+"orgblogid":1386618590,
+"mention_uins":[ ],
+"attach":[],"comments":[{"id":1,
+"postTime":1386634214,
+"effect":1056,
+"replyNum":2,
+"content":"这题有啥渊源 ",
+"capacity":11974,
+"poster":{
+"id":"593572013",
+"platform":1,
+"name":"wuyiqi ",
+"emoji":[ ]}
+,
+"bmp":"98d095800000c101",
+"ismyreply":0,
+"replies":[{"poster":{
+"id":"251815992",
+"name":"小岛美奈子 ",
+"platform":1}
+,
+"content":"@{uin:593572013,nick:wuyiqi,who:1,auto:1}就是我只能嘴巴 AC。 ",
+"postTime":1386655094,
+"id":1386655094,
+"effect":0},
+{"poster":{
+"id":"593572013",
+"name":"wuyiqi ",
+"platform":1}
+,
+"content":"@{uin:251815992,nick:小岛美奈子,who:1,auto:1} 长春的题？ ",
+"postTime":1386655258,
+"id":1386655258,
+"effect":0}]},
+{"id":2,
+"postTime":1386719898,
+"effect":1056,
+"replyNum":1,
+"content":"@{uin:121371490,nick:詹艳玲,who:1} 可以看看 ",
+"capacity":11924,
+"poster":{
+"id":"276224245",
+"platform":1,
+"name":"北冥之鱼 ",
+"emoji":[ ]}
+,
+"bmp":"18d015a000008401",
+"ismyreply":0,
+"replies":[{"poster":{
+"id":"121371490",
+"name":"詹艳玲 ",
+"platform":1}
+,
+"content":"@{uin:276224245,nick:北冥之鱼,who:1,auto:1}看起来好厉害，不过没看懂诶。。。。我之前那个方法内存占用好像略大的说[em]e103[\/em] ",
+"postTime":1386733919,
+"id":1386733919,
+"effect":0}]}]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <div>
+                <a href="http://www.ceoi2009.ro/view_page.php?id=24" target="_blank">
+                 <br/>
+                 http://www.ceoi2009.ro/view_page.php?id=24
+                </a>
+                <br/>
+                <br/>
+                <br/>
+                <a href="http://main.edu.pl/en/archive/ceoi" target="_blank">
+                 http://main.edu.pl/en/archive/ceoi
+                </a>
+                <br/>
+                <a href="http://www.spoj.com/OI/problems/CEOI09HA/" target="_blank">
+                 http://www.spoj.com/OI/problems/CEOI09HA/
+                </a>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                ————————
+                <br/>
+                首先写出状态转移方程。。
+                <br/>
+                <br/>
+                <br/>
+                <div>
+                 checkMin(dp[u], dp[pp]+ss[u]+vv[u]*(dd[u]-dd[pp]));  ... 其中 pp 是 u 的某个祖先。。
+                 <span>
+                  <br/>
+                  <span>
+                   <br/>
+                   。。分离常量。。
+                  </span>
+                 </span>
+                </div>
+                <div>
+                 ...dp[u] = min{dp[pp] - dd[pp]*vv[u]}
+                 <span>
+                  + (
+                 </span>
+                 <span>
+                  ss[u] + vv[u]*dd[u])
+                  <br/>
+                  <br/>
+                  <br/>
+                  考虑如果 p1 决策比 p2 优。。。整理可得。。。
+                  <br/>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   vv[u]  &lt; dp[p2] - dp[p1]
+                  </div>
+                  <div>
+                   ---------------
+                  </div>
+                  <div>
+                   dd[p2] - dd[p1]
+                  </div>
+                  <br/>
+                 </span>
+                 我们维护这个凸壳。。
+                 <span>
+                  <span>
+                   <br/>
+                   由于 边长都是正值。。。 dd[pp] 单调递增。。所以属于第二类斜率 DP 问题。。可以直接用    栈   维护凸壳。。。
+                   <br/>
+                   。。。
+                   <br/>
+                  </span>
+                 </span>
+                </div>
+                <br/>
+                <img alt="图片" src="http://a2.qpic.cn/psb?/a7723d22-15e1-452d-817f-ed63333f3d7d/lxmEFwaSmJZ8pBRJZsrfArCB6.lenXqZ6Qe78Q4u.R8!/b/dGm8rlEHCgAA&amp;ek=1&amp;kp=1&amp;pt=0&amp;bo=IwG6AAAAAAABAL8!&amp;t=5&amp;tl=3&amp;su=0252211441&amp;tm=1584576000&amp;sce=0-12-12&amp;rf=2-9" style="width:291px;height:186px"/>
+                <br/>
+                <br/>
+                剩下的问题就是。。。退回父亲节点的时候如何简单维护的实现上的问题了。。。。。
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                类似十字链表中的做法。。。
+                <br/>
+                考虑我们当前栈中的元素是 。1,2,3,4,5,6,7 。。。。
+                <br/>
+                。。。插入的新元素在 3 位置。。那么 4,5,6,7 本应该是被删除的。。。
+                <br/>
+                <br/>
+                但是为了可以复原。。我们并不执行删除。。。而是在将新元素插在。。一个新的位置。。并和 3 位置交换。。。。。
+                <br/>
+                。。记录此时栈实际的深度。。。。
+                <br/>
+                <br/>
+                。。返回的时候。。交换回来即可。。。
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <a href="https://gist.github.com/lychees/7887844" target="_blank">
+                 https://gist.github.com/lychees/7887844
+                </a>
+                <br/>
+                <br/>
+                <br/>
+                int stk[N]; DB slp[N]; // 左边表示 栈 中结点的编号。。右边表示斜率。。。
+                <br/>
+                <br/>
+                <div>
+                 #define k(x) ((DB)(dp[stk[x]]-dp[u])/(dd[stk[x]]-dd[u]))
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 LL dp[N]; int stk[N]; DB slp[N];
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 void dfs(int u = 1, int p = 0, int rr = 0, int tt = 0){
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 int ll = 0; while(ll &lt; rr){
+                </div>
+                <div>
+                 int mm = ll + rr &gt;&gt; 1;
+                </div>
+                <div>
+                 if (k(mm) &lt; slp[mm]) rr = mm;
+                </div>
+                <div>
+                 else ll = mm+1;
+                </div>
+                <div>
+                 }
+                 <br/>
+                 <span>
+                  <br/>
+                  // 单峰 。。
+                 </span>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 stk[tt] = u, slp[tt] = ll ? k(ll-1) : 0;
+                </div>
+                <div>
+                 swap(stk[ll], stk[tt]), swap(slp[ll], slp[tt]); ++ll; ++tt;
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 REP_G(i, u) if (v != p){
+                </div>
+                <div>
+                 dd[v] = dd[u]+w; int pp = stk[lower_bound(slp, slp+ll, DB(vv[v]))-slp-1];   // 二分。。
+                </div>
+                <div>
+                 dp[v] = dp[pp]+ss[v]+vv[v]*(dd[v]-dd[pp]);
+                </div>
+                <div>
+                 dfs(v, u, ll, tt);
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 --tt; --ll; swap(stk[ll], stk[tt]), swap(slp[ll], slp[tt]);
+                </div>
+                <div>
+                 }
+                </div>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+               </div>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

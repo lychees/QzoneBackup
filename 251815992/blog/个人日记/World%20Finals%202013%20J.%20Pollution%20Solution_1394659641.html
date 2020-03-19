@@ -1,0 +1,707 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    World Finals 2013 J. Pollution Solution
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             World Finals 2013 J. Pollution Solution
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2014-03-12 17:27:21
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(42)	è¯è®º(1)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1394659641,
+"voteids":0,
+"pubtime":1394659641,
+"replynum":1,
+"category":"个人日记",
+"title":"World Finals 2013 J. Pollution Solution",
+"effect":8389120,
+"effect2":524294,
+"exblogtype":3,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":81177,
+"lp_style":16843520,
+"lp_flag":0,
+"lp_topvalue":0,
+"orguin":251815992,
+"orgblogid":1394659641,
+"mention_uins":[ ],
+"attach":[],"comments":[{"id":1,
+"postTime":1394709305,
+"effect":0,
+"replyNum":0,
+"content":"岛娘是特意用梯形剖分写这题？ ",
+"capacity":12140,
+"poster":{
+"id":"892431401",
+"platform":1,
+"name":"ydc ",
+"emoji":[ ]}
+,
+"bmp":"18c08d840002c201",
+"ismyreply":0,
+"replies":[]}]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <div>
+                <div>
+                 <span>
+                  <br/>
+                  -- UPD --
+                  <br/>
+                  <br/>
+                  。。。终于调过了。。这个题精度要求很低。。。WA 一般都是算面积的时候反向搞错了。。。
+                  <br/>
+                  。。。。
+                  <br/>
+                  <br/>
+                  1. 不需要建立事件簿。。直接枚举多边形的每组边。。求出其与半圆的 2 个交点。。
+                  <br/>
+                  。。。那么会形成三个独立的可计算面积的部分。。（三角形 or 扇形）。。‘
+                 </span>
+                 <span>
+                  <br/>
+                  。。。全部累加起来即可。。复杂度 O(n)。。。
+                  <br/>
+                  <br/>
+                  <br/>
+                  P[i+1]
+                  <br/>
+                  |        p2
+                  <br/>
+                  |      /      p1
+                  <br/>
+                  |    /      /
+                  <br/>
+                  O      -------     P[i]
+                  <br/>
+                  <br/>
+                 </span>
+                 ..（如果只有一个交点那么有一个部分是退化的，如果没有交点那么有两个部分是退化的。。。）
+                 <br/>
+                 <span>
+                  <br/>
+                  <br/>
+                  2.
+                  <br/>
+                  。。。这两个部分都用  有向面积 表达。。（因此避免使用诸如海伦公式这类会丢失方向信息的黑科技。。）。。。
+                  <br/>
+                  。。。。每次解出 t1, t2。。
+                  <br/>
+                  <br/>
+                  p1 = p(max(0., (-B-D)/A)), p2 = p(min((-B+D)/A, 1.));
+                  <br/>
+                  。。。定义 p(t) 表示参数方程带入 t 时得到的点。。t 表示与 P[i] 的相关性。。
+                  <br/>
+                  。。。p(0) =
+                 </span>
+                 P[i], p(1) =P[i+1] 。。这样处理就美观多了。。。
+                 <br/>
+                 <br/>
+                 。。主程序表达出来只需要寥寥数十行！！。。。
+                 <span>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <div>
+                   //}/* .................................................................................................................................. */
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   DB r; VP P; VF I; int n; DB z; DB f(const Po&amp; a, const Po&amp; b){
+                  </div>
+                  <div>
+                   return sgn(a.len2(), r) &gt; 0  || sgn(b.len2(), r) &gt; 0 ?  r*(b.arg()-a.arg()) : det(a, b);
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   #define p(t) (P[i]*(1-t)+P[i+1]*(t))
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   int main(){
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   #ifndef ONLINE_JUDGE
+                  </div>
+                  <div>
+                   freopen("in.txt", "r", stdin);
+                  </div>
+                  <div>
+                   //freopen("out.txt", "w", stdout);
+                  </div>
+                  <div>
+                   #endif
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   RD(n); RF(r); r*=r; DO(n) P.PB(getPo()); P.PB(P[0]); REP(i, n){
+                  </div>
+                  <div>
+                   Po v = P[i+1]-P[i]; DB A = v.len2(), B = 2*(v.x*P[i].x+v.y*P[i].y), C = P[i].len2()-r, D = sqr(B) - 4*A*C;
+                  </div>
+                  <div>
+                   Po p1 = P[i], p2 = P[i+1]; if (~sgn(D)) D = sqrt(D), A *= 2, p1 = p(max(0., (-B-D)/A)), p2 = p(min((-B+D)/A, 1.));
+                  </div>
+                  <div>
+                   z += f(P[i], p1) + f(p1, p2) + f(p2, P[i+1]);
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   OT(z/2);
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  ————————————————————————————
+                  <br/>
+                  <br/>
+                  。三角剖分。。做法类似多边形面积并。。。。。首先求出半圆与多边形的所有交点。
+                  <br/>
+                  <br/>
+                  <br/>
+                  。。。考虑解析几何。为了避免漏解。。。我们对线段设参数方程。。。
+                  <br/>
+                  <br/>
+                  t ∈ [0, 1]
+                  <br/>
+                  x = tx0 + (1-t)x1
+                  <br/>
+                  y = ty0 + (1-t)y1
+                  <br/>
+                  带入圆的方程..
+                 </span>
+                 <span>
+                  x^2 + y^2 = r^2 | y &gt; 0 。。。
+                 </span>
+                 <span>
+                  <br/>
+                 </span>
+                 <span>
+                  <span>
+                   整理得：
+                   <br/>
+                   DB A = (P[i+1]-P[i]).len2(), B = 2*((P[i].x-P[i+1].x)*P[i+1].x+(P[i].y-P[i+1].y)*P[i+1].y), C = P[i+1].len2()-r, D = sqr(B) - 4*A*C;
+                   <br/>
+                   <br/>
+                  </span>
+                 </span>
+                 <span>
+                  <br/>
+                  。。。。把得到的交点和多边形本身全部放到事件簿中。。
+                 </span>
+                </div>
+                <div>
+                 <span>
+                  <span>
+                   。。。之后对多边形做梯形剖分。。
+                   <br/>
+                   。。枚举边和角度区间。。。。
+                   <br/>
+                   假设边是 s，角度区间是 I[i] ~ I[i+1]。。。
+                   <br/>
+                   <br/>
+                   设 L(x) 表示原点出发，张角为 x 的射线。。。
+                   <br/>
+                   <br/>
+                   。。首先求出 d ：
+                   <br/>
+                   。。线段 s 上，与 L( 角度区间中间 ) 的交点到原点的距离。。。
+                   <br/>
+                   （以确认是三角形还是扇形。。
+                   <br/>
+                   z += sgn(d, ::r) &lt; 0 ? S(Po(), s*L(I[i]), s*L(I[i+1])) : ::r*(I[i+1]-I[i])/2;
+                   <br/>
+                   。。。前者可以利用海伦公式。。。。
+                   <br/>
+                  </span>
+                 </span>
+                </div>
+                <div>
+                </div>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                但是好像哪里不对。。。。。
+                <br/>
+                <br/>
+                <br/>
+                <div>
+                 //}/* .................................................................................................................................. */
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 DB r; VP P; VF I; int n;
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 Line L(DB x){
+                </div>
+                <div>
+                 return Line(Po(0, 0), Po(cos(x), sin(x)));
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 DB S(Po p0, Po p1, Po p2){
+                </div>
+                <div>
+                 DB a = dist(p0, p1), b = dist(p0, p2), c = dist(p1, p2), p = (a+b+c) / 2;
+                </div>
+                <div>
+                 return sqrt(p*(p-a)*(p-b)*(p-c));
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 DB f(Seg s, int l, int r){
+                </div>
+                <div>
+                 DB z = 0; FOR(i, l, r){
+                </div>
+                <div>
+                 DB d = (s*L((I[i]+I[i+1])/2)).len2();
+                </div>
+                <div>
+                 z += sgn(d, ::r) &lt; 0 ? S(Po(), s*L(I[i]), s*L(I[i+1])) : ::r*(I[i+1]-I[i])/2;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 return z;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 int main(){
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 #ifndef ONLINE_JUDGE
+                </div>
+                <div>
+                 freopen("in.txt", "r", stdin);
+                </div>
+                <div>
+                 //freopen("out.txt", "w", stdout);
+                </div>
+                <div>
+                 #endif
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 RD(n); RF(r); r*=r; DO(n) P.PB(getPo()); P.PB(P[0]);
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 #define Add(t) if (-EPS &lt;= t &amp;&amp; t &lt;= 1 + EPS){\
+                </div>
+                <div>
+                 Po p = t*P[i] + (1-t)*P[i+1]; \
+                </div>
+                <div>
+                 I.PB(p.arg());\
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 REP(i, n){
+                </div>
+                <div>
+                 I.PB(P[i].arg());
+                </div>
+                <div>
+                 DB A = (P[i+1]-P[i]).len2(), B = 2*((P[i].x-P[i+1].x)*P[i+1].x+(P[i].y-P[i+1].y)*P[i+1].y), C = P[i+1].len2()-r, D = sqr(B) - 4*A*C;
+                </div>
+                <div>
+                 if (sgn(D) &lt; 0) continue; D = sqrt(D); A *= 2;
+                </div>
+                <div>
+                 Add((-B+D)/A); Add((-B-D)/A);
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 SRT(I); DB z = 0; REP(i, n){
+                </div>
+                <div>
+                 int l = LBD(I, P[i].arg()), r = LBD(I, P[i+1].arg()); Seg s(P[i], P[i+1]);
+                </div>
+                <div>
+                 if (l &lt; r) z += f(s, l, r); else z -= f(s, r, l);
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 OT(z);
+                </div>
+                <div>
+                 }
+                </div>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+               </div>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

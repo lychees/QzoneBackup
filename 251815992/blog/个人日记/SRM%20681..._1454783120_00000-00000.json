@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1454820637,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "这次500，第一次tc上见到数据生成方法和答案是相关的。 ",
+                "capacity": 12121,
+                "poster": {
+                    "id": "50136908",
+                    "platform": 1,
+                    "name": "justever86 ",
+                    "emoji": []
+                },
+                "bmp": "08c09d840100c401",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

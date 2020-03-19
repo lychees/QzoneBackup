@@ -1,0 +1,40 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1268025422,
+                "effect": 1048608,
+                "replyNum": 1,
+                "content": "..ms 那个链接居然链到了你的空间 ",
+                "capacity": 12105,
+                "poster": {
+                    "id": "443164766",
+                    "platform": 1,
+                    "name": "\"zrp\" ",
+                    "emoji": []
+                },
+                "bmp": "088094a10000c301",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "粘贴到浏览器... ",
+                        "postTime": 1268025481,
+                        "id": 1268025481,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

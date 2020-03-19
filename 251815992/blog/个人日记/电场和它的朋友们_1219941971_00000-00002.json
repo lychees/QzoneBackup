@@ -1,0 +1,74 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1219942041,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "[B]第一次写这类文章....欢迎大家多多指教啦～[/B] ",
+                "capacity": 12125,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1219964525,
+                "effect": 4194336,
+                "replyNum": 1,
+                "content": "汗......还好我都学了......\n小岛，我们这边的AP物理课和你们那边的实验班上的内容差不多，但是解题都是用微分和积分解得......貌似和金教授的课差不多。\n还有我的物理老师在学校super有名，估计比是世权和亦奇还牛逼的人物，一看就是个科学狂人......不照了...... ",
+                "capacity": 11889,
+                "poster": {
+                    "id": "534470369",
+                    "platform": 1,
+                    "name": "张弛 ",
+                    "emoji": []
+                },
+                "bmp": "08d08ca000000428",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "~~~~~~~~~哟哟哟哟哟 ",
+                        "postTime": 1219989257,
+                        "id": 1219989257,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1219982303,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "得得得，太难了\n汗~~~ ",
+                "capacity": 12148,
+                "poster": {
+                    "id": "574712047",
+                    "platform": 1,
+                    "name": "陈志浩 ",
+                    "emoji": []
+                },
+                "bmp": "189095e4010ee101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

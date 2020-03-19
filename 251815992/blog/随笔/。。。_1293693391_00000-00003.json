@@ -1,0 +1,91 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1293693579,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "入阁？你在恢复明朝旧制吗？ ",
+                "capacity": 12142,
+                "poster": {
+                    "id": "451524137",
+                    "platform": 1,
+                    "name": "光之神圣 ",
+                    "emoji": []
+                },
+                "bmp": "18c1f4a40080c109",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1293697292,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "明朝的史料扑朔迷离，而且布满疑云。。\n不知道这部分要怎么读。。。 ",
+                "capacity": 12109,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1293864874,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "张居正还太年轻，不理解徐阶。 ",
+                "capacity": 12099,
+                "poster": {
+                    "id": "451524137",
+                    "platform": 1,
+                    "name": "光之神圣 ",
+                    "emoji": []
+                },
+                "bmp": "18c1f4a40080c109",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "。恩恩恩恩。。。。。。 ",
+                        "postTime": 1293864898,
+                        "id": 1293864898,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "postTime": 1293891939,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]呵呵，这段文字，其实很熟悉的~[/ft] ",
+                "capacity": 12123,
+                "poster": {
+                    "id": "6572389",
+                    "platform": 1,
+                    "name": "耿彪 ",
+                    "emoji": []
+                },
+                "bmp": "185195840102c409",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

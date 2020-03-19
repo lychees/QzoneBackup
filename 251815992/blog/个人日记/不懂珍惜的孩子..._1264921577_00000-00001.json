@@ -1,0 +1,44 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1264936570,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]额..[/ft] ",
+                "capacity": 12147,
+                "poster": {
+                    "id": "315593370",
+                    "platform": 1,
+                    "name": "大魔导师会让你挂科 ",
+                    "emoji": []
+                },
+                "bmp": "18c09da04000c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1264947596,
+                "effect": 524288,
+                "replyNum": 0,
+                "content": "… ",
+                "capacity": 12147,
+                "poster": {
+                    "id": "c265e4bd629300c562e467283fe8cb305e95bb38782791a7",
+                    "platform": 2,
+                    "name": "程乐一"
+                },
+                "bmp": "0000000000000000",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

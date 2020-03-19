@@ -1,0 +1,131 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 5,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1219842982,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "小时候的我们..\n还不懂事...\n长大了..\n我们才懂得回忆... ",
+                "capacity": 12115,
+                "poster": {
+                    "id": "122698324",
+                    "platform": 1,
+                    "name": "张晓晨 ",
+                    "emoji": []
+                },
+                "bmp": "18d19560010e8009",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1219972427,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "我们啊我们.\n为了解脱而失去快乐.\n为了成熟而丢掉幸福.\n \n我们把青春应该有的样子丢掉了.\n \n只能靠上网来充斥自己空虚的世界. ",
+                "capacity": 12056,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1219973741,
+                "effect": 4194336,
+                "replyNum": 1,
+                "content": "我只是尽力让自己的人生不留下遗憾 ",
+                "capacity": 12084,
+                "poster": {
+                    "id": "307757035",
+                    "platform": 1,
+                    "name": "税子龙 ",
+                    "emoji": []
+                },
+                "bmp": "084195a40000c001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "...#\n你说话的语气怎么怪怪的...`# ",
+                        "postTime": 1219989419,
+                        "id": 1219989419,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "postTime": 1219982161,
+                "effect": 4194336,
+                "replyNum": 2,
+                "content": "哥哥啊，别称呼我小朋友好么？\n= -\n打击啊……\n你不必太在意\n消息说屠老师转到了蚌五小…… ",
+                "capacity": 11994,
+                "poster": {
+                    "id": "574712047",
+                    "platform": 1,
+                    "name": "陈志浩 ",
+                    "emoji": []
+                },
+                "bmp": "189095e4010ee101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "～收到啦～ ",
+                        "postTime": 1219989372,
+                        "id": 1219989372,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "574712047",
+                            "name": "陈志浩 ",
+                            "platform": 1
+                        },
+                        "content": "消息真灵通~~~\n话说你什么时候走啊 ？？ ",
+                        "postTime": 1219991338,
+                        "id": 1219991338,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "postTime": 1219991390,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "[QUOTE]引自：暗淡无光  于 2008年8月29日 9时35分41秒 发表的评论\n\n我只是尽力让自己的人生不留下遗憾[/QUOTE]\n这是成熟的 表现~~ ",
+                "capacity": 12048,
+                "poster": {
+                    "id": "574712047",
+                    "platform": 1,
+                    "name": "陈志浩 ",
+                    "emoji": []
+                },
+                "bmp": "189095e4010ee101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

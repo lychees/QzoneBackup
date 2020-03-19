@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1491775303,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "快递？等等，我没收到啊[em]e101[/em] ",
+                "capacity": 12123,
+                "poster": {
+                    "id": "121371490",
+                    "platform": 1,
+                    "name": "詹艳玲 ",
+                    "emoji": []
+                },
+                "bmp": "18d5dda00102e409",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 1513960841,
+                "postTime": 1513960841,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "我也要switch！！！ ",
+                "capacity": 12153,
+                "poster": {
+                    "id": "362937322",
+                    "platform": 1,
+                    "name": "小灰灰2333 ",
+                    "emoji": []
+                },
+                "bmp": "185095a40102c201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

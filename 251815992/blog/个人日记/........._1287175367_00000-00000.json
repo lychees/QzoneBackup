@@ -1,0 +1,40 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1287231262,
+                "effect": 1048608,
+                "replyNum": 1,
+                "content": "= = 知道为什么不落叶吗？。。因为那时温带（亚寒带？）常绿阔叶林。。。 ",
+                "capacity": 12052,
+                "poster": {
+                    "id": "443164766",
+                    "platform": 1,
+                    "name": "\"zrp\" ",
+                    "emoji": []
+                },
+                "bmp": "088094a10000c301",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "不。。那些。。。是同样的柳树。。 ",
+                        "postTime": 1287235167,
+                        "id": 1287235167,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

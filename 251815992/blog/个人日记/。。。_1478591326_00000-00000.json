@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1478594507,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "没用了…… ",
+                "capacity": 12153,
+                "poster": {
+                    "id": "984704531",
+                    "platform": 1,
+                    "name": "蒟蒻 ",
+                    "emoji": []
+                },
+                "bmp": "18c095a000028401",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

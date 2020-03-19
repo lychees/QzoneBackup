@@ -1,0 +1,51 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1470049491,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "好多错别字 ",
+                "capacity": 11957,
+                "poster": {
+                    "id": "569620205",
+                    "platform": 1,
+                    "name": " [ ccnu ] Tmono ",
+                    "emoji": []
+                },
+                "bmp": "58d08da8000ec209",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:569620205,nick: [ ccnu ] Tmono,auto:1} 比赛的时候写的= =。。。 ",
+                        "postTime": 1470053000,
+                        "id": 1470053000,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "569620205",
+                            "name": " [ ccnu ] Tmono ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1} [em]e401185[/em]一心二用 ",
+                        "postTime": 1470053052,
+                        "id": 1470053052,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

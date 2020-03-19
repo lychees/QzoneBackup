@@ -1,0 +1,40 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1273575404,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "Dragon boy....\norz....草稿太卡通了。。。。 \n求楼主改成yy题材。 ",
+                "capacity": 12046,
+                "poster": {
+                    "id": "1393904777",
+                    "platform": 1,
+                    "name": "猫猫 ",
+                    "emoji": []
+                },
+                "bmp": "08809c2002008001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "1393904777",
+                            "name": "猫猫 ",
+                            "platform": 1
+                        },
+                        "content": "[em]e102[/em]开玩笑...我也想参与~8月份之后 ",
+                        "postTime": 1273575560,
+                        "id": 1273575560,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

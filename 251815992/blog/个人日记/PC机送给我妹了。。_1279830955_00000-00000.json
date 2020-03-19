@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1279844527,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "同感……这个世界的数据很混沌…… ",
+                "capacity": 12142,
+                "poster": {
+                    "id": "87974035",
+                    "platform": 1,
+                    "name": "Be ",
+                    "emoji": []
+                },
+                "bmp": "0894d4a00040e101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

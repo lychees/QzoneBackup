@@ -1,0 +1,119 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1321803401,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "貌似你没有的我都没有。。。呜呜 ",
+                "capacity": 12138,
+                "poster": {
+                    "id": "122155302",
+                    "platform": 1,
+                    "name": "木子日匀 ",
+                    "emoji": []
+                },
+                "bmp": "38d40da00102c209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1321808296,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "你是个好人。。 ",
+                "capacity": 12126,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "122155302",
+                            "name": "木子日匀 ",
+                            "platform": 1
+                        },
+                        "content": "呜呜呜呜呜 ",
+                        "postTime": 1321841330,
+                        "id": 1321841330,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1322061278,
+                "effect": 1056,
+                "replyNum": 4,
+                "content": "北京A题我用的就是次小生成树N^2的……但F题次小+贪心如果能过的话……AC数有点过少吧…… ",
+                "capacity": 11819,
+                "poster": {
+                    "id": "397608993",
+                    "platform": 1,
+                    "name": "233 ",
+                    "emoji": []
+                },
+                "bmp": "18915d0440008021",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "。。。次小的算法不是N^2的。。。www.zybbs.org/JudgeOnline/problem.php?id=2238 ",
+                        "postTime": 1322068640,
+                        "id": 1322068640,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "397608993",
+                            "name": "233 ",
+                            "platform": 1
+                        },
+                        "content": "Prim版的不是N^2么= = ",
+                        "postTime": 1322105642,
+                        "id": 1322105642,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "397608993",
+                            "name": "233 ",
+                            "platform": 1
+                        },
+                        "content": "这题次小有Bug... ",
+                        "postTime": 1322105728,
+                        "id": 1322105728,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "我们的方法不一样。。你的不适用这题。。。等我A了再说吧。。> < ",
+                        "postTime": 1322122654,
+                        "id": 1322122654,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

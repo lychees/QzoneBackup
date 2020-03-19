@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1275891187,
+                "effect": 1048576,
+                "replyNum": 0,
+                "content": "真的不是我臭你（模仿王世权），我拿了准考证都不好意思去高考，你居然还想去考？！ ",
+                "capacity": 12092,
+                "poster": {
+                    "id": "917640727",
+                    "platform": 1,
+                    "name": "euclid ",
+                    "emoji": []
+                },
+                "bmp": "0880942000000001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1276179148,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]我以前考试后面那个是个空位。。。难道也是这种情况。。。我一直以为是他拒考咧。。。。[/ft] ",
+                "capacity": 12076,
+                "poster": {
+                    "id": "114099336",
+                    "platform": 1,
+                    "name": "光禾 ",
+                    "emoji": []
+                },
+                "bmp": "18d094a50000c401",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

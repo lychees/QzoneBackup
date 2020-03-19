@@ -1,0 +1,40 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1326118210,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[ft=,2,]虽然这个空间你只是记录琐事，但是却让我怀念很多，相同的经历我也有过[/ft] ",
+                "capacity": 12022,
+                "poster": {
+                    "id": "1185442737",
+                    "platform": 1,
+                    "name": "幻影射手 ",
+                    "emoji": []
+                },
+                "bmp": "18959d800000d401",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "1185442737",
+                            "name": "幻影射手 ",
+                            "platform": 1
+                        },
+                        "content": "顺便问一下，你现在学习Windows编程吗？ ",
+                        "postTime": 1326118249,
+                        "id": 1326118249,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

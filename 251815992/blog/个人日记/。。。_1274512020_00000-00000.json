@@ -1,0 +1,51 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1274530297,
+                "effect": 1048608,
+                "replyNum": 2,
+                "content": "...你原来在编游戏啊！ ",
+                "capacity": 11999,
+                "poster": {
+                    "id": "443164766",
+                    "platform": 1,
+                    "name": "\"zrp\" ",
+                    "emoji": []
+                },
+                "bmp": "088094a10000c301",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "...I can't make it into reality... ",
+                        "postTime": 1274531344,
+                        "id": 1274531344,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "443164766",
+                            "name": "\"zrp\" ",
+                            "platform": 1
+                        },
+                        "content": ".....没关系...\n如果你真的要编的话，要告诉我一声哈。\n我有时间了就帮你去～～ ",
+                        "postTime": 1274531410,
+                        "id": 1274531410,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

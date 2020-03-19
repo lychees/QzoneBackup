@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1383656962,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "跪跪跪。 ",
+                "capacity": 12166,
+                "poster": {
+                    "id": "569646561",
+                    "platform": 1,
+                    "name": "L. ",
+                    "emoji": []
+                },
+                "bmp": "18d19d800000c201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

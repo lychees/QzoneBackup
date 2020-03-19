@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1408706318,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "辛苦你啦[em]e157[/em] ，不过你真应该锻炼增大一点酒量 ",
+                "capacity": 12118,
+                "poster": {
+                    "id": "846431008",
+                    "platform": 1,
+                    "name": "唐远新 ",
+                    "emoji": []
+                },
+                "bmp": "18c59da00002c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1408756578,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "对于实力还不足以参加CF，BestCoder的新人来说是很赞的机会哈。 ",
+                "capacity": 12111,
+                "poster": {
+                    "id": "1305181226",
+                    "platform": 1,
+                    "name": "季源Ethan ",
+                    "emoji": []
+                },
+                "bmp": "d8550dc003009421",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1408988922,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "现在还可以报名吗 ",
+                "capacity": 12154,
+                "poster": {
+                    "id": "2837616786",
+                    "platform": 1,
+                    "name": "乐一乐 ",
+                    "emoji": []
+                },
+                "bmp": "08809d0002000001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

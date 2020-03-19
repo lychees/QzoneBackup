@@ -1,0 +1,57 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1419675181,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "算法帝比黑客高级吧 ",
+                "capacity": 12057,
+                "poster": {
+                    "id": "529520158",
+                    "platform": 1,
+                    "name": "雪人墙 ",
+                    "emoji": []
+                },
+                "bmp": "18d08da00802c001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:529520158,nick:雪人墙,who:1,auto:1} 差不多吧……… ",
+                        "postTime": 1419682047,
+                        "id": 1419682047,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1420737764,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "看了好多遍 ",
+                "capacity": 12160,
+                "poster": {
+                    "id": "124774397",
+                    "platform": 1,
+                    "name": "懒骨头 ",
+                    "emoji": []
+                },
+                "bmp": "18919da00040a401",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

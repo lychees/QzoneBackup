@@ -1,0 +1,57 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1264741894,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[ft=,2,]。。。。什么吊东西[/ft] ",
+                "capacity": 12110,
+                "poster": {
+                    "id": "122698324",
+                    "platform": 1,
+                    "name": "张晓晨 ",
+                    "emoji": []
+                },
+                "bmp": "18d19560010e8009",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "RTRT.. ",
+                        "postTime": 1264742057,
+                        "id": 1264742057,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1265281318,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]你们这是在干什么呀..我觉得你们干的事情好有意思的说..哈哈..这种生活太有意思啦![/ft] ",
+                "capacity": 12074,
+                "poster": {
+                    "id": "315593370",
+                    "platform": 1,
+                    "name": "大魔导师会让你挂科 ",
+                    "emoji": []
+                },
+                "bmp": "18c09da04000c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

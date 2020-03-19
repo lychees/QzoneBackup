@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 2,
+                "postTime": 1219390570,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "汗～～～～～～～～～～～ ",
+                "capacity": 12144,
+                "poster": {
+                    "id": "515016441",
+                    "platform": 1,
+                    "name": "时 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a40102c929",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1266839942,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "那个有纹路的尺子上的纹路该不会是抛物线吧…… ",
+                "capacity": 12035,
+                "poster": {
+                    "id": "372884622",
+                    "platform": 1,
+                    "name": "笨 ",
+                    "emoji": []
+                },
+                "bmp": "38d095a00100c109",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "不是抛物线...是某种空气动力学的偏折线...\n不过...我只能解读这么多... ",
+                        "postTime": 1266889054,
+                        "id": 1266889054,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

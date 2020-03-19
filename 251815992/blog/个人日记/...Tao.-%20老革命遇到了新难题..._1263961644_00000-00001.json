@@ -1,0 +1,44 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1263961999,
+                "effect": 524288,
+                "replyNum": 0,
+                "content": "我的英雄啊.....我都想做了..没时间... ",
+                "capacity": 12113,
+                "poster": {
+                    "id": "c265e4bd629300c562e467283fe8cb305e95bb38782791a7",
+                    "platform": 2,
+                    "name": "程乐一"
+                },
+                "bmp": "0000000000000000",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1263962486,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "调强吧。。。要想把哥从美国召唤回来陪你们逃离确实要花点时间。。。 ",
+                "capacity": 12105,
+                "poster": {
+                    "id": "534470369",
+                    "platform": 1,
+                    "name": "张弛 ",
+                    "emoji": []
+                },
+                "bmp": "08d08ca000000428",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

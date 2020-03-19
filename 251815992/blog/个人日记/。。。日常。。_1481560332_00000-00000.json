@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1481585326,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "岛娘是当mock interview的面试官？ ",
+                "capacity": 12124,
+                "poster": {
+                    "id": "709256487",
+                    "platform": 1,
+                    "name": "[yju]纯蒟蒻 ",
+                    "emoji": []
+                },
+                "bmp": "98408da00102c021",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

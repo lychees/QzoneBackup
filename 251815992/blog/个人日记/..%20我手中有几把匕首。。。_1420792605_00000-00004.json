@@ -1,0 +1,108 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 5,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1420793088,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "空间换歌曲啦。。 ",
+                "capacity": 12154,
+                "poster": {
+                    "id": "568778055",
+                    "platform": 1,
+                    "name": "123456 ",
+                    "emoji": []
+                },
+                "bmp": "18d09da00100c221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1420817338,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "神对白 ",
+                "capacity": 12162,
+                "poster": {
+                    "id": "787334529",
+                    "platform": 1,
+                    "name": "ACT-王忠攀 ",
+                    "emoji": []
+                },
+                "bmp": "588195a00080c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1420818311,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "我还是喜欢拍领导马屁 ",
+                "capacity": 12152,
+                "poster": {
+                    "id": "1120090148",
+                    "platform": 1,
+                    "name": "[nbu]嘟嘟洒水车 ",
+                    "emoji": []
+                },
+                "bmp": "084495a00000c421",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1420818591,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "cocos2d-x 坑很少的，相对cocostudio的那些而言 ",
+                "capacity": 12063,
+                "poster": {
+                    "id": "1120090148",
+                    "platform": 1,
+                    "name": "[nbu]嘟嘟洒水车 ",
+                    "emoji": []
+                },
+                "bmp": "084495a00000c421",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "1120090148",
+                            "name": "[nbu]嘟嘟洒水车 ",
+                            "platform": 1
+                        },
+                        "content": "要不要来我们组做cocos2d-x啊？ ",
+                        "postTime": 1420818757,
+                        "id": 1420818757,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "postTime": 1420946869,
+                "effect": 1048576,
+                "replyNum": 0,
+                "content": "/* 我想吐槽那一句“反攻”怎么办 。。。 快阻止我。。。 */ ",
+                "capacity": 12116,
+                "poster": {
+                    "id": "3070414186",
+                    "platform": 1,
+                    "name": "权死 ",
+                    "emoji": []
+                },
+                "bmp": "08009d800200c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

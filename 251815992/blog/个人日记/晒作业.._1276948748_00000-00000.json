@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1277024245,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]wa....[/ft] ",
+                "capacity": 12151,
+                "poster": {
+                    "id": "1252959374",
+                    "platform": 1,
+                    "name": "肥猫 ",
+                    "emoji": []
+                },
+                "bmp": "0880940002000001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

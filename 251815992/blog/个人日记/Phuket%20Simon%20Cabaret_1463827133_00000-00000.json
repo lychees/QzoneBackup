@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1463873597,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "当时在普吉左思右想还是没去（以为会很乱）然后只搞了个massage…现在感觉还是有点后悔 ",
+                "capacity": 12071,
+                "poster": {
+                    "id": "499678267",
+                    "platform": 1,
+                    "name": "向鹏达 ",
+                    "emoji": []
+                },
+                "bmp": "18d48da00040e201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

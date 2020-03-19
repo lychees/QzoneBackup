@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1407420149,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "别让我再看到SAM了[em]e105[/em] ",
+                "capacity": 12140,
+                "poster": {
+                    "id": "935099327",
+                    "platform": 1,
+                    "name": "不愿透露姓名的 ",
+                    "emoji": []
+                },
+                "bmp": "08c09d2000000001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1407422590,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "xiaodao写的好赞…… ",
+                "capacity": 12141,
+                "poster": {
+                    "id": "1340627380",
+                    "platform": 1,
+                    "name": "domois-luminosity  ",
+                    "emoji": []
+                },
+                "bmp": "98519da00000c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

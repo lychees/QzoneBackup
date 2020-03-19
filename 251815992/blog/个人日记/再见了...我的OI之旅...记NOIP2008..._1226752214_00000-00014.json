@@ -1,0 +1,326 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 15,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1226756032,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "[B]GJ SXY LJ WSW LRZ WGT TFH WFM[em]e140[/em][/B]\n \n \n \n[B]是啊是啊..努力过就行了 其实竞赛的目的是寻求探索知识的意义呀 我觉得这点你做的很好.至少回头觉得高中过的很有意义呀.[/B]\n[B]高考大家都是要面对和加油的.[/B] ",
+                "capacity": 11963,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1226759100,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "我的历程应该已经结束了……\n \n现在轻松了，专心做解释器吧~~~今天闭包已经Ac了…… ",
+                "capacity": 12091,
+                "poster": {
+                    "id": "821339950",
+                    "platform": 1,
+                    "name": "颠哥 ",
+                    "emoji": []
+                },
+                "bmp": "1880dd2000008001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1226763862,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "前辈啊…谢谢你的帮助…祝你高考成功。某个刚刚高一的小菜留 ",
+                "capacity": 12118,
+                "poster": {
+                    "id": "502116763",
+                    "platform": 1,
+                    "name": "PhiloEve ",
+                    "emoji": []
+                },
+                "bmp": "18d195a001008401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1226798907,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "岛岛加油. ",
+                "capacity": 12159,
+                "poster": {
+                    "id": "391255889",
+                    "platform": 1,
+                    "name": "Helloworld ",
+                    "emoji": []
+                },
+                "bmp": "08c09da40100c409",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1226810381,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "[B]贴上我最喜欢的一段代码...[/B]\n[B]Matrix67 的 费解的开关[/B]\n[B]散列表.位运算.逆向宽搜..[/B] ",
+                "capacity": 12078,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 6,
+                "postTime": 1226810398,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "[B]费解的开关 打开print过程可以观赏状态的不断变化..[/B]\n[ffg,#ffffff,#ffffff]const[/ft]\n[ffg,#ffffff,#ffffff]  length=1 shl 25 - 1;[/ft]\n[ffg,#ffffff,#ffffff]  prime=3214567;[/ft]\n[ffg,#ffffff,#ffffff]  step_max=6;[/ft]\n[ffg,#ffffff,#ffffff]type[/ft]\n[ffg,#ffffff,#ffffff]  int=longint;[/ft]\n[ffg,#ffffff,#ffffff]  list=^node;[/ft]\n[ffg,#ffffff,#ffffff]  node=record[/ft]\n[ffg,#ffffff,#ffffff]    key:int;[/ft]\n[ffg,#ffffff,#ffffff]    step:int;[/ft]\n[ffg,#ffffff,#ffffff]    next:list;[/ft]\n[ffg,#ffffff,#ffffff]  end;[/ft]\n[ffg,#ffffff,#ffffff]  rec=record[/ft]\n[ffg,#ffffff,#ffffff]    key:int;[/ft]\n[ffg,#ffffff,#ffffff]    step:int;[/ft]\n[ffg,#ffffff,#ffffff]  end;[/ft]\n[ffg,#ffffff,#ffffff]var[/ft]\n[ffg,#ffffff,#ffffff]  hash:array[0..prime-1] of list;[/ft]\n[ffg,#ffffff,#ffffff]  queue:array[1..length] of rec;[/ft]\n[ffg,#ffffff,#ffffff]  head,tail:int;[/ft]\n[ffg,#ffffff,#ffffff]  n,i,j,k:int;[/ft]\n[ffg,#ffffff,#ffffff]  t:char;[/ft]\n[ffg,#ffffff,#ffffff]  x:list;[/ft]\n[ffg,#ffffff,#ffffff]function h(k:int):int;[/ft]\n[ffg,#ffffff,#ffffff]begin[/ft]\n[ffg,#ffffff,#ffffff]  exit(k mod prime);[/ft]\n[ffg,#ffffff,#ffffff]end;[/ft]\n[ffg,#ffffff,#ffffff]procedure insert(k:rec);[/ft]\n[ffg,#ffffff,#ffffff]var x:list;y:int;[/ft]\n[ffg,#ffffff,#ffffff]begin[/ft]\n[ffg,#ffffff,#ffffff]  y:=h(k.key);new(x);x^.key:=k.key;x^.step:=k.step;[/ft]\n[ffg,#ffffff,#ffffff]  x^.next:=hash[y];hash[y]:=x;[/ft]\n[ffg,#ffffff,#ffffff]end;[/ft]\n[ffg,#ffffff,#ffffff]function search(k:int):list;[/ft]\n[ffg,#ffffff,#ffffff]var x:list;[/ft]\n[ffg,#ffffff,#ffffff]begin[/ft]\n[ffg,#ffffff,#ffffff]  x:=hash[h(k)];[/ft]\n[ffg,#ffffff,#ffffff]  while (x<>nil) and (x^.key<>k) do[/ft]\n[ffg,#ffffff,#ffffff]    x:=x^.next;[/ft]\n[ffg,#ffffff,#ffffff]  exit(x);[/ft]\n[ffg,#ffffff,#ffffff]end;\nprocedure print(k:int);[/ft]\n[ffg,#ffffff,#ffffff]var i:int;[/ft]\n[ffg,#ffffff,#ffffff]begin[/ft]\n[ffg,#ffffff,#ffffff]  for i:=24 downto 0 do[/ft]\n[ffg,#ffffff,#ffffff]  begin[/ft]\n[ffg,#ffffff,#ffffff]    if k and (1 shl i)<>0 then write(1) else write(0);[/ft]\n[ffg,#ffffff,#ffffff]    if i mod 5 = 0 then writeln;[/ft]\n[ffg,#ffffff,#ffffff]  end;[/ft]\n[ffg,#ffffff,#ffffff]  writeln;[/ft]\n[ffg,#ffffff,#ffffff]  readln(n);[/ft]\n[ffg,#ffffff,#ffffff]end;\nfunction press(k,p:int):int;[/ft]\n[ffg,#ffffff,#ffffff]begin[/ft]\n[ffg,#ffffff,#ffffff]  k:=k xor (1 shl p);[/ft]\n[ffg,#ffffff,#ffffff]  if p mod 5<>0 then k:=k xor (1 shl (p-1));[/ft]\n[ffg,#ffffff,#ffffff]  if (p+1) mod 5 <> 0 then k:=k xor (1 shl (p+1));[/ft]\n[ffg,#ffffff,#ffffff]  if p>4 then k:=k xor (1 shl (p-5));[/ft]\n[ffg,#ffffff,#ffffff]  if p<20 then k:=k xor (1 shl (p+5));[/ft]\n[ffg,#ffffff,#ffffff]  exit(k);[/ft]\n[ffg,#ffffff,#ffffff]end;\nprocedure init;[/ft]\n[ffg,#ffffff,#ffffff]var[/ft]\n[ffg,#ffffff,#ffffff]  p:int;[/ft]\n[ffg,#ffffff,#ffffff]  u,v:rec;[/ft]\n[ffg,#ffffff,#ffffff]begin[/ft]\n[ffg,#ffffff,#ffffff]  head:=1;tail:=2;[/ft]\n[ffg,#ffffff,#ffffff]  queue[1].key:=length;[/ft]\n[ffg,#ffffff,#ffffff]  insert(queue[1]);[/ft]\n[ffg,#ffffff,#ffffff]  while head<tail do[/ft]\n[ffg,#ffffff,#ffffff]  begin[/ft]\n[ffg,#ffffff,#ffffff]    u:=queue[head];[/ft]\n[ffg,#ffffff,#ffffff]    if u.step=6 then exit;[/ft]\n[ffg,#ffffff,#ffffff]    //print(u.key);[/ft]\n[ffg,#ffffff,#ffffff]    v.step:=u.step+1;[/ft]\n[ffg,#ffffff,#ffffff]    for p:=0 to 24 do[/ft]\n[ffg,#ffffff,#ffffff]    begin[/ft]\n[ffg,#ffffff,#ffffff]      v.key:=press(u.key,p);[/ft]\n[ffg,#ffffff,#ffffff]      if search(v.key)<>nil then continue;[/ft]\n[ffg,#ffffff,#ffffff]      queue[tail]:=v;[/ft]\n[ffg,#ffffff,#ffffff]      inc(tail);[/ft]\n[ffg,#ffffff,#ffffff]      insert(v);[/ft]\n[ffg,#ffffff,#ffffff]    end;[/ft]\n[ffg,#ffffff,#ffffff]    inc(head);[/ft]\n[ffg,#ffffff,#ffffff]  end;[/ft]\n[ffg,#ffffff,#ffffff]end;\nbegin[/ft]\n[ffg,#ffffff,#ffffff]  init;[/ft]\n[ffg,#ffffff,#ffffff]  readln(n);[/ft]\n[ffg,#ffffff,#ffffff]  for i:=1 to n do[/ft]\n[ffg,#ffffff,#ffffff]  begin k:=0;[/ft]\n[ffg,#ffffff,#ffffff]    for j:=1 to 25 do[/ft]\n[ffg,#ffffff,#ffffff]    begin[/ft]\n[ffg,#ffffff,#ffffff]      read(t);k:=k shl 1+ord(t)-48;[/ft]\n[ffg,#ffffff,#ffffff]      if j mod 5=0 then readln;[/ft]\n[ffg,#ffffff,#ffffff]    end;[/ft]\n[ffg,#ffffff,#ffffff]    readln;[/ft]\n[ffg,#ffffff,#ffffff]    x:=Search(k);[/ft]\n[ffg,#ffffff,#ffffff]    if x=nil then writeln('-1')[/ft]\n[ffg,#ffffff,#ffffff]             else writeln(x^.step);[/ft]\n[ffg,#ffffff,#ffffff]  end;[/ft]\n[ffg,#ffffff,#ffffff]  readln(n);[/ft]\n[ffg,#ffffff,#ffffff]end.[/ft] ",
+                "capacity": 7689,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 7,
+                "postTime": 1226813133,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "唉\n现实永远是这么残酷啊\n \n昨天中午看到饭店上贴的字画——“天道酬勤”，很多时候的确是这样吧\n但也不尽然呢\n \n每个人都有为了梦想努力的时候，不放过生命中的每时每刻去为了什么东西拼搏、奋斗，这样的生活，才是充满意义的、美好的生活\n \n可能搞 OI 的人都会有点多愁善感吧，毕竟，OI 赛场上什么都可能发生。周五大家还在谈笑风生，可周六成绩出来之后，又看到很多人的告别帖……\n \n不论结果如何，努力过了\n也就算是一个完美的终点了吧\n \n \n以前从来都只是潜水，今天看到这篇文章，心中酸酸的\n不知不觉多写了几句\n \n希望所有搞 OI 的同志们，当然小虎在内，不论是成功还是失败，一切走好，这只是一次竞赛，将来还有梦、将来还有许许多多的东西值得我们去奋斗！ ",
+                "capacity": 11525,
+                "poster": {
+                    "id": "918874465",
+                    "platform": 1,
+                    "name": "愿望 ",
+                    "emoji": []
+                },
+                "bmp": "08809c800000c001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "...我知道.. ",
+                        "postTime": 1227411374,
+                        "id": 1227411374,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "postTime": 1226833200,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "同感……（今天lovy已经可以返回函数了……）\n \np.s. 今天的产率很高啊，5.3g，纯度不是很高（78.63%，0.5g产品啊~~~），ZJZ 4.9g 82.08%，相机坏了没法拍照，下星期我带给你吧~\n \n可能以后再也不会用FP了，算法分析还会写写的，pas不会写了，c会写，lovy会写（自己的语言嘛~）。\n \n告诉sj，别忘了我。\n告诉LLL和ZYF，不要传黑客文件。\n告诉HGT，我很对不起他，没让他去，其实我不该去的。\n告诉WYC，我以后也许会来，也许不会，来的时候可能只会继续写lovy的实现了。\n告诉LYY，I'm Back!\n \n【踩踩：infinte.yo2.cn】 ",
+                "capacity": 11690,
+                "poster": {
+                    "id": "821339950",
+                    "platform": 1,
+                    "name": "颠哥 ",
+                    "emoji": []
+                },
+                "bmp": "1880dd2000008001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 9,
+                "postTime": 1227074458,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "顶。。。 ",
+                "capacity": 12161,
+                "poster": {
+                    "id": "804451813",
+                    "platform": 1,
+                    "name": "胡观泰 ",
+                    "emoji": []
+                },
+                "bmp": "18c095a40080e121",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 10,
+                "postTime": 1227076501,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "还有更精彩的等着我们，继续努力.... ",
+                "capacity": 12104,
+                "poster": {
+                    "id": "917640727",
+                    "platform": 1,
+                    "name": "euclid ",
+                    "emoji": []
+                },
+                "bmp": "0880942000000001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "...真的吗？～ ",
+                        "postTime": 1227411402,
+                        "id": 1227411402,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 11,
+                "postTime": 1227077037,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "忽忽，小虎！哀叹\n ",
+                "capacity": 12156,
+                "poster": {
+                    "id": "838515060",
+                    "platform": 1,
+                    "name": "丶心竞 ",
+                    "emoji": []
+                },
+                "bmp": "38549de0050ec001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 12,
+                "postTime": 1227151763,
+                "effect": 4194336,
+                "replyNum": 1,
+                "content": "我并不是不想和你一起参加,只是我的心很散,很乱.考完了无论好坏都不要再想了.你们学得太快了,不过我心已经收回来了,期末我会赶上来的.高考结束后我们一起学!![em]e111[/em] ",
+                "capacity": 11986,
+                "poster": {
+                    "id": "352467237",
+                    "platform": 1,
+                    "name": "23MNU66 ",
+                    "emoji": []
+                },
+                "bmp": "18805ca400004109",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "..恩... ",
+                        "postTime": 1227411391,
+                        "id": 1227411391,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 13,
+                "postTime": 1227352004,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "哥们，飘过你的空间，看了你的文章，感慨万千。\n虽然我们不同地，不同年级，但都深切体验过信息学带给我们的喜悦，成就，乐趣和迷茫，悲伤。。\n但它告诉我们，在人生路上，只要奋斗了，就好了，就不会留下什么遗憾了。\nOI的竞争是残酷的，很多人被刷了下来，但他们并没有仍然保有那份拼搏OI的喜悦，冲刺梦想的决心\n以及那份对信息学深切的爱\n——这些都是非OIer无法拥有的，\n但你和我，还有众多OIer都将这份特殊的情感藏在心底。\n哥们，高考加油，努力，兄弟为你加油！[em]e183[/em] ",
+                "capacity": 11656,
+                "poster": {
+                    "id": "40796884",
+                    "platform": 1,
+                    "name": "没事偷着乐 ",
+                    "emoji": []
+                },
+                "bmp": "18d0952000008001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "有时候...我真的为自己是一名OIer感到骄傲～\n ",
+                        "postTime": 1227361722,
+                        "id": 1227361722,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 14,
+                "postTime": 1230355638,
+                "effect": 4194336,
+                "replyNum": 1,
+                "content": "努力！ ",
+                "capacity": 12095,
+                "poster": {
+                    "id": "307757035",
+                    "platform": 1,
+                    "name": "税子龙 ",
+                    "emoji": []
+                },
+                "bmp": "084195a40000c001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "Snatch at today...\nTrust as little as tomorrow. ",
+                        "postTime": 1230826871,
+                        "id": 1230826871,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 15,
+                "postTime": 1233918675,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "虽然我们不同地区..我亦感慨万分 ",
+                "capacity": 12135,
+                "poster": {
+                    "id": "329933307",
+                    "platform": 1,
+                    "name": "lam/可怜     ",
+                    "emoji": []
+                },
+                "bmp": "18d0952401000001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

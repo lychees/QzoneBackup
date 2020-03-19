@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1351849463,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "我明明说过不看你空间的……为嘛点进来为嘛点进来……果然又晕了！ ",
+                "capacity": 12110,
+                "poster": {
+                    "id": "903336279",
+                    "platform": 1,
+                    "name": "偏疾 ",
+                    "emoji": []
+                },
+                "bmp": "58d49d800002a201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1351876061,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "这是啥这是啥这是啥QAQQQQ ",
+                "capacity": 12148,
+                "poster": {
+                    "id": "804148461",
+                    "platform": 1,
+                    "name": "写不完作业的每一天 ",
+                    "emoji": []
+                },
+                "bmp": "988095a10000e101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

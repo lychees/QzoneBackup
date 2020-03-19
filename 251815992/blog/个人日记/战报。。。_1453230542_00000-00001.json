@@ -1,0 +1,124 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1453234780,
+                "effect": 1056,
+                "replyNum": 3,
+                "content": "gb是谁？ ",
+                "capacity": 11798,
+                "poster": {
+                    "id": "306233006",
+                    "platform": 1,
+                    "name": "konjac_wqs ",
+                    "emoji": []
+                },
+                "bmp": "0880950400008001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:306233006,nick:konjac_wqs,who:1,auto:1}Dr. Hwang 。。。黄金熊。。坊间称之为 Golden Bear。。。 ",
+                        "postTime": 1453235044,
+                        "id": 1453235044,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "306233006",
+                            "name": "konjac_wqs ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1}好吧，原来是这个缩写 ",
+                        "postTime": 1453235104,
+                        "id": 1453235104,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "306233006",
+                            "name": "konjac_wqs ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1}话说按照语意应该是gold bear吧，golden bear是金色的熊 ",
+                        "postTime": 1453235172,
+                        "id": 1453235172,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1453258562,
+                "effect": 32,
+                "replyNum": 4,
+                "content": "其实我不懂为啥贵校和隔壁都反gb。。。他不是办区域赛办的好好的么…… ",
+                "capacity": 11178,
+                "poster": {
+                    "id": "541615932",
+                    "platform": 1,
+                    "name": "lyd ",
+                    "emoji": []
+                },
+                "bmp": "18c09d800102c101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:541615932,nick:lyd,auto:1} 我校不知道。。隔壁反 gb 在东北的代理人涉嫌在省赛中操纵比赛，为了避免蔓延到区域赛，邬老师和 zju 才出面接受2013年区域赛的命题工作，才避免了 2013 年的危机，然而后来此事进一步蔓延，gb 不断扩大自己的权利，并出尔反尔，取消了  2014 年 THU 的命题权，这是邬老师反 gb 的原因。 ",
+                        "postTime": 1453263544,
+                        "id": 1453263544,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "541615932",
+                            "name": "lyd ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:541615932,nick:lyd,auto:1} 閰辩传銆傘�傚垰鐪嬪埌浣犲湪cf鐨刡log鈥︹�? patpat鈥︹�? ",
+                        "postTime": 1453263609,
+                        "id": 1453263609,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "269884921",
+                            "name": "人間の本質 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:541615932,nick:lyd,auto:1} 2013年省赛的主办方的人我接触过，我也跟着那个团队参与过一些赛事的命题工作，2014年所谓的指控操纵比赛，中间的邮件之类的我也看到过，所谓的指控我不知道从何而来，反倒是去年传出的那个“谁参加了ICPC东北赛就被取消参加CCPC国赛资格”的那个决定才值得玩味 ",
+                        "postTime": 1453268913,
+                        "id": 1453268913,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "306233006",
+                            "name": "konjac_wqs ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1}你好像说岔了一年。另外15年我们没出题邬老师说是主办方要求换的。 ",
+                        "postTime": 1453345815,
+                        "id": 1453345815,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

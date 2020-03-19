@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1287748243,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "第一弹。。。\n。。。。。。。。。。。\nhttp://www.shuizilong.com/storage/voice/2010-10/IMG_0993.MOV ",
+                "capacity": 12076,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            }
+        ]
+    }
+}

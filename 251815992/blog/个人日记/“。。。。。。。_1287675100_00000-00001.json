@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1287675163,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "？ ",
+                "capacity": 12172,
+                "poster": {
+                    "id": "276500942",
+                    "platform": 1,
+                    "name": "酒仙 ",
+                    "emoji": []
+                },
+                "bmp": "b8c1dda00102e229",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1287676585,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "呵呵，生日快乐喔 ",
+                "capacity": 12152,
+                "poster": {
+                    "id": "843713036",
+                    "platform": 1,
+                    "name": "Maria  [em]e257885[/em]小[em]e328020[/em]幸[em]e328018[/em]福 ",
+                    "emoji": []
+                },
+                "bmp": "88d095a00102c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

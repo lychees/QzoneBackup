@@ -1,0 +1,79 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1201231907,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "幽默 ",
+                "capacity": 12164,
+                "poster": {
+                    "id": "770976045",
+                    "platform": 1,
+                    "name": "┈┾葬亽 ╄ ",
+                    "emoji": []
+                },
+                "bmp": "18d015a40000c209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1201252574,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "[B][ft=#ff0000,,]!![/ft][/B] ",
+                "capacity": 12137,
+                "poster": {
+                    "id": "284293874",
+                    "platform": 1,
+                    "name": "孟修竹 ",
+                    "emoji": []
+                },
+                "bmp": "08d40da80102c109",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1201360119,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "[M][B]棏味.[/B][/M]\n[M][B].[/B] [/M]\n ",
+                "capacity": 12129,
+                "poster": {
+                    "id": "173324507",
+                    "platform": 1,
+                    "name": "Groot ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1202140430,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "压力过大。。。产生不良行为 ",
+                "capacity": 12146,
+                "poster": {
+                    "id": "354434173",
+                    "platform": 1,
+                    "name": "HZ ",
+                    "emoji": []
+                },
+                "bmp": "184095a00100c209",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

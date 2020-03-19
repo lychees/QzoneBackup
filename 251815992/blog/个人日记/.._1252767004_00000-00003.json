@@ -1,0 +1,79 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1252767814,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]你赖皮了吧[/ft] ",
+                "capacity": 12145,
+                "poster": {
+                    "id": "114099336",
+                    "platform": 1,
+                    "name": "光禾 ",
+                    "emoji": []
+                },
+                "bmp": "18d094a50000c401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1254571222,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]岛儿是个纯洁又美好的小天使[/ft]\n[ft=,2,]小c姐姐永远支持你哦[/ft] ",
+                "capacity": 12101,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1255235552,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]我怎么发现有一个问题~~~好像你引用了方方小朋友的话~~~[/ft] ",
+                "capacity": 12105,
+                "poster": {
+                    "id": "420836131",
+                    "platform": 1,
+                    "name": "doc ",
+                    "emoji": []
+                },
+                "bmp": "18d025a00000e101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1256838266,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]我把后四个回答下吧[/ft]\nQ13 你最喜欢的歌手..和一首歌是.?\n”思念是一种病“= =\nQ20 最喜欢的一本书是？\n就目前来看。。茶花女？\nQ34 觉得..时间过的缓慢还是太快了.?\n看情况\nQ47 如果可以..你会任性么?\n我是不想的\n不过我总是因为任性不小心伤害爱我的人儿 ",
+                "capacity": 11919,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

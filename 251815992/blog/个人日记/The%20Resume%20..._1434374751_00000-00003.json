@@ -1,0 +1,91 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1434375165,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "给跪了。。 ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "451524137",
+                    "platform": 1,
+                    "name": "光之神圣 ",
+                    "emoji": []
+                },
+                "bmp": "18c1f4a40080c109",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1434375707,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "跪了。 ",
+                "capacity": 12112,
+                "poster": {
+                    "id": "624050143",
+                    "platform": 1,
+                    "name": "倪亦帅 ",
+                    "emoji": []
+                },
+                "bmp": "18d48da80002c201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1434376318,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "太厉害！ 给跪了 ",
+                "capacity": 12154,
+                "poster": {
+                    "id": "1691626124",
+                    "platform": 1,
+                    "name": "[SHU]kuangbin ",
+                    "emoji": []
+                },
+                "bmp": "0890958002008101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1434376339,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "为什么是税子龙的域名 ",
+                "capacity": 12055,
+                "poster": {
+                    "id": "85561642",
+                    "platform": 1,
+                    "name": "隙間 ",
+                    "emoji": []
+                },
+                "bmp": "98d18da40800c221",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:85561642,nick:隙間,who:1,auto:1}为了忘却的纪念。。 ",
+                        "postTime": 1434376816,
+                        "id": 1434376816,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

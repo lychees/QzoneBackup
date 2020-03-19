@@ -1,0 +1,113 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 6,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1288024552,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "自占沙發。。 ",
+                "capacity": 12160,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1288066533,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "这.. ",
+                "capacity": 12160,
+                "poster": {
+                    "id": "315593370",
+                    "platform": 1,
+                    "name": "大魔导师会让你挂科 ",
+                    "emoji": []
+                },
+                "bmp": "18c09da04000c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1288071070,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "咿呀咿\n \n[url=http://b46.photo.store.qq.com/http_imgload.cgi?/rurl4_b=70eb6721aba9629bbd1e61efaa45f337f13e2acb171eb9ff89c4955180206ed21345bf9fd02e6894bd246ecbdd9e846cf72d51a79766baeb2f6eeaacc5f59fd88f5842f54d6f3409d92d8eacf3b6070788df5dc6&amp;a=47&amp;b=46][img]http://b46.photo.store.qq.com/http_imgload.cgi?/rurl4_b=70eb6721aba9629bbd1e61efaa45f337f13e2acb171eb9ff89c4955180206ed21345bf9fd02e6894bd246ecbdd9e846cf72d51a79766baeb2f6eeaacc5f59fd88f5842f54d6f3409d92d8eacf3b6070788df5dc6&amp;a=47&amp;b=46[/img][/url] ",
+                "capacity": 11906,
+                "poster": {
+                    "id": "443150555",
+                    "platform": 1,
+                    "name": "小鹏 ",
+                    "emoji": []
+                },
+                "bmp": "98549da00802c021",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1288324207,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "Orz ",
+                "capacity": 12164,
+                "poster": {
+                    "id": "534872060",
+                    "platform": 1,
+                    "name": "Cherubic ",
+                    "emoji": []
+                },
+                "bmp": "18c095a00100c421",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1288460971,
+                "effect": 5242880,
+                "replyNum": 0,
+                "content": "？ ",
+                "capacity": 12168,
+                "poster": {
+                    "id": "276500942",
+                    "platform": 1,
+                    "name": "酒仙 ",
+                    "emoji": []
+                },
+                "bmp": "b8c1dda00102e229",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 6,
+                "postTime": 1288888517,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "rz ",
+                "capacity": 12170,
+                "poster": {
+                    "id": "1252959374",
+                    "platform": 1,
+                    "name": "肥猫 ",
+                    "emoji": []
+                },
+                "bmp": "0880940002000001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

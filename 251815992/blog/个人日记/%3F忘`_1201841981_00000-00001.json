@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1201924691,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "\n[B][ft=#ff0000,,]恋爱？！[/ft][/B] ",
+                "capacity": 12130,
+                "poster": {
+                    "id": "284293874",
+                    "platform": 1,
+                    "name": "孟修竹 ",
+                    "emoji": []
+                },
+                "bmp": "08d40da80102c109",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1201972719,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "\n\n[M][B]Who knows?[/B][/M]\n ",
+                "capacity": 12139,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1407642119,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "主席树是啥 ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "529520158",
+                    "platform": 1,
+                    "name": "雪人墙 ",
+                    "emoji": []
+                },
+                "bmp": "18d08da00802c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1407642286,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "下次把题目也附上吧～ ",
+                "capacity": 12148,
+                "poster": {
+                    "id": "529520158",
+                    "platform": 1,
+                    "name": "雪人墙 ",
+                    "emoji": []
+                },
+                "bmp": "18d08da00802c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

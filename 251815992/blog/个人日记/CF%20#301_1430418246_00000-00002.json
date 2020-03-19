@@ -1,0 +1,130 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1430419677,
+                "effect": 1056,
+                "replyNum": 5,
+                "content": "我就想说我B水题没过，简直没长进 ",
+                "capacity": 11636,
+                "poster": {
+                    "id": "25241274",
+                    "platform": 1,
+                    "name": "七星瓢虫 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00000e101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "804589463",
+                            "name": "[小学组]Evensgn ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:25241274,nick:七星瓢虫,who:1,auto:1}B 挂掉+1 ",
+                        "postTime": 1430447596,
+                        "id": 1430447596,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "25241274",
+                            "name": "七星瓢虫 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:804589463,nick:[小学组]Evensgn,who:1,auto:1}-_-||现在刚刚AC。。。我发现别人代码都是用map，果断去补习一下map ",
+                        "postTime": 1430453871,
+                        "id": 1430453871,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "804589463",
+                            "name": "[小学组]Evensgn ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:25241274,nick:七星瓢虫,auto:1} 你说的是B吗..B需要用Map？ ",
+                        "postTime": 1430455489,
+                        "id": 1430455489,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "25241274",
+                            "name": "七星瓢虫 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:804589463,nick:[小学组]Evensgn,who:1,auto:1}不知呀，我看到有人代码这样写 ",
+                        "postTime": 1430471033,
+                        "id": 1430471033,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "804589463",
+                            "name": "[小学组]Evensgn ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:25241274,nick:七星瓢虫,auto:1} 好吧..什么写法都有 ",
+                        "postTime": 1430471885,
+                        "id": 1430471885,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1430446479,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "没做……难道现在div2就要写Splay么吗？真是太（世）厉（风）害（日）了（下） ",
+                "capacity": 12008,
+                "poster": {
+                    "id": "892431401",
+                    "platform": 1,
+                    "name": "ydc ",
+                    "emoji": []
+                },
+                "bmp": "18c08d840002c201",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "1071767969",
+                            "name": "二一三十七 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:892431401,nick:ydc,auto:1} 其实有奇怪的搞法。 ",
+                        "postTime": 1430459507,
+                        "id": 1430459507,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1430446823,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "e用map水过去了… ",
+                "capacity": 12152,
+                "poster": {
+                    "id": "1242944835",
+                    "platform": 1,
+                    "name": "NJU-ZSC ",
+                    "emoji": []
+                },
+                "bmp": "18c08d8002024001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

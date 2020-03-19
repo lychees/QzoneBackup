@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1436842218,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "spoj哪里有写是第几题。。。 ",
+                "capacity": 12144,
+                "poster": {
+                    "id": "951103995",
+                    "platform": 1,
+                    "name": "13 机6 邓广 ",
+                    "emoji": []
+                },
+                "bmp": "18d09da50000c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1455380674,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "最近在跑dnd团[em]e400824[/em]突然觉得这个要是设计成最后一次冒险很不错啊 ",
+                "capacity": 12101,
+                "poster": {
+                    "id": "1784830165",
+                    "platform": 1,
+                    "name": "青辰 ",
+                    "emoji": []
+                },
+                "bmp": "08008c800202c401",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

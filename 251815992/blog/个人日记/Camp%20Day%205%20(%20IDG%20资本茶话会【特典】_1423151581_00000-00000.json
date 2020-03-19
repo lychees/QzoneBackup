@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1423185791,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "你现在有公司啦？ ",
+                "capacity": 12153,
+                "poster": {
+                    "id": "917937127",
+                    "platform": 1,
+                    "name": "frogcjn ",
+                    "emoji": []
+                },
+                "bmp": "18c0d5e0010ec401",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

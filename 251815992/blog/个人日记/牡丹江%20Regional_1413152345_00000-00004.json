@@ -1,0 +1,108 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 5,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1413154705,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "orz 1A. ",
+                "capacity": 12161,
+                "poster": {
+                    "id": "568778055",
+                    "platform": 1,
+                    "name": "123456 ",
+                    "emoji": []
+                },
+                "bmp": "18d09da00100c221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1413160602,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "这不是抱了你的大腿才金牌的莫。。 ",
+                "capacity": 12137,
+                "poster": {
+                    "id": "774367334",
+                    "platform": 1,
+                    "name": "zjut_DD ",
+                    "emoji": []
+                },
+                "bmp": "18c09da00080c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1413171365,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "窝还需要继续练习…打辅助和开脑洞的能力orz ",
+                "capacity": 12114,
+                "poster": {
+                    "id": "446079414",
+                    "platform": 1,
+                    "name": "旺仔嚎婆婆 ",
+                    "emoji": []
+                },
+                "bmp": "38449da00000c201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1413173501,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "orz! ",
+                "capacity": 12162,
+                "poster": {
+                    "id": "1156259034",
+                    "platform": 1,
+                    "name": "Mato完整版 ",
+                    "emoji": []
+                },
+                "bmp": "08c194a802029401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1413209101,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "岛君又拿下了新的里程碑，恭喜，加羡慕嫉妒恨。 ",
+                "capacity": 12025,
+                "poster": {
+                    "id": "568836124",
+                    "platform": 1,
+                    "name": "皮皮鲁 ",
+                    "emoji": []
+                },
+                "bmp": "18c595a800026001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:568836124,nick:皮皮鲁,auto:1} 瞻顾遗迹、、如在昨日。。。 ",
+                        "postTime": 1413209139,
+                        "id": 1413209139,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

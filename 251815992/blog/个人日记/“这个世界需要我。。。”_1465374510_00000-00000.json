@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1465378113,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "你还能干啥。。 ",
+                "capacity": 12151,
+                "poster": {
+                    "id": "61761988",
+                    "platform": 1,
+                    "name": "♂DreamFoxW ",
+                    "emoji": []
+                },
+                "bmp": "98d095a00002c301",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

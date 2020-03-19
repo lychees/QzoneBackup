@@ -1,0 +1,113 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 6,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1346360915,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[em]e121[/em] ",
+                "capacity": 12151,
+                "poster": {
+                    "id": "419172261",
+                    "platform": 1,
+                    "name": "雪鸦 ",
+                    "emoji": []
+                },
+                "bmp": "98809da04000d409",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1439843891,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "咦！ ",
+                "capacity": 12160,
+                "poster": {
+                    "id": "419172261",
+                    "platform": 1,
+                    "name": "雪鸦 ",
+                    "emoji": []
+                },
+                "bmp": "98809da04000d409",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1439843917,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "楼上居然和我同名 ",
+                "capacity": 12148,
+                "poster": {
+                    "id": "419172261",
+                    "platform": 1,
+                    "name": "雪鸦 ",
+                    "emoji": []
+                },
+                "bmp": "98809da04000d409",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1439844053,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "咦楼上居然是我 什么时候回的 ",
+                "capacity": 12137,
+                "poster": {
+                    "id": "419172261",
+                    "platform": 1,
+                    "name": "雪鸦 ",
+                    "emoji": []
+                },
+                "bmp": "98809da04000d409",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1439866036,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "楼上居然 ",
+                "capacity": 12147,
+                "poster": {
+                    "id": "112831313",
+                    "platform": 1,
+                    "name": "12-计-董羽飞 ",
+                    "emoji": []
+                },
+                "bmp": "38d40da00102d101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 6,
+                "postTime": 1439870469,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "啊 ",
+                "capacity": 12116,
+                "poster": {
+                    "id": "624050143",
+                    "platform": 1,
+                    "name": "倪亦帅 ",
+                    "emoji": []
+                },
+                "bmp": "18d48da80002c201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

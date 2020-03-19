@@ -1,0 +1,79 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1290656437,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "可怜的飞虎啊，你就不能抽出一点时间逼着自己学一下功课，然后再花其余的时间在自己喜欢的编程方面嘛。你说，如果自己能够每次都去上实验课，以你的水平，用三分钟不到的时间编完实验题，签到，先拿上实验分，然后回宿舍不是也很好吗。何必每天矛盾着，。 ",
+                "capacity": 11938,
+                "poster": {
+                    "id": "1035956171",
+                    "platform": 1,
+                    "name": "WKUZHPKB ",
+                    "emoji": []
+                },
+                "bmp": "1840958000008420",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1290656586,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "还有晚上早点睡，白天保证能去上课，这不也能利用好时间吗，你说当我们已经上了5个小时的课，学了五个小时，中午12点我们回来的时候，你却还在睡觉，这不是很浪费时间吗。这五个小时其实能做许多事。 ",
+                "capacity": 11989,
+                "poster": {
+                    "id": "1035956171",
+                    "platform": 1,
+                    "name": "WKUZHPKB ",
+                    "emoji": []
+                },
+                "bmp": "1840958000008420",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1290656738,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "还有，多多和舍友交流，加强关系很重要，我们是一个集体，这样下去的话，我们干的事你都不知道，会渐渐的疏远你的，一定要和大家一起度过大学，注意是一起度过，这样你才会拥有更多关心你的人。这是很重要的。 ",
+                "capacity": 11980,
+                "poster": {
+                    "id": "1035956171",
+                    "platform": 1,
+                    "name": "WKUZHPKB ",
+                    "emoji": []
+                },
+                "bmp": "1840958000008420",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1290658457,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,,]... 我 .. ... ... ..[/ft] ",
+                "capacity": 12140,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            }
+        ]
+    }
+}

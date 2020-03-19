@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1292845956,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]这个时间应该休息，会影响身体健康的[/ft] ",
+                "capacity": 12125,
+                "poster": {
+                    "id": "944511827",
+                    "platform": 1,
+                    "name": "慧缘 ",
+                    "emoji": []
+                },
+                "bmp": "18c195a00000c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

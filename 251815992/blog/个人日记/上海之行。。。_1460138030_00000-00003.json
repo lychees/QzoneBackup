@@ -1,0 +1,102 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1460138930,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "岛岛等我，我在机场了[em]e106[/em] ",
+                "capacity": 12125,
+                "poster": {
+                    "id": "121371490",
+                    "platform": 1,
+                    "name": "詹艳玲 ",
+                    "emoji": []
+                },
+                "bmp": "18d5dda00102e409",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1460139010,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "アパホテル、、、那里有点惨，注意一下隔音问题，如果觉得那个地方外面有噪音赶紧要求换 ",
+                "capacity": 11856,
+                "poster": {
+                    "id": "121371490",
+                    "platform": 1,
+                    "name": "詹艳玲 ",
+                    "emoji": []
+                },
+                "bmp": "18d5dda00102e409",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:121371490,nick:詹艳玲,who:1,auto:1}带我！ ",
+                        "postTime": 1460139241,
+                        "id": 1460139241,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "121371490",
+                            "name": "詹艳玲 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1}可是可以，周天？我周六回去比较累，不大想出去慌 ",
+                        "postTime": 1460139303,
+                        "id": 1460139303,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1460181089,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "美帝爷又去上海嗨了 ",
+                "capacity": 12100,
+                "poster": {
+                    "id": "624050143",
+                    "platform": 1,
+                    "name": "倪亦帅 ",
+                    "emoji": []
+                },
+                "bmp": "18d48da80002c201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1460290637,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "快去做清明上河图 ",
+                "capacity": 12149,
+                "poster": {
+                    "id": "529003192",
+                    "platform": 1,
+                    "name": "【XDU】数学lover ",
+                    "emoji": []
+                },
+                "bmp": "18d19dac09828909",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,95 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1264157568,
+                "effect": 1056,
+                "replyNum": 6,
+                "content": "孩子.有我么. ",
+                "capacity": 11816,
+                "poster": {
+                    "id": "506863220",
+                    "platform": 1,
+                    "name": "幸福的/旁边 ",
+                    "emoji": []
+                },
+                "bmp": "18d195ac0142c409",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "。。。。我哦好像不认识你。。。 ",
+                        "postTime": 1264157730,
+                        "id": 1264157730,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "506863220",
+                            "name": "幸福的/旁边 ",
+                            "platform": 1
+                        },
+                        "content": "唐飞虎? ",
+                        "postTime": 1264160905,
+                        "id": 1264160905,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "506863220",
+                            "name": "幸福的/旁边 ",
+                            "platform": 1
+                        },
+                        "content": "唐唐.我是刘云峰 ",
+                        "postTime": 1264161042,
+                        "id": 1264161042,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "...- - ",
+                        "postTime": 1264162402,
+                        "id": 1264162402,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "506863220",
+                            "name": "幸福的/旁边 ",
+                            "platform": 1
+                        },
+                        "content": "那个霜之哀伤法球，四级时砍中就减对方20%的攻速和移动速度，持续2秒，其间攻击被减速的目标的人加40的攻速和10%的移动速度~幻象继承此法球 ",
+                        "postTime": 1264251159,
+                        "id": 1264251159,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "506863220",
+                            "name": "幸福的/旁边 ",
+                            "platform": 1
+                        },
+                        "content": "技能名字你都看着起吧 ",
+                        "postTime": 1264252712,
+                        "id": 1264252712,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

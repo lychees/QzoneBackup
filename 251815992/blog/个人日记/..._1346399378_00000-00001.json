@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1346410441,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "统计区间不同数的个数。。？ ",
+                "capacity": 12142,
+                "poster": {
+                    "id": "122155302",
+                    "platform": 1,
+                    "name": "木子日匀 ",
+                    "emoji": []
+                },
+                "bmp": "38d40da00102c209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1346665942,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,3,]类似的题还有 spoj 的 xxxxxxxx 呢。。\n[/ft] ",
+                "capacity": 12121,
+                "poster": {
+                    "id": "657339976",
+                    "platform": 1,
+                    "name": "→_→ ",
+                    "emoji": []
+                },
+                "bmp": "188095800000c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1463189169,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "我已经到了[em]e100[/em] ",
+                "capacity": 12135,
+                "poster": {
+                    "id": "121371490",
+                    "platform": 1,
+                    "name": "詹艳玲 ",
+                    "emoji": []
+                },
+                "bmp": "18d5dda00102e409",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1463196633,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "安全第一 ",
+                "capacity": 12157,
+                "poster": {
+                    "id": "61761988",
+                    "platform": 1,
+                    "name": "♂DreamFoxW ",
+                    "emoji": []
+                },
+                "bmp": "98d095a00002c301",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

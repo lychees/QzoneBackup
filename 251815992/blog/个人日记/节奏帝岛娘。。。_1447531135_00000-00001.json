@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 2,
+                "postTime": 1447555763,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "好多比赛。。 ",
+                "capacity": 12155,
+                "poster": {
+                    "id": "1242256806",
+                    "platform": 1,
+                    "name": "无锡-美术-林可 ",
+                    "emoji": []
+                },
+                "bmp": "18408da00002e201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1447582282,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "通技高手 ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "844242114",
+                    "platform": 1,
+                    "name": "MoonMayCry ",
+                    "emoji": []
+                },
+                "bmp": "08d095a000028101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

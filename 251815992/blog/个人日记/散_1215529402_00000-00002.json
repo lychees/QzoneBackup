@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1215751410,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "我连看都不看。。。 ",
+                "capacity": 12156,
+                "poster": {
+                    "id": "328074703",
+                    "platform": 1,
+                    "name": "周小刚 ",
+                    "emoji": []
+                },
+                "bmp": "180095a00002c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1216035271,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "。。。 ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "516037454",
+                    "platform": 1,
+                    "name": "华丽 V ",
+                    "emoji": []
+                },
+                "bmp": "08d01da00102c009",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1216173448,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "哈哈哈哈哈哈哈哈哈哈... ",
+                "capacity": 12141,
+                "poster": {
+                    "id": "122698324",
+                    "platform": 1,
+                    "name": "张晓晨 ",
+                    "emoji": []
+                },
+                "bmp": "18d19560010e8009",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

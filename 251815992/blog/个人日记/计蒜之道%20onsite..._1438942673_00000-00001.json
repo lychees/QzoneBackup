@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 2,
+                "postTime": 1438943194,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "请允悲 ",
+                "capacity": 12162,
+                "poster": {
+                    "id": "25241274",
+                    "platform": 1,
+                    "name": "七星瓢虫 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00000e101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1438953101,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "么么哒 ",
+                "capacity": 12164,
+                "poster": {
+                    "id": "3105179337",
+                    "platform": 1,
+                    "name": "一只辣鸡 ",
+                    "emoji": []
+                },
+                "bmp": "08009d8002006201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

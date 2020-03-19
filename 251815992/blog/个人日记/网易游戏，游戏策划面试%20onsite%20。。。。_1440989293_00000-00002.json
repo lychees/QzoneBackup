@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1440990431,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "太厉害了 ",
+                "capacity": 12110,
+                "poster": {
+                    "id": "624050143",
+                    "platform": 1,
+                    "name": "倪亦帅 ",
+                    "emoji": []
+                },
+                "bmp": "18d48da80002c201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1440994803,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "游戏策划不就是吹牛逼的吗，玩的越多，吹得越多 ",
+                "capacity": 12122,
+                "poster": {
+                    "id": "515016441",
+                    "platform": 1,
+                    "name": "时 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a40102c929",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1441191357,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "看来我原来也应该面策划试一试 ",
+                "capacity": 12143,
+                "poster": {
+                    "id": "31898890",
+                    "platform": 1,
+                    "name": "伟大的哲学家 ",
+                    "emoji": []
+                },
+                "bmp": "1841952400009001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,672 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    Usaco castle
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             Usaco castle
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2008-04-30 11:34:08
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(21)	è¯è®º(0)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1209569648,
+"voteids":0,
+"pubtime":1209569648,
+"replynum":0,
+"category":"个人日记",
+"title":"Usaco castle",
+"effect":512,
+"effect2":0,
+"exblogtype":0,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":0,
+"lp_style":0,
+"lp_flag":0,
+"orguin":251815992,
+"orgblogid":1209569648,
+"mention_uins":[ ],
+"attach":[],"comments":[]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <a href="http://www.nocow.cn/index.php/Translate:USACO/castle" target="_blank">
+               http://www.nocow.cn/index.php/Translate:USACO/castle
+              </a>
+              <wbr/>
+              <br/>
+              <span style="font-weight:bold">
+               <wbr/>
+               The Castle
+              </span>
+              <wbr/>
+              城堡
+              <br/>
+              1   2   3   4   5   6   7
+              <br/>
+              #############################
+              <br/>
+              1 #   |   #   |   #   |   |   #
+              <br/>
+              #####---#####---#---#####---#
+              <br/>
+              2 #   #   |   #   #   #   #   #
+              <br/>
+              #---#####---#####---#####---#
+              <br/>
+              3 #   |   |   #   #   #   #   #
+              <br/>
+              #---#########---#####---#---#
+              <br/>
+              4 # -&gt;#   |   |   |   |   #   #
+              <br/>
+              #############################
+              <br/>
+              <br/>
+              原题目的意思是给你一张城堡的平面图..~
+              <br/>
+              要求求出面积最大的一个房间，房间的个数
+              <br/>
+              以及打破一扇墙壁所能获得的最大面积数～
+              <br/>
+              <br/>
+              {5
+              <br/>
+              9
+              <br/>
+              16
+              <br/>
+              4 1 E} 样例数据的输出～
+              <br/>
+              <br/>
+              一个简单的思路是对整副地图作一次floodfill～
+              <br/>
+              得出每块部分的面积～再一次扫描求出打破一扇墙壁所能获得的最大面积～
+              <br/>
+              <br/>
+              = -由于考虑到时无向图，求连通子图的方法可以使用并查集～
+              <br/>
+              这道题
+              <br/>
+              ufs=^rec;
+              <br/>
+              rec=record
+              <br/>
+              n:int;
+              <br/>
+              c:int;
+              <br/>
+              p:ufs;
+              <br/>
+              k:int;
+              <br/>
+              end;
+              <br/>
+              s:array[1..50,1..50] of ufs;
+              <br/>
+              数据结构的设计：～并查集的四个域名分别是
+              <br/>
+              n:按秩合并用 c:记录方块的数量，以便求出题目中的信息
+              <br/>
+              p:指针       k:用来存储地图信息
+              <br/>
+              <br/>
+              接下来我们的工作就很简单啦～通过一次扫描合并联通的区域我们可以获得第一问和第二问的答案
+              <br/>
+              for a:=1 to m do
+              <br/>
+              for b:=n downto 1 do
+              <br/>
+              if (如果相邻两块区域不联通) and (之间有墙) and (位置合法) then  考虑是否基于推倒墙壁可以获得更优的方案
+              <br/>
+              <br/>
+              于是本题可以得到解决～～
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              附：My program~
+              <br/>
+              {ID: Lychees
+              <br/>
+              PROG: castle
+              <br/>
+              LANG: PASCAL
+              <br/>
+              }
+              <br/>
+              type int=integer;
+              <br/>
+              ufs=^rec;
+              <br/>
+              rec=record
+              <br/>
+              n:int;
+              <br/>
+              c:int;
+              <br/>
+              p:ufs;
+              <br/>
+              k:int;
+              <br/>
+              end;
+              <br/>
+              var input,output:text;
+              <br/>
+              a,b,c:int;
+              <br/>
+              n,m:int;
+              <br/>
+              room,max:int;
+              <br/>
+              s:array[1..50,1..50] of ufs;
+              <br/>
+              <br/>
+              <br/>
+              procedure make(var x:ufs);
+              <br/>
+              begin
+              <br/>
+              new(x);x^.k:=0;x^.p:=x;x^.n:=0;x^.c:=1;
+              <br/>
+              end;
+              <br/>
+              function find(var x:ufs):ufs;
+              <br/>
+              begin
+              <br/>
+              if x^.p&lt;&gt;x then x^.p:=find(x^.p);
+              <br/>
+              exit(x^.p);
+              <br/>
+              end;
+              <br/>
+              procedure union(x,y:ufs);
+              <br/>
+              begin
+              <br/>
+              x:=find(x);y:=find(y);if x=y then exit;
+              <br/>
+              if x^.n&lt;y^.n then begin x^.p:=y^.p;inc(y^.c,x^.c);if y^.c&gt;max then max:=y^.c; end
+              <br/>
+              else begin y^.p:=x;inc(x^.c,y^.c); if x^.n=y^.n then inc(x^.n);if x^.c&gt;max then max:=x^.c;  end;
+              <br/>
+              dec(room);
+              <br/>
+              end;
+              <br/>
+              function North(x:ufs):boolean;
+              <br/>
+              begin
+              <br/>
+              if x^.k and 2 =0 then exit(true);
+              <br/>
+              exit(false);
+              <br/>
+              end;
+              <br/>
+              function South(x:ufs):boolean;
+              <br/>
+              begin
+              <br/>
+              if x^.k and 8 = 0 then exit(true);
+              <br/>
+              exit(false);
+              <br/>
+              end;
+              <br/>
+              function West(x:ufs):boolean;
+              <br/>
+              begin
+              <br/>
+              if x^.k and 1 = 0 then exit(true);
+              <br/>
+              exit(false);
+              <br/>
+              end;
+              <br/>
+              function East(x:ufs):boolean;
+              <br/>
+              begin
+              <br/>
+              if x^.k and 4 =0  then exit(true);
+              <br/>
+              exit(false);
+              <br/>
+              end;
+              <br/>
+              <br/>
+              {-------------------------------------}
+              <br/>
+              procedure load;
+              <br/>
+              begin
+              <br/>
+              assign(input,'castle.in');assign(output,'castle.out');reset(input);rewrite(output);
+              <br/>
+              readln(input,m,n);room:=m*n;max:=1;
+              <br/>
+              for a:=1 to n do
+              <br/>
+              begin
+              <br/>
+              for b:=1 to m do
+              <br/>
+              begin
+              <br/>
+              make(s[a,b]);read(input,s[a,b]^.k);
+              <br/>
+              end;
+              <br/>
+              readln(input)
+              <br/>
+              end;
+              <br/>
+              close(input);
+              <br/>
+              end;
+              <br/>
+              procedure main;
+              <br/>
+              begin
+              <br/>
+              for a:=1 to n do
+              <br/>
+              begin
+              <br/>
+              for b:=1 to m do
+              <br/>
+              begin
+              <br/>
+              if (North(s[a,b])) and (a&gt;1) then union(s[a,b],s[a-1,b]);
+              <br/>
+              if (South(s[a,b])) and (a&lt;n) then union(s[a,b],s[a+1,b]);
+              <br/>
+              if (West(s[a,b])) and (b&gt;1) then union(s[a,b],s[a,b-1]);
+              <br/>
+              if (East(s[a,b])) and (b&lt;n) then union(s[a,b],s[a,b+1]);
+              <br/>
+              end;
+              <br/>
+              end;
+              <br/>
+              end;
+              <br/>
+              procedure print;
+              <br/>
+              var t,d:integer;
+              <br/>
+              x,y:integer;
+              <br/>
+              z:char;
+              <br/>
+              begin
+              <br/>
+              writeln(output,room);
+              <br/>
+              writeln(output,max);d:=0;
+              <br/>
+              for a:=1 to m do
+              <br/>
+              begin
+              <br/>
+              for b:=n downto 1 do
+              <br/>
+              begin
+              <br/>
+              if not (North(s
+              <span style="font-weight:bold">
+               <wbr/>
+               )) and (b&gt;1) and (find(s
+               <span style="font-weight:bold">
+                <wbr/>
+                )^.p&lt;&gt;find(s
+                <span style="font-weight:bold">
+                 <wbr/>
+                 )^.p) then
+                 <br/>
+                 begin
+                 <br/>
+                 t:=find(s
+                 <span style="font-weight:bold">
+                  <wbr/>
+                  )^.c+find(s
+                  <span style="font-weight:bold">
+                   <wbr/>
+                   )^.c;
+                   <br/>
+                   if t&gt;d then begin d:=t;z:='N';x:=b;y:=a end;
+                   <br/>
+                   end;
+                   <br/>
+                   if not (East(s
+                   <span style="font-weight:bold">
+                    <wbr/>
+                    )) and (a&lt;m) and (find(s
+                    <span style="font-weight:bold">
+                     <wbr/>
+                     )^.p&lt;&gt;find(s
+                     <span style="font-weight:bold">
+                      <wbr/>
+                      )^.p) then
+                      <br/>
+                      begin
+                      <br/>
+                      t:=find(s
+                      <span style="font-weight:bold">
+                       <wbr/>
+                       )^.c+find(s
+                       <span style="font-weight:bold">
+                        <wbr/>
+                        )^.c;
+                        <br/>
+                        if t&gt;d then begin d:=t;z:='E';x:=b;y:=a end;
+                        <br/>
+                        end;
+                        <br/>
+                        end;
+                        <br/>
+                        end;
+                        <br/>
+                        writeln(output,d);
+                        <br/>
+                        writeln(output,x,' ',y,' ',z);
+                        <br/>
+                        close(output);
+                        <br/>
+                        end;
+                        <br/>
+                        begin
+                        <br/>
+                        load;
+                        <br/>
+                        main;
+                        <br/>
+                        print;
+                        <br/>
+                        end.
+                        <br/>
+                       </span>
+                      </span>
+                     </span>
+                    </span>
+                   </span>
+                  </span>
+                 </span>
+                </span>
+               </span>
+              </span>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

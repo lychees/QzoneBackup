@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1351406407,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=#a8a8a8,,tahoma, microsoft yahei]还没有人发表评论[/ft][url=]来坐第一个沙发[/url] ",
+                "capacity": 12082,
+                "poster": {
+                    "id": "751723392",
+                    "platform": 1,
+                    "name": "wwwwodddd ",
+                    "emoji": []
+                },
+                "bmp": "18c095a80000c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

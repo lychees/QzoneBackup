@@ -1,0 +1,57 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1583048531,
+                "postTime": 1583048531,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "你还记得cmu老教授吗 你们后来还联系吗 ",
+                "capacity": 12030,
+                "poster": {
+                    "id": "784593493",
+                    "platform": 1,
+                    "name": "Zephyr ",
+                    "emoji": []
+                },
+                "bmp": "18c09d800002c421",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:784593493,nick:Zephyr,auto:1} 我的 OCaml 都是抄他的。。 ",
+                        "postTime": 1583052741,
+                        "id": 1583052741,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 1583048984,
+                "postTime": 1583048984,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "并发栈？ ",
+                "capacity": 12162,
+                "poster": {
+                    "id": "529520158",
+                    "platform": 1,
+                    "name": "雪人墙 ",
+                    "emoji": []
+                },
+                "bmp": "18d08da00802c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

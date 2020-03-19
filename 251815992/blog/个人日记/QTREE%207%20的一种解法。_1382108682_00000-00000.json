@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1382109178,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "。。。太神了 orz ",
+                "capacity": 12150,
+                "poster": {
+                    "id": "191318138",
+                    "platform": 1,
+                    "name": "跪RZ ",
+                    "emoji": []
+                },
+                "bmp": "18c09d800002e121",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

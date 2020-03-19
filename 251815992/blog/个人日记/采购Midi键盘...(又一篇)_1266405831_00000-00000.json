@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1266435719,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[em]e139[/em]不是我说 你真的已经SB到无可救药了 ",
+                "capacity": 12127,
+                "poster": {
+                    "id": "474697421",
+                    "platform": 1,
+                    "name": "朱明琪 ",
+                    "emoji": []
+                },
+                "bmp": "18d195a000028209",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1211086569,
+                "effect": 4194336,
+                "replyNum": 1,
+                "content": "你-----[em]e26[/em] ",
+                "capacity": 12133,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "`` ",
+                        "postTime": 1228571178,
+                        "id": 1228571178,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1211606752,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "我晕。。。小C长什么样？？[em]e23[/em] ",
+                "capacity": 12127,
+                "poster": {
+                    "id": "122698324",
+                    "platform": 1,
+                    "name": "张晓晨 ",
+                    "emoji": []
+                },
+                "bmp": "18d19560010e8009",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1211624090,
+                "effect": 4194336,
+                "replyNum": 2,
+                "content": "楼上de 是哪个 ",
+                "capacity": 12077,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "= -\n被双截棍打败的那个.. ",
+                        "postTime": 1211624348,
+                        "id": 1211624348,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "347956886",
+                            "name": "小c ",
+                            "platform": 1
+                        },
+                        "content": "???什么跟什么呀.. ",
+                        "postTime": 1211625756,
+                        "id": 1211625756,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

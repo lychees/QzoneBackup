@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1473843936,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "前排 ",
+                "capacity": 12171,
+                "poster": {
+                    "id": "595350108",
+                    "platform": 1,
+                    "name": "Ueane ",
+                    "emoji": []
+                },
+                "bmp": "184095a00102c201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

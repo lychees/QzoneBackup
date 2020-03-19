@@ -1,0 +1,51 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1411665724,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "[em]e103[/em] 我的浏览器解析不出Tex… 他那个近似公式怎么弄出来的？ ",
+                "capacity": 11915,
+                "poster": {
+                    "id": "865319505",
+                    "platform": 1,
+                    "name": "Error202 ",
+                    "emoji": []
+                },
+                "bmp": "08c09d800000c020",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:865319505,nick:Error202,who:1,auto:1}泰勒展开。\n ",
+                        "postTime": 1411669813,
+                        "id": 1411669813,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "865319505",
+                            "name": "Error202 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1} 能截个图给我看下么？ ",
+                        "postTime": 1411669868,
+                        "id": 1411669868,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

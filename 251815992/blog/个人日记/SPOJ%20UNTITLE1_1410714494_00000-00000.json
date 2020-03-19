@@ -1,0 +1,51 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1410753609,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "我猜是因为没法区间合并？ ",
+                "capacity": 11942,
+                "poster": {
+                    "id": "365273817",
+                    "platform": 1,
+                    "name": "Picks ",
+                    "emoji": []
+                },
+                "bmp": "18c095800002c001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "826513189",
+                            "name": "叉姐 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:365273817,nick:Picks,who:1,auto:1} 显然是可以log n log n的啊 ",
+                        "postTime": 1410843717,
+                        "id": 1410843717,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "365273817",
+                            "name": "Picks ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:826513189,nick:叉姐,who:1,auto:1}…我还是自删了吧…以及求一个姿势？ ",
+                        "postTime": 1410864858,
+                        "id": 1410864858,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

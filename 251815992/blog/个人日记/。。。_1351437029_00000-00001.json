@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1351437055,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "dadao ",
+                "capacity": 12164,
+                "poster": {
+                    "id": "751723392",
+                    "platform": 1,
+                    "name": "wwwwodddd ",
+                    "emoji": []
+                },
+                "bmp": "18c095a80000c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1351484934,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "膜拜面基 ",
+                "capacity": 12148,
+                "poster": {
+                    "id": "368586905",
+                    "platform": 1,
+                    "name": "[HIT] For_the_Love ",
+                    "emoji": []
+                },
+                "bmp": "18d09d800000c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

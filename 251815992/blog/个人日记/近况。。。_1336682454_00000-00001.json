@@ -1,0 +1,51 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 2,
+                "postTime": 1336694621,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "让你开坑让你开坑。。。 ",
+                "capacity": 12146,
+                "poster": {
+                    "id": "122155302",
+                    "platform": 1,
+                    "name": "木子日匀 ",
+                    "emoji": []
+                },
+                "bmp": "38d40da00102c209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1336717305,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "天坑 ",
+                "capacity": 12035,
+                "poster": {
+                    "id": "601598644",
+                    "platform": 1,
+                    "name": "金天 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00002c109",
+                "ismyreply": 0,
+                "giftId": "3868020ff9afac4f0c250a00",
+                "giftType": 1,
+                "giftItemID": 76970,
+                "giftName": "吐血不止",
+                "giftUrl": "http://ctc.qzonestyle.gtimg.cn/qzone/space_item/pre/10/76970.gif",
+                "giftmMalllist": "566|1115|",
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 2,
+                "postTime": 1438486570,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "从下到上，异或 ",
+                "capacity": 12104,
+                "poster": {
+                    "id": "624050143",
+                    "platform": 1,
+                    "name": "倪亦帅 ",
+                    "emoji": []
+                },
+                "bmp": "18d48da80002c201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1438491806,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "杨辉三角形对2取余… ",
+                "capacity": 12152,
+                "poster": {
+                    "id": "541426832",
+                    "platform": 1,
+                    "name": "HPFDF ",
+                    "emoji": []
+                },
+                "bmp": "18c09da00102c101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

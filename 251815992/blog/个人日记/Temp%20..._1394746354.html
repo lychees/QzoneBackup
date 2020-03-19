@@ -1,0 +1,1265 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    Temp ...
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             Temp ...
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2014-03-13 17:32:34
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(9)	è¯è®º(0)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1394746354,
+"voteids":0,
+"pubtime":1394746354,
+"replynum":0,
+"category":"个人日记",
+"title":"Temp ...",
+"effect":8389120,
+"effect2":524294,
+"exblogtype":3,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":81177,
+"lp_style":16843520,
+"lp_flag":0,
+"lp_topvalue":0,
+"orguin":251815992,
+"orgblogid":1394746354,
+"mention_uins":[ ],
+"attach":[],"comments":[]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <div>
+                <div>
+                 <br/>
+                 <br/>
+                 <br/>
+                 线性素筛。。
+                 <br/>
+                 <br/>
+                 <div>
+                  const int PMAX = 1;
+                 </div>
+                 <div>
+                  VI P; bitset&lt;PMAX&gt; isP;
+                 </div>
+                 <div>
+                  void sieve(){
+                 </div>
+                 <div>
+                  FOR(i, 2, PMAX){
+                 </div>
+                 <div>
+                  if (!isP[i]) P.PB(i);
+                 </div>
+                 <div>
+                  for (int j=0;j&lt;SZ(P)&amp;&amp;i*P[j]&lt;PMAX;++j){
+                 </div>
+                 <div>
+                  isP[i*P[j]]=1; if (!(i%P[j])) break;
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  }
+                  <br/>
+                  <span>
+                   <br/>
+                   <br/>
+                   最小素因子。。
+                  </span>
+                 </div>
+                 <br/>
+                 <div>
+                  const int PMAX = int(1e5) + 9;
+                 </div>
+                 <div>
+                  VI P; bitset&lt;PMAX&gt; isP; int p[PMAX];
+                 </div>
+                 <div>
+                  void sieve(){
+                 </div>
+                 <div>
+                  p[1]=1;FOR(i, 2, PMAX){
+                 </div>
+                 <div>
+                  if (!isP[i]) P.PB(i),p[i]=i;
+                 </div>
+                 <div>
+                  for (int j=0;j&lt;SZ(P)&amp;&amp;i*P[j]&lt;PMAX;++j){
+                 </div>
+                 <div>
+                  isP[i*P[j]]=1,p[i*P[j]]=P[j]; if (!(i%P[j])) break;
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <br/>
+                 欧拉 phi 函数
+                 <br/>
+                 <br/>
+                 <div>
+                  const int PMAX = 1000;
+                 </div>
+                 <div>
+                  VI P; bitset&lt;PMAX&gt; isP; int phi[PMAX];
+                 </div>
+                 <div>
+                  void sieve(){
+                 </div>
+                 <div>
+                  phi[1] = 1; FOR(i, 2, PMAX){
+                 </div>
+                 <div>
+                  if (!isP[i]) P.PB(i), phi[i] = i-1;
+                 </div>
+                 <div>
+                  for (int j=0;j&lt;SZ(P)&amp;&amp;i*P[j]&lt;PMAX;++j){
+                 </div>
+                 <div>
+                  isP[i*P[j]]=1; if (!(i%P[j])){
+                 </div>
+                 <div>
+                  phi[i*P[j]] = phi[i] * P[j];
+                 </div>
+                 <div>
+                  break;
+                 </div>
+                 <div>
+                  } else{
+                 </div>
+                 <div>
+                  phi[i*P[j]] = phi[i] * (P[j] - 1);
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  }
+                  <br/>
+                  <span>
+                   <br/>
+                   莫比乌斯 mu 函数  。。。
+                   <br/>
+                   <span>
+                    <br/>
+                   </span>
+                  </span>
+                  <span>
+                   const int PMAX = int(1e5) + 9;
+                  </span>
+                 </div>
+                 <div>
+                  VI P; bitset&lt;PMAX&gt; isP; int mu[PMAX];
+                 </div>
+                 <div>
+                  void sieve(){
+                 </div>
+                 <div>
+                  mu[1] = 1; FOR(i, 2, PMAX){
+                 </div>
+                 <div>
+                  if (!isP[i]) P.PB(i), mu[i] = -1;
+                 </div>
+                 <div>
+                  for (int j=0;j&lt;SZ(P)&amp;&amp;i*P[j]&lt;PMAX;++j){
+                 </div>
+                 <div>
+                  isP[i*P[j]]=1; if (!(i%P[j])){
+                 </div>
+                 <div>
+                  mu[i*P[j]] = 0;
+                 </div>
+                 <div>
+                  break;
+                 </div>
+                 <div>
+                  } else{
+                 </div>
+                 <div>
+                  mu[i*P[j]] = -mu[i];
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <br/>
+                 ---------
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  const int PMAX = int(1e5) + 9;
+                 </div>
+                 <div>
+                  VI P; bitset&lt;PMAX&gt; isP; int mu[PMAX];
+                 </div>
+                 <div>
+                  void sieve(){
+                 </div>
+                 <div>
+                  mu[1] = 1; FOR(i, 2, PMAX){
+                 </div>
+                 <div>
+                  if (!isP[i]) P.PB(i), mu[i] = -1;
+                 </div>
+                 <div>
+                  for (int j=0;j&lt;SZ(P)&amp;&amp;i*P[j]&lt;PMAX;++j){
+                 </div>
+                 <div>
+                  isP[i*P[j]]=1; if (!(i%P[j])){
+                 </div>
+                 <div>
+                  mu[i*P[j]] = 0;
+                 </div>
+                 <div>
+                  break;
+                 </div>
+                 <div>
+                  } else{
+                 </div>
+                 <div>
+                  mu[i*P[j]] = -mu[i];
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  const int N = 109;
+                 </div>
+                 <div>
+                  int A[N], B[N];
+                 </div>
+                 <div>
+                  int n;
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  void r(){
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  REP_1(i, n){
+                 </div>
+                 <div>
+                  B[i] = 0;
+                 </div>
+                 <div>
+                  REP_1(d, i) if (i%d == 0) B[i] += A[d];
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  REP(i, n) A[i] = B[i];
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  void l(){
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  REP_1(i, n){
+                 </div>
+                 <div>
+                  B[i] = 0;
+                 </div>
+                 <div>
+                  REP_1(d, i) if (i%d == 0) B[i] += mu[d]*A[i/d];
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  REP(i, n) A[i] = B[i];
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  int main(){
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  #ifndef ONLINE_JUDGE
+                 </div>
+                 <div>
+                  freopen("in.txt", "r", stdin);
+                 </div>
+                 <div>
+                  //freopen("out.txt", "w", stdout);
+                 </div>
+                 <div>
+                  #endif
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  sieve();
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  n = 10; REP_1(i, n) A[i] = i*i;
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  r(); r(); r();
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  REP(i, n) printf("%d ", A[i]); puts("");
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <br/>
+                 <a href="https://en.wikipedia.org/wiki/M%C3%B6bius_inversion_formula#Repeated_transformations" target="_blank">
+                  https://en.wikipedia.org/wiki/M%C3%B6bius_inversion_formula#Repeated_transformations
+                 </a>
+                 <br/>
+                 <br/>
+                 莫比乌斯变换 ↑
+                 <br/>
+                 莫比乌斯逆变换 ↓
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 Sigma_0
+                 <br/>
+                 -2：
+                 <br/>
+                 Mobius Function：
+                 <br/>
+                 <a href="http://oeis.org/A008683" target="_blank">
+                  http://oeis.org/A008683
+                 </a>
+                 <br/>
+                 -1：
+                 <br/>
+                 单位函数
+                 <br/>
+                 1,0,0,0,0,0,0...
+                 <br/>
+                 0：
+                 <br/>
+                 常函数
+                 <br/>
+                 1,1,1,1,1,1,1
+                 <br/>
+                 1：
+                 <br/>
+                 <a href="http://oeis.org/A000005" target="_blank">
+                  http://oeis.org/A000005
+                 </a>
+                 <br/>
+                 d0：0阶约数函数。。。约数的个数。。
+                 <br/>
+                 tau2：拆成两个因子的顺序方案数。（顺序相关）。。。（不涉及相关其他数列的时候不强调下标.。。）
+                 <br/>
+                 2:
+                 <br/>
+                 ???
+                 <br/>
+                 <a href="http://oeis.org/A007425" target="_blank">
+                  http://oeis.org/A007425
+                 </a>
+                 <br/>
+                 tau3：拆成三个因子的方案。（顺序相关）。以下为 tau 4 tau 5.。。
+                 <br/>
+                 3:
+                 <br/>
+                 <a href="http://oeis.org/A007426 " target="_blank">
+                  http://oeis.org/A007426
+                 </a>
+                 ;
+                 <br/>
+                 4:
+                 <br/>
+                 <a href="http://oeis.org/A061200" target="_blank">
+                  http://oeis.org/A061200
+                 </a>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 Sigma_1
+                 <br/>
+                 -2：
+                 <br/>
+                 <a href="http://oeis.org/A007431" target="_blank">
+                  http://oeis.org/A007431
+                 </a>
+                 <br/>
+                 -1：
+                 <br/>
+                 <a href="http://oeis.org/A000010 " target="_blank">
+                  http://oeis.org/A000010
+                 </a>
+                 ;
+                 <br/>
+                 <span style="font-family:Simsun;font-size:medium">
+                  Euler totient function phi(n)
+                 </span>
+                 <br/>
+                 0：
+                 <br/>
+                 1,2,3,4,5,6。。。
+                 <br/>
+                 算数序列
+                 <br/>
+                 1：
+                 <br/>
+                 sigma_1
+                 <br/>
+                 <a href="http://oeis.org/A000203" target="_blank">
+                  http://oeis.org/A000203
+                 </a>
+                 <br/>
+                 2：
+                 <br/>
+                 <a href="http://oeis.org/A007429" target="_blank">
+                  http://oeis.org/A007429
+                 </a>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 Sigma_2:
+                 <br/>
+                 查不到。1,2,7,9,23,14,47,36,64
+                 <br/>
+                 Jordan_totient_Function .... //
+                 <a href="https://en.wikipedia.org/wiki/Jordan" target="_blank">
+                  https://en.wikipedia.org/wiki/Jordan
+                 </a>
+                 's_totient_function
+                 <br/>
+                 平方序列
+                 <br/>
+                 sigma_2
+                 <br/>
+                 <a href="http://oeis.org/A007433" target="_blank">
+                  http://oeis.org/A007433
+                 </a>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 (前 n 项 phi 的和。。。
+                 <br/>
+                 <a href="http://oeis.org/A002088" target="_blank">
+                  http://oeis.org/A002088
+                 </a>
+                 ??)
+                 <br/>
+                 <a href="http://acm.hdu.edu.cn/showproblem.php?pid=1695" target="_blank">
+                  http://acm.hdu.edu.cn/showproblem.php?pid=1695
+                 </a>
+                 <br/>
+                 <br/>
+                 <br/>
+                 暴力容斥原理 （2000ms）
+                 <br/>
+                 <br/>
+                 <div>
+                  const int PMAX = int(1e5) + 9;
+                 </div>
+                 <div>
+                  VI P; bitset&lt;PMAX&gt; isP; int p[PMAX];
+                 </div>
+                 <div>
+                  void sieve(){
+                 </div>
+                 <div>
+                  p[1]=1;FOR(i, 2, PMAX){
+                 </div>
+                 <div>
+                  if (!isP[i]) P.PB(i),p[i]=i;
+                 </div>
+                 <div>
+                  for (int j=0;j&lt;SZ(P)&amp;&amp;i*P[j]&lt;PMAX;++j){
+                 </div>
+                 <div>
+                  isP[i*P[j]]=1,p[i*P[j]]=P[j]; if (!(i%P[j])) break;
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  int a, b, k;
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  int main(){
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  #ifndef ONLINE_JUDGE
+                 </div>
+                 <div>
+                  freopen("in.txt", "r", stdin);
+                 </div>
+                 <div>
+                  //freopen("out.txt", "w", stdout);
+                 </div>
+                 <div>
+                  #endif
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  sieve(); Rush{
+                 </div>
+                 <div>
+                  int _; RD(_, a, _, b, k); if (!k) {OT(0); continue;}; a /= k, b /= k;
+                 </div>
+                 <div>
+                  LL z = 0; if (a &gt; b) swap(a, b); REP_1(bb, b){
+                 </div>
+                 <div>
+                  int aa = min(bb, a); VI D; int x = bb; while (x != 1) D.PB(p[x]), x /= p[x]; UNQQ(D);
+                 </div>
+                 <div>
+                  REP(s, _1(SZ(D))){
+                 </div>
+                 <div>
+                  int c = 0, d = 1; REP(i, SZ(D)) if (_1(s, i)) ++c, d*=D[i];
+                 </div>
+                 <div>
+                  if (c&amp;1) z -= aa/d; else z += aa/d;
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  OT(z);
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  }
+                  <br/>
+                  <span>
+                   <br/>
+                   <br/>
+                   莫比乌斯反演
+                   <br/>
+                   <br/>
+                   <div>
+                    const int PMAX = int(1e5) + 9;
+                   </div>
+                   <div>
+                    VI P; bitset&lt;PMAX&gt; isP; int mu[PMAX];
+                   </div>
+                   <div>
+                    void sieve(){
+                   </div>
+                   <div>
+                    mu[1] = 1; FOR(i, 2, PMAX){
+                   </div>
+                   <div>
+                    if (!isP[i]) P.PB(i), mu[i] = -1;
+                   </div>
+                   <div>
+                    for (int j=0;j&lt;SZ(P)&amp;&amp;i*P[j]&lt;PMAX;++j){
+                   </div>
+                   <div>
+                    isP[i*P[j]]=1; if (!(i%P[j])){
+                   </div>
+                   <div>
+                    mu[i*P[j]] = 0;
+                   </div>
+                   <div>
+                    break;
+                   </div>
+                   <div>
+                    } else{
+                   </div>
+                   <div>
+                    mu[i*P[j]] = -mu[i];
+                   </div>
+                   <div>
+                    }
+                   </div>
+                   <div>
+                    }
+                   </div>
+                   <div>
+                    }
+                   </div>
+                   <div>
+                    }
+                   </div>
+                   <div>
+                    <br/>
+                   </div>
+                   <div>
+                    int a, b, k;
+                   </div>
+                   <div>
+                    <br/>
+                   </div>
+                   <div>
+                    int main(){
+                   </div>
+                   <div>
+                    <br/>
+                   </div>
+                   <div>
+                    #ifndef ONLINE_JUDGE
+                   </div>
+                   <div>
+                    freopen("in.txt", "r", stdin);
+                   </div>
+                   <div>
+                    //freopen("out.txt", "w", stdout);
+                   </div>
+                   <div>
+                    #endif
+                   </div>
+                   <div>
+                    <br/>
+                   </div>
+                   <div>
+                    sieve(); Rush{
+                   </div>
+                   <div>
+                    int _; RD(_, a, _, b, k); if (!k) {OT(0); continue;}; a /= k, b /= k;
+                   </div>
+                   <div>
+                    LL z = 0; if (a &gt; b) swap(a, b);
+                   </div>
+                   <div>
+                    REP_1(i, a) z -= (LL)mu[i]*(a/i)*(a/i); z /= 2;
+                   </div>
+                   <div>
+                    REP_1(i, a) z += (LL)mu[i]*(a/i)*(b/i); OT(z);
+                   </div>
+                   <div>
+                    }
+                   </div>
+                   <div>
+                    }
+                   </div>
+                   <div>
+                    <br/>
+                   </div>
+                  </span>
+                 </div>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 分拆
+                 <br/>
+                 <a href="https://oeis.org/A000041" target="_blank">
+                  https://oeis.org/A000041
+                 </a>
+                 <br/>
+                 <br/>
+                 k部-分拆
+                 <br/>
+                 <a href="https://oeis.org/A026820" target="_blank">
+                  https://oeis.org/A026820
+                 </a>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 A[i][j] 表示：
+                 <br/>
+                 i 分拆成最大数不超过 j 的方案数。。）
+                 <br/>
+                 A[0][0] = 1
+                 <br/>
+                 A[i][j] = A[i][j-1] + A[i-j][min(i-j, j)];
+                 <br/>
+                 不拆出 j 的方案书 + 至少拆除一个 j 的方案数。。
+                 <br/>
+                 <br/>
+                 根据共轭性也可以将
+                 <span>
+                  A[i][j]
+                 </span>
+                 <span>
+                  理解成。。
+                 </span>
+                </div>
+                <div>
+                 。。。 i 分拆成不多于 j 项的方案数。
+                 <br/>
+                 那么此时转移可以理解成。。小于 j 项的方案数 + 恰好含有 j 项的方案数。。。
+                 <br/>
+                 <br/>
+                 <div>
+                  <div>
+                   const int N = 109;
+                  </div>
+                  <div>
+                   int A[N][N], n;
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   int main(){
+                  </div>
+                  <div>
+                   n = 5; A[0][0] = 1; REP_1(i, n) REP_1(j, i)
+                  </div>
+                  <div>
+                   A[i][j] = A[i][j-1] + A[i-j][min(i-j, j)];
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   REP_1(i, n){
+                  </div>
+                  <div>
+                   REP_1(j, i) printf("%d ", A[i][j]);
+                  </div>
+                  <div>
+                   puts("");
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   /*
+                  </div>
+                  <div>
+                   1
+                  </div>
+                  <div>
+                   1 2
+                  </div>
+                  <div>
+                   1 2 3
+                  </div>
+                  <div>
+                   1 3 4 5
+                  </div>
+                  <div>
+                   1 3 5 6 7
+                  </div>
+                  <div>
+                   */
+                  </div>
+                 </div>
+                 <br/>
+                 <br/>
+                 不相同 k-部分拆
+                 <br/>
+                 <a href="https://oeis.org/A000009" target="_blank">
+                  https://oeis.org/A000009
+                 </a>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 。。。显然不相同 k 部分拆不满足共轭性质。。。。
+                 <br/>
+                 也就是
+                 <br/>
+                 <br/>
+                 <br/>
+                 最大项为 k  != 项数为 k
+                 <br/>
+                 <br/>
+                 1.
+                 <br/>
+                 设 A[i][j]：i 的最大项不大于 j 的不重复 k-部分拆。。。
+                 <br/>
+                 <div>
+                  <span>
+                   /*。。
+                  </span>
+                  <br/>
+                 </div>
+                 <div>
+                  至多含有一个 j 的 = 至多含有 j-1 的 + 恰好含有一个 j 的。
+                 </div>
+                 <div>
+                  */
+                 </div>
+                 <br/>
+                 <div>
+                  const int N = 109;
+                 </div>
+                 <div>
+                  int A[N][N], n;
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  int main(){
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  #ifndef ONLINE_JUDGE
+                 </div>
+                 <div>
+                  freopen("in.txt", "r", stdin);
+                 </div>
+                 <div>
+                  //freopen("out.txt", "w", stdout);
+                 </div>
+                 <div>
+                  #endif
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  n = 8; A[0][0] = 1; REP_1(i, n) REP_1(j, i)
+                 </div>
+                 <div>
+                  A[i][j] = A[i][j-1] + A[i-j][min(i-j, j-1)];
+                  <span>
+                   <br/>
+                  </span>
+                 </div>
+                 <div>
+                  REP_1(i, n){
+                 </div>
+                 <div>
+                  REP_1(j, i) printf("%d ", A[i][j]);
+                 </div>
+                 <div>
+                  puts("");
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  }
+                 </div>
+                </div>
+                <br/>
+                <br/>
+                2.
+                <br/>
+                <span>
+                 设 A[i][j]: 项数恰好为 j 项的不重复 k 部分拆数。
+                 <br/>
+                 <br/>
+                 最小数 &gt;1： A[i-j][j] （相当于每个数
+                </span>
+                <span>
+                 +1、
+                 <br/>
+                 最小数 =1：A[i-j][[j-1]（新增加一个 1，原先的 j-1 项再每个数+1，
+                 <br/>
+                 <br/>
+                 <span>
+                  <div>
+                   n = 10; A[0][0] = 1; REP_1(i, n) REP_1(j, i)
+                  </div>
+                 </span>
+                </span>
+                <span>
+                 A[i][j] = A[i-j][j-1] + A[i-j][j];
+                </span>
+                <span>
+                 <span>
+                  <br/>
+                  <span>
+                   <br/>
+                  </span>
+                 </span>
+                </span>
+                <br/>
+                <br/>
+               </div>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

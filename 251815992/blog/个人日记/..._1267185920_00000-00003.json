@@ -1,0 +1,114 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1267188377,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]很迅速嘛~[/ft] ",
+                "capacity": 12143,
+                "poster": {
+                    "id": "365146117",
+                    "platform": 1,
+                    "name": "伟建 ",
+                    "emoji": []
+                },
+                "bmp": "98d095a401028389",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1267188398,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "[ffg,#ffff00,#ffffff]还有..  我想要号码[em]e149[/em][/ft] ",
+                "capacity": 12041,
+                "poster": {
+                    "id": "365146117",
+                    "platform": 1,
+                    "name": "伟建 ",
+                    "emoji": []
+                },
+                "bmp": "98d095a401028389",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "可能性全无.. ",
+                        "postTime": 1267188566,
+                        "id": 1267188566,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "365146117",
+                            "name": "伟建 ",
+                            "platform": 1
+                        },
+                        "content": "哈哈~ 开玩笑啦 ",
+                        "postTime": 1267188617,
+                        "id": 1267188617,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1267256532,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[ft=,2,]天。。花色衬衫= =好想去围观、[/ft]\n[ft=,2,]改天单独请我，我记住了啊~[/ft]\n[ft=,2,]是半个月不是几个月Orz[/ft] ",
+                "capacity": 12009,
+                "poster": {
+                    "id": "114099336",
+                    "platform": 1,
+                    "name": "光禾 ",
+                    "emoji": []
+                },
+                "bmp": "18d094a50000c401",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "我会买一瓶酱油来看望你的... ",
+                        "postTime": 1267256718,
+                        "id": 1267256718,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "postTime": 1267264242,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "我也要去！！！ ",
+                "capacity": 12151,
+                "poster": {
+                    "id": "365146117",
+                    "platform": 1,
+                    "name": "伟建 ",
+                    "emoji": []
+                },
+                "bmp": "98d095a401028389",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

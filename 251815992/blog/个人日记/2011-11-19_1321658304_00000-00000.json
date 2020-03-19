@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1321678071,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]你在上海啊。。。[/ft] ",
+                "capacity": 12140,
+                "poster": {
+                    "id": "1559580331",
+                    "platform": 1,
+                    "name": "吴超尘 ",
+                    "emoji": []
+                },
+                "bmp": "08001d800002c101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1201759385,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "十字相乘刚学时的确头痛。。。\n但当你用多后。。。嗯。。。\n就能直接看出解了。。。嗯。。\n \nps：又换背景音乐啦 靠 ",
+                "capacity": 12059,
+                "poster": {
+                    "id": "474697421",
+                    "platform": 1,
+                    "name": "朱明琪 ",
+                    "emoji": []
+                },
+                "bmp": "18d195a000028209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1201792228,
+                "effect": 4194336,
+                "replyNum": 1,
+                "content": "额..你数学不是考的还可以么..\n \n发现你语文和政治竟然比我高额..真无语了 ",
+                "capacity": 12028,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "= -\n那是因为我的想象力比你高的缘故哦～\n政治反面我可以zou的满满的～～\n囧～ ",
+                        "postTime": 0,
+                        "id": 0,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1201924750,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "[B][ft=#ff0000,,]配方的我还不会...[/ft][/B]\n[B][/B] \n[B][ft=#ff0000,,]弱...[/ft][/B] ",
+                "capacity": 12081,
+                "poster": {
+                    "id": "284293874",
+                    "platform": 1,
+                    "name": "孟修竹 ",
+                    "emoji": []
+                },
+                "bmp": "08d40da80102c109",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

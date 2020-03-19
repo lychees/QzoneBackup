@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1294758907,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "恩 挺好看的 ",
+                "capacity": 12154,
+                "poster": {
+                    "id": "423076340",
+                    "platform": 1,
+                    "name": "Hope ",
+                    "emoji": []
+                },
+                "bmp": "38c195ac0042a201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1294779665,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "自己画的？？？....恩  真的『挺好看』...支持原创 ",
+                "capacity": 12117,
+                "poster": {
+                    "id": "1559398711",
+                    "platform": 1,
+                    "name": "黑夜問白天 ",
+                    "emoji": []
+                },
+                "bmp": "18518dc00206a201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1296590024,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,].-- . -./--.. .... .- -. --./- ../-- ..-/-.. --- ..-/... .... ../-.-.-.[/ft] ",
+                "capacity": 12088,
+                "poster": {
+                    "id": "1252959374",
+                    "platform": 1,
+                    "name": "肥猫 ",
+                    "emoji": []
+                },
+                "bmp": "0880940002000001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

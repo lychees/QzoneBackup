@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1264595489,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "看不懂.................. ",
+                "capacity": 12148,
+                "poster": {
+                    "id": "641996383",
+                    "platform": 1,
+                    "name": "V.C. ",
+                    "emoji": []
+                },
+                "bmp": "089015e00004d409",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

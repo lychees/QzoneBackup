@@ -1,0 +1,91 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1402231134,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "有board么 ",
+                "capacity": 12161,
+                "poster": {
+                    "id": "704998702",
+                    "platform": 1,
+                    "name": "北航董适 ",
+                    "emoji": []
+                },
+                "bmp": "18809d0000008001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1402278104,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "来个rank吧 ",
+                "capacity": 12008,
+                "poster": {
+                    "id": "630955",
+                    "platform": 1,
+                    "name": "图神 ",
+                    "emoji": []
+                },
+                "bmp": "1854956001028001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:630955,nick:图神,who:1,auto:1}最高 7 题。。7 题对五六个。。有一个队过 I 但是 6 题？。。第一名过 D 但是没过 C。\n ",
+                        "postTime": 1402297372,
+                        "id": 1402297372,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1402285501,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "筛素可以很快吧。[em]e113[/em] ",
+                "capacity": 12140,
+                "poster": {
+                    "id": "513621014",
+                    "platform": 1,
+                    "name": "HandIeNeeded ",
+                    "emoji": []
+                },
+                "bmp": "38d01fa40000c120",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1402379384,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "过D的 是NENU. Mr.Lee 吧 ",
+                "capacity": 12142,
+                "poster": {
+                    "id": "751479080",
+                    "platform": 1,
+                    "name": "Nocturnes ",
+                    "emoji": []
+                },
+                "bmp": "08d48da00102c101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

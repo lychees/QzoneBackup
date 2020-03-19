@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1380251904,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "你为何这么屌！ ",
+                "capacity": 12142,
+                "poster": {
+                    "id": "368586905",
+                    "platform": 1,
+                    "name": "[HIT] For_the_Love ",
+                    "emoji": []
+                },
+                "bmp": "18d09d800000c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1380253316,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "？？ ",
+                "capacity": 12170,
+                "poster": {
+                    "id": "402701292",
+                    "platform": 1,
+                    "name": "x. ",
+                    "emoji": []
+                },
+                "bmp": "185495a00102e101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

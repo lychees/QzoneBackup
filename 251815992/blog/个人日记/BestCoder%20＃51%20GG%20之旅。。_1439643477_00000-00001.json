@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1439644041,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "c是回文自动机裸题... ",
+                "capacity": 12148,
+                "poster": {
+                    "id": "411717067",
+                    "platform": 1,
+                    "name": "Alan Clarke ",
+                    "emoji": []
+                },
+                "bmp": "18d115a10002e201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1439652601,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "然而…每个题都没过… ",
+                "capacity": 12150,
+                "poster": {
+                    "id": "978632333",
+                    "platform": 1,
+                    "name": "特种兵-何骐 ",
+                    "emoji": []
+                },
+                "bmp": "98c09da00002e121",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

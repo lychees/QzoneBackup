@@ -1,0 +1,40 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1353843595,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[ft=,3,]Mark~ zoj 3666怎么做\n[/ft] ",
+                "capacity": 12048,
+                "poster": {
+                    "id": "723872268",
+                    "platform": 1,
+                    "name": "figo ",
+                    "emoji": []
+                },
+                "bmp": "18d0952000088029",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "375243140",
+                            "name": "cxlove ",
+                            "platform": 1
+                        },
+                        "content": "那不是直接求个SG就行了吗，但是要爆栈，自己写个栈模拟吧 ",
+                        "postTime": 1353851486,
+                        "id": 1353851486,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1258883204,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,,]啊啊啊啊啊啊啊啊啊啊啊[/ft] ",
+                "capacity": 12130,
+                "poster": {
+                    "id": "1303552653",
+                    "platform": 1,
+                    "name": "赫敏·格兰杰 ",
+                    "emoji": []
+                },
+                "bmp": "18909da00608c209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1258885013,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,,]额头大shi聪明的表现...[/ft] ",
+                "capacity": 12138,
+                "poster": {
+                    "id": "1303552653",
+                    "platform": 1,
+                    "name": "赫敏·格兰杰 ",
+                    "emoji": []
+                },
+                "bmp": "18909da00608c209",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

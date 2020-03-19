@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1555497552,
+                "postTime": 1555497552,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "很有文采[em]e400408[/em] ",
+                "capacity": 12146,
+                "poster": {
+                    "id": "846431008",
+                    "platform": 1,
+                    "name": "唐远新 ",
+                    "emoji": []
+                },
+                "bmp": "18c59da00002c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

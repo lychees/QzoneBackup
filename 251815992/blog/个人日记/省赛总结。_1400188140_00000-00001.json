@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1400207494,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "题意如果不用猜，结果就不一样了 ",
+                "capacity": 12138,
+                "poster": {
+                    "id": "791066719",
+                    "platform": 1,
+                    "name": "leon ",
+                    "emoji": []
+                },
+                "bmp": "98d415e80008e201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1400212990,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "居然，我们队也在那题卡了几个小，还好我玩过一个躲激光的手游jetpack猜出了题意！ ",
+                "capacity": 12078,
+                "poster": {
+                    "id": "112831313",
+                    "platform": 1,
+                    "name": "12-计-董羽飞 ",
+                    "emoji": []
+                },
+                "bmp": "38d40da00102d101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

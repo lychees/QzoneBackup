@@ -1,0 +1,40 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1261015241,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[ft=,2,]只有4个人，还组成不了一个战队[/ft] ",
+                "capacity": 12077,
+                "poster": {
+                    "id": "1284557516",
+                    "platform": 1,
+                    "name": "滨湖惠园社区公共号 ",
+                    "emoji": []
+                },
+                "bmp": "08809d2002008001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "...\n貌似现在不止4个人..\n ",
+                        "postTime": 1261024562,
+                        "id": 1261024562,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

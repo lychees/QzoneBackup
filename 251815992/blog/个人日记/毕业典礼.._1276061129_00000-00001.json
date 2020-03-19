@@ -1,0 +1,68 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1276075905,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "[ft=,2,]s君是谁？MOMO？[/ft] ",
+                "capacity": 12031,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "284293874",
+                            "name": "孟修竹 ",
+                            "platform": 1
+                        },
+                        "content": "……回避所有跟考试有关的事情。 ",
+                        "postTime": 1276084673,
+                        "id": 1276084673,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@小c ... 我发现有这篇里面有两个s君额- -。。 ",
+                        "postTime": 1276085129,
+                        "id": 1276085129,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1276412724,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]我看出来WCC君和ZXC君了。。话说我们也想有个可以玩一个暑假的网游。。天天DOTA太累了。。[/ft] ",
+                "capacity": 12068,
+                "poster": {
+                    "id": "285495145",
+                    "platform": 1,
+                    "name": "我是一杯柳橙汁 ",
+                    "emoji": []
+                },
+                "bmp": "18c095000000a001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

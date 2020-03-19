@@ -1,0 +1,51 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1418496079,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "B居然是kmp...我哈希过了pretest... ",
+                "capacity": 11910,
+                "poster": {
+                    "id": "529003192",
+                    "platform": 1,
+                    "name": "【XDU】数学lover ",
+                    "emoji": []
+                },
+                "bmp": "18d19dac09828909",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "568143025",
+                            "name": "开小臣 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:529003192,nick:【XDU】数学lover,who:1,auto:1}kmp也可以用哈希代替啊 ",
+                        "postTime": 1418521947,
+                        "id": 1418521947,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "529003192",
+                            "name": "【XDU】数学lover ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:568143025,nick:开小臣,who:1,auto:1}哈希→_→存在一些极其丧心病狂的数据可以hack掉 ",
+                        "postTime": 1418522143,
+                        "id": 1418522143,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

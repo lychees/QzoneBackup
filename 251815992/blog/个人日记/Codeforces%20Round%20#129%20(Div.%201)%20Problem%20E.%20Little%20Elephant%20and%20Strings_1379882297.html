@@ -1,0 +1,678 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    Codeforces Round #129 (Div. 1) Problem E. Little Elephant and Strings
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             Codeforces Round #129 (Div. 1) Problem E. Little Elephant and Strings
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2013-09-22 16:38:17
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(45)	è¯è®º(0)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1379882297,
+"voteids":0,
+"pubtime":1379882297,
+"replynum":0,
+"category":"个人日记",
+"title":"Codeforces Round #129 (Div. 1) Problem E. Little Elephant and Strings",
+"effect":8389120,
+"effect2":524294,
+"exblogtype":3,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":81177,
+"lp_style":16843520,
+"lp_flag":0,
+"lp_topvalue":0,
+"orguin":251815992,
+"orgblogid":1379882297,
+"mention_uins":[ ],
+"attach":[],"comments":[]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <div>
+                <div>
+                 <br/>
+                 <a href="http://codeforces.com/problemset/problem/204/E" target="_blank">
+                  http://codeforces.com/problemset/problem/204/E
+                  <span>
+                  </span>
+                 </a>
+                 <br/>
+                 <br/>
+                 <br/>
+                 Brief description:
+                 <br/>
+                 Tags: 子串，计数
+                 <br/>
+                 <span>
+                  给定 n 个串。。问对于每一个字符串，
+                 </span>
+                 <span>
+                  有多少它的
+                 </span>
+                 <span>
+                  子串，可以至少匹配
+                 </span>
+                 <span>
+                  k 个字符串。（包含自身）
+                 </span>
+                 <br/>
+                 <br/>
+                 <br/>
+                 Analysis：
+                 <br/>
+                 <span style="font-size:16px">
+                  算法1. 二分 + 可持久化线段树
+                 </span>
+                 <br/>
+                 <br/>
+                 aaa$aba$aaa
+                 <span>
+                  <br/>
+                  首先当然还是要把所有串拼一起跑后缀数组。。。
+                  <br/>
+                  <span>
+                   <br/>
+                   考察第一个串。。记作 s0 = aaa 。。。我们枚举起始位 x。。
+                   <br/>
+                   。。设 f(x, len)。。表示 。。。s0[x, x+len] 这个子串。。是否出现在了 k 个子串中。
+                   <br/>
+                  </span>
+                 </span>
+                 。。。这个对 len 越长对满足这个性质越不利。。但是这里 len 值也就是对答案的贡献。。显然我们希望尽可能往→推。。。
+                 <br/>
+                 <span>
+                  <span>
+                   。。于是这里可以二分 len。。。（外层的二分。。
+                   <br/>
+                   <br/>
+                  </span>
+                 </span>
+                 <span>
+                  <div>
+                   $aaa
+                  </div>
+                  <div>
+                   $aba$aaa
+                  </div>
+                  <div>
+                   a
+                  </div>
+                  <div>
+                   a$aaa
+                  </div>
+                  <div>
+                   a$aba$aaa
+                  </div>
+                  <div>
+                   aa
+                  </div>
+                  <div>
+                   aa$aba$aaa
+                  </div>
+                  <div>
+                   aaa
+                  </div>
+                  <div>
+                   aaa$aba$aaa
+                  </div>
+                  <div>
+                   aba$aaa
+                  </div>
+                 </span>
+                 <span>
+                  ba$aaa
+                 </span>
+                 <span>
+                 </span>
+                 <br/>
+                 <span>
+                  <span>
+                   <br/>
+                   。。由于后缀数组已经把我们要的东西全放在一起了。。对于任意一个 x 和 len。。。
+                   <br/>
+                   。。我们所要做的就是找到一个最大的包含 x 的 [l, r] 区间。。使得该区间的 lcp(l, r) &gt;= len。
+                   <br/>
+                   <br/>
+                   <span style="font-size:14px">
+                    （这里既是 SA 的一个性质。。
+                   </span>
+                  </span>
+                 </span>
+                 <span style="color:rgb(0, 0, 0);font-family:Arial, Helvetica, simsun, u5b8bu4f53;font-size:14px;white-space:pre-wrap">
+                  然后对于任一个串 P，LCP(P, SA[i]) 是单峰的。
+                 </span>
+                 <span>
+                  <span>
+                   <br/>
+                   <br/>
+                   <br/>
+                   。。这里又是一个二分过程。。。
+                   <br/>
+                   。。找到 [l, r] 区间后。。。就是     判断这个区间的后缀出现在了几个不同的字符串中。。。
+                   <br/>
+                  </span>
+                 </span>
+                 <span>
+                  。。。而这个是可持久化线段树的入门题了。。
+                 </span>
+                 <span>
+                  （参见 SPOJ Dquery 。。
+                 </span>
+                 <span>
+                  <span>
+                   <br/>
+                  </span>
+                 </span>
+                 <span>
+                  <span>
+                   <br/>
+                   。。这样这个题就得到了最傻逼的做法。。。复杂度  O(nlog^2n)
+                   <br/>
+                  </span>
+                 </span>
+                 <a href="http://codeforces.com/contest/204/submission/4545205" target="_blank">
+                  http://codeforces.com/contest/204/submission/4545205
+                 </a>
+                 <span>
+                  <span>
+                   <br/>
+                   <br/>
+                   <br/>
+                   <br/>
+                   <br/>
+                  </span>
+                 </span>
+                 <br/>
+                 <span style="font-size:16px">
+                  算法 2. two-point
+                 </span>
+                 <br/>
+                 <a href="http://www.cppblog.com/hanfei19910905/archive/2012/07/26/185139.html" target="_blank">
+                  http://www.cppblog.com/hanfei19910905/archive/2012/07/26/185139.html
+                 </a>
+                 <br/>
+                 <br/>
+                 。。。上面的做法中。可持久化线段树。未免有点 overkill。。注意毕竟只是询问是否 &gt;= k。。。
+                 <br/>
+                 。而这个可以通过 two-point 离线搞出对于每个左端点。最早的合法位置。。。
+                 <br/>
+                 具体做法是 prd[], suc[] 分别表示左右第一个与 b[i] 相同的位置。。
+                 <br/>
+                 [cpp]
+                 <br/>
+                 int last[N], prd[N], suc[N];
+                 <br/>
+                 [/cpp]
+                 <br/>
+                 <br/>
+                 两遍循环。。
+                 <br/>
+                 <br/>
+                 [cpp]
+                 <br/>
+                 <div>
+                  FOR_1(i, nn, n) prd[i] = last[bb(i)], last[bb(i)] = i;
+                 </div>
+                 <div>
+                  REP_1(i, nn) last[i] = n + 1;
+                 </div>
+                 <div>
+                  DWN_1(i, n, nn) suc[i] = last[bb(i)], last[bb(i)] = i;
+                  <br/>
+                  <span>
+                   [/cpp]
+                   <br/>
+                  </span>
+                 </div>
+                 之后 two-point。。
+                 <br/>
+                 （l 增大的时候。。如果 suc[l] &gt; r 。。c -= 1
+                 <br/>
+                 （r 增大的时候。。如果 prd[++r] &lt; l。。则 c += 1
+                 <br/>
+                 [cpp]
+                 <br/>
+                 <div>
+                  for(int l=nn,r=nn-1,c;l&lt;=n;c-=(suc[l++]&gt;r)){
+                 </div>
+                 <div>
+                  if (r&lt;l) r=l,c=1; while(c&lt;k&amp;&amp;r&lt;=n) if(prd[++r]&lt;l)++c; if (c&lt;k){n=l-1;break;}
+                 </div>
+                 <div>
+                  last[l] = r;
+                 </div>
+                 <div>
+                  }
+                  <br/>
+                  <span>
+                   [/cpp]
+                  </span>
+                 </div>
+                 <br/>
+                 <span>
+                  其他地方不变。。。。。复杂度依旧是
+                 </span>
+                 <span>
+                  O(nlog^2n)
+                 </span>
+                 <br/>
+                 <a href="http://codeforces.com/contest/204/submission/4544775" target="_blank">
+                  http://codeforces.com/contest/204/submission/4544775
+                 </a>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <span style="font-size:16px">
+                  算法 3. 标记
+                 </span>
+                 <br/>
+                 。。为了杜绝掉二分的过程。。。我们注意到上面 two-point 得到一组最小的合法 (l, r, lcp) 的时候。。。
+                 <br/>
+                 。。可以沿途打上事件标记。。。用扫描线的方法。弄一个平衡树。。每次取出最大的 lcp 好像就行了。。
+                 <br/>
+                 <br/>
+                 <a href="http://hi.baidu.com/wyl8899/item/04772d462eeb6797823ae16d" target="_blank">
+                  http://hi.baidu.com/wyl8899/item/04772d462eeb6797823ae16d
+                 </a>
+                 <br/>
+                 <span style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:10px">
+                  ..似乎已经做完了么...其实被坑了，样例2就可以把这个做法撸死。
+                 </span>
+                 <br/>
+                 <span style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:10px">
+                  究其原因，是存在某个k，他的真正可用的最大值并不能被上面所述的方法更新到。
+                 </span>
+                 <br style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial"/>
+                 <span style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:10px">
+                  这就坑爹了..因为能更新到k的最大值的那个区间，假设是[x,y']，会出现y'&gt;y(使得rank为x..y的后缀分属K个串的最小y值)的情形。
+                 </span>
+                 <br/>
+                 <br/>
+                 <span>
+                  。。然而这点也正是这题最精彩的地方。。。因为对于一组标记 (l, r, lcp) 来说。。
+                  <br/>
+                  <span>
+                   。。。r 之后并不代表这个标记就完全失效了。。而是以这个时刻开始。。。
+                   <br/>
+                   。。随着时间的流逝。。产生衰减。。（说的神乎其神的。。具体来说就是每次 checkMin(delay, height[i])。。
+                   <br/>
+                  </span>
+                 </span>
+                 <span>
+                 </span>
+                 <span>
+                  <span>
+                   <br/>
+                  </span>
+                 </span>
+                 因此。。我们每次除了要取出平衡树中的最大值以外。。还需要那些过了 “保质期” 的标记中的最大值。。
+                 <br/>
+                 。。。然后从这两者之间。取最大值。。。。
+                 <br/>
+                 <br/>
+                 。。
+                 <span>
+                 </span>
+                 <span>
+                 </span>
+                 <span>
+                  平衡树
+                 </span>
+                 <span>
+                  内的标记。。涉及增删操作。。最好的方法使用 multiset&lt;int&gt; 实现。。。
+                  <br/>
+                  。。  平衡树以外的标记。。只需保留一个最大值即可（记作 delay）。。然后随着时间的推移。
+                 </span>
+                 <span>
+                  每次 checkMin(delay,
+                 </span>
+                 <span>
+                  height[i])。。
+                 </span>
+                 <span>
+                  <br/>
+                 </span>
+                </div>
+                <div>
+                 <a href="http://codeforces.com/contest/204/submission/4544928" target="_blank">
+                  http://codeforces.com/contest/204/submission/4544928
+                 </a>
+                 <br/>
+                 <br/>
+                 <br/>
+                 。。除去不多的几次平衡树操作。。这个算法的复杂度已经很接近 O(n) 了。。而且非常好写。。
+                 <br/>
+                 。。。。是一个优秀的算法。
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 算法 4. 后缀自动机
+                 <br/>
+                 <a href="https://www.13331.org/205.html" target="_blank">
+                  https://www.13331.org/205.html
+                 </a>
+                 <br/>
+                 <a href="http://codeforces.com/contest/204/submission/2579006" target="_blank">
+                  http://codeforces.com/contest/204/submission/2579006
+                 </a>
+                 <span>
+                  <a href="http://codeforces.com/problemset/problem/232/D" target="_blank">
+                   <br/>
+                   <br/>
+                  </a>
+                 </span>
+                 <br/>
+                 ——————
+                 <br/>
+                 普通并查集。。。
+                 <br/>
+                 <a href="http://codeforces.com/contest/204/submission/4601790" target="_blank">
+                  http://codeforces.com/contest/204/submission/4601790
+                 </a>
+                 （280ms。。
+                 <br/>
+                 加按秩合并。。
+                 <br/>
+                 <a href="http://codeforces.com/contest/204/submission/4601803" target="_blank">
+                  http://codeforces.com/contest/204/submission/4601803
+                 </a>
+                 （248ms。。
+                 <br/>
+                 <br/>
+                 <br/>
+                </div>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+               </div>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

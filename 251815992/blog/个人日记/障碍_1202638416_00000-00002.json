@@ -1,0 +1,86 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1202649645,
+                "effect": 4194336,
+                "replyNum": 1,
+                "content": "\nsf///原来WS侠也会有这方面[B]障碍..[/B]\n \n[B]额..表叹气了.马上开学咯.又见到一大坨人(注意.是坨)有这方面问题了.[/B] ",
+                "capacity": 12054,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "咳咳～ ",
+                        "postTime": 0,
+                        "id": 0,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1202649709,
+                "effect": 4194336,
+                "replyNum": 1,
+                "content": "[B][ft=#6633ff,,]汗 打错了 是就不会有这方面问题了.[/ft][/B]\n[B][/B] \n[B][ft=#6633ff,,]呀 你回复够快的呀.加油呀.[/ft][/B] ",
+                "capacity": 12047,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "咳咳～ ",
+                        "postTime": 0,
+                        "id": 0,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1202654047,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "[M][B]还好不是有生理障碍[/B][/M]\n[M][B]。。[/B][/M]\n[M][B]没事啦[/B][/M]\n[M][B]进入社会以后都会好的[/B][/M]\n[M] [/M]\n ",
+                "capacity": 12052,
+                "poster": {
+                    "id": "173324507",
+                    "platform": 1,
+                    "name": "Groot ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

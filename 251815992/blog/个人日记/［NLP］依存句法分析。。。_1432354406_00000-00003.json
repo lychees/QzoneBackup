@@ -1,0 +1,79 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1432354631,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "看到Mozilla就進去看了。。。 ",
+                "capacity": 12141,
+                "poster": {
+                    "id": "397427019",
+                    "platform": 1,
+                    "name": " ",
+                    "emoji": []
+                },
+                "bmp": "18809da40102c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1432358895,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "已然很牛，可有歧义消解？比如，咬死猎人的狗。 ",
+                "capacity": 12124,
+                "poster": {
+                    "id": "623423779",
+                    "platform": 1,
+                    "name": "丁成 ",
+                    "emoji": []
+                },
+                "bmp": "18d495a00102c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1432362375,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "卧槽你还备战一下吗 ",
+                "capacity": 12152,
+                "poster": {
+                    "id": "375243140",
+                    "platform": 1,
+                    "name": "cxlove ",
+                    "emoji": []
+                },
+                "bmp": "18c09da80100d429",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1432366297,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "233 ",
+                "capacity": 12167,
+                "poster": {
+                    "id": "371686865",
+                    "platform": 1,
+                    "name": "芳姐 ",
+                    "emoji": []
+                },
+                "bmp": "18c09da00002d001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

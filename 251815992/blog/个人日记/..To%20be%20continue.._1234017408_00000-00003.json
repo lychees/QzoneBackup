@@ -1,0 +1,91 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1234613423,
+                "effect": 4194336,
+                "replyNum": 1,
+                "content": "什么玩意儿- - ",
+                "capacity": 12082,
+                "poster": {
+                    "id": "474697421",
+                    "platform": 1,
+                    "name": "朱明琪 ",
+                    "emoji": []
+                },
+                "bmp": "18d195a000028209",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "对不起...似乎我原本想要表达的东西..\n有点混乱了...#..这回~ ",
+                        "postTime": 1234617185,
+                        "id": 1234617185,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1234617275,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "抱歉...小岛错误的估计了pig&小c等人的聊天记录规模，使得原先的一些计划难以完成...\n...而且...现在有更重要的事情..要完成~... ",
+                "capacity": 12048,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1234632530,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "啊哦。。有我的吗？\n让我猜猜。。。\n大概是我们刚认识时候打CS和war3被你虐的？\n又或者是我做RPG地图的？\n \n嘿嘿~ ",
+                "capacity": 12065,
+                "poster": {
+                    "id": "474697421",
+                    "platform": 1,
+                    "name": "朱明琪 ",
+                    "emoji": []
+                },
+                "bmp": "18d195a000028209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1234633946,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "果然是...去相册看了下\n大部分是关于war3的.....\n到现在 好像正好是我玩war3一周年.... ",
+                "capacity": 12090,
+                "poster": {
+                    "id": "474697421",
+                    "platform": 1,
+                    "name": "朱明琪 ",
+                    "emoji": []
+                },
+                "bmp": "18d195a000028209",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

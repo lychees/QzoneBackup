@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1441294850,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "图论还神马不会。。。。 ",
+                "capacity": 12148,
+                "poster": {
+                    "id": "529674242",
+                    "platform": 1,
+                    "name": "Enl.2_lazyboy ",
+                    "emoji": []
+                },
+                "bmp": "18919d840102e421",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

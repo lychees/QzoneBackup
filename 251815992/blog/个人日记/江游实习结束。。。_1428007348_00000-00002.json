@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1428067548,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "敞开了喷 ",
+                "capacity": 12157,
+                "poster": {
+                    "id": "307442893",
+                    "platform": 1,
+                    "name": "12-计-史睿萌 ",
+                    "emoji": []
+                },
+                "bmp": "08c195800000c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1428068520,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "BGM吓哭了 ",
+                "capacity": 12156,
+                "poster": {
+                    "id": "450978053",
+                    "platform": 1,
+                    "name": "Sd.无心插柳 ",
+                    "emoji": []
+                },
+                "bmp": "18d1d5800000c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1428104514,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "一起毕业吧～ ",
+                "capacity": 12156,
+                "poster": {
+                    "id": "25241274",
+                    "platform": 1,
+                    "name": "七星瓢虫 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00000e101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

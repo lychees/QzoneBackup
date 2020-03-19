@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1518909986,
+                "postTime": 1518909986,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "ponzicoin，歪果仁真会玩 ",
+                "capacity": 12145,
+                "poster": {
+                    "id": "1050575425",
+                    "platform": 1,
+                    "name": "14-博爷 ",
+                    "emoji": []
+                },
+                "bmp": "18419d800302c201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

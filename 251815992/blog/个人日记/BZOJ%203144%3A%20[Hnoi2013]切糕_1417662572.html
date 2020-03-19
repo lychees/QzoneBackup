@@ -1,0 +1,639 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    BZOJ 3144: [Hnoi2013]切糕
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             BZOJ 3144: [Hnoi2013]切糕
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2014-12-03 22:09:32
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(90)	è¯è®º(1)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1417662572,
+"voteids":0,
+"pubtime":1417662572,
+"replynum":1,
+"category":"个人日记",
+"title":"BZOJ 3144: [Hnoi2013]切糕",
+"effect":8389121,
+"effect2":524294,
+"exblogtype":3,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":81177,
+"lp_style":16843520,
+"lp_flag":0,
+"lp_topvalue":0,
+"orguin":251815992,
+"orgblogid":1417662572,
+"mention_uins":[ ],
+"attach":[],"comments":[{"id":1,
+"postTime":1417664106,
+"effect":0,
+"replyNum":0,
+"content":"lychees ... Orz ",
+"capacity":12154,
+"poster":{
+"id":"804589463",
+"platform":1,
+"name":"[小学组]Evensgn ",
+"emoji":[ ]}
+,
+"bmp":"98849d800802c101",
+"ismyreply":0,
+"replies":[]}]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <div>
+                <br/>
+                <br/>
+                一图流：
+                <br/>
+                <br/>
+                <br/>
+                <img alt="图片" src="http://r.photo.store.qq.com/psb?/a7723d22-15e1-452d-817f-ed63333f3d7d/u7wUhPh.PKZ0duwKlfBMkdlBqis9DcyqGvpYy4z6wa4!/o/dAp02XTfLgAA&amp;ek=1&amp;kp=1&amp;pt=0&amp;bo=KQF9ASkBfQEDACU!&amp;tl=1&amp;su=079833953&amp;tm=1584572400&amp;sce=0-12-12&amp;rf=2-9" style="width:297px;height:381px"/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                最小割表示方案。。。。对每个点的高度 i 向其周围 i-D 连 +oo 容量的边。。。
+                <br/>
+                这样就可以保证相邻点的所选的方案差不超过 D。。。
+                <br/>
+                <br/>
+                <br/>
+                （当差超过 D 时。。。。左下方的流量会和右上方的容量通过中间的 ‘’桥‘’ 连接起来。。。
+                <br/>
+                。。。因此图中情况不可能是最小割。。。）
+                <br/>
+                <a href="http://www.lydsy.com/JudgeOnline/problem.php?id=3144" target="_blank">
+                 http://www.lydsy.com/JudgeOnline/problem.php?id=3144
+                </a>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 //}/* .................................................................................................................................. */
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 const int N = 100000 + 9, M = 6 * 10 * 100000 + 9;
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 //struct Network_Flow{
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 int D[N], hd[N], suc[M], to[M], cap[M];
+                </div>
+                <div>
+                 int n, m, s, t;
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 inline void ae(int x, int y, int c){
+                </div>
+                <div>
+                 suc[m] = hd[x], hd[x] = m, to[m] = y, cap[m++] = c,
+                </div>
+                <div>
+                 suc[m] = hd[y], hd[y] = m, to[m] = x, cap[m++] = 0;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 inline void aee(int x, int y, int c){
+                </div>
+                <div>
+                 suc[m] = hd[x], hd[x] = m, to[m] = y, cap[m++] = c,
+                </div>
+                <div>
+                 suc[m] = hd[y], hd[y] = m, to[m] = x, cap[m++] = c;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 #define v to[i]
+                </div>
+                <div>
+                 #define c cap[i]
+                </div>
+                <div>
+                 #define f cap[i^1]
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 LL sap(){
+                </div>
+                <div>
+                 LL z=0; static int cnt[N],cur[N],pre[N];
+                </div>
+                <div>
+                 fill(D,D+n,n),fill(cnt,cnt+n,0);cnt[n]=n;
+                </div>
+                <div>
+                 int u=s;cur[s]=hd[s];while (D[s]){
+                </div>
+                <div>
+                 #define i cur[u]
+                </div>
+                <div>
+                 if (u==t){
+                </div>
+                <div>
+                 int d=INF;for(u=s;u!=t;u=v)checkMin(d,c);
+                </div>
+                <div>
+                 z+=d;for(u=s;u!=t;u=v)f+=d,c-=d;u=s;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 #undef i
+                </div>
+                <div>
+                 int i;for(i=cur[u];i;i=suc[i]){
+                </div>
+                <div>
+                 if(D[u]+1==D[v]&amp;&amp;c){cur[u]=i,cur[v]=hd[v],pre[v]=u,u=v;break;}
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 if (!i){
+                </div>
+                <div>
+                 if (!--cnt[D[u]])break;
+                </div>
+                <div>
+                 D[u]=1;REP_G(i,u)if(c)checkMax(D[u],D[v]);--D[u];
+                </div>
+                <div>
+                 ++cnt[D[u]];if(u==s)cur[u]=hd[u];else u=pre[u];
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 return z;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 #undef v
+                </div>
+                <div>
+                 #undef c
+                </div>
+                <div>
+                 #undef f
+                </div>
+                <div>
+                 //} G;
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 int p,q,r,DD;
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 int id(int x, int y, int r){
+                </div>
+                <div>
+                 return (p*r+x)*q+y;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 bool inGrid(int x, int y){
+                </div>
+                <div>
+                 return x &gt;= 0 &amp;&amp; y &gt;= 0 &amp;&amp; x &lt; p &amp;&amp; y &lt; q;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 int main(){
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 #ifndef ONLINE_JUDGE
+                </div>
+                <div>
+                 freopen("in.txt", "r", stdin);
+                </div>
+                <div>
+                 //freopen("out.txt", "w", stdout);
+                </div>
+                <div>
+                 #endif
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 RD(p,q,r); RD(DD); s = p*q*(r+1); t = s+1; n = t+1; m = 2;
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 REP_2(i, j, p, q){
+                </div>
+                <div>
+                 ae(s,id(i,j,0),INF); ae(id(i,j,r),t,INF);
+                </div>
+                <div>
+                 if (r-DD &gt;= 0) REP(d, 4){
+                </div>
+                <div>
+                 int x = i + dx[d], y = j + dy[d];
+                </div>
+                <div>
+                 if (!inGrid(x, y)) continue;
+                </div>
+                <div>
+                 ae(id(i,j,r), id(x,y,r-DD), INF);
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 REP_3(k, i, j, r, p, q){
+                </div>
+                <div>
+                 ae(id(i,j,k), id(i,j,k+1), RD());
+                </div>
+                <div>
+                 if (k-DD &gt;= 0) REP(d, 4){
+                </div>
+                <div>
+                 int x = i + dx[d], y = j + dy[d];
+                </div>
+                <div>
+                 if (!inGrid(x, y)) continue;
+                </div>
+                <div>
+                 ae(id(i,j,k), id(x,y,k-DD), INF);
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 OT(sap());
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <br/>
+               </div>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

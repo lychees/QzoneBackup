@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1379089261,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "dao神。。 ",
+                "capacity": 12156,
+                "poster": {
+                    "id": "76924065",
+                    "platform": 1,
+                    "name": ".KinG XuEf  ",
+                    "emoji": []
+                },
+                "bmp": "18c095a00000e001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

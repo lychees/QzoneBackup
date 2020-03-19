@@ -1,0 +1,142 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 7,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1339232635,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "orz ",
+                "capacity": 12165,
+                "poster": {
+                    "id": "775870132",
+                    "platform": 1,
+                    "name": "爱尔奎特 ",
+                    "emoji": []
+                },
+                "bmp": "98d095840000c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1339232799,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "为什么我出现在了贴吧初赛晋级的名单上，但是没收到任何消息。 ",
+                "capacity": 12073,
+                "poster": {
+                    "id": "815282196",
+                    "platform": 1,
+                    "name": "求是吱 ",
+                    "emoji": []
+                },
+                "bmp": "98c09d800002c201",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "460209614",
+                            "name": "漩 冰 ",
+                            "platform": 1
+                        },
+                        "content": "+1 ",
+                        "postTime": 1339235838,
+                        "id": 1339235838,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1339241572,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "orz ",
+                "capacity": 12165,
+                "poster": {
+                    "id": "278762954",
+                    "platform": 1,
+                    "name": "叶落有痕 ",
+                    "emoji": []
+                },
+                "bmp": "d8d18fac0000c109",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1339302145,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "orz ",
+                "capacity": 12167,
+                "poster": {
+                    "id": "945637290",
+                    "platform": 1,
+                    "name": "糖果 ",
+                    "emoji": []
+                },
+                "bmp": "088495800000d001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1339392337,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "orz ",
+                "capacity": 12165,
+                "poster": {
+                    "id": "451734587",
+                    "platform": 1,
+                    "name": "倚剑天涯 ",
+                    "emoji": []
+                },
+                "bmp": "18c095a400008301",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 6,
+                "postTime": 1339424235,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "orz ",
+                "capacity": 12165,
+                "poster": {
+                    "id": "775870132",
+                    "platform": 1,
+                    "name": "爱尔奎特 ",
+                    "emoji": []
+                },
+                "bmp": "98d095840000c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 7,
+                "postTime": 1339427365,
+                "effect": 5242880,
+                "replyNum": 0,
+                "content": "我想知道。。。为啥我应该被ban掉的。。。居然也收到邮件。。。\n ",
+                "capacity": 12106,
+                "poster": {
+                    "id": "497283471",
+                    "platform": 1,
+                    "name": "wujianan2007 ",
+                    "emoji": []
+                },
+                "bmp": "388195a40102c109",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

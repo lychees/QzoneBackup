@@ -1,0 +1,79 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1269244964,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]算法一 Flood Fill[/ft]\n \n[ft=,2,][背景知识][/ft]\n[ft=,2,]  这题是去年四月份某天夜里写的...所以印象比较深刻[/ft]\n[ft=,2,]（不过字面上看前后两句有因果关系么- -....）[/ft]\n \n 重新整理了几个地方...注意最后拆墙的时候是以右下角的位置优先，\n所以我修改了For循环的顺序，当然也可以不这么做，而将大于号，修改成大于等于号，\n具体细节的地方应该还有好几处呢。\n \n[评测记录]\n \nExecuting...\n   Test 1: TEST OK [0.000 secs, 228 KB]\n   Test 2: TEST OK [0.000 secs, 228 KB]\n   Test 3: TEST OK [0.000 secs, 228 KB]\n   Test 4: TEST OK [0.000 secs, 228 KB]\n   Test 5: TEST OK [0.000 secs, 228 KB]\n   Test 6: TEST OK [0.000 secs, 228 KB]\n   Test 7: TEST OK [0.000 secs, 228 KB]\n   Test 8: TEST OK [0.011 secs, 228 KB]\n\nAll tests OK.\nYour program ('castle') produced all correct answers!  This is your\nsubmission #33 for this problem.  [B]Congratulations![/B]\n[B][/B] \n \n\n[ft=,2,][/ft] \n[ft=,2,][/ft] \n[ft=,2,][/ft] ",
+                "capacity": 11269,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1269245040,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,,simsun]{\nID: Lychees\nPROG: castle\nLANG: PASCAL\n}[/ft]\n[ft=,,simsun]const\n  Dir:array[1..4,1..2] of integer=(\n  (-1,0),(1,0),(0,-1),(0,1)\n  );\n  White=0; Gray=1;\n  Black=2;\n  nn=50;[/ft]\n[ft=,,simsun]type\n  int=integer;[/ft]\n[ft=,,simsun]var\n  Count:array[1..nn*nn] of int;\n  Key:array[1..nn,1..nn] of int;\n  Mark:array[1..nn,1..nn] of int;\n  Color:array[1..nn,1..nn] of int;\n  Component:int;[/ft]\n[ft=,,simsun]  ans:int;\n  n,m:int;[/ft]\n\n[ft=,,simsun]function max(a,b:int):int;\nbegin\n  if a>b then exit(a)\n         else exit(b);\nend;[/ft]\n[ft=,,simsun]function North(x,y:int):boolean;\nbegin\n  if key[x,y] and 2 =0 then exit(true);\n  exit(false);\nend;[/ft]\n[ft=,,simsun]function South(x,y:int):boolean;\nbegin\n  if key[x,y] and 8 = 0 then exit(true);\n  exit(false);\nend;[/ft]\n[ft=,,simsun]function West(x,y:int):boolean;\nbegin\n  if key[x,y] and 1 = 0 then exit(true);\n  exit(false);\nend;[/ft]\n[ft=,,simsun]function East(x,y:int):boolean;\nbegin\n  if key[x,y] and 4 =0  then exit(true);\n  exit(false);\nend;[/ft]\n[ft=,,simsun]function Check(x,y,k:int):boolean;\nbegin\n  case k of\n  1:exit(North(x,y));\n  2:exit(South(x,y));\n  3:exit(West(x,y));\n  4:exit(East(x,y));\n  end;\nend;[/ft]\n[ft=,,simsun]procedure DFS(x,y:int);\nvar xx,yy:int;\n    i:int;\nbegin\n  Color[x,y]:=Gray;\n  Mark[x,y]:=Component;\n  inc(Count[Component]);[/ft]\n\n[ft=,,simsun]  for i:=1 to 4 do\n  begin\n    xx:=x+dir[I]; yy:=y+dir[I];\n    if (Color[xx,yy]=white) and (Check(x,y,i)) then\n      DFS(xx,yy);\n  end;[/I]\n\n[ft=,,simsun]  Color[x,y]:=Black;\nend;[/ft]\n\n[ft=,,simsun]procedure init;\nvar\n  x,y:int;\nbegin\n  readln(m,n); ans:=1;\n  for x:=1 to n do\n    for y:=1 to m do\n      read(input,key[x,y]);\n  readln;\nend;[/ft]\n[ft=,,simsun]procedure Flood_fill;\nvar x,y:int;\nbegin\n  for x:=1 to n do\n    for y:=1 to m do\n      if Mark[x,y]=white then begin\n        inc(Component);\n        DFS(x,y);\n      end;\nend;[/ft]\n[ft=,,simsun]procedure print;\nvar\n  i,t:Int; x,y:int;\n  a,b:int; c:char;\nbegin\n  writeln(component);\n  for i:=1 to component do\n    ans:=max(ans,count[I]);\n  writeln(ans);[/I]\n[ft=,,simsun]  ans:=0;\n  for y:=1 to m do\n  begin\n    for x:=n downto 1 do\n    begin\n      if not (North(x,y)) and (x>1) and (Mark[x,y]<>Mark[x-1,y]) then\n      begin\n        t:= Count[Mark[x,y]] + Count[Mark[x-1,y]];\n        if t>ans then begin ans:=t;c:='N';a:=x;b:=y; end;\n      end;\n      if not (East(x,y)) and (y<m) and (Mark[x,y]<>Mark[x,y+1]) then\n      begin\n        t:= Count[Mark[x,y]] + Count[Mark[x,y+1]];\n        if t>ans then begin ans:=t;c:='E';a:=x;b:=y end;\n      end;\n    end;\n  end;\n  writeln(ans);\n  writeln(a,' ',b,' ',c);\nend;[/ft]\n[ft=,,simsun]begin\nassign(input,'castle.in');reset(input);\nassign(output,'castle.out');rewrite(output);\n  init; flood_fill;\n  print;\nclose(input);close(output);\nend.\n[/ft][/ft][/I][/ft] ",
+                "capacity": 9350,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1269246013,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "算法二  并查集\n \n[背景知识]\n \n在写这个东西的时候我还不知道并查集为何物.囧\n于是这个算法是之后回忆到这题时发现也可以哦用然后回过来写的。\n \n修改了一下存储方式，把关于每一个地块的所有信息的都保存在 s[x,y] 里。\n \n[ft=,,simsun]const\n  nn=50;\ntype\n  int=integer;\n  ufs=^rec;\n  rec=record\n    n:int;  c:int;\n    p:ufs;  k:int;\n  end;[/ft]\n[ft=,,simsun]var\n  s:array[1..nn,1..nn] of ufs;\n  component,ans:int;\n  n,m:int;     [/ft]\n \n[ft=,,宋体]这里的 n 比较不好理解，是存储启发式合并中的 Rank 的。[/ft]\n[ft=,,宋体]c 是记录连通分量的大小...相当于上面代码中的 Const。[/ft]\n[ft=,,宋体]p 是用来记录父亲结点的指针，而 k 是输入数据。相当于上面代码中的 key。[/ft]\n\n[ft=,,宋体]代码重新排版了一下，尽量可以和前面保持风格和命名规则的一致，除了上面这个，[/ft]\n[ft=,,宋体]其它部分到不是很难理解。[/ft]\n[ft=,,宋体][/ft] \n[ft=,,宋体][评测记录][/ft]\n[ft=,,宋体][/ft] \nExecuting...\n   Test 1: TEST OK [0.000 secs, 256 KB]\n   Test 2: TEST OK [0.000 secs, 256 KB]\n   Test 3: TEST OK [0.000 secs, 256 KB]\n   Test 4: TEST OK [0.000 secs, 256 KB]\n   Test 5: TEST OK [0.000 secs, 256 KB]\n   Test 6: TEST OK [0.000 secs, 256 KB]\n   Test 7: TEST OK [0.011 secs, 288 KB]\n   Test 8: TEST OK [0.000 secs, 288 KB]\n\nAll tests OK.\nYour program ('castle') produced all correct answers!  This is your\nsubmission #36 for this problem.  [B]Congratulations![/B] ",
+                "capacity": 10850,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 6,
+                "postTime": 1269246055,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,,simsun]{\nID: Lychees\nPROG: castle\nLANG: PASCAL\n}[/ft]\n[ft=,,simsun]const\n  nn=50;\ntype\n  int=integer;\n  ufs=^rec;\n  rec=record\n    n:int;  c:int;\n    p:ufs;  k:int;\n  end;[/ft]\n[ft=,,simsun]var\n  s:array[1..nn,1..nn] of ufs;\n  component,ans:int;\n  n,m:int;[/ft]\n\n[ft=,,simsun]function max(a,b:int):int;\nbegin\n  if a>b then exit(a)\n         else exit(b);\nend;[/ft]\n[ft=,,simsun]procedure make(var x:ufs);\nbegin\n  new(x);x^.k:=0;x^.p:=x;x^.n:=0;x^.c:=1;\nend;[/ft]\n[ft=,,simsun]function find(var x:ufs):ufs;\nbegin\n  if x^.p<>x then x^.p:=find(x^.p);\n  exit(x^.p);\nend;[/ft]\n[ft=,,simsun]procedure union(x,y:ufs);\nbegin\n  x:=find(x);y:=find(y);if x=y then exit;\n  if x^.n<y^.n then begin\n    x^.p:=y^.p; inc(y^.c,x^.c);\n    ans:=max(ans,y^.c);\n  end\n  else begin\n    y^.p:=x;inc(x^.c,y^.c);\n    if x^.n=y^.n then inc(x^.n);\n    ans:=max(ans,x^.c);\n  end;\n  dec(component);\nend;[/ft]\n[ft=,,simsun]function North(x:ufs):boolean;\nbegin\n  if x^.k and 2 =0 then exit(true);\n  exit(false);\nend;[/ft]\n[ft=,,simsun]function South(x:ufs):boolean;\nbegin\n  if x^.k and 8 = 0 then exit(true);\n  exit(false);\nend;[/ft]\n[ft=,,simsun]function West(x:ufs):boolean;\nbegin\n  if x^.k and 1 = 0 then exit(true);\n  exit(false);\nend;[/ft]\n[ft=,,simsun]function East(x:ufs):boolean;\nbegin\n  if x^.k and 4 =0  then exit(true);\n  exit(false);\nend;[/ft]\n\n[ft=,,simsun]procedure init;\nvar x,y:int;\nbegin\n  readln(m,n);component:=m*n;ans:=1;\n  for x:=1 to n do\n  begin\n    for y:=1 to m do\n    begin\n      make(s[x,y]);\n      read(input,s[x,y]^.k);\n    end;\n  end;\n  readln;\nend;[/ft]\n[ft=,,simsun]procedure solve;\nvar x,y:int;\nbegin\n  for x:=1 to n do\n  begin\n    for y:=1 to m do\n    begin\n      if (North(s[x,y])) and (x>1) then union(s[x,y],s[x-1,y]);\n      if (South(s[x,y])) and (x<n) then union(s[x,y],s[x+1,y]);\n      if (West(s[x,y])) and (y>1) then union(s[x,y],s[x,y-1]);\n      if (East(s[x,y])) and (y<n) then union(s[x,y],s[x,y+1]);\n    end;\n  end;\nend;[/ft]\n[ft=,,simsun]procedure print;\nvar\n  x,y,t:int;\n  a,b:int; c:char;\nbegin\n  writeln(component);\n  writeln(ans);[/ft]\n[ft=,,simsun]  ans:=0;\n  for y:=1 to m do\n  begin\n    for x:=n downto 1 do\n    begin\n      if not (North(s[x,y])) and (x>1) and (find(s[x,y])^.p<>find(s[x-1,y])^.p) then\n      begin\n        t:=find(s[x,y])^.c+find(s[x-1,y])^.c;\n        if t>ans then begin ans:=t;c:='N';a:=x;b:=y end;\n      end;\n      if not (East(s[x,y])) and (y<m) and (find(s[x,y])^.p<>find(s[x,y+1])^.p) then\n      begin\n        t:=find(s[x,y])^.c+find(s[x,y+1])^.c;\n        if t>ans then begin ans:=t;c:='E';a:=x;b:=y end;\n      end;\n    end;\n  end;\n  writeln(ans);\n  writeln(a,' ',b,' ',c);\nend;[/ft]\n[ft=,,simsun]begin\nassign(input,'castle.in');reset(input);\nassign(output,'castle.out');rewrite(output);\n  init; solve;\n  print;\nclose(input);close(output);\nend.[/ft] ",
+                "capacity": 9318,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            }
+        ]
+    }
+}

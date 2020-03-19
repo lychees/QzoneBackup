@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1410696410,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "“然后给队友端茶倒水”[em]e121012[/em]好幸福的队友。 ",
+                "capacity": 12116,
+                "poster": {
+                    "id": "568778055",
+                    "platform": 1,
+                    "name": "123456 ",
+                    "emoji": []
+                },
+                "bmp": "18d09da00100c221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1410698932,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "“然后给队友端茶倒水”[em]e121012[/em]好幸福的队友。 ",
+                "capacity": 12112,
+                "poster": {
+                    "id": "150247340",
+                    "platform": 1,
+                    "name": "见习吟游人 ",
+                    "emoji": []
+                },
+                "bmp": "38d495a00000e221",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

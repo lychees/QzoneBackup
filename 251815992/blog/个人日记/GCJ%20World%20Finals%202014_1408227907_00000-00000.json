@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1408235670,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "业精于勤 动力源于兴趣 ",
+                "capacity": 12147,
+                "poster": {
+                    "id": "95396439",
+                    "platform": 1,
+                    "name": "塘西河主 ",
+                    "emoji": []
+                },
+                "bmp": "188095a00002c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

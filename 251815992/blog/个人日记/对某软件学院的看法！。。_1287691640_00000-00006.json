@@ -1,0 +1,176 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 7,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1287707383,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "大二？ ",
+                "capacity": 12162,
+                "poster": {
+                    "id": "349661448",
+                    "platform": 1,
+                    "name": "Blizzard ",
+                    "emoji": []
+                },
+                "bmp": "18c195a50002c401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1287707545,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "大二？ ",
+                "capacity": 12162,
+                "poster": {
+                    "id": "349661448",
+                    "platform": 1,
+                    "name": "Blizzard ",
+                    "emoji": []
+                },
+                "bmp": "18c195a50002c401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1287713269,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "工大？是哈工大吗？   一个女生学  编程 学得如此痴迷，我觉得很恐怖……     真的，你现在是大二吗？你写的这些东东我还都没见识过…… ",
+                "capacity": 11963,
+                "poster": {
+                    "id": "791577378",
+                    "platform": 1,
+                    "name": "Spirit ",
+                    "emoji": []
+                },
+                "bmp": "18c095a00100c101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "我大一。。。。 ",
+                        "postTime": 1287716894,
+                        "id": 1287716894,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "420836131",
+                            "name": "doc ",
+                            "platform": 1
+                        },
+                        "content": "岛~还在双面性活动。。 ",
+                        "postTime": 1287726602,
+                        "id": 1287726602,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "postTime": 1287721404,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "女生。。。 ",
+                "capacity": 12154,
+                "poster": {
+                    "id": "173324507",
+                    "platform": 1,
+                    "name": "Groot ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1287725741,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "。。。@ lss\n“不要被表象所蒙蔽啊。。。”\n。。。 ",
+                "capacity": 12125,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 6,
+                "postTime": 1287742347,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "哈哈哈哈。。挺好的 ",
+                "capacity": 12154,
+                "poster": {
+                    "id": "103529760",
+                    "platform": 1,
+                    "name": "谢卫健 ",
+                    "emoji": []
+                },
+                "bmp": "18c09d2000008001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 7,
+                "postTime": 1287834733,
+                "effect": 1048608,
+                "replyNum": 2,
+                "content": "= =....249，499等等。。。 在下表示压力很大 ",
+                "capacity": 12038,
+                "poster": {
+                    "id": "443164766",
+                    "platform": 1,
+                    "name": "\"zrp\" ",
+                    "emoji": []
+                },
+                "bmp": "088094a10000c301",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "... 你懂的。。 ",
+                        "postTime": 1287849807,
+                        "id": 1287849807,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "443164766",
+                            "name": "\"zrp\" ",
+                            "platform": 1
+                        },
+                        "content": "我懂的。。。万一封了什么的，你也懂的 ",
+                        "postTime": 1287896528,
+                        "id": 1287896528,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

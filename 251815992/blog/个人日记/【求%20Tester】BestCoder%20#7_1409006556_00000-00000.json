@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1409022910,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "有兴趣验题 ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "2779318301",
+                    "platform": 1,
+                    "name": "正交基 ",
+                    "emoji": []
+                },
+                "bmp": "08009d8002004101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

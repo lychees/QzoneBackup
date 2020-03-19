@@ -1,0 +1,824 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    CodeChef December Challenge 2012
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             CodeChef December Challenge 2012
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2012-12-09 15:21:37
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(48)	è¯è®º(0)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1355084497,
+"voteids":0,
+"pubtime":1355084497,
+"replynum":0,
+"category":"个人日记",
+"title":"CodeChef December Challenge 2012",
+"effect":8389120,
+"effect2":524294,
+"exblogtype":3,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":81177,
+"lp_style":16843520,
+"lp_flag":0,
+"lp_topvalue":0,
+"orguin":251815992,
+"orgblogid":1355084497,
+"mention_uins":[ ],
+"attach":[],"comments":[]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <div>
+                <br/>
+                <br/>
+                。。。。水题略。。）
+                <br/>
+                <span>
+                 <br/>
+                 <br/>
+                 <br/>
+                </span>
+                <table border="0" cellpadding="0" cellspacing="0" class="pagetitle-prob" style="border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:rgb(128, 91, 62);margin-top:4px;color:rgb(68, 68, 68);font-family:Arial, Helvetica, sans-serif;font-size:11.818181991577148px" width="100%">
+                 <tbody style="border-top-width:1px;border-top-style:solid;border-top-color:rgb(204, 204, 204)">
+                  <tr>
+                   <td style="margin:0px;padding:6px 4px;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:rgb(238, 237, 236)" width="55%">
+                    <h1 style="font-family:arial;margin:0px;padding:0px 0px 3px;border-bottom-width:0px;border-bottom-style:none;font-size:24px;color:rgb(128, 91, 62)">
+                     Sereja and Data Structures
+                    </h1>
+                   </td>
+                  </tr>
+                 </tbody>
+                </table>
+                <span>
+                 Brief description:
+                 <br/>
+                 。。给定长度为 n 的数列 {an}。。记 s(l, r) 为 [l, r] 区间里最大数与最小数的差。。。
+                 <br/>
+                 。。。询问所有 s(l, r) 的的积。。（。。数据保证是随机生成的。。。
+                 <br/>
+                 <br/>
+                 Analysis:
+                 <br/>
+                 。。分治。。每次找到当前区间的最大值记作 m（。。或最小值。。可以比较哪一个更接近中点。。
+                 <br/>
+                 。则按从小到大的顺序插入其他数字。。（。这一步暴力排序。。
+                 <br/>
+                 。。。。左右各维护当前最远的可用距离。。。复杂度 O(nlog^2n)
+                 <br/>
+                 。（和我 N 年前出的某个题一样。。必须保证数据是随机生成的。。不过这个题的 Killer 似乎很好构造。。给个递增的数列就行了。。
+                 <br/>
+                 <br/>
+                </span>
+                <h1 style="font-family:arial;margin:0px;padding:0px 0px 3px;border-bottom-width:0px;border-bottom-style:none;font-size:24px;color:rgb(128, 91, 62)">
+                 Arigeom Beats
+                 <span style="color:rgb(0, 0, 0);font-size:14px;font-weight:normal">
+                  <br/>
+                  Brief Description
+                  <br/>
+                  。
+                 </span>
+                 <span style="color:rgb(0, 0, 0);font-size:14px;font-weight:normal">
+                  给
+                 </span>
+                 <span style="color:rgb(0, 0, 0);font-size:14px;font-weight:normal">
+                  定
+                 </span>
+                 <span style="color:rgb(0, 0, 0);font-size:14px;font-weight:normal">
+                 </span>
+                 <span style="color:rgb(0, 0, 0);font-size:14px;font-weight:normal">
+                  n
+                 </span>
+                 <span style="color:rgb(0, 0, 0);font-size:14px;font-weight:normal">
+                 </span>
+                 <span style="color:rgb(0, 0, 0);font-size:14px;font-weight:normal">
+                  个正整
+                 </span>
+                 <span style="color:rgb(0, 0, 0);font-size:14px;font-weight:normal">
+                  数 {An}
+                 </span>
+                 <span style="color:rgb(0, 0, 0);font-size:14px;font-weight:normal">
+                  ，将
+                 </span>
+                 <span style="color:rgb(0, 0, 0);font-size:14px;font-weight:normal">
+                  这
+                 </span>
+                 <span style="color:rgb(0, 0, 0);font-size:14px;font-weight:normal">
+                  些
+                 </span>
+                 <span style="color:rgb(0, 0, 0);font-size:14px;font-weight:normal">
+                  数分解成一个 AP（算数序列
+                 </span>
+                 <span style="color:rgb(0, 0, 0);font-size:14px;font-weight:normal">
+                  ）
+                 </span>
+                 <span style="color:rgb(0, 0, 0);font-size:14px;font-weight:normal">
+                 </span>
+                 <span style="color:rgb(0, 0, 0);font-size:14px;font-weight:normal">
+                  和一个 GP （几何
+                 </span>
+                 <span style="color:rgb(0, 0, 0);font-size:14px;font-weight:normal">
+                  数
+                 </span>
+                 <span style="color:rgb(0, 0, 0);font-size:14px;font-weight:normal">
+                  列
+                 </span>
+                 <span style="color:rgb(0, 0, 0);font-size:14px;font-weight:normal">
+                  ）。。。
+                  <br/>
+                 </span>
+                </h1>
+                <span>
+                 <span style="font-size:14px">
+                  允许一个数同时出现在 AP 和 GP 中。。。 p 可以是有理数。。
+                 </span>
+                </span>
+                <span style="font-family:arial">
+                 （记 d 为 该 AP 的公差。。p 为该 GP 数列的公比。。下同。。
+                </span>
+                <span>
+                 <span style="font-size:14px">
+                  <br/>
+                 </span>
+                </span>
+                <span>
+                 <span style="font-size:14px">
+                  （。。{An} 递增给出且
+                 </span>
+                </span>
+                互不相同。。。。n &lt;= 1e4, Ai &lt;= 1e5 ... 。。)
+               </div>
+               <div>
+                <span>
+                 <span style="font-size:14px">
+                  <br/>
+                  Analysis:
+                  <br/>
+                  。。。做法类似 CF 这题。。（
+                 </span>
+                </span>
+                <a href="http://codeforces.com/contest/125/problem/D" target="_blank">
+                 http://codeforces.com/contest/125/problem/D
+                </a>
+                <span>
+                 <span style="font-size:14px">
+                  <br/>
+                  。。
+                  <br/>
+                  <br/>
+                  1. 由于每项至少存在在 AP 和 GP 中的一个。。。
+                  <br/>
+                  。。考察前 3 个数。。必然有 2 个会落在 AP 或者 GP 中。。且是该数列中最小的两项（外层共需枚举 6 种情况。。
+                  <br/>
+                  。。
+                  <br/>
+                  <br/>
+                  。。。那么 Sub Task 是验证是否存在一个 AP （或者 GP 数列）。。使得。。某些数字必须出现。。某些数字可以出现。。
+                  <br/>
+                  <br/>
+                  <br/>
+                  对于 AP。。。
+                  <br/>
+                  。。如果存在，则对所有必须出现的数字排序。。d 一定是所有相邻数字的差的 gcd 。。。
+                  <br/>
+                  对于 GP。。。
+                  <br/>
+                  。。如果存在，则对所有必须出现的数字排序。。则 最小数 和 最大数 必然可以是 GP 数列的第一项和最后一项。。
+                  <br/>
+                  设最大数 / 最小数的最简分数为  A / B 。。GP 数列有 m+1 项。。那么 a 和 b 的 m 次方根都必须是有理数。。。
+                  <br/>
+                  。。
+                 </span>
+                </span>
+                即合法的 m  为  。。。 A 和 B 的所有质因子的幂的 gcd  的约数。。。。
+               </div>
+               <div>
+                <span>
+                 <span style="font-size:14px">
+                  <br/>
+                  <br/>
+                  <br/>
+                 </span>
+                </span>
+                <h1 style="font-family:arial;margin:0px;padding:0px 0px 3px;border-bottom-width:0px;border-bottom-style:none;font-size:24px;color:rgb(128, 91, 62)">
+                 Different Trips
+                 <br/>
+                 <span>
+                  <br/>
+                 </span>
+                 <span style="color:rgb(0, 0, 0);font-family:Arial;font-size:14px;font-weight:normal">
+                  Brief description:
+                  <br/>
+                  <span>
+                   。。给定一颗有根树。。问所有根到叶子结点所构成的字符串集合。有多少不同的子串。。。
+                   <br/>
+                   <span>
+                    。结点所表示字符等于这个结点的度数。。
+                    <br/>
+                    <span>
+                    </span>
+                   </span>
+                  </span>
+                 </span>
+                 <span>
+                  <br/>
+                  <br/>
+                  <br/>
+                 </span>
+                </h1>
+                <a href="http://www.codechef.com/DEC12/problems/DIFTRIP" target="_blank">
+                 http://www.codechef.com/DEC12/problems/DIFTRIP
+                </a>
+                <br/>
+                <br/>
+                <br/>
+                Analysis：
+                <br/>
+                。。似乎是个经典的题了？。。开始一直从动态添加字符的角度考察这个问题。。（。。呵呵呵。。
+                <br/>
+                <span>
+                 <span style="font-size:14px">
+                  <span>
+                   。后来在著名图论巅峰人物 Daizhenyang 的注视下终于认识到了我的弱菜本质。。。
+                   <br/>
+                   <br/>
+                   。其实把根到每个结点的路径。。组织成一颗静态的后缀数组就行了。。
+                  </span>
+                 </span>
+                </span>
+                。
+                <br/>
+                。。要对倍增算法进行少量的 Modification。。。（。。使用倍增祖先。。其他全部类比原算法即可。。
+                <br/>
+                <span>
+                 <span style="font-size:14px">
+                  <span>
+                  </span>
+                 </span>
+                 <br/>
+                 <span>
+                 </span>
+                </span>
+                。。按照叶子到根结点的顺序计算 height 数组的。。以保证线性复杂度。。
+                <br/>
+                1. 遇到已经计算过的。。则直接 break 掉；
+                <br/>
+                2. 若某时刻 u, v 相同。。则直接 height += dep[u]；  break 掉。。
+                <span>
+                 <span style="font-size:14px">
+                  <span>
+                   <br/>
+                  </span>
+                 </span>
+                 <br/>
+                 (
+                </span>
+                <a href="http://www.lydsy.com/JudgeOnline/problem.php?id=1921" target="_blank">
+                 http://www.lydsy.com/JudgeOnline/problem.php?id=1921
+                </a>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <h1 style="font-family:arial;margin:0px;padding:0px 0px 3px;border-bottom-width:0px;border-bottom-style:none;font-size:24px;color:rgb(128, 91, 62)">
+                 <br/>
+                </h1>
+                <br/>
+                。。。我的算法非常垃圾。。就不和大家分享了。连个题解都没有。。。
+                <br/>
+                <br/>
+                <h1 style="font-family:arial;margin:0px;padding:0px 0px 3px;border-bottom-width:0px;border-bottom-style:none;font-size:24px;color:rgb(128, 91, 62)">
+                 Quasi-Polynomial Sum
+                 <br/>
+                 <span>
+                  <br/>
+                  <span style="font-weight:normal">
+                  </span>
+                 </span>
+                 <span style="color:rgb(0, 0, 0);font-size:14px;font-weight:normal">
+                  ..
+                 </span>
+                 <span style="color:rgb(0, 0, 0);font-size:14px;font-weight:normal">
+                  这个题需要用到
+                 </span>
+                 <span style="color:rgb(0, 0, 0);font-size:14px;font-weight:normal">
+                  。二项式定理 (
+                 </span>
+                 <a href="http://en.wikipedia.org/wiki/Binomial_theorem" style="font-family:'Trebuchet MS';font-size:13px;color:rgb(87, 143, 178);text-decoration:underline;font-weight:normal" target="_blank">
+                  <span>
+                   Binomial theorem
+                  </span>
+                 </a>
+                 <span style="color:rgb(0, 0, 0);font-size:14px;font-weight:normal">
+                  )
+                 </span>
+                 <span style="color:rgb(0, 0, 0);font-size:14px;font-weight:normal">
+                  。
+                 </span>
+                 <span style="color:rgb(0, 0, 0);font-size:14px;font-weight:normal">
+                  。
+                 </span>
+                 <span style="color:rgb(0, 0, 0);font-size:14px;font-weight:normal">
+                  霍纳规则(
+                 </span>
+                 <a href="http://en.wikipedia.org/wiki/Horner%27s_method" style="font-family:'Trebuchet MS';font-size:13px;color:rgb(87, 143, 178);text-decoration:underline;font-weight:normal" target="_blank">
+                  <span>
+                   Horner's method
+                  </span>
+                 </a>
+                 <span style="color:rgb(0, 0, 0);font-size:14px;font-weight:normal">
+                  )
+                 </span>
+                 <span style="color:rgb(0, 0, 0);font-size:14px;font-weight:normal">
+                  。扩展
+                 </span>
+                 <span style="color:rgb(0, 0, 0);font-size:14px;font-weight:normal">
+                  欧几里德算法(
+                 </span>
+                 <a href="http://en.wikipedia.org/wiki/Extended_Euclidean_algorithm" style="font-family:'Trebuchet MS';font-size:13px;color:rgb(87, 143, 178);text-decoration:underline;font-weight:normal" target="_blank">
+                  <span>
+                   Extended Euclid's algorithm
+                  </span>
+                 </a>
+                 <span style="color:rgb(0, 0, 0);font-size:14px;font-weight:normal">
+                  )。
+                 </span>
+                 <span style="color:rgb(0, 0, 0);font-size:14px;font-weight:normal">
+                  。
+                 </span>
+                 <span style="color:rgb(0, 0, 0);font-size:14px;font-weight:normal">
+                  数
+                 </span>
+                 <span style="color:rgb(0, 0, 0);font-size:14px;font-weight:normal">
+                  论
+                 </span>
+                 <span style="color:rgb(0, 0, 0);font-size:14px;font-weight:normal">
+                  变
+                 </span>
+                 <span style="color:rgb(0, 0, 0);font-size:14px;font-weight:normal">
+                  换(
+                 </span>
+                 <a href="http://en.wikipedia.org/wiki/Number-theoretic_transform#Number-theoretic_transform" style="font-family:'Trebuchet MS';font-size:13px;color:rgb(87, 143, 178);text-decoration:underline;font-weight:normal" target="_blank">
+                  <span>
+                   Number-theoretic transform
+                  </span>
+                 </a>
+                 <span style="color:rgb(0, 0, 0);font-size:14px;font-weight:normal">
+                  )
+                 </span>
+                 <span style="color:rgb(0, 0, 0);font-size:14px;font-weight:normal">
+                  。
+                 </span>
+                 <span style="color:rgb(0, 0, 0);font-size:14px;font-weight:normal">
+                  。
+                 </span>
+                 <span style="color:rgb(0, 0, 0);font-size:14px;font-weight:normal">
+                  快
+                 </span>
+                 <span style="color:rgb(0, 0, 0);font-size:14px;font-weight:normal">
+                  速
+                 </span>
+                 <span style="color:rgb(0, 0, 0);font-size:14px;font-weight:normal">
+                  傅里叶变换(
+                 </span>
+                 <a href="http://en.wikipedia.org/wiki/Fast_Fourier_transform" style="font-family:'Trebuchet MS';font-size:13px;color:rgb(87, 143, 178);text-decoration:underline;font-weight:normal" target="_blank">
+                  <span>
+                   Fast Fourier transform
+                  </span>
+                 </a>
+                 <span style="color:rgb(0, 0, 0);font-size:14px;font-weight:normal">
+                  )
+                 </span>
+                 <span style="color:rgb(0, 0, 0);font-size:14px;font-weight:normal">
+                  。和中国剩余定理(
+                 </span>
+                 <a href="http://en.wikipedia.org/wiki/Chinese_remainder_theorem" style="font-family:'Trebuchet MS';font-size:13px;color:rgb(87, 143, 178);text-decoration:underline;font-weight:normal" target="_blank">
+                  <span>
+                   Chinese remainder theorem
+                  </span>
+                 </a>
+                 <span style="color:rgb(0, 0, 0);font-size:14px;font-weight:normal">
+                  )
+                 </span>
+                </h1>
+               </div>
+               <div>
+                <br/>
+                。。。这个题超出了本菜的能力范围。。。（呵呵呵呵。。。
+                <br/>
+                。。。有兴趣的可以去研究下题解
+                <a href="http://discuss.codechef.com/questions/4505/qpolysum-editorial" target="_blank">
+                 http://discuss.codechef.com/questions/4505/qpolysum-editorial
+                </a>
+                <br/>
+                <span>
+                 <span>
+                  <br/>
+                 </span>
+                </span>
+                <h1 style="font-family:arial;margin:0px;padding:0px 0px 3px;border-bottom-width:0px;border-bottom-style:none;font-size:24px;color:rgb(128, 91, 62)">
+                 <br/>
+                </h1>
+                <span>
+                 <span>
+                  <span>
+                   <br/>
+                  </span>
+                 </span>
+                </span>
+                <h1 style="font-family:arial;margin:0px;padding:0px 0px 3px;border-bottom-width:0px;border-bottom-style:none;font-size:24px;color:rgb(128, 91, 62)">
+                 WordNinjas
+                </h1>
+                <a href="http://www.codechef.com/DEC12/problems/WORDNINJ/" target="_blank">
+                 http://www.codechef.com/DEC12/problems/WORDNINJ/
+                </a>
+                <br/>
+                <br/>
+                <span>
+                 <span>
+                  <span>
+                   。。。剩下一题明显对我不可做。。全力撸 Marathon 。。。。
+                   <br/>
+                   务必掉进第一版。。。
+                   <br/>
+                   GOGOGO。。！
+                   <br/>
+                   <br/>
+                   ————————————————
+                   <br/>
+                   Step 1:
+                   <br/>
+                   。。。尽可能取所有 Bonus 块。。然后其他全部取 A。。且可以输出 AA 时就输出 AA。。。（2700 points。。。
+                   <br/>
+                   <br/>
+                   <br/>
+                   （。。第一反应对字典建立 AC 自动机。。然后每个结点上建立估价函数。。。
+                   <br/>
+                   。。进一步&lt;del&gt;观察&lt;/del&gt;读题发现。。在任何时刻都可对当前 Array 进行重排。。。。
+                   <br/>
+                   。。于是只需要保存个数信息。。。)
+                   <br/>
+                   <br/>
+                  </span>
+                 </span>
+                </span>
+                Step 2:
+                <br/>
+                <span>
+                 <span>
+                  <span>
+                   。。暴力建立字典。。。每次根据局部字母得分优先取字母。。（Bonus 块依然优先。。
+                   <br/>
+                   。维护当前字母集合。。。每轮 暴力 dfs() 寻找合法字符串。。
+                   <br/>
+                   <br/>
+                   <br/>
+                   Step 3：
+                   <br/>
+                   考虑到字符总量固定。。利用统计学信息。。。每轮重新调整估价函数。。
+                   <br/>
+                   <br/>
+                  </span>
+                 </span>
+                </span>
+               </div>
+               <br/>
+               <br/>
+               ————————————————————
+               <br/>
+               。。傻逼到家了。。这个不是交互式的。。。
+               <br/>
+               。先简化问题。。。只要考虑尽可能的拼出长度为 7 的单词就可以了。。。
+               <br/>
+               。。尽可能的利用通配符。。。
+               <br/>
+               <br/>
+               。主算法应该是动态规划。。
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               map&lt;int, map&lt;int, char&gt; &gt; dp[i][lv]
+               <br/>
+               表示第 i 个单词。。当前第 lv 层。。（层表示当前覆盖了多少位。。
+               <br/>
+               。。状态集合为 s 时。。。是由第几条指令。。取那个字符转移过来的。。。
+               <br/>
+               <br/>
+               ————————————————
+               <br/>
+               。。。超时了。。。sad 。。（。。子问题。。如何确定当前扫描区间是否能构成某个字符串。。要怎么做？。。。
+               <br/>
+               。。已放弃。。。
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               ————————————————
+               <br/>
+               最后一题也完全没有想法的样子。。。看来这个月冲第一版无望了。。。。。
+               <br/>
+               <a href="http://www.codechef.com/DEC12/problems/QPOLYSUM" target="_blank">
+                http://www.codechef.com/DEC12/problems/QPOLYSUM
+               </a>
+               <br/>
+               <a href="http://en.wikipedia.org/wiki/Quasi-polynomial" target="_blank">
+                http://en.wikipedia.org/wiki/Quasi-polynomial
+               </a>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <font color="#000000" style="FONT-FAMILY:'微软雅黑','MS Sans Serif',sans-serif;FONT-SIZE:9pt">
+                <span style="color:rgb(255, 255, 255)">
+                 fotile
+                 <br/>
+                 qazwsx
+                </span>
+               </font>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

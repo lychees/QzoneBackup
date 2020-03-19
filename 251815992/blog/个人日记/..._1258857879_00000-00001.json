@@ -1,0 +1,90 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1258860791,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]‘；’‘[/ft] ",
+                "capacity": 12147,
+                "poster": {
+                    "id": "307757035",
+                    "platform": 1,
+                    "name": "税子龙 ",
+                    "emoji": []
+                },
+                "bmp": "084195a40000c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1258958833,
+                "effect": 32,
+                "replyNum": 4,
+                "content": "[ft=,2,]这个小说、、我从头看了、、[/ft]\n[ft=,2,]写的不错啊！、、[/ft]\n[ft=,2,]很有感觉、、[/ft]\n[ft=,2,]我喜欢、、、[/ft] ",
+                "capacity": 11757,
+                "poster": {
+                    "id": "530600414",
+                    "platform": 1,
+                    "name": "汐铃 ",
+                    "emoji": []
+                },
+                "bmp": "18509da00100e209",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "我打算每两周..只连载一个小节...\n因为现在功课比较多的缘故...\n..这部小说练笔用的...\n我真正想写的是另一部书..^ ^ ",
+                        "postTime": 1258980320,
+                        "id": 1258980320,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "530600414",
+                            "name": "汐铃 ",
+                            "platform": 1
+                        },
+                        "content": "真哒?、\n那写的时候要告诉我哦、\n我一定捧场、、 ",
+                        "postTime": 1258980384,
+                        "id": 1258980384,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "^ ^知道啦. ",
+                        "postTime": 1258980500,
+                        "id": 1258980500,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "530600414",
+                            "name": "汐铃 ",
+                            "platform": 1
+                        },
+                        "content": "嗯、谢啦、\n谢谢岛姐姐~、[em]e112[/em]\n ",
+                        "postTime": 1258981208,
+                        "id": 1258981208,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

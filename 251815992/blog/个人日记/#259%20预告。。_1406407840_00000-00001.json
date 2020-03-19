@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1406433546,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "想扩散啊 ",
+                "capacity": 12160,
+                "poster": {
+                    "id": "529520158",
+                    "platform": 1,
+                    "name": "雪人墙 ",
+                    "emoji": []
+                },
+                "bmp": "18d08da00802c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1406470020,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "\"不会数据结构的全部跌成紫\" ",
+                "capacity": 12129,
+                "poster": {
+                    "id": "450978053",
+                    "platform": 1,
+                    "name": "Sd.无心插柳 ",
+                    "emoji": []
+                },
+                "bmp": "18d1d5800000c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

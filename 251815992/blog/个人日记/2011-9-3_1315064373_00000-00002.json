@@ -1,0 +1,80 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1315064719,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]Orz 大绝招[/ft] ",
+                "capacity": 12141,
+                "poster": {
+                    "id": "546711990",
+                    "platform": 1,
+                    "name": "AmazingCaddy ",
+                    "emoji": []
+                },
+                "bmp": "18d095a40000c109",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1315065289,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "8题是浮云.. ",
+                "capacity": 12163,
+                "poster": {
+                    "id": "443450050",
+                    "platform": 1,
+                    "name": "李拉德 ",
+                    "emoji": []
+                },
+                "bmp": "08c095a000020101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1315369885,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[ft=,2,]来看看虎哥.。。。。好久没来~[/ft] ",
+                "capacity": 11935,
+                "poster": {
+                    "id": "872840416",
+                    "platform": 1,
+                    "name": "王羽 ",
+                    "emoji": []
+                },
+                "bmp": "58d015a40102e109",
+                "ismyreply": 0,
+                "giftId": "3868020f9ef3664edd1a0600",
+                "giftType": 1,
+                "giftItemID": 57616,
+                "giftName": "感动娃娃",
+                "giftUrl": "http://cnc.qzonestyle.gtimg.cn/qzone/space_item/pre/0/57616.png",
+                "giftmMalllist": "1115|566|1025|1021|556|947|948|976|571|564|",
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "Orz ",
+                        "postTime": 1315371084,
+                        "id": 1315371084,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

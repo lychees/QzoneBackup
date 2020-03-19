@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1197715104,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈~我们凌晨2点在走廊当鬼吓人看流星~~~~ ",
+                "capacity": 12065,
+                "poster": {
+                    "id": "122698324",
+                    "platform": 1,
+                    "name": "张晓晨 ",
+                    "emoji": []
+                },
+                "bmp": "18d19560010e8009",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1197718112,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "汗死 貌似我没你认真 我作业已经空了好几本了 汗\n \n知道我们寝室人都被老师折磨到什么程度了吗 晚上我正准备睡觉 突然有一个人说梦话 我仔细听 她说的是:\"怎么解?\"\n \n狂寒 ",
+                "capacity": 12004,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

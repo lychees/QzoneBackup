@@ -1,0 +1,85 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1402540111,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "高大上 看不懂 ",
+                "capacity": 12152,
+                "poster": {
+                    "id": "842008099",
+                    "platform": 1,
+                    "name": "我本冷血 ",
+                    "emoji": []
+                },
+                "bmp": "18d09d8000008201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1402547513,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "太神了…无法直视 ",
+                "capacity": 12151,
+                "poster": {
+                    "id": "1693035997",
+                    "platform": 1,
+                    "name": "233等人Alice ",
+                    "emoji": []
+                },
+                "bmp": "08409c880202e221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1402589562,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "「你们这群人永远不知道xlkxc什么意思！」 ",
+                "capacity": 11957,
+                "poster": {
+                    "id": "751723392",
+                    "platform": 1,
+                    "name": "wwwwodddd ",
+                    "emoji": []
+                },
+                "bmp": "18c095a80000c001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:751723392,nick:wwwwodddd,auto:1} 是什么意思。。。 ",
+                        "postTime": 1402608175,
+                        "id": 1402608175,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251346744",
+                            "name": "tkskywalker ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1}xlk瞎扯 >_<||| ",
+                        "postTime": 1402621485,
+                        "id": 1402621485,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

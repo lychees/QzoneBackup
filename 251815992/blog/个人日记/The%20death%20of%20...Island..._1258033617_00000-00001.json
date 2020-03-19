@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1258088084,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]不错，科大是好地方，我待过[/ft] ",
+                "capacity": 12125,
+                "poster": {
+                    "id": "1284557516",
+                    "platform": 1,
+                    "name": "滨湖惠园社区公共号 ",
+                    "emoji": []
+                },
+                "bmp": "08809d2002008001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1258198375,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]来顶一下。。。[/ft] ",
+                "capacity": 12143,
+                "poster": {
+                    "id": "917640727",
+                    "platform": 1,
+                    "name": "euclid ",
+                    "emoji": []
+                },
+                "bmp": "0880942000000001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1402323690,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "这种题多做几道就会了…… ",
+                "capacity": 12080,
+                "poster": {
+                    "id": "365273817",
+                    "platform": 1,
+                    "name": "Picks ",
+                    "emoji": []
+                },
+                "bmp": "18c095800002c001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "935099327",
+                            "name": "不愿透露姓名的 ",
+                            "platform": 1
+                        },
+                        "content": "@Picks跪。。做了好多了还是推不动 ",
+                        "postTime": 1402401196,
+                        "id": 1402401196,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

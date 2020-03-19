@@ -1,0 +1,74 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1230865051,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "小虎，我们等你。 ",
+                "capacity": 12127,
+                "poster": {
+                    "id": "41537583",
+                    "platform": 1,
+                    "name": "槑狼 ",
+                    "emoji": []
+                },
+                "bmp": "18d195a041008101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "~~ ",
+                        "postTime": 1230877143,
+                        "id": 1230877143,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1230874904,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "想玩孢子到我家来玩吧...\n其实也就是生物进化阶段比较好玩...后面变成RTS就无聊了.....\n哈哈..\n照片..........太丑了 ",
+                "capacity": 12058,
+                "poster": {
+                    "id": "474697421",
+                    "platform": 1,
+                    "name": "朱明琪 ",
+                    "emoji": []
+                },
+                "bmp": "18d195a000028209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1230886835,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "还不错哦 ",
+                "capacity": 12160,
+                "poster": {
+                    "id": "770976045",
+                    "platform": 1,
+                    "name": "┈┾葬亽 ╄ ",
+                    "emoji": []
+                },
+                "bmp": "18d015a40000c209",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

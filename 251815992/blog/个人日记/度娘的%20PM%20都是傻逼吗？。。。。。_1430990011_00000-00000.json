@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1430994839,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "Orz ",
+                "capacity": 12170,
+                "poster": {
+                    "id": "953357213",
+                    "platform": 1,
+                    "name": "蒟蒻 ",
+                    "emoji": []
+                },
+                "bmp": "18d18d800102c201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

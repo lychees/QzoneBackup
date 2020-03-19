@@ -1,0 +1,114 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1491417853,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "飞驒（tuo2） ",
+                "capacity": 12060,
+                "poster": {
+                    "id": "969894487",
+                    "platform": 1,
+                    "name": "YX_WH ",
+                    "emoji": []
+                },
+                "bmp": "08c09da00802c001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:969894487,nick:YX_WH,who:1,auto:1}[em]e400871[/em] ",
+                        "postTime": 1491434857,
+                        "id": 1491434857,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1491437200,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "加♂深 ",
+                "capacity": 12164,
+                "poster": {
+                    "id": "3070414186",
+                    "platform": 1,
+                    "name": "权死 ",
+                    "emoji": []
+                },
+                "bmp": "08009d800200c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1491437777,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "驒 ",
+                "capacity": 12166,
+                "poster": {
+                    "id": "397427019",
+                    "platform": 1,
+                    "name": " ",
+                    "emoji": []
+                },
+                "bmp": "18809da40102c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1491450692,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "那个吉祥物[em]e400334[/em]…… ",
+                "capacity": 11955,
+                "poster": {
+                    "id": "594837346",
+                    "platform": 1,
+                    "name": "CCG成员 ",
+                    "emoji": []
+                },
+                "bmp": "18c095a00102c481",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "969894487",
+                            "name": "YX_WH ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:594837346,nick:CCG成员,who:1,auto:1}CCG装了抢红包插件吧！ ",
+                        "postTime": 1491483924,
+                        "id": 1491483924,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "594837346",
+                            "name": "CCG成员 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:969894487,nick:YX_WH,who:1,auto:1}没有啊(⊙_⊙) ",
+                        "postTime": 1491484566,
+                        "id": 1491484566,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

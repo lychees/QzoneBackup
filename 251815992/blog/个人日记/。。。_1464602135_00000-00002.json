@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1464602408,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "自那之后，现在依然处于失却一切讯息的状态。 ",
+                "capacity": 12129,
+                "poster": {
+                    "id": "568778055",
+                    "platform": 1,
+                    "name": "123456 ",
+                    "emoji": []
+                },
+                "bmp": "18d09da00100c221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1464630993,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "答案：倒在西多士上面代替蜂蜜 ",
+                "capacity": 12146,
+                "poster": {
+                    "id": "190730860",
+                    "platform": 1,
+                    "name": "策划-sorma ",
+                    "emoji": []
+                },
+                "bmp": "08c095880002d401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1464660890,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "进来听BGM ",
+                "capacity": 12161,
+                "poster": {
+                    "id": "978632333",
+                    "platform": 1,
+                    "name": "特种兵-何骐 ",
+                    "emoji": []
+                },
+                "bmp": "98c09da00002e121",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

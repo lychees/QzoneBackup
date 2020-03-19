@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1478767937,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "女人就是喜欢同情弱者 ",
+                "capacity": 12152,
+                "poster": {
+                    "id": "181651526",
+                    "platform": 1,
+                    "name": "马融 ",
+                    "emoji": []
+                },
+                "bmp": "08809d8000004001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1478768803,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "光明牌？ ",
+                "capacity": 12164,
+                "poster": {
+                    "id": "297347023",
+                    "platform": 1,
+                    "name": "13-苗禹 ",
+                    "emoji": []
+                },
+                "bmp": "98d195a00000c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1478776454,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "毕竟硅谷岛，快建立新加里福利亚共和国！ ",
+                "capacity": 12130,
+                "poster": {
+                    "id": "451524137",
+                    "platform": 1,
+                    "name": "光之神圣 ",
+                    "emoji": []
+                },
+                "bmp": "18c1f4a40080c109",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

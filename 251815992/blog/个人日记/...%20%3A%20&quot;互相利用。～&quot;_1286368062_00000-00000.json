@@ -1,0 +1,40 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1286409688,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "你他妈莫不墨迹操。 ",
+                "capacity": 12124,
+                "poster": {
+                    "id": "102897108",
+                    "platform": 1,
+                    "name": " Alex ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00100e009",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "...   ",
+                        "postTime": 1286425539,
+                        "id": 1286425539,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

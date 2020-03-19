@@ -1,0 +1,74 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1265004351,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]..............[/ft] ",
+                "capacity": 12139,
+                "poster": {
+                    "id": "122698324",
+                    "platform": 1,
+                    "name": "张晓晨 ",
+                    "emoji": []
+                },
+                "bmp": "18d19560010e8009",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1265018690,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[ft=,2,]小朋友做事要沉下心来。[/ft] ",
+                "capacity": 12099,
+                "poster": {
+                    "id": "102897108",
+                    "platform": 1,
+                    "name": " Alex ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00100e009",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "。。（掩面） ",
+                        "postTime": 1265018746,
+                        "id": 1265018746,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "postTime": 1265281137,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]最后一句话..我看了以后..悲剧了..[/ft] ",
+                "capacity": 12119,
+                "poster": {
+                    "id": "315593370",
+                    "platform": 1,
+                    "name": "大魔导师会让你挂科 ",
+                    "emoji": []
+                },
+                "bmp": "18c09da04000c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

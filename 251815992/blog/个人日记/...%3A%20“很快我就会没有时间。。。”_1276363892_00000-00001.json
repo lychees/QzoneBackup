@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1276424370,
+                "effect": 1048576,
+                "replyNum": 0,
+                "content": "....激动，我的聊天记录第一次出现在别人的日志里面 ",
+                "capacity": 12123,
+                "poster": {
+                    "id": "443164766",
+                    "platform": 1,
+                    "name": "\"zrp\" ",
+                    "emoji": []
+                },
+                "bmp": "088094a10000c301",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1276957133,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]为什么会有人这么喜欢秀聊天记录呢。[/ft] ",
+                "capacity": 12119,
+                "poster": {
+                    "id": "102897108",
+                    "platform": 1,
+                    "name": " Alex ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00100e009",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

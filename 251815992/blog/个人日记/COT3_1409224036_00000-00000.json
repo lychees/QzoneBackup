@@ -1,0 +1,40 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1440774786,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "感觉是出题生涯的巅峰（拍胸 ",
+                "capacity": 12061,
+                "poster": {
+                    "id": "10848584",
+                    "platform": 1,
+                    "name": "主席 ",
+                    "emoji": []
+                },
+                "bmp": "0880dd8000000221",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:10848584,nick:主席,auto:1} 23333 ",
+                        "postTime": 1440774801,
+                        "id": 1440774801,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

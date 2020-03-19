@@ -1,0 +1,74 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1451002210,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "说起来，辐射系列里面的桌面电脑还停留在小型机时代。每个terminal都只有屏幕和键盘，全部是连到房间里的小型机上的 ",
+                "capacity": 12066,
+                "poster": {
+                    "id": "190730860",
+                    "platform": 1,
+                    "name": "策划-sorma ",
+                    "emoji": []
+                },
+                "bmp": "08c095880002d401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1451008190,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "cdda裡的電腦表示可以在裡面看小說 ",
+                "capacity": 12136,
+                "poster": {
+                    "id": "397427019",
+                    "platform": 1,
+                    "name": " ",
+                    "emoji": []
+                },
+                "bmp": "18809da40102c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1451024234,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "梦日记那个算电脑么。。 ",
+                "capacity": 12035,
+                "poster": {
+                    "id": "932152571",
+                    "platform": 1,
+                    "name": "Deaso ",
+                    "emoji": []
+                },
+                "bmp": "08848da00002e221",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "419172261",
+                            "name": "雪鸦 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:932152571,nick:Deaso,who:1,auto:1}他说的的梦2记…… ",
+                        "postTime": 1451026894,
+                        "id": 1451026894,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

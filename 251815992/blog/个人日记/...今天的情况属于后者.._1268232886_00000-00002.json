@@ -1,0 +1,74 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1268233402,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[em]e142[/em][ft=#999999,1,]你要建网站，偶第一个拍手[/ft] ",
+                "capacity": 12110,
+                "poster": {
+                    "id": "226297033",
+                    "platform": 1,
+                    "name": "尛、胡糊 ",
+                    "emoji": []
+                },
+                "bmp": "28d40de00942c409",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1268233814,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]先顶后看[/ft] ",
+                "capacity": 12146,
+                "poster": {
+                    "id": "534872060",
+                    "platform": 1,
+                    "name": "Cherubic ",
+                    "emoji": []
+                },
+                "bmp": "18c095a00100c421",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1268234068,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[ft=#ff0000,1,][B]强烈抗议不使用专业术语滴银。[/B][/ft]\n[ft=#ff0000,1,][B]什么叫剪的。能剪成这型的么。[/B][/ft]\n[ft=#ff0000,1,][B]这叫制作，懂么，制作。[/B][/ft]\n[B][/B] \n[B][ft=#ff0000,1,][/ft][/B] \n[B][ft=#ff0000,1,][/ft][/B] \n[B][ft=#ff0000,1,]画圈圈....xx你...[/ft][/B] ",
+                "capacity": 11872,
+                "poster": {
+                    "id": "226297033",
+                    "platform": 1,
+                    "name": "尛、胡糊 ",
+                    "emoji": []
+                },
+                "bmp": "28d40de00942c409",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "... ",
+                        "postTime": 1268234114,
+                        "id": 1268234114,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

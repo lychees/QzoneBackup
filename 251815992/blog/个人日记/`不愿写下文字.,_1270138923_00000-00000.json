@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1270175339,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]说好周六你过来拿钱, 怎到现在都没来? 你不来也要通知一下我呀, 随时欢迎你过来拿钱.你如果没有时间过来的话,约个地点, 我送来也行.[/ft] ",
+                "capacity": 12032,
+                "poster": {
+                    "id": "24483148",
+                    "platform": 1,
+                    "name": "中国时代 ",
+                    "emoji": []
+                },
+                "bmp": "08c19d2000008001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

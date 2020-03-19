@@ -1,0 +1,85 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1415339947,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "好有钱。。。 ",
+                "capacity": 12154,
+                "poster": {
+                    "id": "195719555",
+                    "platform": 1,
+                    "name": "方宇浩 ",
+                    "emoji": []
+                },
+                "bmp": "188095a000020421",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1415352269,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "要不你和BC说说把你的照片换上我的233。 ",
+                "capacity": 12131,
+                "poster": {
+                    "id": "568778055",
+                    "platform": 1,
+                    "name": "123456 ",
+                    "emoji": []
+                },
+                "bmp": "18d09da00100c221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1415382209,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "万刀岛 ",
+                "capacity": 11994,
+                "poster": {
+                    "id": "751723392",
+                    "platform": 1,
+                    "name": "wwwwodddd ",
+                    "emoji": []
+                },
+                "bmp": "18c095a80000c001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:751723392,nick:wwwwodddd,who:1,auto:1}帮我冲天梯啊。。 ",
+                        "postTime": 1415382449,
+                        "id": 1415382449,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "751723392",
+                            "name": "wwwwodddd ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1} 带我出题啊 ",
+                        "postTime": 1415436212,
+                        "id": 1415436212,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

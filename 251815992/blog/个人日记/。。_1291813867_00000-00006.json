@@ -1,0 +1,153 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 7,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1291815822,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,,]请说！。。。[/ft] ",
+                "capacity": 12148,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1291824469,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]小虎,不是老爸反对你创业,只是你就目前来讲,还不具备创业的三要素,人在每个年龄段有着不同的任务,完成各级段任务是就是人生,比如你写的小学的回忆,那个就是你那个时间段的生活,你现在不缺吃,不缺穿,你现在的任务就是安心学习,也包括自学,你必须有这个级段的磨练你才能适应下个年龄段的创业,你想走近路,是不行的,你要认为你时间足你可以去选修别的科,也可以去学几门外语,总之别乱想,只要你好好学习,做为父亲,我就是砸锅卖铁,卖血,都会供你,并给你以后创业,创造必需的一切,望你三思[/ft] ",
+                "capacity": 11710,
+                "poster": {
+                    "id": "1084081420",
+                    "platform": 1,
+                    "name": "安徽老虎 ",
+                    "emoji": []
+                },
+                "bmp": "88419da00000c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1291825171,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "岛哥，你的父亲是位好父亲。一步一步来吧！ ",
+                "capacity": 12128,
+                "poster": {
+                    "id": "1482421777",
+                    "platform": 1,
+                    "name": "还记得那个MJ吗 ",
+                    "emoji": []
+                },
+                "bmp": "18c195800202c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1291895918,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "如果你连学习都没勇气去战胜，何谈创业？你现在只是想逃避，你再想想。 ",
+                "capacity": 11754,
+                "poster": {
+                    "id": "1461707020",
+                    "platform": 1,
+                    "name": "LEON ",
+                    "emoji": []
+                },
+                "bmp": "1850158002006203",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "... 既然抱有理想，不想留下遗憾 ...这样... \n不管等待在前面的是什么，想过一种无拘无束的生活... 不知道的这个要求算不算过分？\nそれだけ。\n\nPS\n : 不认为现在的“学习” 是对的。。 ",
+                        "postTime": 1291900718,
+                        "id": 1291900718,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "1461707020",
+                            "name": "LEON ",
+                            "platform": 1
+                        },
+                        "content": "即使你成为了自己想当的画家也不可能无拘无束，人活着总是要受束缚的，如果你现在挺不过学习这关，以后受的束缚会更多，首先养家糊口就是一个。 ",
+                        "postTime": 1291956922,
+                        "id": 1291956922,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "postTime": 1292050229,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]哈哈。。。期待“盖茨二号”横空出世啊。[/ft]\n[ft=,2,]不过，创业切不可操之过急，一步一步来吧[/ft] ",
+                "capacity": 12063,
+                "poster": {
+                    "id": "925993522",
+                    "platform": 1,
+                    "name": "淡 景 ",
+                    "emoji": []
+                },
+                "bmp": "08c594a40000c209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 6,
+                "postTime": 1292061019,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]太年轻 一切都想当然了  现实是残酷的 复杂的[/ft]\n \n[ft=,2,]孩子   还是安心完成学业  啊[/ft] ",
+                "capacity": 12070,
+                "poster": {
+                    "id": "464953161",
+                    "platform": 1,
+                    "name": " 伊人若梦 ",
+                    "emoji": []
+                },
+                "bmp": "08d195a00100c201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 7,
+                "postTime": 1292063411,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]还创业呢,马上就会要饭,世上最大的笨旦,出世了,你不上学等着,,看老爸怎么收拾你吧[/ft] ",
+                "capacity": 12079,
+                "poster": {
+                    "id": "1084081420",
+                    "platform": 1,
+                    "name": "安徽老虎 ",
+                    "emoji": []
+                },
+                "bmp": "88419da00000c101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

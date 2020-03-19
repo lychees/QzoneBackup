@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1260880594,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "... ",
+                "capacity": 12161,
+                "poster": {
+                    "id": "935270551",
+                    "platform": 1,
+                    "name": "大家族3 ",
+                    "emoji": []
+                },
+                "bmp": "088094a000800301",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1260974886,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]...晕了...[/ft] ",
+                "capacity": 12149,
+                "poster": {
+                    "id": "1303552653",
+                    "platform": 1,
+                    "name": "赫敏·格兰杰 ",
+                    "emoji": []
+                },
+                "bmp": "18909da00608c209",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

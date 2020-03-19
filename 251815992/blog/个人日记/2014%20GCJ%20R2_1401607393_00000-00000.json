@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1401616170,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "完全看不懂。。。 ",
+                "capacity": 12148,
+                "poster": {
+                    "id": "190371352",
+                    "platform": 1,
+                    "name": "幼稚的温柔丶 ",
+                    "emoji": []
+                },
+                "bmp": "185015e10102c0a1",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

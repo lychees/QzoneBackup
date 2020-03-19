@@ -1,0 +1,57 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1270707673,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "买苹果活该～ ",
+                "capacity": 12099,
+                "poster": {
+                    "id": "545534129",
+                    "platform": 1,
+                    "name": "味道很正 ",
+                    "emoji": []
+                },
+                "bmp": "18c1d5a000800401",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "...^ ^ 我自能体会苹果的妙处嘿...\n\n ",
+                        "postTime": 1270729498,
+                        "id": 1270729498,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1270708386,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "…这题目… ",
+                "capacity": 12162,
+                "poster": {
+                    "id": "276500942",
+                    "platform": 1,
+                    "name": "酒仙 ",
+                    "emoji": []
+                },
+                "bmp": "b8c1dda00102e229",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

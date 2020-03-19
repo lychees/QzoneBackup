@@ -1,0 +1,492 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    CF #283
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             CF #283
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2014-12-13 13:24:34
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(130)	è¯è®º(1)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1418495074,
+"voteids":0,
+"pubtime":1418495074,
+"replynum":1,
+"category":"个人日记",
+"title":"CF #283",
+"effect":8389120,
+"effect2":524294,
+"exblogtype":3,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":81177,
+"lp_style":16843520,
+"lp_flag":0,
+"lp_topvalue":0,
+"orguin":251815992,
+"orgblogid":1418495074,
+"mention_uins":[ ],
+"attach":[],"comments":[{"id":1,
+"postTime":1418496079,
+"effect":1056,
+"replyNum":2,
+"content":"B居然是kmp...我哈希过了pretest... ",
+"capacity":11910,
+"poster":{
+"id":"529003192",
+"platform":1,
+"name":"【XDU】数学lover ",
+"emoji":[ ]}
+,
+"bmp":"18d19dac09828909",
+"ismyreply":0,
+"replies":[{"poster":{
+"id":"568143025",
+"name":"开小臣 ",
+"platform":1}
+,
+"content":"@{uin:529003192,nick:【XDU】数学lover,who:1,auto:1}kmp也可以用哈希代替啊 ",
+"postTime":1418521947,
+"id":1418521947,
+"effect":0},
+{"poster":{
+"id":"529003192",
+"name":"【XDU】数学lover ",
+"platform":1}
+,
+"content":"@{uin:568143025,nick:开小臣,who:1,auto:1}哈希→_→存在一些极其丧心病狂的数据可以hack掉 ",
+"postTime":1418522143,
+"id":1418522143,
+"effect":0}]}]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <div>
+                A:
+                <br/>
+                贪心构造。。。
+                <br/>
+                <br/>
+                一定 1 1 1 1 1 1 x 的模式。。。
+                <br/>
+                <br/>
+                B.
+                <br/>
+                KMP  + for...
+                <br/>
+                <br/>
+                <br/>
+                <span style="color:rgb(132, 0, 0);font-family:微软雅黑, 'MS Sans Serif', sans-serif;font-size:13px">
+                 理解为 T 中取 k 个不相交子串，且每个子串都可以被 P 匹配，的方案数，k &gt;= 1
+                 <br/>
+                 KMP 预处理出，T 的每个字符向前第一次匹配的位置 pp[i]
+                 <br/>
+                 然后动态规划即可。
+                 <br/>
+                 dp[i] 表示，所选 T 的最后一个子串的位置在 &lt;= i  的方案数。
+                 <br/>
+                 部分和转移即可。。。
+                 <br/>
+                 <br/>
+                 <span>
+                 </span>
+                </span>
+                <br/>
+                <br/>
+                <br/>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 //}/* .................................................................................................................................. */
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 const int N = int(1e5) + 9;
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 char T[N], P[N]; int pi[N], pp[N];
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 Int dp[N], ss[N];
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 int main(){
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 #ifndef ONLINE_JUDGE
+                </div>
+                <div>
+                 freopen("in.txt", "r", stdin);
+                </div>
+                <div>
+                 //freopen("out.txt", "w", stdout);
+                </div>
+                <div>
+                 #endif
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 int tn = strlen(RS(T)), pn = strlen(RS(P));
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 get_pi(P, pn, pi); run(T, tn, P, pn, pi, pp);
+                </div>
+                <div>
+                 //REP(i, tn) cout &lt;&lt; pp[i] &lt;&lt; " "; puts("");
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 ss[0] = dp[0] = 1; REP_1(i, tn){
+                </div>
+                <div>
+                 dp[i] = dp[i-1]; if (~pp[i-1]) dp[i] += ss[pp[i-1]];
+                </div>
+                <div>
+                 ss[i] = dp[i] + ss[i-1]; // cout &lt;&lt; i &lt;&lt; " " &lt;&lt; dp[i] &lt;&lt; " " &lt;&lt; ss[i-1] &lt;&lt; " " &lt;&lt; ss[i] &lt;&lt; endl;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 OT(int(dp[tn]-1));
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <br/>
+                <br/>
+                C.
+                <br/>
+                <span>
+                 区分
+                 <br/>
+                 <span>
+                  期望的最大值 和。。
+                  <br/>
+                  最大值的期望
+                  <br/>
+                  <span>
+                   <br/>
+                   D.
+                   <br/>
+                   树 DP。
+                   <br/>
+                   <br/>
+                   <br/>
+                   E。
+                   <br/>
+                   ？？
+                  </span>
+                 </span>
+                </span>
+                <br/>
+                <br/>
+                <br/>
+               </div>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

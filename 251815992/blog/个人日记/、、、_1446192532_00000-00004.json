@@ -1,0 +1,96 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 5,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1446192706,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "我们来研究范畴论和类型系统吧！ ",
+                "capacity": 12136,
+                "poster": {
+                    "id": "489271171",
+                    "platform": 1,
+                    "name": "突然华尔兹 ",
+                    "emoji": []
+                },
+                "bmp": "18959da00000c201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1446193092,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "快点毕业，带大伙一起装逼一起飞啊 ",
+                "capacity": 12134,
+                "poster": {
+                    "id": "2584468854",
+                    "platform": 1,
+                    "name": "SweetLover ",
+                    "emoji": []
+                },
+                "bmp": "1850958002028101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1446193732,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "贪吃蛇 ",
+                "capacity": 12165,
+                "poster": {
+                    "id": "568778055",
+                    "platform": 1,
+                    "name": "123456 ",
+                    "emoji": []
+                },
+                "bmp": "18d09da00100c221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1446196390,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "理论计算机科学家！ ",
+                "capacity": 12150,
+                "poster": {
+                    "id": "460680968",
+                    "platform": 1,
+                    "name": "密都人士 ",
+                    "emoji": []
+                },
+                "bmp": "18c09da00002c009",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1446200824,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "理论CSS科学家！！！ ",
+                "capacity": 12149,
+                "poster": {
+                    "id": "1693035997",
+                    "platform": 1,
+                    "name": "233等人Alice ",
+                    "emoji": []
+                },
+                "bmp": "08409c880202e221",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

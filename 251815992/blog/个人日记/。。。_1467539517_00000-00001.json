@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1467542871,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "吃惊 ",
+                "capacity": 12164,
+                "poster": {
+                    "id": "446079414",
+                    "platform": 1,
+                    "name": "旺仔嚎婆婆 ",
+                    "emoji": []
+                },
+                "bmp": "38449da00000c201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1467551295,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "我日 怎么有dr的paper ",
+                "capacity": 12145,
+                "poster": {
+                    "id": "2830264590",
+                    "platform": 1,
+                    "name": "Farewell. ",
+                    "emoji": []
+                },
+                "bmp": "080094800200c401",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

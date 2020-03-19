@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1243131051,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "很怀旧啊～呵呵\n感触很多嘛. ",
+                "capacity": 12141,
+                "poster": {
+                    "id": "476058914",
+                    "platform": 1,
+                    "name": " ",
+                    "emoji": []
+                },
+                "bmp": "18f4052001029020",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

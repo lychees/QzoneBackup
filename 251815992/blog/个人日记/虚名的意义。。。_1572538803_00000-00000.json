@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1572569491,
+                "postTime": 1572569491,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "都是实名 ",
+                "capacity": 12166,
+                "poster": {
+                    "id": "350053879",
+                    "platform": 1,
+                    "name": "温OWEN ",
+                    "emoji": []
+                },
+                "bmp": "18411da40100d401",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

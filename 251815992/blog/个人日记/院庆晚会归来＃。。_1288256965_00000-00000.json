@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1288349987,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "无聊坯！ ",
+                "capacity": 12160,
+                "poster": {
+                    "id": "515016441",
+                    "platform": 1,
+                    "name": "时 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a40102c929",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

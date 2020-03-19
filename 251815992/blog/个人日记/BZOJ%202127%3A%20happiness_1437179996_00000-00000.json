@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 2,
+                "postTime": 1437211381,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "@{uin:598460606,nick:hzwer带上可爱p2oileen,who:1} ",
+                "capacity": 12121,
+                "poster": {
+                    "id": "841144792",
+                    "platform": 1,
+                    "name": "小可爱 ",
+                    "emoji": []
+                },
+                "bmp": "18508da40002c421",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

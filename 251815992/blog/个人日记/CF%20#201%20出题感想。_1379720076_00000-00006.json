@@ -1,0 +1,142 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 7,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1379727625,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "tourist加鸡腿！ ",
+                "capacity": 12153,
+                "poster": {
+                    "id": "10848584",
+                    "platform": 1,
+                    "name": "主席 ",
+                    "emoji": []
+                },
+                "bmp": "0880dd8000000221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1379730581,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "都是神犇 ",
+                "capacity": 12157,
+                "poster": {
+                    "id": "842008099",
+                    "platform": 1,
+                    "name": "我本冷血 ",
+                    "emoji": []
+                },
+                "bmp": "18d09d8000008201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1379734002,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "zhuan qian de shen ben! ",
+                "capacity": 12151,
+                "poster": {
+                    "id": "402701292",
+                    "platform": 1,
+                    "name": "x. ",
+                    "emoji": []
+                },
+                "bmp": "185495a00102e101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1379734118,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "以后就\nA傻逼题\nB一眼代码题\nCfst到死题\nDE过了pretest就能过的良心题 ",
+                "capacity": 12099,
+                "poster": {
+                    "id": "10848584",
+                    "platform": 1,
+                    "name": "主席 ",
+                    "emoji": []
+                },
+                "bmp": "0880dd8000000221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1379734458,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "CC是什么比赛？ ",
+                "capacity": 12071,
+                "poster": {
+                    "id": "441748146",
+                    "platform": 1,
+                    "name": "lirau ",
+                    "emoji": []
+                },
+                "bmp": "185495a001008109",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:441748146,nick:lirau,who:1,auto:1}codechef。。 ",
+                        "postTime": 1379767345,
+                        "id": 1379767345,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "postTime": 1379751765,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "赚钱的xiaodao~~~\n手术费so easy~~ ",
+                "capacity": 12135,
+                "poster": {
+                    "id": "1216446045",
+                    "platform": 1,
+                    "name": "[弱爆]UnkelTao ",
+                    "emoji": []
+                },
+                "bmp": "98d095e0000ec001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 7,
+                "postTime": 1379821160,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "“竞技性强的题”大赞。。 ",
+                "capacity": 12141,
+                "poster": {
+                    "id": "251870949",
+                    "platform": 1,
+                    "name": "赵林娇 ",
+                    "emoji": []
+                },
+                "bmp": "18c095a10002c209",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

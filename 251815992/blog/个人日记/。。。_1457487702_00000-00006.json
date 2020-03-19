@@ -1,0 +1,130 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 7,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1457488020,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "屌爆了 ",
+                "capacity": 12160,
+                "poster": {
+                    "id": "2584468854",
+                    "platform": 1,
+                    "name": "SweetLover ",
+                    "emoji": []
+                },
+                "bmp": "1850958002028101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1457488655,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "666 ",
+                "capacity": 12164,
+                "poster": {
+                    "id": "503540643",
+                    "platform": 1,
+                    "name": "13-李天宝 ",
+                    "emoji": []
+                },
+                "bmp": "18c095a000008201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1457496457,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "搞个大新闻！ ",
+                "capacity": 12156,
+                "poster": {
+                    "id": "1004999674",
+                    "platform": 1,
+                    "name": "mio ",
+                    "emoji": []
+                },
+                "bmp": "188095a40002c221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1457497699,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "害怕 ",
+                "capacity": 12167,
+                "poster": {
+                    "id": "365273817",
+                    "platform": 1,
+                    "name": "Picks ",
+                    "emoji": []
+                },
+                "bmp": "18c095800002c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1457528189,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "吊吊吊！！！ ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "978632333",
+                    "platform": 1,
+                    "name": "特种兵-何骐 ",
+                    "emoji": []
+                },
+                "bmp": "98c09da00002e121",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 6,
+                "postTime": 1457577774,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "orz ",
+                "capacity": 12163,
+                "poster": {
+                    "id": "625193963",
+                    "platform": 1,
+                    "name": "Teddy惠同学@提不起劲 ",
+                    "emoji": []
+                },
+                "bmp": "18d09de00002c401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 7,
+                "postTime": 1457696450,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "害怕+1 ",
+                "capacity": 12163,
+                "poster": {
+                    "id": "953357213",
+                    "platform": 1,
+                    "name": "蒟蒻 ",
+                    "emoji": []
+                },
+                "bmp": "18d18d800102c201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

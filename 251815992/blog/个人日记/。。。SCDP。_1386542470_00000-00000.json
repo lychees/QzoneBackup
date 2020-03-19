@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1386544755,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "为何刚比完赛你就开始狂刷？ ",
+                "capacity": 12142,
+                "poster": {
+                    "id": "593572013",
+                    "platform": 1,
+                    "name": "wuyiqi ",
+                    "emoji": []
+                },
+                "bmp": "98d095800000c101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

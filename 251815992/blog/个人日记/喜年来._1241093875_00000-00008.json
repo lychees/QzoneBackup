@@ -1,0 +1,302 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 9,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1241094651,
+                "effect": 4194308,
+                "replyNum": 0,
+                "content": "[ft=,2,].......[/ft]\n[ft=,2,]疯了.....[/ft] ",
+                "capacity": 12121,
+                "poster": {
+                    "id": "122698324",
+                    "platform": 1,
+                    "name": "张晓晨 ",
+                    "emoji": []
+                },
+                "bmp": "18d19560010e8009",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1241097486,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,黑体][em]e103[/em]我只记得你们学校教室的布局有点奇怪～  =p[/ft] ",
+                "capacity": 12100,
+                "poster": {
+                    "id": "241721246",
+                    "platform": 1,
+                    "name": "-Zoey-D ",
+                    "emoji": []
+                },
+                "bmp": "18d495a001008121",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1241100029,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "无语。能不能写点有用的。比如说陈df ",
+                "capacity": 11991,
+                "poster": {
+                    "id": "511024310",
+                    "platform": 1,
+                    "name": "Melanchosomnia ",
+                    "emoji": []
+                },
+                "bmp": "589195a001028121",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "话说...我是很想念陈老师的...\n记得初一第一天数学课的时候他把我当成女孩....... ",
+                        "postTime": 1241105572,
+                        "id": 1241105572,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "511024310",
+                            "name": "Melanchosomnia ",
+                            "platform": 1
+                        },
+                        "content": "有点想陈df了，好长时间没见过了 ",
+                        "postTime": 1241148081,
+                        "id": 1241148081,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "postTime": 1241103342,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "学弟~                                 光明影都没有了吧? ",
+                "capacity": 12076,
+                "poster": {
+                    "id": "641996383",
+                    "platform": 1,
+                    "name": "V.C. ",
+                    "emoji": []
+                },
+                "bmp": "089015e00004d409",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "- -请问你是...?~ ",
+                        "postTime": 1241103790,
+                        "id": 1241103790,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "postTime": 1241176132,
+                "effect": 4194336,
+                "replyNum": 3,
+                "content": "[ft=,2,]楼上那是谁??\n也经常在我空间发帖...[/ft] ",
+                "capacity": 11979,
+                "poster": {
+                    "id": "122698324",
+                    "platform": 1,
+                    "name": "张晓晨 ",
+                    "emoji": []
+                },
+                "bmp": "18d19560010e8009",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "杨昊- -... ",
+                        "postTime": 1241180055,
+                        "id": 1241180055,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "122698324",
+                            "name": "张晓晨 ",
+                            "platform": 1
+                        },
+                        "content": "杨昊我知道/....那个什么叫你学弟的那个.....是谁?>? ",
+                        "postTime": 1241180112,
+                        "id": 1241180112,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "- - 不知道... ",
+                        "postTime": 1241181522,
+                        "id": 1241181522,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "postTime": 1241183928,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[ft=,2,]小子你忒咱了[/ft] ",
+                "capacity": 12122,
+                "poster": {
+                    "id": "844242114",
+                    "platform": 1,
+                    "name": "MoonMayCry ",
+                    "emoji": []
+                },
+                "bmp": "08d095a000028101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "... ",
+                        "postTime": 1241183980,
+                        "id": 1241183980,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "postTime": 1241267812,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "[ft=,2,]看来就我最洒脱，46的学校老师我几乎都没有任何记忆啦[em]e142[/em][/ft] ",
+                "capacity": 12041,
+                "poster": {
+                    "id": "601598644",
+                    "platform": 1,
+                    "name": "金天 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00002c109",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "..... ",
+                        "postTime": 1241267876,
+                        "id": 1241267876,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "601598644",
+                            "name": "金天 ",
+                            "platform": 1
+                        },
+                        "content": "哼 ",
+                        "postTime": 1241272435,
+                        "id": 1241272435,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "postTime": 1241268457,
+                "effect": 32,
+                "replyNum": 3,
+                "content": "[ft=,2,]糖糖，继续连载吧……[/ft]\n[ft=,2,]着重描写啊我校狭小的环境和（被迫）变态了的同学……[/ft] ",
+                "capacity": 11862,
+                "poster": {
+                    "id": "307420773",
+                    "platform": 1,
+                    "name": "无关路人甲 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a40000c009",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "......这个...人家哪里有打算连载...\n只是前天晚上和往届46中同学聊天时～想写一点的... ",
+                        "postTime": 1241268607,
+                        "id": 1241268607,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "307420773",
+                            "name": "无关路人甲 ",
+                            "platform": 1
+                        },
+                        "content": "...那么直接+吧。\n“我记得我孕育出了一个奇特的班级……” ",
+                        "postTime": 1241268805,
+                        "id": 1241268805,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "...咳咳～ ",
+                        "postTime": 1241268986,
+                        "id": 1241268986,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "postTime": 1241272601,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,][B]这篇也能吸引9篇回复...(虽然...这第9篇是我自己回复的...)[/B][/ft]\n[ft=,2,][B]...看来我们四十六中蛮有亲和力...[/B][/ft] ",
+                "capacity": 12044,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            }
+        ]
+    }
+}

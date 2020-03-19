@@ -1,0 +1,57 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1292095826,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "连学习都不能进行下去,还有脸去创业,真是脑残,SP一个 ",
+                "capacity": 12119,
+                "poster": {
+                    "id": "1084081420",
+                    "platform": 1,
+                    "name": "安徽老虎 ",
+                    "emoji": []
+                },
+                "bmp": "88419da00000c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1292118312,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "`````````````水平一日千里···了················求指导上色方法 ",
+                "capacity": 12008,
+                "poster": {
+                    "id": "915910623",
+                    "platform": 1,
+                    "name": "lanlan ",
+                    "emoji": []
+                },
+                "bmp": "18d0952000008001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "我压力很大。。。临死前留几幅图吧。。。。这画压了我几个星期了。。～ ",
+                        "postTime": 1292145186,
+                        "id": 1292145186,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

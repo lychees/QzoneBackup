@@ -1,0 +1,181 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 10,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1268669788,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "……，岛儿很强大 ",
+                "capacity": 12152,
+                "poster": {
+                    "id": "276500942",
+                    "platform": 1,
+                    "name": "酒仙 ",
+                    "emoji": []
+                },
+                "bmp": "b8c1dda00102e229",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1268673343,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "Calfflac \n算法一  朴素枚举  O(n3)\n \n背景故事：\n这个是洪新宇下午写的...你到底动不动脑子啊...写这个东西交上去会有可能AC么？...\n拜托下次动手编程的时候先多想几个预选方案...不要一有思路就立刻开始敲键盘...听到没有？！\n \n算法分析：这个算法比较好办...需要枚举 (enumerate) 的元素是 待考察子串 的左端点和右端点...于是这个\n是O(n2)..然后每枚举一个子串需要一部O(n)的检查 (check) ... 也就大概合在一起是一个 O(n3) 稍微低一点的算法.....因为每次检查的子串的过程相对是孤立的...彼此间的信息不能充分利用...这并不是一个很好的方法..\n \n评测报告：\n  ...洪新宇下午则比较糟糕...之前则一直遇到输入输出的问题...改了好长时间....最后提交上去的时候只过了两个点..\n第三个位置就超时(Time Limited Error)了...我写的这份则过了7个点....我估计是他代码写丑了....\n好好学学人家的代码风格吧... ^   ^...\n    除了输入的数据....我一般不会去设置太多的全局变量....各部分分工明确...理解起来调试起来都惬意一些...\n...我不是第一次讲这些东西了吧...为什么不听呢！..\n \nExecuting...\n   Test 1: TEST OK [0.000 secs, 228 KB]\n   Test 2: TEST OK [0.000 secs, 228 KB]\n   Test 3: TEST OK [0.065 secs, 228 KB]\n   Test 4: TEST OK [0.032 secs, 228 KB]\n   Test 5: TEST OK [0.205 secs, 228 KB]\n   Test 6: TEST OK [0.778 secs, 228 KB]\n   Test 7: TEST OK [0.454 secs, 228 KB]\n   Test 8: RUNTIME 1.674>1 (228 KB) ",
+                "capacity": 10924,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 13,
+                "postTime": 1268675295,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "[ft=,,simsun]{\nID:lychees\nPROG:calfflac\nLANG:PASCAL\n}\nprogram Calfflac_Step_1;\nconst\n  alpha:set of char=['a'..'z','A'..'Z'];\n  nn=20000;\ntype\n  int=longint;\n  ans_type=record\n    left,right:int;\n    key:int;\n  end;\nvar\n  s:array[1..nn] of char;\n  ans:ans_type;\n  n:int; [/ft]\n\n[ft=,,simsun]function check(l,r:int):boolean;\nbegin\n  if not (s[ l ] in alpha) or not (s[ r ] in alpha) then exit(false);\n  while not (l>=r) and (upcase(s[ l ])=upcase(s[ r ])) do begin\n    inc(l);dec(r);\n    while not(s[ l ] in alpha) do inc(l);\n    while not(s[ r ] in alpha) do dec(r);\n  end;\n  exit(l>=r);\nend;[/ft]\n[ft=,,simsun]procedure init;\nbegin\n  while not eof(input) do\n  begin\n    inc(n);\n    read(s[n]);\n  end;\nend;[/ft]\n[ft=,,simsun]procedure solve;\nvar l,r,t:int;\nbegin\n  for l:=1 to n do\n    for r:=l+1 to n do\n      if check(l,r) then begin\n         with ans do begin\n           t:=r-l+1;\n           if t>key then begin\n             key:=t;\n             left:=l; right:=r;\n           end;\n         end;\n      end;\nend;[/ft]\n[ft=,,simsun]procedure print;\nvar i,len:integer;\nbegin\n  len:=0;\n  with ans do begin\n    for i:=left to right do\n      if s[ i ] in alpha then inc(len);\n    writeln(len);\n    for i:=left to right do\n      write(s[ i ]);\n    writeln;\n  end;\nend;[/ft]\n[ft=,,simsun]begin\nassign(input,'calfflac.in');reset(input);\nassign(output,'calfflac.out');rewrite(output);\n  init; solve;\n  print;\nclose(input);close(output);\nend. \n[/ft] ",
+                "capacity": 10720,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 17,
+                "postTime": 1268676304,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "Calfflac \n算法一点五  朴素枚举上的修改  O(n3)\n \n背景故事：\n   在算法一上优化得到。\n \n算法分析：\n   我们希望我们的算法可以在枚举搜索情况之前就可以提前结束，而具体则是希望第一次搜到\n一个正解就直接退出，为了做到这一点我们需要调整枚举的顺序。\n   具体敲键盘的时候需要考虑的细节则比较多。\n   如果直接在原数组上搜的话，即便是从较长的子串开始搜也不一定能保证正确性。\n   (想想看为什么？)\n\n   ...解决的方案是建立一个辅助数组S2，这个S2相当于一个S1的镜像，她只保存那些字母数据。\n于是我们的算法从 S2 着手可以回避掉那些讨厌的符号。索引 (Index) 数组则保存S2与S1之间的\n映射关系，让我们只在打印结果的时候再返回到S1上面工作。\n\n[ft=,,simsun]...\nvar\n  index:array[1..nn] of int;\n  s1:array[1..nn] of char;\n  s2:array[1..nn] of char;\n                          ...[/ft]\n\n[ft=,,simsun]...\n  for i:=1 to t do\n  begin\n    if s1[ i] in alpha then begin\n      inc(n); s2[n]:=upcase(s1[ i]);\n      index[n]:=i;\n    end;\n  end;      \n                          ...[/ft]\n \n具体敲键盘的时候也可以在制作S2的时候就丢掉大小写的信息。\n这样后面所有的判断就可以直接写了，于是后面的代码也相应的简化很多，\n这里的优化的方法是预处理的一个例子。\n\n评测报告：\n这个算法应该快不少，但是仍然过不了 Test 8。\n因为这类优化只可以让一部分数据的速度得到提高，并不保证对所有数据都有效。\n\n   Test 1: TEST OK [0.000 secs, 324 KB]\n   Test 2: TEST OK [0.000 secs, 324 KB]\n   Test 3: TEST OK [0.022 secs, 324 KB]\n   Test 4: TEST OK [0.032 secs, 324 KB]\n   Test 5: TEST OK [0.054 secs, 324 KB]\n   Test 6: TEST OK [0.680 secs, 324 KB]\n   Test 7: TEST OK [0.313 secs, 324 KB]\n   Run 8: Execution error: Your program exited with exit status `216'. \n   Your program's exit status might indicate Pascal Runtime Error 216.\n   Here is the message for that Runtime Error:\n   General Protection fault: You are trying to access memory outside your\n   appointed memory or you divided by zero.\n   第 8 个点数据保护错误...具体原因目前还不知道...\n   ...\n   看来这个算法一点五的表现没有我们期望中的好...> < ",
+                "capacity": 10233,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 18,
+                "postTime": 1268676357,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "[ft=,,simsun]{\nID:lychees\nPROG:calfflac\nLANG:PASCAL\n}[/ft]\n[ft=,,simsun]program Calfflac_Step_2;\nconst\n  alpha:set of char=['a'..'z','A'..'Z'];\n  nn=30000;\ntype\n  int=longint;\n  ans_type=record\n    left,right:int;\n    key:int;\n  end;\nvar\n  index:array[1..nn] of int;\n  s1:array[1..nn] of char;\n  s2:array[1..nn] of char;\n  ans:ans_type;\n  n:int;[/ft]\n[ft=,,simsun]procedure init;\nvar i,t:int;\nbegin\n  t:=0;\n  while not eof(input) do\n  begin\n    inc(t);\n    read(s1[t]);\n  end;[/ft]\n[ft=,,simsun]  for i:=1 to t do\n  begin\n    if s1[I] in alpha then begin\n      inc(n); s2[n]:=upcase(s1[I]);\n      index[n]:=i;\n    end;\n  end;\nend;[/I]\n[ft=,,simsun]function check(l,r:int):boolean;\nbegin\n  while not (l>=r) and (s2[ l ]=s2[ r ]) do begin\n    inc(l);dec(r);\n  end;[/ft]\n[ft=,,simsun]  exit(l>=r);\nend;[/ft]\n\n[ft=,,simsun]procedure print;\nvar i:integer;\nbegin\n  with ans do begin\n    writeln(key);\n    for i:=index[left] to index[right] do\n      write(s1[ i ]);\n    writeln;\n  end;[/ft]\n[ft=,,simsun]  close(input);close(output);\n  halt;\nend;[/ft]\n[ft=,,simsun]procedure solve;\nvar len,l,r:int;\nbegin\n  for len:=n downto 1 do\n    for l:=1 to n do\n    begin\n      r:=l+len-1;\n      if check(l,r) then begin\n         with ans do begin\n           key:=len; left:=l; right:=r;\n         end;\n         print;\n      end;\n    end;\nend;[/ft]\n\n[ft=,,simsun]begin\nassign(input,'calfflac.in');reset(input);\nassign(output,'calfflac.out');rewrite(output);\n  init; solve;\n  print; readln;\nclose(input);close(output);\nend.\n[/ft][/I][/ft] ",
+                "capacity": 10651,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 19,
+                "postTime": 1268679140,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "Calfflac \n算法二 枚举回文串的中间位置 O(n2)\n \n背景故事：\n   下午敲在 Ubuntu Lazarus 里的（只有莎莎有这个东西，装了我好长时间呢^  ^），但代码敲完了老是编译不了- -，我还在调查原因。  （可能是几个工程的配置文件冲突，但具体原因我也不知道。）   \n   切换 Ubuntu 以后不能用 Mac 的快捷键..- -..那几个F几F几依然是输入 Mac 的命令。- -。\n \n算法分析：\n   这个算法有一些细节的部分需要考虑，比如说奇偶的情况如何处理。\n   我就不写了，写出来就没意思了。（真实的情况是太细微的东西不适合用文字表述）\n   虽然算法一点五是个失败的作品。不过再今晚动手写这个算法的时候，我们也借鉴\n   她的一些方法，比如说分成 S1 S2 辅助 Index 就是一个很好的写法，我们这里依然采用。\n \n   从中间搜的另一个好处是我们可以引入一个潜在的剪枝。\n   具体请参考源代码的有关部分。\n...\n[ft=,,simsun]procedure solve;\nvar o:int; //offset\nbegin\n  for o:=1 to n do\n  begin\n    DealWithSub(m-o);  DealWithSub(m+o);\n    // Branch-Pruning\n    if n-(2*(o-1)) <ans.key then exit;\n  end;\nend;[/ft]\n                                     ...\n   再引入剪枝之后对这个算法的分析就会变得复杂许多。\n我得出的结论是算法的最坏情况出现在在每次获得的答案都只是序列的一半。\n这样，每次处理都要消耗掉 O(n/2) ，而剪枝部分也只能剪掉 O(n/2) ...\n于是合并在一起就是 O(n^2 /4 ) = O(n2) ...\n   这是最坏情况...但实际情况应该会比这个好很多，或者每次每次得到的答案都很短，\n则枚举花不了多少时间，或者枚举过程花的时间很长，而这个时候剪枝功能就会体现。\n（呵呵，这个很有趣啦，我自己倒是蛮喜欢这个算法的，一开始写的就是这个，下午推荐的\n也是这个啦。）因此大多数情况下算法运行的时间应该会是线性的。^  ^\n\n评测报告：\nExecuting...\n   Test 1: TEST OK [0.011 secs, 324 KB]\n   Test 2: TEST OK [0.000 secs, 324 KB]\n   Test 3: TEST OK [0.000 secs, 324 KB]\n   Test 4: TEST OK [0.000 secs, 324 KB]\n   Test 5: TEST OK [0.011 secs, 324 KB]\n   Test 6: TEST OK [0.011 secs, 324 KB]\n   Test 7: TEST OK [0.000 secs, 324 KB]\n   Test 8: TEST OK [0.130 secs, 324 KB]\n \nAll tests OK.\nYour program ('calfflac') produced all correct answers!  This is your\nsubmission #17 for this problem.  Congratulations! ",
+                "capacity": 10177,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 20,
+                "postTime": 1268679192,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "[ft=,,simsun]{\nID:lychees\nPROG:calfflac\nLANG:PASCAL\n}[/ft]\n[ft=,,simsun]program Calfflac_Step_2;\nconst\n  alpha:set of char=['a'..'z','A'..'Z'];\n  nn=20000;\ntype\n  int=longint;\n  ans_type=record\n    left,right:int;\n    key:int;\n  end;\nvar\n  index:array[1..nn] of int;\n  s1:array[1..nn] of char;\n  s2:array[1..nn] of char;\n  ans:ans_type;\n  n,m:int;[/ft]\n[ft=,,simsun]procedure updata_ans(a,b,c:int);\nbegin\n  with ans do begin\n    if (a>key) or (a=key) and (b<left) then begin\n      key:=a; left:=b; right:=c;\n    end;\n  end;\nend;[/ft]\n[ft=,,simsun]procedure DealWithSub(p:int);\nvar i:int;\nbegin\n  //Step 1:Consider With Type \"aba\"\n  i:=1;\n  while (p-i>0) and (p+i<n+1) and (s2[p-i]=s2[p+i]) do\n    inc(i);[/ft]\n[ft=,,simsun]  updata_ans(2*i-1,p-i+1,p+i-1);[/ft]\n[ft=,,simsun]  //Step 2:Consider With Type \"abba\"\n  i:=0;\n  while (p-i>0) and (p+i<n) and (s2[p-i]=s2[p+1+i]) do\n    inc(i);\n  updata_ans(2*i,p-i+1,p+i);\nend;[/ft]\n[ft=,,simsun]procedure init;\nvar i,t:int;\nbegin\n  t:=0;\n  while not eof(input) do\n  begin\n    inc(t);\n    read(s1[t]);\n  end;[/ft]\n[ft=,,simsun]  for i:=1 to t do\n  begin\n    if s1[I] in alpha then begin\n      inc(n); s2[n]:=upcase(s1[ i]);\n      index[n]:=i;\n    end;\n  end;[/I]\n[ft=,,simsun]  m:=n div 2;\n  DealWithSub(m);\nend;[/ft]\n[ft=,,simsun]procedure print;\nvar i:integer;\nbegin\n  with ans do begin\n    writeln(key);\n    for i:=index[left] to index[right] do\n      write(s1[ i ]);\n    writeln;\n  end;\nend;[/ft]\n[ft=,,simsun]procedure solve;\nvar o:int; //offset\nbegin\n  for o:=1 to n do\n  begin\n    DealWithSub(m-o);  DealWithSub(m+o);\n    // Branch-Pruning\n    if n-(2*(o-1)) <ans.key then exit;\n  end;\nend;[/ft]\n\n[ft=,,simsun]begin\nassign(input,'calfflac.in');reset(input);\nassign(output,'calfflac.out');rewrite(output);\n  init; solve;\n  print;\nclose(input);close(output);\nend.\n[/ft][/ft] ",
+                "capacity": 10310,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 22,
+                "postTime": 1268681595,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "\nCalfflac \n算法三 修改一个动态规划 O(n2)\n \n背景故事：\n   好吧...我确定自己有“暗示”...或者这个叫做旁敲侧击？...启发式教学？...- -\n   不过他后来好像没有领悟，我讲解了红书上的一个例题，就是那个 回文串 什么的，\n   具体的话有兴趣的同学可以自己去看。\n算法分析：\n   回忆回文串那题里状态的设计..\n   dp[l,r] 描述 在区间[l,r]里为了构成回文串所需要少还需要添加多少字符数。\n   状态转移的步骤则是分为下面三种情况讨论一下\n   A[   ]A 首先考虑两边的字母是相同时..以及不相同是则取dp[l+1,r]和dp[l,r+1] \n   之间的最大值。也就是...\n  \n   dp[l,r] = dp[l+1,r-1] : if S[l]=S[r ]\n           = max {dp[l+1,r],dp[l,r-1]} ..\n   算法的正确性如何证明，不知道，这个方程更多是画一幅图得到一些感性的认识而\n得来的，而通常我们不去证明这些东西是因为我们已经把它看作了一些固定的可以套用的模板。\n或者原因是我们不会证。。。- - （那到也不是...）\n   （也不是因为闲麻烦，你看人家写了那么多会担心写这几个字么。主要原因我想可能是，\n我觉得吧可能这段证明对我们理解问题不会有什么帮助，嗯，在需要证明的时候，我们自然会去写的。）\n   ...\n   这个和这道题联系如何？\n   其实这道题可以修改一下问法，收集一下的话就是这样。\n   (1)这个字符串要成为回文串最少需要添加多少字符？\n   (2)字符串里最长的一段且最靠近左边的回文子串是什么？\n   (3)字符串里最长的一段且最靠近左边的回文子串是什么？   \n   等等，问题2和问题3不是复制粘贴一下完全一样的么，额...\n问题 3 里子串可以不必要是连续的...（于是这两种“子串”实际上是有不同的名字的。）\n（但我忘记了- -）...\n   问题（1）和问题（3）是等价的，（需要修改的是状态存的东西就可以）\n而求解问题（2）则需要将上面状态转移方程的后面一半去掉....\n...\n   但是在做这道题的时候为了输出我们依然用了一些技巧...\n   除了算法1.5里的预处理，在这里我们还修改了原来状态的含义。\ndp[l,r] 表示 左右区间端点分别被固定在位置 l 和位置 r 时里面最常的一段回文子串\n长度。\n   于是转移方程也发生了一些细微的变化，但是可以直接从一格状态里知道最后\n的结果了。嗯。\n\n评测报告：\n   比较悲剧的是因为开了一个20000×20000的DP数组...这个算法\n   爆内存(Memory Limited Error)了...囧...\n   （自机测还是可以过样例的...呜呜呜...） ",
+                "capacity": 10203,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 23,
+                "postTime": 1268681643,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,,simsun]{\nID:lychees\nPROG:calfflac\nLANG:PASCAL\n}[/ft]\n[ft=,,simsun]program Calfflac_Step_3;\nconst\n  alpha:set of char=['a'..'z','A'..'Z'];\n  nn=5000;\ntype\n  int=longint;\n  ans_type=record\n    left,right:int;\n    key:int;\n  end;\nvar\n  dp:array[1..nn,1..nn] of int;\n  index:array[1..nn] of int;\n  s1:array[1..nn] of char;\n  s2:array[1..nn] of char;\n  ans:ans_type;\n  n:int;[/ft]\n[ft=,,simsun]procedure updata_ans(a,b,c:int);\nbegin\n  with ans do begin\n    if (a>key) or (a=key) and (b<left) then begin\n      key:=a; left:=b; right:=c;\n    end;\n  end;\nend;[/ft]\n[ft=,,simsun]procedure DealWithSub(p:int);\nvar i:int;\nbegin\n  //Step 1:Consider With Type \"aba\"\n  i:=1;\n  while (p-i>0) and (p+i<n+1) and (s2[p-i]=s2[p+i]) do\n    inc(i);\n  updata_ans(2*i-1,p-i+1,p+i-1);[/ft]\n[ft=,,simsun]  //Step 2:Consider With Type \"abba\"\n  i:=0;\n  while (p-i>0) and (p+i<n) and (s2[p-i]=s2[p+1+i]) do\n    inc(i);\n  updata_ans(2*i,p-i+1,p+i);\nend;[/ft]\n[ft=,,simsun]procedure init;\nvar i,t:int;\nbegin\n  t:=0;\n  while not eof(input) do\n  begin\n    inc(t);\n    read(s1[t]);\n  end;[/ft]\n[ft=,,simsun]  for i:=1 to t do\n  begin\n    if s1[I] in alpha then begin\n      inc(n); s2[n]:=upcase(s1[ i]);\n      index[n]:=i;\n    end;\n  end;\nend;[/I]\n[ft=,,simsun]procedure print;\nvar i:integer;\nbegin\n  with ans do begin\n    writeln(key);\n    for i:=index[left] to index[right] do\n      write(s1[ i ]);\n    writeln;\n  end;\nend;[/ft]\n[ft=,,simsun]procedure solve;\nvar len,l,r:int; //offset\nbegin\n // Base Case: len=1,2\n  for l:=1 to n do begin\n    dp[l,l]:=1;\n    updata_ans(dp[l,l],l,l);\n  end;[/ft]\n[ft=,,simsun]  for l:=1 to n-1 do\n    if s2[l]=s2[l+1] then begin\n      dp[l,l+1]:=2;\n      updata_ans(dp[l,l+1],l,l+1);\n    end;[/ft]\n[ft=,,simsun]  for len:=2 to n do\n  begin\n    for l:=1 to n+1-len do\n    begin\n      r:=l+len-1;\n      if s2[l]<>s2[r ] then dp[l,r]:=0\n                      else begin\n                        if dp[l+1,r-1]<>0 then begin\n                          dp[l,r]:=dp[l+1,r-1]+2;\n                          updata_ans(dp[l,r],l,r);\n                        end;\n                      end;\n    end;\n  end;\nend;[/ft]\n\n[ft=,,simsun]begin\nassign(input,'calfflac.in');reset(input);\nassign(output,'calfflac.out');rewrite(output);\n  init; solve;\n  print;\nclose(input);close(output);\nend.\n[/ft][/ft] ",
+                "capacity": 9835,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 25,
+                "postTime": 1268684292,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "...有点困了...。。。 还有一道题没有开工.....#\n。。。简单总结...\n  算法1.5里头的那部预处理还是很好用的...以后也会经常用到...\n  ...尽量避免一些讨厌的细枝末节，把设计的中心放在于算法这边...\n  除了预处理...还有么就是尽量使用局部变量，写一些短小的函数，这些\n都是很好的最佳实践额...以后的程序会越来越复杂的..做好心理准备..\n \n....我想说的是其实人家教的还是很用心的...- -..我希望他爸爸不要每天都问我他的学习情况，..\n..老问就没意思了.我会感到很烦的..总之我会努力把他教好的..我会努力的额..另一个原因么是我睡不着...\n \n......我可以感到某位家长好像很希望自己的对孩子可以早出成绩...否则的话某人可能会被要求去文化课，而放弃OI...\n..这件事情是很悲剧的，我们已经看过了很多悲剧，所以我想尽自己的努力减少一幕也好。\n总之大家的目的并不是一样的.....我也会对何泽林负责的，既然他把自己的学生给了我，\n那么我一定会好好带她的。..不会输给江苏同学的...\n（.虽然找到和自己一样的同学我还是蛮高兴的..^  ^...）\n。。\n...最后么...写下这么多我也是想给背叛我的某人和讨厌我的某人看....\n.......好让最后我们有一个说法..对么？..\n......BGM...From StarWar..Victory Celebration...\n1 3 6 5 3......#\n...关机睡觉。！ ",
+                "capacity": 11102,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            }
+        ]
+    }
+}

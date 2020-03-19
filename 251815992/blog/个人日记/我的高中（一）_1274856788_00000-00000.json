@@ -1,0 +1,51 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1274857539,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "帮我补化学… ",
+                "capacity": 12072,
+                "poster": {
+                    "id": "276500942",
+                    "platform": 1,
+                    "name": "酒仙 ",
+                    "emoji": []
+                },
+                "bmp": "b8c1dda00102e229",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "917640727",
+                            "name": "euclid ",
+                            "platform": 1
+                        },
+                        "content": "居然还有找小虎补课的[em]e113[/em] ",
+                        "postTime": 1274868835,
+                        "id": 1274868835,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "276500942",
+                            "name": "酒仙 ",
+                            "platform": 1
+                        },
+                        "content": "不可以？ ",
+                        "postTime": 1274869201,
+                        "id": 1274869201,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

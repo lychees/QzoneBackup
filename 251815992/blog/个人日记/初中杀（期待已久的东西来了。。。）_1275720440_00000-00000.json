@@ -1,0 +1,51 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1275722208,
+                "effect": 1048608,
+                "replyNum": 2,
+                "content": ".....RPG变卡牌了。 ",
+                "capacity": 12070,
+                "poster": {
+                    "id": "443164766",
+                    "platform": 1,
+                    "name": "\"zrp\" ",
+                    "emoji": []
+                },
+                "bmp": "088094a10000c301",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "不。。这个原来就是卡牌。。 ",
+                        "postTime": 1275724353,
+                        "id": 1275724353,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "443164766",
+                            "name": "\"zrp\" ",
+                            "platform": 1
+                        },
+                        "content": "................ ",
+                        "postTime": 1275749668,
+                        "id": 1275749668,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

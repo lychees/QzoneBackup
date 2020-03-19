@@ -1,0 +1,91 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1286954161,
+                "effect": 4194336,
+                "replyNum": 1,
+                "content": "“剪”打错了……\n还有，那个电脑上画出来眼睛的是什么软件？ ",
+                "capacity": 12068,
+                "poster": {
+                    "id": "515016441",
+                    "platform": 1,
+                    "name": "时 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a40102c929",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "photo 。。。。shop。。。 ",
+                        "postTime": 1286956216,
+                        "id": 1286956216,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1286963221,
+                "effect": 32,
+                "replyNum": 3,
+                "content": "大一的时候，我在社团里认识几个建筑学院的。晚上会把海报拿回公寓画，而且经常是一画一整夜，而且第二天精力充沛。觉得这是一种健康而幸福的生活。 ",
+                "capacity": 11869,
+                "poster": {
+                    "id": "819122868",
+                    "platform": 1,
+                    "name": "Oneplus ",
+                    "emoji": []
+                },
+                "bmp": "18d0892000008020",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "可是，为什么还会精力充沛呢。？....  ",
+                        "postTime": 1286993698,
+                        "id": 1286993698,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "819122868",
+                            "name": "Oneplus ",
+                            "platform": 1
+                        },
+                        "content": "不知道，可能是身体构造比较奇特吧。 ",
+                        "postTime": 1287015419,
+                        "id": 1287015419,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "呀，要是我也有这个能力就好了。 ",
+                        "postTime": 1287030349,
+                        "id": 1287030349,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

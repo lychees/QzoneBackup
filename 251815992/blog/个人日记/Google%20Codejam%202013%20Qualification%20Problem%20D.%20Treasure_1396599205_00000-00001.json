@@ -1,0 +1,57 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1396610970,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "岛娘这是2013的题啊。。。标题吓死我了。。。以为错过了呢 ",
+                "capacity": 12003,
+                "poster": {
+                    "id": "479447834",
+                    "platform": 1,
+                    "name": " ",
+                    "emoji": []
+                },
+                "bmp": "18c195a00100a201",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:479447834,nick:捉题不能の种田君 ,who:1,auto:1}我穿越了。。。） ",
+                        "postTime": 1396646755,
+                        "id": 1396646755,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1396610998,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "2013……我还以为2014已经开始了呢 ",
+                "capacity": 12140,
+                "poster": {
+                    "id": "1017794634",
+                    "platform": 1,
+                    "name": "zeus ",
+                    "emoji": []
+                },
+                "bmp": "18d49d800100c201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

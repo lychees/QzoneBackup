@@ -1,0 +1,79 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1422519410,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "。 ",
+                "capacity": 12164,
+                "poster": {
+                    "id": "276500942",
+                    "platform": 1,
+                    "name": "酒仙 ",
+                    "emoji": []
+                },
+                "bmp": "b8c1dda00102e229",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1422533418,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "（啊，给nnnEngine和ue4打个广告（ue4通常用的东西都已经流程化了，也可以按需求加自己的c++代码，或者改引擎本身（nnn是包装好了底层（dx，opengl等）和输入输出，可以专注于游戏逻辑的构建（有问题可以随时问作者也是挺方便的） ",
+                "capacity": 11949,
+                "poster": {
+                    "id": "741782800",
+                    "platform": 1,
+                    "name": "萌毛依脑残粉 ",
+                    "emoji": []
+                },
+                "bmp": "08009c0000028001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1422550755,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "unity大法好 ",
+                "capacity": 12157,
+                "poster": {
+                    "id": "418615910",
+                    "platform": 1,
+                    "name": "特种兵3-郭泽晖 ",
+                    "emoji": []
+                },
+                "bmp": "18c49d8800009401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1422598495,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "yay ",
+                "capacity": 12168,
+                "poster": {
+                    "id": "190730860",
+                    "platform": 1,
+                    "name": "策划-sorma ",
+                    "emoji": []
+                },
+                "bmp": "08c095880002d401",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

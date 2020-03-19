@@ -1,0 +1,79 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1203413760,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "\n555555555555555555~~~可怜天下学生心啊~~~顶~~ ",
+                "capacity": 12123,
+                "poster": {
+                    "id": "122698324",
+                    "platform": 1,
+                    "name": "张晓晨 ",
+                    "emoji": []
+                },
+                "bmp": "18d19560010e8009",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1203586793,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "饿 ..... ",
+                "capacity": 12160,
+                "poster": {
+                    "id": "453616470",
+                    "platform": 1,
+                    "name": "一倾一城、泪颜 ",
+                    "emoji": []
+                },
+                "bmp": "98d095a400008101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1203645070,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "\n\n[M][ffg,#cc00ff,#ffffff][B]汗...[/B][/ft][/M]\n ",
+                "capacity": 12126,
+                "poster": {
+                    "id": "534470369",
+                    "platform": 1,
+                    "name": "张弛 ",
+                    "emoji": []
+                },
+                "bmp": "08d08ca000000428",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1203677051,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "[ft=#6600ff,,][B]我无语^.^[/B][/ft]\n[B][/B] \n[B][ft=#6600ff,,]有什么好怕的...说出来就是了...否则会后悔..[/ft][/B]\n[B][/B] \n[B][ft=#6600ff,,]扯远了[/ft][/B] ",
+                "capacity": 12018,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

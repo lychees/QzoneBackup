@@ -1,0 +1,69 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1248580800,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[ft=,2,]这是什么呀？  [/ft] ",
+                "capacity": 12111,
+                "poster": {
+                    "id": "599172252",
+                    "platform": 1,
+                    "name": "Maverick ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00000c001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "..自言自语. ",
+                        "postTime": 1248620672,
+                        "id": 1248620672,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1248664620,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[ft=,2,]岛儿怎么会是无依无靠呢？[/ft]\n[ft=,2,]不会的。。[/ft]\n[ft=,2,]还有我们呢。。[/ft] ",
+                "capacity": 12052,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "[em]e154[/em] ",
+                        "postTime": 1248665337,
+                        "id": 1248665337,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

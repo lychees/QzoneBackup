@@ -1,0 +1,102 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1440775197,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "这段话我在哪本书看到过。。。不是往事 ",
+                "capacity": 12132,
+                "poster": {
+                    "id": "25241274",
+                    "platform": 1,
+                    "name": "七星瓢虫 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00000e101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1440778252,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "小女年芳十八，正青春被師父削去了頭髮 ",
+                "capacity": 11931,
+                "poster": {
+                    "id": "397427019",
+                    "platform": 1,
+                    "name": " ",
+                    "emoji": []
+                },
+                "bmp": "18809da40102c001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:397427019,nick:朽木不雕,auto:1} 我本是男兒郎，又不是女嬌娥。 ",
+                        "postTime": 1440793664,
+                        "id": 1440793664,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "397427019",
+                            "name": " ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1}“打，叫你說錯“ ",
+                        "postTime": 1440803758,
+                        "id": 1440803758,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1440780353,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "心疼陈蝶衣 ",
+                "capacity": 12164,
+                "poster": {
+                    "id": "360170222",
+                    "platform": 1,
+                    "name": "-L ",
+                    "emoji": []
+                },
+                "bmp": "38d41de0014ad029",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1440808485,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "张国荣是我的偶像[em]e102[/em][em]e102[/em] ",
+                "capacity": 12124,
+                "poster": {
+                    "id": "837131449",
+                    "platform": 1,
+                    "name": "春风十里不如你 ",
+                    "emoji": []
+                },
+                "bmp": "18d495a00142c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

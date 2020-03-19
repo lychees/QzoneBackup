@@ -1,0 +1,57 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1269874741,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "我喜欢这样的笔调 ",
+                "capacity": 12047,
+                "poster": {
+                    "id": "247343492",
+                    "platform": 1,
+                    "name": "小豆子 ",
+                    "emoji": []
+                },
+                "bmp": "981595a00002c121",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "呵呵...其实我也蛮喜欢的... （笑...）\n呜呜！保证从Mar.29th 开始要换笔调啦...嗯嗯嗯！ ",
+                        "postTime": 1269875395,
+                        "id": 1269875395,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1269918098,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]前面的几篇还没有删掉....[/ft] ",
+                "capacity": 12131,
+                "poster": {
+                    "id": "24483148",
+                    "platform": 1,
+                    "name": "中国时代 ",
+                    "emoji": []
+                },
+                "bmp": "08c19d2000008001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

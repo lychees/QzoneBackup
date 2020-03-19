@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1299294496,
+                "effect": 32,
+                "replyNum": 3,
+                "content": "[ffg,#9900ff,#ffffff]「.. 你認為地外生命的存在嗎？。」。。我問道。\n\n最近在看《龙族》[/ft]\n[ffg,#9900ff,#ffffff]里面的那个男生说[/ft]\n[ffg,#9900ff,#ffffff]“一束光穿过整个宇宙，路过地球的时间只有一秒，如果只有地球上有生命，它岂不是很孤单？”[/ft]\n[ffg,#9900ff,#ffffff]他们说[/ft]\n[ffg,#9900ff,#ffffff]这是光的孤独感[/ft]\n[ffg,#9900ff,#ffffff]或许[/ft]\n[ffg,#9900ff,#ffffff]我想   也是人的孤独感吧……[/ft] ",
+                "capacity": 11471,
+                "poster": {
+                    "id": "784237318",
+                    "platform": 1,
+                    "name": "叙眄 ",
+                    "emoji": []
+                },
+                "bmp": "585095a00102c009",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "。。。额。。貌似有一种反着读历史的方法可以解释这个问题。。#。。\n。。啊哈哈。。我发现这种可见方式似乎很不错。。外面的人都看不到。。# ",
+                        "postTime": 1299325054,
+                        "id": 1299325054,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "784237318",
+                            "name": "叙眄 ",
+                            "platform": 1
+                        },
+                        "content": "这是光的孤独感...、\n也是人的孤独感 ",
+                        "postTime": 1299325405,
+                        "id": 1299325405,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "1530491627",
+                            "name": "钱冰忆 ",
+                            "platform": 1
+                        },
+                        "content": "。。。《龙族》么。。江南的很多书都很不错的。。。 ",
+                        "postTime": 1299337463,
+                        "id": 1299337463,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

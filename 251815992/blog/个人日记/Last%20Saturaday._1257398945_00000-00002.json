@@ -1,0 +1,61 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1257420830,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]……[/ft] ",
+                "capacity": 12150,
+                "poster": {
+                    "id": "563487080",
+                    "platform": 1,
+                    "name": "Sandy tea ",
+                    "emoji": []
+                },
+                "bmp": "185494a000006309",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1257425191,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "。。。。\n ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "391255889",
+                    "platform": 1,
+                    "name": "Helloworld ",
+                    "emoji": []
+                },
+                "bmp": "08c09da40100c409",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1257432081,
+                "effect": 524288,
+                "replyNum": 0,
+                "content": "你…要加油！不管未来怎么样，我们一定能成功！ ",
+                "capacity": 12105,
+                "poster": {
+                    "id": "c265e4bd629300c562e467283fe8cb305e95bb38782791a7",
+                    "platform": 2,
+                    "name": "程乐一"
+                },
+                "bmp": "0000000000000000",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

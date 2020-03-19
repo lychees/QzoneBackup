@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1260668283,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]Picture 3是我曾经最向往的地方啊......[/ft] ",
+                "capacity": 12123,
+                "poster": {
+                    "id": "583029995",
+                    "platform": 1,
+                    "name": "UCSB门将死忠！ ",
+                    "emoji": []
+                },
+                "bmp": "18d00da40102d109",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

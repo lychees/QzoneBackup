@@ -1,0 +1,40 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1261702628,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[ft=,6,黑体][B][I]你这疯子我要把你们一锅端了[/I][/B][/ft] ",
+                "capacity": 12089,
+                "poster": {
+                    "id": "799745573",
+                    "platform": 1,
+                    "name": "MaKi ",
+                    "emoji": []
+                },
+                "bmp": "18409c8000004401",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "... ",
+                        "postTime": 1261711582,
+                        "id": 1261711582,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

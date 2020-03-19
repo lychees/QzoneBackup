@@ -1,0 +1,80 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1448392287,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "due to the linearity of expectation←这样才有学院气，学术范 ",
+                "capacity": 11940,
+                "poster": {
+                    "id": "3105179337",
+                    "platform": 1,
+                    "name": "一只辣鸡 ",
+                    "emoji": []
+                },
+                "bmp": "08009d8002006201",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:3105179337,nick:一只辣鸡,who:1,auto:1} 学习了。 ",
+                        "postTime": 1448392490,
+                        "id": 1448392490,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "10848584",
+                            "name": "主席 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:3105179337,nick:一只辣鸡,who:1,auto:1}学习了。 ",
+                        "postTime": 1448424827,
+                        "id": 1448424827,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1448971658,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "E 题。。。怎么做？ ",
+                "capacity": 12089,
+                "poster": {
+                    "id": "3037754077",
+                    "platform": 1,
+                    "name": "Dashgua ",
+                    "emoji": []
+                },
+                "bmp": "880094800202c101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "3037754077",
+                            "name": "Dashgua ",
+                            "platform": 1
+                        },
+                        "content": "。。。对时间分治。 ",
+                        "postTime": 1449513476,
+                        "id": 1449513476,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

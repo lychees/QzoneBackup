@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1212301654,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "[ft=#0000ff,3,]呵呵，踩下……[/ft] ",
+                "capacity": 12138,
+                "poster": {
+                    "id": "648939812",
+                    "platform": 1,
+                    "name": "　 ",
+                    "emoji": []
+                },
+                "bmp": "1880992000000029",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1212665428,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "我也在看，懂得很多。 ",
+                "capacity": 12148,
+                "poster": {
+                    "id": "391255889",
+                    "platform": 1,
+                    "name": "Helloworld ",
+                    "emoji": []
+                },
+                "bmp": "08c09da40100c409",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

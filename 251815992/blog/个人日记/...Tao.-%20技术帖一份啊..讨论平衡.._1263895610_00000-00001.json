@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1263895722,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "[ft=,2,]头疼......[/ft] ",
+                "capacity": 12143,
+                "poster": {
+                    "id": "122698324",
+                    "platform": 1,
+                    "name": "张晓晨 ",
+                    "emoji": []
+                },
+                "bmp": "18d19560010e8009",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1263906320,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]好像是256X256 [/ft]\n[ft=,2,]完毕[/ft] ",
+                "capacity": 12128,
+                "poster": {
+                    "id": "474697421",
+                    "platform": 1,
+                    "name": "朱明琪 ",
+                    "emoji": []
+                },
+                "bmp": "18d195a000028209",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

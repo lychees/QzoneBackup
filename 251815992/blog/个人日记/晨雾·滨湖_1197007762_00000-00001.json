@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1197021924,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "唉 \n我\n早上起来 已经7点40了\n \n干脆迟到底 \n没去上课\n \n颓废 ",
+                "capacity": 12116,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1197031752,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "\n a  o  ~ ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "122698324",
+                    "platform": 1,
+                    "name": "张晓晨 ",
+                    "emoji": []
+                },
+                "bmp": "18d19560010e8009",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

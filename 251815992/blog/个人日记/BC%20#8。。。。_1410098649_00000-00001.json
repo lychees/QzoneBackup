@@ -1,0 +1,68 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1410099397,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "“首先求一个素数 p 的最小原根大家应该都会了、、。。。 ”    [em]e105[/em] ，看来我不是大家。 ",
+                "capacity": 11859,
+                "poster": {
+                    "id": "568778055",
+                    "platform": 1,
+                    "name": "123456 ",
+                    "emoji": []
+                },
+                "bmp": "18d09da00100c221",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:568778055,nick:123456,who:1,auto:1}大家都会。就是 Google 一下第一页就有的= =。） ",
+                        "postTime": 1410099470,
+                        "id": 1410099470,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "568778055",
+                            "name": "123456 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,auto:1} Orz ,  看看去 →_→ 。 ",
+                        "postTime": 1410100283,
+                        "id": 1410100283,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1410100944,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "什么叫dp可以拿数据结构紧凑表示[em]e154[/em] ",
+                "capacity": 12123,
+                "poster": {
+                    "id": "1345305219",
+                    "platform": 1,
+                    "name": "逝水无痕 ",
+                    "emoji": []
+                },
+                "bmp": "18d19d800a02c221",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

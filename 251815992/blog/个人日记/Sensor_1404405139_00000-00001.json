@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1404459105,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "二分图的独立集按http://en.wikipedia.org/wiki/K%C3%B6anig%27s_theorem_(graph_theory) 这里的算法搞就好了，网上能查到的算法大多有问题，最近刚被坑过 ",
+                "capacity": 12028,
+                "poster": {
+                    "id": "448086527",
+                    "platform": 1,
+                    "name": "41gt ",
+                    "emoji": []
+                },
+                "bmp": "08d095840000d409",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1404459231,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "http://en.wikipedia.org/wiki/K%C3%B6nig%27s_theorem_(graph_theory)\n引自：41gt   于 2014年7月4日 15时31分45秒 发表的评论\n引用内容：\n\n二分图的独立集按http://en.wikipedia.org/wiki/K%C3%B6anig%27s_theorem_(graph_theory) 这里的算法搞就好了，网上能查到的算法大多有问题，最近刚被坑过 [/quote] ",
+                "capacity": 11883,
+                "poster": {
+                    "id": "448086527",
+                    "platform": 1,
+                    "name": "41gt ",
+                    "emoji": []
+                },
+                "bmp": "08d095840000d409",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

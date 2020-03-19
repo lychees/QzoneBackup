@@ -1,0 +1,57 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1332291776,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "墨攻是神作。。可惜小成本都很少有人看過。 ",
+                "capacity": 12057,
+                "poster": {
+                    "id": "357372256",
+                    "platform": 1,
+                    "name": "鹿慕溪-Luciferre ",
+                    "emoji": []
+                },
+                "bmp": "1890958401008409",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "。。我发现漫画画风挺神的呢。。。。 ",
+                        "postTime": 1332292116,
+                        "id": 1332292116,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1332639818,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "墨攻好啊················赵氏孤儿也好········ ",
+                "capacity": 12104,
+                "poster": {
+                    "id": "915910623",
+                    "platform": 1,
+                    "name": "lanlan ",
+                    "emoji": []
+                },
+                "bmp": "18d0952000008001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

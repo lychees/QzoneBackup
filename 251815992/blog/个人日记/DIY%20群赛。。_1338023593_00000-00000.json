@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1338024514,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "听dao神一席总结，得找时间去做做。。。 ",
+                "capacity": 12115,
+                "poster": {
+                    "id": "375243140",
+                    "platform": 1,
+                    "name": "cxlove ",
+                    "emoji": []
+                },
+                "bmp": "18c09da80100d429",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

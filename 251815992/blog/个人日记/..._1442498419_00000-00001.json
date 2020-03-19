@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1442499058,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "闭关好评 ",
+                "capacity": 12157,
+                "poster": {
+                    "id": "529003192",
+                    "platform": 1,
+                    "name": "【XDU】数学lover ",
+                    "emoji": []
+                },
+                "bmp": "18d19dac09828909",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1442501578,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "闭关好评 ",
+                "capacity": 12163,
+                "poster": {
+                    "id": "2408669054",
+                    "platform": 1,
+                    "name": " ",
+                    "emoji": []
+                },
+                "bmp": "88508d800202c101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

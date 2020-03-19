@@ -1,0 +1,57 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1432836701,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "拍照的技术真是比爱丽丝差远了 ",
+                "capacity": 12044,
+                "poster": {
+                    "id": "1049363290",
+                    "platform": 1,
+                    "name": "丫丫 ",
+                    "emoji": []
+                },
+                "bmp": "18549d800002e001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:1049363290,nick:丫丫,who:1,auto:1}你要区分摄影和记录。。。 ",
+                        "postTime": 1432837980,
+                        "id": 1432837980,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1433050915,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "申po ",
+                "capacity": 12166,
+                "poster": {
+                    "id": "965999806",
+                    "platform": 1,
+                    "name": "绿_L12_Melon_Mars ",
+                    "emoji": []
+                },
+                "bmp": "1840848000004020",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

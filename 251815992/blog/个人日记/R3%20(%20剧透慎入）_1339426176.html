@@ -1,0 +1,515 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    R3 ( 剧透慎入）
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             R3 ( 剧透慎入）
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2012-06-11 10:49:36
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(57)	è¯è®º(0)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1339426176,
+"voteids":0,
+"pubtime":1339426176,
+"replynum":0,
+"category":"个人日记",
+"title":"R3 ( 剧透慎入）",
+"effect":512,
+"effect2":524294,
+"exblogtype":0,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":0,
+"lp_style":0,
+"lp_flag":0,
+"orguin":251815992,
+"orgblogid":1339426176,
+"mention_uins":[ ],
+"attach":[],"comments":[]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               。。分析 Marathon 的过程是在太练人了。。
+               <br/>
+               <br/>
+               还是我R2的时候写的。。自己寻找子问题然后逐个予以突破的感觉太好了。。。。
+               <br/>
+               <br/>
+               接上回。。。
+               <br/>
+               <br/>
+               上回说到我否决了两个方向。。
+               <br/>
+               ( 分析蛋糕结构。。和生成多种绕线方案。。
+               <br/>
+               <br/>
+               那么算法主框架。。。
+               <br/>
+               <br/>
+               初始生成绕线方案。。
+               <br/>
+               （任何一种绕线方案都可以一次性解决 disjoint 的问题。。（首先要解决的问题。。）。。并且可以使用二分查找。。。
+               <br/>
+               。。。然后这里再采用螺旋绕线方案。。（因为可以最大限度的保留 rim 的加分。。。同时比较有效的保留 rose 的加分。。。
+               <br/>
+               <br/>
+               之后开始二分答案。。。
+               <br/>
+               <br/>
+               下面开始研究切蛋糕函数。。
+               <br/>
+               f(x) 。。表示是否可以切成最小面值为 x 的蛋糕。。。
+               <br/>
+               <br/>
+               方案1：
+               <br/>
+               REP(i, G){
+               <br/>
+               REP(j, C) 找到消耗蛋糕块数最少的切割。。。
+               <br/>
+               }
+               <br/>
+               <br/>
+               方案2：
+               <br/>
+               。。对每个人，生成一个偏爱蛋糕的序列。。做成 Rank 。。
+               <br/>
+               REP(i, G){
+               <br/>
+               REP(j, C)  如何 第 i 个人可以用 第 j 块蛋糕填，break;
+               <br/>
+               }
+               <br/>
+               <br/>
+               方案3：
+               <br/>
+               回溯搜索。。
+               <br/>
+               REP(i, G){
+               <br/>
+               REP(j, C) 回溯。。
+               <br/>
+               }
+               <br/>
+               <br/>
+               方案4：
+               <br/>
+               REP(i, G){
+               <br/>
+               枚举所有 (人, 蛋糕) 二元组，从中选择消耗最少的。。
+               <br/>
+               }
+               <br/>
+               <br/>
+               ——————
+               <br/>
+               以上除了第四种方案其他都是依赖于 人的排列 的。。（而这个解空间巨大 （  40! 。。。
+               <br/>
+               。。。同时对两个排列之间。。暂无什么有效的方法立刻分析出好坏。。
+               <br/>
+               。。然后经测试第四种方案的效果也是最差的。。。
+               <br/>
+               <br/>
+               <br/>
+               下面着重分析前三种方案。。每种方案都配套一定的改进措施。。
+               <br/>
+               <br/>
+               首先就方案2，主要依赖于 Rank 的选择。。。
+               <br/>
+               <br/>
+               这里有好几种备选方案。。
+               <br/>
+               <br/>
+               1. 依据整块蛋糕的权值。。
+               <br/>
+               2. 依据绕线前 S*4 个。。。（更有效的利用 Rim 的启发信息。。
+               <br/>
+               3. 对于前面采用 S*4 作为 Rank 后期采用 SQR(S) - S * 4 ( 前期优先利用 Rim 。。。后期优先考虑 Base 。。。
+               <br/>
+               4. 根据过往频率予以扰动。。（因为我认为对于每个人。。在优秀方案中。。其可能分配的方案只是蛋糕的一个子集。。。
+               <br/>
+               <br/>
+               实际操作中使用 2 和使用 1 的效果差别太大了。。
+               <br/>
+               <br/>
+               3 的作用不是很明显。。
+               <br/>
+               4 起到了反作用。。（感觉是我利用的方式不对。。。
+               <br/>
+               <br/>
+               <br/>
+               然后对方案1 。。（。看上去方案1 要多一个 C 的因子常数。。但是实际中好像并不是特别明显。。。。
+               <br/>
+               <br/>
+               对方案1 有一个很有效的改进。。如果一轮贪心失败。。则将失败的位置移动到序列的开始位置。。再 Run 一遍切割。。
+               <br/>
+               。。。该位移可在切割过程中反复进行。。。设置一个最大失败次数的上界。。。
+               <br/>
+               <br/>
+               使用这个优化的算法在 Arean 中跑出了 9800 的得分。。。并且实现调整到 100s 后仍有很大改进空间。。。
+               <br/>
+               我以这个版本 100s 的程序作为最优解写了本地的 Test 。。。。
+               <br/>
+               <br/>
+               <br/>
+               对于方案 2。。。
+               <br/>
+               有一个我一开始以为会很有效的改进。。
+               <br/>
+               是用栈记录每个蛋糕上一步的匹配位置。。如某一步发生匹配失败，则可以进行替换操作。。
+               <br/>
+               （替换过程可能仍然要替换。。。于是出现递归。。。。
+               <br/>
+               <br/>
+               实际可能需要对这个深度予以控制。。。
+               <br/>
+               但是实际编码后发现效果并不理想。。。
+               <br/>
+               <br/>
+               <br/>
+               总之方案1 和 方案2 大概是同一个等级的。。。
+               <br/>
+               <br/>
+               <br/>
+               方案3 。。。
+               <br/>
+               <br/>
+               方案1 和 方案2 都可以看做是 禁止回溯版本的 方案 3.。。
+               <br/>
+               那两个优化也不过是加入了搜索的成分。。。
+               <br/>
+               <br/>
+               <br/>
+               在讨论方案3 之前。。。不得不说一下方案1 和方案2 的一个巨大问题。。。。
+               <br/>
+               。。就是用它们做 f() 函数不是单调的。。。
+               <br/>
+               <br/>
+               。。。具体分析的话应该是属于那种 整体单调。。局部不单调 的函数。。。（所以二分答案才会仍然有效。。。
+               <br/>
+               <br/>
+               至于局部不单调的原因。。。方案1 和 方案2 都有问题。。
+               <br/>
+               比如在 X+1 的可能能得到合法解。。但是在 x 更小的时候。。可能因为一些年轻时犯下的错误导致后面贪心构造失败。。。。
+               <br/>
+               因此在设计新的 f() 函数时。。必须把这种稳定性也纳入考虑范围。。。。
+               <br/>
+               <br/>
+               <br/>
+               假设我们可以回溯所有方案的话。。那么 f() 函数必然单调。。。。
+               <br/>
+               但是回溯所有方案压力太大。。这里使用先贪心再搜索的方法。。只在最后几层允许回溯。。
+               <br/>
+               <br/>
+               <br/>
+               。。。至此为止决定舍弃方案1 和方案2.。。。集中精力修改完善方案3.。。
+               <br/>
+               <br/>
+               理由如下：
+               <br/>
+               <br/>
+               无法理性的判断方案1 和方案2 的好坏。。（所以干脆都不要。。。
+               <br/>
+               方案3 的回溯过程更可控。。。后期可以优化的地方也多。。。
+               <br/>
+               总的思路就是先贪心。。随着深度的提高并且可行域变得有限之后开始搜索。。。
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <div>
+               </div>
+               <span id="__caret">
+               </span>
+               <span id="__caret">
+               </span>
+               <span id="__caret">
+               </span>
+               <span id="__caret">
+               </span>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

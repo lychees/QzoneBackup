@@ -1,0 +1,51 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 2,
+                "postTime": 1275363198,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "你的头像是你DD吗? ",
+                "capacity": 12107,
+                "poster": {
+                    "id": "543034692",
+                    "platform": 1,
+                    "name": "akbot ",
+                    "emoji": []
+                },
+                "bmp": "18c49d2401000021",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "... ",
+                        "postTime": 1275396540,
+                        "id": 1275396540,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "543034692",
+                            "name": "akbot ",
+                            "platform": 1
+                        },
+                        "content": "..? ",
+                        "postTime": 1275482542,
+                        "id": 1275482542,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

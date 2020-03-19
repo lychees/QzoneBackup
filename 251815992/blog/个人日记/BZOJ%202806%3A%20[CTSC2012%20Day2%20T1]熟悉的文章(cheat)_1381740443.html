@@ -1,0 +1,459 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    BZOJ 2806: [CTSC2012 Day2 T1]熟悉的文章(cheat)
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             BZOJ 2806: [CTSC2012 Day2 T1]熟悉的文章(cheat)
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2013-10-14 04:47:23
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(13)	è¯è®º(0)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1381740443,
+"voteids":0,
+"pubtime":1381740443,
+"replynum":0,
+"category":"个人日记",
+"title":"BZOJ 2806: [CTSC2012 Day2 T1]熟悉的文章(cheat)",
+"effect":8454656,
+"effect2":524294,
+"exblogtype":3,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":81177,
+"lp_style":16843520,
+"lp_flag":0,
+"lp_topvalue":0,
+"orguin":251815992,
+"orgblogid":1381740443,
+"mention_uins":[ ],
+"attach":[],"comments":[]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <div>
+                <br/>
+                <a href="http://hi.baidu.com/wyl8899/item/568baeed5034eec2baf37d69" target="_blank">
+                 http://hi.baidu.com/wyl8899/item/568baeed5034eec2baf37d69
+                </a>
+                <br/>
+                <br/>
+                <br/>
+                非常经典的 SAM DP 。。。必做。
+                <br/>
+                <br/>
+                <br/>
+                <span style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:10px">
+                 大意：
+                </span>
+                <br style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:13.63636302947998px"/>
+                <span style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:10px">
+                 给定一个由M个01串组成的字典。
+                </span>
+                <span style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:10px">
+                 依据这个字典和一个阀值L，可以断言一个01串是否"熟悉"，其定义是：
+                </span>
+                <br style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:13.63636302947998px"/>
+                <span style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:10px">
+                 把一个串划分成若干段，如果某个段的长度不小于L，且是字典中的某个串的连续子串，则这个段可识别；
+                </span>
+                <br style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:13.63636302947998px"/>
+                <span style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:10px">
+                 如果对于给出的串，存在一个划分，使得可识别的长度不小于总长度的90%，则这串是"熟悉"的。
+                </span>
+                <br style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:13.63636302947998px"/>
+                <span style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:10px">
+                 先后给出N个01串。对于每个给出的串，求使得该串"熟悉"的最大的L值。如果这样的L值不存在，输出0。
+                </span>
+                <br style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:13.63636302947998px"/>
+                <span style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:10px">
+                 输入数据总长&lt;=1100000。
+                </span>
+                <br style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:13.63636302947998px"/>
+                <span style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:10px">
+                 *注意：题目在现场有改动而BZOJ上的题目没有改。可识别的长度不小于90%即可，而不是大于90%。
+                </span>
+                <br style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:13.63636302947998px"/>
+                <span style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:10px">
+                 ==================================================================================
+                </span>
+                <br style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:13.63636302947998px"/>
+                <span style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:10px">
+                 趁着后缀自动机还没有烂大街赶快把这题A了。
+                </span>
+                <br style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:13.63636302947998px"/>
+                <span style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:10px">
+                 显然如果某个 L 值符合条件，比他小的L值都符合条件，据此，二分答案，剩下的问题就是判定一个L值是否可行。
+                </span>
+                <br style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:13.63636302947998px"/>
+                <span style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:10px">
+                 面对这种分段问题，很自然的就想到dp：
+                </span>
+                <span style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:10px">
+                 记所给串为S。
+                </span>
+                <br style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:13.63636302947998px"/>
+                <span style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:10px">
+                 令d[i]=max{ k | S[i-k+1..i] 是字典中某个串的连续子串 }，
+                </span>
+                <br style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:13.63636302947998px"/>
+                <span style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:10px">
+                 令f[i]为前i个字符的最大识别总长，则有f[i]=max{ f[j]+i-j | i-d[i]&lt;=j&lt;=i-L }
+                </span>
+                <br/>
+                <br/>
+                <span>
+                 这里的 d[i] 我记作 ll[i] 。。。就是模式串的每个前缀能够被识别的最长后缀。
+                </span>
+                <br/>
+                。。这个信息在各种 SAM 问题中已经屡见不鲜。。。。
+                <br/>
+                。比如 LCS。。比如之前把这个模块独立出来出的这个题。（。
+                <a href="https://www.smartoj.com/r/45021" target="_blank">
+                 https://www.smartoj.com/r/45021
+                </a>
+                <br/>
+                。。。。
+                <br/>
+                <br/>
+                <span style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:10px">
+                 首先处理d[i]。
+                </span>
+                <br style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:13.63636302947998px"/>
+                <span style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:10px">
+                 据说后缀数组可以做，但是比较麻烦..但是用后缀自动机就一切都和谐了。
+                </span>
+                <br style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:13.63636302947998px"/>
+                <span style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:10px">
+                 把字典里的所有串连接在一起，两个串之间用非01的字符分隔。构造连接所得的长串的后缀自动机。
+                </span>
+                <br style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:13.63636302947998px"/>
+                <span style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:10px">
+                 剩下的事情就是拿S串去跑一遍了..
+                </span>
+                <br style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:13.63636302947998px"/>
+                <br style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:13.63636302947998px"/>
+                <span style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:10px">
+                 然后看dp的优化。
+                </span>
+                <br style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:13.63636302947998px"/>
+                <span style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:10px">
+                 注意到转移方程可以写成f[i]=i+ max{ f[j]-j | i-d[i]&lt;=j&lt;=i-L }，考虑令g[j]=f[j]-j，从这里入手去优化。
+                </span>
+                <br style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:13.63636302947998px"/>
+                <span style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:10px">
+                 首先i-d[i]是非严格递增的，这个可以通过两种途径简单地证明：
+                </span>
+                <br style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:13.63636302947998px"/>
+                <span style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:10px">
+                 1. 考察用S串去跑自动机的过程，可以知道必有f[i]+1&gt;=f[i+1]，得证。
+                </span>
+                <br style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:13.63636302947998px"/>
+                <span style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:10px">
+                 2. 如果有某个i，使得i-d[i]&gt;i+1-d[i]，由d[i]的意义知S[i-d[i]+1..i]和S[i+1-d[i+1]+1..i+1]是字典中某个串的子串。
+                </span>
+                <br style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:13.63636302947998px"/>
+                <span style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:10px">
+                 由于i-d[i]+1&gt;i+1-d[i+1]+1，知S[i+1-d[i+1]+1..i]也是字典中某个串的子串且比S[i-d[i]+1..i]更长，这与d[i]的定义中的max违背。得证。
+                </span>
+                <br style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:13.63636302947998px"/>
+                <span style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:10px">
+                 而i-L也是严格递增的，由此，决策区间[i-d[i],i-L]的两个端点都只会右移不会左移，据此，用g[]递减的单调队列来维护决策区间即可。
+                </span>
+                <br style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:13.63636302947998px"/>
+                <br style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:13.63636302947998px"/>
+                <span style="color:rgb(69, 69, 69);font-family:tahoma, helvetica, arial;font-size:10px">
+                 总复杂度O(nlogn)，时间、空间以及编程复杂度都很和谐。
+                </span>
+                <br/>
+                <br/>
+                预处理和二分都比较好想。。。单调队列 DP 也很常规。。。但是能把它们如此有机组合在一起还是非常难得、、、
+                <br/>
+                <br/>
+                <br/>
+                ————————————————————
+                <br/>
+                <a href="https://gist.github.com/lychees/6972739" target="_blank">
+                 https://gist.github.com/lychees/6972739
+                </a>
+                <span>
+                </span>
+                <br/>
+                <br/>
+                <br/>
+               </div>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1497113929,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "[em]e100[/em]我觉得你脑子坑很深 ",
+                "capacity": 12140,
+                "poster": {
+                    "id": "569620205",
+                    "platform": 1,
+                    "name": " [ ccnu ] Tmono ",
+                    "emoji": []
+                },
+                "bmp": "58d08da8000ec209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1497114108,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "换作是我这个男朋友早就换了 ",
+                "capacity": 12145,
+                "poster": {
+                    "id": "569620205",
+                    "platform": 1,
+                    "name": " [ ccnu ] Tmono ",
+                    "emoji": []
+                },
+                "bmp": "58d08da8000ec209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1497114570,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "下次再把私事放日志‘…就绝交…我他妈说到做到 ",
+                "capacity": 12127,
+                "poster": {
+                    "id": "569620205",
+                    "platform": 1,
+                    "name": " [ ccnu ] Tmono ",
+                    "emoji": []
+                },
+                "bmp": "58d08da8000ec209",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

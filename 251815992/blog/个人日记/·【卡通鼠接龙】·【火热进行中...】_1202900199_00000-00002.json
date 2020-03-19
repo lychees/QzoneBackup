@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1202900446,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "[M][B]那么...我先来第一个[/B][/M]\n[M][B][url=http://t4.baidu.com/it/u=1154825579,3651542360&amp;gp=8.jpg][img]http://t4.baidu.com/it/u=1154825579,3651542360&amp;gp=8.jpg[/img][/url][/B][/M]\n[M] [/M]\n[M][B]我是谁？[/B][/M]\n[M][B]皮卡丘。[/B][/M]\n[M][B]（嗞啦嗞啦……咔嚓——漂亮的电火花在闪耀）[/B][/M]\n ",
+                "capacity": 11940,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1202982234,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "[M][B]没人吗～气死我了[/B][/M]\n[M][B]那么下一个还是我...[/B][/M]\n[M][B][url=http://v2.ku6.com/smallpic/mv/2006320/1163696909v5lo2_3.jpg][img]http://v2.ku6.com/smallpic/mv/2006320/1163696909v5lo2_3.jpg?pt=5&ek=1&kp=1&sce=0-12-12[/img][/url][/B][/M]\n[M][B]我是谁？！[/B][/M]\n[M][B]贝塔[/B][/M]\n[M][B]（“贝塔贝塔贝塔贝塔...开坦克的贝塔～哎呀”）[/B][/M]\n ",
+                "capacity": 11917,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1203207985,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "有人。。蓝皮鼠啊~~~ ",
+                "capacity": 12149,
+                "poster": {
+                    "id": "122698324",
+                    "platform": 1,
+                    "name": "张晓晨 ",
+                    "emoji": []
+                },
+                "bmp": "18d19560010e8009",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

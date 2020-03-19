@@ -1,0 +1,221 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 11,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1378368014,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "年轻就是好 ",
+                "capacity": 12026,
+                "poster": {
+                    "id": "122155302",
+                    "platform": 1,
+                    "name": "木子日匀 ",
+                    "emoji": []
+                },
+                "bmp": "38d40da00102c209",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:122155302,nick:木子日匀,auto:1} 一起去 Final 吧。 ",
+                        "postTime": 1378368043,
+                        "id": 1378368043,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "122155302",
+                            "name": "木子日匀 ",
+                            "platform": 1
+                        },
+                        "content": "诶诶，我也可以么 ",
+                        "postTime": 1378369944,
+                        "id": 1378369944,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1378369280,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "妹子年轻就是好 ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "47785268",
+                    "platform": 1,
+                    "name": "阿拉飞仔 ",
+                    "emoji": []
+                },
+                "bmp": "18d1956000028001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1378374550,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "改过自新了啊 ",
+                "capacity": 12154,
+                "poster": {
+                    "id": "911574351",
+                    "platform": 1,
+                    "name": "Yuko丶柚子 ",
+                    "emoji": []
+                },
+                "bmp": "184495800410c821",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1378374565,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "为啥我就觉悟不上来呢 ",
+                "capacity": 12146,
+                "poster": {
+                    "id": "911574351",
+                    "platform": 1,
+                    "name": "Yuko丶柚子 ",
+                    "emoji": []
+                },
+                "bmp": "184495800410c821",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1378375051,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "前途一片光明的感觉、 ",
+                "capacity": 12151,
+                "poster": {
+                    "id": "903336279",
+                    "platform": 1,
+                    "name": "偏疾 ",
+                    "emoji": []
+                },
+                "bmp": "58d49d800002a201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 6,
+                "postTime": 1378385337,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "膜拜女女 ",
+                "capacity": 12162,
+                "poster": {
+                    "id": "56329669",
+                    "platform": 1,
+                    "name": "Laughing ",
+                    "emoji": []
+                },
+                "bmp": "18d195a40100e201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 7,
+                "postTime": 1378390020,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "年轻就是帅~~~~\n咦，不对~~是漂亮 ",
+                "capacity": 12136,
+                "poster": {
+                    "id": "1216446045",
+                    "platform": 1,
+                    "name": "[弱爆]UnkelTao ",
+                    "emoji": []
+                },
+                "bmp": "98d095e0000ec001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 8,
+                "postTime": 1378390685,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "不明觉厉 ",
+                "capacity": 12146,
+                "poster": {
+                    "id": "85561642",
+                    "platform": 1,
+                    "name": "隙間 ",
+                    "emoji": []
+                },
+                "bmp": "98d18da40800c221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 9,
+                "postTime": 1378391021,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "虽然今年混进全球总决赛的概率不足 20%。。\n\n呵呵  如果是真的 那能怪谁  \n\n付出总会有收获的 ",
+                "capacity": 12074,
+                "poster": {
+                    "id": "842008099",
+                    "platform": 1,
+                    "name": "我本冷血 ",
+                    "emoji": []
+                },
+                "bmp": "18d09d8000008201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 10,
+                "postTime": 1378651377,
+                "effect": 1048576,
+                "replyNum": 0,
+                "content": "不坑队友的伪carry  。。  你打dota啊？？！我TT1900  ",
+                "capacity": 12114,
+                "poster": {
+                    "id": "635468167",
+                    "platform": 1,
+                    "name": "『梦中寻梦』 ",
+                    "emoji": []
+                },
+                "bmp": "18509d800102c209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 11,
+                "postTime": 1380618275,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "、(必须不懂吗。。。) ",
+                "capacity": 12144,
+                "poster": {
+                    "id": "784237318",
+                    "platform": 1,
+                    "name": "叙眄 ",
+                    "emoji": []
+                },
+                "bmp": "585095a00102c009",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

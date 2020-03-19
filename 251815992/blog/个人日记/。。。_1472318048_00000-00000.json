@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1472356254,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "不上，Q ",
+                "capacity": 12159,
+                "poster": {
+                    "id": "782159209",
+                    "platform": 1,
+                    "name": "一盏鲸鱼灯 ",
+                    "emoji": []
+                },
+                "bmp": "58d0d5a00102e101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

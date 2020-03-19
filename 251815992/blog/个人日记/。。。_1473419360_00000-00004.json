@@ -1,0 +1,119 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 5,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1473419807,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "即将毕业！可喜可贺 ",
+                "capacity": 12150,
+                "poster": {
+                    "id": "594837346",
+                    "platform": 1,
+                    "name": "CCG成员 ",
+                    "emoji": []
+                },
+                "bmp": "18c095a00102c481",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1473419914,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "提前恭喜下 ",
+                "capacity": 12151,
+                "poster": {
+                    "id": "850191575",
+                    "platform": 1,
+                    "name": "∑(っ°Д°;)っ ",
+                    "emoji": []
+                },
+                "bmp": "08d09da40002c201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1473421244,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "0.0祝顺利。。 ",
+                "capacity": 12155,
+                "poster": {
+                    "id": "451524137",
+                    "platform": 1,
+                    "name": "光之神圣 ",
+                    "emoji": []
+                },
+                "bmp": "18c1f4a40080c109",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1473421876,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "12年入学，今年不应该是大四么？ ",
+                "capacity": 12133,
+                "poster": {
+                    "id": "984704531",
+                    "platform": 1,
+                    "name": "蒟蒻 ",
+                    "emoji": []
+                },
+                "bmp": "18c095a000028401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 6,
+                "postTime": 1473423156,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "我的账号永远能登呢 ",
+                "capacity": 11964,
+                "poster": {
+                    "id": "569620205",
+                    "platform": 1,
+                    "name": " [ ccnu ] Tmono ",
+                    "emoji": []
+                },
+                "bmp": "58d08da8000ec209",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:569620205,nick: [ ccnu ] Tmono,who:1,auto:1}相聚离开，都有时候.. ",
+                        "postTime": 1473433192,
+                        "id": 1473433192,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "569620205",
+                            "name": " [ ccnu ] Tmono ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1} [em]e122[/em] ",
+                        "postTime": 1473434833,
+                        "id": 1473434833,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

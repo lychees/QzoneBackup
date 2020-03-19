@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1195873450,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "你倒数第2段的生活跟我差不多啊......这样的生活没什么不好啊...我觉得开心就好....不过我不会买什么灯..因为我一般11点睡觉 ",
+                "capacity": 12057,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1195889933,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "妹妹太脆弱啦…… 我看的时候都没什么感觉 只是在不停安慰我旁边女生 给她餐巾纸擦眼泪…… ",
+                "capacity": 12083,
+                "poster": {
+                    "id": "770976045",
+                    "platform": 1,
+                    "name": "┈┾葬亽 ╄ ",
+                    "emoji": []
+                },
+                "bmp": "18d015a40000c209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1195974711,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "\n劝你痛定思痛吧。。\n                                       3班的shenwu ",
+                "capacity": 12104,
+                "poster": {
+                    "id": "838515060",
+                    "platform": 1,
+                    "name": "丶心竞 ",
+                    "emoji": []
+                },
+                "bmp": "38549de0050ec001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

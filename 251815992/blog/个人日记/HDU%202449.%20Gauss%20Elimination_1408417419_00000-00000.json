@@ -1,0 +1,73 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1408417724,
+                "effect": 1056,
+                "replyNum": 4,
+                "content": "可以写的，只是要自己再写个swap的泛型接口，然后swap的对象必须实现这接口，那么swap就哦可了 和compareTo一样的原理 ",
+                "capacity": 11699,
+                "poster": {
+                    "id": "56329669",
+                    "platform": 1,
+                    "name": "Laughing ",
+                    "emoji": []
+                },
+                "bmp": "18d195a40100e201",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:56329669,nick:Laughing,auto:1}感谢。。  ",
+                        "postTime": 1408417741,
+                        "id": 1408417741,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "56329669",
+                            "name": "Laughing ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1} 秒回啊 咋突然学java了？ ",
+                        "postTime": 1408417774,
+                        "id": 1408417774,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:56329669,nick:Laughing,auto:1} 十分有趣。。。。 ",
+                        "postTime": 1408417858,
+                        "id": 1408417858,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "56329669",
+                            "name": "Laughing ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1} 坐等岛岛java虐翻ACM [em]e142[/em] ",
+                        "postTime": 1408417960,
+                        "id": 1408417960,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

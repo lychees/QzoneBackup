@@ -1,0 +1,40 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1371772519,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[em]e104[/em] \ngraphis.blogcn.com ",
+                "capacity": 12027,
+                "poster": {
+                    "id": "10848584",
+                    "platform": 1,
+                    "name": "主席 ",
+                    "emoji": []
+                },
+                "bmp": "0880dd8000000221",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:10848584,nick:主席,who:1,auto:1}。。我 blog 下边有友链的。。- -） ",
+                        "postTime": 1371772602,
+                        "id": 1371772602,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

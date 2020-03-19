@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1518523399,
+                "postTime": 1518523399,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "去不去嘉义MD啊 ",
+                "capacity": 12153,
+                "poster": {
+                    "id": "529325188",
+                    "platform": 1,
+                    "name": "nike0good ",
+                    "emoji": []
+                },
+                "bmp": "085495e0000cc009",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

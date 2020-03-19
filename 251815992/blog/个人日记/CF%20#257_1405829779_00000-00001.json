@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1405830162,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "函数调用过多？ ",
+                "capacity": 12160,
+                "poster": {
+                    "id": "223359382",
+                    "platform": 1,
+                    "name": "[拜戴神教]水 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a400008409",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1405838277,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "我也是。。。 ",
+                "capacity": 12140,
+                "poster": {
+                    "id": "403528201",
+                    "platform": 1,
+                    "name": "[scut]aa ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00042c109",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

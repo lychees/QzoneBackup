@@ -1,0 +1,68 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1419999190,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "你是屠志峰带出来的么？ ",
+                "capacity": 11987,
+                "poster": {
+                    "id": "2210937392",
+                    "platform": 1,
+                    "name": "Rocky ",
+                    "emoji": []
+                },
+                "bmp": "18d11d800602e101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:2210937392,nick:Rocky,auto:1} 你是？\n ",
+                        "postTime": 1420008839,
+                        "id": 1420008839,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "2210937392",
+                            "name": "Rocky ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,auto:1} 他之前学生。 ",
+                        "postTime": 1420113683,
+                        "id": 1420113683,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1420002378,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "求下次复制粘贴上题目描述  关注好久了   手机方便看 ",
+                "capacity": 12119,
+                "poster": {
+                    "id": "529520158",
+                    "platform": 1,
+                    "name": "雪人墙 ",
+                    "emoji": []
+                },
+                "bmp": "18d08da00802c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

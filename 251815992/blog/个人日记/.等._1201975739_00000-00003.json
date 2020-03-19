@@ -1,0 +1,79 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1202044354,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "\n寒~ ",
+                "capacity": 12169,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 6,
+                "postTime": 1202443160,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "[B]额..[/B] ",
+                "capacity": 12154,
+                "poster": {
+                    "id": "284293874",
+                    "platform": 1,
+                    "name": "孟修竹 ",
+                    "emoji": []
+                },
+                "bmp": "08d40da80102c109",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 7,
+                "postTime": 1202914343,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "不是吧.\n \n你被葛小天弄的那么伤感哪.\n \n把皮某某都扯出来了.\n \n佩服.佩服. ",
+                "capacity": 12103,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 8,
+                "postTime": 1257847976,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]...[/ft] ",
+                "capacity": 12156,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            }
+        ]
+    }
+}

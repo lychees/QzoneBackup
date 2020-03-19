@@ -1,0 +1,40 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1386978477,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "@{uin:328092571,nick:[BUPT]LXYXYNT,who:1} 树的斯坦纳树啊 ",
+                "capacity": 12030,
+                "poster": {
+                    "id": "984489762",
+                    "platform": 1,
+                    "name": "Daizhengyang ",
+                    "emoji": []
+                },
+                "bmp": "18c19d800000c001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "328092571",
+                            "name": "[BUPT]LXYXYNT ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:984489762,nick:Daizhengyang,who:1,auto:1} 给跪233 ",
+                        "postTime": 1386991340,
+                        "id": 1386991340,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

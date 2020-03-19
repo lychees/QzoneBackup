@@ -1,0 +1,51 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1267797848,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "你和家人闹别扭 ",
+                "capacity": 12078,
+                "poster": {
+                    "id": "1209370511",
+                    "platform": 1,
+                    "name": "平凡的人生 ",
+                    "emoji": []
+                },
+                "bmp": "18c19da00300e001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "1209370511",
+                            "name": "平凡的人生 ",
+                            "platform": 1
+                        },
+                        "content": "现在好鞋了? ",
+                        "postTime": 1267797879,
+                        "id": 1267797879,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "嗯..明天去学画.\n.^ ^. ",
+                        "postTime": 1267798534,
+                        "id": 1267798534,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

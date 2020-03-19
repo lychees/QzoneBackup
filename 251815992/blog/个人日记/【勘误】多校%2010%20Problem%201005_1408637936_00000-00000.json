@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1408638517,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "骗钱点赞。 。。 哈哈哈开玩笑 ",
+                "capacity": 12142,
+                "poster": {
+                    "id": "914049651",
+                    "platform": 1,
+                    "name": "meijun ",
+                    "emoji": []
+                },
+                "bmp": "98d595880100d4a0",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

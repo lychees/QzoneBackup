@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1294742467,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]谢谢你的书……[/ft]\n[ft=,2,]呵呵[em]e176[/em]岛[/ft] ",
+                "capacity": 12102,
+                "poster": {
+                    "id": "784237318",
+                    "platform": 1,
+                    "name": "叙眄 ",
+                    "emoji": []
+                },
+                "bmp": "585095a00102c009",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

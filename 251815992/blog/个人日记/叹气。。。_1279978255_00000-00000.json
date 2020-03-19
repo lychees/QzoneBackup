@@ -1,0 +1,51 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1280019447,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "可以买个touch的……iphone就比itouch多个通讯功能……而你已经买过手机了lolz ",
+                "capacity": 12016,
+                "poster": {
+                    "id": "87974035",
+                    "platform": 1,
+                    "name": "Be ",
+                    "emoji": []
+                },
+                "bmp": "0894d4a00040e101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "哎呀，你忘记了还有拍图的呢。。 ",
+                        "postTime": 1280025029,
+                        "id": 1280025029,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "87974035",
+                            "name": "Be ",
+                            "platform": 1
+                        },
+                        "content": "恩 忘了……lolz ",
+                        "postTime": 1280029174,
+                        "id": 1280029174,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

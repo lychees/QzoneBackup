@@ -1,0 +1,85 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1249405803,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "…什么啊… ",
+                "capacity": 12036,
+                "poster": {
+                    "id": "276500942",
+                    "platform": 1,
+                    "name": "酒仙 ",
+                    "emoji": []
+                },
+                "bmp": "b8c1dda00102e229",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "我郁闷...昨晚键盘进了水...好不容易写完了结果被一个“+”号覆盖掉了....# ",
+                        "postTime": 1249433998,
+                        "id": 1249433998,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "276500942",
+                            "name": "酒仙 ",
+                            "platform": 1
+                        },
+                        "content": "有个性… ",
+                        "postTime": 1249435293,
+                        "id": 1249435293,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1249445612,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,][em]e179[/em][/ft][ft=,2,]强[/ft]\n[ft=,2,]。。。。。。[/ft] ",
+                "capacity": 12107,
+                "poster": {
+                    "id": "87974035",
+                    "platform": 1,
+                    "name": "Be ",
+                    "emoji": []
+                },
+                "bmp": "0894d4a00040e101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1249464195,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]佩服[/ft] ",
+                "capacity": 12156,
+                "poster": {
+                    "id": "352467237",
+                    "platform": 1,
+                    "name": "23MNU66 ",
+                    "emoji": []
+                },
+                "bmp": "18805ca400004109",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

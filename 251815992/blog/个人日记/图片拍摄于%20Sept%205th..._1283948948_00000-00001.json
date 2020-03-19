@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1284287577,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]很美，很有想象力。[/ft] ",
+                "capacity": 12141,
+                "poster": {
+                    "id": "306238893",
+                    "platform": 1,
+                    "name": "求佛问道 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a000008401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1285950236,
+                "effect": 0,
+                "replyNum": 0,
+                "content": ",,,,,,,,,,,,,,,,,,,,,,[del]这种抑制不住的想抱回家的冲动究竟是怎么一回事...........[/del] ",
+                "capacity": 12080,
+                "poster": {
+                    "id": "1461414926",
+                    "platform": 1,
+                    "name": "森 ",
+                    "emoji": []
+                },
+                "bmp": "18409d8002004101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

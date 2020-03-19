@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1193531250,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "\n你要是弱我不就是那什么白痴了么....\n想想..2道数学题算个P....未来的美好的白昼在等着我们......= =///...(众人:小c啊你也太爱现了...) ",
+                "capacity": 12045,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1193548665,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "哈哈..\n继续努力.. ",
+                "capacity": 12150,
+                "poster": {
+                    "id": "474697421",
+                    "platform": 1,
+                    "name": "朱明琪 ",
+                    "emoji": []
+                },
+                "bmp": "18d195a000028209",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

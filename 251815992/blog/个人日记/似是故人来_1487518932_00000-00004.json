@@ -1,0 +1,165 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 5,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1487519383,
+                "effect": 1056,
+                "replyNum": 3,
+                "content": "还以为这黑枪是瞄准盐老师来着。。( ",
+                "capacity": 11720,
+                "poster": {
+                    "id": "723197313",
+                    "platform": 1,
+                    "name": "北京-邵成 ",
+                    "emoji": []
+                },
+                "bmp": "08c0158000008101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:723197313,nick:北京-邵成,who:1,auto:1}其实我有点后悔带她去见那么多人的。。。。现在把我认识的人得罪了个遍。。。太 aggresive 了。。。 ",
+                        "postTime": 1487519508,
+                        "id": 1487519508,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:723197313,nick:北京-邵成,who:1,auto:1}。。。其实黑我我大概都不会理。。。\n但是地图炮太恶心人了。。 ",
+                        "postTime": 1487541322,
+                        "id": 1487541322,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "594837346",
+                            "name": "CCG成员 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:723197313,nick:北京-邵成,who:1,auto:1}我也感觉这黑枪是黑盐老师…… ",
+                        "postTime": 1487554771,
+                        "id": 1487554771,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1487519930,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "永远支持你 ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "1194759050",
+                    "platform": 1,
+                    "name": "徐智祺 ",
+                    "emoji": []
+                },
+                "bmp": "18c19c8002026201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1487521405,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "似乎得罪了很多人呀 ",
+                "capacity": 12150,
+                "poster": {
+                    "id": "397427019",
+                    "platform": 1,
+                    "name": " ",
+                    "emoji": []
+                },
+                "bmp": "18809da40102c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1487591517,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "这个答案说的是那个大凤吧…… ",
+                "capacity": 12005,
+                "poster": {
+                    "id": "314040241",
+                    "platform": 1,
+                    "name": "好大的风 ",
+                    "emoji": []
+                },
+                "bmp": "18d054a50000c101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:314040241,nick:好大的风,who:1,auto:1}明显矛头指向我的啊。。。要不为什么我回复后删了。 ",
+                        "postTime": 1487603442,
+                        "id": 1487603442,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "postTime": 1487654868,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "我也想婊anata ",
+                "capacity": 11977,
+                "poster": {
+                    "id": "569620205",
+                    "platform": 1,
+                    "name": " [ ccnu ] Tmono ",
+                    "emoji": []
+                },
+                "bmp": "58d08da8000ec209",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:569620205,nick: [ ccnu ] Tmono,who:1,auto:1}反弹。 ",
+                        "postTime": 1487672574,
+                        "id": 1487672574,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "569620205",
+                            "name": " [ ccnu ] Tmono ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1} [em]e118[/em][em]e150[/em] ",
+                        "postTime": 1487690857,
+                        "id": 1487690857,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

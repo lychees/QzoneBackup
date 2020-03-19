@@ -1,0 +1,108 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 5,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1258278422,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]cai[/ft] ",
+                "capacity": 12152,
+                "poster": {
+                    "id": "307757035",
+                    "platform": 1,
+                    "name": "税子龙 ",
+                    "emoji": []
+                },
+                "bmp": "084195a40000c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1258278815,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]我坐二楼[/ft]\n[ft=,2,]小岛[/ft]\n[ft=,2,]姐姐？[/ft]\n[ft=,2,]好[/ft] ",
+                "capacity": 12089,
+                "poster": {
+                    "id": "784237318",
+                    "platform": 1,
+                    "name": "叙眄 ",
+                    "emoji": []
+                },
+                "bmp": "585095a00102c009",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1258279250,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[ft=,2,]...隐私？[/ft] ",
+                "capacity": 12110,
+                "poster": {
+                    "id": "114099336",
+                    "platform": 1,
+                    "name": "光禾 ",
+                    "emoji": []
+                },
+                "bmp": "18d094a50000c401",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "~That is a secret... ",
+                        "postTime": 1258300742,
+                        "id": 1258300742,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "postTime": 1258337498,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]色吃SB[/ft] ",
+                "capacity": 12154,
+                "poster": {
+                    "id": "474697421",
+                    "platform": 1,
+                    "name": "朱明琪 ",
+                    "emoji": []
+                },
+                "bmp": "18d195a000028209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1258340232,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]我也很喜欢魔兽啊[/ft] ",
+                "capacity": 12135,
+                "poster": {
+                    "id": "1284557516",
+                    "platform": 1,
+                    "name": "滨湖惠园社区公共号 ",
+                    "emoji": []
+                },
+                "bmp": "08809d2002008001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,125 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1264160141,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "[ft=,3,][ft=,,]我的名字被写错了....[/ft][/ft] ",
+                "capacity": 12059,
+                "poster": {
+                    "id": "524215552",
+                    "platform": 1,
+                    "name": "  ",
+                    "emoji": []
+                },
+                "bmp": "084494a000004101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "你谁啊... ",
+                        "postTime": 1264160245,
+                        "id": 1264160245,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "534470369",
+                            "name": "张弛 ",
+                            "platform": 1
+                        },
+                        "content": "顾鸿翔。。。 ",
+                        "postTime": 1264170209,
+                        "id": 1264170209,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1264273975,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "是吗？那改过来啊 ",
+                "capacity": 12156,
+                "poster": {
+                    "id": "915124183",
+                    "platform": 1,
+                    "name": "我一直在！ ",
+                    "emoji": []
+                },
+                "bmp": "18909da00100c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1264370662,
+                "effect": 32,
+                "replyNum": 2,
+                "content": " \n[ft=,2,][/ft] \n[ft=,2,]你麻痹春哥传看多了。。。[/ft]\n[ft=,2,][/ft] \n[ft=,2,]我要去马勒隔壁找神兽草泥马 [/ft]\n[ft=,2,][/ft] \n[ft=,2,]来增加我的霸气值。。。[/ft] ",
+                "capacity": 11921,
+                "poster": {
+                    "id": "122698324",
+                    "platform": 1,
+                    "name": "张晓晨 ",
+                    "emoji": []
+                },
+                "bmp": "18d19560010e8009",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "不用担心...你被设定成气多血薄型.. ",
+                        "postTime": 1264387588,
+                        "id": 1264387588,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "122698324",
+                            "name": "张晓晨 ",
+                            "platform": 1
+                        },
+                        "content": ".......... ",
+                        "postTime": 1264393314,
+                        "id": 1264393314,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "postTime": 1264589351,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "[ft=,2,]HP=2........[/ft]\n \n[ft=,2,]碰下就挂[/ft] ",
+                "capacity": 12117,
+                "poster": {
+                    "id": "122698324",
+                    "platform": 1,
+                    "name": "张晓晨 ",
+                    "emoji": []
+                },
+                "bmp": "18d19560010e8009",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,654 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    World Finals 2013 I. Pirate Chest
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             World Finals 2013 I. Pirate Chest
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2014-03-11 15:30:08
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(48)	è¯è®º(0)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1394566208,
+"voteids":0,
+"pubtime":1394566208,
+"replynum":0,
+"category":"个人日记",
+"title":"World Finals 2013 I. Pirate Chest",
+"effect":8389120,
+"effect2":524294,
+"exblogtype":3,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":81177,
+"lp_style":16843520,
+"lp_flag":0,
+"lp_topvalue":0,
+"orguin":251815992,
+"orgblogid":1394566208,
+"mention_uins":[ ],
+"attach":[],"comments":[]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <div>
+                <div>
+                 题意：
+                 <br/>
+                 给定一个 m 行 n 列的水域。。每个位置的深度为 d[i][j]。。。。
+                 <br/>
+                 问放置一个 长边不大于 A，短边不大于 B 的箱子，且要求顶端不露出水面（贴着也不行）。。。
+                 <br/>
+                 最大体积是多少。。。
+                 <br/>
+                 <br/>
+                 <br/>
+                 Analysis：
+                 <br/>
+                 <br/>
+                 做法神似 Spoj 912
+                 <br/>
+                 <a href="http://www.shuizilong.com/house/archives/spoj-912-submatrix-of-submatrix/" target="_blank">
+                  http://www.shuizilong.com/house/archives/spoj-912-submatrix-of-submatrix/
+                 </a>
+                 <br/>
+                 只不过最里面的函数换成了 POJ 2559
+                 <br/>
+                 <a href="https://gist.github.com/lychees/f4f56d68b7752382df0c" target="_blank">
+                  https://gist.github.com/lychees/f4f56d68b7752382df0c
+                 </a>
+                 <br/>
+                 <br/>
+                 <br/>
+                 。。。首先考虑水面高度问题。
+                 <br/>
+                 <br/>
+                 设池塘的底面积 S = mn。。。箱子的面积 s = ab。。箱子底面距水面的初始深度wei d。
+                 <br/>
+                 。。箱子的高度为 h。。满足：
+                 <br/>
+                 <br/>
+                 Sd + sh (总的水量)
+                 <br/>
+                 ------------ &gt; h
+                 <br/>
+                 S
+                 <br/>
+                 <br/>
+                 整理得：
+                 <br/>
+                 h &lt; Sd/(S-s) ..
+                 <br/>
+                 h = [Sd/(S-s] - 1 (上取整）
+                 <br/>
+                 。。。h 随底面积的增大而增大。。
+                 <br/>
+                 。。因此我们枚举（箱子的长）a。。。用单调队列。。压缩成一维的问题。。。
+                 <br/>
+                 。。再用 POJ 2559 （单调栈）求出最大的宽度 b 和 h 即可。。。。
+                 <br/>
+                 <br/>
+                 <span>
+                  总的复杂度为 O(n3)。。。
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  。。注意常数。。。
+                  <br/>
+                  。下面的代码 7s +。。。（如果旋转 90 度的话就会 TLE。。。
+                  <br/>
+                  。。（避免旋转 90 度的方法是。。每次 checkMin(b, 。。。 的时候判断当前的 a 是否大于 B。。。）
+                  <br/>
+                  <span>
+                   <br/>
+                  </span>
+                 </span>
+                </div>
+                <div>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <div>
+                  <span style="font-size:10px">
+                   const int N = 509;
+                  </span>
+                 </div>
+                 <div>
+                  <span style="font-size:10px">
+                   int d[N][N]; deque&lt;int&gt; Q[N];
+                  </span>
+                 </div>
+                 <div>
+                  <span style="font-size:10px">
+                   int l[N], r[N]; stack&lt;int&gt; s;
+                  </span>
+                 </div>
+                 <div>
+                  <span style="font-size:10px">
+                   LL z; int m, n, A, B, a, b; LL h;
+                  </span>
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  <span style="font-size:10px">
+                   #define ab (LL)(a*b)
+                  </span>
+                 </div>
+                 <div>
+                  <span style="font-size:10px">
+                   #define mn (LL)(m*n)
+                  </span>
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  <span style="font-size:10px">
+                   void Push(int i, int ii){
+                  </span>
+                 </div>
+                 <div>
+                  <span style="font-size:10px">
+                   if (!Q[i].empty() &amp;&amp; Q[i].front() &lt;= ii-a) Q[i].pop_front();
+                  </span>
+                 </div>
+                 <div>
+                  <span style="font-size:10px">
+                   while (!Q[i].empty() &amp;&amp; d[ii][i] &lt;= d[Q[i].back()][i]) Q[i].pop_back();
+                  </span>
+                 </div>
+                 <div>
+                  <span style="font-size:10px">
+                   Q[i].PB(ii);
+                  </span>
+                 </div>
+                 <div>
+                  <span style="font-size:10px">
+                   }
+                  </span>
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  <span style="font-size:10px">
+                   void gao(){
+                  </span>
+                 </div>
+                 <div>
+                  <span style="font-size:10px">
+                   REP_1_N(a, min(A, m)){
+                  </span>
+                 </div>
+                 <div>
+                  <span style="font-size:10px">
+                   REP(i, n) CLR(Q[i]); REP(ii, m){
+                  </span>
+                 </div>
+                 <div>
+                  <span style="font-size:10px">
+                   REP(i, n) Push(i, ii); if (ii &lt; a-1) continue;
+                  </span>
+                 </div>
+                 <div>
+                  <span style="font-size:10px">
+                   #define d(i) d[Q[i].front()][i]
+                  </span>
+                 </div>
+                 <div>
+                  <span style="font-size:10px">
+                   //REP(i, n) cout &lt;&lt; d(i) &lt;&lt; " "; cout &lt;&lt; endl;
+                  </span>
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  <span style="font-size:10px">
+                   CLR(s); REP(i, n){
+                  </span>
+                 </div>
+                 <div>
+                  <span style="font-size:10px">
+                   while (!s.empty() &amp;&amp; d(i) &lt;= d(s.top())) s.pop();
+                  </span>
+                 </div>
+                 <div>
+                  <span style="font-size:10px">
+                   l[i] = s.empty() ? 0 : s.top() + 1;
+                  </span>
+                 </div>
+                 <div>
+                  <span style="font-size:10px">
+                   s.push(i);
+                  </span>
+                 </div>
+                 <div>
+                  <span style="font-size:10px">
+                   }
+                  </span>
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  <span style="font-size:10px">
+                   CLR(s); DWN(i, n, 0){
+                  </span>
+                 </div>
+                 <div>
+                  <span style="font-size:10px">
+                   while (!s.empty() &amp;&amp; d(i) &lt;= d(s.top())) s.pop();
+                  </span>
+                 </div>
+                 <div>
+                  <span style="font-size:10px">
+                   r[i] = s.empty() ? n : s.top();
+                  </span>
+                 </div>
+                 <div>
+                  <span style="font-size:10px">
+                   s.push(i);
+                  </span>
+                 </div>
+                 <div>
+                  <span style="font-size:10px">
+                   }
+                  </span>
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  <span style="font-size:10px">
+                   REP(i, n){
+                  </span>
+                 </div>
+                 <div>
+                  <span style="font-size:10px">
+                   b = min(a &lt;= B ? A : B, r[i] - l[i]), h = ceil(mn*d(i), mn - ab) - 1;
+                  </span>
+                 </div>
+                 <div>
+                  <span style="font-size:10px">
+                   checkMax(z, h*ab);
+                  </span>
+                 </div>
+                 <div>
+                  <span style="font-size:10px">
+                   }
+                  </span>
+                 </div>
+                 <div>
+                  <span style="font-size:10px">
+                   }
+                  </span>
+                 </div>
+                 <div>
+                  <span style="font-size:10px">
+                   }
+                  </span>
+                 </div>
+                 <div>
+                  <span style="font-size:10px">
+                   }
+                  </span>
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  <span style="font-size:10px">
+                   int main(){
+                  </span>
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  <span style="font-size:10px">
+                   #ifndef ONLINE_JUDGE
+                  </span>
+                 </div>
+                 <div>
+                  <span style="font-size:10px">
+                   //freopen("in.txt", "r", stdin);
+                  </span>
+                 </div>
+                 <div>
+                  <span style="font-size:10px">
+                   //freopen("out.txt", "w", stdout);
+                  </span>
+                 </div>
+                 <div>
+                  <span style="font-size:10px">
+                   #endif
+                  </span>
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  <span style="font-size:10px">
+                   RD(A, B, m, n); if (A &lt; B) swap(A, B);
+                  </span>
+                 </div>
+                 <div>
+                  <span style="font-size:10px">
+                   REP_2(i, j, m, n) RD(d[i][j]); gao(), OT(z);
+                  </span>
+                 </div>
+                 <div>
+                  <span style="font-size:10px">
+                   }
+                  </span>
+                 </div>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 ___________
+                 <br/>
+                 <br/>
+                 <a href="http://wenku.baidu.com/view/a97d0b1c59eef8c75fbfb31b.html" target="_blank">
+                  http://wenku.baidu.com/view/a97d0b1c59eef8c75fbfb31b.html
+                 </a>
+                 <br/>
+                 <a href="http://hi.baidu.com/mzry1992/item/e0fa66449cc90931fa8960be" target="_blank">
+                  http://hi.baidu.com/mzry1992/item/e0fa66449cc90931fa8960be
+                 </a>
+                 <br/>
+                 <a href="https://vijos.org/p/1055" target="_blank">
+                  https://vijos.org/p/1055
+                 </a>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                </div>
+                <br/>
+                <br/>
+               </div>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

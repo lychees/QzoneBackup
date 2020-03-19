@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1457621391,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "岛娘家有钱 ",
+                "capacity": 12155,
+                "poster": {
+                    "id": "703398275",
+                    "platform": 1,
+                    "name": "Bowman(美国的华莱士) ",
+                    "emoji": []
+                },
+                "bmp": "38d0c5804000e421",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

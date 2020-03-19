@@ -1,0 +1,51 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1497319869,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "哼，再赌就离婚了！ ",
+                "capacity": 11995,
+                "poster": {
+                    "id": "569620205",
+                    "platform": 1,
+                    "name": " [ ccnu ] Tmono ",
+                    "emoji": []
+                },
+                "bmp": "58d08da8000ec209",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "1554577057",
+                            "name": "其他猫做得到嘛？ ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:569620205,nick: [ ccnu ] Tmono,auto:1} 欸？？？ ",
+                        "postTime": 1497334356,
+                        "id": 1497334356,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "569620205",
+                            "name": " [ ccnu ] Tmono ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:1554577057,nick:其他猫做得到嘛？,who:1,auto:1} 0.0？ ",
+                        "postTime": 1497372669,
+                        "id": 1497372669,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

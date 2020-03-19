@@ -1,0 +1,86 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1285742012,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "好多错别字 \n是塞班（Symbian） ",
+                "capacity": 12064,
+                "poster": {
+                    "id": "469415244",
+                    "platform": 1,
+                    "name": "朱柯军 ",
+                    "emoji": []
+                },
+                "bmp": "18919d840000c101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "啊啊... 还没定稿嘛.... 暂时就这样了.#   #  我在一校区...# ",
+                        "postTime": 1285742283,
+                        "id": 1285742283,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1285817469,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "难道你们课程已经少到不需要复习，还有时间玩活点地图的地步了？！ ",
+                "capacity": 11995,
+                "poster": {
+                    "id": "515016441",
+                    "platform": 1,
+                    "name": "时 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a40102c929",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "http://www.shuizilong.com/house/archives/1534/comment-page-1#comment-300    欢迎参观课表。。 ",
+                        "postTime": 1285848427,
+                        "id": 1285848427,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1285949288,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "对不起，虽然机械废表示专业术语看不懂，虽然这样很失礼，但我还是要说，孩子你真的萌死了......（被上一篇日志充分治愈，于是开始往下翻...... ",
+                "capacity": 12034,
+                "poster": {
+                    "id": "1461414926",
+                    "platform": 1,
+                    "name": "森 ",
+                    "emoji": []
+                },
+                "bmp": "18409d8002004101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,102 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1494434433,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "因为xiaodao太邪恶了。 ",
+                "capacity": 12147,
+                "poster": {
+                    "id": "446079414",
+                    "platform": 1,
+                    "name": "旺仔嚎婆婆 ",
+                    "emoji": []
+                },
+                "bmp": "38449da00000c201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1494439082,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "哈哈哈哈哈哈 ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "41785691",
+                    "platform": 1,
+                    "name": "iceboy ",
+                    "emoji": []
+                },
+                "bmp": "08c13d800002c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1494441917,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "有人做过了似乎：https://hypothes.is/ ",
+                "capacity": 11930,
+                "poster": {
+                    "id": "914049651",
+                    "platform": 1,
+                    "name": "meijun ",
+                    "emoji": []
+                },
+                "bmp": "98d595880100d4a0",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:914049651,nick:meijun,who:1,auto:1}https://www.zhihu.com/question/19907578\nMark. ",
+                        "postTime": 1494443361,
+                        "id": 1494443361,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:914049651,nick:meijun,who:1,auto:1}Thx! ",
+                        "postTime": 1494443368,
+                        "id": 1494443368,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "postTime": 1494477541,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "所以他最后用了什么解决方案…… ",
+                "capacity": 12138,
+                "poster": {
+                    "id": "236632935",
+                    "platform": 1,
+                    "name": "惰性求治 ",
+                    "emoji": []
+                },
+                "bmp": "18c5dd880000c121",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

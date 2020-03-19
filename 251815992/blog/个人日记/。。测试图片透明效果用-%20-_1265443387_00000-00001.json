@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1265454572,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]......[/ft] ",
+                "capacity": 12153,
+                "poster": {
+                    "id": "1393904777",
+                    "platform": 1,
+                    "name": "猫猫 ",
+                    "emoji": []
+                },
+                "bmp": "08809c2002008001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1265867987,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "我看行的啊，Chrome & IE8 ",
+                "capacity": 12140,
+                "poster": {
+                    "id": "821339950",
+                    "platform": 1,
+                    "name": "颠哥 ",
+                    "emoji": []
+                },
+                "bmp": "1880dd2000008001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

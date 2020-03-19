@@ -1,0 +1,96 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 5,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1424024671,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "屏幕比较容易点坏而不是划坏？还是考虑反应能力的问题0.0 ",
+                "capacity": 12106,
+                "poster": {
+                    "id": "251346744",
+                    "platform": 1,
+                    "name": "tkskywalker ",
+                    "emoji": []
+                },
+                "bmp": "3850958001028201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1424047134,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "界面风格很赞。 ",
+                "capacity": 12156,
+                "poster": {
+                    "id": "418500286",
+                    "platform": 1,
+                    "name": "跑跑-陈雄 ",
+                    "emoji": []
+                },
+                "bmp": "18c1cde00002e101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1424050928,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "很厉害 ",
+                "capacity": 12163,
+                "poster": {
+                    "id": "785535171",
+                    "platform": 1,
+                    "name": "Jの星愿 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a40100a201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1424056353,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "感觉头像马赛克受不了...左边移动略大？ ",
+                "capacity": 12133,
+                "poster": {
+                    "id": "949141810",
+                    "platform": 1,
+                    "name": "- ",
+                    "emoji": []
+                },
+                "bmp": "18c09d800002c401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1424144280,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "你这过年不回家真心略叼。。。 ",
+                "capacity": 12140,
+                "poster": {
+                    "id": "418615910",
+                    "platform": 1,
+                    "name": "特种兵3-郭泽晖 ",
+                    "emoji": []
+                },
+                "bmp": "18c49d8800009401",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

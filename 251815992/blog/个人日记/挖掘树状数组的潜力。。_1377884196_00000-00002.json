@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1377921349,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "啥？。。 ",
+                "capacity": 12166,
+                "poster": {
+                    "id": "402701292",
+                    "platform": 1,
+                    "name": "x. ",
+                    "emoji": []
+                },
+                "bmp": "185495a00102e101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1377927501,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "很久以前就有了吧。。。线段树不是也很方便？ ",
+                "capacity": 12122,
+                "poster": {
+                    "id": "276224245",
+                    "platform": 1,
+                    "name": "北冥之鱼 ",
+                    "emoji": []
+                },
+                "bmp": "18d015a000008401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1378372473,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "线段树也很容易向高维推广的，CF那个D线段树一样能做 ",
+                "capacity": 12118,
+                "poster": {
+                    "id": "826513189",
+                    "platform": 1,
+                    "name": "叉姐 ",
+                    "emoji": []
+                },
+                "bmp": "988095a80000e201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

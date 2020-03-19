@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1442466643,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "又灰走了吗[em]e101[/em] ",
+                "capacity": 12148,
+                "poster": {
+                    "id": "42042062",
+                    "platform": 1,
+                    "name": "EL12-qsnake ",
+                    "emoji": []
+                },
+                "bmp": "18c195a00000c120",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1442468253,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "…… ",
+                "capacity": 12161,
+                "poster": {
+                    "id": "9547194",
+                    "platform": 1,
+                    "name": "12-软-王小雨 ",
+                    "emoji": []
+                },
+                "bmp": "18859d800040e221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1442480257,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "居然fly away ",
+                "capacity": 12143,
+                "poster": {
+                    "id": "112831313",
+                    "platform": 1,
+                    "name": "12-计-董羽飞 ",
+                    "emoji": []
+                },
+                "bmp": "38d40da00102d101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

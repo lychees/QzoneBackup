@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1276167528,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "什么意思?这不是夏至未至吗? ",
+                "capacity": 12147,
+                "poster": {
+                    "id": "575973488",
+                    "platform": 1,
+                    "name": "Alter ",
+                    "emoji": []
+                },
+                "bmp": "98d495e00142d001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1276238255,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]现实更残酷。[/ft] ",
+                "capacity": 12148,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

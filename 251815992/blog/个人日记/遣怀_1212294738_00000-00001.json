@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1212301746,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "[ft=#0000ff,3,]你自己写的啊？[/ft]\n[ft=#0000ff,3,]太有才了！！！[/ft] ",
+                "capacity": 12103,
+                "poster": {
+                    "id": "648939812",
+                    "platform": 1,
+                    "name": "　 ",
+                    "emoji": []
+                },
+                "bmp": "1880992000000029",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1212577133,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "[B]人才啊！[/B] ",
+                "capacity": 12153,
+                "poster": {
+                    "id": "494019145",
+                    "platform": 1,
+                    "name": "幸福里。 ",
+                    "emoji": []
+                },
+                "bmp": "18d096a00002c301",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

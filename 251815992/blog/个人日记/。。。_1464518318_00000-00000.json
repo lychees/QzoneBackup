@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1464531670,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "岛老师的知乎名叫什么？ ",
+                "capacity": 12145,
+                "poster": {
+                    "id": "2919834557",
+                    "platform": 1,
+                    "name": "明月清风 ",
+                    "emoji": []
+                },
+                "bmp": "0800948002009401",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

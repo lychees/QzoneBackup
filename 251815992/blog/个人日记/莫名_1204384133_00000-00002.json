@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1204435194,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "......... ",
+                "capacity": 12165,
+                "poster": {
+                    "id": "838515060",
+                    "platform": 1,
+                    "name": "丶心竞 ",
+                    "emoji": []
+                },
+                "bmp": "38549de0050ec001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1204436922,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "\n\n[M]SUCH 我见过最帅的班长[/M]\n[M][url=http://sz.photo.store.qq.com/rurl2=1c82fa4783ee9ff79fadaa52e00d74837efe486896aa242398982a2c936090435b34648ce51a1fbc7b15c63d294f9c9ea6617e1bdb081bc831413951d1ba23d62d29e496d425d058a694ff67d02daf0573115794][img]http://sz.photo.store.qq.com/rurl2=1c82fa4783ee9ff79fadaa52e00d74837efe486896aa242398982a2c936090435b34648ce51a1fbc7b15c63d294f9c9ea6617e1bdb081bc831413951d1ba23d62d29e496d425d058a694ff67d02daf0573115794[/img][/url][/M]\n ",
+                "capacity": 11924,
+                "poster": {
+                    "id": "928897596",
+                    "platform": 1,
+                    "name": "叶雨欣 ",
+                    "emoji": []
+                },
+                "bmp": "18c09c8000006321",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1204524438,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "\n你小子跟他 强悍啊 都跑我楼上39班去了 电脑课 不多说 卡死了 ",
+                "capacity": 12115,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

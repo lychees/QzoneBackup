@@ -1,0 +1,136 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 6,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1429958963,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "你也是程序員[em]e103[/em][em]e103[/em] ",
+                "capacity": 11968,
+                "poster": {
+                    "id": "965999806",
+                    "platform": 1,
+                    "name": "绿_L12_Melon_Mars ",
+                    "emoji": []
+                },
+                "bmp": "1840848000004020",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "291445140",
+                            "name": "Seter ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:965999806,nick:绿_L12_Melon_Mars,who:1,auto:1} 她是程序员安慰师 ",
+                        "postTime": 1429959293,
+                        "id": 1429959293,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "965999806",
+                            "name": "绿_L12_Melon_Mars ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:291445140,nick:Seter,who:1,auto:1} 哇！ ",
+                        "postTime": 1429959598,
+                        "id": 1429959598,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1429961851,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "我没进入，准备明天正式开战 ",
+                "capacity": 12140,
+                "poster": {
+                    "id": "2584468854",
+                    "platform": 1,
+                    "name": "SweetLover ",
+                    "emoji": []
+                },
+                "bmp": "1850958002028101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1429963535,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "[em]e105[/em] ",
+                "capacity": 12145,
+                "poster": {
+                    "id": "568778055",
+                    "platform": 1,
+                    "name": "123456 ",
+                    "emoji": []
+                },
+                "bmp": "18d09da00100c221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1429968432,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "拿不到T恤了、、、 ",
+                "capacity": 12151,
+                "poster": {
+                    "id": "1465911315",
+                    "platform": 1,
+                    "name": "[jsu]acmer ",
+                    "emoji": []
+                },
+                "bmp": "08509d880202e221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1429974090,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "第三题DP吧… ",
+                "capacity": 12156,
+                "poster": {
+                    "id": "506938499",
+                    "platform": 1,
+                    "name": "孙嘉裕 ",
+                    "emoji": []
+                },
+                "bmp": "18519d840000c121",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 6,
+                "postTime": 1429975859,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "-_-||都没注意编程之美开始了。。。又错过了一个一轮游的赛事 ",
+                "capacity": 12111,
+                "poster": {
+                    "id": "25241274",
+                    "platform": 1,
+                    "name": "七星瓢虫 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00000e101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

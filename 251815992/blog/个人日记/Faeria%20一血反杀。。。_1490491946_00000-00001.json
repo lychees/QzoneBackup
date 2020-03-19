@@ -1,0 +1,57 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1490493210,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "万智牌？！ ",
+                "capacity": 12068,
+                "poster": {
+                    "id": "594837346",
+                    "platform": 1,
+                    "name": "CCG成员 ",
+                    "emoji": []
+                },
+                "bmp": "18c095a00102c481",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "952857610",
+                            "name": "Ria ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:594837346,nick:CCG成员,who:1,auto:1}怎么可能 ",
+                        "postTime": 1490503354,
+                        "id": 1490503354,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1490496068,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "瑟瑟发抖 ",
+                "capacity": 12163,
+                "poster": {
+                    "id": "569620205",
+                    "platform": 1,
+                    "name": " [ ccnu ] Tmono ",
+                    "emoji": []
+                },
+                "bmp": "58d08da8000ec209",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

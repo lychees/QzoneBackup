@@ -1,0 +1,928 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    某个次小生成树问题的其他解法。。
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             某个次小生成树问题的其他解法。。
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2012-12-18 10:56:55
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(28)	è¯è®º(0)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1355846215,
+"voteids":0,
+"pubtime":1355846215,
+"replynum":0,
+"category":"个人日记",
+"title":"某个次小生成树问题的其他解法。。",
+"effect":8389120,
+"effect2":524294,
+"exblogtype":3,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":81177,
+"lp_style":16843520,
+"lp_flag":0,
+"lp_topvalue":0,
+"orguin":251815992,
+"orgblogid":1355846215,
+"mention_uins":[ ],
+"attach":[],"comments":[]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <div>
+                <div>
+                 <div>
+                  <table cellspacing="0" style="WORD-WRAP:break-word;WORD-BREAK:break-all" width="100%">
+                   <tbody>
+                    <tr bgcolor="#f5f8fa" bkindex="2" style="BORDER-BOTTOM-COLOR:#ffffff;BORDER-TOP-COLOR:#ffffff;BORDER-RIGHT-COLOR:#ffffff;BORDER-LEFT-COLOR:#ffffff">
+                     <td style="BORDER-BOTTOM:#8ec3eb 1px solid;PADDING-LEFT:10px;MARGIN-BOTTOM:5px;HEIGHT:24px;COLOR:#3568bb;FONT-WEIGHT:bold">
+                      日期:2012-12-18
+                     </td>
+                    </tr>
+                    <tr bgcolor="#f5f8fa" bkindex="2" dcount="1" style="BORDER-BOTTOM-COLOR:#f5f8fa;BORDER-TOP-COLOR:#f5f8fa;BORDER-RIGHT-COLOR:#f5f8fa;BORDER-LEFT-COLOR:#f5f8fa">
+                     <td>
+                      <div style="PADDING-LEFT:10px;COLOR:#006efe">
+                       <font style="FONT-FAMILY:'宋体';FONT-SIZE:12px">
+                        <div style="FLOAT:left;MARGIN-RIGHT:3px">
+                         Homura的亡灵 23:43:52
+                        </div>
+                       </font>
+                      </div>
+                      <div>
+                       <font color="#ff8080" style="FONT-FAMILY:'宋体','MS Sans Serif',sans-serif;FONT-SIZE:9pt">
+                        <a target="_blank">
+                         http://bbs.byr.cn/#!article/ACM_ICPC/67398
+                        </a>
+                       </font>
+                       <font color="#ff8080" style="FONT-FAMILY:'宋体','MS Sans Serif',sans-serif;FONT-SIZE:9pt">
+                        <br/>
+                       </font>
+                       <font color="#ff8080" style="FONT-FAMILY:'宋体','MS Sans Serif',sans-serif;FONT-SIZE:9pt">
+                        <a target="_blank">
+                         http://acm.hust.edu.cn:8080/judge/problem/viewSource.action?id=404133
+                        </a>
+                       </font>
+                      </div>
+                     </td>
+                    </tr>
+                    <tr bgcolor="#f5f8fa" bkindex="1" dcount="1" style="BORDER-BOTTOM-COLOR:#f5f8fa;BORDER-TOP-COLOR:#f5f8fa;BORDER-RIGHT-COLOR:#f5f8fa;BORDER-LEFT-COLOR:#f5f8fa">
+                     <td>
+                      <div style="PADDING-LEFT:10px;COLOR:#42b475">
+                       <font style="FONT-FAMILY:'宋体';FONT-SIZE:12px">
+                        <div style="FLOAT:left;MARGIN-RIGHT:3px">
+                         废怯少女小岛子 23:45:00
+                        </div>
+                       </font>
+                      </div>
+                      <div>
+                       <font color="#600000" style="FONT-FAMILY:'新宋体','MS Sans Serif',sans-serif;FONT-SIZE:11pt">
+                        无。
+                       </font>
+                      </div>
+                     </td>
+                    </tr>
+                    <tr bgcolor="#f5f8fa" bkindex="1" dcount="1" style="BORDER-BOTTOM-COLOR:#f5f8fa;BORDER-TOP-COLOR:#f5f8fa;BORDER-RIGHT-COLOR:#f5f8fa;BORDER-LEFT-COLOR:#f5f8fa">
+                     <td>
+                      <div style="PADDING-LEFT:10px;COLOR:#42b475">
+                       <font style="FONT-FAMILY:'宋体';FONT-SIZE:12px">
+                        <div style="FLOAT:left;MARGIN-RIGHT:3px">
+                         废怯少女小岛子 23:45:01
+                        </div>
+                       </font>
+                      </div>
+                      <div>
+                       <font color="#600000" style="FONT-FAMILY:'新宋体','MS Sans Serif',sans-serif;FONT-SIZE:11pt">
+                        唔。
+                       </font>
+                      </div>
+                     </td>
+                    </tr>
+                    <tr bgcolor="#f5f8fa" bkindex="1" dcount="1" style="BORDER-BOTTOM-COLOR:#f5f8fa;BORDER-TOP-COLOR:#f5f8fa;BORDER-RIGHT-COLOR:#f5f8fa;BORDER-LEFT-COLOR:#f5f8fa">
+                     <td>
+                      <div style="PADDING-LEFT:10px;COLOR:#42b475">
+                       <font style="FONT-FAMILY:'宋体';FONT-SIZE:12px">
+                        <div style="FLOAT:left;MARGIN-RIGHT:3px">
+                         废怯少女小岛子 23:45:29
+                        </div>
+                       </font>
+                      </div>
+                      <div>
+                       <font color="#600000" style="FONT-FAMILY:'新宋体','MS Sans Serif',sans-serif;FONT-SIZE:11pt">
+                        次小生成树？
+                       </font>
+                      </div>
+                     </td>
+                    </tr>
+                    <tr bgcolor="#f5f8fa" bkindex="1" dcount="1" style="BORDER-BOTTOM-COLOR:#f5f8fa;BORDER-TOP-COLOR:#f5f8fa;BORDER-RIGHT-COLOR:#f5f8fa;BORDER-LEFT-COLOR:#f5f8fa">
+                     <td>
+                      <div style="PADDING-LEFT:10px;COLOR:#006efe">
+                       <font style="FONT-FAMILY:'宋体';FONT-SIZE:12px">
+                        <div style="FLOAT:left;MARGIN-RIGHT:3px">
+                         Homura的亡灵 23:45:49
+                        </div>
+                       </font>
+                      </div>
+                      <div>
+                       <font color="#ff8080" style="FONT-FAMILY:'宋体','MS Sans Serif',sans-serif;FONT-SIZE:9pt">
+                        是
+                       </font>
+                      </div>
+                     </td>
+                    </tr>
+                    <tr bgcolor="#f5f8fa" bkindex="1" dcount="1" style="BORDER-BOTTOM-COLOR:#f5f8fa;BORDER-TOP-COLOR:#f5f8fa;BORDER-RIGHT-COLOR:#f5f8fa;BORDER-LEFT-COLOR:#f5f8fa">
+                     <td>
+                      <div style="PADDING-LEFT:10px;COLOR:#42b475">
+                       <font style="FONT-FAMILY:'宋体';FONT-SIZE:12px">
+                        <div style="FLOAT:left;MARGIN-RIGHT:3px">
+                         废怯少女小岛子 23:45:54
+                        </div>
+                       </font>
+                      </div>
+                      <div>
+                       <font color="#600000" style="FONT-FAMILY:'新宋体','MS Sans Serif',sans-serif;FONT-SIZE:11pt">
+                        这个算法我好想去年就会。。。
+                       </font>
+                      </div>
+                     </td>
+                    </tr>
+                    <tr bgcolor="#f5f8fa" bkindex="1" dcount="1" style="BORDER-BOTTOM-COLOR:#f5f8fa;BORDER-TOP-COLOR:#f5f8fa;BORDER-RIGHT-COLOR:#f5f8fa;BORDER-LEFT-COLOR:#f5f8fa">
+                     <td>
+                      <div style="PADDING-LEFT:10px;COLOR:#42b475">
+                       <font style="FONT-FAMILY:'宋体';FONT-SIZE:12px">
+                        <div style="FLOAT:left;MARGIN-RIGHT:3px">
+                         废怯少女小岛子 23:45:58
+                        </div>
+                       </font>
+                      </div>
+                      <div>
+                       <font color="#600000" style="FONT-FAMILY:'新宋体','MS Sans Serif',sans-serif;FONT-SIZE:11pt">
+                        好像‘。。。
+                       </font>
+                      </div>
+                     </td>
+                    </tr>
+                    <tr bgcolor="#f5f8fa" bkindex="1" dcount="1" style="BORDER-BOTTOM-COLOR:#f5f8fa;BORDER-TOP-COLOR:#f5f8fa;BORDER-RIGHT-COLOR:#f5f8fa;BORDER-LEFT-COLOR:#f5f8fa">
+                     <td>
+                      <div style="PADDING-LEFT:10px;COLOR:#006efe">
+                       <font style="FONT-FAMILY:'宋体';FONT-SIZE:12px">
+                        <div style="FLOAT:left;MARGIN-RIGHT:3px">
+                         Homura的亡灵 23:45:55
+                        </div>
+                       </font>
+                      </div>
+                      <div>
+                       <font color="#ff8080" style="FONT-FAMILY:'宋体','MS Sans Serif',sans-serif;FONT-SIZE:9pt">
+                        但是可以映射到另外一个问题
+                       </font>
+                      </div>
+                     </td>
+                    </tr>
+                    <tr bgcolor="#f5f8fa" bkindex="1" dcount="1" style="BORDER-BOTTOM-COLOR:#f5f8fa;BORDER-TOP-COLOR:#f5f8fa;BORDER-RIGHT-COLOR:#f5f8fa;BORDER-LEFT-COLOR:#f5f8fa">
+                     <td>
+                      <div style="PADDING-LEFT:10px;COLOR:#42b475">
+                       <font style="FONT-FAMILY:'宋体';FONT-SIZE:12px">
+                        <div style="FLOAT:left;MARGIN-RIGHT:3px">
+                         废怯少女小岛子 23:46:08
+                        </div>
+                       </font>
+                      </div>
+                      <div>
+                       <font color="#600000" style="FONT-FAMILY:'新宋体','MS Sans Serif',sans-serif;FONT-SIZE:11pt">
+                        当时 Fuzhou 网络赛险些拿这个区做 F 题。。
+                       </font>
+                      </div>
+                     </td>
+                    </tr>
+                    <tr bgcolor="#f5f8fa" bkindex="1" dcount="1" style="BORDER-BOTTOM-COLOR:#f5f8fa;BORDER-TOP-COLOR:#f5f8fa;BORDER-RIGHT-COLOR:#f5f8fa;BORDER-LEFT-COLOR:#f5f8fa">
+                     <td>
+                      <div style="PADDING-LEFT:10px;COLOR:#42b475">
+                       <font style="FONT-FAMILY:'宋体';FONT-SIZE:12px">
+                        <div style="FLOAT:left;MARGIN-RIGHT:3px">
+                         废怯少女小岛子 23:46:13
+                        </div>
+                       </font>
+                      </div>
+                      <div>
+                       <font color="#600000" style="FONT-FAMILY:'新宋体','MS Sans Serif',sans-serif;FONT-SIZE:11pt">
+                        （做了的话就 A 掉了。。
+                       </font>
+                      </div>
+                     </td>
+                    </tr>
+                    <tr bgcolor="#f5f8fa" bkindex="1" dcount="1" style="BORDER-BOTTOM-COLOR:#f5f8fa;BORDER-TOP-COLOR:#f5f8fa;BORDER-RIGHT-COLOR:#f5f8fa;BORDER-LEFT-COLOR:#f5f8fa">
+                     <td>
+                      <div style="PADDING-LEFT:10px;COLOR:#006efe">
+                       <font style="FONT-FAMILY:'宋体';FONT-SIZE:12px">
+                        <div style="FLOAT:left;MARGIN-RIGHT:3px">
+                         Homura的亡灵 23:46:12
+                        </div>
+                       </font>
+                      </div>
+                      <div>
+                       <font color="#ff8080" style="FONT-FAMILY:'宋体','MS Sans Serif',sans-serif;FONT-SIZE:9pt">
+                        <a target="_blank">
+                         http://acm.bupt.edu.cn/onlinejudge/newoj/showProblem/show_problem.php?problem_id=675
+                        </a>
+                       </font>
+                       <font color="#ff8080" style="FONT-FAMILY:'宋体','MS Sans Serif',sans-serif;FONT-SIZE:9pt">
+                        <br/>
+                        你可以看看这个
+                       </font>
+                      </div>
+                     </td>
+                    </tr>
+                    <tr bgcolor="#f5f8fa" bkindex="1" dcount="1" style="BORDER-BOTTOM-COLOR:#f5f8fa;BORDER-TOP-COLOR:#f5f8fa;BORDER-RIGHT-COLOR:#f5f8fa;BORDER-LEFT-COLOR:#f5f8fa">
+                     <td>
+                      <div style="PADDING-LEFT:10px;COLOR:#42b475">
+                       <font style="FONT-FAMILY:'宋体';FONT-SIZE:12px">
+                        <div style="FLOAT:left;MARGIN-RIGHT:3px">
+                         废怯少女小岛子 23:46:40
+                        </div>
+                       </font>
+                      </div>
+                      <div>
+                       <font color="#600000" style="FONT-FAMILY:'新宋体','MS Sans Serif',sans-serif;FONT-SIZE:11pt">
+                        哦呜。
+                       </font>
+                      </div>
+                     </td>
+                    </tr>
+                    <tr bgcolor="#f5f8fa" bkindex="1" dcount="1" style="BORDER-BOTTOM-COLOR:#f5f8fa;BORDER-TOP-COLOR:#f5f8fa;BORDER-RIGHT-COLOR:#f5f8fa;BORDER-LEFT-COLOR:#f5f8fa">
+                     <td>
+                      <div style="PADDING-LEFT:10px;COLOR:#42b475">
+                       <font style="FONT-FAMILY:'宋体';FONT-SIZE:12px">
+                        <div style="FLOAT:left;MARGIN-RIGHT:3px">
+                         废怯少女小岛子 23:47:09
+                        </div>
+                       </font>
+                      </div>
+                      <div>
+                       <font color="#600000" style="FONT-FAMILY:'新宋体','MS Sans Serif',sans-serif;FONT-SIZE:11pt">
+                        <a target="_blank">
+                         http://www.shuizilong.com/house/archives/hdu-4126-genghis-khan-the-conqueror/
+                        </a>
+                       </font>
+                      </div>
+                     </td>
+                    </tr>
+                    <tr bgcolor="#f5f8fa" bkindex="1" dcount="1" style="BORDER-BOTTOM-COLOR:#f5f8fa;BORDER-TOP-COLOR:#f5f8fa;BORDER-RIGHT-COLOR:#f5f8fa;BORDER-LEFT-COLOR:#f5f8fa">
+                     <td>
+                      <div style="PADDING-LEFT:10px;COLOR:#006efe">
+                       <font style="FONT-FAMILY:'宋体';FONT-SIZE:12px">
+                        <div style="FLOAT:left;MARGIN-RIGHT:3px">
+                         Homura的亡灵 23:47:42
+                        </div>
+                       </font>
+                      </div>
+                      <div>
+                       <font color="#ff8080" style="FONT-FAMILY:'宋体','MS Sans Serif',sans-serif;FONT-SIZE:9pt">
+                        不是
+                       </font>
+                      </div>
+                     </td>
+                    </tr>
+                    <tr bgcolor="#f5f8fa" bkindex="1" dcount="1" style="BORDER-BOTTOM-COLOR:#f5f8fa;BORDER-TOP-COLOR:#f5f8fa;BORDER-RIGHT-COLOR:#f5f8fa;BORDER-LEFT-COLOR:#f5f8fa">
+                     <td>
+                      <div style="PADDING-LEFT:10px;COLOR:#006efe">
+                       <font style="FONT-FAMILY:'宋体';FONT-SIZE:12px">
+                        <div style="FLOAT:left;MARGIN-RIGHT:3px">
+                         Homura的亡灵 23:47:57
+                        </div>
+                       </font>
+                      </div>
+                      <div>
+                       <font color="#ff8080" style="FONT-FAMILY:'宋体','MS Sans Serif',sans-serif;FONT-SIZE:9pt">
+                        这个次小生成树跟另外一个问题有联系
+                       </font>
+                      </div>
+                     </td>
+                    </tr>
+                    <tr bgcolor="#f5f8fa" bkindex="1" dcount="1" style="BORDER-BOTTOM-COLOR:#f5f8fa;BORDER-TOP-COLOR:#f5f8fa;BORDER-RIGHT-COLOR:#f5f8fa;BORDER-LEFT-COLOR:#f5f8fa">
+                     <td>
+                      <div style="PADDING-LEFT:10px;COLOR:#42b475">
+                       <font style="FONT-FAMILY:'宋体';FONT-SIZE:12px">
+                        <div style="FLOAT:left;MARGIN-RIGHT:3px">
+                         废怯少女小岛子 23:48:15
+                        </div>
+                       </font>
+                      </div>
+                      <div>
+                       <font color="#600000" style="FONT-FAMILY:'新宋体','MS Sans Serif',sans-serif;FONT-SIZE:11pt">
+                        求大意
+                       </font>
+                      </div>
+                     </td>
+                    </tr>
+                    <tr bgcolor="#f5f8fa" bkindex="1" dcount="1" style="BORDER-BOTTOM-COLOR:#f5f8fa;BORDER-TOP-COLOR:#f5f8fa;BORDER-RIGHT-COLOR:#f5f8fa;BORDER-LEFT-COLOR:#f5f8fa">
+                     <td>
+                      <div style="PADDING-LEFT:10px;COLOR:#42b475">
+                       <font style="FONT-FAMILY:'宋体';FONT-SIZE:12px">
+                        <div style="FLOAT:left;MARGIN-RIGHT:3px">
+                         废怯少女小岛子 23:48:20
+                        </div>
+                       </font>
+                      </div>
+                      <div>
+                       <font color="#600000" style="FONT-FAMILY:'新宋体','MS Sans Serif',sans-serif;FONT-SIZE:11pt">
+                        眼睛睁不开了。。
+                       </font>
+                      </div>
+                     </td>
+                    </tr>
+                    <tr bgcolor="#f5f8fa" bkindex="1" dcount="1" style="BORDER-BOTTOM-COLOR:#f5f8fa;BORDER-TOP-COLOR:#f5f8fa;BORDER-RIGHT-COLOR:#f5f8fa;BORDER-LEFT-COLOR:#f5f8fa">
+                     <td>
+                      <div style="PADDING-LEFT:10px;COLOR:#006efe">
+                       <font style="FONT-FAMILY:'宋体';FONT-SIZE:12px">
+                        <div style="FLOAT:left;MARGIN-RIGHT:3px">
+                         Homura的亡灵 23:50:12
+                        </div>
+                       </font>
+                      </div>
+                      <div>
+                       <font color="#ff8080" style="FONT-FAMILY:'宋体','MS Sans Serif',sans-serif;FONT-SIZE:9pt">
+                        给定一个图的单源（源为s）的最短路径树
+                        <br/>
+                        问删掉树上的某条边(u, v)（令u为v的前继），问此时s到v的最短路。
+                        <br/>
+                        10w次询问
+                       </font>
+                      </div>
+                     </td>
+                    </tr>
+                    <tr bgcolor="#f5f8fa" bkindex="1" dcount="1" style="BORDER-BOTTOM-COLOR:#f5f8fa;BORDER-TOP-COLOR:#f5f8fa;BORDER-RIGHT-COLOR:#f5f8fa;BORDER-LEFT-COLOR:#f5f8fa">
+                     <td>
+                      <div style="PADDING-LEFT:10px;COLOR:#006efe">
+                       <font style="FONT-FAMILY:'宋体';FONT-SIZE:12px">
+                        <div style="FLOAT:left;MARGIN-RIGHT:3px">
+                         Homura的亡灵 23:50:21
+                        </div>
+                       </font>
+                      </div>
+                      <div>
+                       <font color="#ff8080" style="FONT-FAMILY:'宋体','MS Sans Serif',sans-serif;FONT-SIZE:9pt">
+                        无向图
+                       </font>
+                      </div>
+                     </td>
+                    </tr>
+                    <tr bgcolor="#f5f8fa" bkindex="1" dcount="1" style="BORDER-BOTTOM-COLOR:#f5f8fa;BORDER-TOP-COLOR:#f5f8fa;BORDER-RIGHT-COLOR:#f5f8fa;BORDER-LEFT-COLOR:#f5f8fa">
+                     <td>
+                      <div style="PADDING-LEFT:10px;COLOR:#42b475">
+                       <font style="FONT-FAMILY:'宋体';FONT-SIZE:12px">
+                        <div style="FLOAT:left;MARGIN-RIGHT:3px">
+                         废怯少女小岛子 23:50:37
+                        </div>
+                       </font>
+                      </div>
+                      <div>
+                       <font color="#600000" style="FONT-FAMILY:'新宋体','MS Sans Serif',sans-serif;FONT-SIZE:11pt">
+                        哦。
+                       </font>
+                      </div>
+                     </td>
+                    </tr>
+                    <tr bgcolor="#f5f8fa" bkindex="1" dcount="1" style="BORDER-BOTTOM-COLOR:#f5f8fa;BORDER-TOP-COLOR:#f5f8fa;BORDER-RIGHT-COLOR:#f5f8fa;BORDER-LEFT-COLOR:#f5f8fa">
+                     <td>
+                      <div style="PADDING-LEFT:10px;COLOR:#006efe">
+                       <font style="FONT-FAMILY:'宋体';FONT-SIZE:12px">
+                        <div style="FLOAT:left;MARGIN-RIGHT:3px">
+                         Homura的亡灵 23:50:47
+                        </div>
+                       </font>
+                      </div>
+                      <div>
+                       <font color="#ff8080" style="FONT-FAMILY:'宋体','MS Sans Serif',sans-serif;FONT-SIZE:9pt">
+                        这个题还有左偏树的做法
+                       </font>
+                      </div>
+                     </td>
+                    </tr>
+                    <tr bgcolor="#f5f8fa" bkindex="1" dcount="1" style="BORDER-BOTTOM-COLOR:#f5f8fa;BORDER-TOP-COLOR:#f5f8fa;BORDER-RIGHT-COLOR:#f5f8fa;BORDER-LEFT-COLOR:#f5f8fa">
+                     <td>
+                      <div style="PADDING-LEFT:10px;COLOR:#42b475">
+                       <font style="FONT-FAMILY:'宋体';FONT-SIZE:12px">
+                        <div style="FLOAT:left;MARGIN-RIGHT:3px">
+                         废怯少女小岛子 23:50:53
+                        </div>
+                       </font>
+                      </div>
+                      <div>
+                       <font color="#600000" style="FONT-FAMILY:'新宋体','MS Sans Serif',sans-serif;FONT-SIZE:11pt">
+                        这个题是 Beijing Team Select 里得一个题。。。
+                       </font>
+                      </div>
+                     </td>
+                    </tr>
+                    <tr bgcolor="#f5f8fa" bkindex="1" dcount="1" style="BORDER-BOTTOM-COLOR:#f5f8fa;BORDER-TOP-COLOR:#f5f8fa;BORDER-RIGHT-COLOR:#f5f8fa;BORDER-LEFT-COLOR:#f5f8fa">
+                     <td>
+                      <div style="PADDING-LEFT:10px;COLOR:#42b475">
+                       <font style="FONT-FAMILY:'宋体';FONT-SIZE:12px">
+                        <div style="FLOAT:left;MARGIN-RIGHT:3px">
+                         废怯少女小岛子 23:51:12
+                        </div>
+                       </font>
+                      </div>
+                      <div>
+                       <font color="#600000" style="FONT-FAMILY:'新宋体','MS Sans Serif',sans-serif;FONT-SIZE:11pt">
+                        最初我和 doc 就是在讨论那个题的解法时。。得到了那个球最小生成树的算法。。。
+                       </font>
+                      </div>
+                     </td>
+                    </tr>
+                    <tr bgcolor="#f5f8fa" bkindex="1" dcount="1" style="BORDER-BOTTOM-COLOR:#f5f8fa;BORDER-TOP-COLOR:#f5f8fa;BORDER-RIGHT-COLOR:#f5f8fa;BORDER-LEFT-COLOR:#f5f8fa">
+                     <td>
+                      <div style="PADDING-LEFT:10px;COLOR:#006efe">
+                       <font style="FONT-FAMILY:'宋体';FONT-SIZE:12px">
+                        <div style="FLOAT:left;MARGIN-RIGHT:3px">
+                         Homura的亡灵 23:51:12
+                        </div>
+                       </font>
+                      </div>
+                      <div>
+                       <font color="#ff8080" style="FONT-FAMILY:'宋体','MS Sans Serif',sans-serif;FONT-SIZE:9pt">
+                        以及lca的做法
+                       </font>
+                      </div>
+                     </td>
+                    </tr>
+                    <tr bgcolor="#f5f8fa" bkindex="1" dcount="1" style="BORDER-BOTTOM-COLOR:#f5f8fa;BORDER-TOP-COLOR:#f5f8fa;BORDER-RIGHT-COLOR:#f5f8fa;BORDER-LEFT-COLOR:#f5f8fa">
+                     <td>
+                      <div style="PADDING-LEFT:10px;COLOR:#42b475">
+                       <font style="FONT-FAMILY:'宋体';FONT-SIZE:12px">
+                        <div style="FLOAT:left;MARGIN-RIGHT:3px">
+                         废怯少女小岛子 23:51:35
+                        </div>
+                       </font>
+                      </div>
+                      <div>
+                       <font color="#600000" style="FONT-FAMILY:'新宋体','MS Sans Serif',sans-serif;FONT-SIZE:11pt">
+                        唔。。看来果然还是没有研究透彻啊。。
+                       </font>
+                      </div>
+                     </td>
+                    </tr>
+                    <tr bgcolor="#f5f8fa" bkindex="1" dcount="1" style="BORDER-BOTTOM-COLOR:#f5f8fa;BORDER-TOP-COLOR:#f5f8fa;BORDER-RIGHT-COLOR:#f5f8fa;BORDER-LEFT-COLOR:#f5f8fa">
+                     <td>
+                      <div style="PADDING-LEFT:10px;COLOR:#006efe">
+                       <font style="FONT-FAMILY:'宋体';FONT-SIZE:12px">
+                        <div style="FLOAT:left;MARGIN-RIGHT:3px">
+                         Homura的亡灵 23:51:32
+                        </div>
+                       </font>
+                      </div>
+                      <div>
+                       <font color="#ff8080" style="FONT-FAMILY:'宋体','MS Sans Serif',sans-serif;FONT-SIZE:9pt">
+                        ...原来是你发明的orz
+                       </font>
+                      </div>
+                     </td>
+                    </tr>
+                    <tr bgcolor="#f5f8fa" bkindex="1" dcount="1" style="BORDER-BOTTOM-COLOR:#f5f8fa;BORDER-TOP-COLOR:#f5f8fa;BORDER-RIGHT-COLOR:#f5f8fa;BORDER-LEFT-COLOR:#f5f8fa">
+                     <td>
+                      <div style="PADDING-LEFT:10px;COLOR:#42b475">
+                       <font style="FONT-FAMILY:'宋体';FONT-SIZE:12px">
+                        <div style="FLOAT:left;MARGIN-RIGHT:3px">
+                         废怯少女小岛子 23:51:39
+                        </div>
+                       </font>
+                      </div>
+                      <div>
+                       <font color="#600000" style="FONT-FAMILY:'新宋体','MS Sans Serif',sans-serif;FONT-SIZE:11pt">
+                        球详细。
+                       </font>
+                      </div>
+                     </td>
+                    </tr>
+                    <tr bgcolor="#f5f8fa" bkindex="1" dcount="1" style="BORDER-BOTTOM-COLOR:#f5f8fa;BORDER-TOP-COLOR:#f5f8fa;BORDER-RIGHT-COLOR:#f5f8fa;BORDER-LEFT-COLOR:#f5f8fa">
+                     <td>
+                      <div style="PADDING-LEFT:10px;COLOR:#006efe">
+                       <font style="FONT-FAMILY:'宋体';FONT-SIZE:12px">
+                        <div style="FLOAT:left;MARGIN-RIGHT:3px">
+                         Homura的亡灵 23:51:47
+                        </div>
+                       </font>
+                      </div>
+                      <div>
+                       <font color="#ff8080" style="FONT-FAMILY:'宋体','MS Sans Serif',sans-serif;FONT-SIZE:9pt">
+                        一下讲不清楚
+                       </font>
+                      </div>
+                     </td>
+                    </tr>
+                    <tr bgcolor="#f5f8fa" bkindex="1" dcount="1" style="BORDER-BOTTOM-COLOR:#f5f8fa;BORDER-TOP-COLOR:#f5f8fa;BORDER-RIGHT-COLOR:#f5f8fa;BORDER-LEFT-COLOR:#f5f8fa">
+                     <td>
+                      <div style="PADDING-LEFT:10px;COLOR:#006efe">
+                       <font style="FONT-FAMILY:'宋体';FONT-SIZE:12px">
+                        <div style="FLOAT:left;MARGIN-RIGHT:3px">
+                         Homura的亡灵 23:52:07
+                        </div>
+                       </font>
+                      </div>
+                      <div>
+                       <font color="#ff8080" style="FONT-FAMILY:'宋体','MS Sans Serif',sans-serif;FONT-SIZE:9pt">
+                        可以理解为排序lca是离线，左偏树是在线
+                       </font>
+                      </div>
+                     </td>
+                    </tr>
+                    <tr bgcolor="#f5f8fa" bkindex="1" dcount="1" style="BORDER-BOTTOM-COLOR:#f5f8fa;BORDER-TOP-COLOR:#f5f8fa;BORDER-RIGHT-COLOR:#f5f8fa;BORDER-LEFT-COLOR:#f5f8fa">
+                     <td>
+                      <div style="PADDING-LEFT:10px;COLOR:#42b475">
+                       <font style="FONT-FAMILY:'宋体';FONT-SIZE:12px">
+                        <div style="FLOAT:left;MARGIN-RIGHT:3px">
+                         废怯少女小岛子 23:52:22
+                        </div>
+                       </font>
+                      </div>
+                      <div>
+                       <font color="#600000" style="FONT-FAMILY:'新宋体','MS Sans Serif',sans-serif;FONT-SIZE:11pt">
+                        球左偏树做法的链接。。我先 Mark。。。。。
+                       </font>
+                      </div>
+                     </td>
+                    </tr>
+                   </tbody>
+                  </table>
+                 </div>
+                </div>
+                <div>
+                 <a href="http://acm.hust.edu.cn:8080/judge/problem/viewSource.action?id=866991" target="_blank">
+                 </a>
+                 <br/>
+                </div>
+                ....
+                <br/>
+                <br/>
+                <div>
+                 <table cellspacing="0" style="WORD-WRAP:break-word;WORD-BREAK:break-all" width="100%">
+                  <tbody>
+                   <tr bgcolor="#f5f8fa" bkindex="1" dcount="1" style="BORDER-BOTTOM-COLOR:#f5f8fa;BORDER-TOP-COLOR:#f5f8fa;BORDER-RIGHT-COLOR:#f5f8fa;BORDER-LEFT-COLOR:#f5f8fa">
+                    <td>
+                     <div style="PADDING-LEFT:10px;COLOR:#42b475">
+                      <font style="FONT-FAMILY:'宋体';FONT-SIZE:12px">
+                       <div style="FLOAT:left;MARGIN-RIGHT:3px">
+                        废怯少女小岛子 23:53:37
+                       </div>
+                      </font>
+                     </div>
+                     <div>
+                      <font color="#600000" style="FONT-FAMILY:'新宋体','MS Sans Serif',sans-serif;FONT-SIZE:11pt">
+                       <a target="_blank">
+                        http://paste.ubuntu.com/
+                       </a>
+                      </font>
+                     </div>
+                    </td>
+                   </tr>
+                   <tr bgcolor="#f5f8fa" bkindex="1" dcount="1" style="BORDER-BOTTOM-COLOR:#fafbfb;BORDER-TOP-COLOR:#fafbfb;BORDER-RIGHT-COLOR:#fafbfb;BORDER-LEFT-COLOR:#fafbfb">
+                    <td style="BORDER-BOTTOM:#fafbfb 1px solid;BORDER-LEFT:#fafbfb 1px solid;BORDER-TOP:#fafbfb 1px solid;BORDER-RIGHT:#fafbfb 1px solid">
+                     <div style="PADDING-LEFT:10px;COLOR:#42b475">
+                      <font style="FONT-FAMILY:'宋体';FONT-SIZE:12px">
+                       <div style="FLOAT:left;MARGIN-RIGHT:3px">
+                        废怯少女小岛子 23:54:07
+                       </div>
+                      </font>
+                     </div>
+                     <div>
+                      <font color="#600000" style="FONT-FAMILY:'新宋体','MS Sans Serif',sans-serif;FONT-SIZE:11pt">
+                       用这个。。贴个链接。。。然后我记在 Todo list 里。。。
+                      </font>
+                     </div>
+                    </td>
+                   </tr>
+                   <tr bgcolor="#f5f8fa" bkindex="1" dcount="1" style="BORDER-BOTTOM-COLOR:#fafbfb;BORDER-TOP-COLOR:#fafbfb;BORDER-RIGHT-COLOR:#fafbfb;BORDER-LEFT-COLOR:#fafbfb">
+                    <td style="BORDER-BOTTOM:#fafbfb 1px solid;BORDER-LEFT:#fafbfb 1px solid;BORDER-TOP:#fafbfb 1px solid;BORDER-RIGHT:#fafbfb 1px solid">
+                     <div style="PADDING-LEFT:10px;COLOR:#42b475">
+                      <font style="FONT-FAMILY:'宋体';FONT-SIZE:12px">
+                       <div style="FLOAT:left;MARGIN-RIGHT:3px">
+                        废怯少女小岛子 23:54:13
+                       </div>
+                      </font>
+                     </div>
+                     <div>
+                      <font color="#600000" style="FONT-FAMILY:'新宋体','MS Sans Serif',sans-serif;FONT-SIZE:11pt">
+                       现在在网吧。。。
+                      </font>
+                     </div>
+                    </td>
+                   </tr>
+                   <tr bgcolor="#f5f8fa" bkindex="1" dcount="1" style="BORDER-BOTTOM-COLOR:#f5f8fa;BORDER-TOP-COLOR:#f5f8fa;BORDER-RIGHT-COLOR:#f5f8fa;BORDER-LEFT-COLOR:#f5f8fa">
+                    <td style="BORDER-BOTTOM:#b2d6f0 1px solid;BORDER-LEFT:#b2d6f0 1px solid;BORDER-TOP:#b2d6f0 1px solid;BORDER-RIGHT:#b2d6f0 1px solid">
+                     <div style="PADDING-LEFT:10px;COLOR:#006efe">
+                      <font style="FONT-FAMILY:'宋体';FONT-SIZE:12px">
+                       <div style="FLOAT:left;MARGIN-RIGHT:3px">
+                        Homura的亡灵 23:54:32
+                       </div>
+                      </font>
+                     </div>
+                     <div>
+                      <font color="#ff8080" style="FONT-FAMILY:'宋体','MS Sans Serif',sans-serif;FONT-SIZE:9pt">
+                       连不上我贴hust吧
+                       <br/>
+                      </font>
+                      <font color="#ff8080" style="FONT-FAMILY:'宋体','MS Sans Serif',sans-serif;FONT-SIZE:9pt">
+                       <a target="_blank">
+                        http://acm.hust.edu.cn:8080/judge/problem/viewSource.action?id=866991
+                       </a>
+                      </font>
+                     </div>
+                    </td>
+                   </tr>
+                   <tr bgcolor="#f5f8fa" bkindex="1" dcount="1" style="BORDER-BOTTOM-COLOR:#fafbfb;BORDER-TOP-COLOR:#fafbfb;BORDER-RIGHT-COLOR:#fafbfb;BORDER-LEFT-COLOR:#fafbfb">
+                    <td style="BORDER-BOTTOM:#fafbfb 1px solid;BORDER-LEFT:#fafbfb 1px solid;BORDER-TOP:#fafbfb 1px solid;BORDER-RIGHT:#fafbfb 1px solid">
+                     <div style="PADDING-LEFT:10px;COLOR:#42b475">
+                      <font style="FONT-FAMILY:'宋体';FONT-SIZE:12px">
+                       <div style="FLOAT:left;MARGIN-RIGHT:3px">
+                        废怯少女小岛子 23:54:46
+                       </div>
+                      </font>
+                     </div>
+                     <div>
+                      <font color="#600000" style="FONT-FAMILY:'新宋体','MS Sans Serif',sans-serif;FONT-SIZE:11pt">
+                       嗯。
+                      </font>
+                     </div>
+                    </td>
+                   </tr>
+                  </tbody>
+                 </table>
+                </div>
+                <br/>
+               </div>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

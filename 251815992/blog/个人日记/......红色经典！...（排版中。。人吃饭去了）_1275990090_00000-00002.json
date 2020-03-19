@@ -1,0 +1,61 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1275990328,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]话说大富翁4我相当喜欢，而且现在还在玩……[/ft]\n[ft=,2,]经典需要流行的~[/ft] ",
+                "capacity": 12087,
+                "poster": {
+                    "id": "1227061027",
+                    "platform": 1,
+                    "name": "UndefinedZZK ",
+                    "emoji": []
+                },
+                "bmp": "185195a00100c401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1275993603,
+                "effect": 524288,
+                "replyNum": 0,
+                "content": "隐藏人物们呢？ ",
+                "capacity": 12137,
+                "poster": {
+                    "id": "c265e4bd629300c5e0b59762f61a3dfaadc4158b389bc83e",
+                    "platform": 2,
+                    "name": "金天"
+                },
+                "bmp": "0000000000000000",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1275999617,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "nethack们呢 ",
+                "capacity": 12160,
+                "poster": {
+                    "id": "443164766",
+                    "platform": 1,
+                    "name": "\"zrp\" ",
+                    "emoji": []
+                },
+                "bmp": "088094a10000c301",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

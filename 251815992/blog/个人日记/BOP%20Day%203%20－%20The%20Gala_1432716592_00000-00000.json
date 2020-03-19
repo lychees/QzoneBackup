@@ -1,0 +1,40 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1432782710,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "ym冠军岛！ ",
+                "capacity": 12067,
+                "poster": {
+                    "id": "479447834",
+                    "platform": 1,
+                    "name": " ",
+                    "emoji": []
+                },
+                "bmp": "18c195a00100a201",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:479447834,nick:.调参者 ,who:1,auto:1}叉老师带我。。 ",
+                        "postTime": 1432783092,
+                        "id": 1432783092,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

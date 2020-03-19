@@ -1,0 +1,164 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 7,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1438578281,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "太厉害了 ",
+                "capacity": 12110,
+                "poster": {
+                    "id": "624050143",
+                    "platform": 1,
+                    "name": "倪亦帅 ",
+                    "emoji": []
+                },
+                "bmp": "18d48da80002c201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1438579864,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "阿里直接去算法啦.... ",
+                "capacity": 12148,
+                "poster": {
+                    "id": "835485368",
+                    "platform": 1,
+                    "name": "软饭-熊熊 ",
+                    "emoji": []
+                },
+                "bmp": "18d4cde40902e201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1438579948,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "膜膜膜！ ",
+                "capacity": 12161,
+                "poster": {
+                    "id": "804589463",
+                    "platform": 1,
+                    "name": "[小学组]Evensgn ",
+                    "emoji": []
+                },
+                "bmp": "98849d800802c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1438580364,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "Orz ",
+                "capacity": 12161,
+                "poster": {
+                    "id": "1522336199",
+                    "platform": 1,
+                    "name": "12-计-宋文飞 ",
+                    "emoji": []
+                },
+                "bmp": "08809d8002024001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1438589982,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "你想去哪家啊？ ",
+                "capacity": 12152,
+                "poster": {
+                    "id": "489271171",
+                    "platform": 1,
+                    "name": "突然华尔兹 ",
+                    "emoji": []
+                },
+                "bmp": "18959da00000c201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 6,
+                "postTime": 1438590799,
+                "effect": 1056,
+                "replyNum": 3,
+                "content": "(⊙o⊙)哦。。排序的时候比较a+b和b+a就行了 ",
+                "capacity": 11644,
+                "poster": {
+                    "id": "624050143",
+                    "platform": 1,
+                    "name": "倪亦帅 ",
+                    "emoji": []
+                },
+                "bmp": "18d48da80002c201",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:624050143,nick:倪亦帅,auto:1} 怎么证。。 ",
+                        "postTime": 1438598620,
+                        "id": 1438598620,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:624050143,nick:倪亦帅,auto:1} 我这么回答的然后说我不会证这是正解吗。。。。然后 hr 说是的我也不会证。。 ",
+                        "postTime": 1438598659,
+                        "id": 1438598659,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "624050143",
+                            "name": "倪亦帅 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1} 因为每一步都是贪心，如果有最优的那就选择最优的，直到遇到ab等于ba的一组数，可以证明这些数有公约子串，不管怎么连都等价，所以顺序无所谓 ",
+                        "postTime": 1438600953,
+                        "id": 1438600953,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "postTime": 1438609139,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "JaneStreet[em]e102[/em] ",
+                "capacity": 12147,
+                "poster": {
+                    "id": "938286388",
+                    "platform": 1,
+                    "name": "卮客 ",
+                    "emoji": []
+                },
+                "bmp": "38d5dde80910e101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

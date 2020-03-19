@@ -1,0 +1,102 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1381537274,
+                "effect": 1056,
+                "replyNum": 4,
+                "content": "要参加哪场。。。？ ",
+                "capacity": 11867,
+                "poster": {
+                    "id": "934254801",
+                    "platform": 1,
+                    "name": "little_w ",
+                    "emoji": []
+                },
+                "bmp": "085095a80002e401",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:934254801,nick:little_w,who:1,auto:1}2、3、5。 ",
+                        "postTime": 1381562717,
+                        "id": 1381562717,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "934254801",
+                            "name": "little_w ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1}一队？ ",
+                        "postTime": 1381574216,
+                        "id": 1381574216,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:934254801,nick:little_w,who:1,auto:1}炮灰。 ",
+                        "postTime": 1381574746,
+                        "id": 1381574746,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "934254801",
+                            "name": "little_w ",
+                            "platform": 1
+                        },
+                        "content": "orz... ",
+                        "postTime": 1381574833,
+                        "id": 1381574833,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1381543695,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "那个东西早就出过了。。。 ",
+                "capacity": 12051,
+                "poster": {
+                    "id": "826513189",
+                    "platform": 1,
+                    "name": "叉姐 ",
+                    "emoji": []
+                },
+                "bmp": "988095a80000e201",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:826513189,nick:叉姐,auto:1} 求题号呀求题号。。\n ",
+                        "postTime": 1381562373,
+                        "id": 1381562373,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

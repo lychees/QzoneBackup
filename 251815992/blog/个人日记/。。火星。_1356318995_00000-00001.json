@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1356320137,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "岛娘开始研究cdq分治和动态凸包了。。 ",
+                "capacity": 12138,
+                "poster": {
+                    "id": "1248417113",
+                    "platform": 1,
+                    "name": "Abandoned ",
+                    "emoji": []
+                },
+                "bmp": "0810958002008101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1356331062,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,3,]赞l[ft=,3,]ink[/ft][/ft] ",
+                "capacity": 12138,
+                "poster": {
+                    "id": "945637290",
+                    "platform": 1,
+                    "name": "糖果 ",
+                    "emoji": []
+                },
+                "bmp": "088495800000d001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

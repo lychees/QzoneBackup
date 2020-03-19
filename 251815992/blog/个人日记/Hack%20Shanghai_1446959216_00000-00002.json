@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1446992958,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "反对，湖大周围还挺热闹的。。国防那边才是荒无人烟[em]e400824[/em] ",
+                "capacity": 12108,
+                "poster": {
+                    "id": "1597119500",
+                    "platform": 1,
+                    "name": "[hnu]喵帕斯 ",
+                    "emoji": []
+                },
+                "bmp": "0814958002024201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1446996300,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "这发黑湖大黑得漂亮。。。 ",
+                "capacity": 12148,
+                "poster": {
+                    "id": "376154626",
+                    "platform": 1,
+                    "name": "乖戾味 ",
+                    "emoji": []
+                },
+                "bmp": "18c595a809009420",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1448733629,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "www，湖大只是建筑物比较分散吧。。。长沙理工大学（湖南省 NOIP 考点）才是穷乡僻壤。。。【笑】 ",
+                "capacity": 12078,
+                "poster": {
+                    "id": "3037754077",
+                    "platform": 1,
+                    "name": "Dashgua ",
+                    "emoji": []
+                },
+                "bmp": "880094800202c101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

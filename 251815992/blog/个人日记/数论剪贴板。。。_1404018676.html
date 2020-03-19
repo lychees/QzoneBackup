@@ -1,0 +1,1499 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    数论剪贴板。。。
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             数论剪贴板。。。
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2014-06-29 01:11:16
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(59)	è¯è®º(0)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1404018676,
+"voteids":0,
+"pubtime":1404018676,
+"replynum":0,
+"category":"个人日记",
+"title":"数论剪贴板。。。",
+"effect":8389120,
+"effect2":524294,
+"exblogtype":3,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":81177,
+"lp_style":16843520,
+"lp_flag":0,
+"lp_topvalue":0,
+"orguin":251815992,
+"orgblogid":1404018676,
+"mention_uins":[ ],
+"attach":[],"comments":[]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <div>
+                <div>
+                 <br/>
+                 <a href="http://www.shuizilong.com/house/archives/mod-p-%E7%BB%84%E5%90%88%E6%95%B0%E3%80%82%E3%80%82/" target="_blank">
+                  http://www.shuizilong.com/house/archives/mod-p-%E7%BB%84%E5%90%88%E6%95%B0%E3%80%82%E3%80%82/
+                 </a>
+                 <br/>
+                 <a href="https://www.hackerrank.com/challenges/ncr" target="_blank">
+                  https://www.hackerrank.com/challenges/ncr
+                 </a>
+                 <br/>
+                 <br/>
+                 //基础包。。
+                </div>
+                <div>
+                 // &lt;&lt;= '2. Number Theory .,//{
+                </div>
+                <div>
+                 namespace NT{
+                </div>
+                <div>
+                 #define gcd __gcd
+                </div>
+                <div>
+                 <div style="margin:0px;padding:0px;font-family:微软雅黑, Tohoma">
+                  inline LL lcm(LL a, LL b){
+                 </div>
+                 <div style="margin:0px;padding:0px;font-family:微软雅黑, Tohoma">
+                  //if (a/gcd(a,b) &gt; ceil(INFF, b)) return INFF;
+                 </div>
+                 <div style="margin:0px;padding:0px;font-family:微软雅黑, Tohoma">
+                  return a/gcd(a,b)*b;
+                 </div>
+                 <div style="margin:0px;padding:0px;font-family:微软雅黑, Tohoma">
+                  }
+                 </div>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 inline void INC(int &amp;a, int b){a += b; if (a &gt;= MOD) a -= MOD;}
+                </div>
+                <div>
+                 inline int sum(int a, int b){a += b; if (a &gt;= MOD) a -= MOD; return a;}
+                </div>
+                <div>
+                 /* 模数两倍刚好超 int 时。
+                </div>
+                <div>
+                 inline int sum(uint a, int b){a += b; a %= MOD;if (a &lt; 0) a += MOD; return a;}
+                </div>
+                <div>
+                 inline void INC(int &amp;a, int b){a = sum(a, b);}
+                </div>
+                <div>
+                 */
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 inline void DEC(int &amp;a, int b){a -= b; if (a &lt; 0) a += MOD;}
+                </div>
+                <div>
+                 inline int dff(int a, int b){a -= b; if (a &lt; 0) a  += MOD; return a;}
+                </div>
+                <div>
+                 inline void MUL(int &amp;a, int b){a = (LL)a * b % MOD;}
+                </div>
+                <div>
+                 inline int pdt(int a, int b){return (LL)a * b % MOD;}
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 inline int gcd(int m, int n, int &amp;x, int &amp;y){
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 x = 1, y = 0; int xx = 0, yy = 1, q;
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 while (1){
+                </div>
+                <div>
+                 q = m / n, m %= n;
+                </div>
+                <div>
+                 if (!m){x = xx, y = yy; return n;}
+                </div>
+                <div>
+                 DEC(x, pdt(q, xx)), DEC(y, pdt(q, yy));
+                </div>
+                <div>
+                 q = n / m, n %= m;
+                </div>
+                <div>
+                 if (!n) return m;
+                </div>
+                <div>
+                 DEC(xx, pdt(q, x)), DEC(yy, pdt(q, y));
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 inline int sum(int a, int b, int c){return sum(a, sum(b, c));}
+                </div>
+                <div>
+                 inline int sum(int a, int b, int c, int d){return sum(sum(a, b), sum(c, d));}
+                </div>
+                <div>
+                 inline int pdt(int a, int b, int c){return pdt(a, pdt(b, c));}
+                </div>
+                <div>
+                 inline int pdt(int a, int b, int c, int d){return pdt(pdt(a, b), pdt(c, d));}
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 inline int pow(int a, LL b){
+                </div>
+                <div>
+                 int c(1); while (b){
+                </div>
+                <div>
+                 if (b&amp;1) MUL(c, a);
+                </div>
+                <div>
+                 MUL(a, a), b &gt;&gt;= 1;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 return c;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 template&lt;class T&gt; inline T pow(T a, LL b){
+                </div>
+                <div>
+                 T c(1); while (b){
+                </div>
+                <div>
+                 if (b&amp;1) c *= a;
+                </div>
+                <div>
+                 a *= a, b &gt;&gt;= 1;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 return c;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 template&lt;class T&gt; inline T pow(T a, int b){
+                </div>
+                <div>
+                 return pow(a, (LL)b);
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 inline int _I(int b){
+                </div>
+                <div>
+                 int a = MOD, x1 = 0, x2 = 1, q; while (1){
+                </div>
+                <div>
+                 q = a / b, a %= b;
+                </div>
+                <div>
+                 if (!a) return x2;
+                </div>
+                <div>
+                 DEC(x1, pdt(q, x2));
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 q = b / a, b %= a;
+                </div>
+                <div>
+                 if (!b) return x1;
+                </div>
+                <div>
+                 DEC(x2, pdt(q, x1));
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 inline void DIV(int &amp;a, int b){MUL(a, _I(b));}
+                </div>
+                <div>
+                 inline int qtt(int a, int b){return pdt(a, _I(b));}
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 } using namespace NT;//}
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 //。。自带取模的环类。。
+                </div>
+                <div>
+                 struct Int{
+                </div>
+                <div>
+                 int val;
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 operator int() const{return val;}
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 Int(int val = 0):val(val){
+                </div>
+                <div>
+                 val %= MOD; if (val &lt; 0) val += MOD;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 Int(LL _val){
+                </div>
+                <div>
+                 _val %= MOD; if (_val &lt; 0) _val += MOD;
+                </div>
+                <div>
+                 val = _val;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 Int&amp; operator +=(const int&amp; rhs){INC(val, rhs);rTs;}
+                </div>
+                <div>
+                 Int operator +(const int&amp; rhs) const{return sum(val, rhs);}
+                </div>
+                <div>
+                 Int&amp; operator -=(const int&amp; rhs){DEC(val, rhs);rTs;}
+                </div>
+                <div>
+                 Int operator -(const int&amp; rhs) const{return dff(val, rhs);}
+                </div>
+                <div>
+                 Int&amp; operator *=(const int&amp; rhs){MUL(val, rhs);rTs;}
+                </div>
+                <div>
+                 Int operator *(const int&amp; rhs) const{return pdt(val, rhs);}
+                </div>
+                <div>
+                 Int&amp; operator /=(const int&amp; rhs){DIV(val, rhs);rTs;}
+                </div>
+                <div>
+                 Int operator /(const int&amp; rhs) const{return qtt(val, rhs);}
+                </div>
+                <div>
+                 Int operator-()const{return MOD-*this;}
+                </div>
+                <div>
+                 };
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 //线性素筛。。
+                </div>
+                <div>
+                 const int PMAX = 46341;
+                </div>
+                <div>
+                 VI P; bitset&lt;PMAX&gt; isC;
+                </div>
+                <div>
+                 #define ii (i*P[j])
+                </div>
+                <div>
+                 void sieve(){
+                </div>
+                <div>
+                 FOR(i, 2, PMAX){
+                </div>
+                <div>
+                 if (!isC[i]) P.PB(i);
+                </div>
+                <div>
+                 for (int j=0;j&lt;SZ(P)&amp;&amp;ii&lt;PMAX;++j){
+                </div>
+                <div>
+                 isC[ii]=1; if (!(i%P[j])) break;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 #undef ii
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 //因数分解。。
+                </div>
+                <div>
+                 VII fac; void fact(int x){
+                </div>
+                <div>
+                 int z = x; fac.clear(); ECH(it, P) if (!(x%*it)){
+                </div>
+                <div>
+                 int c=1; x/=*it; while (!(x%*it)) x/=*it, ++c;
+                </div>
+                <div>
+                 fac.PB(MP(*it, c));
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 if (x!=1) fac.PB(MP(x, 1));
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 //最小素因子。。
+                </div>
+                <div>
+                 const int PMAX = 46341;
+                </div>
+                <div>
+                 VI P; bitset&lt;PMAX&gt; isC; int p[PMAX];
+                </div>
+                <div>
+                 #define ii (i*P[j])
+                </div>
+                <div>
+                 void sieve(){
+                </div>
+                <div>
+                 FOR(i, 2, PMAX){
+                </div>
+                <div>
+                 if (!isC[i]) P.PB(i),p[i]=i;
+                </div>
+                <div>
+                 for (int j=0;j&lt;SZ(P)&amp;&amp;ii&lt;PMAX;++j){
+                </div>
+                <div>
+                 isC[ii]=1; p[ii]=P[j]; if (!(i%P[j])) break;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 #undef ii
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 //欧拉 phi 函数
+                </div>
+                <div>
+                 const int PMAX = 46341;
+                </div>
+                <div>
+                 VI P; bitset&lt;PMAX&gt; isC; int phi[PMAX];
+                </div>
+                <div>
+                 #define ii (i*P[j])
+                </div>
+                <div>
+                 void sieve(){
+                </div>
+                <div>
+                 phi[1] = 1; FOR(i, 2, PMAX){
+                </div>
+                <div>
+                 if (!isC[i]) P.PB(i),phi[i]=i-1;
+                </div>
+                <div>
+                 for (int j=0;j&lt;SZ(P)&amp;&amp;ii&lt;PMAX;++j){
+                </div>
+                <div>
+                 isC[ii]=1;if (!(i%P[j])){
+                </div>
+                <div>
+                 phi[ii] = phi[i]*P[j];
+                </div>
+                <div>
+                 break;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 else{
+                </div>
+                <div>
+                 phi[ii] = phi[i]*P[j]-phi[i];
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 #undef ii
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 //莫比乌斯 mu 函数
+                </div>
+                <div>
+                 const int PMAX = 46341;
+                </div>
+                <div>
+                 VI P; bitset&lt;PMAX&gt; isC; int mu[PMAX];
+                </div>
+                <div>
+                 #define ii (i*P[j])
+                </div>
+                <div>
+                 void sieve(){
+                </div>
+                <div>
+                 mu[1] = 1; FOR(i, 2, PMAX){
+                </div>
+                <div>
+                 if (!isC[i]) P.PB(i),mu[i]=-1;
+                </div>
+                <div>
+                 for (int j=0;j&lt;SZ(P)&amp;&amp;ii&lt;PMAX;++j){
+                </div>
+                <div>
+                 isC[ii]=1;if (!(i%P[j])){
+                </div>
+                <div>
+                 mu[ii] = 0;
+                </div>
+                <div>
+                 break;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 else{
+                </div>
+                <div>
+                 mu[ii] = -mu[i];
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 #undef ii
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 //原根
+                </div>
+                <div>
+                 int getPrimitive(int p){
+                </div>
+                <div>
+                 --p; VI d; for (int i=2;i*i&lt;=p;++i) if (!(p%i)) d.PB(i), d.PB(p/i);
+                </div>
+                <div>
+                 UNQ(d); MOD = ++p; FOR(i, 2, p){
+                </div>
+                <div>
+                 int j = 0; REP_N(j, SZ(d)) if (pow(i, d[j]) == 1) break;
+                </div>
+                <div>
+                 if (j == SZ(d)) return i;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 assert(0);
+                </div>
+                <div>
+                 return -1; //!
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 // 离散对数
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 struct HashTable{
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 int index[PMAX], head[PMAX], next[PMAX], sz;
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 int key[PMAX];
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 inline void clear() {
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 sz = 0;
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 memset(head, -1, sizeof(head));
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 }
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 inline void insert(int id, int val) {
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 int x = val % PMAX;
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 index[sz] = id, key[sz] = val;
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 next[sz] = head[x];
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 head[x] = sz++;
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 }
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 inline int search(int val){
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 int x = val % PMAX;
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 for ( int it = head[x] ; it != -1 ; it = next[it] )
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 if ( key[it] == val ) return index[it];
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 return -1;
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 }
+                </div>
+                <div>
+                 } H;
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 #define p MOD
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 int Dlog(int a, int b){
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 a %= p, b %= p;
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 // Baby-Step ...
+                </div>
+                <div>
+                 int m = ceil(sqrt(p));
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 static Int A[PMAX]; A[0] = 1%p; REP_1(i, m){
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 A[i] = A[i-1] * a;
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 if (A[i] == b) return i;
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 H.clear(); REP(i, m){
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 H.insert(i, A[i]);
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 // Giant-Step
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 Int bb = b, am = _I(A[m]); FOR(i, 1, m){
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 bb *= am; int j = H.search(bb);
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 if (~j) return i*m+j;
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 }
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 return -1;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 const int LN = 32;
+                </div>
+                <div>
+                 int o;
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 int exDlog(int a, int b){
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 a %= p, b %= p;
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 Int aa = 1%p; int x0 = -1; REP(i, LN){
+                </div>
+                <div>
+                 if (aa == b){x0 = i; break;}
+                </div>
+                <div>
+                 aa *= a;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 aa = 1; o = 0; for (int d = gcd(a, p); d != 1; d = gcd(a, p)){
+                </div>
+                <div>
+                 ++o; if (b % d) return ~x0 ? x0 : -1;
+                </div>
+                <div>
+                 b /= d, p /= d, aa *= a/d;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 if (~x0) return x0;
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 int z = Dlog(a, qtt(b, aa)); if (~z) z += o;
+                </div>
+                <div>
+                 return z;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 #undef p
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 // 128位乘
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 #define m _mod
+                </div>
+                <div>
+                 LL _mod;
+                </div>
+                <div>
+                 inline void Incc(LL&amp;x,LL y){
+                </div>
+                <div>
+                 x += y; if (x &gt;= m) x -= m;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 inline LL pdtt(LL x,LL y){
+                </div>
+                <div>
+                 x%=m,y%=m;
+                </div>
+                <div>
+                 LL p=sqrt(m)+0.5,q=p*p-m,a=x/p,b=x%p,c=y/p,d=y%p,e=a*c/p*q,f=a*c%p*q;
+                </div>
+                <div>
+                 LL t=((a*d+b*c)%m+e)%m;x=t/p*q,y=t%p*p;
+                </div>
+                <div>
+                 x = (((b*d+f)%m+x)%m+y)%m; if (x&lt;0) x += m;
+                </div>
+                <div>
+                 return x;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 inline LL pdtt1(LL x,LL y){
+                </div>
+                <div>
+                 x%=m,y%=m;
+                </div>
+                <div>
+                 x =(x*y-(LL)(((long double)x*y+0.5)/(long double)m)*m)%m; if (x&lt;0) x += m;
+                </div>
+                <div>
+                 return x;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 inline LL pdtt2(LL a,LL b){
+                </div>
+                <div>
+                 a%=m,b%=m;
+                </div>
+                <div>
+                 LL c=0; for (;b;b&gt;&gt;=1,Incc(a,a))
+                </div>
+                <div>
+                 if (b&amp;1) Incc(c,a);
+                </div>
+                <div>
+                 return c;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 #undef m
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 //Rho &amp;&amp; Miller_Rabin
+                </div>
+                <div>
+                 map&lt;LL, int&gt; fac;
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 inline LL pdtt(LL x,LL y,LL z){
+                </div>
+                <div>
+                 return (x*y-(LL)(((long double)x*y+0.5)/z)*z+z)%z;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 inline LL poww(LL a, LL b, LL z){
+                </div>
+                <div>
+                 LL c = 1; for (;b;a=pdtt(a, a, z),b&gt;&gt;=1)
+                </div>
+                <div>
+                 if (b&amp;1) c = pdtt(c, a, z);
+                </div>
+                <div>
+                 return c;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 inline bool Miller_Rabin(int p,LL n){
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 int t=0; LL u=n-1; while(!(u&amp;1)) ++t,u&gt;&gt;=1;
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 LL x=poww(p,u,n); if(x==1) return 1; DO(t){
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 if(x==n-1) return 1;
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 x=pdtt(x,x,n);
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 }
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 return 0;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 inline bool isPrime(LL n){
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 static const int P[]={2,3,5,7,11,13,17,19,23}, Pn = 9;
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 if(find(P,P+Pn,n)!=P+Pn) return 1; if(n==1||!(n&amp;1)) return 0;
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 REP(i, Pn) if(!Miller_Rabin(P[i],n)) return 0;
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 return 1;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 void rho(LL n){
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 if(isPrime(n)){
+                </div>
+                <div>
+                 fac[n]++;
+                </div>
+                <div>
+                 return;
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 int c=1; while(1){
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 LL x1=1,x2=1; int i=1,k=2; while(1){
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 x1=pdtt(x1,x1,n)+c;
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 LL d=gcd(abs(x1-x2),n);
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 if(d!=1&amp;&amp;d!=n){
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 rho(d),rho(n/d);
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 return;
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 }
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 if(x1==x2) break;
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 if(++i==k) k&lt;&lt;=1,x2=x1;
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 }
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 ++c;
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 }
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 //
+                </div>
+               </div>
+               <div>
+                <br/>
+               </div>
+               <br/>
+               <br/>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

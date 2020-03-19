@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1260767892,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]看到HIT我想到了我的MIT。。。T_T[/ft] ",
+                "capacity": 12125,
+                "poster": {
+                    "id": "534470369",
+                    "platform": 1,
+                    "name": "张弛 ",
+                    "emoji": []
+                },
+                "bmp": "08d08ca000000428",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

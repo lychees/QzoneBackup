@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1202140076,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "好不容易进来,却看到一些无聊东西......郁闷 ",
+                "capacity": 12131,
+                "poster": {
+                    "id": "354434173",
+                    "platform": 1,
+                    "name": "HZ ",
+                    "emoji": []
+                },
+                "bmp": "184095a00100c209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1215751835,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "哪天我们来挑挑   很多不是书本就OK的 ",
+                "capacity": 12139,
+                "poster": {
+                    "id": "328074703",
+                    "platform": 1,
+                    "name": "周小刚 ",
+                    "emoji": []
+                },
+                "bmp": "180095a00002c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

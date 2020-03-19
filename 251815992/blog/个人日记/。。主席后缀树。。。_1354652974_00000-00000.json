@@ -1,0 +1,51 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1354668643,
+                "effect": 4194336,
+                "replyNum": 2,
+                "content": "主席树和后缀树都不会。。。小岛这么强了以后我怎么娶你啊。。 ",
+                "capacity": 11945,
+                "poster": {
+                    "id": "122155302",
+                    "platform": 1,
+                    "name": "木子日匀 ",
+                    "emoji": []
+                },
+                "bmp": "38d40da00102c209",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "呵呵。。就你这么弱也想娶我？。。等下辈子吧。。\n ",
+                        "postTime": 1354682951,
+                        "id": 1354682951,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "122155302",
+                            "name": "木子日匀 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子} ←_←好啊（抽柴刀） ",
+                        "postTime": 1354857345,
+                        "id": 1354857345,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

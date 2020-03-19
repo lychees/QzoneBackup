@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1444751523,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "T哭了[em]e105[/em] ",
+                "capacity": 12153,
+                "poster": {
+                    "id": "7334381",
+                    "platform": 1,
+                    "name": "[alpc]ppaul ",
+                    "emoji": []
+                },
+                "bmp": "18549da40002e001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

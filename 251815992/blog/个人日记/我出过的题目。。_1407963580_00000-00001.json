@@ -1,0 +1,68 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1407970998,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "通化邀请赛的题居然是你出的  Σ( ° △ °|||)︴ ",
+                "capacity": 11892,
+                "poster": {
+                    "id": "494611539",
+                    "platform": 1,
+                    "name": "KID ",
+                    "emoji": []
+                },
+                "bmp": "18d49da00100e201",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:494611539,nick:KID,auto:1} ... 不是啊。。我的意思是。。我的一个题目是根据那个题改编的。。。 ",
+                        "postTime": 1407971062,
+                        "id": 1407971062,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "494611539",
+                            "name": "KID ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1}刚起床看猛了 (\"▔□▔) ",
+                        "postTime": 1407971170,
+                        "id": 1407971170,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1407975812,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "记得09年的比赛。。。一下子过了好多年。。。 ",
+                "capacity": 12122,
+                "poster": {
+                    "id": "1303552653",
+                    "platform": 1,
+                    "name": "赫敏·格兰杰 ",
+                    "emoji": []
+                },
+                "bmp": "18909da00608c209",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

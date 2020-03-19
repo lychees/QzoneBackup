@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1399563559,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "....说人话！ ",
+                "capacity": 12154,
+                "poster": {
+                    "id": "1044890971",
+                    "platform": 1,
+                    "name": "美味兔 ",
+                    "emoji": []
+                },
+                "bmp": "08d4a5a00106e001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1399627240,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "sb ",
+                "capacity": 12164,
+                "poster": {
+                    "id": "911574351",
+                    "platform": 1,
+                    "name": "Yuko丶柚子 ",
+                    "emoji": []
+                },
+                "bmp": "184495800410c821",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

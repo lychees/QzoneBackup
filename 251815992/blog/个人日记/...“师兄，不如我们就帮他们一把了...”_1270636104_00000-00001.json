@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1270637139,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "我认识个小丫头跟你好熟… ",
+                "capacity": 12142,
+                "poster": {
+                    "id": "476058914",
+                    "platform": 1,
+                    "name": " ",
+                    "emoji": []
+                },
+                "bmp": "18f4052001029020",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1270754327,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "..你你你你你告诉我这个做什么？～ ",
+                "capacity": 12133,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            }
+        ]
+    }
+}

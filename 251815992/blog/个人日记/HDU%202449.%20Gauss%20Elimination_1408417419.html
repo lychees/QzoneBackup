@@ -1,0 +1,865 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    HDU 2449. Gauss Elimination
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             HDU 2449. Gauss Elimination
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2014-08-18 23:03:39
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(56)	è¯è®º(1)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1408417419,
+"voteids":0,
+"pubtime":1408417419,
+"replynum":1,
+"category":"个人日记",
+"title":"HDU 2449. Gauss Elimination",
+"effect":8389120,
+"effect2":524294,
+"exblogtype":3,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":81177,
+"lp_style":16843520,
+"lp_flag":0,
+"lp_topvalue":0,
+"orguin":251815992,
+"orgblogid":1408417419,
+"mention_uins":[ ],
+"attach":[],"comments":[{"id":1,
+"postTime":1408417724,
+"effect":1056,
+"replyNum":4,
+"content":"可以写的，只是要自己再写个swap的泛型接口，然后swap的对象必须实现这接口，那么swap就哦可了 和compareTo一样的原理 ",
+"capacity":11699,
+"poster":{
+"id":"56329669",
+"platform":1,
+"name":"Laughing ",
+"emoji":[ ]}
+,
+"bmp":"18d195a40100e201",
+"ismyreply":0,
+"replies":[{"poster":{
+"id":"251815992",
+"name":"小岛美奈子 ",
+"platform":1}
+,
+"content":"@{uin:56329669,nick:Laughing,auto:1}感谢。。  ",
+"postTime":1408417741,
+"id":1408417741,
+"effect":0},
+{"poster":{
+"id":"56329669",
+"name":"Laughing ",
+"platform":1}
+,
+"content":"@{uin:251815992,nick:小岛美奈子,who:1,auto:1} 秒回啊 咋突然学java了？ ",
+"postTime":1408417774,
+"id":1408417774,
+"effect":0},
+{"poster":{
+"id":"251815992",
+"name":"小岛美奈子 ",
+"platform":1}
+,
+"content":"@{uin:56329669,nick:Laughing,auto:1} 十分有趣。。。。 ",
+"postTime":1408417858,
+"id":1408417858,
+"effect":0},
+{"poster":{
+"id":"56329669",
+"name":"Laughing ",
+"platform":1}
+,
+"content":"@{uin:251815992,nick:小岛美奈子,who:1,auto:1} 坐等岛岛java虐翻ACM [em]e142[\/em] ",
+"postTime":1408417960,
+"id":1408417960,
+"effect":0}]}]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <div>
+                <div>
+                 <a href="http://vjudge.net/vjudge/problem/viewSource.action?id=2679844 " target="_blank">
+                  http://vjudge.net/vjudge/problem/viewSource.action?id=2679844
+                 </a>
+                 ;
+                 <br/>
+                 <br/>
+                 ... Java 里的内置类型只能传值。。不能传引用。。
+                 <br/>
+                 <span>
+                  。。。Class （引用类型 ，数组也是引用类型）只能传指针。。。不能传值。。。。
+                  <br/>
+                  初看起来似乎很不科学。。。仔细想想这么设计还是有一定道理的。。。。。。。。。。
+                  <br/>
+                  <br/>
+                  <br/>
+                  。。。。也正是基于以上原因。。虽然 Java 支持 泛型。。。但是想写一个泛型的 swap 都很困难。。。
+                  <br/>
+                  <br/>
+                  <br/>
+                  另一方面。。。in / out 在传递过程中居然不是同步的。。。。。。（如果你一半引用 out。。一半引用 system.out ...输出内容的顺序会混乱。。。。虽然 out 指向的是 system.out。。。）
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <div>
+                   static&lt;T&gt; void swap(T a, T b){
+                  </div>
+                  <div>
+                   T t=a;a=b;b=t;
+                  </div>
+                  <div>
+                   }
+                   <br/>
+                   <span>
+                    <br/>
+                    不知道为什么根本用不起来。。（难道我写的姿势不对？）
+                    <br/>
+                    暂时只能用最原始的方法。。。
+                    <br/>
+                    <br/>
+                   </span>
+                  </div>
+                  <span>
+                  </span>
+                 </span>
+                 package cur;
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 import java.math.BigInteger;
+                </div>
+                <div>
+                 import java.util.Scanner;
+                </div>
+                <div>
+                 import java.io.PrintWriter;
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 class fraction {
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 BigInteger a, b;
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 public fraction(){
+                </div>
+                <div>
+                 a = new BigInteger("0");
+                </div>
+                <div>
+                 b = new BigInteger("1");
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 fraction(BigInteger a1, BigInteger b1) {
+                </div>
+                <div>
+                 this.a = a1; this.b = b1;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 void reduction() {
+                </div>
+                <div>
+                 BigInteger d = a.gcd(b);
+                </div>
+                <div>
+                 a = a.divide(d); b = b.divide(d);
+                </div>
+                <div>
+                 if (b.compareTo(BigInteger.ZERO) == -1) {
+                </div>
+                <div>
+                 b = b.multiply(BigInteger.valueOf(-1));
+                </div>
+                <div>
+                 a = a.multiply(BigInteger.valueOf(-1));
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 fraction add(fraction t) {
+                </div>
+                <div>
+                 fraction temp = new fraction(a.multiply(t.b).add(b.multiply(t.a)), b.multiply(t.b));
+                </div>
+                <div>
+                 temp.reduction();
+                </div>
+                <div>
+                 return temp;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 fraction sub(fraction t) {
+                </div>
+                <div>
+                 fraction temp = new fraction(a.multiply(t.b).subtract(b.multiply(t.a)), b.multiply(t.b));
+                </div>
+                <div>
+                 temp.reduction();
+                </div>
+                <div>
+                 return temp;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 fraction mult(fraction t) {
+                </div>
+                <div>
+                 fraction temp = new fraction(a.multiply(t.a), b.multiply(t.b));
+                </div>
+                <div>
+                 temp.reduction();
+                </div>
+                <div>
+                 return temp;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 fraction div(fraction t) {
+                </div>
+                <div>
+                 fraction temp = new fraction(a.multiply(t.b), b.multiply(t.a));
+                </div>
+                <div>
+                 temp.reduction();
+                </div>
+                <div>
+                 return temp;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 public void abs() {
+                </div>
+                <div>
+                 if (this.a.compareTo(BigInteger.ZERO) == -1) {
+                </div>
+                <div>
+                 this.a = this.a.multiply(BigInteger.valueOf(-1));
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 void in(Scanner in){
+                </div>
+                <div>
+                 a = in.nextBigInteger(); b = BigInteger.ONE;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 void out(PrintWriter out) {
+                </div>
+                <div>
+                 this.reduction();
+                </div>
+                <div>
+                 if (b.compareTo(BigInteger.ONE) == 0)
+                </div>
+                <div>
+                 out.println(a);
+                </div>
+                <div>
+                 else
+                </div>
+                <div>
+                 out.println(a + "/" + b);
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 boolean biger(fraction p) {
+                </div>
+                <div>
+                 fraction temp = new fraction(a, b);
+                </div>
+                <div>
+                 fraction t = new fraction(p.a, p.b);
+                </div>
+                <div>
+                 temp.reduction();
+                </div>
+                <div>
+                 if (temp.a.compareTo(BigInteger.ZERO) == -1) {
+                </div>
+                <div>
+                 temp.a = temp.a.multiply(BigInteger.valueOf(-1));
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 if (t.a.compareTo(BigInteger.valueOf(-1)) == -1) {
+                </div>
+                <div>
+                 t.a = t.a.multiply(BigInteger.valueOf(-1));
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 temp = temp.sub(t);
+                </div>
+                <div>
+                 return temp.a.compareTo(BigInteger.ZERO) &gt; -1;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 public class HDU_2449 {
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 static&lt;T&gt; void swap(T a, T b){
+                </div>
+                <div>
+                 T t=a;a=b;b=t;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 public static int Gauss(fraction a[][],int n){
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 for (int i=0;i&lt;n;++i){
+                </div>
+                <div>
+                 int ii=i; for(int jj=i+1;jj&lt;n;++jj) if (a[jj][i].biger(a[ii][i] )) ii = jj;
+                </div>
+                <div>
+                 if (a[ii][i].a.compareTo(BigInteger.ZERO)==0){
+                </div>
+                <div>
+                 return 0;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 fraction t; for (int j=0;j&lt;n+1;++j){
+                </div>
+                <div>
+                 //swap(a[i][j], a[ii][j]);
+                </div>
+                <div>
+                 t = a[i][j]; a[i][j] = a[ii][j]; a[ii][j] = t;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 t=a[i][i]; for (int j=n;j&gt;=i;--j){
+                </div>
+                <div>
+                 a[i][j] = a[i][j].div(t);
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 for (ii=i+1;ii&lt;n;++ii){
+                </div>
+                <div>
+                 t = a[ii][i]; if (t.a.compareTo(BigInteger.ZERO)!=0){
+                </div>
+                <div>
+                 for (int j=i+1;j&lt;n+1;++j){
+                </div>
+                <div>
+                 a[ii][j] = a[ii][j].sub(t.mult(a[i][j]));
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 a[ii][i].a = BigInteger.ZERO;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 for (int i=n-1;i&gt;=1;--i){
+                </div>
+                <div>
+                 for (int j=0;j&lt;i;++j){
+                </div>
+                <div>
+                 a[j][n] = a[j][n].sub(a[j][i].mult(a[i][n]));
+                </div>
+                <div>
+                 a[j][i].a = BigInteger.ZERO;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 return 1;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 public void solve(int testNumber, Scanner in, PrintWriter out) {
+                </div>
+                <div>
+                 if(!in.hasNext()) throw new UnknownError();
+                </div>
+                <div>
+                 int n; n=in.nextInt(); fraction a[][]=new fraction[n][n+1];
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 for (int i=0;i&lt;n;i++){
+                </div>
+                <div>
+                 for (int j=0;j&lt;n+1;j++){
+                </div>
+                <div>
+                 a[i][j] = new fraction();
+                </div>
+                <div>
+                 a[i][j].in(in);
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 a[i][n].a = BigInteger.ZERO.subtract(a[i][n].a);
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 if (Gauss(a,n)==1) {
+                </div>
+                <div>
+                 for (int i=0;i&lt;n;++i) a[i][n].a = BigInteger.ZERO.subtract(a[i][n].a);
+                </div>
+                <div>
+                 for (int i = 0; i &lt; n; i++) a[i][n].out(out);
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 else {
+                </div>
+                <div>
+                 out.println("No solution.");
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 out.println("");
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <br/>
+                <br/>
+               </div>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

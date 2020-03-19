@@ -1,0 +1,40 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1287993281,
+                "effect": 1048608,
+                "replyNum": 1,
+                "content": "呵呵，我是上了军事理论课之后，发现原来还有军事素养这么差的大校，大笑中 ",
+                "capacity": 12080,
+                "poster": {
+                    "id": "951055982",
+                    "platform": 1,
+                    "name": "hi ",
+                    "emoji": []
+                },
+                "bmp": "18c0942000008001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "....# ",
+                        "postTime": 1287999493,
+                        "id": 1287999493,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

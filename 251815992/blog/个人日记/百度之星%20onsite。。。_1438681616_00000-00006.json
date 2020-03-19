@@ -1,0 +1,130 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 7,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1438681721,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "(￣&#8711;￣)竟然跪在游戏上 ",
+                "capacity": 12137,
+                "poster": {
+                    "id": "25241274",
+                    "platform": 1,
+                    "name": "七星瓢虫 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00000e101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1438685961,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "艹，比去年好玩多了 ",
+                "capacity": 12150,
+                "poster": {
+                    "id": "122155302",
+                    "platform": 1,
+                    "name": "木子日匀 ",
+                    "emoji": []
+                },
+                "bmp": "38d40da00102c209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1438698775,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "resize应该可以，clear并没有什么卵用 ",
+                "capacity": 12133,
+                "poster": {
+                    "id": "276224245",
+                    "platform": 1,
+                    "name": "北冥之鱼 ",
+                    "emoji": []
+                },
+                "bmp": "18d015a000008401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1438701513,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "看一下《Effective STL》，里面说到了，要清空容器得这么来：\nvector<int>  vec;\nvec.clear(); // 这个方法不行\nvec.swap(vector<int>()); // 这个方法可以！ ",
+                "capacity": 12004,
+                "poster": {
+                    "id": "2584468854",
+                    "platform": 1,
+                    "name": "SweetLover ",
+                    "emoji": []
+                },
+                "bmp": "1850958002028101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1438766984,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "擦，同感啊。 ",
+                "capacity": 12162,
+                "poster": {
+                    "id": "223359382",
+                    "platform": 1,
+                    "name": "[拜戴神教]水 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a400008409",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 6,
+                "postTime": 1438767027,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "我也用的clear……以及并没有意识到一个肉鸡把人弄挂这个…… ",
+                "capacity": 12117,
+                "poster": {
+                    "id": "223359382",
+                    "platform": 1,
+                    "name": "[拜戴神教]水 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a400008409",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 7,
+                "postTime": 1438767816,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "stl中vector的clear不放内存，可以swap操作，把置空，或者新开小内存。 ",
+                "capacity": 12102,
+                "poster": {
+                    "id": "291109949",
+                    "platform": 1,
+                    "name": "复活也有 ",
+                    "emoji": []
+                },
+                "bmp": "18d19d800000c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

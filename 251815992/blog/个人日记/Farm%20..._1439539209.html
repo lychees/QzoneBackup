@@ -1,0 +1,919 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    Farm ...
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             Farm ...
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2015-08-14 04:00:09
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(116)	è¯è®º(2)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1439539209,
+"voteids":0,
+"pubtime":1439539209,
+"replynum":2,
+"category":"个人日记",
+"title":"Farm ...",
+"effect":8389120,
+"effect2":524294,
+"exblogtype":3,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":81177,
+"lp_style":16843520,
+"lp_flag":0,
+"lp_topvalue":0,
+"orguin":251815992,
+"orgblogid":1439539209,
+"mention_uins":[ ],
+"attach":[],"comments":[{"id":1,
+"postTime":1439539844,
+"effect":1024,
+"replyNum":0,
+"content":"DETER3咯 ",
+"capacity":12164,
+"poster":{
+"id":"291445140",
+"platform":1,
+"name":"Seter ",
+"emoji":[ ]}
+,
+"bmp":"18c415a00142e209",
+"ismyreply":0,
+"replies":[]},
+{"id":2,
+"postTime":1439552138,
+"effect":0,
+"replyNum":0,
+"content":"其实任意交换环上可以n^4跑个dp来算det的，详情找paper吧。。 ",
+"capacity":12111,
+"poster":{
+"id":"10848584",
+"platform":1,
+"name":"主席 ",
+"emoji":[ ]}
+,
+"bmp":"0880dd8000000221",
+"ismyreply":0,
+"replies":[]}]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <div>
+                <p>
+                 题目大意
+                 <br/>
+                 给定一个n × n的整数矩阵A，求Det(A) mod M，其中M为正整数。
+                </p>
+                <p>
+                 分析与解答这个题目在很多地方都会用到，当用行列式计算生成树个数的时候，大
+                </p>
+                <p>
+                 部分情况下会只求答案模一个数的值。如果是模素数或者模一个Square Free Number，则
+                </p>
+                <p>
+                 可以通过求逆元或者再用中国剩余定理解决，但是模一般的数用普通的高斯消元会有种种
+                </p>
+                <p>
+                 问题。
+                 <br/>
+                 <span>
+                 </span>
+                </p>
+                <p>
+                 这个题目的解法显然还是基于高斯消元的，所以建议还不是很熟悉的读者停下先复习
+                </p>
+                <p>
+                 一下。
+                </p>
+                <p>
+                 首先有两种很直接的解法：
+                </p>
+                <p>
+                 1. 显然一种方法是一个高精度分数类，然后. . . . . . 就可以了。但是由于高精度运算并没
+                </p>
+                <p>
+                 有在O(1)内完成，最后效果很不好，大概复杂度在O(n4)左右。
+                </p>
+                <p>
+                 2. 出题人的最初想法：首先把问题转化成模一个素数的幂次，比如ap，最后用中国剩
+                </p>
+                <p>
+                 余定理合并。在具体实现的时候，如果当前需要可供选择的主元都是a的倍数，则
+                </p>
+                <p>
+                 先把这一列全部div a，然后算行列式mod ap.1的值之后再乘上a。这个方法比较复
+                </p>
+                <p>
+                 杂，最后的复杂度是O(n3 log C)。
+                 <br/>
+                 <span>
+                  <a href="http://d.hatena.ne.jp/komiyam/20111216/1323963329" target="_blank">
+                   http://d.hatena.ne.jp/komiyam/20111216/1323963329
+                  </a>
+                  <br/>
+                 </span>
+                </p>
+                <p>
+                 以上两种方法如果实现得好的话，都可以解决本题，但是看起来似乎都不够优美。
+                </p>
+                <p>
+                 根据代数知识，如果将矩阵的任意两行交换，则行列式变负，如果将任意一行加减
+                </p>
+                <p>
+                 另一行的倍数，则行列式不变。很容易发现，整数矩阵的初等变换和\取模"有惊人的相
+                </p>
+                <p>
+                 似：考虑矩阵An;n及i; j; k，我们可以通过Ai . Ai . Aj × (Ai;k div Aj;k)这样一个操作实
+                </p>
+                <p>
+                 现Ai;k . Ai;k mod Aj;k而不改变行列式值。
+                </p>
+                <p>
+                 8提交地址：
+                 <a href="http://www.spoj.pl/problems/DETER3/" target="_blank">
+                  http://www.spoj.pl/problems/DETER3/
+                 </a>
+                </p>
+                <p>
+                 9另一个是Timus 1627: Join
+                 <a href="http://acm.timus.ru/problem.aspx?space=1&amp;num=1627" target="_blank">
+                  http://acm.timus.ru/problem.aspx?space=1&amp;num=1627
+                 </a>
+                </p>
+                <p>
+                 <br/>
+                </p>
+                <p>
+                 想到这里算法就很直接了，因为有了\取模"，我们就可以在O(n log C)时间内将同一列
+                </p>
+                <p>
+                 中任意两个数中一个消成0，配合交换行操作即可完成消元过程。
+                 <br/>
+                 <span>
+                  <br/>
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  <br/>
+                  Note：
+                  <br/>
+                  <a href="http://acm.hust.edu.cn/vjudge/problem/viewSource.action?id=4396172" target="_blank">
+                   http://acm.hust.edu.cn/vjudge/problem/viewSource.action?id=4396172
+                  </a>
+                  <br/>
+                  <span>
+                   注意 bool 不要用  ~ 取反。。。）
+                   <br/>
+                   <br/>
+                   <br/>
+                  </span>
+                 </span>
+                 <br/>
+                </p>
+                <p>
+                 <span>
+                  const
+                 </span>
+                 <span>
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  N =
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  (
+                 </span>
+                 <span>
+                  2e2
+                 </span>
+                 <span>
+                  ) +
+                 </span>
+                 <span>
+                  9
+                 </span>
+                 <span>
+                  ;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  Int
+                 </span>
+                 <span>
+                  A[N][
+                 </span>
+                 <span>
+                  N
+                 </span>
+                 <span>
+                  ];
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  n;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <br/>
+                </p>
+                <p>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  Det(){
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  Int
+                 </span>
+                 <span>
+                  z =
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  ;
+                 </span>
+                 <span>
+                  bool
+                 </span>
+                 <span>
+                  rv =
+                 </span>
+                 <span>
+                  0
+                 </span>
+                 <span>
+                  ;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  REP
+                 </span>
+                 <span>
+                  (i,
+                 </span>
+                 <span>
+                  n
+                 </span>
+                 <span>
+                  ){
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  FOR
+                 </span>
+                 <span>
+                  (j, i+
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  n
+                 </span>
+                 <span>
+                  )
+                 </span>
+                 <span>
+                  while
+                 </span>
+                 <span>
+                  (
+                 </span>
+                 <span>
+                  A
+                 </span>
+                 <span>
+                  [j][i]){
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  t =
+                 </span>
+                 <span>
+                  A
+                 </span>
+                 <span>
+                  [i][i].
+                 </span>
+                 <span>
+                  val
+                 </span>
+                 <span>
+                  /
+                 </span>
+                 <span>
+                  A
+                 </span>
+                 <span>
+                  [j][i].
+                 </span>
+                 <span>
+                  val
+                 </span>
+                 <span>
+                  ;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  FOR
+                 </span>
+                 <span>
+                  (k, i,
+                 </span>
+                 <span>
+                  n
+                 </span>
+                 <span>
+                  ){
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  A
+                 </span>
+                 <span>
+                  [i][k] -=
+                 </span>
+                 <span>
+                  A
+                 </span>
+                 <span>
+                  [j][k] * t;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  swap
+                 </span>
+                 <span>
+                  (
+                 </span>
+                 <span>
+                  A
+                 </span>
+                 <span>
+                  [i][k],
+                 </span>
+                 <span>
+                  A
+                 </span>
+                 <span>
+                  [j][k]);
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  rv = !rv;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  z *=
+                 </span>
+                 <span>
+                  A
+                 </span>
+                 <span>
+                  [i][i];
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  if
+                 </span>
+                 <span>
+                  (rv) z = -z;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  return
+                 </span>
+                 <span>
+                  z;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <br/>
+                </p>
+                <p>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  main(){
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  #ifndef ONLINE_JUDGE
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  freopen
+                 </span>
+                 <span>
+                  (
+                 </span>
+                 <span>
+                  "/users/xiaodao/desktop/Exercise/in.txt"
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  "r"
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  stdin
+                 </span>
+                 <span>
+                  );
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  //freopen("/users/xiaodao/desktop/Exercise/out.txt", "w", stdout);
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  #endif
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  while
+                 </span>
+                 <span>
+                  (
+                 </span>
+                 <span>
+                  ~scanf
+                 </span>
+                 <span>
+                  (
+                 </span>
+                 <span>
+                  "%d %d"
+                 </span>
+                 <span>
+                  , &amp;
+                 </span>
+                 <span>
+                  n
+                 </span>
+                 <span>
+                  , &amp;
+                 </span>
+                 <span>
+                  MOD
+                 </span>
+                 <span>
+                  )){
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  REP_2
+                 </span>
+                 <span>
+                  (i, j,
+                 </span>
+                 <span>
+                  n
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  n
+                 </span>
+                 <span>
+                  )
+                 </span>
+                 <span>
+                  A
+                 </span>
+                 <span>
+                  [i][j] =
+                 </span>
+                 <span>
+                  RDD
+                 </span>
+                 <span>
+                  ();
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  printf
+                 </span>
+                 <span>
+                  (
+                 </span>
+                 <span>
+                  "%d\n"
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  Det
+                 </span>
+                 <span>
+                  ());
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <br/>
+                <br/>
+               </div>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

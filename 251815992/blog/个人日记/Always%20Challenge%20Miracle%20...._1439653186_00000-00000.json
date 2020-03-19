@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1439687904,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "手动赞题目。说到做到啊 ",
+                "capacity": 12148,
+                "poster": {
+                    "id": "371686865",
+                    "platform": 1,
+                    "name": "芳姐 ",
+                    "emoji": []
+                },
+                "bmp": "18c09da00002d001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

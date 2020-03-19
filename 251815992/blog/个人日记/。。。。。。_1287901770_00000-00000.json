@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1288017649,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "mark,等下做一下 ",
+                "capacity": 12153,
+                "poster": {
+                    "id": "443150555",
+                    "platform": 1,
+                    "name": "小鹏 ",
+                    "emoji": []
+                },
+                "bmp": "98549da00802c021",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,568 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    Problem J. Tri-war
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             Problem J. Tri-war
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2014-06-03 16:12:40
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(43)	è¯è®º(0)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1401826360,
+"voteids":0,
+"pubtime":1401826360,
+"replynum":0,
+"category":"个人日记",
+"title":"Problem J. Tri-war",
+"effect":8389121,
+"effect2":524294,
+"exblogtype":3,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":81177,
+"lp_style":16843520,
+"lp_flag":0,
+"lp_topvalue":0,
+"orguin":251815992,
+"orgblogid":1401826360,
+"mention_uins":[ ],
+"attach":[],"comments":[]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <div>
+                <div>
+                 <div>
+                  <span>
+                   <div>
+                    <div>
+                     <br/>
+                     填坑完毕。。直接看这里吧
+                     <br/>
+                     <a href="http://www.shuizilong.com/house/archives/acm-icpc-regional-asia-changchun-2013-onsite/" target="_blank">
+                      http://www.shuizilong.com/house/archives/acm-icpc-regional-asia-changchun-2013-onsite/
+                     </a>
+                     <br/>
+                     <br/>
+                     <br/>
+                     &lt;h2&gt;Problem J. Tri-war&lt;/h2&gt;
+                    </div>
+                    <div>
+                     &lt;h3&gt;Brief description:&lt;/h3&gt;
+                    </div>
+                    <div>
+                     。。给定 $$n$$ 个结点的一棵树。。每次询问三个点 $$u_0, u_1, u_2$$。。。
+                    </div>
+                    <div>
+                     。。。点 $$v$$ 被 $$u_x$$ 支配 。。如果 $$\forall y \not = x, d(u_x, x) &lt; d(u_x, y) $$。。
+                    </div>
+                    <div>
+                     。。。问这三个点所在的支配集的大小。。。
+                    </div>
+                    <div>
+                     <br/>
+                    </div>
+                    <div>
+                     &lt;h3&gt;Analysis:&lt;/h3&gt;
+                    </div>
+                    <div>
+                     &lt;code&gt;倍增祖先&lt;/code&gt; &lt;code&gt;LCA&lt;/code&gt; &lt;code&gt;分类讨论&lt;/code&gt;
+                    </div>
+                    <div>
+                     <br/>
+                    </div>
+                    <div>
+                     &lt;h4&gt;两个点的情况：&lt;/h4&gt;
+                    </div>
+                    <div>
+                     。先把要准备的模板铺好。。显然就是。。。。。（。&lt;a href="
+                     <a href="http://www.shuizilong.com/house/archives/codeforces-round-140/" target="_blank">
+                      http://www.shuizilong.com/house/archives/codeforces-round-140/
+                     </a>
+                     "&gt;Codeforces Round #140&lt;/a&gt; 和 &lt;a href="
+                     <a href="http://www.shuizilong.com/house/archives/spoj-1486-the-ants-in-a-tree/" target="_blank">
+                      http://www.shuizilong.com/house/archives/spoj-1486-the-ants-in-a-tree/
+                     </a>
+                     "&gt;SPOJ 1486. The Ants in a Tree&lt;/a&gt;
+                    </div>
+                    <div>
+                     <br/>
+                    </div>
+                    <div>
+                     。。先考虑 2 个点的。。设函数 &lt;code&gt;up(u, k)&lt;/code&gt; 表示 &lt;code&gt;u&lt;/code&gt; 结点向上 &lt;code&gt;k&lt;/code&gt; 个位置的结点。。。
+                    </div>
+                    <div>
+                     。。那么通过【倍增祖先】我们就可以将中点找到。。。之后根据路径的奇偶性讨论一下即可。。。
+                    </div>
+                    <div>
+                     <br/>
+                    </div>
+                    <div>
+                     最后要么是。。。
+                    </div>
+                    <div>
+                     &lt;pre&gt;u1  --- m --- u2 &lt;/pre&gt;
+                    </div>
+                    <div>
+                     （这种情况存在着一些 &lt;code&gt;灰色结点&lt;/code&gt;。。（既不属于 &lt;code&gt;u1&lt;/code&gt; 也不属于 &lt;code&gt;u2&lt;/code&gt;。。
+                    </div>
+                    <div>
+                     要么是。。。
+                    </div>
+                    <div>
+                     &lt;pre&gt;u1 --- m1 --- m2 --- u2&lt;/pre&gt;
+                    </div>
+                    <div>
+                     <br/>
+                    </div>
+                    <div>
+                     。。。复杂度 $$O(log(n))$$。。。（对于有边权的情况。。复杂度好像仍然是 $$O(log(n))$$ ？。。可以一边二分一边向上跳？）
+                    </div>
+                    <div>
+                     <br/>
+                    </div>
+                    <div>
+                     。。。合理的使用 &lt;code&gt;swap&lt;/code&gt; 以提高对讨论的抗性。。、、。。
+                    </div>
+                    <div>
+                     （本题中 &lt;code&gt;swap&lt;/code&gt; 的情况目测会茫茫多。。我们直接使用 &lt;code&gt;ans[]&lt;/code&gt; 来记录答案。。）
+                    </div>
+                    <div>
+                     <br/>
+                    </div>
+                    <div>
+                     [cpp]
+                    </div>
+                    <div>
+                     void gao(int x, int y){
+                    </div>
+                    <div>
+                     int z = lca(x,y), dx = dep[x]-dep[z], dy = dep[y]-dep[z], dd = dx+dy;
+                    </div>
+                    <div>
+                     int d = dd/2; if (d&gt;=dx) swap(x, y), swap(dx, dy); int m = up(x,d);
+                    </div>
+                    <div>
+                     if (dd&amp;1) ans[x] = sz[m], ans[y] = n-ans[x];
+                    </div>
+                    <div>
+                     else ans[x] = sz[up(x,d-1)], ans[y] = d==dx?sz[up(y,d-1)]:n-sz[m];
+                    </div>
+                    <div>
+                     }
+                    </div>
+                    <div>
+                     [/cpp]
+                    </div>
+                    <div>
+                     <br/>
+                    </div>
+                    <div>
+                     &lt;h4&gt;三个点的情况：&lt;/h4&gt;
+                    </div>
+                    <div>
+                     。。。。现在讨论三个点的情况。。。
+                    </div>
+                    <div>
+                     <br/>
+                    </div>
+                    <div>
+                     。。先按照 &lt;code&gt;dep&lt;/code&gt; 对询问点排序。。
+                     <br/>
+                     <span>
+                      <br/>
+                      <br/>
+                      <br/>
+                      <br/>
+                      <br/>
+                      <br/>
+                      <br/>
+                      <br/>
+                      <br/>
+                      <br/>
+                      <br/>
+                     </span>
+                    </div>
+                   </div>
+                  </span>
+                 </div>
+                </div>
+                <div>
+                 <br/>
+                 u0
+                 <br/>
+                 u1
+                 <br/>
+                 u2
+                 <br/>
+                 <br/>
+                 Case 0：链状
+                 <br/>
+                 ..
+                 <br/>
+                 <div>
+                  <div>
+                   void gao(int u1, int u2, int u0){
+                  </div>
+                  <div>
+                   gao(u1, u2); int g = n-ans[u1]-ans[u2]; gao(u0, u1);
+                  </div>
+                  <div>
+                   ans[u1] -= ans[u2]+g;
+                  </div>
+                  <div>
+                   }
+                  </div>
+                 </div>
+                 ...
+                 <br/>
+                 。。也就是我们先 gao(u1, u2) 那么 ans[u1] 里面已经是最终结果。。
+                 <br/>
+                 。。。再 gao(u0, u1)...  ans[u0] 也被我们搞出来了。。这个时候 u1 会多算一些。。多算的部分就是 u2 的部分。
+                 <br/>
+                 。（以及别忘了灰色区域。！！。）...
+                 <br/>
+                 。。。。至此我们已经可以通过样例了！！。。。。
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 。。。。仅剩的情况就是星状。。。
+                 <br/>
+                 。。此种情况过于恶心。。我考完 java ee 后再来陪同大家一起讨论。。^ ^。
+                 <br/>
+                 <br/>
+                 <br/>
+                 <img alt="图片" src="http://a3.qpic.cn/psb?/a7723d22-15e1-452d-817f-ed63333f3d7d/2yTjNi6wPmXC8FVgxbEk1wyO3u0baB6UNthfr8wi.nc!/b/dIomuKUOHgAA&amp;ek=1&amp;kp=1&amp;pt=0&amp;bo=7wEMAQAAAAABAMQ!&amp;t=5&amp;tl=3&amp;su=0100691665&amp;tm=1584572400&amp;sce=0-12-12&amp;rf=2-9" style="width:495px;height:268px"/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 ——————————————————————————
+                 <br/>
+                 <br/>
+                 <br/>
+                 我们设三个结点最先在 m 处交汇。。。
+                 <br/>
+                 <br/>
+                 Case 1-1：
+                 <br/>
+                 m 被支配
+                 <br/>
+                 Case 1-2：
+                 <br/>
+                 m 未被支配，且恰好两个点到 m 的距离相等
+                 <br/>
+                 Case 1-3
+                 <br/>
+                 m 未被支配，且三个点到 m 的距离均相等。
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 ——————————————
+                 <br/>
+                 。。。。。。UPD
+                 <br/>
+                 。。我两个点的情况少考虑了一种特殊情况。。、
+                 <br/>
+                 m
+                 <br/>
+                 u1  u2
+                 <br/>
+                 就是 d1 == d2 的时候。。m 恰好是 u1 和 u2 的 lca。。
+                 <br/>
+                 3个点的讨论情况其实就是 2 种。。链状和星状。。。。
+                 <br/>
+                 HDU 直接交会 RE 爆栈。。我使用了汇编调栈。。。。
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                </div>
+                <br/>
+                <br/>
+               </div>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

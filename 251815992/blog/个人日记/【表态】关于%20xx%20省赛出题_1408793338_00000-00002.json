@@ -1,0 +1,74 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1408797533,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "哎，至于到这个地步吗 ",
+                "capacity": 12041,
+                "poster": {
+                    "id": "703180800",
+                    "platform": 1,
+                    "name": "moonlight131 ",
+                    "emoji": []
+                },
+                "bmp": "d8c195a00082e101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:703180800,nick:moonlight131,who:1,auto:1} 明斯克必须付出代价。 ",
+                        "postTime": 1408797638,
+                        "id": 1408797638,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1408797899,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "摸岛娘…… ",
+                "capacity": 12163,
+                "poster": {
+                    "id": "451376709",
+                    "platform": 1,
+                    "name": "AAA ",
+                    "emoji": []
+                },
+                "bmp": "18c09da00002c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1408812471,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "前排看戏 ",
+                "capacity": 12162,
+                "poster": {
+                    "id": "935099327",
+                    "platform": 1,
+                    "name": "不愿透露姓名的 ",
+                    "emoji": []
+                },
+                "bmp": "08c09d2000000001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

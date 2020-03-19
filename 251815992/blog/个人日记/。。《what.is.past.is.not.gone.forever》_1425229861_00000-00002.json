@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1425280422,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "看到gcd居然瞬间想到的是greatest common divisor... ",
+                "capacity": 12118,
+                "poster": {
+                    "id": "1503502660",
+                    "platform": 1,
+                    "name": "云白山青[em]e257417[/em] ",
+                    "emoji": []
+                },
+                "bmp": "1880958002006201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1425286769,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "GCD LCM ",
+                "capacity": 12161,
+                "poster": {
+                    "id": "25241274",
+                    "platform": 1,
+                    "name": "七星瓢虫 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00000e101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1425346288,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "岛娘越来越文艺了 ",
+                "capacity": 12156,
+                "poster": {
+                    "id": "532888820",
+                    "platform": 1,
+                    "name": "沙漠君 ",
+                    "emoji": []
+                },
+                "bmp": "08d115a400001401",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

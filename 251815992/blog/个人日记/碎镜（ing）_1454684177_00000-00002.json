@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1454690071,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "原来蒜社钱这么多！ ",
+                "capacity": 12155,
+                "poster": {
+                    "id": "785044754",
+                    "platform": 1,
+                    "name": "管清文 ",
+                    "emoji": []
+                },
+                "bmp": "18c095800000c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1454694510,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "月入一狗居然连屏幕都修不起！ ",
+                "capacity": 12146,
+                "poster": {
+                    "id": "190730860",
+                    "platform": 1,
+                    "name": "策划-sorma ",
+                    "emoji": []
+                },
+                "bmp": "08c095880002d401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1454736599,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "他她自由变换 ",
+                "capacity": 12156,
+                "poster": {
+                    "id": "451524137",
+                    "platform": 1,
+                    "name": "光之神圣 ",
+                    "emoji": []
+                },
+                "bmp": "18c1f4a40080c109",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

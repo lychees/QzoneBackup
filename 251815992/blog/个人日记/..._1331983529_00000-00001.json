@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1332009593,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "君画的么  很不错哟 ",
+                "capacity": 12146,
+                "poster": {
+                    "id": "308388541",
+                    "platform": 1,
+                    "name": "◇﹏oかがみ. ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00100c009",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1332087286,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,3,]编辑中。。勿回复。。！[/ft] ",
+                "capacity": 12134,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            }
+        ]
+    }
+}

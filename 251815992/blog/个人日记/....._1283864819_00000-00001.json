@@ -1,0 +1,57 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1283867180,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "教官说老说我手甩的太随意，杯具啊，我手甩的可用劲了。 ",
+                "capacity": 12093,
+                "poster": {
+                    "id": "284293874",
+                    "platform": 1,
+                    "name": "孟修竹 ",
+                    "emoji": []
+                },
+                "bmp": "08d40da80102c109",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "额、 ",
+                        "postTime": 1283900415,
+                        "id": 1283900415,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1285950645,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "哦哦，炸毛了~（小岛君和segua熟么？ ",
+                "capacity": 12134,
+                "poster": {
+                    "id": "1461414926",
+                    "platform": 1,
+                    "name": "森 ",
+                    "emoji": []
+                },
+                "bmp": "18409d8002004101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

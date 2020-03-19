@@ -1,0 +1,51 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1265697039,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "[ft=,2,]你是？为什么打开是我空间？[/ft] ",
+                "capacity": 12002,
+                "poster": {
+                    "id": "987445945",
+                    "platform": 1,
+                    "name": "stellac ",
+                    "emoji": []
+                },
+                "bmp": "18d595a40102c209",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "。额。。。我是好心的帮住邻居的同学帮同学修空间的路人... ",
+                        "postTime": 1265700345,
+                        "id": 1265700345,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "987445945",
+                            "name": "stellac ",
+                            "platform": 1
+                        },
+                        "content": "我知道了  谢谢你把我空间弄好了 ",
+                        "postTime": 1265718741,
+                        "id": 1265718741,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1449672230,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "好多题@.@ ",
+                "capacity": 12153,
+                "poster": {
+                    "id": "1006084017",
+                    "platform": 1,
+                    "name": "WEED LEVEL 10 neokCS ",
+                    "emoji": []
+                },
+                "bmp": "18c09d880202c901",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1449673722,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "毕竟SRM大爷。 ",
+                "capacity": 12159,
+                "poster": {
+                    "id": "350193001",
+                    "platform": 1,
+                    "name": "whatyouthink ",
+                    "emoji": []
+                },
+                "bmp": "588515a00102d001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

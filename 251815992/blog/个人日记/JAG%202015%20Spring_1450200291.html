@@ -1,0 +1,532 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    JAG 2015 Spring
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             JAG 2015 Spring
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2015-12-15 12:24:51
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(107)	è¯è®º(1)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1450200291,
+"voteids":0,
+"pubtime":1450200291,
+"replynum":1,
+"category":"个人日记",
+"title":"JAG 2015 Spring",
+"effect":8454656,
+"effect2":524294,
+"exblogtype":3,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":81177,
+"lp_style":16843520,
+"lp_flag":0,
+"lp_topvalue":0,
+"orguin":251815992,
+"orgblogid":1450200291,
+"mention_uins":[ ],
+"attach":[],"comments":[{"id":1,
+"postTime":1450202838,
+"effect":0,
+"replyNum":0,
+"content":"感觉这套题质量不错的样子。。。 ",
+"capacity":12139,
+"poster":{
+"id":"3037754077",
+"platform":1,
+"name":"Dashgua ",
+"emoji":[ ]}
+,
+"bmp":"880094800202c101",
+"ismyreply":0,
+"replies":[]}]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <div>
+                <div>
+                 <div>
+                  <span style="color:rgb(0, 0, 238);text-decoration:underline">
+                   <a href="http://acm-icpc.aitea.net/index.php?2014%2FPractice%2F%E6%98%A5%E3%82%B3%E3%83%B3%E3%83%86%E3%82%B9%E3%83%88%2F%E8%AC%9B%E8%A9%95" target="_blank">
+                    http://acm-icpc.aitea.net/index.php?2014%2FPractice%2F%E6%98%A5%E3%82%B3%E3%83%B3%E3%83%86%E3%82%B9%E3%83%88%2F%E8%AC%9B%E8%A9%95
+                   </a>
+                  </span>
+                  <br/>
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  <a href="http://jag2015spring.contest.atcoder.jp/assignments" target="_blank">
+                   http://jag2015spring.contest.atcoder.jp/assignments
+                  </a>
+                 </div>
+                 <br/>
+                 <br/>
+                 A.
+                 <br/>
+                 树分治 or 启发式合并。。
+                 <span>
+                  （显然后者比较好写
+                  <br/>
+                  <span>
+                   <br/>
+                   B.
+                   <br/>
+                   背包。。朴素的状态会 TLE。。。
+                   <br/>
+                   状态要写成。。。
+                   <br/>
+                   <span>
+                   </span>
+                  </span>
+                 </span>
+                 dp[i][j][s]。。表示
+                </div>
+                <div>
+                 // [i, k) 必选
+                </div>
+                <div>
+                 // [j, n) 必不选
+                 <br/>
+                 <span>
+                  能否凑成 s
+                  <br/>
+                  从
+                 </span>
+                 i = 0, j = k 推到
+                 <span>
+                  i = k, j = n。。。
+                 </span>
+                 <br/>
+                 <span>
+                  最后单调队列。。。
+                 </span>
+                 <br/>
+                 <br/>
+                 <span>
+                  。。。菜鸡表示从未见过这种方法。。。
+                 </span>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <span>
+                  C.
+                 </span>
+                 <br/>
+                 <span>
+                  。。神题啊。。。。
+                 </span>
+                 <br/>
+                 <span>
+                  我还没有完全搞懂最后一步。.。。
+                 </span>
+                 <br/>
+                 <a href="http://jag2015spring.contest.atcoder.jp/submissions/495157" target="_blank">
+                  http://jag2015spring.contest.atcoder.jp/submissions/495157
+                 </a>
+                 <br/>
+                 <br/>
+                 <span>
+                  D.
+                  <br/>
+                  <span>
+                   树背包（？
+                   <br/>
+                   <span>
+                    灵性 dfs。。。（
+                   </span>
+                  </span>
+                 </span>
+                 <a href="http://jag2015spring.contest.atcoder.jp/submissions/389753" target="_blank">
+                  http://jag2015spring.contest.atcoder.jp/submissions/389753
+                 </a>
+                 <span>
+                  <br/>
+                  <span>
+                   <br/>
+                   递归回来的时候只将当前向下最长的路径增加上这条边的长度。。
+                   <br/>
+                  </span>
+                 </span>
+                </div>
+                <div>
+                 <span>
+                  <span>
+                   E.
+                   <br/>
+                   给定一副费用流网络。
+                   <br/>
+                   找到一个流 f
+                   <br/>
+                   。。最小化 B(f) = C(f)^2 ＋ (MaxFlow - F(f))^2
+                   <br/>
+                   C(f): 费用函数
+                   <br/>
+                   F(f)：流量函数。
+                   <br/>
+                   ——————
+                   <br/>
+                   spfa 出最小费用最大流的同时，得到最小费用随着流变化的函数。（分段线性。
+                   <br/>
+                   分析 B(f)。。
+                   <br/>
+                   。。那么 B(f) 要么在这些端点上，要么在某段中间导数等于 0 的位置。
+                   <br/>
+                   <br/>
+                   <br/>
+                   <br/>
+                   F.
+                   <br/>
+                   卧槽。。。。居然不会 。。。真是菜鸡。。
+                   <br/>
+                   <span>
+                    <br/>
+                    1. 先考虑没有限制的。。（考虑每种方案对应多少排列。。
+                    <br/>
+                    <span>
+                     2. 考虑只有好友关系的。
+                     <br/>
+                     3. 最后考虑敌人关系。。。
+                     <br/>
+                     然后小学生容斥就行了。。。
+                    </span>
+                   </span>
+                  </span>
+                 </span>
+                 <br/>
+                 <br/>
+                 <br/>
+                 I.
+                 <br/>
+                 一般情况。。。固定 A 上的点，此时与 B 的中点形成的直线在一条直线上。
+                 <br/>
+                 因而唯一退化的是该直线与 C 重合的情况。
+                 <br/>
+                 此时可以 FFT。
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <span>
+                  K.
+                 </span>
+                 <br/>
+                 <span>
+                  ？？？
+                  <br/>
+                  <span>
+                   显然要往圆心走。。走到某个圆以内就 safe 了。。。
+                   <br/>
+                  </span>
+                 </span>
+                 于是可以想到有两种方案。。
+                 <br/>
+                 1. 沿着径向走，最快的到达 safe 区域。
+                 <br/>
+                 2. 沿着切向走，速度稍微慢点，但是可以拖延对手的时间。
+                 <br/>
+                 <br/>
+                 简单画图，利用三角不等式可以发现 2 比1 要优。
+                 <br/>
+                 <span>
+                 </span>
+                 <br/>
+                 <span>
+                  L.
+                  <br/>
+                  博弈 DP。。
+                  <br/>
+                  <span>
+                   类似的题目似乎出锅很多次了。。
+                   <br/>
+                  </span>
+                 </span>
+                </div>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+               </div>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

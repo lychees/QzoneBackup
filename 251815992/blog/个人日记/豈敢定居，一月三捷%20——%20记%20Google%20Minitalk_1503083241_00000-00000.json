@@ -1,0 +1,40 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1503083334,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "sofa ",
+                "capacity": 12070,
+                "poster": {
+                    "id": "41785691",
+                    "platform": 1,
+                    "name": "iceboy ",
+                    "emoji": []
+                },
+                "bmp": "08c13d800002c001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "529520158",
+                            "name": "雪人墙 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:41785691,nick:iceboy,who:1,auto:1} 有ai课推荐？ ",
+                        "postTime": 1503101313,
+                        "id": 1503101313,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

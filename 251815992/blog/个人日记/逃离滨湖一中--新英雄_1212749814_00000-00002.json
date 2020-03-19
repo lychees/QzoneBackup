@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1212755622,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "抄袭合并DOTA技能，没有自己的创意，PIG遍的技能虽然重复但也比这个好 ",
+                "capacity": 12108,
+                "poster": {
+                    "id": "601598644",
+                    "platform": 1,
+                    "name": "金天 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00002c109",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1212814860,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "搞笑啊 ",
+                "capacity": 12159,
+                "poster": {
+                    "id": "276500942",
+                    "platform": 1,
+                    "name": "酒仙 ",
+                    "emoji": []
+                },
+                "bmp": "b8c1dda00102e229",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1212850928,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "还有任之嫂呢....\n嘿嘿 ",
+                "capacity": 12152,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

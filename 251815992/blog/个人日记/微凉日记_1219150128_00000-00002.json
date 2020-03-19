@@ -1,0 +1,109 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1219162924,
+                "effect": 4194336,
+                "replyNum": 1,
+                "content": "加油哦...\n话说那个短信小超人是谁...-  -| ",
+                "capacity": 12103,
+                "poster": {
+                    "id": "474697421",
+                    "platform": 1,
+                    "name": "朱明琪 ",
+                    "emoji": []
+                },
+                "bmp": "18d195a000028209",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "- -\n ",
+                        "postTime": 1219198359,
+                        "id": 1219198359,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1219497447,
+                "effect": 4194336,
+                "replyNum": 1,
+                "content": "啥\n都没有洗手间？？？？！！！ ",
+                "capacity": 12112,
+                "poster": {
+                    "id": "241721246",
+                    "platform": 1,
+                    "name": "-Zoey-D ",
+                    "emoji": []
+                },
+                "bmp": "18d495a001008121",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "...是啊- - ",
+                        "postTime": 1219751440,
+                        "id": 1219751440,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1219760478,
+                "effect": 4194336,
+                "replyNum": 2,
+                "content": "想念你们呀......\n我在这边也要赶课程进度呀，好回去赶上你们呀。我准备把美国大学的微积分和物理学掉，还有高中的化学（话说看了那本化学书后头都大了，基本看不懂，除了方程式...)\n老谢当班主任呀，这个亲切了...\n有人离开班级吗？ ",
+                "capacity": 11867,
+                "poster": {
+                    "id": "534470369",
+                    "platform": 1,
+                    "name": "张弛 ",
+                    "emoji": []
+                },
+                "bmp": "08d08ca000000428",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "嘿嘿，想赶上我们这边可不容易呢`\n～～没有～～ ",
+                        "postTime": 1219769973,
+                        "id": 1219769973,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "534470369",
+                            "name": "张弛 ",
+                            "platform": 1
+                        },
+                        "content": "... ",
+                        "postTime": 1219775542,
+                        "id": 1219775542,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

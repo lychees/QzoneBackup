@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1268549426,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,,]Pi[/ft] ",
+                "capacity": 12152,
+                "poster": {
+                    "id": "421590180",
+                    "platform": 1,
+                    "name": "肥球汉克斯 ",
+                    "emoji": []
+                },
+                "bmp": "18c09da00000c009",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

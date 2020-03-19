@@ -1,0 +1,119 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 5,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1287985311,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "  数学课啊混蛋。。。＃ ",
+                "capacity": 12150,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1288001316,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "这是在哪里 ",
+                "capacity": 12098,
+                "poster": {
+                    "id": "281589210",
+                    "platform": 1,
+                    "name": "18.  ",
+                    "emoji": []
+                },
+                "bmp": "18c415a40000c109",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "Harbin yo。。。 ",
+                        "postTime": 1288011176,
+                        "id": 1288011176,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "281589210",
+                            "name": "18.  ",
+                            "platform": 1
+                        },
+                        "content": "hohoho ",
+                        "postTime": 1288011193,
+                        "id": 1288011193,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1288003358,
+                "effect": 1048576,
+                "replyNum": 0,
+                "content": "这不算大的。。。北方什么的，会有更大的雪的。。受死吧，小岛君！！ ",
+                "capacity": 12107,
+                "poster": {
+                    "id": "443164766",
+                    "platform": 1,
+                    "name": "\"zrp\" ",
+                    "emoji": []
+                },
+                "bmp": "088094a10000c301",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1288011206,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "@ls 。。。我受死＃我受死。。呜呜呜呜。。。。 ",
+                "capacity": 12128,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1288350020,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "  下雪啦……~！· ",
+                "capacity": 12149,
+                "poster": {
+                    "id": "784237318",
+                    "platform": 1,
+                    "name": "叙眄 ",
+                    "emoji": []
+                },
+                "bmp": "585095a00102c009",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

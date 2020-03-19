@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1498201684,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "可惜我们没去华强北看看… ",
+                "capacity": 12144,
+                "poster": {
+                    "id": "690548845",
+                    "platform": 1,
+                    "name": "兔子⊙☆ ",
+                    "emoji": []
+                },
+                "bmp": "18409da40002c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

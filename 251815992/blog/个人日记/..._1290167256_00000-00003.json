@@ -1,0 +1,79 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1290170416,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "神牛居然特地回去了，Orz ",
+                "capacity": 12146,
+                "poster": {
+                    "id": "397608993",
+                    "platform": 1,
+                    "name": "233 ",
+                    "emoji": []
+                },
+                "bmp": "18915d0440008021",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1290215665,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]见到敏儿了吗？……[/ft]\n[ft=,2,]还有你和税子龙见面了？……[/ft]\n[ft=,2,]呵呵……[/ft]\n[ft=,2,]一切都缓和了吗？[/ft] ",
+                "capacity": 12043,
+                "poster": {
+                    "id": "784237318",
+                    "platform": 1,
+                    "name": "叙眄 ",
+                    "emoji": []
+                },
+                "bmp": "585095a00102c009",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1290218796,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "他有跟你说起？我跑长江边去了算是第一回下场近距离观察呢。。。 ",
+                "capacity": 12112,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1290258382,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]回家了  Orz...#[/ft] ",
+                "capacity": 12144,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            }
+        ]
+    }
+}

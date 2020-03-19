@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1503187779,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "NEO他们用.NET Core做的跨平台……开发者确实是有点尴尬，不过语言用起来肯定是很舒服的，通讯的话也没什么问题。 ",
+                "capacity": 12064,
+                "poster": {
+                    "id": "835485368",
+                    "platform": 1,
+                    "name": "软饭-熊熊 ",
+                    "emoji": []
+                },
+                "bmp": "18d4cde40902e201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1503200392,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "小蚁感觉没有生态 ",
+                "capacity": 12152,
+                "poster": {
+                    "id": "775146258",
+                    "platform": 1,
+                    "name": "代码脸 ",
+                    "emoji": []
+                },
+                "bmp": "58c49d840042e121",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

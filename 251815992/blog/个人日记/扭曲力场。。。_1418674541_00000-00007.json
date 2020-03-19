@@ -1,0 +1,249 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 8,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1418674710,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "你说的是 齐彭辉 还是 林伟平 还是 萧可？ ",
+                "capacity": 12020,
+                "poster": {
+                    "id": "704998702",
+                    "platform": 1,
+                    "name": "北航董适 ",
+                    "emoji": []
+                },
+                "bmp": "18809d0000008001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:704998702,nick:北航董适,who:1,auto:1}我忘记了名字。。。明天问问。。。 ",
+                        "postTime": 1418674855,
+                        "id": 1418674855,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1418674752,
+                "effect": 32,
+                "replyNum": 4,
+                "content": "不不不。。我就是工作了之后水平降低了。。 ",
+                "capacity": 11747,
+                "poster": {
+                    "id": "704998702",
+                    "platform": 1,
+                    "name": "北航董适 ",
+                    "emoji": []
+                },
+                "bmp": "18809d0000008001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:704998702,nick:北航董适,who:1,auto:1}你太假了。 ",
+                        "postTime": 1418674872,
+                        "id": 1418674872,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "704998702",
+                            "name": "北航董适 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,auto:1} 真心的。。。你看我昨天 A 都能先 Wa 一发真是不能多说。 ",
+                        "postTime": 1418675222,
+                        "id": 1418675222,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:704998702,nick:北航董适,who:1,auto:1}你以前也 WA。 ",
+                        "postTime": 1418675502,
+                        "id": 1418675502,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "704998702",
+                            "name": "北航董适 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,auto:1} 卧槽求别说。。。。。。\n ",
+                        "postTime": 1418675551,
+                        "id": 1418675551,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1418690906,
+                "effect": 1056,
+                "replyNum": 4,
+                "content": "为什么不是江游 ",
+                "capacity": 11763,
+                "poster": {
+                    "id": "8644325",
+                    "platform": 1,
+                    "name": "死月·吃圡蕾特 ",
+                    "emoji": []
+                },
+                "bmp": "18518da805128101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:8644325,nick:死月·吃圡蕾特,who:1,auto:1} 他们改名字了 ",
+                        "postTime": 1418691071,
+                        "id": 1418691071,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "8644325",
+                            "name": "死月·吃圡蕾特 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1}好吧，本来我也应该在的[em]e328557[/em]好想去 ",
+                        "postTime": 1418691099,
+                        "id": 1418691099,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:8644325,nick:死月·吃圡蕾特,who:1,auto:1} 乃在哪里现在 ",
+                        "postTime": 1418701181,
+                        "id": 1418701181,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "8644325",
+                            "name": "死月·吃圡蕾特 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,auto:1} 花瓣网，不是做游戏了 -。 -\n ",
+                        "postTime": 1418702162,
+                        "id": 1418702162,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "postTime": 1418691184,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "能跟岛娘近距离接触 真是有幸。。。 Orz。。 ",
+                "capacity": 12131,
+                "poster": {
+                    "id": "992107192",
+                    "platform": 1,
+                    "name": "qiuqiqiu ",
+                    "emoji": []
+                },
+                "bmp": "18c095800000c401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1418691968,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "你说的好多人都是我学弟[em]e117[/em] ",
+                "capacity": 12133,
+                "poster": {
+                    "id": "610759089",
+                    "platform": 1,
+                    "name": "晴天小猪 ",
+                    "emoji": []
+                },
+                "bmp": "185085a00002c428",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 6,
+                "postTime": 1418692557,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "在两年前。。。软院创新项目报收的时候。。。。我做了更多的准备。。。却鲜有回应。。。\n。。。。。究其原因。。。是我所处的环境不同了。。面向的听众不同了。。。。。。。。         同感 ",
+                "capacity": 11995,
+                "poster": {
+                    "id": "1514095446",
+                    "platform": 1,
+                    "name": "12-软-兰天 ",
+                    "emoji": []
+                },
+                "bmp": "08909dc00208c401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 7,
+                "postTime": 1418695706,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "应得 ",
+                "capacity": 12169,
+                "poster": {
+                    "id": "503016773",
+                    "platform": 1,
+                    "name": "ali ",
+                    "emoji": []
+                },
+                "bmp": "184195a009428421",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 8,
+                "postTime": 1418702900,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "你说的好多人都是我超级厉害的学弟[em]e117[/em] ",
+                "capacity": 12123,
+                "poster": {
+                    "id": "250411887",
+                    "platform": 1,
+                    "name": "钱瑞彬 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a40100c201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

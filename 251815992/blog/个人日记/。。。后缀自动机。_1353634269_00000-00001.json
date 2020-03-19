@@ -1,0 +1,57 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 2,
+                "postTime": 1353635824,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "前排 ",
+                "capacity": 12166,
+                "poster": {
+                    "id": "945637290",
+                    "platform": 1,
+                    "name": "糖果 ",
+                    "emoji": []
+                },
+                "bmp": "088495800000d001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1353843502,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "给n个串，求一个最长公共子串且它是不少于k个串的子串怎么用SAM做。。。 （我可以连接n个串然后建立SAM搞么。。。） ",
+                "capacity": 11985,
+                "poster": {
+                    "id": "723872268",
+                    "platform": 1,
+                    "name": "figo ",
+                    "emoji": []
+                },
+                "bmp": "18d0952000088029",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:723872268,nick:figo,who:1,auto:1}对。 ",
+                        "postTime": 1404152309,
+                        "id": 1404152309,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

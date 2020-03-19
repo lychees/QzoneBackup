@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1404290598,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "前排 ",
+                "capacity": 12167,
+                "poster": {
+                    "id": "397740194",
+                    "platform": 1,
+                    "name": "杨博洋 ",
+                    "emoji": []
+                },
+                "bmp": "08c095a40000c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1404295033,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "E题拆点后套DFA最小化的算法就行了。 ",
+                "capacity": 12138,
+                "poster": {
+                    "id": "182035045",
+                    "platform": 1,
+                    "name": "罗翔宇 ",
+                    "emoji": []
+                },
+                "bmp": "18d415a00000c121",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1404299440,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "orz ",
+                "capacity": 12164,
+                "poster": {
+                    "id": "1693035997",
+                    "platform": 1,
+                    "name": "233等人Alice ",
+                    "emoji": []
+                },
+                "bmp": "08409c880202e221",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 2,
+                "postTime": 1410205098,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "挺有趣…(并未仔细研读) ",
+                "capacity": 12140,
+                "poster": {
+                    "id": "976366091",
+                    "platform": 1,
+                    "name": "Alstroemeria Alice ",
+                    "emoji": []
+                },
+                "bmp": "1884d58100004101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

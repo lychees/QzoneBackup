@@ -1,0 +1,762 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    动态规划中的判定性问题
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             动态规划中的判定性问题
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2008-04-30 13:10:58
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(83)	è¯è®º(1)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1209575458,
+"voteids":0,
+"pubtime":1209575458,
+"replynum":1,
+"category":"个人日记",
+"title":"动态规划中的判定性问题",
+"effect":512,
+"effect2":0,
+"exblogtype":0,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":0,
+"lp_style":0,
+"lp_flag":0,
+"orguin":251815992,
+"orgblogid":1209575458,
+"mention_uins":[ ],
+"attach":[],"comments":[{"id":1,
+"postTime":1209612684,
+"effect":4194304,
+"replyNum":0,
+"content":"是的！动态规划判定性问题 ",
+"capacity":12150,
+"poster":{
+"id":"838515060",
+"platform":1,
+"name":"丶心竞 ",
+"emoji":[ ]}
+,
+"bmp":"38549de0050ec001",
+"ismyreply":0,
+"replies":[]}]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <span style="font-weight:bold">
+               <wbr/>
+               <span style="font-size:24px;line-height:1.3em;">
+                USACO 2.1
+               </span>
+               <wbr/>
+               <span style="font-size:18px;line-height:1.3em;">
+                SUBSET
+               </span>
+               <wbr/>
+              </span>
+              <wbr/>
+              <br/>
+              <span style="font-weight:bold">
+               <wbr/>
+               <a href="http://www.nocow.cn/index.php/Translate:USACO/subset" target="_blank">
+                <span style="font-size:16px;line-height:1.3em;">
+                 http://www.nocow.cn/index.php/Translate:USACO/subset
+                </span>
+                <wbr/>
+               </a>
+               <wbr/>
+              </span>
+              <wbr/>
+              <br/>
+              <br/>
+              <span style="font-size:13px;line-height:1.3em;">
+               <span style="font-size:10px;line-height:1.3em;">
+                题目描述：对于从1到N (1 &lt;= N &lt;= 39) 的连续整数集合，能划分成两个子集合，且保证每个集合的数字和是相等的。举个例子，如果N=3，对于{1，2，3}能划分成两个子集合，他们每个的所有数字和是相等的：
+               </span>
+               <wbr/>
+               输入N，输出相等的集合数目.........
+              </span>
+              <wbr/>
+              <br/>
+              <br/>
+              <span style="font-size:13px;line-height:1.3em;">
+               ...?
+              </span>
+              <wbr/>
+              <br/>
+              <span style="font-size:13px;line-height:1.3em;">
+               耐心思考......没有思路吗？不过不用担心...相信看完本篇后这类
+              </span>
+              <wbr/>
+              <br/>
+              <span style="font-size:13px;line-height:1.3em;">
+               问题都会获得很好的解决呢..~
+              </span>
+              <wbr/>
+              <br/>
+              <br/>
+              <br/>
+              <span style="font-weight:bold">
+               <wbr/>
+               <span style="font-size:24px;line-height:1.3em;">
+                砝码称重
+               </span>
+               <wbr/>
+              </span>
+              <wbr/>
+              <br/>
+              <span style="font-weight:bold">
+               <wbr/>
+               设有1g，2g，3g，5g，10g，20g的砝码各若干枚（其总重 ≤ 1000g），要求：
+              </span>
+              <wbr/>
+              <br/>
+              <span style="font-weight:bold">
+               <wbr/>
+               输入：
+              </span>
+              <wbr/>
+              <br/>
+              <span style="font-weight:bold">
+               <wbr/>
+               a1   a2   a3   a4   a5   a6(表示1g砝码有a1个，2g砝码有a2个，......20g砝码有a6个)
+              </span>
+              <wbr/>
+              <br/>
+              <span style="font-weight:bold">
+               <wbr/>
+               输出：
+              </span>
+              <wbr/>
+              <br/>
+              <span style="font-weight:bold">
+               <wbr/>
+               Total=N (N表示用这些砝码能称出的不同重量的个数，但不包括一个砝码也不用的情况)
+              </span>
+              <wbr/>
+              <br/>
+              <span style="font-weight:bold">
+               <wbr/>
+               输入 样例 ：1  1  0   0   0   0
+              </span>
+              <wbr/>
+              <br/>
+              <span style="font-weight:bold">
+               <wbr/>
+               <span style="font-family:黑体;line-height:1.3em;">
+                输出
+               </span>
+               <wbr/>
+               样例 ：Total=3，表示可以称出1g，2g，3g三种不同的重量
+              </span>
+              <wbr/>
+              <br/>
+              <span style="font-weight:bold">
+               <wbr/>
+               首先我们将注意力转移到这样的一道题目上面来...读一下题目看看我们都知道些什么...
+              </span>
+              <wbr/>
+              <br/>
+              <span style="font-weight:bold">
+               <wbr/>
+               若干砝码的质量～要求出用它们所能称出的不同质量的个数～
+              </span>
+              <wbr/>
+              <br/>
+              <span style="font-weight:bold">
+               <wbr/>
+               一个可见的思路是...咳咳～～当然是我们亲切的穷举方法～～
+              </span>
+              <wbr/>
+              <br/>
+              <span style="font-weight:bold">
+               <wbr/>
+               枚举每一颗砝码的状态（加或不加）...
+              </span>
+              <wbr/>
+              <br/>
+              <span style="font-weight:bold">
+               <wbr/>
+               但是...本题（其总重 ≤ 1000g），考虑到极限状态上可能有2的1000次方种组合方案
+              </span>
+              <wbr/>
+              <br/>
+              <span style="font-weight:bold">
+               <wbr/>
+               （= -）
+              </span>
+              <wbr/>
+              <span style="font-weight:bold">
+               <wbr/>
+               穷举法显然会 超时~~~
+              </span>
+              <wbr/>
+              <br/>
+              <span style="font-weight:bold">
+               <wbr/>
+               不得不寻找另外的思路...
+              </span>
+              <wbr/>
+              <br/>
+              <span style="font-weight:bold">
+               <wbr/>
+               动态规划
+              </span>
+              <wbr/>
+              <br/>
+              <span style="font-weight:bold">
+               <wbr/>
+               我们考虑放入第i个砝码时，只需要依次考虑增加1到a
+               <span style="font-style:italic">
+                <wbr/>
+                块砝码i到i-1次时砝码的质量产生情况...
+               </span>
+               <wbr/>
+               <br/>
+               <span style="font-weight:bold">
+                <wbr/>
+                也就是新的状态总是有前一个状态所决定...这满足了我们动态规划表格法的性质....那么开始...设计我们的数据结构...
+               </span>
+               <wbr/>
+               <br/>
+               const num:array[1..6] of integer=(1,2,3,5,10,20); {
+               <span style="font-family:宋体;line-height:1.3em;">
+                砝码
+               </span>
+               <wbr/>
+               <span style="font-family:宋体;line-height:1.3em;">
+                的重量序列
+               </span>
+               <wbr/>
+               }
+               <br/>
+               type  int=integer  {lychees的习惯= -，冒似每次都可以少打不少字，而且也很容易的切换成longint} 嘻嘻
+               <br/>
+               var     a:array[1..6] of int; {这个用来记录每颗砝码的数量}
+               <br/>
+               dp:array[1..1000] of boolean;{**这里不同于我们以往的动规最优化问题,这里是布尔型变量**}
+               <br/>
+               ans:int;tRNA:int{记录状态转移} {另外开一个记录一下最后的答案好了}
+               <br/>
+               <br/>
+               阶段i:分析第i块砝码。
+               <br/>
+               状态j:枚举第j种质量。
+               <br/>
+               决策k:for k:=1 to a
+               <span style="font-style:italic">
+                <wbr/>
+                do 增加k*num
+                <span style="font-style:italic">
+                 <wbr/>
+                 块砝码～
+                 <br/>
+                 <br/>
+                 我们发现状态j需要枚举当前已经存在的质量...而我们需要通过从1～ans枚举dp中为真值得情况...
+                 <br/>
+                 一个小的优化是再开一个数字 weight:array[1..1000] of int;记录不同的质量情况；
+                 <br/>
+                 我们将ans=weight[0] 于是可以合并这两个数据结构。
+                 <br/>
+                 <br/>
+                 至此算法的核心部分以及数据结构的设计已经完成...~很容易写出代码～
+                 <br/>
+                 {初始化}..weight[0]:=1;weight[1]:=0;
+                 <br/>
+                 for i:=1 to n do
+                 <br/>
+                 for j:=1 to weight[0] do
+                 <br/>
+                 for k:=1 to a
+                 <span style="font-style:italic">
+                  <wbr/>
+                  do
+                  <br/>
+                  tRNA:=k*num
+                  <span style="font-style:italic">
+                   <wbr/>
+                   +weight[j];
+                   <br/>
+                   if not dp[tRNA] then
+                   <br/>
+                   begin
+                   <br/>
+                   dp[tRNA]:=true;
+                   <br/>
+                   inc(weight[0]);
+                   <br/>
+                   weight[weight[0]]:=tRNA;
+                   <br/>
+                   end;
+                   <br/>
+                   <br/>
+                   输出：
+                   <br/>
+                   Total=N (N表示用这些砝码能称出的不同重量的个数，但不包括一个砝码也不用的情况)
+                   <br/>
+                   writeln(weight[0]-1){减去质量为0的情况就好了}
+                   <br/>
+                   <br/>
+                   <br/>
+                   <br/>
+                   <span style="font-weight:bold">
+                    <wbr/>
+                    <span style="font-size:24px;line-height:1.3em;">
+                     装箱问题
+                    </span>
+                    <wbr/>
+                    {貌似这题还是96年NOIP复赛试题= -}
+                   </span>
+                   <wbr/>
+                   <br/>
+                   <span style="font-weight:bold">
+                    <wbr/>
+                    <span style="font-family:宋体;line-height:1.3em;">
+                     有一个箱子容量为
+                    </span>
+                    <wbr/>
+                    v
+                    <span style="font-family:宋体;line-height:1.3em;">
+                     （正整数，0
+                    </span>
+                    <wbr/>
+                    ≤ v ≤ 20000
+                    <span style="font-family:宋体;line-height:1.3em;">
+                     ），同时有
+                    </span>
+                    <wbr/>
+                    n
+                    <span style="font-family:宋体;line-height:1.3em;">
+                     个物品（0
+                    </span>
+                    <wbr/>
+                    &lt;n ≤ 30
+                    <span style="font-family:宋体;line-height:1.3em;">
+                     ），每个物品有一个体积（正整数）。
+                    </span>
+                    <wbr/>
+                   </span>
+                   <wbr/>
+                   <br/>
+                   <span style="font-weight:bold">
+                    <wbr/>
+                    <span style="font-family:宋体;line-height:1.3em;">
+                     要求从
+                    </span>
+                    <wbr/>
+                    n
+                    <span style="font-family:宋体;line-height:1.3em;">
+                     个物品中，任取若干个装入箱内，使箱子的剩余空间为最小。
+                    </span>
+                    <wbr/>
+                   </span>
+                   <wbr/>
+                   <br/>
+                   <span style="font-weight:bold">
+                    <wbr/>
+                    <span style="font-family:黑体;line-height:1.3em;">
+                     输入：
+                    </span>
+                    <wbr/>
+                    输出
+                   </span>
+                   <wbr/>
+                   <br/>
+                   <span style="font-weight:bold">
+                    <wbr/>
+                    <span style="font-family:宋体;line-height:1.3em;">
+                     箱子的容量
+                    </span>
+                    <wbr/>
+                    v
+                   </span>
+                   <wbr/>
+                   <br/>
+                   <span style="font-weight:bold">
+                    <wbr/>
+                    <span style="font-family:宋体;line-height:1.3em;">
+                     物品数
+                    </span>
+                    <wbr/>
+                    n
+                   </span>
+                   <wbr/>
+                   <br/>
+                   <span style="font-weight:bold">
+                    <wbr/>
+                    <span style="font-family:宋体;line-height:1.3em;">
+                     接下来
+                    </span>
+                    <wbr/>
+                    n
+                    <span style="font-family:宋体;line-height:1.3em;">
+                     行，分别表示这
+                    </span>
+                    <wbr/>
+                    n
+                    <span style="font-family:宋体;line-height:1.3em;">
+                     个物品的体积
+                    </span>
+                    <wbr/>
+                    <span style="font-weight:bold">
+                     <wbr/>
+                     <span style="font-family:宋体;line-height:1.3em;">
+                      箱子剩余空间
+                     </span>
+                     <wbr/>
+                    </span>
+                    <wbr/>
+                   </span>
+                   <wbr/>
+                   <br/>
+                   <br/>
+                   <span style="font-weight:bold">
+                    <wbr/>
+                    <span style="font-family:黑体;line-height:1.3em;">
+                     样例
+                    </span>
+                    <wbr/>
+                   </span>
+                   <wbr/>
+                   <br/>
+                   <span style="font-family:宋体;line-height:1.3em;">
+                    <span style="font-weight:bold">
+                     <wbr/>
+                     输入：24
+                    </span>
+                    <wbr/>
+                   </span>
+                   <wbr/>
+                   <br/>
+                   <span style="font-weight:bold">
+                    <wbr/>
+                    6
+                   </span>
+                   <wbr/>
+                   <br/>
+                   <span style="font-weight:bold">
+                    <wbr/>
+                    8
+                   </span>
+                   <wbr/>
+                   <br/>
+                   <span style="font-weight:bold">
+                    <wbr/>
+                    3
+                   </span>
+                   <wbr/>
+                   <br/>
+                   <span style="font-weight:bold">
+                    <wbr/>
+                    12
+                   </span>
+                   <wbr/>
+                   <br/>
+                   <span style="font-weight:bold">
+                    <wbr/>
+                    7
+                   </span>
+                   <wbr/>
+                   <br/>
+                   <span style="font-weight:bold">
+                    <wbr/>
+                    9
+                   </span>
+                   <wbr/>
+                   <br/>
+                   <span style="font-weight:bold">
+                    <wbr/>
+                    7
+                   </span>
+                   <wbr/>
+                   <br/>
+                   <span style="font-family:宋体;line-height:1.3em;">
+                    <span style="font-weight:bold">
+                     <wbr/>
+                     输出：  0
+                    </span>
+                    <wbr/>
+                   </span>
+                   <wbr/>
+                   <br/>
+                   <br/>
+                   {困了 明天再写吧= -   思路：动态规划判定性问题}
+                  </span>
+                 </span>
+                </span>
+               </span>
+              </span>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

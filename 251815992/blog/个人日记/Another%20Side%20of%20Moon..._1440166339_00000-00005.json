@@ -1,0 +1,113 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 6,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1440170406,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "二次元，好厉害的领域。。 ",
+                "capacity": 12094,
+                "poster": {
+                    "id": "624050143",
+                    "platform": 1,
+                    "name": "倪亦帅 ",
+                    "emoji": []
+                },
+                "bmp": "18d48da80002c201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1440170476,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "屌的不行... ",
+                "capacity": 12157,
+                "poster": {
+                    "id": "190730860",
+                    "platform": 1,
+                    "name": "策划-sorma ",
+                    "emoji": []
+                },
+                "bmp": "08c095880002d401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1440194227,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "居然有这样的频道 ",
+                "capacity": 12139,
+                "poster": {
+                    "id": "112831313",
+                    "platform": 1,
+                    "name": "12-计-董羽飞 ",
+                    "emoji": []
+                },
+                "bmp": "38d40da00102d101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1440196889,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "岛娘频道！ ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "397427019",
+                    "platform": 1,
+                    "name": " ",
+                    "emoji": []
+                },
+                "bmp": "18809da40102c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1440202142,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "岛娘 6666 ",
+                "capacity": 12159,
+                "poster": {
+                    "id": "598663157",
+                    "platform": 1,
+                    "name": "影落之谜 ",
+                    "emoji": []
+                },
+                "bmp": "98d11de90108d081",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 6,
+                "postTime": 1440264742,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "我楞刘成敏 ",
+                "capacity": 12156,
+                "poster": {
+                    "id": "276500942",
+                    "platform": 1,
+                    "name": "酒仙 ",
+                    "emoji": []
+                },
+                "bmp": "b8c1dda00102e229",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

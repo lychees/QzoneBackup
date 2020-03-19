@@ -1,0 +1,130 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1383190677,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "沙发 ",
+                "capacity": 12170,
+                "poster": {
+                    "id": "223359382",
+                    "platform": 1,
+                    "name": "[拜戴神教]水 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a400008409",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1383191768,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "SAM是什么。。。为什么百度不出来。。 ",
+                "capacity": 12045,
+                "poster": {
+                    "id": "278370456",
+                    "platform": 1,
+                    "name": "为美好世界献上珂学 ",
+                    "emoji": []
+                },
+                "bmp": "18d08dc00413e009",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "365273817",
+                            "name": "Picks ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:278370456,nick:为美好世界献上珂学,who:1,auto:1}后缀自动机 ",
+                        "postTime": 1383197150,
+                        "id": 1383197150,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1383197959,
+                "effect": 1056,
+                "replyNum": 5,
+                "content": "常数。。 ",
+                "capacity": 11706,
+                "poster": {
+                    "id": "935099327",
+                    "platform": 1,
+                    "name": "不愿透露姓名的 ",
+                    "emoji": []
+                },
+                "bmp": "08c09d2000000001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "1134252618",
+                            "name": "(打杂)小熊胖次 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:935099327,nick:不愿透露姓名的,auto:1}  好熟悉的昵称。。。记得是6R里？ ",
+                        "postTime": 1383218706,
+                        "id": 1383218706,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:1134252618,nick:(打杂)小熊胖次,auto:1} 。。。。2333.。。。 ",
+                        "postTime": 1383219499,
+                        "id": 1383219499,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "1134252618",
+                            "name": "(打杂)小熊胖次 ",
+                            "platform": 1
+                        },
+                        "content": "...“二次元少女的杨FF有着一张什么脸”这句话有印象，应该是6R论坛里见到的，记得还是挺牛的一个 ",
+                        "postTime": 1383219880,
+                        "id": 1383219880,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "935099327",
+                            "name": "不愿透露姓名的 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:1134252618,nick:(打杂)小熊胖次,who:1,auto:1}...窝退灭保6r很久了吧。。 ",
+                        "postTime": 1383232251,
+                        "id": 1383232251,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "1134252618",
+                            "name": "(打杂)小熊胖次 ",
+                            "platform": 1
+                        },
+                        "content": "- -以前玩6R看的，同退灭保 ",
+                        "postTime": 1383262983,
+                        "id": 1383262983,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

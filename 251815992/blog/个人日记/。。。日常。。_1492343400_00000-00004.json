@@ -1,0 +1,96 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 5,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1492345518,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "所以，什么时候结婚？ ",
+                "capacity": 12150,
+                "poster": {
+                    "id": "3070414186",
+                    "platform": 1,
+                    "name": "权死 ",
+                    "emoji": []
+                },
+                "bmp": "08009d800200c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1492346138,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "所以，什么时候结婚？ ",
+                "capacity": 12152,
+                "poster": {
+                    "id": "905095092",
+                    "platform": 1,
+                    "name": "童话 ",
+                    "emoji": []
+                },
+                "bmp": "08849ca40002c421",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1492351848,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "所以，什么时候结婚？ ",
+                "capacity": 12147,
+                "poster": {
+                    "id": "9304893",
+                    "platform": 1,
+                    "name": "绿色夹克泪 ",
+                    "emoji": []
+                },
+                "bmp": "08900dc00012c121",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1492354821,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]所以，什么时候结婚？[/ft] ",
+                "capacity": 12135,
+                "poster": {
+                    "id": "725694",
+                    "platform": 1,
+                    "name": "天道酬勤 ",
+                    "emoji": []
+                },
+                "bmp": "085095a4010e8201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1492355645,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "你打算以后都在日本了吗？怎么说得这么悲壮，出国后回家机会去一次少一次了？ ",
+                "capacity": 12094,
+                "poster": {
+                    "id": "2584468854",
+                    "platform": 1,
+                    "name": "SweetLover ",
+                    "emoji": []
+                },
+                "bmp": "1850958002028101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

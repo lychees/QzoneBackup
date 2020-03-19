@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1487473307,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "这个trick很常见吧 ",
+                "capacity": 12149,
+                "poster": {
+                    "id": "375833274",
+                    "platform": 1,
+                    "name": "FancyCoder ",
+                    "emoji": []
+                },
+                "bmp": "1850952000028001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

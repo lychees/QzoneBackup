@@ -1,0 +1,319 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 12,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1229186159,
+                "effect": 4194336,
+                "replyNum": 4,
+                "content": "你这道题貌似是初中的......用平面解5分钟就够了\n把两圆的另一个交点定为D\n连接DO1,DO2\n交两圆与A，B\n用直径所对角为90度得A,B,C在一条直线上\n用相似可得为圆心聚的两倍\n在证明AB为最大， 任意做一条直线（非AB）过C， 交两圆于A’,B'\n连接A'D,B'D\n可得三角形ABD相似于三角形A'B'D（那是弦还是什么的搞忘了，反正在一个圆内对的是一条弦，两角相等）\n又因为AD,BD是两圆直径，所以相似比下来，AB总是最大的\n葛健和阿道夫用得是什么平面几何的方法？ ",
+                "capacity": 11396,
+                "poster": {
+                    "id": "534470369",
+                    "platform": 1,
+                    "name": "张弛 ",
+                    "emoji": []
+                },
+                "bmp": "08d08ca000000428",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "就是我贴的这种呀~ ",
+                        "postTime": 1229186248,
+                        "id": 1229186248,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "534470369",
+                            "name": "张弛 ",
+                            "platform": 1
+                        },
+                        "content": "貌似我的比较简单低级一点...... ",
+                        "postTime": 1229187766,
+                        "id": 1229187766,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "嗯...好像...我们这边的始终没有用到另一个交点...\n少了一些有用的性质... ",
+                        "postTime": 1229188082,
+                        "id": 1229188082,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "534470369",
+                            "name": "张弛 ",
+                            "platform": 1
+                        },
+                        "content": "其实也不是，做平几这种题就是看你对各种定理熟不熟，做的多了，看到这种题直接给答案。葛健他们是太久没碰这种平几。我也是很长时间没做这种题了，要不然哪要5分钟...... ",
+                        "postTime": 1229191014,
+                        "id": 1229191014,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1229224664,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "欢迎大家踊跃答题...这里有两种平面几何的解法啦~\n可惜的是还缺少一个解析几何的解法...~ ",
+                "capacity": 12089,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1229235023,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "有没有奖励呀...... ",
+                "capacity": 12154,
+                "poster": {
+                    "id": "534470369",
+                    "platform": 1,
+                    "name": "张弛 ",
+                    "emoji": []
+                },
+                "bmp": "08d08ca000000428",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1229235056,
+                "effect": 4194336,
+                "replyNum": 1,
+                "content": "我要用解析解出来了，回来后你要请吃饭 ",
+                "capacity": 12108,
+                "poster": {
+                    "id": "534470369",
+                    "platform": 1,
+                    "name": "张弛 ",
+                    "emoji": []
+                },
+                "bmp": "08d08ca000000428",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "是哦是哦~ ",
+                        "postTime": 1229769562,
+                        "id": 1229769562,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "postTime": 1229236429,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "我有种方法，理论上可以解出来，把两个圆和直线的式子设出来，再分别用其中的两个得出点ABC的坐标，然后在得到AB最大时应满足的条件，再带回到原方程解出斜率。为了简便把一个圆心放在原点，另一个放到X轴上。不过计算相当麻烦，我要去睡觉了，今天晚上有个party，明天早上一起来就帮你解，不过非常非常麻烦，还不一定解得出来...... ",
+                "capacity": 11863,
+                "poster": {
+                    "id": "534470369",
+                    "platform": 1,
+                    "name": "张弛 ",
+                    "emoji": []
+                },
+                "bmp": "08d08ca000000428",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 6,
+                "postTime": 1229814468,
+                "effect": 4194336,
+                "replyNum": 1,
+                "content": "不好意思呀，最近一直在忙考试的事情，没时间做这道题，等我有空了在帮你做吧 ",
+                "capacity": 12078,
+                "poster": {
+                    "id": "534470369",
+                    "platform": 1,
+                    "name": "张弛 ",
+                    "emoji": []
+                },
+                "bmp": "08d08ca000000428",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "..~ ",
+                        "postTime": 1233857869,
+                        "id": 1233857869,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "postTime": 1233857778,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "Feb. 02.06.. \n肥猫钱多多 02:00:14 \n写得很好 \n小岛 02:00:23 \n呵呵...真的么？ \n小岛 02:00:28 \n你是指~哪一段 \n肥猫钱多多 02:00:30 \n不过下面那个证法我没看懂 \n肥猫钱多多 02:00:34 \n有错字 \n肥猫钱多多 02:00:37 \n错字母 \n小岛 02:00:38 \n哪里 \n小岛 02:00:42 \n我去订正 \n肥猫钱多多 02:00:45 \n三角形与原（圆）..这里打错了 \n肥猫钱多多 02:00:57 \n\" 取圆c1上异于点A的一点，作直线CA\" \n(圆c1上没有A点)(可能我想把左边那个圆标为c1..不过既然图改不了了我就改字母吧...- -) \n肥猫钱多多 02:01:05 \n字母可能错了,看起来吃力 \n小岛 02:01:18 \n额 sorry \n肥猫钱多多 02:01:31 \n圆弧最好打出来orz..我要转载 \n------------------------------------------------\n[B]感谢RQnoj上 海南华侨中学的 肥猫同学.. \n帮助订正本文的几处错误...~ \n让我们祝愿它在新的学期里学习进步~~[/B] ",
+                "capacity": 11435,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 8,
+                "postTime": 1234886774,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "orz.... ",
+                "capacity": 12165,
+                "poster": {
+                    "id": "261361845",
+                    "platform": 1,
+                    "name": "阿高 ",
+                    "emoji": []
+                },
+                "bmp": "08809ca100000101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 9,
+                "postTime": 1234886789,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "PS：我是肥猫.. ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "261361845",
+                    "platform": 1,
+                    "name": "阿高 ",
+                    "emoji": []
+                },
+                "bmp": "08809ca100000101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 10,
+                "postTime": 1235566523,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "....乍一想还想不出来。。谢啦 ",
+                "capacity": 12122,
+                "poster": {
+                    "id": "1003545371",
+                    "platform": 1,
+                    "name": "Whimsy ",
+                    "emoji": []
+                },
+                "bmp": "18c0952000008001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "^ ^~ ",
+                        "postTime": 1245475217,
+                        "id": 1245475217,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 11,
+                "postTime": 1273976151,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]膜拜一下chi神牛，再膜拜一下楼主！　　　　　　　　[/ft] ",
+                "capacity": 12108,
+                "poster": {
+                    "id": "1227061027",
+                    "platform": 1,
+                    "name": "UndefinedZZK ",
+                    "emoji": []
+                },
+                "bmp": "185195a00100c401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 12,
+                "postTime": 1288843539,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "与我猜测的结果相同。就是比较懒   仔细一想其实很好证明\n不管怎么说   谢谢楼主。。 ",
+                "capacity": 12006,
+                "poster": {
+                    "id": "419903302",
+                    "platform": 1,
+                    "name": "mirror life ",
+                    "emoji": []
+                },
+                "bmp": "18c0152400008021",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "...  ",
+                        "postTime": 1288845012,
+                        "id": 1288845012,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "419903302",
+                            "name": "mirror life ",
+                            "platform": 1
+                        },
+                        "content": "。。。好吧  我补充完整   我比较懒  ",
+                        "postTime": 1288851252,
+                        "id": 1288851252,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

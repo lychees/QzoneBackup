@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1421280205,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "以后岛神发说说我都要回复下 ",
+                "capacity": 12148,
+                "poster": {
+                    "id": "2822576816",
+                    "platform": 1,
+                    "name": "我滴 ",
+                    "emoji": []
+                },
+                "bmp": "08409d800200c901",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

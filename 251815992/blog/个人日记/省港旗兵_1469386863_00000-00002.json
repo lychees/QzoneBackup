@@ -1,0 +1,120 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1469402128,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "你知道省港旗兵是什么意思吗？ ",
+                "capacity": 12041,
+                "poster": {
+                    "id": "238021",
+                    "platform": 1,
+                    "name": "愈夜越精彩 ",
+                    "emoji": []
+                },
+                "bmp": "18c195a00800c109",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:238021,nick:愈夜越精彩,who:1,auto:1}。。。显然啊 ",
+                        "postTime": 1469422711,
+                        "id": 1469422711,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1469420642,
+                "effect": 1056,
+                "replyNum": 3,
+                "content": "岛姐姐要当女仆店合伙人么！……怎么和左姐姐前几天说的一样…… ",
+                "capacity": 11832,
+                "poster": {
+                    "id": "594837346",
+                    "platform": 1,
+                    "name": "CCG成员 ",
+                    "emoji": []
+                },
+                "bmp": "18c095a00102c481",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:594837346,nick:CCG成员,who:1,auto:1}我们说的是同一件事 ",
+                        "postTime": 1469422685,
+                        "id": 1469422685,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "594837346",
+                            "name": "CCG成员 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1}所以说真的要当合伙人了？！ ",
+                        "postTime": 1469423777,
+                        "id": 1469423777,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:594837346,nick:CCG成员,who:1,auto:1}观望 ",
+                        "postTime": 1469426829,
+                        "id": 1469426829,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1469435090,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "岛姐姐。 ",
+                "capacity": 12061,
+                "poster": {
+                    "id": "1158739473",
+                    "platform": 1,
+                    "name": "小音的小雪姐姐 ",
+                    "emoji": []
+                },
+                "bmp": "18849d88080cd201",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:1158739473,nick:小音的小雪姐姐,who:1,auto:1}雪妹妹， ",
+                        "postTime": 1469435144,
+                        "id": 1469435144,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1276303483,
+                "effect": 1056,
+                "replyNum": 3,
+                "content": "弱弱的问一句，保送生要报志愿吗？ ",
+                "capacity": 12008,
+                "poster": {
+                    "id": "757695453",
+                    "platform": 1,
+                    "name": "liuchang ",
+                    "emoji": []
+                },
+                "bmp": "98c095a00102c0a0",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "嗯.. ",
+                        "postTime": 1276317654,
+                        "id": 1276317654,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "757695453",
+                            "name": "liuchang ",
+                            "platform": 1
+                        },
+                        "content": "不吧……我怎么听说保送生不可报志愿…… ",
+                        "postTime": 1276317924,
+                        "id": 1276317924,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "...那是之前已经填过的吧...# ",
+                        "postTime": 1276324188,
+                        "id": 1276324188,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

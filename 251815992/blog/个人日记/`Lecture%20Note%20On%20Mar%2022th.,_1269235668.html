@@ -1,0 +1,913 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    `Lecture Note On Mar 22th.,
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             `Lecture Note On Mar 22th.,
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2010-03-22 01:27:48
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(102)	è¯è®º(4)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1269235668,
+"voteids":0,
+"pubtime":1269235668,
+"replynum":4,
+"category":"个人日记",
+"title":"`Lecture Note On Mar 22th.,",
+"effect":134218241,
+"effect2":6,
+"exblogtype":0,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":0,
+"lp_style":0,
+"lp_flag":0,
+"orguin":251815992,
+"orgblogid":1269235668,
+"mention_uins":[ ],
+"attach":[],"comments":[{"id":1,
+"postTime":1269244964,
+"effect":0,
+"replyNum":0,
+"content":"[ft=,2,]算法一 Flood Fill[\/ft]\n \n[ft=,2,][背景知识][\/ft]\n[ft=,2,]  这题是去年四月份某天夜里写的...所以印象比较深刻[\/ft]\n[ft=,2,]（不过字面上看前后两句有因果关系么- -....）[\/ft]\n \n 重新整理了几个地方...注意最后拆墙的时候是以右下角的位置优先，\n所以我修改了For循环的顺序，当然也可以不这么做，而将大于号，修改成大于等于号，\n具体细节的地方应该还有好几处呢。\n \n[评测记录]\n \nExecuting...\n   Test 1: TEST OK [0.000 secs, 228 KB]\n   Test 2: TEST OK [0.000 secs, 228 KB]\n   Test 3: TEST OK [0.000 secs, 228 KB]\n   Test 4: TEST OK [0.000 secs, 228 KB]\n   Test 5: TEST OK [0.000 secs, 228 KB]\n   Test 6: TEST OK [0.000 secs, 228 KB]\n   Test 7: TEST OK [0.000 secs, 228 KB]\n   Test 8: TEST OK [0.011 secs, 228 KB]\n\nAll tests OK.\nYour program (\u0027castle\u0027) produced all correct answers!  This is your\nsubmission #33 for this problem.  [B]Congratulations![\/B]\n[B][\/B] \n \n\n[ft=,2,][\/ft] \n[ft=,2,][\/ft] \n[ft=,2,][\/ft] ",
+"capacity":11269,
+"poster":{
+"id":"251815992",
+"platform":1,
+"name":"小岛美奈子 ",
+"emoji":[ ]}
+,
+"bmp":"18d18da40002c001",
+"ismyreply":1,
+"replies":[]},
+{"id":3,
+"postTime":1269245040,
+"effect":0,
+"replyNum":0,
+"content":"[ft=,,simsun]{\nID: Lychees\nPROG: castle\nLANG: PASCAL\n}[\/ft]\n[ft=,,simsun]const\n  Dir:array[1..4,1..2] of integer=(\n  (-1,0),(1,0),(0,-1),(0,1)\n  );\n  White=0; Gray=1;\n  Black=2;\n  nn=50;[\/ft]\n[ft=,,simsun]type\n  int=integer;[\/ft]\n[ft=,,simsun]var\n  Count:array[1..nn*nn] of int;\n  Key:array[1..nn,1..nn] of int;\n  Mark:array[1..nn,1..nn] of int;\n  Color:array[1..nn,1..nn] of int;\n  Component:int;[\/ft]\n[ft=,,simsun]  ans:int;\n  n,m:int;[\/ft]\n\n[ft=,,simsun]function max(a,b:int):int;\nbegin\n  if a>b then exit(a)\n         else exit(b);\nend;[\/ft]\n[ft=,,simsun]function North(x,y:int):boolean;\nbegin\n  if key[x,y] and 2 =0 then exit(true);\n  exit(false);\nend;[\/ft]\n[ft=,,simsun]function South(x,y:int):boolean;\nbegin\n  if key[x,y] and 8 = 0 then exit(true);\n  exit(false);\nend;[\/ft]\n[ft=,,simsun]function West(x,y:int):boolean;\nbegin\n  if key[x,y] and 1 = 0 then exit(true);\n  exit(false);\nend;[\/ft]\n[ft=,,simsun]function East(x,y:int):boolean;\nbegin\n  if key[x,y] and 4 =0  then exit(true);\n  exit(false);\nend;[\/ft]\n[ft=,,simsun]function Check(x,y,k:int):boolean;\nbegin\n  case k of\n  1:exit(North(x,y));\n  2:exit(South(x,y));\n  3:exit(West(x,y));\n  4:exit(East(x,y));\n  end;\nend;[\/ft]\n[ft=,,simsun]procedure DFS(x,y:int);\nvar xx,yy:int;\n    i:int;\nbegin\n  Color[x,y]:=Gray;\n  Mark[x,y]:=Component;\n  inc(Count[Component]);[\/ft]\n\n[ft=,,simsun]  for i:=1 to 4 do\n  begin\n    xx:=x+dir[I]; yy:=y+dir[I];\n    if (Color[xx,yy]=white) and (Check(x,y,i)) then\n      DFS(xx,yy);\n  end;[\/I]\n\n[ft=,,simsun]  Color[x,y]:=Black;\nend;[\/ft]\n\n[ft=,,simsun]procedure init;\nvar\n  x,y:int;\nbegin\n  readln(m,n); ans:=1;\n  for x:=1 to n do\n    for y:=1 to m do\n      read(input,key[x,y]);\n  readln;\nend;[\/ft]\n[ft=,,simsun]procedure Flood_fill;\nvar x,y:int;\nbegin\n  for x:=1 to n do\n    for y:=1 to m do\n      if Mark[x,y]=white then begin\n        inc(Component);\n        DFS(x,y);\n      end;\nend;[\/ft]\n[ft=,,simsun]procedure print;\nvar\n  i,t:Int; x,y:int;\n  a,b:int; c:char;\nbegin\n  writeln(component);\n  for i:=1 to component do\n    ans:=max(ans,count[I]);\n  writeln(ans);[\/I]\n[ft=,,simsun]  ans:=0;\n  for y:=1 to m do\n  begin\n    for x:=n downto 1 do\n    begin\n      if not (North(x,y)) and (x>1) and (Mark[x,y]\u003C>Mark[x-1,y]) then\n      begin\n        t:= Count[Mark[x,y]] + Count[Mark[x-1,y]];\n        if t>ans then begin ans:=t;c:=\u0027N\u0027;a:=x;b:=y; end;\n      end;\n      if not (East(x,y)) and (y\u003Cm) and (Mark[x,y]\u003C>Mark[x,y+1]) then\n      begin\n        t:= Count[Mark[x,y]] + Count[Mark[x,y+1]];\n        if t>ans then begin ans:=t;c:=\u0027E\u0027;a:=x;b:=y end;\n      end;\n    end;\n  end;\n  writeln(ans);\n  writeln(a,\u0027 \u0027,b,\u0027 \u0027,c);\nend;[\/ft]\n[ft=,,simsun]begin\nassign(input,\u0027castle.in\u0027);reset(input);\nassign(output,\u0027castle.out\u0027);rewrite(output);\n  init; flood_fill;\n  print;\nclose(input);close(output);\nend.\n[\/ft][\/ft][\/I][\/ft] ",
+"capacity":9350,
+"poster":{
+"id":"251815992",
+"platform":1,
+"name":"小岛美奈子 ",
+"emoji":[ ]}
+,
+"bmp":"18d18da40002c001",
+"ismyreply":1,
+"replies":[]},
+{"id":5,
+"postTime":1269246013,
+"effect":0,
+"replyNum":0,
+"content":"算法二  并查集\n \n[背景知识]\n \n在写这个东西的时候我还不知道并查集为何物.囧\n于是这个算法是之后回忆到这题时发现也可以哦用然后回过来写的。\n \n修改了一下存储方式，把关于每一个地块的所有信息的都保存在 s[x,y] 里。\n \n[ft=,,simsun]const\n  nn=50;\ntype\n  int=integer;\n  ufs=^rec;\n  rec=record\n    n:int;  c:int;\n    p:ufs;  k:int;\n  end;[\/ft]\n[ft=,,simsun]var\n  s:array[1..nn,1..nn] of ufs;\n  component,ans:int;\n  n,m:int;     [\/ft]\n \n[ft=,,宋体]这里的 n 比较不好理解，是存储启发式合并中的 Rank 的。[\/ft]\n[ft=,,宋体]c 是记录连通分量的大小...相当于上面代码中的 Const。[\/ft]\n[ft=,,宋体]p 是用来记录父亲结点的指针，而 k 是输入数据。相当于上面代码中的 key。[\/ft]\n\n[ft=,,宋体]代码重新排版了一下，尽量可以和前面保持风格和命名规则的一致，除了上面这个，[\/ft]\n[ft=,,宋体]其它部分到不是很难理解。[\/ft]\n[ft=,,宋体][\/ft] \n[ft=,,宋体][评测记录][\/ft]\n[ft=,,宋体][\/ft] \nExecuting...\n   Test 1: TEST OK [0.000 secs, 256 KB]\n   Test 2: TEST OK [0.000 secs, 256 KB]\n   Test 3: TEST OK [0.000 secs, 256 KB]\n   Test 4: TEST OK [0.000 secs, 256 KB]\n   Test 5: TEST OK [0.000 secs, 256 KB]\n   Test 6: TEST OK [0.000 secs, 256 KB]\n   Test 7: TEST OK [0.011 secs, 288 KB]\n   Test 8: TEST OK [0.000 secs, 288 KB]\n\nAll tests OK.\nYour program (\u0027castle\u0027) produced all correct answers!  This is your\nsubmission #36 for this problem.  [B]Congratulations![\/B] ",
+"capacity":10850,
+"poster":{
+"id":"251815992",
+"platform":1,
+"name":"小岛美奈子 ",
+"emoji":[ ]}
+,
+"bmp":"18d18da40002c001",
+"ismyreply":1,
+"replies":[]},
+{"id":6,
+"postTime":1269246055,
+"effect":0,
+"replyNum":0,
+"content":"[ft=,,simsun]{\nID: Lychees\nPROG: castle\nLANG: PASCAL\n}[\/ft]\n[ft=,,simsun]const\n  nn=50;\ntype\n  int=integer;\n  ufs=^rec;\n  rec=record\n    n:int;  c:int;\n    p:ufs;  k:int;\n  end;[\/ft]\n[ft=,,simsun]var\n  s:array[1..nn,1..nn] of ufs;\n  component,ans:int;\n  n,m:int;[\/ft]\n\n[ft=,,simsun]function max(a,b:int):int;\nbegin\n  if a>b then exit(a)\n         else exit(b);\nend;[\/ft]\n[ft=,,simsun]procedure make(var x:ufs);\nbegin\n  new(x);x^.k:=0;x^.p:=x;x^.n:=0;x^.c:=1;\nend;[\/ft]\n[ft=,,simsun]function find(var x:ufs):ufs;\nbegin\n  if x^.p\u003C>x then x^.p:=find(x^.p);\n  exit(x^.p);\nend;[\/ft]\n[ft=,,simsun]procedure union(x,y:ufs);\nbegin\n  x:=find(x);y:=find(y);if x=y then exit;\n  if x^.n\u003Cy^.n then begin\n    x^.p:=y^.p; inc(y^.c,x^.c);\n    ans:=max(ans,y^.c);\n  end\n  else begin\n    y^.p:=x;inc(x^.c,y^.c);\n    if x^.n=y^.n then inc(x^.n);\n    ans:=max(ans,x^.c);\n  end;\n  dec(component);\nend;[\/ft]\n[ft=,,simsun]function North(x:ufs):boolean;\nbegin\n  if x^.k and 2 =0 then exit(true);\n  exit(false);\nend;[\/ft]\n[ft=,,simsun]function South(x:ufs):boolean;\nbegin\n  if x^.k and 8 = 0 then exit(true);\n  exit(false);\nend;[\/ft]\n[ft=,,simsun]function West(x:ufs):boolean;\nbegin\n  if x^.k and 1 = 0 then exit(true);\n  exit(false);\nend;[\/ft]\n[ft=,,simsun]function East(x:ufs):boolean;\nbegin\n  if x^.k and 4 =0  then exit(true);\n  exit(false);\nend;[\/ft]\n\n[ft=,,simsun]procedure init;\nvar x,y:int;\nbegin\n  readln(m,n);component:=m*n;ans:=1;\n  for x:=1 to n do\n  begin\n    for y:=1 to m do\n    begin\n      make(s[x,y]);\n      read(input,s[x,y]^.k);\n    end;\n  end;\n  readln;\nend;[\/ft]\n[ft=,,simsun]procedure solve;\nvar x,y:int;\nbegin\n  for x:=1 to n do\n  begin\n    for y:=1 to m do\n    begin\n      if (North(s[x,y])) and (x>1) then union(s[x,y],s[x-1,y]);\n      if (South(s[x,y])) and (x\u003Cn) then union(s[x,y],s[x+1,y]);\n      if (West(s[x,y])) and (y>1) then union(s[x,y],s[x,y-1]);\n      if (East(s[x,y])) and (y\u003Cn) then union(s[x,y],s[x,y+1]);\n    end;\n  end;\nend;[\/ft]\n[ft=,,simsun]procedure print;\nvar\n  x,y,t:int;\n  a,b:int; c:char;\nbegin\n  writeln(component);\n  writeln(ans);[\/ft]\n[ft=,,simsun]  ans:=0;\n  for y:=1 to m do\n  begin\n    for x:=n downto 1 do\n    begin\n      if not (North(s[x,y])) and (x>1) and (find(s[x,y])^.p\u003C>find(s[x-1,y])^.p) then\n      begin\n        t:=find(s[x,y])^.c+find(s[x-1,y])^.c;\n        if t>ans then begin ans:=t;c:=\u0027N\u0027;a:=x;b:=y end;\n      end;\n      if not (East(s[x,y])) and (y\u003Cm) and (find(s[x,y])^.p\u003C>find(s[x,y+1])^.p) then\n      begin\n        t:=find(s[x,y])^.c+find(s[x,y+1])^.c;\n        if t>ans then begin ans:=t;c:=\u0027E\u0027;a:=x;b:=y end;\n      end;\n    end;\n  end;\n  writeln(ans);\n  writeln(a,\u0027 \u0027,b,\u0027 \u0027,c);\nend;[\/ft]\n[ft=,,simsun]begin\nassign(input,\u0027castle.in\u0027);reset(input);\nassign(output,\u0027castle.out\u0027);rewrite(output);\n  init; solve;\n  print;\nclose(input);close(output);\nend.[\/ft] ",
+"capacity":9318,
+"poster":{
+"id":"251815992",
+"platform":1,
+"name":"小岛美奈子 ",
+"emoji":[ ]}
+,
+"bmp":"18d18da40002c001",
+"ismyreply":1,
+"replies":[]}]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <p align="left">
+               The Castle
+              </p>
+              <p>
+               Problem Source:
+              </p>
+              <p>
+               <a href="http://ace.delos.com/usacoprob2?a=QZaBxw6ox2D&amp;S=castle" target="_blank">
+                http://ace.delos.com/usacoprob2?a=QZaBxw6ox2D&amp;S=castle
+               </a>
+              </p>
+              <p>
+              </p>
+              <p>
+              </p>
+              <p>
+               [题意简述]
+              </p>
+              <p>
+               给定一副城堡的室内布局图...我们的题目要求我们求出城堡一共被分割成了几片区域，
+              </p>
+              <p>
+               最大的房间空间是多少，并且第二问要求我们求出如果拆毁一块墙体的话所可以得到的一间空间最大的房间空间是多少，并输出需要铲除的墙体的位置。
+              </p>
+              <p>
+              </p>
+              <p>
+              </p>
+              <p>
+               [问题分析]
+              </p>
+              <p>
+               ....这题对我们来说困难的地方并不是在于第二问，而是第一问中对房间信息的处理，
+              </p>
+              <p>
+               如何从布局图中挖掘出我们需要的信息，那么第二问拆墙的步骤只不过是在第一问的基础上加一个枚举的步骤就可以了，但是因为对第一问暂时还不清楚，因此第二问也无从入手。
+              </p>
+              <p>
+              </p>
+              <p>
+               联系到一个简化的问题
+              </p>
+              <p>
+               <a href="http://www.rqnoj.cn/Problem_276.html" target="_blank">
+                http://www.rqnoj.cn/Problem_276.html
+               </a>
+              </p>
+              <p>
+               ...
+              </p>
+              <p>
+               <font size="2">
+                京京接受了一个用染色法测定平面内分子团数量的工作。已知没有分子的位置用0表示。被染色的部分根据其染色深度用1～9表示。由于这些分子具有特殊性，它的延展方向在平面内只有前、后、左、右4个方向。在延伸方向上相互接触的分子构成一个分子团。在一个M×N的矩形区域内，请你帮他统计出分子团的数量（X）。
+               </font>
+              </p>
+              <p>
+               ..........
+              </p>
+              <p>
+               题目中的情景和我们的第一问是相似的...用图论语言进行建模的话这两个问题都是分割
+              </p>
+              <p>
+               无向图的连通分量 .... 不过这两题都是这一个问题稍微有点特殊的情形，图中的每一个结点都只会有可能可以和自己相邻的前后左右四个结点连接上一条边。
+              </p>
+              <p>
+               接下来我们会对这个问题一些枝节的地方稍作讨论，然后紧接着将我们的注意力放在对
+              </p>
+              <p>
+               “分割无向图的连通分量” 这个更一般的问题上。并且我们将放弃使用，“地块”(Block)，“房间” (Room) 等具体的说法，而使用“结点” ( Node )
+              </p>
+              <p>
+               “连通分量” (Connected Component) 等图论语言。
+              </p>
+              <p>
+              </p>
+              <p>
+              </p>
+              <p>
+              </p>
+              <p>
+              </p>
+              <p>
+               [输入数据的位操作处理]
+              </p>
+              <p>
+              </p>
+              <p>
+               <font size="2">
+                Each module number tells how many of the four walls exist and is the sum of up to four integers:
+               </font>
+              </p>
+              <ul>
+               <li>
+                <font size="2">
+                 1: wall to the west
+                </font>
+               </li>
+               <li>
+                <font size="2">
+                 2: wall to the north
+                </font>
+               </li>
+               <li>
+                <font size="2">
+                 4: wall to the east
+                </font>
+               </li>
+               <li>
+                <font size="2">
+                 8: wall to the south
+                </font>
+               </li>
+              </ul>
+              <p>
+              </p>
+              <p>
+               题目中的数据已经将每个结点与周围结点所练边信息放在这个数字的每一位二进制位里，
+              </p>
+              <p>
+               一种错误的方法是在单独写一部预处理把所有的数字单独提取出来对图进行建模。
+              </p>
+              <p>
+               这样会做很多不必要的操作，实际上对于这种数据的存储格式，我们可以直接在原数据上很方便的通过位运算指令提取出我们需要的信息。
+              </p>
+              <p>
+              </p>
+              <p>
+               因此我们需要先写好下面的几个用来判断边存在情况的函数，在接下来的所有方法中，这一步都是需要的。
+              </p>
+              <p>
+              </p>
+              <p>
+               <font face="Simsun" size="2">
+                function North(x:ufs):boolean;
+                <br/>
+                begin
+                <br/>
+                if x^.k and 2 =0 then exit(true);
+                <br/>
+                exit(false);
+                <br/>
+                end;
+               </font>
+              </p>
+              <p>
+               <font face="Simsun" size="2">
+                function South(x:ufs):boolean;
+                <br/>
+                begin
+                <br/>
+                if x^.k and 8 = 0 then exit(true);
+                <br/>
+                exit(false);
+                <br/>
+                end;
+               </font>
+              </p>
+              <p>
+               <font face="Simsun" size="2">
+                function West(x:ufs):boolean;
+                <br/>
+                begin
+                <br/>
+                if x^.k and 1 = 0 then exit(true);
+                <br/>
+                exit(false);
+                <br/>
+                end;
+               </font>
+              </p>
+              <p>
+               <font face="Simsun">
+                <font size="2">
+                 function East(x:ufs):boolean;
+                 <br/>
+                 begin
+                 <br/>
+                 if x^.k and 4 =0  then exit(true);
+                 <br/>
+                 exit(false);
+                 <br/>
+                 end;
+                </font>
+               </font>
+              </p>
+              <p>
+              </p>
+              <p>
+               在解释指针类型ufs (Unioin-FInd-Set) 之前我们需要比较几种不同的算法。
+              </p>
+              <p>
+               并且在接下来的讨论中我们将忽略所有一些不必要的条件，而将注意力放在算法的设计上。
+              </p>
+              <p>
+              </p>
+              <p>
+               [  无相图连通分量 (Undirect-Graph Connected Component)]
+              </p>
+              <p>
+               我们把原问题重新用图论语言叙述一下，好在后面方便叙述。
+              </p>
+              <p>
+               ...给定一个无相图，要求求出一共有多少块连通分量，并输出每块连通分量的大小
+              </p>
+              <p>
+              </p>
+              <p>
+               对这个问题通常有两种方法，洪水填充( Flood Fill )...以及并查集（Union-Find-Set）
+              </p>
+              <p>
+               后面的文字将重点介绍第二种方法，并作出比较，所以我们先写第一个方法。
+              </p>
+              <p>
+              </p>
+              <p>
+              </p>
+              <p>
+              </p>
+              <p>
+              </p>
+              <p align="center">
+               <a appendurl="1" href="http://b38.photo.store.qq.com/http_imgload.cgi?/rurl4_b=b4fcd2c323828f07790076d4c3b1a034b1c28baf72e879fd30d6a6758d9ca55fd48243cd66f1c039bc9b0b6606b5677c44b77a7f6254a982df3c0a91acd7d5495982a6630e932f69044d90b615dd3b94b858ecf6&amp;a=29&amp;b=38" target="_blank">
+                <img alt="图片" appendurl="1" src="http://b38.photo.store.qq.com/http_imgload.cgi?/rurl4_b=b4fcd2c323828f07790076d4c3b1a034b1c28baf72e879fd30d6a6758d9ca55fd48243cd66f1c039bc9b0b6606b5677c44b77a7f6254a982df3c0a91acd7d5495982a6630e932f69044d90b615dd3b94b858ecf6&amp;a=29&amp;b=38"/>
+               </a>
+              </p>
+              <p>
+               // Subprogram  Depth-First-Search
+               <br/>
+               <font face="Simsun" size="2">
+                procedure DFS(u:int);
+                <br/>
+                var v:int;
+                <br/>
+                begin
+                <br/>
+                color[u]:=gray;
+                <br/>
+                mark[u]:=component;
+                <br/>
+                inc(count[component]);
+               </font>
+              </p>
+              <p>
+               <font face="Simsun" size="2">
+                for y:=1 to n do
+                <br/>
+                if (Color[v]=white) and (G[u,v]=true) then
+                <br/>
+                DFS(v);
+               </font>
+              </p>
+              <p>
+               <font face="Simsun" size="2">
+                clolor[u]:=black;
+                <br/>
+                end;
+               </font>
+              </p>
+              <p>
+               <br/>
+               <font face="Simsun" size="2">
+                <font size="3">
+                 <font size="4">
+                  // Flood Fill Main Program
+                 </font>
+                 <br/>
+                </font>
+                for u:=1 to n do
+                <br/>
+                begin
+                <br/>
+                if color[u] = white then begin
+                <br/>
+                inc(component);
+                <br/>
+                DFS(u);
+                <br/>
+                end;
+               </font>
+              </p>
+              <p>
+               <font face="Simsun" size="2">
+                end;
+               </font>
+              </p>
+              <p>
+              </p>
+              <p>
+               洪水算法，也有被称为种子填充法，得名于这个算法仿佛溅落在布满间隙的纸巾上的水滴，
+              </p>
+              <p>
+               或者是无法漫过围堤的洪水，在具体写程序的时候，我们并不一定需要用 黑，白，灰三种颜色表示 已经扩展完毕的结点（当然，我是很喜欢就在程序里用颜色标记这些结点的 ^   ^..虽然字符是黑白的，但是英文单词也可以打开我们对色彩的记忆，如果真的要这样写的话，具体的方法是使用一组 颜色单词 标记的常量.或者使用枚举类型，我更喜欢前者。），还没有考察过的结点和正在扩展队列中的结点，而在分析的时候，我们把三种不同的部分分开考虑仍然是有帮助的....
+              </p>
+              <p>
+              </p>
+              <p>
+               全局变量 Component 用来记录当前连通块的总数，并且在子程序的内部我们用这个变量来标记某个结点具体属于哪一块连通分量...下面的这段函数用于判断两个结点是否同时处于一块相同的连通分量中。
+              </p>
+              <p>
+              </p>
+              <p>
+               <font face="Simsun" size="2">
+                function link(x,y):boolean;
+                <br/>
+                begin
+                <br/>
+                exit ( mark[x]=mark[y] );
+                <br/>
+                end;
+               </font>
+              </p>
+              <p>
+              </p>
+              <p>
+               下面的 Print 程序 不仅可以打印出连通块的总数，
+              </p>
+              <p>
+               也可以打印出具体每一块连通分量中包含多少结点。
+              </p>
+              <p>
+              </p>
+              <p>
+               <font face="Simsun" size="2">
+                procedure print;
+                <br/>
+                var i:int;
+                <br/>
+                begin
+                <br/>
+                writeln('The total component is : ',component);
+                <br/>
+                for i:=1 to component do
+                <br/>
+                writeln('Count[',i,'] : ',Count[i]);
+                <br/>
+                end;
+               </font>
+              </p>
+              <p>
+               <br/>
+               <br/>
+              </p>
+              <p align="center">
+               <a appendurl="1" href="http://b38.photo.store.qq.com/http_imgload.cgi?/rurl4_b=b4fcd2c323828f07790076d4c3b1a03446bba7a97e3d8edf47fd9970f7d0700542ca692fb0993384b216b824e0040cf4d676fb61252d4f1f7c4ed2ec6f3b7bcfc0452648b71a0cd3528745452d2c2b20d53c27c1&amp;a=38&amp;b=38" target="_blank">
+                <img alt="图片" appendurl="1" src="http://b38.photo.store.qq.com/http_imgload.cgi?/rurl4_b=b4fcd2c323828f07790076d4c3b1a03446bba7a97e3d8edf47fd9970f7d0700542ca692fb0993384b216b824e0040cf4d676fb61252d4f1f7c4ed2ec6f3b7bcfc0452648b71a0cd3528745452d2c2b20d53c27c1&amp;a=38&amp;b=38"/>
+               </a>
+              </p>
+              <p align="center">
+              </p>
+              <p align="left">
+               ...一种更好的方法是使用 广度优先搜索（Bredth-Search-First）作为 Flood Fill 的子程序来扩展结点。可能代码要稍微难写一点，不过用这种方法的主要好处是不必担心用深搜的时候可能出现的在递归中压爆栈的情况...虽然考虑到省去了来回递归过程中的时间消耗，但是考虑到现代编译器已经把这部分的优化做到足够优秀，应该时间上也快不了多少。
+              </p>
+              <p align="left">
+              </p>
+              <p align="left">
+               // Subprogram  Depth-First-Search
+              </p>
+              <p align="left">
+               <font face="Simsun" size="2">
+                procedure BFS(u:int);
+                <br/>
+                begin
+                <br/>
+                queue[head]:=u;
+                <br/>
+                head:=1; tail:=2;
+               </font>
+              </p>
+              <p align="left">
+               <font face="Simsun" size="2">
+                while head&lt;tail do begin
+                <br/>
+                for v:=1 to n do
+                <br/>
+                if (color[v]=white) and (G[u,v]=true) then begin
+                <br/>
+                color[v]:=gray;
+                <br/>
+                queue[tail]:=v;
+                <br/>
+                inc(tail);
+                <br/>
+                end;
+                <br/>
+                queue[v]:=black;
+                <br/>
+                inc(head);
+                <br/>
+                end;
+                <br/>
+                end;
+               </font>
+              </p>
+              <p align="center">
+              </p>
+              <p align="center">
+              </p>
+              <p>
+               <br/>
+               <br/>
+              </p>
+              <p align="center">
+               <a appendurl="1" href="http://b35.photo.store.qq.com/http_imgload.cgi?/rurl4_b=b4fcd2c323828f07790076d4c3b1a0346de232f1d770358271a59df11b47d5939a362b0208ee31c713319173f0b1b6c60b77146b875a6ca4ac6e54a4a18a4b4441191fd49cdd31eb3febdfc631b80976c2fb6aa6&amp;a=38&amp;b=35" target="_blank">
+                <img alt="图片" appendurl="1" src="http://b35.photo.store.qq.com/http_imgload.cgi?/rurl4_b=b4fcd2c323828f07790076d4c3b1a0346de232f1d770358271a59df11b47d5939a362b0208ee31c713319173f0b1b6c60b77146b875a6ca4ac6e54a4a18a4b4441191fd49cdd31eb3febdfc631b80976c2fb6aa6&amp;a=38&amp;b=35"/>
+               </a>
+              </p>
+              <p>
+               <br/>
+               <br/>
+              </p>
+              <p align="center">
+               <a appendurl="1" href="http://b31.photo.store.qq.com/http_imgload.cgi?/rurl4_b=b4fcd2c323828f07790076d4c3b1a034246195a255c226e42d7a3a952aa3704fba503fe9660d024174d1ba780632c1063c90d0575c329ce0c2173bb517dfdad0a5f127d68353bdcd0a453e78e62f4dc3e8cd87db&amp;a=28&amp;b=31" target="_blank">
+                <img alt="图片" appendurl="1" src="http://b31.photo.store.qq.com/http_imgload.cgi?/rurl4_b=b4fcd2c323828f07790076d4c3b1a034246195a255c226e42d7a3a952aa3704fba503fe9660d024174d1ba780632c1063c90d0575c329ce0c2173bb517dfdad0a5f127d68353bdcd0a453e78e62f4dc3e8cd87db&amp;a=28&amp;b=31"/>
+               </a>
+              </p>
+              <p align="center">
+               宽度优先搜索会对附近的结点同时进行扩展。放进队列中。
+              </p>
+              <p align="center">
+              </p>
+              <p align="center">
+              </p>
+              <p align="center">
+               <br/>
+               <br/>
+               <a appendurl="1" href="http://b38.photo.store.qq.com/http_imgload.cgi?/rurl4_b=b4fcd2c323828f07790076d4c3b1a034c6cf65181cc3977897023cc37f93496ac39db9f86223ce6a6b47b41b6b68dfb000e8c68dd1d65196697b22ffd4b387ae7d6f321a5d32e09da0a2c3b99805934a75016c92&amp;a=38&amp;b=38" target="_blank">
+                <img alt="图片" appendurl="1" src="http://b38.photo.store.qq.com/http_imgload.cgi?/rurl4_b=b4fcd2c323828f07790076d4c3b1a034c6cf65181cc3977897023cc37f93496ac39db9f86223ce6a6b47b41b6b68dfb000e8c68dd1d65196697b22ffd4b387ae7d6f321a5d32e09da0a2c3b99805934a75016c92&amp;a=38&amp;b=38"/>
+               </a>
+              </p>
+              <p align="center">
+              </p>
+              <p align="left">
+               ....存在着另一种不用递归的深搜方法....留作练习。
+              </p>
+              <p align="left">
+               ..洪水填充算法也被用来作人工智能，和模式识别里的子程序（参考  光学字符识别 ORC）..
+              </p>
+              <p align="left">
+               ...以及版式识别和三维扫描。。。
+              </p>
+              <p align="left">
+               参见 紫书  搜索章节 “三维扫描”一题
+              </p>
+              <p align="left">
+               以及 Vijos 圣诞夜的极光 （在写这篇的时候VJ坏掉了，所以没有办法贴链接。）
+              </p>
+              <p align="left">
+               <br/>
+               ............
+              </p>
+              <p align="left">
+              </p>
+              <p align="left">
+               我们对第一种算法稍微分析一下，考虑到每个结点都被考察一次，每次都需要扫描它与其它周边结点的连接关系，因此算法的复杂度是 O(n2) 然而在 The Castle 这道题中，这个时间的复杂度被进一步控制在 O(4n) ... 如果采用 邻接表 的方式对图进行存储，则面对一般的情况也可以做到 O( n+m )....
+              </p>
+              <p align="left">
+               （使用 大O 记号 （Big O Notation ） 进行算法分析的时候这是一种经常出现的情况。当 记号的内部出现加号的情况下，直观的理解是取两者阶数较大的一个，在图论问题中我们约定结点数目用 n 进行表示，边数用 m 进行表示，因此看起来上面的式子也可以写成 O(m) ...这在稀疏图 (Sparse Graph) 的情况下对 O(n2)的算法是一个很大的改进。）
+              </p>
+              <p align="left">
+               （用邻接表存储需要用到指针... ）
+              </p>
+              <p align="left">
+              </p>
+              <p align="left">
+               ...
+              </p>
+              <p align="left">
+               总的来说无论采用哪种方式写，洪水算法都可以是一种线性的算法，下面的这种方法也将会是一种线性算法，在这个算法里我们将利用一种被称为并查集 ( Union-FInd-Set ) 的
+              </p>
+              <p align="left">
+               数据结构 (Data Structure).
+              </p>
+              <p align="left">
+              </p>
+              <p align="left">
+               一个并查集元素将会支持下面的三种操作。
+              </p>
+              <p align="left">
+               Procedure Make(x:ufs);   制作一个新的结点。
+              </p>
+              <p align="left">
+               Function Find(x:ufs):ufs;  寻找这个结点所属集合的代表元素。
+              </p>
+              <p align="left">
+               Procedure Union( x,y:ufs); 将两组结点，合并到同一个集合。
+              </p>
+              <p align="left">
+              </p>
+              <p align="left">
+               RQNOJ 331 家族 （VJ 应该也有对应的题目）
+              </p>
+              <p align="left">
+               <a href="http://www.rqnoj.cn/Problem_331.html" target="_blank">
+                http://www.rqnoj.cn/Problem_331.html
+               </a>
+              </p>
+              <p align="left">
+               这题是一道“裸”的并查集题目，当然在接下来的叙述中我无意将你的思路局限在某种固定的写法，但是我们希望你可以自己从一道完整的题目中找到真正有价值的部分并理解。而这些有价值的部分，是可以为我们今后解题提供帮助的部分， 它们可能是一种新的数据结构，也有可能是一种新的算法，也有可能只是一个数学公式，或者是一种思考问题的方法.......
+              </p>
+              <p align="left">
+               这也是为什么波利亚 （ Geogeo Polay ） 所说的“ 你所解的问题越多，你能解下一道题目的成功率就越大”
+              </p>
+              <p align="left">
+               （实际上这句话不是波利亚说的，是《组合数学》里那个“巴西黑鬼”在序言里写的。。）
+              </p>
+              <p align="left">
+              </p>
+              <p align="left">
+              </p>
+              <p align="left">
+               <a appendurl="1" href="http://b39.photo.store.qq.com/http_imgload.cgi?/rurl4_b=ccef4ea2abf9d241292eddbb7ba8242b0bf98d5e1e359c9dbe68223d7001309bced92f3ae3b16dc47e198f42442ed2b3bb6faa56943537392d2b41c2d02400cfdcf3337c6ef462f9181f1904915495a7ec9d398d&amp;a=35&amp;b=39" target="_blank">
+                <img alt="图片" appendurl="1" height="536" src="http://b39.photo.store.qq.com/http_imgload.cgi?/rurl4_b=ccef4ea2abf9d241292eddbb7ba8242b0bf98d5e1e359c9dbe68223d7001309bced92f3ae3b16dc47e198f42442ed2b3bb6faa56943537392d2b41c2d02400cfdcf3337c6ef462f9181f1904915495a7ec9d398d&amp;a=35&amp;b=39" width="670"/>
+               </a>
+              </p>
+              <p align="left">
+              </p>
+              <p align="left">
+              </p>
+              <p align="left">
+               好像应该是 twenty-second...已订正...
+              </p>
+              <p align="left">
+              </p>
+              <p>
+               (....I never receieve the opionion ...that .a PALY CHARACTER could measure the truely value of us.......The Potential ...
+               <font class="mr15">
+                Incessant
+               </font>
+               Possibility...of us....
+              </p>
+              <p>
+               What we do just now was complete stuck by ourselves...
+               <span class="font_666">
+               </span>
+               )
+              </p>
+              <p>
+              </p>
+              <p>
+               另外这句话...我想把 a play character..修改成
+              </p>
+              <p>
+               “ a few  paly character...”  ^  ^
+              </p>
+              <p>
+               <br/>
+              </p>
+              <p>
+              </p>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

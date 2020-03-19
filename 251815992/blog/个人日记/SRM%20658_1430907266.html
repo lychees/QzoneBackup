@@ -1,0 +1,3476 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    SRM 658
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             SRM 658
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2015-05-06 06:14:26
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(73)	è¯è®º(1)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1430907266,
+"voteids":0,
+"pubtime":1430907266,
+"replynum":1,
+"category":"个人日记",
+"title":"SRM 658",
+"effect":8389120,
+"effect2":524294,
+"exblogtype":3,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":81177,
+"lp_style":16843520,
+"lp_flag":0,
+"lp_topvalue":0,
+"orguin":251815992,
+"orgblogid":1430907266,
+"mention_uins":[ ],
+"attach":[],"comments":[{"id":1,
+"postTime":1430915902,
+"effect":1024,
+"replyNum":0,
+"content":"Orz xiaodao ",
+"capacity":12162,
+"poster":{
+"id":"953357213",
+"platform":1,
+"name":"蒟蒻 ",
+"emoji":[ ]}
+,
+"bmp":"18d18d800102c201",
+"ismyreply":0,
+"replies":[]}]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <div>
+                300:
+                <br/>
+                。。树的形态是不影响的。。。
+                <br/>
+                <span>
+                 O(n3) 暴力 check 一下。。如果合法那么随便连
+                 <br/>
+                 <span>
+                  <br/>
+                  Div2 版本。。有 '?' 。。
+                  <br/>
+                  需要用朋友敌人并茶集判断合法性。。
+                  <br/>
+                  （参见 APIO 格子什么什么的
+                  <br/>
+                  并且注意如果有偶数，则至少需要有一个奇数。。。因此构造的时候。。。如果 both ok。。。
+                  <br/>
+                  优先构造奇数。.
+                  <br/>
+                  <span>
+                   <br/>
+                   <br/>
+                   600:
+                   <br/>
+                   正难则反，
+                   <br/>
+                   二分答案。
+                   <br/>
+                   <br/>
+                   Dp[i][i9][i3]：表示
+                   <br/>
+                   当前 前 i 个数字的 i3,i9 合法，至少需要多少个 i1 可以 ok。。。
+                   <br/>
+                   O(n4) DP 即可。
+                   <br/>
+                   <br/>
+                   <br/>
+                   <br/>
+                   <br/>
+                   <br/>
+                  </span>
+                 </span>
+                </span>
+                <p>
+                 <span>
+                  /* &amp;*#()&amp;*#)&amp;E*F&amp; */
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <br/>
+                </p>
+                <p>
+                 <span>
+                  #include
+                 </span>
+                 <span>
+                  &lt;iostream&gt;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  #include
+                 </span>
+                 <span>
+                  &lt;cstdio&gt;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  #include
+                 </span>
+                 <span>
+                  &lt;cstring&gt;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  #include
+                 </span>
+                 <span>
+                  &lt;ctime&gt;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  #include
+                 </span>
+                 <span>
+                  &lt;cmath&gt;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  #include
+                 </span>
+                 <span>
+                  &lt;algorithm&gt;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  #include
+                 </span>
+                 <span>
+                  &lt;sstream&gt;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  #include
+                 </span>
+                 <span>
+                  &lt;string&gt;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  #include
+                 </span>
+                 <span>
+                  &lt;vector&gt;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  #include
+                 </span>
+                 <span>
+                  &lt;map&gt;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <br/>
+                </p>
+                <p>
+                 <span>
+                  using
+                 </span>
+                 <span>
+                 </span>
+                 <span>
+                  namespace
+                 </span>
+                 <span>
+                 </span>
+                 <span>
+                  std
+                 </span>
+                 <span>
+                  ;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <br/>
+                </p>
+                <p>
+                 <span>
+                  #define REP(I, N) for (int I=
+                 </span>
+                 <span>
+                  0
+                 </span>
+                 <span>
+                  ;I&lt;int(N);++I)
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  #define FOR(I, A, B) for (int I=int(A);I&lt;int(B);++I)
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  #define DWN(I, B, A) for (int I=int(B-
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  );I&gt;=int(A);--I)
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  #define ECH(it, A) for (typeof(A.begin()) it=A.begin(); it != A.end(); ++it)
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <br/>
+                </p>
+                <p>
+                 <span>
+                  #define ALL(A) A.begin(), A.end()
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  #define CLR(A) A.clear()
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  #define CPY(A, B) memcpy(A, B, sizeof(A))
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  #define INS(A, P, B) A.insert(A.begin() + P, B)
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  #define ERS(A, P) A.erase(A.begin() + P)
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  #define SRT(A) sort(ALL(A))
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  #define SZ(A) int(A.size())
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  #define PB push_back
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  #define MP(A, B) make_pair(A, B)
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <br/>
+                </p>
+                <p>
+                 <span>
+                  typedef
+                 </span>
+                 <span>
+                 </span>
+                 <span>
+                  long
+                 </span>
+                 <span>
+                 </span>
+                 <span>
+                  long
+                 </span>
+                 <span>
+                  LL;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  typedef
+                 </span>
+                 <span>
+                 </span>
+                 <span>
+                  double
+                 </span>
+                 <span>
+                  DB;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <br/>
+                </p>
+                <p>
+                 <span>
+                  template
+                 </span>
+                 <span>
+                  &lt;
+                 </span>
+                 <span>
+                  class
+                 </span>
+                 <span>
+                  T&gt;
+                 </span>
+                 <span>
+                  inline
+                 </span>
+                 <span>
+                 </span>
+                 <span>
+                  void
+                 </span>
+                 <span>
+                  RST(T &amp;A){memset(A,
+                 </span>
+                 <span>
+                  0
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  sizeof
+                 </span>
+                 <span>
+                  (A));}
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  template
+                 </span>
+                 <span>
+                  &lt;
+                 </span>
+                 <span>
+                  class
+                 </span>
+                 <span>
+                  T&gt;
+                 </span>
+                 <span>
+                  inline
+                 </span>
+                 <span>
+                 </span>
+                 <span>
+                  void
+                 </span>
+                 <span>
+                  FLC(T &amp;A,
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  x){memset(A, x,
+                 </span>
+                 <span>
+                  sizeof
+                 </span>
+                 <span>
+                  (A));}
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <br/>
+                </p>
+                <p>
+                 <span>
+                  template
+                 </span>
+                 <span>
+                  &lt;
+                 </span>
+                 <span>
+                  class
+                 </span>
+                 <span>
+                  T&gt;
+                 </span>
+                 <span>
+                  inline
+                 </span>
+                 <span>
+                 </span>
+                 <span>
+                  void
+                 </span>
+                 <span>
+                  checkMin(T &amp;a, T b){
+                 </span>
+                 <span>
+                  if
+                 </span>
+                 <span>
+                  (b&lt;a) a=b;}
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  template
+                 </span>
+                 <span>
+                  &lt;
+                 </span>
+                 <span>
+                  class
+                 </span>
+                 <span>
+                  T&gt;
+                 </span>
+                 <span>
+                  inline
+                 </span>
+                 <span>
+                 </span>
+                 <span>
+                  void
+                 </span>
+                 <span>
+                  checkMax(T &amp;a, T b){
+                 </span>
+                 <span>
+                  if
+                 </span>
+                 <span>
+                  (b&gt;a) a=b;}
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  template
+                 </span>
+                 <span>
+                  &lt;
+                 </span>
+                 <span>
+                  class
+                 </span>
+                 <span>
+                  T&gt;
+                 </span>
+                 <span>
+                  inline
+                 </span>
+                 <span>
+                  T max(T a, T b, T c){
+                 </span>
+                 <span>
+                  return
+                 </span>
+                 <span>
+                  max(max(a, b), c);}
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <br/>
+                </p>
+                <p>
+                 <span>
+                  template
+                 </span>
+                 <span>
+                  &lt;
+                 </span>
+                 <span>
+                  class
+                 </span>
+                 <span>
+                  T&gt;
+                 </span>
+                 <span>
+                  inline
+                 </span>
+                 <span>
+                  T ceil(T x, T y){
+                 </span>
+                 <span>
+                  return
+                 </span>
+                 <span>
+                  (x -
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  ) / y +
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  ;}
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <br/>
+                </p>
+                <p>
+                 <span>
+                  /* -&amp;$&amp;#*( &amp;#*@)^$@&amp;*)*/
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <br/>
+                </p>
+                <p>
+                 <span>
+                  const
+                 </span>
+                 <span>
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  MOD =
+                 </span>
+                 <span>
+                  1000000007
+                 </span>
+                 <span>
+                  ;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  const
+                 </span>
+                 <span>
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  INF =
+                 </span>
+                 <span>
+                  0x3f3f3f3f
+                 </span>
+                 <span>
+                  ;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <br/>
+                </p>
+                <p>
+                 <span>
+                  const
+                 </span>
+                 <span>
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  N =
+                 </span>
+                 <span>
+                  21
+                 </span>
+                 <span>
+                  , M =
+                 </span>
+                 <span>
+                  141
+                 </span>
+                 <span>
+                  ;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <br/>
+                </p>
+                <p>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  dp[N][M][
+                 </span>
+                 <span>
+                  M
+                 </span>
+                 <span>
+                  ], n;
+                 </span>
+                 <span>
+                  vector
+                 </span>
+                 <span>
+                  &lt;
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  &gt; a;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <br/>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <br/>
+                </p>
+                <p>
+                 <span>
+                  #define u dp[i][i9][i3]
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  #define v dp[i+
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  ][i9+j9][i3+j3]
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <br/>
+                </p>
+                <p>
+                 <span>
+                  bool
+                 </span>
+                 <span>
+                  ck(
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  x){
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  FLC
+                 </span>
+                 <span>
+                  (
+                 </span>
+                 <span>
+                  dp
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  0x3f
+                 </span>
+                 <span>
+                  );
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  dp
+                 </span>
+                 <span>
+                  [
+                 </span>
+                 <span>
+                  0
+                 </span>
+                 <span>
+                  ][
+                 </span>
+                 <span>
+                  0
+                 </span>
+                 <span>
+                  ][
+                 </span>
+                 <span>
+                  0
+                 </span>
+                 <span>
+                  ] =
+                 </span>
+                 <span>
+                  0
+                 </span>
+                 <span>
+                  ;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  REP
+                 </span>
+                 <span>
+                  (i,
+                 </span>
+                 <span>
+                  n
+                 </span>
+                 <span>
+                  ){
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  REP
+                 </span>
+                 <span>
+                  (i9, x+
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  )
+                 </span>
+                 <span>
+                  REP
+                 </span>
+                 <span>
+                  (i3, x+
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  )
+                 </span>
+                 <span>
+                  if
+                 </span>
+                 <span>
+                  (
+                 </span>
+                 <span>
+                  u
+                 </span>
+                 <span>
+                  !=
+                 </span>
+                 <span>
+                  INF
+                 </span>
+                 <span>
+                  ){
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  jj9 = x-i9+
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  , jj3 = x-i3+
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  ;
+                 </span>
+                 <span>
+                  REP
+                 </span>
+                 <span>
+                  (j9, jj9){
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  ai =
+                 </span>
+                 <span>
+                  a
+                 </span>
+                 <span>
+                  [
+                 </span>
+                 <span>
+                  i
+                 </span>
+                 <span>
+                  ]-j9*
+                 </span>
+                 <span>
+                  9
+                 </span>
+                 <span>
+                  ;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  REP
+                 </span>
+                 <span>
+                  (j3, jj3){
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  j1 =
+                 </span>
+                 <span>
+                  max
+                 </span>
+                 <span>
+                  (
+                 </span>
+                 <span>
+                  0
+                 </span>
+                 <span>
+                  , ai - j3*
+                 </span>
+                 <span>
+                  3
+                 </span>
+                 <span>
+                  );
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  if
+                 </span>
+                 <span>
+                  (j9+j3+j1 &lt;= x &amp;&amp;
+                 </span>
+                 <span>
+                  u
+                 </span>
+                 <span>
+                  +j1 &lt;= x)
+                 </span>
+                 <span>
+                  checkMin
+                 </span>
+                 <span>
+                  (
+                 </span>
+                 <span>
+                  v
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  u
+                 </span>
+                 <span>
+                  + j1);
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  if
+                 </span>
+                 <span>
+                  (!j1)
+                 </span>
+                 <span>
+                  break
+                 </span>
+                 <span>
+                  ;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  if
+                 </span>
+                 <span>
+                  (ai &lt;=
+                 </span>
+                 <span>
+                  0
+                 </span>
+                 <span>
+                  )
+                 </span>
+                 <span>
+                  break
+                 </span>
+                 <span>
+                  ;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  i =
+                 </span>
+                 <span>
+                  n
+                 </span>
+                 <span>
+                  ;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  REP
+                 </span>
+                 <span>
+                  (i9, x+
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  )
+                 </span>
+                 <span>
+                  REP
+                 </span>
+                 <span>
+                  (i3, x+
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  )
+                 </span>
+                 <span>
+                  if
+                 </span>
+                 <span>
+                  (
+                 </span>
+                 <span>
+                  u
+                 </span>
+                 <span>
+                  !=
+                 </span>
+                 <span>
+                  INF
+                 </span>
+                 <span>
+                  )
+                 </span>
+                 <span>
+                  return
+                 </span>
+                 <span>
+                 </span>
+                 <span>
+                  true
+                 </span>
+                 <span>
+                  ;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  return
+                 </span>
+                 <span>
+                 </span>
+                 <span>
+                  false
+                 </span>
+                 <span>
+                  ;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <br/>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <br/>
+                </p>
+                <p>
+                 <span>
+                  class
+                 </span>
+                 <span>
+                  Mutalisk {
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  public
+                 </span>
+                 <span>
+                  :
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  minimalAttacks(
+                 </span>
+                 <span>
+                  vector
+                 </span>
+                 <span>
+                  &lt;
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  &gt; x) {
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  a
+                 </span>
+                 <span>
+                  = x;
+                 </span>
+                 <span>
+                  n
+                 </span>
+                 <span>
+                  =
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  (
+                 </span>
+                 <span>
+                  a
+                 </span>
+                 <span>
+                  .
+                 </span>
+                 <span>
+                  size
+                 </span>
+                 <span>
+                  ());
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  l =
+                 </span>
+                 <span>
+                  0
+                 </span>
+                 <span>
+                  , r = M-
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  ;
+                 </span>
+                 <span>
+                  while
+                 </span>
+                 <span>
+                  (l &lt; r){
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  m = (l + r) /
+                 </span>
+                 <span>
+                  2
+                 </span>
+                 <span>
+                  ;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  if
+                 </span>
+                 <span>
+                  (ck(m)) r = m;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  else
+                 </span>
+                 <span>
+                  l = m +
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  ;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  return
+                 </span>
+                 <span>
+                  l;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  };
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <br/>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <br/>
+                </p>
+                <p>
+                 <span>
+                  // BEGIN CUT HERE
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  namespace
+                 </span>
+                 <span>
+                  moj_harness {
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  run_test_case(
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  );
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  void
+                 </span>
+                 <span>
+                  run_test(
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  casenum = -
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  bool
+                 </span>
+                 <span>
+                  quiet =
+                 </span>
+                 <span>
+                  false
+                 </span>
+                 <span>
+                  ) {
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  if
+                 </span>
+                 <span>
+                  (casenum != -
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  ) {
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  if
+                 </span>
+                 <span>
+                  (run_test_case(casenum) == -
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  &amp;&amp; !quiet) {
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  cerr &lt;&lt;
+                 </span>
+                 <span>
+                  "Illegal input! Test case "
+                 </span>
+                 <span>
+                  &lt;&lt; casenum &lt;&lt;
+                 </span>
+                 <span>
+                  " does not exist."
+                 </span>
+                 <span>
+                  &lt;&lt; endl;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  return
+                 </span>
+                 <span>
+                  ;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  correct =
+                 </span>
+                 <span>
+                  0
+                 </span>
+                 <span>
+                  , total =
+                 </span>
+                 <span>
+                  0
+                 </span>
+                 <span>
+                  ;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  for
+                 </span>
+                 <span>
+                  (
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  i=
+                 </span>
+                 <span>
+                  0
+                 </span>
+                 <span>
+                  ;; ++i) {
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  x = run_test_case(i);
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  if
+                 </span>
+                 <span>
+                  (x == -
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  ) {
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  if
+                 </span>
+                 <span>
+                  (i &gt;=
+                 </span>
+                 <span>
+                  100
+                 </span>
+                 <span>
+                  )
+                 </span>
+                 <span>
+                  break
+                 </span>
+                 <span>
+                  ;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  continue
+                 </span>
+                 <span>
+                  ;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  correct += x;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  ++total;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  if
+                 </span>
+                 <span>
+                  (total ==
+                 </span>
+                 <span>
+                  0
+                 </span>
+                 <span>
+                  ) {
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  cerr &lt;&lt;
+                 </span>
+                 <span>
+                  "No test cases run."
+                 </span>
+                 <span>
+                  &lt;&lt; endl;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                 <span>
+                  else
+                 </span>
+                 <span>
+                 </span>
+                 <span>
+                  if
+                 </span>
+                 <span>
+                  (correct &lt; total) {
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  cerr &lt;&lt;
+                 </span>
+                 <span>
+                  "Some cases FAILED (passed "
+                 </span>
+                 <span>
+                  &lt;&lt; correct &lt;&lt;
+                 </span>
+                 <span>
+                  " of "
+                 </span>
+                 <span>
+                  &lt;&lt; total &lt;&lt;
+                 </span>
+                 <span>
+                  ")."
+                 </span>
+                 <span>
+                  &lt;&lt; endl;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                 <span>
+                  else
+                 </span>
+                 <span>
+                  {
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  cerr &lt;&lt;
+                 </span>
+                 <span>
+                  "All "
+                 </span>
+                 <span>
+                  &lt;&lt; total &lt;&lt;
+                 </span>
+                 <span>
+                  " tests passed!"
+                 </span>
+                 <span>
+                  &lt;&lt; endl;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  verify_case(
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  casenum,
+                 </span>
+                 <span>
+                  const
+                 </span>
+                 <span>
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  &amp;expected,
+                 </span>
+                 <span>
+                  const
+                 </span>
+                 <span>
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  &amp;received, clock_t elapsed) {
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  cerr &lt;&lt;
+                 </span>
+                 <span>
+                  "Example "
+                 </span>
+                 <span>
+                  &lt;&lt; casenum &lt;&lt;
+                 </span>
+                 <span>
+                  "... "
+                 </span>
+                 <span>
+                  ;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  string verdict;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  vector&lt;string&gt; info;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  char
+                 </span>
+                 <span>
+                  buf[
+                 </span>
+                 <span>
+                  100
+                 </span>
+                 <span>
+                  ];
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  if
+                 </span>
+                 <span>
+                  (elapsed &gt; CLOCKS_PER_SEC /
+                 </span>
+                 <span>
+                  200
+                 </span>
+                 <span>
+                  ) {
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  sprintf(buf,
+                 </span>
+                 <span>
+                  "time %.2fs"
+                 </span>
+                 <span>
+                  , elapsed * (
+                 </span>
+                 <span>
+                  1.0
+                 </span>
+                 <span>
+                  /CLOCKS_PER_SEC));
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  info.push_back(buf);
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  if
+                 </span>
+                 <span>
+                  (expected == received) {
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  verdict =
+                 </span>
+                 <span>
+                  "PASSED"
+                 </span>
+                 <span>
+                  ;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                 <span>
+                  else
+                 </span>
+                 <span>
+                  {
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  verdict =
+                 </span>
+                 <span>
+                  "FAILED"
+                 </span>
+                 <span>
+                  ;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  cerr &lt;&lt; verdict;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  if
+                 </span>
+                 <span>
+                  (!info.empty()) {
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  cerr &lt;&lt;
+                 </span>
+                 <span>
+                  " ("
+                 </span>
+                 <span>
+                  ;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  for
+                 </span>
+                 <span>
+                  (
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  i=
+                 </span>
+                 <span>
+                  0
+                 </span>
+                 <span>
+                  ; i&lt;(
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  )info.size(); ++i) {
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  if
+                 </span>
+                 <span>
+                  (i &gt;
+                 </span>
+                 <span>
+                  0
+                 </span>
+                 <span>
+                  ) cerr &lt;&lt;
+                 </span>
+                 <span>
+                  ", "
+                 </span>
+                 <span>
+                  ;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  cerr &lt;&lt; info[i];
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  cerr &lt;&lt;
+                 </span>
+                 <span>
+                  ")"
+                 </span>
+                 <span>
+                  ;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  cerr &lt;&lt; endl;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  if
+                 </span>
+                 <span>
+                  (verdict ==
+                 </span>
+                 <span>
+                  "FAILED"
+                 </span>
+                 <span>
+                  ) {
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  cerr &lt;&lt;
+                 </span>
+                 <span>
+                  "    Expected: "
+                 </span>
+                 <span>
+                  &lt;&lt; expected &lt;&lt; endl;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  cerr &lt;&lt;
+                 </span>
+                 <span>
+                  "    Received: "
+                 </span>
+                 <span>
+                  &lt;&lt; received &lt;&lt; endl;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  return
+                 </span>
+                 <span>
+                  verdict ==
+                 </span>
+                 <span>
+                  "PASSED"
+                 </span>
+                 <span>
+                  ;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  run_test_case(
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  casenum) {
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  switch
+                 </span>
+                 <span>
+                  (casenum) {
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  case
+                 </span>
+                 <span>
+                 </span>
+                 <span>
+                  0
+                 </span>
+                 <span>
+                  : {
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  x[]                   = {
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  };
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  expected__            =
+                 </span>
+                 <span>
+                  2
+                 </span>
+                 <span>
+                  ;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  clock_t start__           = clock();
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  received__            = Mutalisk().minimalAttacks(vector &lt;
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  &gt;(x, x + (
+                 </span>
+                 <span>
+                  sizeof
+                 </span>
+                 <span>
+                  x /
+                 </span>
+                 <span>
+                  sizeof
+                 </span>
+                 <span>
+                  x[
+                 </span>
+                 <span>
+                  0
+                 </span>
+                 <span>
+                  ])));
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  return
+                 </span>
+                 <span>
+                  verify_case(casenum, expected__, received__, clock()-start__);
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  case
+                 </span>
+                 <span>
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  : {
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  x[]                   = {
+                 </span>
+                 <span>
+                  54
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  18
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  6
+                 </span>
+                 <span>
+                  };
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  expected__            =
+                 </span>
+                 <span>
+                  6
+                 </span>
+                 <span>
+                  ;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  clock_t start__           = clock();
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  received__            = Mutalisk().minimalAttacks(vector &lt;
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  &gt;(x, x + (
+                 </span>
+                 <span>
+                  sizeof
+                 </span>
+                 <span>
+                  x /
+                 </span>
+                 <span>
+                  sizeof
+                 </span>
+                 <span>
+                  x[
+                 </span>
+                 <span>
+                  0
+                 </span>
+                 <span>
+                  ])));
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  return
+                 </span>
+                 <span>
+                  verify_case(casenum, expected__, received__, clock()-start__);
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  case
+                 </span>
+                 <span>
+                 </span>
+                 <span>
+                  2
+                 </span>
+                 <span>
+                  : {
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  x[]                   = {
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  };
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  expected__            =
+                 </span>
+                 <span>
+                  4
+                 </span>
+                 <span>
+                  ;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  clock_t start__           = clock();
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  received__            = Mutalisk().minimalAttacks(vector &lt;
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  &gt;(x, x + (
+                 </span>
+                 <span>
+                  sizeof
+                 </span>
+                 <span>
+                  x /
+                 </span>
+                 <span>
+                  sizeof
+                 </span>
+                 <span>
+                  x[
+                 </span>
+                 <span>
+                  0
+                 </span>
+                 <span>
+                  ])));
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  return
+                 </span>
+                 <span>
+                  verify_case(casenum, expected__, received__, clock()-start__);
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  case
+                 </span>
+                 <span>
+                 </span>
+                 <span>
+                  3
+                 </span>
+                 <span>
+                  : {
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  x[]                   = {
+                 </span>
+                 <span>
+                  55
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  60
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  53
+                 </span>
+                 <span>
+                  };
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  expected__            =
+                 </span>
+                 <span>
+                  13
+                 </span>
+                 <span>
+                  ;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  clock_t start__           = clock();
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  received__            = Mutalisk().minimalAttacks(vector &lt;
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  &gt;(x, x + (
+                 </span>
+                 <span>
+                  sizeof
+                 </span>
+                 <span>
+                  x /
+                 </span>
+                 <span>
+                  sizeof
+                 </span>
+                 <span>
+                  x[
+                 </span>
+                 <span>
+                  0
+                 </span>
+                 <span>
+                  ])));
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  return
+                 </span>
+                 <span>
+                  verify_case(casenum, expected__, received__, clock()-start__);
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  case
+                 </span>
+                 <span>
+                 </span>
+                 <span>
+                  4
+                 </span>
+                 <span>
+                  : {
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  x[]                   = {
+                 </span>
+                 <span>
+                  60
+                 </span>
+                 <span>
+                  };
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  expected__            =
+                 </span>
+                 <span>
+                  7
+                 </span>
+                 <span>
+                  ;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  clock_t start__           = clock();
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  received__            = Mutalisk().minimalAttacks(vector &lt;
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  &gt;(x, x + (
+                 </span>
+                 <span>
+                  sizeof
+                 </span>
+                 <span>
+                  x /
+                 </span>
+                 <span>
+                  sizeof
+                 </span>
+                 <span>
+                  x[
+                 </span>
+                 <span>
+                  0
+                 </span>
+                 <span>
+                  ])));
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  return
+                 </span>
+                 <span>
+                  verify_case(casenum, expected__, received__, clock()-start__);
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  case
+                 </span>
+                 <span>
+                 </span>
+                 <span>
+                  5
+                 </span>
+                 <span>
+                  : {
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  x[]                   = {
+                 </span>
+                 <span>
+                  60
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  60
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  60
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  60
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  60
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  60
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  60
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  60
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  60
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  60
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  60
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  60
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  60
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  60
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  60
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  60
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  60
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  60
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  60
+                 </span>
+                 <span>
+                  ,
+                 </span>
+                 <span>
+                  60
+                 </span>
+                 <span>
+                  };
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  expected__            =
+                 </span>
+                 <span>
+                  93
+                 </span>
+                 <span>
+                  ;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  clock_t start__           = clock();
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  received__            = Mutalisk().minimalAttacks(vector &lt;
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  &gt;(x, x + (
+                 </span>
+                 <span>
+                  sizeof
+                 </span>
+                 <span>
+                  x /
+                 </span>
+                 <span>
+                  sizeof
+                 </span>
+                 <span>
+                  x[
+                 </span>
+                 <span>
+                  0
+                 </span>
+                 <span>
+                  ])));
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  return
+                 </span>
+                 <span>
+                  verify_case(casenum, expected__, received__, clock()-start__);
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  // custom cases
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  /*      case 6: {
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  int x[]                   = ;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  int expected__            = ;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  clock_t start__           = clock();
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  int received__            = Mutalisk().minimalAttacks(vector &lt;int&gt;(x, x + (sizeof x / sizeof x[0])));
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  return verify_case(casenum, expected__, received__, clock()-start__);
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }*/
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  /*      case 7: {
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  int x[]                   = ;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  int expected__            = ;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  clock_t start__           = clock();
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  int received__            = Mutalisk().minimalAttacks(vector &lt;int&gt;(x, x + (sizeof x / sizeof x[0])));
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  return verify_case(casenum, expected__, received__, clock()-start__);
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }*/
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  /*      case 8: {
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  int x[]                   = ;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  int expected__            = ;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  clock_t start__           = clock();
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  int received__            = Mutalisk().minimalAttacks(vector &lt;int&gt;(x, x + (sizeof x / sizeof x[0])));
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  return verify_case(casenum, expected__, received__, clock()-start__);
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }*/
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  default
+                 </span>
+                 <span>
+                  :
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  return
+                 </span>
+                 <span>
+                  -
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  ;
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <br/>
+                </p>
+                <p>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  main(
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  argc,
+                 </span>
+                 <span>
+                  char
+                 </span>
+                 <span>
+                  *argv[]) {
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  if
+                 </span>
+                 <span>
+                  (argc ==
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  ) {
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  moj_harness::run_test();
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                 <span>
+                  else
+                 </span>
+                 <span>
+                  {
+                 </span>
+                </p>
+                <p>
+                 <span>
+                 </span>
+                 <span>
+                  for
+                 </span>
+                 <span>
+                  (
+                 </span>
+                 <span>
+                  int
+                 </span>
+                 <span>
+                  i=
+                 </span>
+                 <span>
+                  1
+                 </span>
+                 <span>
+                  ; i&lt;argc; ++i)
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  moj_harness::run_test(atoi(argv[i]));
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  }
+                 </span>
+                </p>
+                <p>
+                 <span>
+                  // END CUT HERE
+                 </span>
+                </p>
+                <span>
+                 <span>
+                  <span>
+                   <span>
+                   </span>
+                  </span>
+                 </span>
+                </span>
+                <br/>
+                <br/>
+               </div>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

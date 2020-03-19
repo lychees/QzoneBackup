@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1405515370,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "Matrix67的blog里面的很好理解呢 ",
+                "capacity": 12139,
+                "poster": {
+                    "id": "513621014",
+                    "platform": 1,
+                    "name": "HandIeNeeded ",
+                    "emoji": []
+                },
+                "bmp": "38d01fa40000c120",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

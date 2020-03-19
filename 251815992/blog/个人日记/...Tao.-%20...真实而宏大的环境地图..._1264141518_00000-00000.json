@@ -1,0 +1,40 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1264145518,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "我报名，反正过段时间我就在家待着了，如果我能帮上忙，就来找我 ",
+                "capacity": 12066,
+                "poster": {
+                    "id": "65713782",
+                    "platform": 1,
+                    "name": "blackjack ",
+                    "emoji": []
+                },
+                "bmp": "08c09d2001008001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "534470369",
+                            "name": "张弛 ",
+                            "platform": 1
+                        },
+                        "content": "你在家待着干嘛。。。\n ",
+                        "postTime": 1264154111,
+                        "id": 1264154111,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

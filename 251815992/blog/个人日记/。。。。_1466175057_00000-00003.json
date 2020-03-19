@@ -1,0 +1,102 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1466175594,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "可以，很强势 ",
+                "capacity": 12159,
+                "poster": {
+                    "id": "569620205",
+                    "platform": 1,
+                    "name": " [ ccnu ] Tmono ",
+                    "emoji": []
+                },
+                "bmp": "58d08da8000ec209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1466176347,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "哈局齐段抢去的上局合段25K ",
+                "capacity": 12148,
+                "poster": {
+                    "id": "85561642",
+                    "platform": 1,
+                    "name": "隙間 ",
+                    "emoji": []
+                },
+                "bmp": "98d18da40800c221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1466176924,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "硬座诶 ",
+                "capacity": 12162,
+                "poster": {
+                    "id": "446079414",
+                    "platform": 1,
+                    "name": "旺仔嚎婆婆 ",
+                    "emoji": []
+                },
+                "bmp": "38449da00000c201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1466179549,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "小岛来南京？ ",
+                "capacity": 11963,
+                "poster": {
+                    "id": "651994959",
+                    "platform": 1,
+                    "name": "Trigon ",
+                    "emoji": []
+                },
+                "bmp": "18c59de00002c121",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:651994959,nick:Trigon,auto:1} 陪 盐酥鸡 录节目。。。 ",
+                        "postTime": 1466185068,
+                        "id": 1466185068,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "651994959",
+                            "name": "Trigon ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1}|&#65381;ω&#65381;｀) ",
+                        "postTime": 1466221597,
+                        "id": 1466221597,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

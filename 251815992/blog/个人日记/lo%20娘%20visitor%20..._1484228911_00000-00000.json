@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1484273113,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "我工作日穿的所有的衣服和裤子都是同一款式[em]e106[/em] 根本不用考虑穿什么[em]e245[/em] ",
+                "capacity": 12088,
+                "poster": {
+                    "id": "854198141",
+                    "platform": 1,
+                    "name": "xzq ",
+                    "emoji": []
+                },
+                "bmp": "08c19c8000000401",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1327887235,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "妈呀。。好吓人。。 ",
+                "capacity": 12150,
+                "poster": {
+                    "id": "122155302",
+                    "platform": 1,
+                    "name": "木子日匀 ",
+                    "emoji": []
+                },
+                "bmp": "38d40da00102c209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1328276655,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]吓死人了。果断抱走。[/ft] ",
+                "capacity": 12119,
+                "poster": {
+                    "id": "824989449",
+                    "platform": 1,
+                    "name": "824989449 ",
+                    "emoji": []
+                },
+                "bmp": "0000000000000000",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1369645520,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "吓到了。。。。。不过这样用起来超方便啊 现场赛怎不需要的吧。 ",
+                "capacity": 12106,
+                "poster": {
+                    "id": "441748146",
+                    "platform": 1,
+                    "name": "lirau ",
+                    "emoji": []
+                },
+                "bmp": "185495a001008109",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

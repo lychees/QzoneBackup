@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1409711660,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "有点意思。。 ",
+                "capacity": 12153,
+                "poster": {
+                    "id": "397134123",
+                    "platform": 1,
+                    "name": "Do Min Joon ",
+                    "emoji": []
+                },
+                "bmp": "185097a00142e081",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1409748194,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "所以机智的字体作者就对着点阵慢慢撸。。 ",
+                "capacity": 12132,
+                "poster": {
+                    "id": "935099327",
+                    "platform": 1,
+                    "name": "不愿透露姓名的 ",
+                    "emoji": []
+                },
+                "bmp": "08c09d2000000001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

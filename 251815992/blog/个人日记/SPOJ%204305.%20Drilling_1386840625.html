@@ -1,0 +1,1310 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    SPOJ 4305. Drilling
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             SPOJ 4305. Drilling
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2013-12-12 04:30:25
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(26)	è¯è®º(0)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1386840625,
+"voteids":0,
+"pubtime":1386840625,
+"replynum":0,
+"category":"个人日记",
+"title":"SPOJ 4305. Drilling",
+"effect":8389120,
+"effect2":524294,
+"exblogtype":3,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":81177,
+"lp_style":16843520,
+"lp_flag":0,
+"lp_topvalue":0,
+"orguin":251815992,
+"orgblogid":1386840625,
+"mention_uins":[ ],
+"attach":[],"comments":[]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <div>
+                <a href="http://www.spoj.com/problems/AE3A/" target="_blank">
+                 http://www.spoj.com/problems/AE3A/
+                </a>
+                <br/>
+                <br/>
+                Brief description：
+                <br/>
+                题目有点晦涩。。。
+                <br/>
+                <br/>
+                “It is enough to find the farthest from A of these points in which some crude oil（原油） occurs.”
+                <br/>
+                <br/>
+                x 轴上。。从 0 点向右的一段区域内都有原油。。。每次可以在某点向下打下一枚探针（borehole）。。。
+                <br/>
+                、测试原油是否延伸到这个位置。。每个点打探针的代价不同。。。。问至少需要多少代价。。可以测试出原油的实际范围。。
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <span>
+                 Solution：
+                 <br/>
+                 <span>
+                  ？？？
+                  <br/>
+                  <span>
+                   <br/>
+                   首先可以 O(n3) 暴力 DP。。。
+                   <br/>
+                   <br/>
+                   <div>
+                    const int N = 2009;
+                   </div>
+                   <div>
+                    int dp[N][N];
+                   </div>
+                   <div>
+                    int A[N], n;
+                   </div>
+                   <div>
+                    <br/>
+                   </div>
+                   <div>
+                    int f(int l, int r){
+                   </div>
+                   <div>
+                    int &amp;res = dp[l][r]; if (res == INF){
+                   </div>
+                   <div>
+                    FOR_1(i, l, r) checkMin(res, A[i] + max(f(l, i-1), f(i+1, r)));
+                   </div>
+                   <div>
+                    }
+                   </div>
+                   <div>
+                    return res;
+                   </div>
+                   <div>
+                    }
+                   </div>
+                   <div>
+                    <br/>
+                   </div>
+                   <div>
+                    int main(){
+                   </div>
+                   <div>
+                    <br/>
+                   </div>
+                   <div>
+                    #ifndef ONLINE_JUDGE
+                   </div>
+                   <div>
+                    freopen("in.txt", "r", stdin);
+                   </div>
+                   <div>
+                    //freopen("out.txt", "w", stdout);
+                   </div>
+                   <div>
+                    #endif
+                   </div>
+                   <div>
+                    <br/>
+                   </div>
+                   <div>
+                    REP_C(i, RD(n)) RD(A[i]);
+                   </div>
+                   <div>
+                    FLC(dp, 0x3f); REP(i, n) dp[i][i] = A[i], dp[i][i-1] = 0;
+                   </div>
+                   <div>
+                    cout &lt;&lt; f(0, n-1) &lt;&lt; endl;
+                   </div>
+                   <div>
+                    }
+                   </div>
+                   <div>
+                    <br/>
+                    <br/>
+                    似乎显然是决策单调的（？）。
+                    <br/>
+                    <br/>
+                    观察转移方程。。
+                    <br/>
+                    FOR_1(i, l, r) checkMin(res, A[i] + max(f(l, i-1), f(i+1, r)));
+                    <br/>
+                    <br/>
+                    。。高光： max(f(l, i-1), f(i+1, r))
+                    <br/>
+                    我们知道 f(l, r) 是满足区间包含单调的。。。
+                    <br/>
+                    因此随着 i 的增大。。。左边那项 f(l, i-1) 单调递增。
+                    <br/>
+                    。。右边的 f(i+1, r) 则单调递减。。
+                    <br/>
+                    <br/>
+                    那么我们可以二分找出满足。。
+                    <br/>
+                    f(l, i-1) &lt;= f(i+1, r) //
+                    <br/>
+                    的最后一个 i。。。
+                    <br/>
+                    <br/>
+                    <br/>
+                    那么 l 到 i 之间 max 函数取右半部。。i+1 到 r 之间取左半部。。。。
+                    <br/>
+                    于是可以利用区间单调性进行剪枝。。
+                    <br/>
+                    <br/>
+                    <div>
+                     const int N = 2009;
+                    </div>
+                    <div>
+                     int dp[N][N], A[N], n;
+                    </div>
+                    <div>
+                     <br/>
+                    </div>
+                    <div>
+                     int f(int l, int r){
+                    </div>
+                    <div>
+                     int &amp;res = dp[l][r]; if (res == INF){
+                    </div>
+                    <div>
+                     <br/>
+                    </div>
+                    <div>
+                     int ll = l, rr = r; while (ll &lt; rr){
+                    </div>
+                    <div>
+                     int mm = ll + rr + 1 &gt;&gt; 1;
+                    </div>
+                    <div>
+                     if (f(l, mm-1) &lt;= f(mm+1, r)) ll = mm;
+                    </div>
+                    <div>
+                     else rr = mm-1;
+                    </div>
+                    <div>
+                     }
+                    </div>
+                    <div>
+                     <br/>
+                    </div>
+                    <div>
+                     rr = 0; DWN_1(i, ll, l) if (A[i] + rr &lt; res) rr = f(i+1, r), checkMin(res, A[i]+rr);
+                    </div>
+                    <div>
+                     rr = 0; FOR_1(i, ll+1, r) if (A[i] + rr &lt; res) rr = f(l, i-1), checkMin(res, A[i]+rr);
+                    </div>
+                    <div>
+                     }
+                    </div>
+                    <div>
+                     return res;
+                    </div>
+                    <div>
+                     }
+                    </div>
+                    <div>
+                     <br/>
+                    </div>
+                    <div>
+                     int main(){
+                    </div>
+                    <div>
+                     <br/>
+                    </div>
+                    <div>
+                     #ifndef ONLINE_JUDGE
+                    </div>
+                    <div>
+                     freopen("in.txt", "r", stdin);
+                    </div>
+                    <div>
+                     //freopen("out.txt", "w", stdout);
+                    </div>
+                    <div>
+                     #endif
+                    </div>
+                    <div>
+                     <br/>
+                    </div>
+                    <div>
+                     REP_C(i, RD(n)) RD(A[i]);
+                    </div>
+                    <div>
+                     FLC(dp, 0x3f); REP(i, n) dp[i][i] = A[i], dp[i+1][i] = 0;
+                    </div>
+                    <div>
+                     cout &lt;&lt; f(0, n-1) &lt;&lt; endl;
+                    </div>
+                    <div>
+                     }
+                    </div>
+                    <div>
+                     <br/>
+                    </div>
+                    <br/>
+                    这样似乎就已经 AC 了 （7.8s。。。
+                    <br/>
+                    。。求更靠谱解法。。
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <table cellspacing="0" style="font-family:Times;orphans:2;widows:2;word-wrap:break-word;word-break:break-all" width="100%">
+                     <tbody>
+                      <tr bkindex="1" dcount="2">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <div style="color:rgb(0, 110, 254);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           ftiasch (826513189) 20:22:50
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                         <font color="000000" style="font-size:10pt;font-family:LucidaGrande, 'MS Sans Serif', sans-serif">
+                          - -好无聊啊……有什么有趣的算法讨论吗。
+                         </font>
+                        </div>
+                       </td>
+                      </tr>
+                      <tr bkindex="1" dcount="2">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <div style="color:rgb(66, 180, 117);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           [HIT]xiaodao(251815992) 20:22:55
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                         <font color="600000" style="font-size:10pt;font-family:Candara, 'MS Sans Serif', sans-serif">
+                          <a target="_blank">
+                           http://www.spoj.com/problems/AE3A/
+                          </a>
+                         </font>
+                        </div>
+                       </td>
+                      </tr>
+                      <tr bkindex="1" dcount="2">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <div style="color:rgb(66, 180, 117);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           [HIT]xiaodao(251815992) 20:23:03
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                         <font color="600000" style="font-size:10pt;font-family:Candara, 'MS Sans Serif', sans-serif">
+                          这个题怎么 O(n2) 呀。。。
+                         </font>
+                        </div>
+                       </td>
+                      </tr>
+                      <tr bkindex="1" dcount="2">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <div style="color:rgb(66, 180, 117);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           [HIT]xiaodao(251815992) 20:23:10
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                         <font color="600000" style="font-size:10pt;font-family:Candara, 'MS Sans Serif', sans-serif">
+                          只会 n3 的暴力 DP。
+                         </font>
+                        </div>
+                       </td>
+                      </tr>
+                      <tr bkindex="1" dcount="2">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <div style="color:rgb(0, 110, 254);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           ftiasch (826513189) 20:23:13
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                         <font color="000000" style="font-size:10pt;font-family:LucidaGrande, 'MS Sans Serif', sans-serif">
+                          O(n^2 log n)的，会吗？
+                         </font>
+                        </div>
+                       </td>
+                      </tr>
+                      <tr bkindex="1" dcount="2">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <div style="color:rgb(66, 180, 117);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           [HIT]xiaodao(251815992) 20:23:22
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                         <font color="600000" style="font-size:10pt;font-family:Candara, 'MS Sans Serif', sans-serif">
+                          好像会。。。
+                         </font>
+                        </div>
+                       </td>
+                      </tr>
+                      <tr bkindex="1" dcount="2">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <div style="color:rgb(0, 110, 254);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           ftiasch (826513189) 20:23:25
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                         <font color="000000" style="font-size:10pt;font-family:LucidaGrande, 'MS Sans Serif', sans-serif">
+                          噢。
+                         </font>
+                        </div>
+                       </td>
+                      </tr>
+                      <tr bkindex="1" dcount="2">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <div style="color:rgb(66, 180, 117);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           [HIT]xiaodao(251815992) 20:23:28
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                         <font color="600000" style="font-size:10pt;font-family:Candara, 'MS Sans Serif', sans-serif">
+                          是不是二分出决策点。？
+                         </font>
+                        </div>
+                       </td>
+                      </tr>
+                      <tr bkindex="1" dcount="2">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:rgb(255, 219, 141);border-right-color:rgb(255, 219, 141);border-bottom-color:rgb(255, 219, 141);border-left-color:rgb(255, 219, 141);border-image:initial">
+                        <div style="color:rgb(66, 180, 117);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           [HIT]xiaodao(251815992) 20:23:36
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                         <font color="600000" style="font-size:10pt;font-family:Candara, 'MS Sans Serif', sans-serif">
+                          然后检查左右两个。。
+                         </font>
+                        </div>
+                       </td>
+                      </tr>
+                     </tbody>
+                    </table>
+                    <br/>
+                    <table cellspacing="0" style="font-family:Times;orphans:2;widows:2;word-wrap:break-word;word-break:break-all" width="100%">
+                     <tbody>
+                      <tr bkindex="2">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <table cellspacing="0" width="100%">
+                         <tbody>
+                          <tr>
+                           <td align="right" style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                            <img height="1" style="margin-bottom:3px;margin-top:3px" width="100%"/>
+                           </td>
+                           <td align="center" style="font-size:12px;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial;font-family:Arial" width="90">
+                            2013-12-12
+                           </td>
+                           <td align="left" style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                            <img height="1" style="margin-bottom:3px;margin-top:3px" width="100%"/>
+                           </td>
+                          </tr>
+                         </tbody>
+                        </table>
+                       </td>
+                      </tr>
+                      <tr bkindex="2" dcount="1">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <div style="color:rgb(66, 180, 117);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           [HIT]xiaodao(251815992) 20:23:36
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                         <font color="600000" style="font-size:10pt;font-family:Candara, 'MS Sans Serif', sans-serif">
+                          然后检查左右两个。。
+                         </font>
+                        </div>
+                       </td>
+                      </tr>
+                      <tr bkindex="1" dcount="1">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <div style="color:rgb(0, 110, 254);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           ftiasch (826513189) 20:23:45
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                         <font color="000000" style="font-size:10pt;font-family:LucidaGrande, 'MS Sans Serif', sans-serif">
+                          嗯。dp方程大概是这样吧。
+                         </font>
+                        </div>
+                       </td>
+                      </tr>
+                      <tr bkindex="1" dcount="1">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <div style="color:rgb(66, 180, 117);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           [HIT]xiaodao(251815992) 20:23:50
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                         <font color="600000" style="font-size:10pt;font-family:Candara, 'MS Sans Serif', sans-serif">
+                          嗯。。
+                         </font>
+                        </div>
+                       </td>
+                      </tr>
+                      <tr bkindex="1" dcount="1">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <div style="color:rgb(66, 180, 117);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           [HIT]xiaodao(251815992) 20:23:54
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                         <font color="600000" style="font-size:10pt;font-family:Candara, 'MS Sans Serif', sans-serif">
+                          怎么 O(n2) 呢。
+                         </font>
+                        </div>
+                       </td>
+                      </tr>
+                      <tr bkindex="1" dcount="1">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <div style="color:rgb(0, 110, 254);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           ftiasch (826513189) 20:23:55
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                         <font color="000000" style="font-size:10pt;font-family:LucidaGrande, 'MS Sans Serif', sans-serif">
+                          dp[i][j] = min{max{dp[i][k], dp[k][j]} + c[k]}
+                         </font>
+                        </div>
+                       </td>
+                      </tr>
+                      <tr bkindex="1" dcount="1">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <div style="color:rgb(66, 180, 117);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           [HIT]xiaodao(251815992) 20:24:05
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                         <font color="600000" style="font-size:10pt;font-family:Candara, 'MS Sans Serif', sans-serif">
+                          嗯嗯。
+                         </font>
+                        </div>
+                       </td>
+                      </tr>
+                      <tr bkindex="1" dcount="1">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <div style="color:rgb(66, 180, 117);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           [HIT]xiaodao(251815992) 20:24:28
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                         <font color="600000" style="font-size:10pt;font-family:Candara, 'MS Sans Serif', sans-serif">
+                          c[k] 和决策有关呀。。
+                         </font>
+                        </div>
+                       </td>
+                      </tr>
+                      <tr bkindex="1" dcount="1">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <div style="color:rgb(0, 110, 254);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           ftiasch (826513189) 20:24:38
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                         <font color="000000" style="font-size:10pt;font-family:LucidaGrande, 'MS Sans Serif', sans-serif">
+                          我们能够断言，对于固定的(i, j)，存在一个p(i, j)
+                          <br/>
+                          使得k &lt;= p(i, j)的话，dp[i][k] &lt;= dp[k][j]
+                          <br/>
+                          而k &gt; p(i, j)的话，dp[i][k] &gt; dp[k][j]
+                         </font>
+                        </div>
+                       </td>
+                      </tr>
+                      <tr bkindex="1" dcount="1">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <div style="color:rgb(66, 180, 117);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           [HIT]xiaodao(251815992) 20:24:45
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                         <font color="600000" style="font-size:10pt;font-family:Candara, 'MS Sans Serif', sans-serif">
+                          然后我只会二分出中间那个位置。。稍微剪枝一点
+                         </font>
+                        </div>
+                       </td>
+                      </tr>
+                      <tr bkindex="1" dcount="1">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <div style="color:rgb(66, 180, 117);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           [HIT]xiaodao(251815992) 20:24:48
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                         <font color="600000" style="font-size:10pt;font-family:Candara, 'MS Sans Serif', sans-serif">
+                          唔。。
+                         </font>
+                        </div>
+                       </td>
+                      </tr>
+                      <tr bkindex="1" dcount="1">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <div style="color:rgb(66, 180, 117);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           [HIT]xiaodao(251815992) 20:25:03
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                         <font color="600000" style="font-size:10pt;font-family:Candara, 'MS Sans Serif', sans-serif">
+                          嗯。
+                         </font>
+                        </div>
+                       </td>
+                      </tr>
+                      <tr bkindex="1" dcount="1">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <div style="color:rgb(0, 110, 254);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           ftiasch (826513189) 20:25:07
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                         <font color="000000" style="font-size:10pt;font-family:LucidaGrande, 'MS Sans Serif', sans-serif">
+                          只要p(i, j)的话，就是普通的RMQ了吧。
+                         </font>
+                        </div>
+                       </td>
+                      </tr>
+                      <tr bkindex="1" dcount="1">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <div style="color:rgb(0, 110, 254);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           ftiasch (826513189) 20:25:22
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                         <font color="000000" style="font-size:10pt;font-family:LucidaGrande, 'MS Sans Serif', sans-serif">
+                          求p(i, j)的话，可以二分，这样时间复杂度就是O(n^2 log n)了。
+                         </font>
+                        </div>
+                       </td>
+                      </tr>
+                      <tr bkindex="1" dcount="1">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <div style="color:rgb(66, 180, 117);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           [HIT]xiaodao(251815992) 20:25:23
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                         <font color="600000" style="font-size:10pt;font-family:Candara, 'MS Sans Serif', sans-serif">
+                          嗯嗯。。
+                         </font>
+                        </div>
+                       </td>
+                      </tr>
+                      <tr bkindex="1" dcount="1">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <div style="color:rgb(0, 110, 254);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           ftiasch (826513189) 20:25:28
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                         <font color="000000" style="font-size:10pt;font-family:LucidaGrande, 'MS Sans Serif', sans-serif">
+                          接着是这个题最重要的观察。
+                         </font>
+                        </div>
+                       </td>
+                      </tr>
+                      <tr bkindex="1" dcount="1">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <div style="color:rgb(0, 110, 254);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           ftiasch (826513189) 20:25:37
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                         <font color="000000" style="font-size:10pt;font-family:LucidaGrande, 'MS Sans Serif', sans-serif">
+                          p(i - 1, j) &lt;= p(i, j) &lt;= p(i, j + 1)
+                         </font>
+                        </div>
+                       </td>
+                      </tr>
+                      <tr bkindex="1" dcount="1">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <div style="color:rgb(66, 180, 117);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           [HIT]xiaodao(251815992) 20:25:49
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                         <font color="600000" style="font-size:10pt;font-family:Candara, 'MS Sans Serif', sans-serif">
+                          四边形不等式（？）
+                         </font>
+                        </div>
+                       </td>
+                      </tr>
+                      <tr bkindex="1" dcount="1">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <div style="color:rgb(66, 180, 117);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           [HIT]xiaodao(251815992) 20:25:56
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                         <font color="600000" style="font-size:10pt;font-family:Candara, 'MS Sans Serif', sans-serif">
+                          区间包含单调性（？）
+                         </font>
+                        </div>
+                       </td>
+                      </tr>
+                      <tr bkindex="1" dcount="1">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <div style="color:rgb(0, 110, 254);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           ftiasch (826513189) 20:25:56
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                         <font color="000000" style="font-size:10pt;font-family:LucidaGrande, 'MS Sans Serif', sans-serif">
+                          怎么学的。
+                         </font>
+                        </div>
+                       </td>
+                      </tr>
+                      <tr bkindex="1" dcount="1">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <div style="color:rgb(66, 180, 117);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           [HIT]xiaodao(251815992) 20:26:01
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                        </div>
+                       </td>
+                      </tr>
+                      <tr bkindex="1" dcount="1">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <div style="color:rgb(0, 110, 254);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           ftiasch (826513189) 20:26:04
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                         <font color="000000" style="font-size:10pt;font-family:LucidaGrande, 'MS Sans Serif', sans-serif">
+                          这个叫决策单调性。
+                         </font>
+                        </div>
+                       </td>
+                      </tr>
+                      <tr bkindex="1" dcount="1">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <div style="color:rgb(66, 180, 117);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           [HIT]xiaodao(251815992) 20:26:08
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                         <font color="600000" style="font-size:10pt;font-family:Candara, 'MS Sans Serif', sans-serif">
+                          哦唔。
+                         </font>
+                        </div>
+                       </td>
+                      </tr>
+                      <tr bkindex="1" dcount="1">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <div style="color:rgb(0, 110, 254);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           ftiasch (826513189) 20:26:14
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                         <font color="000000" style="font-size:10pt;font-family:LucidaGrande, 'MS Sans Serif', sans-serif">
+                          虽然没有四边形不等式，但是有决策单调行。
+                         </font>
+                        </div>
+                       </td>
+                      </tr>
+                      <tr bkindex="1" dcount="1">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <div style="color:rgb(0, 110, 254);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           ftiasch (826513189) 20:26:17
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                         <font color="000000" style="font-size:10pt;font-family:LucidaGrande, 'MS Sans Serif', sans-serif">
+                          @性。
+                         </font>
+                        </div>
+                       </td>
+                      </tr>
+                      <tr bkindex="1" dcount="1">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <div style="color:rgb(66, 180, 117);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           [HIT]xiaodao(251815992) 20:26:30
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                         <font color="600000" style="font-size:10pt;font-family:Candara, 'MS Sans Serif', sans-serif">
+                          咕咕。。
+                         </font>
+                        </div>
+                       </td>
+                      </tr>
+                      <tr bkindex="1" dcount="1">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <div style="color:rgb(0, 110, 254);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           ftiasch (826513189) 20:26:34
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                         <font color="000000" style="font-size:10pt;font-family:LucidaGrande, 'MS Sans Serif', sans-serif">
+                          无所谓，反正这样可以均摊O(1)地算出p(i, j)对吧。
+                         </font>
+                        </div>
+                       </td>
+                      </tr>
+                      <tr bkindex="1" dcount="1">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <div style="color:rgb(66, 180, 117);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           [HIT]xiaodao(251815992) 20:26:40
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                         <font color="600000" style="font-size:10pt;font-family:Candara, 'MS Sans Serif', sans-serif">
+                          。。明白了。。。
+                         </font>
+                        </div>
+                       </td>
+                      </tr>
+                      <tr bkindex="1" dcount="1">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <div style="color:rgb(0, 110, 254);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           ftiasch (826513189) 20:26:45
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                         <font color="000000" style="font-size:10pt;font-family:LucidaGrande, 'MS Sans Serif', sans-serif">
+                          但是仍然没用。
+                         </font>
+                        </div>
+                       </td>
+                      </tr>
+                      <tr bkindex="1" dcount="1">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <div style="color:rgb(0, 110, 254);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           ftiasch (826513189) 20:26:54
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                         <font color="000000" style="font-size:10pt;font-family:LucidaGrande, 'MS Sans Serif', sans-serif">
+                          因为RMQ还是O(log n)的。
+                         </font>
+                        </div>
+                       </td>
+                      </tr>
+                      <tr bkindex="1" dcount="1">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <div style="color:rgb(66, 180, 117);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           [HIT]xiaodao(251815992) 20:27:02
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                         <font color="600000" style="font-size:10pt;font-family:Candara, 'MS Sans Serif', sans-serif">
+                          唔。。
+                         </font>
+                        </div>
+                       </td>
+                      </tr>
+                      <tr bkindex="1" dcount="1">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <div style="color:rgb(0, 110, 254);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           ftiasch (826513189) 20:27:17
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                         <font color="000000" style="font-size:10pt;font-family:LucidaGrande, 'MS Sans Serif', sans-serif">
+                          但是既然有p(i, j) &lt;= p(i + 1, j)类似的东西。
+                         </font>
+                        </div>
+                       </td>
+                      </tr>
+                      <tr bkindex="1" dcount="1">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <div style="color:rgb(0, 110, 254);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           ftiasch (826513189) 20:27:29
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                         <font color="000000" style="font-size:10pt;font-family:LucidaGrande, 'MS Sans Serif', sans-serif">
+                          我们知道RMQ询问的区间就是单调的，所以可以单调队列。
+                         </font>
+                        </div>
+                       </td>
+                      </tr>
+                      <tr bkindex="1" dcount="1">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <div style="color:rgb(66, 180, 117);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           [HIT]xiaodao(251815992) 20:27:37
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                         <font color="600000" style="font-size:10pt;font-family:Candara, 'MS Sans Serif', sans-serif">
+                          ！
+                         </font>
+                        </div>
+                       </td>
+                      </tr>
+                      <tr bkindex="1" dcount="1">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <div style="color:rgb(0, 110, 254);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           ftiasch (826513189) 20:27:43
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                         <font color="000000" style="font-size:10pt;font-family:LucidaGrande, 'MS Sans Serif', sans-serif">
+                          这部分细节比较麻烦，我印象中需要2n个单调队列。
+                         </font>
+                        </div>
+                       </td>
+                      </tr>
+                      <tr bkindex="1" dcount="1">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <div style="color:rgb(0, 110, 254);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           ftiasch (826513189) 20:27:57
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                         <font color="000000" style="font-size:10pt;font-family:LucidaGrande, 'MS Sans Serif', sans-serif">
+                          anyway，这里应该自己可以想清楚了。
+                         </font>
+                        </div>
+                       </td>
+                      </tr>
+                      <tr bkindex="1" dcount="1">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <div style="color:rgb(66, 180, 117);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           [HIT]xiaodao(251815992) 20:28:02
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                         <font color="600000" style="font-size:10pt;font-family:Candara, 'MS Sans Serif', sans-serif">
+                          o(≧v≦)o~~。。
+                         </font>
+                        </div>
+                       </td>
+                      </tr>
+                      <tr bkindex="1" dcount="1">
+                       <td style="font-size:9pt;border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;border-image:initial">
+                        <div style="color:rgb(0, 110, 254);padding-left:10px">
+                         <font style="font-size:12px;font-family:Tahoma">
+                          <div style="float:left;margin-right:3px">
+                           ftiasch (826513189) 20:28:47
+                          </div>
+                         </font>
+                        </div>
+                        <div style="margin-top:5px;padding-left:20px;width:300px;overflow-x:hidden">
+                         <font color="000000" style="font-size:10pt;font-family:LucidaGrande, 'MS Sans Serif', sans-serif">
+                          好不容易有个题，居然会做。
+                         </font>
+                        </div>
+                       </td>
+                      </tr>
+                     </tbody>
+                    </table>
+                   </div>
+                  </span>
+                 </span>
+                </span>
+                <br/>
+               </div>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

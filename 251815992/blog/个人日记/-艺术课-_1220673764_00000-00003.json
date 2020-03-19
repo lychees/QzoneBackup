@@ -1,0 +1,79 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1220684214,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "我要写一首情歌送你........[em]e106[/em] ",
+                "capacity": 12128,
+                "poster": {
+                    "id": "474697421",
+                    "platform": 1,
+                    "name": "朱明琪 ",
+                    "emoji": []
+                },
+                "bmp": "18d195a000028209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1220698851,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "你改编下情非得以 ",
+                "capacity": 12157,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1221367203,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "这首歌是根据楼上需要改编（花了我半个小时！一定要看完！还有版权问题找楼上）\n献给我们的飞虎，我们永远是你的朋友！forever!\n \n<情非得已-飞虎>\n作词：Chi  作曲：不知道\n难以忘记初次见你\n一双迷离的眼睛\n在二号楼里\n你的声音\n挥散不去\n \n看你的风衣感觉你的心情\n真的有点喘不过气\n你的猥琐\n我想珍惜\n看到你在唱歌\n我想逃离\n\n只怕我自己会伤害你\n不敢让自己靠的太近\n怕你不想要我们的关心\n和你做朋友真的不容易\n\n只怕我自己会伤害你\n也许有天会让你哭泣\n真的好想对你说对不起\n你永远是我心中的唯一 ",
+                "capacity": 11700,
+                "poster": {
+                    "id": "534470369",
+                    "platform": 1,
+                    "name": "张弛 ",
+                    "emoji": []
+                },
+                "bmp": "08d08ca000000428",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1221373535,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "[ft=,,黑体]呵呵..[/ft]\n[ft=,,黑体]原来上每堂课都是要成本的。。[/ft] ",
+                "capacity": 12103,
+                "poster": {
+                    "id": "241721246",
+                    "platform": 1,
+                    "name": "-Zoey-D ",
+                    "emoji": []
+                },
+                "bmp": "18d495a001008121",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

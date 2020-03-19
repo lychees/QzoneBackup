@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1460418170,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "那时间你不是在日本吗？日本签其实还是很快的，我记得我就用了一周。 ",
+                "capacity": 12094,
+                "poster": {
+                    "id": "121371490",
+                    "platform": 1,
+                    "name": "詹艳玲 ",
+                    "emoji": []
+                },
+                "bmp": "18d5dda00102e409",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

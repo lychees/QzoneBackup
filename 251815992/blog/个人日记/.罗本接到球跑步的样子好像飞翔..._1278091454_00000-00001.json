@@ -1,0 +1,57 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1278125121,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[ft=,2,]我靠[/ft] ",
+                "capacity": 12123,
+                "poster": {
+                    "id": "799745573",
+                    "platform": 1,
+                    "name": "MaKi ",
+                    "emoji": []
+                },
+                "bmp": "18409c8000004401",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "............  ",
+                        "postTime": 1278150546,
+                        "id": 1278150546,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1278126135,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "画的不错 ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "772544390",
+                    "platform": 1,
+                    "name": "终究、骑士 ",
+                    "emoji": []
+                },
+                "bmp": "18c0940000000001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

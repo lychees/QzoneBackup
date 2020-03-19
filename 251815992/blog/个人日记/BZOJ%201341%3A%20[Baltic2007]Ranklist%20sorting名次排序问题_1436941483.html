@@ -1,0 +1,1841 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    BZOJ 1341: [Baltic2007]Ranklist sorting名次排序问题
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             BZOJ 1341: [Baltic2007]Ranklist sorting名次排序问题
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2015-07-15 02:24:43
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(50)	è¯è®º(1)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1436941483,
+"voteids":0,
+"pubtime":1436941483,
+"replynum":1,
+"category":"个人日记",
+"title":"BZOJ 1341: [Baltic2007]Ranklist sorting名次排序问题",
+"effect":8389120,
+"effect2":524294,
+"exblogtype":3,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":81177,
+"lp_style":16843520,
+"lp_flag":0,
+"lp_topvalue":0,
+"orguin":251815992,
+"orgblogid":1436941483,
+"mention_uins":[ ],
+"attach":[],"comments":[{"id":1,
+"postTime":1436964936,
+"effect":1056,
+"replyNum":1,
+"content":"贪心可以吗 ",
+"capacity":12021,
+"poster":{
+"id":"624050143",
+"platform":1,
+"name":"倪亦帅 ",
+"emoji":[ ]}
+,
+"bmp":"18d48da80002c201",
+"ismyreply":0,
+"replies":[{"poster":{
+"id":"251815992",
+"name":"小岛美奈子 ",
+"platform":1}
+,
+"content":"@{uin:624050143,nick:倪亦帅,auto:1} 难、。。 ",
+"postTime":1436965019,
+"id":1436965019,
+"effect":0}]}]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <a href="http://www.lydsy.com/JudgeOnline/problem.php?id=1341" target="_blank">
+                http://www.lydsy.com/JudgeOnline/problem.php?id=1341
+               </a>
+               <br/>
+               <a href="http://www.boi2007.de/en/welcome" target="_blank">
+                http://www.boi2007.de/en/welcome
+               </a>
+               <br/>
+               <br/>
+               给定一个排列，要将其升序排序，所支持的唯一操作，是将位置 i 的数插入到位置 j。（从位置 j 开始、往后的数顺次后挪）
+               <br/>
+               代价为 i+j。。求完成排序的最小代价。
+               <br/>
+               <br/>
+               ——————
+               <br/>
+               <span>
+                完成排序时，每个数都需要移动到比他大的数的后面（n+1 位置放一个哨兵。。）
+                <br/>
+                <span>
+                 。。要么是主动插过去的。。要么是被动的缓慢移动过去的。。。。
+                </span>
+               </span>
+               <br/>
+               。。注意到我们倾向于将小的数往后移动。。。（这样可以使其他数位置都减少。。。
+               <br/>
+               <br/>
+               <span>
+                首先需要 yy 出一些结论：
+                <span>
+                 <br/>
+                 1. 从大到小考虑每个数是否移动，每个数至多只移动一次。
+                 <br/>
+                 <span>
+                  2. 每个数只考虑是否往比他大1的数的后面插入。
+                  <br/>
+                  <br/>
+                  证明？数学归纳法。
+                  <br/>
+                  <br/>
+                  ————————
+                  <br/>
+                  <br/>
+                  我们从后往前考察每个数 i。。决策有两种。。移动或不移动。。不移动的话。要求 i+1 的位置已经在 i 之后。
+                  <br/>
+                  dp[i][j]：表示 i..n 已相对有序，且数字 i 在 j 位置的最小代价。
+                  <br/>
+                  <br/>
+                  考虑移动：
+                  <br/>
+                  —— 我们枚举 i+1 所在的位置。。现在需要知道 i 和 i+1 的绝对位置。。
+                  <br/>
+                 </span>
+                </span>
+               </span>
+               <span>
+                。假设之前所有的决策都选择了
+               </span>
+               <span>
+                移动。。。那么 i 的位置和 i+1的位置都很好求
+                <br/>
+                <span>
+                 （。。因为此时 i+2..n 的绝对位置都在 i+1 之后。。因此分别枚举在它们所在位置之前有多少数小于它即可。。
+                 <br/>
+                </span>
+               </span>
+               <span>
+                <span>
+                 <span>
+                  <br/>
+                  对于不移动的情况。。。我们仿照上题的思路。。提前计算不移动时，对后面造成的代价。。
+                  <br/>
+                  <span>
+                   我们枚举 i+1 所在的位置（必须在 i 之后。。。
+                   <br/>
+                   <br/>
+                   考察位置在 i~i+1 之间的某个数 l。。
+                   <br/>
+                   在移动它时，所有  l &lt; r &lt; i 。。的 r 都会跑到 l 的前面。（但它们的代价都没有被计算上。。
+                   <br/>
+                   因此这部分代价就是所有的 i-l 之和。
+                   <br/>
+                   <br/>
+                   <br/>
+                   ————————
+                  </span>
+                 </span>
+                </span>
+               </span>
+               <br/>
+               <div title="Page 6">
+                <div>
+                 <br/>
+                </div>
+               </div>
+               <span>
+                <span>
+                 <span>
+                  <div>
+                   【小结】
+                  </div>
+                  <div>
+                   回顾第一题的解题历程,我们先发现当前“行动”的费用受到过去决策的影 响,如果新增状态 t 表示过去决策的影响,状态数过大将会无法承受,于是我们 将受到的影响在过去决策时计算,通过状态传递过来。
+                  </div>
+                  <div>
+                   我们之所以能这样做是有条件的:
+                  </div>
+                  <div>
+                   一、影响是必然的。在问题一中,只要我们一移动,彩蛋就会下降。在问题 二中,只要我决定不移动,未来的费用就会增加一个固定值。如果问题一不要求 射击所有彩球,那么未来不会被射击到的彩球就不会被影响,因而就不能使用上 述方法解决。
+                  </div>
+                  <div>
+                   二、影响是关于当前决策的函数。问题一中的函数是-t*∑v,∑v 与状态有关, 可以看成常数,-t 即当前决策的移动时间。问题二的函数同样满足。
+                  </div>
+                  <div>
+                   以上两个条件综合来讲就是
+                   <span style="color:rgb(255, 0, 0)">
+                    当前决策对未来“行动”费用的影响只与当前决 策有关。
+                   </span>
+                  </div>
+                  <br/>
+                  <br/>
+                  <span>
+                   <br/>
+                  </span>
+                 </span>
+                </span>
+               </span>
+               <p>
+                <span>
+                </span>
+                <br/>
+               </p>
+               <p>
+                <span>
+                 //}/* .................................................................................................................................. */
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+                <br/>
+               </p>
+               <p>
+                <span>
+                 const
+                </span>
+                <span>
+                </span>
+                <span>
+                 int
+                </span>
+                <span>
+                 N =
+                </span>
+                <span>
+                 int
+                </span>
+                <span>
+                 (
+                </span>
+                <span>
+                 1e3
+                </span>
+                <span>
+                 ) +
+                </span>
+                <span>
+                 9
+                </span>
+                <span>
+                 ;
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+                <br/>
+               </p>
+               <p>
+                <span>
+                </span>
+                <br/>
+               </p>
+               <p>
+                <span>
+                 int
+                </span>
+                <span>
+                 dp[N][
+                </span>
+                <span>
+                 N
+                </span>
+                <span>
+                 ], pre[N][
+                </span>
+                <span>
+                 N
+                </span>
+                <span>
+                 ];
+                </span>
+                <span>
+                 bool
+                </span>
+                <span>
+                 keep[
+                </span>
+                <span>
+                 N
+                </span>
+                <span>
+                 ];
+                </span>
+               </p>
+               <p>
+                <span>
+                 PII
+                </span>
+                <span>
+                 A[
+                </span>
+                <span>
+                 N
+                </span>
+                <span>
+                 ];
+                </span>
+               </p>
+               <p>
+                <span>
+                 int
+                </span>
+                <span>
+                 n;
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+                <br/>
+               </p>
+               <p>
+                <span>
+                 int
+                </span>
+                <span>
+                 simulate(){
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+                <span>
+                 VI
+                </span>
+                <span>
+                 A;
+                </span>
+                <span>
+                 REP
+                </span>
+                <span>
+                 (i,
+                </span>
+                <span>
+                 n
+                </span>
+                <span>
+                 +
+                </span>
+                <span>
+                 1
+                </span>
+                <span>
+                 ) A.
+                </span>
+                <span>
+                 PB
+                </span>
+                <span>
+                 (::
+                </span>
+                <span>
+                 A
+                </span>
+                <span>
+                 [i].
+                </span>
+                <span>
+                 fi
+                </span>
+                <span>
+                 );
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+                <span>
+                 int
+                </span>
+                <span>
+                 z =
+                </span>
+                <span>
+                 0
+                </span>
+                <span>
+                 ;
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+                <span>
+                 ECH
+                </span>
+                <span>
+                 (it, A)
+                </span>
+                <span>
+                 cout
+                </span>
+                <span>
+                 &lt;&lt; *it &lt;&lt;
+                </span>
+                <span>
+                 " "
+                </span>
+                <span>
+                 ;
+                </span>
+                <span>
+                 cout
+                </span>
+                <span>
+                 &lt;&lt;
+                </span>
+                <span>
+                 endl
+                </span>
+                <span>
+                 ;
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+                <span>
+                 DWN
+                </span>
+                <span>
+                 (i,
+                </span>
+                <span>
+                 n
+                </span>
+                <span>
+                 ,
+                </span>
+                <span>
+                 0
+                </span>
+                <span>
+                 )
+                </span>
+                <span>
+                 if
+                </span>
+                <span>
+                 (!
+                </span>
+                <span>
+                 keep
+                </span>
+                <span>
+                 [i]){
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+                <span>
+                 int
+                </span>
+                <span>
+                 p =
+                </span>
+                <span>
+                 find
+                </span>
+                <span>
+                 (
+                </span>
+                <span>
+                 ALL
+                </span>
+                <span>
+                 (A), i) - A.
+                </span>
+                <span>
+                 begin
+                </span>
+                <span>
+                 ();
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+                <span>
+                 int
+                </span>
+                <span>
+                 q =
+                </span>
+                <span>
+                 find
+                </span>
+                <span>
+                 (
+                </span>
+                <span>
+                 ALL
+                </span>
+                <span>
+                 (A), i+
+                </span>
+                <span>
+                 1
+                </span>
+                <span>
+                 ) - A.
+                </span>
+                <span>
+                 begin
+                </span>
+                <span>
+                 ();
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+               </p>
+               <p>
+                <span>
+                 A.
+                </span>
+                <span>
+                 erase
+                </span>
+                <span>
+                 (A.
+                </span>
+                <span>
+                 begin
+                </span>
+                <span>
+                 () + p);
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+               </p>
+               <p>
+                <span>
+                 A.
+                </span>
+                <span>
+                 insert
+                </span>
+                <span>
+                 (A.
+                </span>
+                <span>
+                 begin
+                </span>
+                <span>
+                 () + q-(p&lt;q), i);
+                </span>
+               </p>
+               <p>
+                <span>
+                 z += p + q +
+                </span>
+                <span>
+                 2
+                </span>
+                <span>
+                 ;
+                </span>
+                <span>
+                 if
+                </span>
+                <span>
+                 (p &lt; q) --z;
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+                <span>
+                 //cout &lt;&lt; " " &lt;&lt; i &lt;&lt; " " &lt;&lt; p &lt;&lt; " " &lt;&lt; q &lt;&lt; endl;
+                </span>
+               </p>
+               <p>
+                <span>
+                 }
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+                <span>
+                 return
+                </span>
+                <span>
+                 z;
+                </span>
+               </p>
+               <p>
+                <span>
+                 }
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+                <br/>
+               </p>
+               <p>
+                <span>
+                 int
+                </span>
+                <span>
+                 main(){
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+               </p>
+               <p>
+                <span>
+                 #ifndef ONLINE_JUDGE
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+                <span>
+                 freopen
+                </span>
+                <span>
+                 (
+                </span>
+                <span>
+                 "/users/xiaodao/desktop/Exercise/in.txt"
+                </span>
+                <span>
+                 ,
+                </span>
+                <span>
+                 "r"
+                </span>
+                <span>
+                 ,
+                </span>
+                <span>
+                 stdin
+                </span>
+                <span>
+                 );
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+                <span>
+                 //freopen("/users/xiaodao/desktop/Exercise/out.txt", "w", stdout);
+                </span>
+               </p>
+               <p>
+                <span>
+                 #endif
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+                <span>
+                 REP_C
+                </span>
+                <span>
+                 (i,
+                </span>
+                <span>
+                 RD
+                </span>
+                <span>
+                 (
+                </span>
+                <span>
+                 n
+                </span>
+                <span>
+                 )){
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+                <span>
+                 RD
+                </span>
+                <span>
+                 (
+                </span>
+                <span>
+                 A
+                </span>
+                <span>
+                 [i].
+                </span>
+                <span>
+                 fi
+                </span>
+                <span>
+                 );
+                </span>
+                <span>
+                 A
+                </span>
+                <span>
+                 [i].
+                </span>
+                <span>
+                 fi
+                </span>
+                <span>
+                 = -
+                </span>
+                <span>
+                 A
+                </span>
+                <span>
+                 [i].
+                </span>
+                <span>
+                 fi
+                </span>
+                <span>
+                 ;
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+                <span>
+                 A
+                </span>
+                <span>
+                 [i].
+                </span>
+                <span>
+                 se
+                </span>
+                <span>
+                 = i;
+                </span>
+               </p>
+               <p>
+                <span>
+                 }
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+                <span>
+                 sort
+                </span>
+                <span>
+                 (
+                </span>
+                <span>
+                 A
+                </span>
+                <span>
+                 ,
+                </span>
+                <span>
+                 A
+                </span>
+                <span>
+                 +
+                </span>
+                <span>
+                 n
+                </span>
+                <span>
+                 );
+                </span>
+                <span>
+                 A
+                </span>
+                <span>
+                 [
+                </span>
+                <span>
+                 n
+                </span>
+                <span>
+                 ].
+                </span>
+                <span>
+                 se
+                </span>
+                <span>
+                 =
+                </span>
+                <span>
+                 n
+                </span>
+                <span>
+                 ;
+                </span>
+                <span>
+                 REP
+                </span>
+                <span>
+                 (i,
+                </span>
+                <span>
+                 n
+                </span>
+                <span>
+                 +
+                </span>
+                <span>
+                 1
+                </span>
+                <span>
+                 )
+                </span>
+                <span>
+                 A
+                </span>
+                <span>
+                 [
+                </span>
+                <span>
+                 A
+                </span>
+                <span>
+                 [i].
+                </span>
+                <span>
+                 se
+                </span>
+                <span>
+                 ].
+                </span>
+                <span>
+                 fi
+                </span>
+                <span>
+                 = i;
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+                <span>
+                 REP
+                </span>
+                <span>
+                 (i,
+                </span>
+                <span>
+                 n
+                </span>
+                <span>
+                 )
+                </span>
+                <span>
+                 dp
+                </span>
+                <span>
+                 [
+                </span>
+                <span>
+                 n
+                </span>
+                <span>
+                 ][i] =
+                </span>
+                <span>
+                 INF
+                </span>
+                <span>
+                 ;
+                </span>
+                <span>
+                 dp
+                </span>
+                <span>
+                 [
+                </span>
+                <span>
+                 n
+                </span>
+                <span>
+                 ][
+                </span>
+                <span>
+                 n
+                </span>
+                <span>
+                 ] =
+                </span>
+                <span>
+                 0
+                </span>
+                <span>
+                 ;
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+                <span>
+                 DWN
+                </span>
+                <span>
+                 (i,
+                </span>
+                <span>
+                 n
+                </span>
+                <span>
+                 ,
+                </span>
+                <span>
+                 0
+                </span>
+                <span>
+                 ){
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+                <span>
+                 // Move
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+                <span>
+                 int
+                </span>
+                <span>
+                 c1 =
+                </span>
+                <span>
+                 1
+                </span>
+                <span>
+                 ;
+                </span>
+                <span>
+                 REP
+                </span>
+                <span>
+                 (j, i)
+                </span>
+                <span>
+                 if
+                </span>
+                <span>
+                 (
+                </span>
+                <span>
+                 A
+                </span>
+                <span>
+                 [j].
+                </span>
+                <span>
+                 se
+                </span>
+                <span>
+                 &lt;
+                </span>
+                <span>
+                 A
+                </span>
+                <span>
+                 [i].
+                </span>
+                <span>
+                 se
+                </span>
+                <span>
+                 ) ++c1;
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+                <span>
+                 int
+                </span>
+                <span>
+                 c2 =
+                </span>
+                <span>
+                 1
+                </span>
+                <span>
+                 ;
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+                <span>
+                 REP
+                </span>
+                <span>
+                 (j,
+                </span>
+                <span>
+                 n
+                </span>
+                <span>
+                 +
+                </span>
+                <span>
+                 1
+                </span>
+                <span>
+                 ){
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+                <span>
+                 if
+                </span>
+                <span>
+                 (
+                </span>
+                <span>
+                 A
+                </span>
+                <span>
+                 [j].
+                </span>
+                <span>
+                 fi
+                </span>
+                <span>
+                 &lt; i) ++c2;
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+                <span>
+                 dp
+                </span>
+                <span>
+                 [i][j] =
+                </span>
+                <span>
+                 dp
+                </span>
+                <span>
+                 [i+
+                </span>
+                <span>
+                 1
+                </span>
+                <span>
+                 ][j]+c1+c2;
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+                <span>
+                 pre
+                </span>
+                <span>
+                 [i][j] = j;
+                </span>
+               </p>
+               <p>
+                <span>
+                 }
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+                <span>
+                 // Keep
+                </span>
+               </p>
+               <p>
+                <span>
+                 c1 =
+                </span>
+                <span>
+                 0
+                </span>
+                <span>
+                 ;
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+                <span>
+                 FOR
+                </span>
+                <span>
+                 (j,
+                </span>
+                <span>
+                 A
+                </span>
+                <span>
+                 [i].
+                </span>
+                <span>
+                 se
+                </span>
+                <span>
+                 +
+                </span>
+                <span>
+                 1
+                </span>
+                <span>
+                 ,
+                </span>
+                <span>
+                 n
+                </span>
+                <span>
+                 +
+                </span>
+                <span>
+                 1
+                </span>
+                <span>
+                 ){
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+                <span>
+                 if
+                </span>
+                <span>
+                 (
+                </span>
+                <span>
+                 dp
+                </span>
+                <span>
+                 [i+
+                </span>
+                <span>
+                 1
+                </span>
+                <span>
+                 ][j] + c1 &lt;
+                </span>
+                <span>
+                 dp
+                </span>
+                <span>
+                 [i][
+                </span>
+                <span>
+                 A
+                </span>
+                <span>
+                 [i].
+                </span>
+                <span>
+                 se
+                </span>
+                <span>
+                 ]){
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+                <span>
+                 dp
+                </span>
+                <span>
+                 [i][
+                </span>
+                <span>
+                 A
+                </span>
+                <span>
+                 [i].
+                </span>
+                <span>
+                 se
+                </span>
+                <span>
+                 ] =
+                </span>
+                <span>
+                 dp
+                </span>
+                <span>
+                 [i+
+                </span>
+                <span>
+                 1
+                </span>
+                <span>
+                 ][j] + c1;
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+                <span>
+                 pre
+                </span>
+                <span>
+                 [i][
+                </span>
+                <span>
+                 A
+                </span>
+                <span>
+                 [i].
+                </span>
+                <span>
+                 se
+                </span>
+                <span>
+                 ] = j;
+                </span>
+               </p>
+               <p>
+                <span>
+                 }
+                </span>
+               </p>
+               <p>
+                <span>
+                 c1 +=
+                </span>
+                <span>
+                 max
+                </span>
+                <span>
+                 (
+                </span>
+                <span>
+                 0
+                </span>
+                <span>
+                 , i-
+                </span>
+                <span>
+                 A
+                </span>
+                <span>
+                 [j].
+                </span>
+                <span>
+                 fi
+                </span>
+                <span>
+                 );
+                </span>
+               </p>
+               <p>
+                <span>
+                 }
+                </span>
+               </p>
+               <p>
+                <span>
+                 }
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+                <span>
+                 int
+                </span>
+                <span>
+                 z =
+                </span>
+                <span>
+                 INF
+                </span>
+                <span>
+                 , ind = -
+                </span>
+                <span>
+                 1
+                </span>
+                <span>
+                 ;
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+                <span>
+                 REP
+                </span>
+                <span>
+                 (i,
+                </span>
+                <span>
+                 n
+                </span>
+                <span>
+                 +
+                </span>
+                <span>
+                 1
+                </span>
+                <span>
+                 )
+                </span>
+                <span>
+                 if
+                </span>
+                <span>
+                 (
+                </span>
+                <span>
+                 dp
+                </span>
+                <span>
+                 [
+                </span>
+                <span>
+                 0
+                </span>
+                <span>
+                 ][i] &lt; z) {
+                </span>
+               </p>
+               <p>
+                <span>
+                 z =
+                </span>
+                <span>
+                 dp
+                </span>
+                <span>
+                 [
+                </span>
+                <span>
+                 0
+                </span>
+                <span>
+                 ][i];
+                </span>
+               </p>
+               <p>
+                <span>
+                 ind = i;
+                </span>
+               </p>
+               <p>
+                <span>
+                 }
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+                <span>
+                 //cout &lt;&lt; "z: " &lt;&lt; z &lt;&lt; endl;
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+                <span>
+                 //    assert(simulate() == z);
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+                <span>
+                 REP
+                </span>
+                <span>
+                 (i,
+                </span>
+                <span>
+                 n
+                </span>
+                <span>
+                 ){
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+                <span>
+                 keep
+                </span>
+                <span>
+                 [i] = ind ==
+                </span>
+                <span>
+                 A
+                </span>
+                <span>
+                 [i].
+                </span>
+                <span>
+                 se
+                </span>
+                <span>
+                 ;
+                </span>
+               </p>
+               <p>
+                <span>
+                 ind =
+                </span>
+                <span>
+                 pre
+                </span>
+                <span>
+                 [i][ind];
+                </span>
+               </p>
+               <p>
+                <span>
+                 }
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+                <span>
+                 //simulate();
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+               </p>
+               <p>
+                <span>
+                 z =
+                </span>
+                <span>
+                 0
+                </span>
+                <span>
+                 ;
+                </span>
+                <span>
+                 REP
+                </span>
+                <span>
+                 (i,
+                </span>
+                <span>
+                 n
+                </span>
+                <span>
+                 )
+                </span>
+                <span>
+                 if
+                </span>
+                <span>
+                 (!
+                </span>
+                <span>
+                 keep
+                </span>
+                <span>
+                 [i]) ++z;
+                </span>
+               </p>
+               <p>
+                <span>
+                </span>
+                <span>
+                 cout
+                </span>
+                <span>
+                 &lt;&lt; z &lt;&lt;
+                </span>
+                <span>
+                 endl
+                </span>
+                <span>
+                 ;
+                </span>
+               </p>
+               <span>
+                }
+               </span>
+               <span>
+                <span>
+                 <span>
+                  <span>
+                  </span>
+                 </span>
+                </span>
+               </span>
+               <br/>
+               <br/>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1417466363,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "http://acm.hrbust.edu.cn/index.php?m=ProblemSet&a=showProblem&problem_id=2087\n神题请引用。 ",
+                "capacity": 12071,
+                "poster": {
+                    "id": "704998702",
+                    "platform": 1,
+                    "name": "北航董适 ",
+                    "emoji": []
+                },
+                "bmp": "18809d0000008001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

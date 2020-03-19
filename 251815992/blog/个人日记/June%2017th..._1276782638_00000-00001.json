@@ -1,0 +1,80 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1276829438,
+                "effect": 1048608,
+                "replyNum": 2,
+                "content": "悲剧..你为什么要补考啊？ ",
+                "capacity": 12073,
+                "poster": {
+                    "id": "443164766",
+                    "platform": 1,
+                    "name": "\"zrp\" ",
+                    "emoji": []
+                },
+                "bmp": "088094a10000c301",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "。。。因为我长期居家。。 ",
+                        "postTime": 1276835135,
+                        "id": 1276835135,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "443164766",
+                            "name": "\"zrp\" ",
+                            "platform": 1
+                        },
+                        "content": "......... ",
+                        "postTime": 1276840380,
+                        "id": 1276840380,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1276852429,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[ft=,2,楷体_gb2312]像我这种勤勤恳恳跟着老段后面的人也要补考.....[/ft]\n[ft=,2,楷体_gb2312]天下大同....[/ft]\n \n[ft=,2,楷体_gb2312]我蛮喜欢你的画风[/ft]\n[ft=,2,楷体_gb2312]应该是衣服的缘故\n我喜爱这种像法师的衣服~[/ft] ",
+                "capacity": 11907,
+                "poster": {
+                    "id": "747571175",
+                    "platform": 1,
+                    "name": "王宁宁 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a40000e401",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "。。（。我没有画风。。。） ",
+                        "postTime": 1276856667,
+                        "id": 1276856667,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1465987923,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "来！广州730约起！ ",
+                "capacity": 12148,
+                "poster": {
+                    "id": "529003192",
+                    "platform": 1,
+                    "name": "【XDU】数学lover ",
+                    "emoji": []
+                },
+                "bmp": "18d19dac09828909",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1465994001,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "一站到底??? ",
+                "capacity": 12072,
+                "poster": {
+                    "id": "474049435",
+                    "platform": 1,
+                    "name": "[HDU19]Darkrai ",
+                    "emoji": []
+                },
+                "bmp": "18909da10002c201",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "928221136",
+                            "name": "QZQ ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:474049435,nick:[HDU19]Darkrai,auto:1} - - ",
+                        "postTime": 1466049377,
+                        "id": 1466049377,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

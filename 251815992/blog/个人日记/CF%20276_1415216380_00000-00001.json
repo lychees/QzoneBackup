@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1415250649,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "拆开之后就不用树状数组了 ",
+                "capacity": 12146,
+                "poster": {
+                    "id": "410644548",
+                    "platform": 1,
+                    "name": "ztxz16 ",
+                    "emoji": []
+                },
+                "bmp": "98d015a00000c201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1415258832,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "@{uin:121371490,nick:詹艳玲,who:1}被拉出来表，感受一下 ",
+                "capacity": 12094,
+                "poster": {
+                    "id": "704998702",
+                    "platform": 1,
+                    "name": "北航董适 ",
+                    "emoji": []
+                },
+                "bmp": "18809d0000008001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

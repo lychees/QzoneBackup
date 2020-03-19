@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1407579213,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "昨天N多莫名其妙的提交能过，然后莫名其妙的评测机给2份同样的代码不同的结果。。。也是醉了 ",
+                "capacity": 12086,
+                "poster": {
+                    "id": "312840861",
+                    "platform": 1,
+                    "name": "号主已成药娘 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00002e221",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

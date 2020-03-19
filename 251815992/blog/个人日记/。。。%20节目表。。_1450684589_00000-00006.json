@@ -1,0 +1,142 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 7,
+        "comments": [
+            {
+                "id": 2,
+                "postTime": 1450685443,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "那是啥游戏？ ",
+                "capacity": 12051,
+                "poster": {
+                    "id": "375691011",
+                    "platform": 1,
+                    "name": "[SDUT]猎人 ",
+                    "emoji": []
+                },
+                "bmp": "185095a00142e301",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "916506409",
+                            "name": "时光机 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:375691011,nick:[SDUT]猎人,auto:1} 泰坦之魂 ",
+                        "postTime": 1450688081,
+                        "id": 1450688081,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1450686103,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "这么腻害！！！ ",
+                "capacity": 12154,
+                "poster": {
+                    "id": "835485368",
+                    "platform": 1,
+                    "name": "软饭-熊熊 ",
+                    "emoji": []
+                },
+                "bmp": "18d4cde40902e201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1450686341,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "膜 ",
+                "capacity": 12155,
+                "poster": {
+                    "id": "122137889",
+                    "platform": 1,
+                    "name": "'''   ''' ",
+                    "emoji": []
+                },
+                "bmp": "18c085a00100c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1450687631,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "岛娘威武 ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "476313260",
+                    "platform": 1,
+                    "name": "热血-王航 ",
+                    "emoji": []
+                },
+                "bmp": "98c095a00000e201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 6,
+                "postTime": 1450689248,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "宇宙骑 ",
+                "capacity": 12165,
+                "poster": {
+                    "id": "751122963",
+                    "platform": 1,
+                    "name": "Shell ",
+                    "emoji": []
+                },
+                "bmp": "e8d1cdec0102e401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 7,
+                "postTime": 1450693852,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "程序员做游戏百年入百万。 ",
+                "capacity": 12144,
+                "poster": {
+                    "id": "250411887",
+                    "platform": 1,
+                    "name": "钱瑞彬 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a40100c201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 8,
+                "postTime": 1450703556,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "可以考虑下我们呱呱视频社区平台 ",
+                "capacity": 12136,
+                "poster": {
+                    "id": "2584468854",
+                    "platform": 1,
+                    "name": "SweetLover ",
+                    "emoji": []
+                },
+                "bmp": "1850958002028101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

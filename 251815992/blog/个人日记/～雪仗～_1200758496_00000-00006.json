@@ -1,0 +1,166 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 7,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1200797195,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "[ft=#ff0000,,]好热闹哈...[/ft]\n \n \n \n[ft=#ff0000,,]一片混乱[/ft] ",
+                "capacity": 12101,
+                "poster": {
+                    "id": "284293874",
+                    "platform": 1,
+                    "name": "孟修竹 ",
+                    "emoji": []
+                },
+                "bmp": "08d40da80102c109",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1200800998,
+                "effect": 4194336,
+                "replyNum": 1,
+                "content": "其中梅柏筱的战斗力最强……\n我被张弛和朱颜 李典围攻了唉\n这时候我还攻击你和邓子询了唉\n1顶5唻 ",
+                "capacity": 12067,
+                "poster": {
+                    "id": "770976045",
+                    "platform": 1,
+                    "name": "┈┾葬亽 ╄ ",
+                    "emoji": []
+                },
+                "bmp": "18d015a40000c209",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "= .- 。。。 ",
+                        "postTime": 0,
+                        "id": 0,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1201188542,
+                "effect": 4194336,
+                "replyNum": 1,
+                "content": "程乐一太搞笑了... ",
+                "capacity": 12134,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "呵呵- =可不是吗...\n～ ",
+                        "postTime": 0,
+                        "id": 0,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "postTime": 1201247711,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "雪杖？（汗～～～）\n \n好羡慕你们！ ",
+                "capacity": 12135,
+                "poster": {
+                    "id": "515016441",
+                    "platform": 1,
+                    "name": "时 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a40102c929",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1201926470,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[B]哈哈[/B] ",
+                "capacity": 12156,
+                "poster": {
+                    "id": "328074703",
+                    "platform": 1,
+                    "name": "周小刚 ",
+                    "emoji": []
+                },
+                "bmp": "180095a00002c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 6,
+                "postTime": 1202140240,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "拍得不错,踩踩 ",
+                "capacity": 12159,
+                "poster": {
+                    "id": "354434173",
+                    "platform": 1,
+                    "name": "HZ ",
+                    "emoji": []
+                },
+                "bmp": "184095a00100c209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 7,
+                "postTime": 1266034962,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[ft=,2,]好古老的视频啊。。[/ft]\n[ft=,2,]不过好像看不清我被砸耶～～ [em]e197[/em][/ft] ",
+                "capacity": 12030,
+                "poster": {
+                    "id": "241721246",
+                    "platform": 1,
+                    "name": "-Zoey-D ",
+                    "emoji": []
+                },
+                "bmp": "18d495a001008121",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "...昨晚赫敏帮我改错别字的...- - ",
+                        "postTime": 1266036520,
+                        "id": 1266036520,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

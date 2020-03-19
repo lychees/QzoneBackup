@@ -1,0 +1,51 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1286107237,
+                "effect": 1048608,
+                "replyNum": 2,
+                "content": "那段对话。。不好意思让在下有了不好的想法。。。  尤其是那句“你年龄小不要紧我教你”。。。。。 ",
+                "capacity": 12002,
+                "poster": {
+                    "id": "443164766",
+                    "platform": 1,
+                    "name": "\"zrp\" ",
+                    "emoji": []
+                },
+                "bmp": "088094a10000c301",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": ".... 那是我姑姑。。。 ",
+                        "postTime": 1286198006,
+                        "id": 1286198006,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "443164766",
+                            "name": "\"zrp\" ",
+                            "platform": 1
+                        },
+                        "content": "...我错了。。。 ",
+                        "postTime": 1286199377,
+                        "id": 1286199377,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

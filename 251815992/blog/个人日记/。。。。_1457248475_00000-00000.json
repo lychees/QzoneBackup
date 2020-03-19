@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1457253970,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "加油xiaodao ",
+                "capacity": 12147,
+                "poster": {
+                    "id": "497371419",
+                    "platform": 1,
+                    "name": "金晓刚丶 ",
+                    "emoji": []
+                },
+                "bmp": "88909d8800009420",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

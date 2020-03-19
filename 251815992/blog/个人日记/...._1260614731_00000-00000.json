@@ -1,0 +1,40 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1260621502,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[ft=,2,]诶，啥书要90？[/ft] ",
+                "capacity": 12075,
+                "poster": {
+                    "id": "534872060",
+                    "platform": 1,
+                    "name": "Cherubic ",
+                    "emoji": []
+                },
+                "bmp": "18c095a00100c421",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "刘汝佳翻译的那个...\n我订了三本...所以30×3=90 ",
+                        "postTime": 1260626726,
+                        "id": 1260626726,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

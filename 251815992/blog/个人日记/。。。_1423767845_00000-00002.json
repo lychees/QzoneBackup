@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1423789518,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "因为不需要release了。简单来说，用create创建出来后，release和retain都要配对使用，既然没有retain，那也不需要release。 ",
+                "capacity": 12057,
+                "poster": {
+                    "id": "1120090148",
+                    "platform": 1,
+                    "name": "[nbu]嘟嘟洒水车 ",
+                    "emoji": []
+                },
+                "bmp": "084495a00000c421",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1423790378,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "有一个动作叫removeself，可以替代你这里的callfunc ",
+                "capacity": 12124,
+                "poster": {
+                    "id": "1120090148",
+                    "platform": 1,
+                    "name": "[nbu]嘟嘟洒水车 ",
+                    "emoji": []
+                },
+                "bmp": "084495a00000c421",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1423809099,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "太厉害了 ",
+                "capacity": 12160,
+                "poster": {
+                    "id": "250411887",
+                    "platform": 1,
+                    "name": "钱瑞彬 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a40100c201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

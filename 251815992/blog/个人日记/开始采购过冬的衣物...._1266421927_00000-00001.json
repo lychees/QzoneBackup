@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1266422237,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,3,][ft=,,]我靠...瞎了....[/ft][/ft] ",
+                "capacity": 12126,
+                "poster": {
+                    "id": "524215552",
+                    "platform": 1,
+                    "name": "  ",
+                    "emoji": []
+                },
+                "bmp": "084494a000004101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1266479875,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "你穿？？？\n还是纯cos用？？？ ",
+                "capacity": 12145,
+                "poster": {
+                    "id": "87974035",
+                    "platform": 1,
+                    "name": "Be ",
+                    "emoji": []
+                },
+                "bmp": "0894d4a00040e101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

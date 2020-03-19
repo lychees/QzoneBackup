@@ -1,0 +1,163 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1258189162,
+                "effect": 32,
+                "replyNum": 8,
+                "content": "税儿是通小[3]的\n小岛\n你要毕业啦\n读科大吗？\n我也想报送到这样一座好学校呢\n~~~~~~~~~~~ ",
+                "capacity": 11551,
+                "poster": {
+                    "id": "784237318",
+                    "platform": 1,
+                    "name": "叙眄 ",
+                    "emoji": []
+                },
+                "bmp": "585095a00102c009",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "..[2]是一个脚注...\n因为通小是一个简称..并不一定所有阅读这篇的人都了解..\n但我假定大家都了解...\n..还有..我是铜小的- -...\n..你是张欣冉么...我知道你..\n ",
+                        "postTime": 1258200805,
+                        "id": 1258200805,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "784237318",
+                            "name": "叙眄 ",
+                            "platform": 1
+                        },
+                        "content": "呵呵\n名字写错啦\n张昕冉\n你是姐姐吗？\n你咋么认识我的啊？ ",
+                        "postTime": 1258200932,
+                        "id": 1258200932,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": ".....还有我是一中的...初中念的是46中..\n我只是去38中教课... ",
+                        "postTime": 1258201060,
+                        "id": 1258201060,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "784237318",
+                            "name": "叙眄 ",
+                            "platform": 1
+                        },
+                        "content": "38中教课？ ",
+                        "postTime": 1258201087,
+                        "id": 1258201087,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "还有...我的空间- -..\n不冷清... ",
+                        "postTime": 1258201090,
+                        "id": 1258201090,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "784237318",
+                            "name": "叙眄 ",
+                            "platform": 1
+                        },
+                        "content": "我在38中念书 ",
+                        "postTime": 1258201104,
+                        "id": 1258201104,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "那是个秘密...嗯...\n呵呵..现在不是了~ ",
+                        "postTime": 1258201109,
+                        "id": 1258201109,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "... ",
+                        "postTime": 1258201140,
+                        "id": 1258201140,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1258204365,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "38中~~~我不向去~~~\n岛哥~~~可能~~~我被你拉进去了~~~ ",
+                "capacity": 12051,
+                "poster": {
+                    "id": "420836131",
+                    "platform": 1,
+                    "name": "doc ",
+                    "emoji": []
+                },
+                "bmp": "18d025a00000e101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "..呵呵..不会的..姐姐保护你..\n不会让你卷入进去的.. ",
+                        "postTime": 1258205596,
+                        "id": 1258205596,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1258289185,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]我日[/ft]\n[ft=,2,]唐飞虎传我绯闻    啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊[/ft] ",
+                "capacity": 12091,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            }
+        ]
+    }
+}

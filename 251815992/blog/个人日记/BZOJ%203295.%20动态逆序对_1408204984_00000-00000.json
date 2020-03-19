@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1408205201,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "分块可做吗 ",
+                "capacity": 12159,
+                "poster": {
+                    "id": "445106687",
+                    "platform": 1,
+                    "name": "taorunz ",
+                    "emoji": []
+                },
+                "bmp": "88409da40000a101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

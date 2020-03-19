@@ -1,0 +1,51 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1386809408,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "@{uin:10848584,nick:主席}   ... 算法 2 对么。。。 ",
+                "capacity": 11938,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "122155302",
+                            "name": "木子日匀 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1} 我一开始想到的就是算法二 ",
+                        "postTime": 1386812972,
+                        "id": 1386812972,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "我傻逼了。。无视我。 ",
+                        "postTime": 1386833868,
+                        "id": 1386833868,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

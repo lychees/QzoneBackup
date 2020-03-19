@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1420188785,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "这游戏是用后面那个工具做的吗？ ",
+                "capacity": 12140,
+                "poster": {
+                    "id": "975481666",
+                    "platform": 1,
+                    "name": "CodingBo ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00100e181",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

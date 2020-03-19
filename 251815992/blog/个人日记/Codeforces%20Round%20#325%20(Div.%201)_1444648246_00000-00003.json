@@ -1,0 +1,91 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1444648744,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "B是DP啊，直接模拟搜索不对吗？ ",
+                "capacity": 12036,
+                "poster": {
+                    "id": "812359067",
+                    "platform": 1,
+                    "name": "No  Soul ",
+                    "emoji": []
+                },
+                "bmp": "98c4952040408801",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:812359067,nick:No  Soul,auto:1} 能 DP 为什么要搜索呢。 ",
+                        "postTime": 1444648775,
+                        "id": 1444648775,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1444652218,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "orz今天有cf？(#&#65439;Д&#65439;) ",
+                "capacity": 12125,
+                "poster": {
+                    "id": "319172010",
+                    "platform": 1,
+                    "name": "furao0044 ",
+                    "emoji": []
+                },
+                "bmp": "08d0ad800000e201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1444657341,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "居然可以dp ",
+                "capacity": 12164,
+                "poster": {
+                    "id": "2587957162",
+                    "platform": 1,
+                    "name": "振 ",
+                    "emoji": []
+                },
+                "bmp": "08809d800202c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1444747158,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "C题如果不知道Stern-Brocot tree的话怎么才能想到是gcd？有别的解法吗... ",
+                "capacity": 12097,
+                "poster": {
+                    "id": "251870949",
+                    "platform": 1,
+                    "name": "赵林娇 ",
+                    "emoji": []
+                },
+                "bmp": "18c095a10002c209",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1480149482,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "来学习一下C题的姿势[em]e113[/em] [em]e113[/em] [em]e113[/em] ",
+                "capacity": 12110,
+                "poster": {
+                    "id": "491791443",
+                    "platform": 1,
+                    "name": "hust-111qqz ",
+                    "emoji": []
+                },
+                "bmp": "f8d09de40002c229",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

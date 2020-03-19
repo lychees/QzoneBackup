@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1326409600,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "乱乱的。。。 ",
+                "capacity": 12162,
+                "poster": {
+                    "id": "381352239",
+                    "platform": 1,
+                    "name": "QzQ ",
+                    "emoji": []
+                },
+                "bmp": "188495850000c120",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1326445240,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]“说明明年运势会很好。。。”[/ft]\n[ft=,2,]rp守恒定理 和rp函数二阶可导定理 出现了矛盾。。。[/ft] ",
+                "capacity": 12067,
+                "poster": {
+                    "id": "604465792",
+                    "platform": 1,
+                    "name": "疯猫张 ",
+                    "emoji": []
+                },
+                "bmp": "18c09da10000c429",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

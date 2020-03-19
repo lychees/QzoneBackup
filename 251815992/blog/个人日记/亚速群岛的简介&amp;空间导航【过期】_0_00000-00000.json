@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 3,
+                "postTime": 1187774645,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "晕啦。。。。 ",
+                "capacity": 12162,
+                "poster": {
+                    "id": "360279136",
+                    "platform": 1,
+                    "name": "周艾 ",
+                    "emoji": []
+                },
+                "bmp": "18c015840000c201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

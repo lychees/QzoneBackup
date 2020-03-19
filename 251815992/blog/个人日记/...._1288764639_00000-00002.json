@@ -1,0 +1,85 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1288778168,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "你这个山楂树的照片。。\n充分展示了当时人们对党的极度崇拜，严重的个人崇拜和愚昧的夸张崇拜。 ",
+                "capacity": 12081,
+                "poster": {
+                    "id": "420836131",
+                    "platform": 1,
+                    "name": "doc ",
+                    "emoji": []
+                },
+                "bmp": "18d025a00000e101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1288834498,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "。。。。我很开心。。能被你相信 ",
+                "capacity": 12142,
+                "poster": {
+                    "id": "1530491627",
+                    "platform": 1,
+                    "name": "钱冰忆 ",
+                    "emoji": []
+                },
+                "bmp": "1a519dc80210c201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1288852352,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "吱吱吱吱吱吱吱吱吱······················· ",
+                "capacity": 12039,
+                "poster": {
+                    "id": "915910623",
+                    "platform": 1,
+                    "name": "lanlan ",
+                    "emoji": []
+                },
+                "bmp": "18d0952000008001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "“吱 ” 你妹。＃ ",
+                        "postTime": 1288883921,
+                        "id": 1288883921,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "915910623",
+                            "name": "lanlan ",
+                            "platform": 1
+                        },
+                        "content": "就····吱 ",
+                        "postTime": 1288999055,
+                        "id": 1288999055,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

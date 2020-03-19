@@ -1,0 +1,40 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1341531610,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "我看到圖的第一反應是諏訪子= = ",
+                "capacity": 12051,
+                "poster": {
+                    "id": "190303874",
+                    "platform": 1,
+                    "name": "玉子 ",
+                    "emoji": []
+                },
+                "bmp": "18c09d6000028001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "对。。我应该用个诹访子的配色。。。（TC 又提交不能了。。\n ",
+                        "postTime": 1341587044,
+                        "id": 1341587044,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

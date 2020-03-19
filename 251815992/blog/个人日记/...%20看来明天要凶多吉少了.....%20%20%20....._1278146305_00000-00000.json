@@ -1,0 +1,73 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1278160859,
+                "effect": 32,
+                "replyNum": 4,
+                "content": "[ft=,2,]你能考四级了？？？[/ft] ",
+                "capacity": 11904,
+                "poster": {
+                    "id": "1320474119",
+                    "platform": 1,
+                    "name": "RP ",
+                    "emoji": []
+                },
+                "bmp": "1850950000008001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "额... 也可以直接报N1也是可以的....\n~ Ps : 您的 Avatar 看上去好象是....防暴部队.... ..#.. ",
+                        "postTime": 1278162669,
+                        "id": 1278162669,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "1320474119",
+                            "name": "RP ",
+                            "platform": 1
+                        },
+                        "content": "什么是 N1??   ",
+                        "postTime": 1278162787,
+                        "id": 1278162787,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "...... (见正文....... - -) ",
+                        "postTime": 1278162972,
+                        "id": 1278162972,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "1320474119",
+                            "name": "RP ",
+                            "platform": 1
+                        },
+                        "content": "。。。。。。。 ",
+                        "postTime": 1278169367,
+                        "id": 1278169367,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

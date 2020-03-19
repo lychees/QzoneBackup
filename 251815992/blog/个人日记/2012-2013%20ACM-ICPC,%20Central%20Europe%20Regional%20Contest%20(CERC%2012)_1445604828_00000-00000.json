@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1445649004,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "D可以离线右端点线段树，也可以同时从两边扫达到nlogn[em]e328521[/em] ",
+                "capacity": 12093,
+                "poster": {
+                    "id": "251346744",
+                    "platform": 1,
+                    "name": "tkskywalker ",
+                    "emoji": []
+                },
+                "bmp": "3850958001028201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

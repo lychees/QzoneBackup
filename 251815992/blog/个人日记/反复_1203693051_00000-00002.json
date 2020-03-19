@@ -1,0 +1,74 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1203695896,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "[B][ft=#66cccc,,]第一个将要离开我的那个人[/ft][/B][B][ft=#66cccc,,]现在看来会是你...[/ft][/B][B][/B] [B][/B] [B][ft=#66cccc,,]我飘走~[/ft][/B] ",
+                "capacity": 12031,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1203730820,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "哎.\n无论如何\n大家还是在一个学校的啊.\n加油吧,\n不要太伤感, ",
+                "capacity": 12110,
+                "poster": {
+                    "id": "241721246",
+                    "platform": 1,
+                    "name": "-Zoey-D ",
+                    "emoji": []
+                },
+                "bmp": "18d495a001008121",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1203828551,
+                "effect": 4194336,
+                "replyNum": 1,
+                "content": "为什么要写的这么伤感啊？搞的我都想哭了~\n为什么要有种感觉叫离开~\n我怕~ ",
+                "capacity": 12056,
+                "poster": {
+                    "id": "122698324",
+                    "platform": 1,
+                    "name": "张晓晨 ",
+                    "emoji": []
+                },
+                "bmp": "18d19560010e8009",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "爱过..\n笑过..\n哭过..\n恨过..\n...\n飘过.. ",
+                        "postTime": 0,
+                        "id": 0,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

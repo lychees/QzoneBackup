@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1407514310,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "举手，我也发现了 ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "1483335912",
+                    "platform": 1,
+                    "name": "[NEFU]cyendra ",
+                    "emoji": []
+                },
+                "bmp": "08c095800200c101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

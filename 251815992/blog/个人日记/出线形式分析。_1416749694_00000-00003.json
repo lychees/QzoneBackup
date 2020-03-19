@@ -1,0 +1,114 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1416751802,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "岛娘姐姐，黄色是代表出线么 ",
+                "capacity": 12063,
+                "poster": {
+                    "id": "524874055",
+                    "platform": 1,
+                    "name": "[HXX]张一天 ",
+                    "emoji": []
+                },
+                "bmp": "d8d09da00100c121",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:524874055,nick:[HXX]张一天,auto:1} 是呀。 ",
+                        "postTime": 1416752302,
+                        "id": 1416752302,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1416762138,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "北大不是不占名额吗 ",
+                "capacity": 12148,
+                "poster": {
+                    "id": "592824555",
+                    "platform": 1,
+                    "name": "旋风小晴天 ",
+                    "emoji": []
+                },
+                "bmp": "889195e00002c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1416787755,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "本周日29th… ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "371686865",
+                    "platform": 1,
+                    "name": "芳姐 ",
+                    "emoji": []
+                },
+                "bmp": "18c09da00002d001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1416820993,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "本周日几题，难度如何。 ",
+                "capacity": 12024,
+                "poster": {
+                    "id": "503016773",
+                    "platform": 1,
+                    "name": "ali ",
+                    "emoji": []
+                },
+                "bmp": "184195a009428421",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:503016773,nick:ali,auto:1} 11 题。难。\n ",
+                        "postTime": 1416824384,
+                        "id": 1416824384,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "503016773",
+                            "name": "ali ",
+                            "platform": 1
+                        },
+                        "content": "那这次跪在你手里了。 ",
+                        "postTime": 1416832857,
+                        "id": 1416832857,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

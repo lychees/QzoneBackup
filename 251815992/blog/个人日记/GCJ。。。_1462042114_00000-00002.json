@@ -1,0 +1,85 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1462058158,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "完全不懂QwQ记得教我w ",
+                "capacity": 12144,
+                "poster": {
+                    "id": "464388324",
+                    "platform": 1,
+                    "name": "音 ",
+                    "emoji": []
+                },
+                "bmp": "18d19d880102e021",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1462068488,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "A题可以通过观察每个单词的特性来做，都是唯一的，0246813579 ",
+                "capacity": 12119,
+                "poster": {
+                    "id": "2408669054",
+                    "platform": 1,
+                    "name": " ",
+                    "emoji": []
+                },
+                "bmp": "88508d800202c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1462102445,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "你为什么R1每场都要打 ",
+                "capacity": 11940,
+                "poster": {
+                    "id": "306233006",
+                    "platform": 1,
+                    "name": "konjac_wqs ",
+                    "emoji": []
+                },
+                "bmp": "0880950400008001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:306233006,nick:konjac_wqs,who:1,auto:1}上场没有打啦 ",
+                        "postTime": 1462103333,
+                        "id": 1462103333,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "306233006",
+                            "name": "konjac_wqs ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1}哦对，这是第二场，我以为是第三场 ",
+                        "postTime": 1462103365,
+                        "id": 1462103365,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

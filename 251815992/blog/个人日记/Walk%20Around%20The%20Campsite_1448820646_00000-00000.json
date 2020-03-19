@@ -1,0 +1,40 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1448839609,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "你不附上题目 我们看了也没卵用 ",
+                "capacity": 12040,
+                "poster": {
+                    "id": "529520158",
+                    "platform": 1,
+                    "name": "雪人墙 ",
+                    "emoji": []
+                },
+                "bmp": "18d08da00802c001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "751723392",
+                            "name": "wwwwodddd ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:529520158,nick:雪人墙,who:1,auto:1} 没让你看…… ",
+                        "postTime": 1449223575,
+                        "id": 1449223575,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

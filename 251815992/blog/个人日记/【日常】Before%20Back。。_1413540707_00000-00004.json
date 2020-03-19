@@ -1,0 +1,96 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 5,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1413541080,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[em]e139[/em] ",
+                "capacity": 12155,
+                "poster": {
+                    "id": "568778055",
+                    "platform": 1,
+                    "name": "123456 ",
+                    "emoji": []
+                },
+                "bmp": "18d09da00100c221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1413542932,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "xiaodao加油！！（我觉得过程是成功之前的一次次失败，永不停懈 ",
+                "capacity": 12113,
+                "poster": {
+                    "id": "1184989240",
+                    "platform": 1,
+                    "name": "年少 ",
+                    "emoji": []
+                },
+                "bmp": "18c09da80000e401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1413543118,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "……并不会退\n\n还要当提督把旗帜插满每一个角落…… ",
+                "capacity": 12105,
+                "poster": {
+                    "id": "446079414",
+                    "platform": 1,
+                    "name": "旺仔嚎婆婆 ",
+                    "emoji": []
+                },
+                "bmp": "38449da00000c201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1413543974,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "你看事情太悲观啦 ",
+                "capacity": 12154,
+                "poster": {
+                    "id": "371686865",
+                    "platform": 1,
+                    "name": "芳姐 ",
+                    "emoji": []
+                },
+                "bmp": "18c09da00002d001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 6,
+                "postTime": 1413562000,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "人生总是在不断成长的…一时的得失并不能说明所有的事情，做自己喜欢的事情就是一种幸福。 ",
+                "capacity": 12084,
+                "poster": {
+                    "id": "422579465",
+                    "platform": 1,
+                    "name": "mew@莫名笑□ ",
+                    "emoji": []
+                },
+                "bmp": "18c49da10102c201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

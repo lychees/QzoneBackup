@@ -1,0 +1,79 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1444326051,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "[em]e113[/em][em]e113[/em][em]e113[/em][em]e113[/em] ",
+                "capacity": 12122,
+                "poster": {
+                    "id": "2587957162",
+                    "platform": 1,
+                    "name": "振 ",
+                    "emoji": []
+                },
+                "bmp": "08809d800202c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1444328281,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "岛娘加油 ",
+                "capacity": 12164,
+                "poster": {
+                    "id": "940852578",
+                    "platform": 1,
+                    "name": "汐芜 ",
+                    "emoji": []
+                },
+                "bmp": "38d5d5a00100c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1444360687,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "岛娘加油 ",
+                "capacity": 12160,
+                "poster": {
+                    "id": "504594852",
+                    "platform": 1,
+                    "name": "里克尔梅 ",
+                    "emoji": []
+                },
+                "bmp": "08c09d800000c401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1444370502,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "岛娘别灰心 ",
+                "capacity": 12156,
+                "poster": {
+                    "id": "838674292",
+                    "platform": 1,
+                    "name": "我永远喜欢薇尔莉特 ",
+                    "emoji": []
+                },
+                "bmp": "18d195800002c121",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,720 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    【火星】最小覆盖集方案
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             【火星】最小覆盖集方案
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2014-07-16 08:23:24
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(65)	è¯è®º(1)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1405513404,
+"voteids":0,
+"pubtime":1405513404,
+"replynum":1,
+"category":"个人日记",
+"title":"【火星】最小覆盖集方案",
+"effect":8389121,
+"effect2":524294,
+"exblogtype":3,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":81177,
+"lp_style":16843520,
+"lp_flag":0,
+"lp_topvalue":0,
+"orguin":251815992,
+"orgblogid":1405513404,
+"mention_uins":[ ],
+"attach":[],"comments":[{"id":1,
+"postTime":1405515370,
+"effect":1024,
+"replyNum":0,
+"content":"Matrix67的blog里面的很好理解呢 ",
+"capacity":12139,
+"poster":{
+"id":"513621014",
+"platform":1,
+"name":"HandIeNeeded ",
+"emoji":[ ]}
+,
+"bmp":"38d01fa40000c120",
+"ismyreply":0,
+"replies":[]}]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <br/>
+               <br/>
+               我仔细阅读了一下 darkgt 说的这篇。。。
+               <br/>
+               <a href="http://en.wikipedia.org/wiki/K%C3%B6nig%27s_theorem_" target="_blank">
+                http://en.wikipedia.org/wiki/K%C3%B6nig%27s_theorem_
+               </a>
+               (graph_theory)
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               König's theorem 说的是。。最小覆盖集 = 最大匹配。。。
+               <br/>
+               <br/>
+               。。。首先必要性显然。。（覆盖  &gt;= 匹配  ）
+               <br/>
+               。。至于取等号的时候 wiki 上描述了一种构造性证明。
+               <br/>
+               <br/>
+               。。。这段证明不仅说明了这个定理的正确性。。
+               <br/>
+               。。。也提供了一种求最大匹配的方法。（反复找增广路）。
+               <br/>
+               。。和构造最小覆盖集的方法。。（找交替路。。取所有夹在中间的点）
+               <br/>
+               <br/>
+               <br/>
+               。。简而言之。就是下面这幅图。。。。
+               <br/>
+               <br/>
+               <img alt="图片" src="http://a3.qpic.cn/psb?/a7723d22-15e1-452d-817f-ed63333f3d7d/c0HE3C41Bt4BRJrswSTQrRHLSg7VPphFrKbhCCDIwjU!/b/dAPq5E91GAAA&amp;ek=1&amp;kp=1&amp;pt=0&amp;bo=3AAXAQAAAAADAO8!&amp;tl=1&amp;su=052855393&amp;tm=1584572400&amp;sce=0-12-12&amp;rf=2-9" style="width:220px;height:279px"/>
+               <br/>
+               <br/>
+               <br/>
+               。。。所有奇数层的点是最小覆盖集（对应的偶数层就是独立集。。）
+               <br/>
+               。。这样就可以 AC  sensor 了。。。
+               <br/>
+               <a href="https://gist.github.com/lychees/7cf3848c3845f9d6bc53" target="_blank">
+                https://gist.github.com/lychees/7cf3848c3845f9d6bc53
+               </a>
+               <br/>
+               <br/>
+               <br/>
+               。。 wiki 原始版本的构造是逐层 bfs() 的。
+               <br/>
+               <br/>
+               <span style="font-size:14px;color:rgb(37, 37, 37);font-family:sans-serif">
+                “If there is no such vertex, but there remain vertices not included in any previously-defined set
+               </span>
+               <i style="font-size:14px;color:rgb(37, 37, 37);font-family:sans-serif">
+                S
+               </i>
+               <sub style="color:rgb(37, 37, 37);font-family:sans-serif">
+                k
+               </sub>
+               <span style="font-size:14px;color:rgb(37, 37, 37);font-family:sans-serif">
+                , arbitrarily choose one of these and let
+               </span>
+               <i style="font-size:14px;color:rgb(37, 37, 37);font-family:sans-serif">
+                S
+               </i>
+               <sub style="color:rgb(37, 37, 37);font-family:sans-serif">
+                2
+                <i>
+                 j
+                </i>
+                +1
+               </sub>
+               <span style="font-size:14px;color:rgb(37, 37, 37);font-family:sans-serif">
+                consist of that single vertex.”。。
+                <br/>
+                <span>
+                </span>
+               </span>
+               <br/>
+               <span style="font-size:14px;color:rgb(37, 37, 37);font-family:sans-serif">
+               </span>
+               。。注意这种【
+               <span style="font-size:14px;color:rgb(37, 37, 37);font-family:sans-serif">
+                孤立匹配】的情况。。。随便取一个点即可。。不需要再扔到队列中去。。。
+               </span>
+               <br/>
+               。尽管如此 。。。bfs() 写起来还是十分别扭。。还是 dfs() 自然许多。。。
+               <br/>
+               <br/>
+               <div>
+                //}/* .................................................................................................................................. */
+               </div>
+               <div>
+                <br/>
+               </div>
+               <div>
+                <br/>
+               </div>
+               <div>
+                const int N = 109;
+               </div>
+               <div>
+                <br/>
+               </div>
+               <div>
+                VI adj[N], adjy[N]; int vx[N], vy[N]; int py[N], px[N];
+               </div>
+               <div>
+                int n; VI res;
+               </div>
+               <div>
+                <br/>
+               </div>
+               <div>
+                #define y (*it)
+               </div>
+               <div>
+                #define vis vy[y]
+               </div>
+               <div>
+                #define p py[y]
+               </div>
+               <div>
+                bool dfs(int x){
+               </div>
+               <div>
+                ECH(it, adj[x]) if (!vy[y]){
+               </div>
+               <div>
+                vis = 1;
+               </div>
+               <div>
+                if (!~p || dfs(p)){
+               </div>
+               <div>
+                p = x;
+               </div>
+               <div>
+                return 1;
+               </div>
+               <div>
+                }
+               </div>
+               <div>
+                }
+               </div>
+               <div>
+                return 0;
+               </div>
+               <div>
+                }
+               </div>
+               <div>
+                #undef p
+               </div>
+               <div>
+                <br/>
+               </div>
+               <div>
+                void dfs_y(int, int);
+               </div>
+               <div>
+                <br/>
+               </div>
+               <div>
+                void dfs_x(int x, int bj){
+               </div>
+               <div>
+                vx[x] = bj, bj ^= 1; if (bj){
+               </div>
+               <div>
+                ECH(it, adj[x]) if (!~vy[y]) dfs_y(y, bj);
+               </div>
+               <div>
+                }
+               </div>
+               <div>
+                else{
+               </div>
+               <div>
+                #undef y
+               </div>
+               <div>
+                int y = px[x]; dfs_y(y, bj);
+               </div>
+               <div>
+                }
+               </div>
+               <div>
+                }
+               </div>
+               <div>
+                <br/>
+               </div>
+               <div>
+                void dfs_y(int y, int bj){
+               </div>
+               <div>
+                vy[y] = bj, bj ^= 1; if (bj){
+               </div>
+               <div>
+                #define x (*it)
+               </div>
+               <div>
+                ECH(it, adjy[y]) if (!~vx[x]) dfs_x(x, bj);
+               </div>
+               <div>
+                }
+               </div>
+               <div>
+                else{
+               </div>
+               <div>
+                #undef x
+               </div>
+               <div>
+                int x = py[y]; dfs_x(x, bj);
+               </div>
+               <div>
+                }
+               </div>
+               <div>
+                }
+               </div>
+               <div>
+                <br/>
+               </div>
+               <div>
+                <br/>
+               </div>
+               <div>
+                <br/>
+               </div>
+               <div>
+                <br/>
+               </div>
+               <div>
+                VI X, Y; Po P[N]; int d;
+               </div>
+               <div>
+                int nn;
+               </div>
+               <div>
+                <br/>
+               </div>
+               <div>
+                int main(){
+               </div>
+               <div>
+                <br/>
+               </div>
+               <div>
+                #ifndef ONLINE_JUDGE
+               </div>
+               <div>
+                //freopen("in.txt", "r", stdin);
+               </div>
+               <div>
+                //freopen("out.txt", "w", stdout);
+               </div>
+               <div>
+                #endif
+               </div>
+               <div>
+                <br/>
+               </div>
+               <div>
+                RD(nn, d); d*=d; REP(i, nn) P[i].in(); res.PB(0);
+               </div>
+               <div>
+                <br/>
+               </div>
+               <div>
+                REP_2(jj, ii, nn, jj) if (dist2(P[ii], P[jj]) &lt;= d){
+               </div>
+               <div>
+                <br/>
+               </div>
+               <div>
+                int dd = dist2(P[ii], P[jj]);
+               </div>
+               <div>
+                <br/>
+               </div>
+               <div>
+                CLR(X, Y); REP(i, nn) if (i != ii &amp;&amp; i != jj &amp;&amp; dist2(P[ii], P[i]) &lt;= dd &amp;&amp; dist2(P[jj], P[i]) &lt;= dd){
+               </div>
+               <div>
+                if (dett(P[ii], P[jj], P[i]) == 1) X.PB(i);
+               </div>
+               <div>
+                else Y.PB(i);
+               </div>
+               <div>
+                }
+               </div>
+               <div>
+                <br/>
+               </div>
+               <div>
+                fill(py, py+SZ(Y), -1);
+               </div>
+               <div>
+                <br/>
+               </div>
+               <div>
+                REP(i, SZ(X)) adj[i].clear(); REP(i, SZ(Y)) adjy[i].clear();
+               </div>
+               <div>
+                REP(i, SZ(X)) REP(j, SZ(Y)) if (dist2(P[X[i]], P[Y[j]]) &gt; dd) adj[i].PB(j), adjy[j].PB(i);
+               </div>
+               <div>
+                <br/>
+               </div>
+               <div>
+                int cur = SZ(X)+SZ(Y)+2; FLC(py, -1); REP(i, SZ(X)){
+               </div>
+               <div>
+                fill(vy, vy+SZ(Y), 0); if (dfs(i)) cur--;
+               </div>
+               <div>
+                }
+               </div>
+               <div>
+                <br/>
+               </div>
+               <div>
+                if (cur &gt; SZ(res)){
+               </div>
+               <div>
+                <br/>
+               </div>
+               <div>
+                fill(px, px+SZ(X), -1); REP(i, SZ(Y)) if (~py[i]) px[py[i]] = i;
+               </div>
+               <div>
+                fill(vx, vx+SZ(X), -1); fill(vy, vy+SZ(Y), -1);
+               </div>
+               <div>
+                <br/>
+               </div>
+               <div>
+                REP(x, SZ(X)) if (!~px[x]) dfs_x(x, 0);
+               </div>
+               <div>
+                REP(y, SZ(Y)) if (!~py[y] &amp;&amp; !~vy[y]) dfs_y(y, 0);
+               </div>
+               <div>
+                res.clear(); res.PB(ii), res.PB(jj);
+               </div>
+               <div>
+                REP(i, SZ(X)) if (vx[i] == 0) res.PB(X[i]);
+               </div>
+               <div>
+                REP(i, SZ(Y)) if (vy[i] &lt;= 0) res.PB(Y[i]);
+               </div>
+               <div>
+                assert(cur == SZ(res));
+               </div>
+               <div>
+                }
+               </div>
+               <div>
+                }
+               </div>
+               <div>
+                <br/>
+               </div>
+               <div>
+                OT(SZ(res));
+               </div>
+               <div>
+                ECH(it, res) printf("%d ", *it+1);
+               </div>
+               <div>
+                }
+               </div>
+               <br/>
+               <span style="color:rgb(37, 37, 37);font-family:sans-serif;font-size:14px">
+                <br/>
+                。。。最小覆盖集。。（匹配边恰取一点，非匹配边至少取一点）
+                <br/>
+                。。。最大独立集。。（匹配边恰取一点，非匹配边至多取一点）
+                <br/>
+                <br/>
+               </span>
+               <br/>
+               <br/>
+               <a href="https://gist.github.com/lychees/7cf3848c3845f9d6bc53#file-dfs-cpp" target="_blank">
+                https://gist.github.com/lychees/7cf3848c3845f9d6bc53#file-dfs-cpp
+               </a>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

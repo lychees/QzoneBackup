@@ -1,0 +1,182 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 8,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1263815516,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "我预定个英雄！ ",
+                "capacity": 12155,
+                "poster": {
+                    "id": "534470369",
+                    "platform": 1,
+                    "name": "张弛 ",
+                    "emoji": []
+                },
+                "bmp": "08d08ca000000428",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1263817639,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "我也要个英雄....模型就用破法吧...建议开转职,也就是高一高二高三...注意平衡...岛儿别设置损我的技能名... ",
+                "capacity": 11915,
+                "poster": {
+                    "id": "276500942",
+                    "platform": 1,
+                    "name": "酒仙 ",
+                    "emoji": []
+                },
+                "bmp": "b8c1dda00102e229",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "A:\n等级的阶段性明显...\n转职不会存在... ",
+                        "postTime": 1263818637,
+                        "id": 1263818637,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "276500942",
+                            "name": "酒仙 ",
+                            "platform": 1
+                        },
+                        "content": "那就不是甜点了..你懂的...岛...我要你寄给我生日礼物....今年我要过生日... ",
+                        "postTime": 1263818918,
+                        "id": 1263818918,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1263818078,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "有空就给我弄个英雄吧（估计你要做30＋个英雄） ",
+                "capacity": 12122,
+                "poster": {
+                    "id": "65713782",
+                    "platform": 1,
+                    "name": "blackjack ",
+                    "emoji": []
+                },
+                "bmp": "08c09d2001008001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1263821697,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[ft=,2,]想起了原来的那个血战46.。。[/ft] ",
+                "capacity": 12047,
+                "poster": {
+                    "id": "545534129",
+                    "platform": 1,
+                    "name": "味道很正 ",
+                    "emoji": []
+                },
+                "bmp": "18c1d5a000800401",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "但很可惜...那个最后可耻的失败鸟...\n但愿这个可以完成...嗯！ ",
+                        "postTime": 1263821907,
+                        "id": 1263821907,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "postTime": 1263823664,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]对我的大招表示强烈不满[/ft]\n[ft=,2,]我要Helen同学出场[/ft] ",
+                "capacity": 12107,
+                "poster": {
+                    "id": "474697421",
+                    "platform": 1,
+                    "name": "朱明琪 ",
+                    "emoji": []
+                },
+                "bmp": "18d195a000028209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 6,
+                "postTime": 1263823788,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "还有...曾经1.2版本的时候我就曾经导入过模型.....比如高达之类...\n结果是造成了地图体积极其庞大....读取也很慢....\n不过最近1.24的补丁终于解除了原先地图大小的限制...可能可以尝试一下....BGM还是算了 玩war3不停听一首BGM会让人产生砸音响的冲动 ",
+                "capacity": 11941,
+                "poster": {
+                    "id": "474697421",
+                    "platform": 1,
+                    "name": "朱明琪 ",
+                    "emoji": []
+                },
+                "bmp": "18d195a000028209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 7,
+                "postTime": 1263824598,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]强烈要求Helen同学出场！和pig同学组成情侣档！[/ft] ",
+                "capacity": 12112,
+                "poster": {
+                    "id": "534470369",
+                    "platform": 1,
+                    "name": "张弛 ",
+                    "emoji": []
+                },
+                "bmp": "08d08ca000000428",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 8,
+                "postTime": 1263825600,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "等你的地图赶紧出来，我来把它普及全球，成为WCG和PGL比赛项目（感觉应该像梦幻一样加个定期任务：考试…………我最头疼的……类似守城即可，通过爆N多属性书，最后一波难度BT，象征高考……） ",
+                "capacity": 11994,
+                "poster": {
+                    "id": "583029995",
+                    "platform": 1,
+                    "name": "UCSB门将死忠！ ",
+                    "emoji": []
+                },
+                "bmp": "18d00da40102d109",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

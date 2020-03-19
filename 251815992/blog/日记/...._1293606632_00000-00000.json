@@ -1,0 +1,40 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1293674679,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[ft=,2,]这就是每个人对生活的理解不同，难道你不是这样吗？你的选择合乎情理吗？[/ft] ",
+                "capacity": 12058,
+                "poster": {
+                    "id": "416778437",
+                    "platform": 1,
+                    "name": "知道 ",
+                    "emoji": []
+                },
+                "bmp": "18c1d5a00000c101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "。。。五毛。。 ",
+                        "postTime": 1293692621,
+                        "id": 1293692621,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

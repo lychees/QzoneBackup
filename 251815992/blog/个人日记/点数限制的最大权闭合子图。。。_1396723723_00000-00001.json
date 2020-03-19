@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1396788801,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "应该不能了吧。。。感觉最大闭权合图就已经把网络流的功能用到极致了。。。 最大闭权合图纯粹运用的最小割，难道还能有限制点数的最小割？ ",
+                "capacity": 12040,
+                "poster": {
+                    "id": "389568481",
+                    "platform": 1,
+                    "name": "Teveillan ",
+                    "emoji": []
+                },
+                "bmp": "189495a00142a401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1396794929,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "二分一个k，每个点的权值全部减去k，做最大权闭合子图。可以发现选的点的个数随着k的增大而递减，于是可以得到一个k的区间，使得恰好选m个点。接下来做最大权闭合子图 ",
+                "capacity": 12017,
+                "poster": {
+                    "id": "182035045",
+                    "platform": 1,
+                    "name": "罗翔宇 ",
+                    "emoji": []
+                },
+                "bmp": "18d415a00000c121",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

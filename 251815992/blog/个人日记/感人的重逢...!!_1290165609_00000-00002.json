@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1290176790,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "飞虎，你在那里很高兴吧 ",
+                "capacity": 12152,
+                "poster": {
+                    "id": "1035956171",
+                    "platform": 1,
+                    "name": "WKUZHPKB ",
+                    "emoji": []
+                },
+                "bmp": "1840958000008420",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1290215527,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]^-^……[/ft] ",
+                "capacity": 12146,
+                "poster": {
+                    "id": "784237318",
+                    "platform": 1,
+                    "name": "叙眄 ",
+                    "emoji": []
+                },
+                "bmp": "585095a00102c009",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1290226061,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]游离。。。。。呵呵[/ft] ",
+                "capacity": 12141,
+                "poster": {
+                    "id": "445783398",
+                    "platform": 1,
+                    "name": "蒋倩倩 ",
+                    "emoji": []
+                },
+                "bmp": "18919d800140c221",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

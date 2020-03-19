@@ -1,0 +1,637 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    对智能签名的思考
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             对智能签名的思考
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2019-02-12 17:23:45
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(98)	è¯è®º(1)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1550010225,
+"voteids":0,
+"pubtime":1550010225,
+"replynum":1,
+"category":"个人日记",
+"title":"对智能签名的思考",
+"effect":8454656,
+"effect2":524294,
+"exblogtype":3,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":81177,
+"lp_style":16843520,
+"lp_flag":0,
+"lp_topvalue":0,
+"orguin":251815992,
+"orgblogid":1550010225,
+"mention_uins":[ ],
+"attach":[],"comments":[{"id":1550037749,
+"postTime":1550037749,
+"effect":1024,
+"replyNum":0,
+"content":"不就是press.one做的事情么 ",
+"capacity":12147,
+"poster":{
+"id":"938286388",
+"platform":1,
+"name":"卮客 ",
+"emoji":[ ]}
+,
+"bmp":"38d5dde80910e101",
+"ismyreply":0,
+"replies":[]}]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <div>
+                <div>
+                 岛娘案：原文保存在
+                 <a href="https://hackmd.io/Q3KNkxjgSwKRJ5cfBL2I4g" target="_blank">
+                  https://hackmd.io/Q3KNkxjgSwKRJ5cfBL2I4g
+                 </a>
+                 <br/>
+                 最后一段熄火中。
+                 <br/>
+                 ————
+                 <br/>
+                 <br/>
+                 <div>
+                  # 智能签名 2019 公开课
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  知乎上有人问 ["Facebook 创始人马克·扎克伯格最值得别人学习的是什么？"](
+                  <a href="https://www.zhihu.com/question/19777893/answer/106901273" target="_blank">
+                   https://www.zhihu.com/question/19777893/answer/106901273
+                  </a>
+                  )，排名 1、2 的两项回答，都是 "持续不断的学习能力"。
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  “夫子焉不学，而亦何常师之有？”
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  今天我也不得不拿着智能签名的设计稿，在四面八方到处请教，May
+                 </div>
+                 <div>
+                  、Aaryn、各种谷歌前同事，腾讯阿里的产品经理同学，币圈 KOL，不一而足。在这个过程中，我也帮终于梳理清楚了很多思路和误区，现在把大家讨论最多的一个问题再此解答：
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  ## 产品设计的形态
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  硅谷著名连续创业者和天使投资人 [David S. Rose](
+                  <a href="https://en.wikipedia.org/wiki/David_S._Rose" target="_blank">
+                   https://en.wikipedia.org/wiki/David_S._Rose
+                  </a>
+                  )，在他的 Ted 演讲[怎样说服风险投资者](
+                  <a href="https://open.163.com/movie/2015/5/R/F/MANS15LFR_MANTRQ9RF.html" target="_blank">
+                   https://open.163.com/movie/2015/5/R/F/MANS15LFR_MANTRQ9RF.html
+                  </a>
+                  )中在举例应该学习如何演讲时，只用了 [Steve Jobs](
+                  <a href="https://en.wikipedia.org/wiki/Steve_Jobs" target="_blank">
+                   https://en.wikipedia.org/wiki/Steve_Jobs
+                  </a>
+                  )，并盛赞其为 This is the zen of presentation。
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  那么在学习产品设计时，我们当然要参考当代最成功的产品经理 —— 微信之父张小龙了。
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  在 [2019 微信公开课里长达 3 个小时的演讲](
+                  <a href="https://zhuanlan.zhihu.com/p/54490834" target="_blank">
+                   https://zhuanlan.zhihu.com/p/54490834
+                  </a>
+                  )中，张小龙详细的回顾了微信是如何从一款小众 app，做到 10 亿用户这一数量级的应用的历史，总结了微信团队的两个原动力。
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  &gt; 第一，坚持做一个好的，与时俱进的工具
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  智能签名一开始的定位就是工具。在[初版的 Slide](
+                  <a href="https://docs.google.com/presentation/d/1LCv-fahfsUFt1u3_NkIjjygNZXVGIIzTJWA7WsUauxw/edit#slide=id.g34e1db0842_0_32" target="_blank">
+                   https://docs.google.com/presentation/d/1LCv-fahfsUFt1u3_NkIjjygNZXVGIIzTJWA7WsUauxw/edit#slide=id.g34e1db0842_0_32
+                  </a>
+                  ) 中，我就把智能签名设计成 “帮助内容创作者取回自己被平台剥夺的劳动价值” 的工具。正是因为作为工具，所以我们不作承载文章内容的平台，所以我们将打赏的算法设计成可插拔的。
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  &gt; 第二个原动力是，“让创造者体现价值”
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  对于智能签名，我们不仅“让创造者体现价值”，我们还要“让传播者体现价值”，再“为创造者创造价值”。
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  移动互联网的普及潜移默化的改变着人们的阅读习惯和生活方式。更多的读者是通过朋友圈的转发，来发现文章（甚至是商品）的。而这种转发，很大程度上就是你的好友替这篇文章所做的背书。而现今所有的内容创造平台，都只考虑了内容创作者的价值（打赏，点赞），但忽视了传播者在内容发现这个生态系统里的贡献。
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  ### Freedom Through Truth For Service
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  “因真理，得自由，以服务” 是燕京大学的校训。我们可以以此杜撰一条智能签名的 Slogan：Thought Through Token For Discover。
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  （因“让传播者体现价值” 得“为创造者创造价值” 以“为读者发现价值”）
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  - 为创作者创造价值（文章的收入，文章的传播）
+                 </div>
+                 <div>
+                  - 为传播者体现价值（转发既挖矿）
+                 </div>
+                 <div>
+                  - 为读者发现价值（智能签名的模式能否帮助沉淀好的内容，这个环节依然有待商榷）
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  （什么，你还不了解目前的机制设计？请阅读 [智能签名打赏机制设计](
+                  <a href="https://hackmd.io/R4Gz9gVgTFiNzUJ4fhqJCA?both" target="_blank">
+                   https://hackmd.io/R4Gz9gVgTFiNzUJ4fhqJCA?both
+                  </a>
+                  )）
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  演讲中，张小龙[再次](
+                  <a href="http://tech.qq.com/a/20161228/016787.htm?qqcom_pgv_from=aio" target="_blank">
+                   http://tech.qq.com/a/20161228/016787.htm?qqcom_pgv_from=aio
+                  </a>
+                  )强调了作为一款工具是微信的初心，好的工具应该是像 Google 那样 “即用即走” 的。
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  而我们其实都知道，微信既做不了工具也无法为创作者体现价值。
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  微信为创作者产生的唯一价值正是她从用户哪里剥夺来的价值 —— 因为她为我们所筑的围墙花园，创作者无法离开微信而找到用户。
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  而其中的本质的原因，就是微信作为平台无法保持其自身的中立性（张小龙被质疑微信会不会为腾讯旗下的产品而打压竞争对手，当提及这一点是，连张小龙在演讲中都无法自圆其说）。
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  因为资本的逐利性，微信最终也会成为["盔甲下的囚徒"](
+                  <a href="http://www.shuizilong.com/house/archives/tipping-point-of-the-internet/" target="_blank">
+                   http://www.shuizilong.com/house/archives/tipping-point-of-the-internet/
+                  </a>
+                  )。（今天的微信已经有朋友圈广告，微信已经会打压竞争对手的信息的传播，支付宝、头条、抖音、多闪，tg，etcs。）
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  （而实现了 Public Good、Blockchain Neutrality 以及 Tokenize 的原教旨 Dapp 是有机会打破这个牢笼的。请参考我的上一篇文章，[Is dapp a scam?](
+                  <a href="https://user.qzone.qq.com/251815992/blog/1549850978" target="_blank">
+                   https://user.qzone.qq.com/251815992/blog/1549850978
+                  </a>
+                  )）
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  ## 无法长久的骗局
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  下面讨论大家最关心的一点，“智能签名是庞氏骗局吗”。回答这个问题之前，先让我们回答一个问题，比特币是庞氏骗局吗？
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  “比特币当然是庞氏骗局了，史上最大的庞氏骗局。”
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  这样的观点最近已经越来越少见了，事实上[在维基百科中，认为金融泡沫与庞氏骗局有许多相似之处，而有一些核心的不同](
+                  <a href="https://en.wikipedia.org/wiki/Ponzi_scheme#Similar_scheme" target="_blank">
+                   https://en.wikipedia.org/wiki/Ponzi_scheme#Similar_scheme
+                  </a>
+                  )。
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  其中最为核心的一个观点是，金融泡沫的背后有 Intrinsic Value 的支撑。在分布式资本所办的通证经济设计大赛中，我们之所以可以获得冠军，就是我们和 Tony Tao Share 一个共同的观点。庞氏并不总是骗局，而能否在泡沫破碎之后带来价值，是区别庞氏是不是骗局的核心因素。
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  例如，中本聪认为人性本恶，而比特币正是利用人性中的至恶，创造了人性中的至善。正是因为有比特币的开创新贡献，才会有今天山寨币百家争鸣的的局面，才会有今天的区块链产品。比特币将去中心化的理念深入了人心，进而启蒙了一个时代。
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  回到智能签名，首先与其说 “智能签名是庞氏骗局”，不如说，“智能签名是一个庞氏骗局生成器”（笑）。
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  首先，单个签名的传播就如同一篇文章的一样，一定是有尽头的，这取决与文章的质量，内容的时效性，作者的影响力，etcs.，如同一个注定会收敛的数学函数。但我们希望当这个价值收敛的时候，所产生的网状的 Token 的传播路径，就体现了这篇文章本身的价值，而这个价值，就是我们所追求的泡沫背后的 Intrinsic Value。
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  其次，智能签名也不像传统的资金盘那样只有割韭菜的机制，她并不是赌博。实际上是你为你的 “工作量证明”（转发）所递交的一种 “权益证明”（打赏金额）。
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  只要每个读者都理性投资，那么他们都能获得与裂变系数成正比例的回报，同时作者获得流量。而对于没有收回投资的读者，实际上也给作者递交了质押金，而让作者提前获得了这部分的回报，并且因为你的传播链接永远存在，永远都有新的韭菜可能会通过你的链接进来，从而让读者永远都有回本的希望。用户可以自己的 Contribution，为自己解套，这和现在古典的 Dapp 的体验也是极不相同的。
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  而这种解套的方式，正是古典 cx 里所使用的模式。但是同 cx 不同的是，最后 cx 路径收敛的时刻，就形成一篇文章的传播路径，通过这些在链上记录的公开数据，我们可以清晰的看到一篇文章的传播过程。和流量和注意力永远是互联网世界里最核心的价值。
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  ## 种子用户的选择
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  TODO
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  ## 参考资料
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  [为什么投机是有益的](
+                  <a href="https://www.byvoid.com/zhs/blog/why-speculation-benefits" target="_blank">
+                   https://www.byvoid.com/zhs/blog/why-speculation-benefits
+                  </a>
+                  )
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                </div>
+                <br/>
+               </div>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

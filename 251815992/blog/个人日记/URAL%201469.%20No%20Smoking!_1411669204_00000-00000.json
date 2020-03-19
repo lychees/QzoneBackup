@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1411782553,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "我写法里面是没直线的 ",
+                "capacity": 12147,
+                "poster": {
+                    "id": "826513189",
+                    "platform": 1,
+                    "name": "叉姐 ",
+                    "emoji": []
+                },
+                "bmp": "988095a80000e201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

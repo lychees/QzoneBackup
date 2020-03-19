@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1437129491,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "岛娘打入谷哥内部 ",
+                "capacity": 12152,
+                "poster": {
+                    "id": "397427019",
+                    "platform": 1,
+                    "name": " ",
+                    "emoji": []
+                },
+                "bmp": "18809da40102c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1437137629,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "其实我一直想问一下学长到底是什么学历？本科毕业还是研究生？ ",
+                "capacity": 12102,
+                "poster": {
+                    "id": "2946239355",
+                    "platform": 1,
+                    "name": "行走的人 ",
+                    "emoji": []
+                },
+                "bmp": "080095800200c401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1437141639,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "拜岛娘～～ ",
+                "capacity": 12144,
+                "poster": {
+                    "id": "405869395",
+                    "platform": 1,
+                    "name": "不知道改啥名字好.. ",
+                    "emoji": []
+                },
+                "bmp": "18d59de4010ec101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

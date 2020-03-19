@@ -1,0 +1,57 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1326849661,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "写的很生动幽默 ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "1023150849",
+                    "platform": 1,
+                    "name": "Lazy Lee ",
+                    "emoji": []
+                },
+                "bmp": "18d49da00102c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1326959147,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "这些都是什么。。。。。。 ",
+                "capacity": 12099,
+                "poster": {
+                    "id": "1303552653",
+                    "platform": 1,
+                    "name": "赫敏·格兰杰 ",
+                    "emoji": []
+                },
+                "bmp": "18909da00608c209",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "。。。其实就是吐嘈。。 ",
+                        "postTime": 1326964739,
+                        "id": 1326964739,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

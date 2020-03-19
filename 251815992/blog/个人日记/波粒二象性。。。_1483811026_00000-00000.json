@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1483811181,
+                "effect": 1056,
+                "replyNum": 3,
+                "content": "脱掉了装备“lo装” 魅力-5，行动力+7。 穿上了装备“运动服” 魅力-2，行动力+3。 ",
+                "capacity": 11803,
+                "poster": {
+                    "id": "446079414",
+                    "platform": 1,
+                    "name": "旺仔嚎婆婆 ",
+                    "emoji": []
+                },
+                "bmp": "38449da00000c201",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:446079414,nick:旺仔嚎婆婆,who:1,auto:1}防御力和冰抗呢？ ",
+                        "postTime": 1483811293,
+                        "id": 1483811293,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "446079414",
+                            "name": "旺仔嚎婆婆 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1} 防御力是用来防什么啦（ ",
+                        "postTime": 1483811778,
+                        "id": 1483811778,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:446079414,nick:旺仔嚎婆婆,who:1,auto:1}痴女？ ",
+                        "postTime": 1483813984,
+                        "id": 1483813984,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

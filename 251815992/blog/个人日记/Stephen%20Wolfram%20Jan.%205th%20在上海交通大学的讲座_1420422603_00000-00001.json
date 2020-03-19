@@ -1,0 +1,57 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1420513612,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "[em]e128[/em] ",
+                "capacity": 12064,
+                "poster": {
+                    "id": "568778055",
+                    "platform": 1,
+                    "name": "123456 ",
+                    "emoji": []
+                },
+                "bmp": "18d09da00100c221",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "568778055",
+                            "name": "123456 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:568778055,nick:123456,who:1,auto:1}图片[em]e128[/em] ",
+                        "postTime": 1420513822,
+                        "id": 1420513822,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1421527646,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "oriential。。。 ",
+                "capacity": 12152,
+                "poster": {
+                    "id": "751723392",
+                    "platform": 1,
+                    "name": "wwwwodddd ",
+                    "emoji": []
+                },
+                "bmp": "18c095a80000c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

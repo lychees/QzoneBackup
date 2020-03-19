@@ -1,0 +1,131 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1263738974,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "踩一下，顺便告诉你，我对哀伤便笺的背景杂音挺有兴趣的…… ",
+                "capacity": 12042,
+                "poster": {
+                    "id": "583029995",
+                    "platform": 1,
+                    "name": "UCSB门将死忠！ ",
+                    "emoji": []
+                },
+                "bmp": "18d00da40102d109",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "。。。曲子名打错了啦。。。 ",
+                        "postTime": 1263739111,
+                        "id": 1263739111,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "583029995",
+                            "name": "UCSB门将死忠！ ",
+                            "platform": 1
+                        },
+                        "content": "丑了…… ",
+                        "postTime": 1263741683,
+                        "id": 1263741683,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1263746546,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[ft=,,]我用网通（联通）[/ft]\n[ft=,,]既可以用Mac，也可以用Airport Express……[/ft]\n[ft=,,]你的RP……？[/ft] ",
+                "capacity": 12002,
+                "poster": {
+                    "id": "502116763",
+                    "platform": 1,
+                    "name": "PhiloEve ",
+                    "emoji": []
+                },
+                "bmp": "18d195a001008401",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "我不会，教教我...\n是不是用PPPoE设金额... ",
+                        "postTime": 1263784807,
+                        "id": 1263784807,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1263824858,
+                "effect": 32,
+                "replyNum": 3,
+                "content": "[ft=,2,]BGM实在太难听了 还是哥出马吧[/ft] ",
+                "capacity": 12026,
+                "poster": {
+                    "id": "474697421",
+                    "platform": 1,
+                    "name": "朱明琪 ",
+                    "emoji": []
+                },
+                "bmp": "18d195a000028209",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "..嗯...o.- ",
+                        "postTime": 1263830569,
+                        "id": 1263830569,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "你去死吧～ ",
+                        "postTime": 1264521213,
+                        "id": 1264521213,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "474697421",
+                            "name": "朱明琪 ",
+                            "platform": 1
+                        },
+                        "content": "Forget the fucking BGMs ",
+                        "postTime": 1264521489,
+                        "id": 1264521489,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

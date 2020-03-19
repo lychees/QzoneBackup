@@ -1,0 +1,97 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1289482614,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "岛君，能不要把文章 写得像鲁迅的纪念刘和珍君一样蛋疼吗？不要老刷状态好不好？ ",
+                "capacity": 12093,
+                "poster": {
+                    "id": "1482421777",
+                    "platform": 1,
+                    "name": "还记得那个MJ吗 ",
+                    "emoji": []
+                },
+                "bmp": "18c195800202c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1289521336,
+                "effect": 1048608,
+                "replyNum": 1,
+                "content": "小岛生日快乐啊！~！！ ",
+                "capacity": 12122,
+                "poster": {
+                    "id": "443164766",
+                    "platform": 1,
+                    "name": "\"zrp\" ",
+                    "emoji": []
+                },
+                "bmp": "088094a10000c301",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "..Orz ... ",
+                        "postTime": 1289535715,
+                        "id": 1289535715,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1289569939,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "[ft=,2,]我来组队。。如何。。[/ft]\n[ft=,2,]如果明年我还不打算到***去\n[/ft]\n[ft=,2,]就可以再次来玩acm了。。自由人~\n[/ft] ",
+                "capacity": 11943,
+                "poster": {
+                    "id": "420836131",
+                    "platform": 1,
+                    "name": "doc ",
+                    "emoji": []
+                },
+                "bmp": "18d025a00000e101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "Orz.... 小博士什么的。。最给力了。。。 ",
+                        "postTime": 1289576574,
+                        "id": 1289576574,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "420836131",
+                            "name": "doc ",
+                            "platform": 1
+                        },
+                        "content": "....你是在说重庆赛区的事情么？ ",
+                        "postTime": 1289576621,
+                        "id": 1289576621,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

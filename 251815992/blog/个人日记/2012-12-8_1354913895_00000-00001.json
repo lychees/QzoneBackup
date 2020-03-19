@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1354937892,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "小岛好神 ",
+                "capacity": 12166,
+                "poster": {
+                    "id": "223359382",
+                    "platform": 1,
+                    "name": "[拜戴神教]水 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a400008409",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1354938345,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "大赞\"[ft=,,tahoma]挺喜欢养成的[/ft]\" ",
+                "capacity": 12126,
+                "poster": {
+                    "id": "523410404",
+                    "platform": 1,
+                    "name": "int ",
+                    "emoji": []
+                },
+                "bmp": "18c19d2000008001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

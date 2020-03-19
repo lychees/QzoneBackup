@@ -1,0 +1,187 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 5,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1229768134,
+                "effect": 4194336,
+                "replyNum": 5,
+                "content": "我真的很想认识葛jing...\n我喜欢这个性格 ",
+                "capacity": 11857,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "有一天，这个世界和谐了..\n我们都灭亡了.. ",
+                        "postTime": 1229768455,
+                        "id": 1229768455,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "347956886",
+                            "name": "小c ",
+                            "platform": 1
+                        },
+                        "content": "至少在你活着的时候你是享受不到和谐了 ",
+                        "postTime": 1229768494,
+                        "id": 1229768494,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "这也也说不定... ",
+                        "postTime": 1229771390,
+                        "id": 1229771390,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "347956886",
+                            "name": "小c ",
+                            "platform": 1
+                        },
+                        "content": "我要写这文章我题目就写\"唐飞虎和计算机\"我觉得这2个词太和谐了- - ",
+                        "postTime": 1229776390,
+                        "id": 1229776390,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "哎哟喂~~ ",
+                        "postTime": 1229776642,
+                        "id": 1229776642,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1229781362,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "喂。没看到我的作文啊。。我可是最高分啊。。 ",
+                "capacity": 12126,
+                "poster": {
+                    "id": "770976045",
+                    "platform": 1,
+                    "name": "┈┾葬亽 ╄ ",
+                    "emoji": []
+                },
+                "bmp": "18d015a40000c209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1229787212,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "我也该被和谐呃... ",
+                "capacity": 12150,
+                "poster": {
+                    "id": "474697421",
+                    "platform": 1,
+                    "name": "朱明琪 ",
+                    "emoji": []
+                },
+                "bmp": "18d195a000028209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1230360525,
+                "effect": 4194336,
+                "replyNum": 2,
+                "content": "[M][B]小飞虎啊[/B][/M]\n[M][B]我发现WORD也能做网页[/B][/M]\n[M][B]太神奇了[/B][/M]\n ",
+                "capacity": 11975,
+                "poster": {
+                    "id": "173324507",
+                    "platform": 1,
+                    "name": "Groot ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a201",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "...我很早就知道这件事情了哦...\nword里还有一个隐藏小游戏..# ",
+                        "postTime": 1230741496,
+                        "id": 1230741496,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "173324507",
+                            "name": "Groot ",
+                            "platform": 1
+                        },
+                        "content": "什么游戏#89 ",
+                        "postTime": 1230773862,
+                        "id": 1230773862,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "postTime": 1236401594,
+                "effect": 32,
+                "replyNum": 1,
+                "content": ".. 我咋现在才发现这篇文章呢...  = = ",
+                "capacity": 12112,
+                "poster": {
+                    "id": "241721246",
+                    "platform": 1,
+                    "name": "-Zoey-D ",
+                    "emoji": []
+                },
+                "bmp": "18d495a001008121",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "...# ",
+                        "postTime": 1236420664,
+                        "id": 1236420664,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

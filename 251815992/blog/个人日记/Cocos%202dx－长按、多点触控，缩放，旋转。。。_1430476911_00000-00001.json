@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1430481384,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "你也玩这个呀 ",
+                "capacity": 12162,
+                "poster": {
+                    "id": "726230216",
+                    "platform": 1,
+                    "name": "念 ",
+                    "emoji": []
+                },
+                "bmp": "18c0954400028001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1430508089,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "。。。 ",
+                "capacity": 12164,
+                "poster": {
+                    "id": "393382242",
+                    "platform": 1,
+                    "name": "椰蓉菠萝包 ",
+                    "emoji": []
+                },
+                "bmp": "18d19d840002e221",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

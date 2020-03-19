@@ -1,0 +1,86 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1326497049,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]你在？……[/ft] ",
+                "capacity": 12012,
+                "poster": {
+                    "id": "784237318",
+                    "platform": 1,
+                    "name": "叙眄 ",
+                    "emoji": []
+                },
+                "bmp": "585095a00102c009",
+                "ismyreply": 0,
+                "giftId": "3868020f19bd104f0b7d0600",
+                "giftType": 5,
+                "giftItemID": 72185,
+                "giftName": "美猴送福",
+                "giftUrl": "http://ctc.qzonestyle.gtimg.cn/qzone/space_item/pre/9/72185.gif",
+                "giftmMalllist": "1115|570|",
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1326798792,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[ft=,2,]岛一直是这样一个有爱的人……[/ft] ",
+                "capacity": 11842,
+                "poster": {
+                    "id": "471084932",
+                    "platform": 1,
+                    "name": "无姓之人 ",
+                    "emoji": []
+                },
+                "bmp": "18d095e4010ed001",
+                "ismyreply": 0,
+                "giftId": "3868020fc857154f66f00b00",
+                "giftType": 1,
+                "giftItemID": 65400,
+                "giftName": "好“冷”啊",
+                "giftUrl": "http://ctc.qzonestyle.gtimg.cn/qzone/space_item/pre/8/65400.gif",
+                "giftmMalllist": "1115|",
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "额。。对「那件事」现在也不必要太自责了。。我能力有限。。而且现在想起来当时有好多地方也没有考虑周全。。总之看到那篇文章我很感动的。说。。 ",
+                        "postTime": 1326798981,
+                        "id": 1326798981,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1328674283,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "喜羊羊挺良心的吧￣ω￣ ",
+                "capacity": 12151,
+                "poster": {
+                    "id": "445950142",
+                    "platform": 1,
+                    "name": "Mea ",
+                    "emoji": []
+                },
+                "bmp": "08851da04040c421",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,142 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 5,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1244184659,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "我在十中 ",
+                "capacity": 12163,
+                "poster": {
+                    "id": "511024310",
+                    "platform": 1,
+                    "name": "Melanchosomnia ",
+                    "emoji": []
+                },
+                "bmp": "589195a001028121",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1244208065,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "我在四中 … ",
+                "capacity": 12153,
+                "poster": {
+                    "id": "82382557",
+                    "platform": 1,
+                    "name": "薛玲 ",
+                    "emoji": []
+                },
+                "bmp": "38c595a10102e101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1244214097,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "[ft=,2,]我在4.。还有MOA同志也在[/ft] ",
+                "capacity": 12066,
+                "poster": {
+                    "id": "474697421",
+                    "platform": 1,
+                    "name": "朱明琪 ",
+                    "emoji": []
+                },
+                "bmp": "18d195a000028209",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "= =...要不要组队呀？～ ",
+                        "postTime": 1244267479,
+                        "id": 1244267479,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "474697421",
+                            "name": "朱明琪 ",
+                            "platform": 1
+                        },
+                        "content": "我单刷 ",
+                        "postTime": 1244267491,
+                        "id": 1244267491,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "postTime": 1244267417,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]12中  汗~~[/ft] ",
+                "capacity": 12151,
+                "poster": {
+                    "id": "328074703",
+                    "platform": 1,
+                    "name": "周小刚 ",
+                    "emoji": []
+                },
+                "bmp": "180095a00002c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1246415655,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "[ft=,2,]...那个在四中准考证和身份正都弄丢的小孩就是你吧...[/ft] ",
+                "capacity": 12029,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "...身份证...没丢的... ",
+                        "postTime": 1246416738,
+                        "id": 1246416738,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "347956886",
+                            "name": "小c ",
+                            "platform": 1
+                        },
+                        "content": "...看来大家传错了.. ",
+                        "postTime": 1246416773,
+                        "id": 1246416773,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

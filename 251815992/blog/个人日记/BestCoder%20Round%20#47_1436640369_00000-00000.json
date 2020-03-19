@@ -1,0 +1,73 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1436656444,
+                "effect": 32,
+                "replyNum": 4,
+                "content": "C不是简单的计数吧？不是问X的子串有多少满足要求吗？ ",
+                "capacity": 11693,
+                "poster": {
+                    "id": "703180800",
+                    "platform": 1,
+                    "name": "moonlight131 ",
+                    "emoji": []
+                },
+                "bmp": "d8c195a00082e101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:703180800,nick:moonlight131,who:1,auto:1}满足同时是 Y 的字串。。不就是在 LCS 的基础上计数么= = ) ",
+                        "postTime": 1436656536,
+                        "id": 1436656536,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "703180800",
+                            "name": "moonlight131 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,auto:1} 不是啊，ab  abab，这个结果是1，不是2 ",
+                        "postTime": 1436656674,
+                        "id": 1436656674,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:703180800,nick:moonlight131,who:1,auto:1}记一下匹配到的位置？。。。 ",
+                        "postTime": 1436656717,
+                        "id": 1436656717,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "703180800",
+                            "name": "moonlight131 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,auto:1} 嗯 ",
+                        "postTime": 1436656736,
+                        "id": 1436656736,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

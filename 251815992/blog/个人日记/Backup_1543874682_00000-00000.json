@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1543911496,
+                "postTime": 1543911496,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "课程？需要什么基础？ ",
+                "capacity": 12132,
+                "poster": {
+                    "id": "2922550880",
+                    "platform": 1,
+                    "name": "Misa（就现在坐你斜对面打酱油那个） ",
+                    "emoji": []
+                },
+                "bmp": "08008cc80202d221",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1407599086,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "\"动态标号\"是啥... ",
+                "capacity": 12145,
+                "poster": {
+                    "id": "286830682",
+                    "platform": 1,
+                    "name": "MetTheSoul ",
+                    "emoji": []
+                },
+                "bmp": "08d49de0000c8221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1407599801,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "小虎，多注意身体！ ",
+                "capacity": 12152,
+                "poster": {
+                    "id": "985061865",
+                    "platform": 1,
+                    "name": "姑姑 ",
+                    "emoji": []
+                },
+                "bmp": "184195a100004301",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1407601080,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "怕了 ",
+                "capacity": 12151,
+                "poster": {
+                    "id": "112831313",
+                    "platform": 1,
+                    "name": "12-计-董羽飞 ",
+                    "emoji": []
+                },
+                "bmp": "38d40da00102d101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

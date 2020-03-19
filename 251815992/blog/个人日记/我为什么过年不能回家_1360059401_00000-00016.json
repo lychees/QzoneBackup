@@ -1,0 +1,437 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 17,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1360060036,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "momo ",
+                "capacity": 12165,
+                "poster": {
+                    "id": "751723392",
+                    "platform": 1,
+                    "name": "wwwwodddd ",
+                    "emoji": []
+                },
+                "bmp": "18c095a80000c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1360063077,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "momo,too ",
+                "capacity": 12166,
+                "poster": {
+                    "id": "1035956171",
+                    "platform": 1,
+                    "name": "WKUZHPKB ",
+                    "emoji": []
+                },
+                "bmp": "1840958000008420",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1360064570,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "纳尼 ",
+                "capacity": 12162,
+                "poster": {
+                    "id": "112831313",
+                    "platform": 1,
+                    "name": "12-计-董羽飞 ",
+                    "emoji": []
+                },
+                "bmp": "38d40da00102d101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1360067501,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "小岛君还是应该回家看看\n母上大人很想念你呢\n回家转一圈，然后来爱酱着\n捂脸（= =。。。 ",
+                "capacity": 12085,
+                "poster": {
+                    "id": "375243140",
+                    "platform": 1,
+                    "name": "cxlove ",
+                    "emoji": []
+                },
+                "bmp": "18c09da80100d429",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1360068753,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "麻痹我全看懂了。 ",
+                "capacity": 11937,
+                "poster": {
+                    "id": "276500942",
+                    "platform": 1,
+                    "name": "酒仙 ",
+                    "emoji": []
+                },
+                "bmp": "b8c1dda00102e229",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:276500942,nick:酒仙,who:1,auto:1}。。。这种傻逼文章看看就行了。。。。有毛好回复的？（麻痹我又在传播负能量了。。。 ",
+                        "postTime": 1360069155,
+                        "id": 1360069155,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "276500942",
+                            "name": "酒仙 ",
+                            "platform": 1
+                        },
+                        "content": "麻痹我去北京后估计真的不回来了。 ",
+                        "postTime": 1360071101,
+                        "id": 1360071101,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "postTime": 1360069239,
+                "effect": 1056,
+                "replyNum": 5,
+                "content": "看完后第一想法是 我是不是只理解了字面意思？（默 无知是种悲哀）但还是不可避免的脑里涌出两种评论思维（也许不只两种？鬼知道这种时常自我混乱 ",
+                "capacity": 11136,
+                "poster": {
+                    "id": "903336279",
+                    "platform": 1,
+                    "name": "偏疾 ",
+                    "emoji": []
+                },
+                "bmp": "58d49d800002a201",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "903336279",
+                            "name": "偏疾 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:903336279,nick:偏疾} 是不是分裂~）（嗯……其实不是分裂，真的）评论一:yooooooo,过程越崎岖 结果越辉煌 岂不是显得该事件越离奇且光芒万丈？（这种想法是站着说话不腰疼吧吧吧，，所以才有第二评论？） ",
+                        "postTime": 1360069250,
+                        "id": 1360069250,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:903336279,nick:偏疾,auto:1} 不。。你已经理解了全部意思。。因为全部意思等价于字面意思。。。 ",
+                        "postTime": 1360069289,
+                        "id": 1360069289,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "903336279",
+                            "name": "偏疾 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:903336279,nick:偏疾} 评论二:你能一直鲜活的挣扎 这就是胜利！（说来说去和上一个评论有什么不同。。默）（总觉我抓错方向了，，但作为资深阅读者（自封的），，我觉你的叙事风格不错~（好像频道串了，我拿这当小说阅读？））（最后 啰嗦似乎是我的习惯，，所以写长评 不稀奇） ",
+                        "postTime": 1360069291,
+                        "id": 1360069291,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "903336279",
+                            "name": "偏疾 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:903336279,nick:偏疾} 最后 评论限制141字实在是太不合理了！又不是微博，， ",
+                        "postTime": 1360069372,
+                        "id": 1360069372,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "对。。我以前文章都是这种风格。。后来觉得老是写这种没营养的东西不利于团结进步。。。大部分文章。。动笔之前。。就自己审核掉了。。。 ",
+                        "postTime": 1360069397,
+                        "id": 1360069397,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "postTime": 1360070799,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "抱抱。。。岛儿长大了呢，要坚强，要加油，自己选择的道路，认为正确就坚持下去。可是身边的人总可能突然就这么消失了（比如说我们学校刚有一位学长去世。。。），所以为什么不抱着一颗宽容与感恩的心呢？我相信母上大人心里其实很关心岛儿呢，只是不懂得正确的方式。岛儿那么善良的人，一定会明白吧。。。 ",
+                "capacity": 11884,
+                "poster": {
+                    "id": "471084932",
+                    "platform": 1,
+                    "name": "无姓之人 ",
+                    "emoji": []
+                },
+                "bmp": "18d095e4010ed001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 8,
+                "postTime": 1360070951,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "。。。句点。。。好多。。。 ",
+                "capacity": 12143,
+                "poster": {
+                    "id": "814463561",
+                    "platform": 1,
+                    "name": "子非我 ",
+                    "emoji": []
+                },
+                "bmp": "088494a00000c401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 9,
+                "postTime": 1360071586,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "多块好省的原则学习到现在…… ",
+                "capacity": 12139,
+                "poster": {
+                    "id": "495363310",
+                    "platform": 1,
+                    "name": "李勃 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00100e281",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 10,
+                "postTime": 1360089113,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "岛娘一定要坚强啊，我等蒟蒻都膜拜了你这么久了，真希望你别被外物打击了啊，坚持走好自己的路，人生才算是完整的，才是真正的有意义。 ",
+                "capacity": 11929,
+                "poster": {
+                    "id": "269884921",
+                    "platform": 1,
+                    "name": "人間の本質 ",
+                    "emoji": []
+                },
+                "bmp": "18d08de0010cc121",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:269884921,nick:人間の本質,who:1,auto:1}谢谢。。我会努力的。。） ",
+                        "postTime": 1360095189,
+                        "id": 1360095189,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 13,
+                "postTime": 1360140717,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "岛君，我妈妈给我填报志愿时也是这样，是不是女人都这样~ ",
+                "capacity": 11986,
+                "poster": {
+                    "id": "1185442737",
+                    "platform": 1,
+                    "name": "幻影射手 ",
+                    "emoji": []
+                },
+                "bmp": "18959d800000d401",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:1185442737,nick:幻影射手,auto:1} NO。。只有近视的才这样。。 ",
+                        "postTime": 1360150099,
+                        "id": 1360150099,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "1185442737",
+                            "name": "幻影射手 ",
+                            "platform": 1
+                        },
+                        "content": "啊 ",
+                        "postTime": 1360201191,
+                        "id": 1360201191,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 14,
+                "postTime": 1360175678,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "岛娘真是辛苦……  ",
+                "capacity": 11946,
+                "poster": {
+                    "id": "479447834",
+                    "platform": 1,
+                    "name": " ",
+                    "emoji": []
+                },
+                "bmp": "18c195a00100a201",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:479447834,nick:馬鹿种田君 ,who:1,auto:1}。。教教我种田、、现在学习还来得及么。。、、 ",
+                        "postTime": 1360175773,
+                        "id": 1360175773,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "479447834",
+                            "name": " ",
+                            "platform": 1
+                        },
+                        "content": "大学党已经来不及了……只有像我这种没大学读的才行…… ",
+                        "postTime": 1360216170,
+                        "id": 1360216170,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 15,
+                "postTime": 1360320400,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,3,]软文？……[/ft]\n我忽然就想起你、说、我是个成绩好啊、父母喜欢的小孩子、什么的…………\n所以、\n要对自己好哦、\n嗯嗯、安[em]e176[/em] ",
+                "capacity": 12026,
+                "poster": {
+                    "id": "784237318",
+                    "platform": 1,
+                    "name": "叙眄 ",
+                    "emoji": []
+                },
+                "bmp": "585095a00102c009",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 16,
+                "postTime": 1369698840,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "哈哈 郑州那年我去了 ",
+                "capacity": 12147,
+                "poster": {
+                    "id": "911574351",
+                    "platform": 1,
+                    "name": "Yuko丶柚子 ",
+                    "emoji": []
+                },
+                "bmp": "184495800410c821",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 17,
+                "postTime": 1369698858,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "诶 貌似不是一年 ",
+                "capacity": 12151,
+                "poster": {
+                    "id": "911574351",
+                    "platform": 1,
+                    "name": "Yuko丶柚子 ",
+                    "emoji": []
+                },
+                "bmp": "184495800410c821",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 18,
+                "postTime": 1369698873,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "你上高一 我应该还在初中 ",
+                "capacity": 12143,
+                "poster": {
+                    "id": "911574351",
+                    "platform": 1,
+                    "name": "Yuko丶柚子 ",
+                    "emoji": []
+                },
+                "bmp": "184495800410c821",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 19,
+                "postTime": 1375286869,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "蒽……当年你在搞竞赛的时候，我也在合肥，才六年级。下载了个VC6.0一堆英文，不知道是什么东西于是，删了。\n这就是一个重要的分叉口吧……做竞赛与不做竞赛 ",
+                "capacity": 12020,
+                "poster": {
+                    "id": "495521584",
+                    "platform": 1,
+                    "name": "Tianfu.D.He ",
+                    "emoji": []
+                },
+                "bmp": "18d0d5a00000c009",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

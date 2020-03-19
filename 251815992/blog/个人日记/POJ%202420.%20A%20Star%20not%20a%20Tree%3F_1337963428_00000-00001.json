@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1337966503,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "dao神，这样的代码让偶情何以堪呐 ",
+                "capacity": 12121,
+                "poster": {
+                    "id": "375243140",
+                    "platform": 1,
+                    "name": "cxlove ",
+                    "emoji": []
+                },
+                "bmp": "18c09da80100d429",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1369644910,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "为什么这么多宏定义与模板？ ",
+                "capacity": 12139,
+                "poster": {
+                    "id": "441748146",
+                    "platform": 1,
+                    "name": "lirau ",
+                    "emoji": []
+                },
+                "bmp": "185495a001008109",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

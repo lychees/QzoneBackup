@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1408680640,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "已膜拜500，跪翻 ",
+                "capacity": 12154,
+                "poster": {
+                    "id": "774367334",
+                    "platform": 1,
+                    "name": "zjut_DD ",
+                    "emoji": []
+                },
+                "bmp": "18c09da00080c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1408861043,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "就是sb 2sat ",
+                "capacity": 12156,
+                "poster": {
+                    "id": "826513189",
+                    "platform": 1,
+                    "name": "叉姐 ",
+                    "emoji": []
+                },
+                "bmp": "988095a80000e201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

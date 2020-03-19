@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1466418924,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "岛娘加油！ ",
+                "capacity": 12160,
+                "poster": {
+                    "id": "916506409",
+                    "platform": 1,
+                    "name": "时光机 ",
+                    "emoji": []
+                },
+                "bmp": "18c59da00102c101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

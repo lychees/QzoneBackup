@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1333817712,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "膜拜 ",
+                "capacity": 12162,
+                "poster": {
+                    "id": "511825986",
+                    "platform": 1,
+                    "name": "colin ",
+                    "emoji": []
+                },
+                "bmp": "98d09da801428281",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

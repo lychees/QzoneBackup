@@ -1,0 +1,107 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1266935380,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]啊，不是吧，[/ft]\n[ft=,2,]市选题是你和张一博出啊[/ft] ",
+                "capacity": 12105,
+                "poster": {
+                    "id": "421590180",
+                    "platform": 1,
+                    "name": "肥球汉克斯 ",
+                    "emoji": []
+                },
+                "bmp": "18c09da00000c009",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1266996084,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]岛哥的题目没有DP~只有这样了~我只出一个DP的~[/ft] ",
+                "capacity": 12114,
+                "poster": {
+                    "id": "420836131",
+                    "platform": 1,
+                    "name": "doc ",
+                    "emoji": []
+                },
+                "bmp": "18d025a00000e101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1267011737,
+                "effect": 32,
+                "replyNum": 4,
+                "content": "[ft=,2,]那说明什么？张一博直接被排除在市队之外还是张一博直接进入市队.....都不好吧.....[/ft]\n[ft=,2,]真是太雷人了。[/ft] ",
+                "capacity": 11783,
+                "poster": {
+                    "id": "407902271",
+                    "platform": 1,
+                    "name": "IcyBlue ",
+                    "emoji": []
+                },
+                "bmp": "18c0952400008001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "...初中...高中.... ",
+                        "postTime": 1267011807,
+                        "id": 1267011807,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "407902271",
+                            "name": "IcyBlue ",
+                            "platform": 1
+                        },
+                        "content": "好吧这个更雷人撒....第一题基本上已经猜到题目背景和题目方向了... ",
+                        "postTime": 1267011874,
+                        "id": 1267011874,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "... ",
+                        "postTime": 1267011992,
+                        "id": 1267011992,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "420836131",
+                            "name": "doc ",
+                            "platform": 1
+                        },
+                        "content": "....lcy你~你个坏孩子~比在50中还坏~还好猜出题目的是你，50中今年全挂~！你就不用去通风报信了~~~~~ ",
+                        "postTime": 1267016954,
+                        "id": 1267016954,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

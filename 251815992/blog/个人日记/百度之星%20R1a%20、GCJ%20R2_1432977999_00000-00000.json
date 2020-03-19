@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1433050615,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "B单调队列980ms卡过 ",
+                "capacity": 12157,
+                "poster": {
+                    "id": "614173971",
+                    "platform": 1,
+                    "name": "... ",
+                    "emoji": []
+                },
+                "bmp": "08c59da00102a120",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

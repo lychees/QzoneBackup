@@ -1,0 +1,79 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1276346951,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]...图好mm好...[/ft] ",
+                "capacity": 12143,
+                "poster": {
+                    "id": "1252959374",
+                    "platform": 1,
+                    "name": "肥猫 ",
+                    "emoji": []
+                },
+                "bmp": "0880940002000001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1276353934,
+                "effect": 32,
+                "replyNum": 3,
+                "content": "[ft=,2,]图是你画的？？？[/ft]\n[ft=,2,]女孩好传神。。。[/ft]\n[em]e154[/em][ft=,2,]萌~~~[/ft] ",
+                "capacity": 11704,
+                "poster": {
+                    "id": "87974035",
+                    "platform": 1,
+                    "name": "Be ",
+                    "emoji": []
+                },
+                "bmp": "0894d4a00040e101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "哎...#  你们不要误会。。图不是我画的。。\n而且。。之前我是想画一张好多同学聚在一起的画面。。\n但是找不到好的构图。。。这幅虽然和开始的想法差别比较大。。\n但是色彩和我心里想的一样所以就贴来了。。。。 ",
+                        "postTime": 1276354092,
+                        "id": 1276354092,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "87974035",
+                            "name": "Be ",
+                            "platform": 1
+                        },
+                        "content": "传神就足够了\n这个构图很好\n有中国古代作画构图的神韵\n你应该知道指的是什么 深山藏古寺之类的绝妙构思 ",
+                        "postTime": 1276354279,
+                        "id": 1276354279,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "。。。。呵呵。。～～ ",
+                        "postTime": 1276354325,
+                        "id": 1276354325,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

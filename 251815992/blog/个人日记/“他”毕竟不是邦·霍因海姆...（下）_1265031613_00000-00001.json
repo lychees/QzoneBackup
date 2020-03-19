@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1265267222,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "[ft=,2,]滴答你妈个头啊。。。。。。。[/ft] ",
+                "capacity": 12125,
+                "poster": {
+                    "id": "122698324",
+                    "platform": 1,
+                    "name": "张晓晨 ",
+                    "emoji": []
+                },
+                "bmp": "18d19560010e8009",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1265274794,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "[ft=,2,]10秒的时候你在吃面条么- -[/ft]\n \n[ft=,2,]脑残吧。。。。。[/ft]\n[ft=,2,][/ft] ",
+                "capacity": 12082,
+                "poster": {
+                    "id": "122698324",
+                    "platform": 1,
+                    "name": "张晓晨 ",
+                    "emoji": []
+                },
+                "bmp": "18d19560010e8009",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

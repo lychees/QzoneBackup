@@ -1,0 +1,161 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1278026273,
+                "effect": 1056,
+                "replyNum": 12,
+                "content": "我感觉你的电脑技术不错嘛！能不能教我一些啊 ",
+                "capacity": 11373,
+                "poster": {
+                    "id": "308750523",
+                    "platform": 1,
+                    "name": "种萝卜的男人　　 ",
+                    "emoji": []
+                },
+                "bmp": "18c48d68010ea081",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "你想学啥... ？\n（ 。。。事先声明。。算了。。你是谁？） ",
+                        "postTime": 1278064981,
+                        "id": 1278064981,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "308750523",
+                            "name": "种萝卜的男人　　 ",
+                            "platform": 1
+                        },
+                        "content": "你会啥呀？我叫马存山 ",
+                        "postTime": 1278114362,
+                        "id": 1278114362,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "Qbasic... Pascal...&& C++... ",
+                        "postTime": 1278129354,
+                        "id": 1278129354,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "308750523",
+                            "name": "种萝卜的男人　　 ",
+                            "platform": 1
+                        },
+                        "content": "看不懂解释一下 ",
+                        "postTime": 1278150759,
+                        "id": 1278150759,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "额... 都是编程的语言.... \n自然我是很乐意教的....\n可是我要怎么做呢... 听一下你的见解吧... ",
+                        "postTime": 1278150854,
+                        "id": 1278150854,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "308750523",
+                            "name": "种萝卜的男人　　 ",
+                            "platform": 1
+                        },
+                        "content": "把它写出来，放日志里我转载过来学，写仔细一点，我这人笨，太深奥了看不懂 ",
+                        "postTime": 1278151195,
+                        "id": 1278151195,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "了解...   ............ 那... \n那么我最早可能要到7月6号之前...\n你愿意等么/~ ",
+                        "postTime": 1278151330,
+                        "id": 1278151330,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "308750523",
+                            "name": "种萝卜的男人　　 ",
+                            "platform": 1
+                        },
+                        "content": "当然能等啦！写好在我空间留言，我每天都会看空间的 ",
+                        "postTime": 1278151598,
+                        "id": 1278151598,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "恩 ",
+                        "postTime": 1278151638,
+                        "id": 1278151638,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "308750523",
+                            "name": "种萝卜的男人　　 ",
+                            "platform": 1
+                        },
+                        "content": "谢谢  对了 还不知道你叫什么名字呢  你叫什么名字啊？ ",
+                        "postTime": 1278151812,
+                        "id": 1278151812,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": ".. 不愿告人 ...... ",
+                        "postTime": 1278151879,
+                        "id": 1278151879,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "308750523",
+                            "name": "种萝卜的男人　　 ",
+                            "platform": 1
+                        },
+                        "content": "那就算了 ",
+                        "postTime": 1278152103,
+                        "id": 1278152103,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

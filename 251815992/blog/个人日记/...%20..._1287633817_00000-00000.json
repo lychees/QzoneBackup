@@ -1,0 +1,51 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1287634816,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "当年学信息奥赛时就加了你吧，现在我学的软件工程专业…… ",
+                "capacity": 12011,
+                "poster": {
+                    "id": "791577378",
+                    "platform": 1,
+                    "name": "Spirit ",
+                    "emoji": []
+                },
+                "bmp": "18c095a00100c101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "呀。求交往。。。～ ",
+                        "postTime": 1287636816,
+                        "id": 1287636816,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "791577378",
+                            "name": "Spirit ",
+                            "platform": 1
+                        },
+                        "content": "呵，本来就加了好友啊，以后有时间多交流…… ",
+                        "postTime": 1287678157,
+                        "id": 1287678157,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

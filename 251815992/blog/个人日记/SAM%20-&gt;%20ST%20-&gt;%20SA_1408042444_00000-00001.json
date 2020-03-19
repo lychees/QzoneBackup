@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1408068605,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "为啥不dc3… ",
+                "capacity": 12160,
+                "poster": {
+                    "id": "365273817",
+                    "platform": 1,
+                    "name": "Picks ",
+                    "emoji": []
+                },
+                "bmp": "18c095800002c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1408182617,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "我说怎么老莫名奇妙RE。。。 ",
+                "capacity": 12144,
+                "poster": {
+                    "id": "807498475",
+                    "platform": 1,
+                    "name": "yc5-yc ",
+                    "emoji": []
+                },
+                "bmp": "88c0958000009101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

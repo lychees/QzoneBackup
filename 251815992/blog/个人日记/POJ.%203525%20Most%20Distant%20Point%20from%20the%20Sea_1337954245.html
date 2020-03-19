@@ -1,0 +1,1349 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    POJ. 3525 Most Distant Point from the Sea
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             POJ. 3525 Most Distant Point from the Sea
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2012-05-25 09:57:25
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(23)	è¯è®º(0)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1337954245,
+"voteids":0,
+"pubtime":1337954245,
+"replynum":0,
+"category":"个人日记",
+"title":"POJ. 3525 Most Distant Point from the Sea",
+"effect":512,
+"effect2":524294,
+"exblogtype":0,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":0,
+"lp_style":0,
+"lp_flag":0,
+"orguin":251815992,
+"orgblogid":1337954245,
+"mention_uins":[ ],
+"attach":[],"comments":[]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <a href="http://poj.org/problem?id=3525" target="_blank">
+                http://poj.org/problem?id=3525
+               </a>
+               <br/>
+               <br/>
+               &lt;h3&gt;Brief description : &lt;/h3&gt;
+               <br/>
+               凸多边形内找距离多变形边最远的一点。（
+               <span class="st">
+                求能放在凸多边形里最大圆的半径
+               </span>
+               。。）
+               <br/>
+               <br/>
+               &lt;h3&gt;Analysis :&lt;/h3&gt;
+               <br/>
+               。。。貌似正解是二分+半平面交判定？。。（
+               <br/>
+               <br/>
+               这里先测下退火。。。总之这个问题产生偏离向量有两种方法。。
+               <br/>
+               <br/>
+               1. 无差别360°随即产生一个。。。
+               <br/>
+               2. 对多边形扫一遍加权产生一个。。。
+               <br/>
+               <br/>
+               后者存在一个 O(n) 的代价。。但是貌似可以一定程度上保证在多边形里面。。（考虑那种猎奇的钝角三角形吧。。。
+               <br/>
+               。。。于是我的策略是 优先采用 策略 1. 。。。当判定出界的情况下下次采用策略 2.。。）
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+               #define LOCAL
+               <br/>
+               <br/>
+               /** ` Micro Mezzo Macro Flation -- Overheated Economy ., **/
+               <br/>
+               <br/>
+               #include &lt;algorithm&gt;
+               <br/>
+               #include &lt;iostream&gt;
+               <br/>
+               #include &lt;iomanip&gt;
+               <br/>
+               #include &lt;sstream&gt;
+               <br/>
+               #include &lt;cstring&gt;
+               <br/>
+               #include &lt;cstdio&gt;
+               <br/>
+               #include &lt;string&gt;
+               <br/>
+               #include &lt;vector&gt;
+               <br/>
+               #include &lt;bitset&gt;
+               <br/>
+               #include &lt;queue&gt;
+               <br/>
+               #include &lt;stack&gt;
+               <br/>
+               #include &lt;cmath&gt;
+               <br/>
+               #include &lt;ctime&gt;
+               <br/>
+               #include &lt;list&gt;
+               <br/>
+               #include &lt;set&gt;
+               <br/>
+               #include &lt;map&gt;
+               <br/>
+               <br/>
+               using namespace std;
+               <br/>
+               <br/>
+               #define REP(i, n) for (int i=0;i&lt;int(n);++i)
+               <br/>
+               #define FOR(i, a, b) for (int i=int(a);i&lt;int(b);++i)
+               <br/>
+               #define DWN(i, b, a) for (int i=int(b-1);i&gt;=int(a);--i)
+               <br/>
+               #define REP_1(i, n) for (int i=1;i&lt;=int(n);++i)
+               <br/>
+               #define FOR_1(i, a, b) for (int i=int(a);i&lt;=int(b);++i)
+               <br/>
+               #define DWN_1(i, b, a) for (int i=int(b);i&gt;=int(a);--i)
+               <br/>
+               #define REP_C(i, n) for (int n____=int(n),i=0;i&lt;n____;++i)
+               <br/>
+               #define FOR_C(i, a, b) for (int b____=int(b),i=a;i&lt;b____;++i)
+               <br/>
+               #define DWN_C(i, b, a) for (int a____=int(a),i=b-1;i&gt;=a____;--i)
+               <br/>
+               #define REP_N(i, n) for (i=0;i&lt;int(n);++i)
+               <br/>
+               #define FOR_N(i, a, b) for (i=int(a);i&lt;int(b);++i)
+               <br/>
+               #define DWN_N(i, b, a) for (i=int(b-1);i&gt;=int(a);--i)
+               <br/>
+               #define REP_1_C(i, n) for (int n____=int(n),i=1;i&lt;=n____;++i)
+               <br/>
+               #define FOR_1_C(i, a, b) for (int b____=int(b),i=a;i&lt;=b____;++i)
+               <br/>
+               #define DWN_1_C(i, b, a) for (int a____=int(a),i=b;i&gt;=a____;--i)
+               <br/>
+               #define REP_1_N(i, n) for (i=1;i&lt;=int(n);++i)
+               <br/>
+               #define FOR_1_N(i, a, b) for (i=int(a);i&lt;=int(b);++i)
+               <br/>
+               #define DWN_1_N(i, b, a) for (i=int(b);i&gt;=int(a);--i)
+               <br/>
+               #define REP_C_N(i, n) for (n____=int(n),i=0;i&lt;n____;++i)
+               <br/>
+               #define FOR_C_N(i, a, b) for (b____=int(b),i=a;i&lt;b____;++i)
+               <br/>
+               #define DWN_C_N(i, b, a) for (a____=int(a),i=b-1;i&gt;=a____;--i)
+               <br/>
+               #define REP_1_C_N(i, n) for (n____=int(n),i=1;i&lt;=n____;++i)
+               <br/>
+               #define FOR_1_C_N(i, a, b) for (b____=int(b),i=a;i&lt;=b____;++i)
+               <br/>
+               #define DWN_1_C_N(i, b, a) for (a____=int(a),i=b;i&gt;=a____;--i)
+               <br/>
+               <br/>
+               #define ECH(it, A) for (typeof(A.begin()) it=A.begin(); it != A.end(); ++it)
+               <br/>
+               #define DO(n) while(n--)
+               <br/>
+               #define DO_C(n) int n____ = n; while(n____--)
+               <br/>
+               #define TO(i, a, b) int s_=a&lt;b?1:-1,b_=b+s_;for(int i=a;i!=b_;i+=s_)
+               <br/>
+               #define TO_1(i, a, b) int s_=a&lt;b?1:-1,b_=b;for(int i=a;i!=b_;i+=s_)
+               <br/>
+               #define SQZ(i, j, a, b) for (int i=int(a),j=int(b)-1;i&lt;j;++i,--j)
+               <br/>
+               #define SQZ_1(i, j, a, b) for (int i=int(a),j=int(b);i&lt;=j;++i,--j)
+               <br/>
+               #define REP_2(i, j, n, m) REP(i, n) REP(j, m)
+               <br/>
+               #define REP_2_1(i, j, n, m) REP_1(i, n) REP_1(j, m)
+               <br/>
+               <br/>
+               #define ALL(A) A.begin(), A.end()
+               <br/>
+               #define LLA(A) A.rbegin(), A.rend()
+               <br/>
+               #define CPY(A, B) memcpy(A, B, sizeof(A))
+               <br/>
+               #define INS(A, P, B) A.insert(A.begin() + P, B)
+               <br/>
+               #define ERS(A, P) A.erase(A.begin() + P)
+               <br/>
+               #define BSC(A, X) find(ALL(A), X) // != A.end()
+               <br/>
+               #define CTN(T, x) (T.find(x) != T.end())
+               <br/>
+               #define SZ(A) int(A.size())
+               <br/>
+               #define PB push_back
+               <br/>
+               #define MP(A, B) make_pair(A, B)
+               <br/>
+               <br/>
+               #define Rush int T____; RD(T____); DO(T____)
+               <br/>
+               #pragma comment(linker, "/STACK:36777216")
+               <br/>
+               //#pragma GCC optimize ("O2")
+               <br/>
+               #define Ruby system("ruby main.rb")
+               <br/>
+               #define Haskell system("runghc main.hs")
+               <br/>
+               #define Pascal system("fpc main.pas")
+               <br/>
+               <br/>
+               typedef long long LL;
+               <br/>
+               typedef double DB;
+               <br/>
+               typedef unsigned UINT;
+               <br/>
+               typedef unsigned long long ULL;
+               <br/>
+               <br/>
+               typedef vector&lt;int&gt; VI;
+               <br/>
+               typedef vector&lt;char&gt; VC;
+               <br/>
+               typedef vector&lt;string&gt; VS;
+               <br/>
+               typedef vector&lt;LL&gt; VL;
+               <br/>
+               typedef vector&lt;DB&gt; VD;
+               <br/>
+               typedef set&lt;int&gt; SI;
+               <br/>
+               typedef set&lt;string&gt; SS;
+               <br/>
+               typedef set&lt;LL&gt; SL;
+               <br/>
+               typedef set&lt;DB&gt; SD;
+               <br/>
+               typedef map&lt;int, int&gt; MII;
+               <br/>
+               typedef map&lt;string, int&gt; MSI;
+               <br/>
+               typedef map&lt;LL, int&gt; MLI;
+               <br/>
+               typedef map&lt;DB, int&gt; MDI;
+               <br/>
+               typedef map&lt;int, bool&gt; MIB;
+               <br/>
+               typedef map&lt;string, bool&gt; MSB;
+               <br/>
+               typedef map&lt;LL, bool&gt; MLB;
+               <br/>
+               typedef map&lt;DB, bool&gt; MDB;
+               <br/>
+               typedef pair&lt;int, int&gt; PII;
+               <br/>
+               typedef pair&lt;int, bool&gt; PIB;
+               <br/>
+               typedef vector&lt;PII&gt; VII;
+               <br/>
+               typedef vector&lt;VI&gt; VVI;
+               <br/>
+               typedef vector&lt;VII&gt; VVII;
+               <br/>
+               typedef set&lt;PII&gt; SII;
+               <br/>
+               typedef map&lt;PII, int&gt; MPIII;
+               <br/>
+               typedef map&lt;PII, bool&gt; MPIIB;
+               <br/>
+               <br/>
+               /** I/O Accelerator **/
+               <br/>
+               <br/>
+               /* ... :" We are I/O Accelerator ... Use us at your own risk ;) ... " .. */
+               <br/>
+               <br/>
+               template&lt;class T&gt; inline void RD(T &amp;);
+               <br/>
+               template&lt;class T&gt; inline void OT(const T &amp;);
+               <br/>
+               <br/>
+               inline int RD(){ int x; RD(x); return x;}
+               <br/>
+               template&lt;class T&gt; inline T&amp; _RD(T &amp;x){ RD(x); return x;}
+               <br/>
+               inline void RC(char &amp;c){scanf(" %c", &amp;c);}
+               <br/>
+               inline void RS(char *s){scanf("%s", s);}
+               <br/>
+               <br/>
+               template&lt;class T0, class T1&gt; inline void RD(T0 &amp;x0, T1 &amp;x1){RD(x0), RD(x1);}
+               <br/>
+               template&lt;class T0, class T1, class T2&gt; inline void RD(T0 &amp;x0, T1 &amp;x1, T2 &amp;x2){RD(x0), RD(x1), RD(x2);}
+               <br/>
+               template&lt;class T0, class T1, class T2, class T3&gt; inline void RD(T0 &amp;x0, T1 &amp;x1, T2 &amp;x2, T3 &amp;x3){RD(x0), RD(x1), RD(x2), RD(x3);}
+               <br/>
+               template&lt;class T0, class T1, class T2, class T3, class T4&gt; inline void RD(T0 &amp;x0, T1 &amp;x1, T2 &amp;x2, T3 &amp;x3, T4 &amp;x4){RD(x0), RD(x1), RD(x2), RD(x3), RD(x4);}
+               <br/>
+               template&lt;class T0, class T1, class T2, class T3, class T4, class T5&gt; inline void RD(T0 &amp;x0, T1 &amp;x1, T2 &amp;x2, T3 &amp;x3, T4 &amp;x4, T5 &amp;x5){RD(x0), RD(x1), RD(x2), RD(x3), RD(x4), RD(x5);}
+               <br/>
+               template&lt;class T0, class T1, class T2, class T3, class T4, class T5, class T6&gt; inline void RD(T0 &amp;x0, T1 &amp;x1, T2 &amp;x2, T3 &amp;x3, T4 &amp;x4, T5 &amp;x5, T6 &amp;x6){RD(x0), RD(x1), RD(x2), RD(x3), RD(x4), RD(x5), RD(x6);}
+               <br/>
+               template&lt;class T0, class T1&gt; inline void OT(T0 &amp;x0, T1 &amp;x1){OT(x0), OT(x1);}
+               <br/>
+               template&lt;class T0, class T1, class T2&gt; inline void OT(T0 &amp;x0, T1 &amp;x1, T2 &amp;x2){OT(x0), OT(x1), OT(x2);}
+               <br/>
+               template&lt;class T0, class T1, class T2, class T3&gt; inline void OT(T0 &amp;x0, T1 &amp;x1, T2 &amp;x2, T3 &amp;x3){OT(x0), OT(x1), OT(x2), OT(x3);}
+               <br/>
+               template&lt;class T0, class T1, class T2, class T3, class T4&gt; inline void OT(T0 &amp;x0, T1 &amp;x1, T2 &amp;x2, T3 &amp;x3, T4 &amp;x4){OT(x0), OT(x1), OT(x2), OT(x3), OT(x4);}
+               <br/>
+               template&lt;class T0, class T1, class T2, class T3, class T4, class T5&gt; inline void OT(T0 &amp;x0, T1 &amp;x1, T2 &amp;x2, T3 &amp;x3, T4 &amp;x4, T5 &amp;x5){OT(x0), OT(x1), OT(x2), OT(x3), OT(x4), OT(x5);}
+               <br/>
+               template&lt;class T0, class T1, class T2, class T3, class T4, class T5, class T6&gt; inline void OT(T0 &amp;x0, T1 &amp;x1, T2 &amp;x2, T3 &amp;x3, T4 &amp;x4, T5 &amp;x5, T6 &amp;x6){OT(x0), OT(x1), OT(x2), OT(x3), OT(x4), OT(x5), OT(x6);}
+               <br/>
+               <br/>
+               template&lt;class T&gt; inline void RST(T &amp;A){memset(A, 0, sizeof(A));}
+               <br/>
+               template&lt;class T0, class T1&gt; inline void RST(T0 &amp;A0, T1 &amp;A1){RST(A0), RST(A1);}
+               <br/>
+               template&lt;class T0, class T1, class T2&gt; inline void RST(T0 &amp;A0, T1 &amp;A1, T2 &amp;A2){RST(A0), RST(A1), RST(A2);}
+               <br/>
+               template&lt;class T0, class T1, class T2, class T3&gt; inline void RST(T0 &amp;A0, T1 &amp;A1, T2 &amp;A2, T3 &amp;A3){RST(A0), RST(A1), RST(A2), RST(A3);}
+               <br/>
+               template&lt;class T0, class T1, class T2, class T3, class T4&gt; inline void RST(T0 &amp;A0, T1 &amp;A1, T2 &amp;A2, T3 &amp;A3, T4 &amp;A4){RST(A0), RST(A1), RST(A2), RST(A3), RST(A4);}
+               <br/>
+               template&lt;class T0, class T1, class T2, class T3, class T4, class T5&gt; inline void RST(T0 &amp;A0, T1 &amp;A1, T2 &amp;A2, T3 &amp;A3, T4 &amp;A4, T5 &amp;A5){RST(A0), RST(A1), RST(A2), RST(A3), RST(A4), RST(A5);}
+               <br/>
+               template&lt;class T0, class T1, class T2, class T3, class T4, class T5, class T6&gt; inline void RST(T0 &amp;A0, T1 &amp;A1, T2 &amp;A2, T3 &amp;A3, T4 &amp;A4, T5 &amp;A5, T6 &amp;A6){RST(A0), RST(A1), RST(A2), RST(A3), RST(A4), RST(A5), RST(A6);}
+               <br/>
+               <br/>
+               <br/>
+               template&lt;class T&gt; inline void CLR(priority_queue&lt;T, vector&lt;T&gt;, less&lt;T&gt; &gt; &amp;Q){
+               <br/>
+               while (!Q.empty()) Q.pop();
+               <br/>
+               }
+               <br/>
+               <br/>
+               template&lt;class T&gt; inline void CLR(priority_queue&lt;T, vector&lt;T&gt;, greater&lt;T&gt; &gt; &amp;Q){
+               <br/>
+               while (!Q.empty()) Q.pop();
+               <br/>
+               }
+               <br/>
+               <br/>
+               template&lt;class T&gt; inline void CLR(T &amp;A){A.clear();}
+               <br/>
+               template&lt;class T0, class T1&gt; inline void CLR(T0 &amp;A0, T1 &amp;A1){CLR(A0), CLR(A1);}
+               <br/>
+               template&lt;class T0, class T1, class T2&gt; inline void CLR(T0 &amp;A0, T1 &amp;A1, T2 &amp;A2){CLR(A0), CLR(A1), CLR(A2);}
+               <br/>
+               template&lt;class T0, class T1, class T2, class T3&gt; inline void CLR(T0 &amp;A0, T1 &amp;A1, T2 &amp;A2, T3 &amp;A3){CLR(A0), CLR(A1), CLR(A2), CLR(A3);}
+               <br/>
+               template&lt;class T0, class T1, class T2, class T3, class T4&gt; inline void CLR(T0 &amp;A0, T1 &amp;A1, T2 &amp;A2, T3 &amp;A3, T4 &amp;A4){CLR(A0), CLR(A1), CLR(A2), CLR(A3), CLR(A4);}
+               <br/>
+               template&lt;class T0, class T1, class T2, class T3, class T4, class T5&gt; inline void CLR(T0 &amp;A0, T1 &amp;A1, T2 &amp;A2, T3 &amp;A3, T4 &amp;A4, T5 &amp;A5){CLR(A0), CLR(A1), CLR(A2), CLR(A3), CLR(A4), CLR(A5);}
+               <br/>
+               template&lt;class T0, class T1, class T2, class T3, class T4, class T5, class T6&gt; inline void CLR(T0 &amp;A0, T1 &amp;A1, T2 &amp;A2, T3 &amp;A3, T4 &amp;A4, T5 &amp;A5, T6 &amp;A6){CLR(A0), CLR(A1), CLR(A2), CLR(A3), CLR(A4), CLR(A5), CLR(A6);}
+               <br/>
+               template&lt;class T&gt; inline void CLR(T &amp;A, int n){REP(i, n) CLR(A[i]);}
+               <br/>
+               template&lt;class T&gt; inline void FLC(T &amp;A, int x){memset(A, x, sizeof(A));}
+               <br/>
+               template&lt;class T0, class T1&gt; inline void FLC(T0 &amp;A0, T1 &amp;A1, int x){FLC(A0, x), FLC(A1, x);}
+               <br/>
+               template&lt;class T0, class T1, class T2&gt; inline void FLC(T0 &amp;A0, T1 &amp;A1, T2 &amp;A2){FLC(A0), FLC(A1), FLC(A2);}
+               <br/>
+               template&lt;class T0, class T1, class T2, class T3&gt; inline void FLC(T0 &amp;A0, T1 &amp;A1, T2 &amp;A2, T3 &amp;A3){FLC(A0), FLC(A1), FLC(A2), FLC(A3);}
+               <br/>
+               template&lt;class T0, class T1, class T2, class T3, class T4&gt; inline void FLC(T0 &amp;A0, T1 &amp;A1, T2 &amp;A2, T3 &amp;A3, T4 &amp;A4){FLC(A0), FLC(A1), FLC(A2), FLC(A3), FLC(A4);}
+               <br/>
+               template&lt;class T0, class T1, class T2, class T3, class T4, class T5&gt; inline void FLC(T0 &amp;A0, T1 &amp;A1, T2 &amp;A2, T3 &amp;A3, T4 &amp;A4, T5 &amp;A5){FLC(A0), FLC(A1), FLC(A2), FLC(A3), FLC(A4), FLC(A5);}
+               <br/>
+               template&lt;class T0, class T1, class T2, class T3, class T4, class T5, class T6&gt; inline void FLC(T0 &amp;A0, T1 &amp;A1, T2 &amp;A2, T3 &amp;A3, T4 &amp;A4, T5 &amp;A5, T6 &amp;A6){FLC(A0), FLC(A1), FLC(A2), FLC(A3), FLC(A4), FLC(A5), FLC(A6);}
+               <br/>
+               <br/>
+               template&lt;class T&gt; inline void SRT(T &amp;A){sort(ALL(A));}
+               <br/>
+               template&lt;class T, class C&gt; inline void SRT(T &amp;A, C B){sort(ALL(A), B);}
+               <br/>
+               <br/>
+               /** Add - On **/
+               <br/>
+               <br/>
+               const int MOD = 1000000007;
+               <br/>
+               const int INF = 10009;
+               <br/>
+               const DB EPS = 1e-9;
+               <br/>
+               const DB OO = 1e15;
+               <br/>
+               const DB PI = 3.14159265358979323846264; //M_PI;
+               <br/>
+               <br/>
+               // &lt;&lt;= ` 0. Daily Use .,
+               <br/>
+               <br/>
+               template&lt;class T&gt; inline void checkMin(T &amp;a,const T b){if (b&lt;a) a=b;}
+               <br/>
+               template&lt;class T&gt; inline void checkMax(T &amp;a,const T b){if (b&gt;a) a=b;}
+               <br/>
+               template &lt;class T, class C&gt; inline void checkMin(T&amp; a, const T b, C c){if (c(b,a)) a = b;}
+               <br/>
+               template &lt;class T, class C&gt; inline void checkMax(T&amp; a, const T b, C c){if (c(a,b)) a = b;}
+               <br/>
+               template&lt;class T&gt; inline T min(T a, T b, T c){return min(min(a, b), c);}
+               <br/>
+               template&lt;class T&gt; inline T max(T a, T b, T c){return max(max(a, b), c);}
+               <br/>
+               template&lt;class T&gt; inline T min(T a, T b, T c, T d){return min(min(a, b), min(c, d));}
+               <br/>
+               template&lt;class T&gt; inline T max(T a, T b, T c, T d){return max(min(a, b), max(c, d));}
+               <br/>
+               template&lt;class T&gt; inline T sqr(T a){return a*a;}
+               <br/>
+               template&lt;class T&gt; inline T cub(T a){return a*a*a;}
+               <br/>
+               int Ceil(int x, int y){return (x - 1) / y + 1;}
+               <br/>
+               <br/>
+               // &lt;&lt;= ` 1. Bitwise Operation .,
+               <br/>
+               inline bool _1(int x, int i){return x &amp; 1&lt;&lt;i;}
+               <br/>
+               inline bool _1(LL x, int i){return x &amp; 1LL&lt;&lt;i;}
+               <br/>
+               inline LL _1(int i){return 1LL&lt;&lt;i;}
+               <br/>
+               //inline int _1(int i){return 1&lt;&lt;i;}
+               <br/>
+               inline LL _U(int i){return _1(i) - 1;};
+               <br/>
+               //inline int _U(int i){return _1(i) - 1;};
+               <br/>
+               <br/>
+               inline int count_bits(int x){
+               <br/>
+               x = (x &amp; 0x55555555) + ((x &amp; 0xaaaaaaaa) &gt;&gt; 1);
+               <br/>
+               x = (x &amp; 0x33333333) + ((x &amp; 0xcccccccc) &gt;&gt; 2);
+               <br/>
+               x = (x &amp; 0x0f0f0f0f) + ((x &amp; 0xf0f0f0f0) &gt;&gt; 4);
+               <br/>
+               x = (x &amp; 0x00ff00ff) + ((x &amp; 0xff00ff00) &gt;&gt; 8);
+               <br/>
+               x = (x &amp; 0x0000ffff) + ((x &amp; 0xffff0000) &gt;&gt; 16);
+               <br/>
+               return x;
+               <br/>
+               }
+               <br/>
+               <br/>
+               inline int count_bits(LL x){
+               <br/>
+               x = (x &amp; 0x5555555555555555LL) + ((x &amp; 0xaaaaaaaaaaaaaaaaLL) &gt;&gt; 1);
+               <br/>
+               x = (x &amp; 0x3333333333333333LL) + ((x &amp; 0xccccccccccccccccLL) &gt;&gt; 2);
+               <br/>
+               x = (x &amp; 0x0f0f0f0f0f0f0f0fLL) + ((x &amp; 0xf0f0f0f0f0f0f0f0LL) &gt;&gt; 4);
+               <br/>
+               x = (x &amp; 0x00ff00ff00ff00ffLL) + ((x &amp; 0xff00ff00ff00ff00LL) &gt;&gt; 8);
+               <br/>
+               x = (x &amp; 0x0000ffff0000ffffLL) + ((x &amp; 0xffff0000ffff0000LL) &gt;&gt; 16);
+               <br/>
+               x = (x &amp; 0x00000000ffffffffLL) + ((x &amp; 0xffffffff00000000LL) &gt;&gt; 32);
+               <br/>
+               return x;
+               <br/>
+               }
+               <br/>
+               <br/>
+               int reverse_bits(int x){
+               <br/>
+               x = ((x &gt;&gt; 1) &amp; 0x55555555) | ((x &lt;&lt; 1) &amp; 0xaaaaaaaa);
+               <br/>
+               x = ((x &gt;&gt; 2) &amp; 0x33333333) | ((x &lt;&lt; 2) &amp; 0xcccccccc);
+               <br/>
+               x = ((x &gt;&gt; 4) &amp; 0x0f0f0f0f) | ((x &lt;&lt; 4) &amp; 0xf0f0f0f0);
+               <br/>
+               x = ((x &gt;&gt; 8) &amp; 0x00ff00ff) | ((x &lt;&lt; 8) &amp; 0xff00ff00);
+               <br/>
+               x = ((x &gt;&gt; 16) &amp; 0x0000ffff) | ((x &lt;&lt; 16) &amp; 0xffff0000);
+               <br/>
+               return x;
+               <br/>
+               }
+               <br/>
+               <br/>
+               // &lt;&lt;= ` 2. Modular Arithmetic Basic .,
+               <br/>
+               <br/>
+               inline void INC(int &amp;a, int b){a += b; if (a &gt;= MOD) a -= MOD;}
+               <br/>
+               inline int sum(int a, int b){a += b; if (a &gt;= MOD) a -= MOD; return a;}
+               <br/>
+               inline void DEC(int &amp;a, int b){a -= b; if (a &lt; 0) a += MOD;}
+               <br/>
+               inline int dff(int a, int b){a -= b; if (a &lt; 0) a  += MOD; return a;}
+               <br/>
+               inline void MUL(int &amp;a, int b){a = (LL)a * b % MOD;}
+               <br/>
+               inline int pdt(int a, int b){return (LL)a * b % MOD;}
+               <br/>
+               <br/>
+               inline int pow(int a, int b){
+               <br/>
+               int c = 1;
+               <br/>
+               while (b) {
+               <br/>
+               if (b&amp;1) MUL(c, a);
+               <br/>
+               MUL(a, a), b &gt;&gt;= 1;
+               <br/>
+               }
+               <br/>
+               return c;
+               <br/>
+               }
+               <br/>
+               <br/>
+               template&lt;class T&gt;
+               <br/>
+               inline int pow(T a, int b){
+               <br/>
+               T c(1);
+               <br/>
+               while (b) {
+               <br/>
+               if (b&amp;1) MUL(c, a);
+               <br/>
+               MUL(a, a), b &gt;&gt;= 1;
+               <br/>
+               }
+               <br/>
+               return c;
+               <br/>
+               }
+               <br/>
+               <br/>
+               inline int _I(int b){
+               <br/>
+               int a = MOD, x1 = 0, x2 = 1, q;
+               <br/>
+               while (true){
+               <br/>
+               q = a / b, a %= b;
+               <br/>
+               if (!a) return (x2 + MOD) % MOD;
+               <br/>
+               DEC(x1, pdt(q, x2));
+               <br/>
+               <br/>
+               q = b / a, b %= a;
+               <br/>
+               if (!b) return (x1 + MOD) % MOD;
+               <br/>
+               DEC(x2, pdt(q, x1));
+               <br/>
+               }
+               <br/>
+               }
+               <br/>
+               <br/>
+               inline void DIV(int &amp;a, int b){MUL(a, _I(b));}
+               <br/>
+               inline int qtt(int a, int b){return pdt(a, _I(b));}
+               <br/>
+               <br/>
+               inline int sum(int a, int b, int MOD){
+               <br/>
+               a += b; if (a &gt;= MOD) a -= MOD;
+               <br/>
+               return a;
+               <br/>
+               }
+               <br/>
+               <br/>
+               inline int phi(int n){
+               <br/>
+               int res = n;
+               <br/>
+               for (int i=2;sqr(i)&lt;=n;++i) if (!(n%i)){
+               <br/>
+               DEC(res, qtt(res, i));
+               <br/>
+               do{n /= i;} while(!(n%i));
+               <br/>
+               }
+               <br/>
+               if (n != 1)
+               <br/>
+               DEC(res, qtt(res, n));
+               <br/>
+               return res;
+               <br/>
+               }
+               <br/>
+               <br/>
+               // &lt;&lt;= '9. Comutational Geometry .,
+               <br/>
+               <br/>
+               struct Po; struct Line; struct Seg;
+               <br/>
+               <br/>
+               inline int sgn(DB x){return x &lt; -EPS ? -1 : x &gt; EPS;}
+               <br/>
+               inline int sgn(DB x, DB y){return sgn(x - y);}
+               <br/>
+               <br/>
+               struct Po{
+               <br/>
+               DB x, y;
+               <br/>
+               Po(DB _x = 0, DB _y = 0):x(_x), y(_y){}
+               <br/>
+               <br/>
+               friend istream&amp; operator &gt;&gt;(istream&amp; in, Po &amp;p){return in &gt;&gt; p.x &gt;&gt; p.y;}
+               <br/>
+               friend ostream&amp; operator &lt;&lt;(ostream&amp; out, Po p){return out &lt;&lt; "(" &lt;&lt; p.x &lt;&lt; ", " &lt;&lt; p.y &lt;&lt; ")";}
+               <br/>
+               <br/>
+               friend bool operator ==(Po, Po);
+               <br/>
+               friend bool operator !=(Po, Po);
+               <br/>
+               friend Po operator +(Po, Po);
+               <br/>
+               friend Po operator -(Po, Po);
+               <br/>
+               friend Po operator *(Po, DB);
+               <br/>
+               friend Po operator /(Po, DB);
+               <br/>
+               <br/>
+               bool operator &lt; (const Po &amp;rhs) const{return sgn(x, rhs.x) &lt; 0 || sgn(x, rhs.x) == 0 &amp;&amp; sgn(y, rhs.y) &lt; 0;}
+               <br/>
+               Po operator-() const{return Po(-x, -y);}
+               <br/>
+               Po&amp; operator +=(Po rhs){x += rhs.x, y += rhs.y; return *this;}
+               <br/>
+               Po&amp; operator -=(Po rhs){x -= rhs.x, y -= rhs.y; return *this;}
+               <br/>
+               Po&amp; operator *=(DB k){x *= k, y *= k; return *this;}
+               <br/>
+               Po&amp; operator /=(DB k){x /= k, y /= k; return *this;}
+               <br/>
+               <br/>
+               DB length_sqr(){return sqr(x) + sqr(y);}
+               <br/>
+               DB length(){return sqrt(length_sqr());}
+               <br/>
+               <br/>
+               DB atan(){
+               <br/>
+               return atan2(y, x);
+               <br/>
+               }
+               <br/>
+               <br/>
+               void input(){
+               <br/>
+               scanf("%lf %lf", &amp;x, &amp;y);
+               <br/>
+               }
+               <br/>
+               };
+               <br/>
+               <br/>
+               bool operator ==(Po a, Po b){return sgn(a.x - b.x) == 0 &amp;&amp; sgn(a.y - b.y) == 0;}
+               <br/>
+               bool operator !=(Po a, Po b){return sgn(a.x - b.x) != 0 || sgn(a.y - b.y) != 0;}
+               <br/>
+               Po operator +(Po a, Po b){return Po(a.x + b.x, a.y + b.y);}
+               <br/>
+               Po operator -(Po a, Po b){return Po(a.x - b.x, a.y - b.y);}
+               <br/>
+               Po operator *(Po a, DB k){return Po(a.x * k, a.y * k);}
+               <br/>
+               Po operator *(DB k, Po a){return a * k;}
+               <br/>
+               Po operator /(Po a, DB k){return Po(a.x / k, a.y / k);}
+               <br/>
+               <br/>
+               struct Line{
+               <br/>
+               Po a, b;
+               <br/>
+               Line(Po _a = Po(), Po _b = Po()):a(_a), b(_b){}
+               <br/>
+               Line(DB x0, DB y0, DB x1, DB y1):a(Po(x0, y0)), b(Po(x1, y1)){}
+               <br/>
+               Line(Seg);
+               <br/>
+               <br/>
+               friend ostream&amp; operator &lt;&lt;(ostream&amp; out, Line p){return out &lt;&lt; p.a &lt;&lt; "-" &lt;&lt; p.b;}
+               <br/>
+               };
+               <br/>
+               <br/>
+               struct Seg{
+               <br/>
+               Po a, b;
+               <br/>
+               Seg(Po _a = Po(), Po _b = Po()):a(_a), b(_b){}
+               <br/>
+               Seg(DB x0, DB y0, DB x1, DB y1):a(Po(x0, y0)), b(Po(x1, y1)){}
+               <br/>
+               Seg(Line l);
+               <br/>
+               <br/>
+               friend ostream&amp; operator &lt;&lt;(ostream&amp; out, Seg p){return out &lt;&lt; p.a &lt;&lt; "-" &lt;&lt; p.b;}
+               <br/>
+               DB length(){return (b - a).length();}
+               <br/>
+               };
+               <br/>
+               <br/>
+               Line::Line(Seg l):a(l.a), b(l.b){}
+               <br/>
+               Seg::Seg(Line l):a(l.a), b(l.b){}
+               <br/>
+               <br/>
+               #define innerProduct dot
+               <br/>
+               #define scalarProduct dot
+               <br/>
+               #define dotProduct dot
+               <br/>
+               #define outerProduct det
+               <br/>
+               #define crossProduct det
+               <br/>
+               <br/>
+               inline DB dot(DB x1, DB y1, DB x2, DB y2){return x1 * x2 + y1 * y2;}
+               <br/>
+               inline DB dot(Po a, Po b){return dot(a.x, a.y, b.x, b.y);}
+               <br/>
+               inline DB dot(Po p0, Po p1, Po p2){return dot(p1 - p0, p2 - p0);}
+               <br/>
+               inline DB dot(Line l1, Line l2){return dot(l1.b - l1.a, l2.b - l2.a);}
+               <br/>
+               inline DB det(DB x1, DB y1, DB x2, DB y2){return x1 * y2 - x2 * y1;}
+               <br/>
+               inline DB det(Po a, Po b){return det(a.x, a.y, b.x, b.y);}
+               <br/>
+               inline DB det(Po p0, Po p1, Po p2){return det(p1 - p0, p2 - p0);}
+               <br/>
+               inline DB det(Line l1, Line l2){return det(l1.b - l1.a, l2.b - l2.a);}
+               <br/>
+               <br/>
+               template&lt;class T1, class T2&gt; inline DB dist(T1 x, T2 y){return sqrt(dist_sqr(x, y));}
+               <br/>
+               <br/>
+               inline DB dist_sqr(Po a, Po b){return sqr(a.x - b.x) + sqr(a.y - b.y);}
+               <br/>
+               inline DB dist_sqr(Po p, Line l){Po v0 = l.b - l.a, v1 = p - l.a; return sqr(fabs(det(v0, v1))) / v0.length_sqr();}
+               <br/>
+               inline DB dist_sqr(Po p, Seg l){
+               <br/>
+               Po v0 = l.b - l.a, v1 = p - l.a, v2 = p - l.b;
+               <br/>
+               if (sgn(dot(v0, v1)) * sgn(dot(v0, v2)) &lt;= 0) return dist_sqr(p, Line(l));
+               <br/>
+               else return min(v1.length_sqr(), v2.length_sqr());
+               <br/>
+               }
+               <br/>
+               <br/>
+               inline DB dist_sqr(Line l, Po p){return dist_sqr(p, l);}
+               <br/>
+               inline DB dist_sqr(Seg l, Po p){return dist_sqr(p, l);}
+               <br/>
+               <br/>
+               inline DB dist_sqr(Line l1, Line l2){
+               <br/>
+               if (sgn(det(l1, l2)) != 0) return 0;
+               <br/>
+               return dist_sqr(l1.a, l2);
+               <br/>
+               }
+               <br/>
+               inline DB dist_sqr(Line l1, Seg l2){
+               <br/>
+               Po v0 = l1.b - l1.a, v1 = l2.a - l1.a, v2 = l2.b - l1.a; DB c1 = det(v0, v1), c2 = det(v0, v2);
+               <br/>
+               return sgn(c1) != sgn(c2) ? 0 : sqr(min(fabs(c1), fabs(c2))) / v0.length_sqr();
+               <br/>
+               }
+               <br/>
+               <br/>
+               bool isIntersect(Seg l1, Seg l2){
+               <br/>
+               <br/>
+               //if (l1.a == l2.a || l1.a == l2.b || l1.b == l2.a || l1.b == l2.b) return true;
+               <br/>
+               <br/>
+               return
+               <br/>
+               min(l1.a.x, l1.b.x) &lt;= max(l2.a.x, l2.b.x) &amp;&amp;
+               <br/>
+               min(l2.a.x, l2.b.x) &lt;= max(l1.a.x, l1.b.x) &amp;&amp;
+               <br/>
+               min(l1.a.y, l1.b.y) &lt;= max(l2.a.y, l2.b.y) &amp;&amp;
+               <br/>
+               min(l2.a.y, l2.b.y) &lt;= max(l1.a.y, l1.b.y) &amp;&amp;
+               <br/>
+               sgn( det(l1.a, l2.a, l2.b) ) * sgn( det(l1.b, l2.a, l2.b) ) &lt;= 0 &amp;&amp;
+               <br/>
+               sgn( det(l2.a, l1.a, l1.b) ) * sgn( det(l2.b, l1.a, l1.b) ) &lt;= 0;
+               <br/>
+               <br/>
+               }
+               <br/>
+               <br/>
+               inline DB dist_sqr(Seg l1, Seg l2){
+               <br/>
+               if (isIntersect(l1, l2)) return 0;
+               <br/>
+               else return min(dist_sqr(l1.a, l2), dist_sqr(l1.b, l2), dist_sqr(l2.a, l1), dist_sqr(l2.b, l1));
+               <br/>
+               }
+               <br/>
+               <br/>
+               inline bool isOnExtremePoint(const Po &amp;p, const Seg &amp;l){
+               <br/>
+               return p == l.a || p == l.b;
+               <br/>
+               }
+               <br/>
+               <br/>
+               inline bool isOnseg(const Po &amp;p, const Seg &amp;l){
+               <br/>
+               <br/>
+               //if (p == l.a || p == l.b) return false;
+               <br/>
+               <br/>
+               return sgn(det(p, l.a, l.b)) == 0 &amp;&amp;
+               <br/>
+               sgn(l.a.x, p.x) * sgn(l.b.x, p.x) &lt;= 0 &amp;&amp; sgn(l.a.y, p.y) * sgn(l.b.y, p.y) &lt;= 0;
+               <br/>
+               }
+               <br/>
+               <br/>
+               inline Po intersect(const Line &amp;l1, const Line &amp;l2){
+               <br/>
+               return l1.a + (l1.b - l1.a) * (det(l2.a, l1.a, l2.b) / det(l2, l1));
+               <br/>
+               }
+               <br/>
+               <br/>
+               // perpendicular foot
+               <br/>
+               inline Po intersect(const Po &amp; p, const Line &amp;l){
+               <br/>
+               return intersect(Line(p, p + Po(l.a.y - l.b.y, l.b.x - l.a.x)), l);
+               <br/>
+               }
+               <br/>
+               <br/>
+               inline Po rotate(Po p, DB alpha, Po o = Po()){
+               <br/>
+               p.x -= o.x, p.y -= o .y;
+               <br/>
+               return Po(p.x * cos(alpha) - p.y * sin(alpha), p.y * cos(alpha) + p.x * sin(alpha)) + o;
+               <br/>
+               }
+               <br/>
+               <br/>
+               // &lt;&lt;= ' 0. I/O Accelerator interface .,
+               <br/>
+               <br/>
+               template&lt;class T&gt; inline void RD(T &amp;x){
+               <br/>
+               //cin &gt;&gt; x;
+               <br/>
+               scanf("%d", &amp;x);
+               <br/>
+               //char c; for (c = getchar(); c &lt; '0'; c = getchar()); x = c - '0'; for (c = getchar(); c &gt;= '0'; c = getchar()) x = x * 10 + c - '0';
+               <br/>
+               //char c; c = getchar(); x = c - '0'; for (c = getchar(); c &gt;= '0'; c = getchar()) x = x * 10 + c - '0';
+               <br/>
+               }
+               <br/>
+               <br/>
+               template&lt;class T&gt; inline void OT(const T &amp;x){
+               <br/>
+               printf("%.8lf\n", x);
+               <br/>
+               }
+               <br/>
+               <br/>
+               /* .................................................................................................................................. */
+               <br/>
+               <br/>
+               const int N = 109, L = 200, W = 1000, InitStep = 3000;
+               <br/>
+               const DB V = 0.8;
+               <br/>
+               <br/>
+               // L: 迭代次数
+               <br/>
+               // W: 可分配权值
+               <br/>
+               // InitStep: 初始步长。。
+               <br/>
+               <br/>
+               // V: 降火速率。。
+               <br/>
+               <br/>
+               struct Polygon;
+               <br/>
+               DB dist_sqr(Polygon, Po);
+               <br/>
+               <br/>
+               struct Polygon{
+               <br/>
+               Po P[N]; int n;
+               <br/>
+               <br/>
+               DB dist_sqr(Po p){
+               <br/>
+               return ::dist_sqr((*this), p);
+               <br/>
+               }
+               <br/>
+               <br/>
+               void init(int _n){
+               <br/>
+               n = _n; REP(i, n) P[i].input(); P[n] = P[0];
+               <br/>
+               }
+               <br/>
+               <br/>
+               bool inside(Po p){
+               <br/>
+               REP(i, n) if (det(P[i], P[i+1], p) &lt; 0) return false;
+               <br/>
+               return true;
+               <br/>
+               }
+               <br/>
+               <br/>
+               void solve(){
+               <br/>
+               <br/>
+               Po res; int l = 0; REP(i, n){
+               <br/>
+               int w = rand() % W + 1;
+               <br/>
+               res += w * P[i], l += w;
+               <br/>
+               }
+               <br/>
+               <br/>
+               res /= l;
+               <br/>
+               <br/>
+               DB step = InitStep, best = dist_sqr(res);
+               <br/>
+               <br/>
+               while (step &gt; EPS){
+               <br/>
+               <br/>
+               bool improved = false;
+               <br/>
+               bool hard = false;
+               <br/>
+               <br/>
+               Po pre = res, cur; DO_C(L){
+               <br/>
+               if (!hard){
+               <br/>
+               DB theta = (DB) (rand() % W) / W * (2*PI);
+               <br/>
+               cur = pre + Po(cos(theta), sin(theta)) * step;
+               <br/>
+               }
+               <br/>
+               else {
+               <br/>
+               <br/>
+               Po dir; REP(i, n){
+               <br/>
+               int w = rand() % W + 1;
+               <br/>
+               dir += (P[i] - pre) * w;
+               <br/>
+               }
+               <br/>
+               <br/>
+               if (sgn(dir.length_sqr()) == 0) continue;
+               <br/>
+               if (rand() % 2) dir = - dir;
+               <br/>
+               <br/>
+               dir /= dir.length(), dir *= step;
+               <br/>
+               cur = pre + dir;
+               <br/>
+               }
+               <br/>
+               <br/>
+               if (inside(cur)){
+               <br/>
+               DB temp = dist_sqr(cur);
+               <br/>
+               if (temp &gt; best){
+               <br/>
+               improved = true;
+               <br/>
+               res = cur, best = temp;
+               <br/>
+               }
+               <br/>
+               hard = false;
+               <br/>
+               }
+               <br/>
+               else
+               <br/>
+               hard = true;
+               <br/>
+               }
+               <br/>
+               <br/>
+               if (!improved) step *= V;
+               <br/>
+               }
+               <br/>
+               <br/>
+               OT(sqrt(best));
+               <br/>
+               }
+               <br/>
+               } P;
+               <br/>
+               <br/>
+               DB dist_sqr(Polygon Poly, Po p){
+               <br/>
+               DB res = OO; REP(i, Poly.n) res = min(res, dist_sqr(Seg(Poly.P[i], Poly.P[i+1]), p));
+               <br/>
+               return res;
+               <br/>
+               }
+               <br/>
+               <br/>
+               int n;
+               <br/>
+               <br/>
+               int main(){
+               <br/>
+               <br/>
+               #ifdef LOCAL
+               <br/>
+               freopen("in.txt", "r", stdin);
+               <br/>
+               #endif
+               <br/>
+               <br/>
+               while (true){
+               <br/>
+               if (!_RD(n)) break;
+               <br/>
+               P.init(n); P.solve();
+               <br/>
+               }
+               <br/>
+               }
+               <br/>
+               <br/>
+               <div>
+               </div>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

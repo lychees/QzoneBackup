@@ -1,0 +1,113 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 6,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1399621330,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "哇！ ",
+                "capacity": 12151,
+                "poster": {
+                    "id": "112831313",
+                    "platform": 1,
+                    "name": "12-计-董羽飞 ",
+                    "emoji": []
+                },
+                "bmp": "38d40da00102d101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1399621408,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "[em]e196[/em][em]e196[/em][em]e196[/em] ",
+                "capacity": 12129,
+                "poster": {
+                    "id": "422579465",
+                    "platform": 1,
+                    "name": "mew@莫名笑□ ",
+                    "emoji": []
+                },
+                "bmp": "18c49da10102c201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1399625731,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "弱 ",
+                "capacity": 12164,
+                "poster": {
+                    "id": "911574351",
+                    "platform": 1,
+                    "name": "Yuko丶柚子 ",
+                    "emoji": []
+                },
+                "bmp": "184495800410c821",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1399626757,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "mark，伸手党留名 ",
+                "capacity": 12153,
+                "poster": {
+                    "id": "513621014",
+                    "platform": 1,
+                    "name": "HandIeNeeded ",
+                    "emoji": []
+                },
+                "bmp": "38d01fa40000c120",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1399688025,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "牛 ",
+                "capacity": 12168,
+                "poster": {
+                    "id": "56329669",
+                    "platform": 1,
+                    "name": "Laughing ",
+                    "emoji": []
+                },
+                "bmp": "18d195a40100e201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 6,
+                "postTime": 1399800209,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "业界良心 ",
+                "capacity": 12159,
+                "poster": {
+                    "id": "1693035997",
+                    "platform": 1,
+                    "name": "233等人Alice ",
+                    "emoji": []
+                },
+                "bmp": "08409c880202e221",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

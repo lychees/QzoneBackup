@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1404056807,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "QAQ我居然以前A过。。。QAQ好厉害。。觉得自己突然幸福感。。。 ",
+                "capacity": 12111,
+                "poster": {
+                    "id": "651994959",
+                    "platform": 1,
+                    "name": "Trigon ",
+                    "emoji": []
+                },
+                "bmp": "18c59de00002c121",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1435589257,
+                "effect": 0,
+                "replyNum": 0,
+                "content": " QAQ我居然以前A过。。。QAQ好厉害。。觉得自己突然幸福感。。。 ",
+                "capacity": 12108,
+                "poster": {
+                    "id": "446079414",
+                    "platform": 1,
+                    "name": "旺仔嚎婆婆 ",
+                    "emoji": []
+                },
+                "bmp": "38449da00000c201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

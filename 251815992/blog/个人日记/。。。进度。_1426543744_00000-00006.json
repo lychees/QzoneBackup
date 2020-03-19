@@ -1,0 +1,142 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 7,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1426549830,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "越来越RMXP了 ",
+                "capacity": 12156,
+                "poster": {
+                    "id": "25241274",
+                    "platform": 1,
+                    "name": "七星瓢虫 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00000e101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1426563338,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "背景好蓝 ",
+                "capacity": 12156,
+                "poster": {
+                    "id": "419172261",
+                    "platform": 1,
+                    "name": "雪鸦 ",
+                    "emoji": []
+                },
+                "bmp": "98809da04000d409",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1426566303,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "XAGS == Xiaodao Again Game System. ",
+                "capacity": 12132,
+                "poster": {
+                    "id": "489271171",
+                    "platform": 1,
+                    "name": "突然华尔兹 ",
+                    "emoji": []
+                },
+                "bmp": "18959da00000c201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1426569447,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "像极了RPG制作大师…… ",
+                "capacity": 12148,
+                "poster": {
+                    "id": "515016441",
+                    "platform": 1,
+                    "name": "时 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a40102c929",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1426579352,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "ui毫无设计 ",
+                "capacity": 12061,
+                "poster": {
+                    "id": "911574351",
+                    "platform": 1,
+                    "name": "Yuko丶柚子 ",
+                    "emoji": []
+                },
+                "bmp": "184495800410c821",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:911574351,nick:Yuko丶柚子,who:1,auto:1} 教我 ",
+                        "postTime": 1426579670,
+                        "id": 1426579670,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "postTime": 1426586964,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "rm既视感大赞 ",
+                "capacity": 12148,
+                "poster": {
+                    "id": "332634789",
+                    "platform": 1,
+                    "name": "钱钱 ",
+                    "emoji": []
+                },
+                "bmp": "185195a40102c401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 7,
+                "postTime": 1426694993,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "好期待 (&#180;&#65381;ω&#65381;`)。。玩了好多魔女之家之类，看起来这个剧情就很棒！岛娘能不能做完放个demo出来？？ ",
+                "capacity": 12044,
+                "poster": {
+                    "id": "601366924",
+                    "platform": 1,
+                    "name": "NNNNNNR ",
+                    "emoji": []
+                },
+                "bmp": "18d19da00002c101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

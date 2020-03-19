@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1448434476,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "看不到... ",
+                "capacity": 12154,
+                "poster": {
+                    "id": "604412059",
+                    "platform": 1,
+                    "name": "耶稣说了个Q号 ",
+                    "emoji": []
+                },
+                "bmp": "08c0952000029001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

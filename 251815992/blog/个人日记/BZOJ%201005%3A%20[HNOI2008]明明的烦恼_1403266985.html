@@ -1,0 +1,478 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    BZOJ 1005: [HNOI2008]明明的烦恼
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             BZOJ 1005: [HNOI2008]明明的烦恼
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2014-06-20 08:23:05
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(33)	è¯è®º(1)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1403266985,
+"voteids":0,
+"pubtime":1403266985,
+"replynum":1,
+"category":"个人日记",
+"title":"BZOJ 1005: [HNOI2008]明明的烦恼",
+"effect":8389120,
+"effect2":524294,
+"exblogtype":3,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":81177,
+"lp_style":16843520,
+"lp_flag":0,
+"lp_topvalue":0,
+"orguin":251815992,
+"orgblogid":1403266985,
+"mention_uins":[ ],
+"attach":[],"comments":[{"id":1,
+"postTime":1403267094,
+"effect":1056,
+"replyNum":1,
+"content":"=_=。你这样真的不会把神奇的东西透露出来吗… ",
+"capacity":12015,
+"poster":{
+"id":"365273817",
+"platform":1,
+"name":"Picks ",
+"emoji":[ ]}
+,
+"bmp":"18c095800002c001",
+"ismyreply":0,
+"replies":[{"poster":{
+"id":"251815992",
+"name":"小岛美奈子 ",
+"platform":1}
+,
+"content":"@{uin:365273817,nick:Picks,auto:1} 。。。看一眼就会的东西。。。这不是 tld 嘛！ ",
+"postTime":1403267129,
+"id":1403267129,
+"effect":0}]}]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <div>
+                <br/>
+                <a href="http://www.lydsy.com/JudgeOnline/problem.php?id=1005" target="_blank">
+                 http://www.lydsy.com/JudgeOnline/problem.php?id=1005
+                </a>
+                <br/>
+                <br/>
+                ________
+                <br/>
+                <a href="http://en.wikipedia.org/wiki/Pr%C3%BCfer_sequence" target="_blank">
+                 http://en.wikipedia.org/wiki/Pr%C3%BCfer_sequence
+                </a>
+                <br/>
+                <a href="http://oeis.org/A000272" target="_blank">
+                 http://oeis.org/A000272
+                </a>
+                <br/>
+                <br/>
+                构建一一对应关系对刻画一些对象的具体特征十分有用。。（例如 Permutation 与 Cycle Notation （后者也可以看成是一个排列。。
+                <br/>
+                。。。
+                <br/>
+                <br/>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 找到一个标号最小的度数为 1 的点，
+                 <span style="font-size:14px">
+                  把他相邻点加入序列。。。
+                  <br/>
+                  <span>
+                   。。。
+                  </span>
+                 </span>
+                 <span style="font-size:14px">
+                  然后删除这个点。。
+                 </span>
+                 <span style="font-size:14px">
+                  一直做这个步骤直到剩下两个节点
+                 </span>
+                </div>
+                <div>
+                 。。。一棵 n 个节点的树的 prufer 序列共 n-2 项。。
+                 <br/>
+                 当度数不限制的时候。。每次可以出现 n 个数字中的任何一个。。此时 n^(n-2) 对应的就是。。
+                 <br/>
+                 <a href="http://oeis.org/A000272" target="_blank">
+                  http://oeis.org/A000272
+                 </a>
+                 <br/>
+                 <br/>
+                 <span style="font-size:14px">
+                  <br/>
+                  <br/>
+                  。。对于一个度数为 di 的节点。。则只会
+                 </span>
+                 在这个序列中出现 di-1 次。。。
+                 <br/>
+                 。我们设 nn 表示当前序列中的空位。。rr 表示余下可以乱填的数字数。。
+                 <br/>
+                 借助高精度类。。我们有：
+                 <br/>
+                 <br/>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  <div>
+                   const int N = int(1e3) + 9;
+                  </div>
+                  <div>
+                   bignum Fact[N];
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   bignum C(int n, int m){
+                  </div>
+                  <div>
+                   return Fact[n] / Fact[m] / Fact[n-m];
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   int main(){
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   #ifndef ONLINE_JUDGE
+                  </div>
+                  <div>
+                   freopen("in.txt", "r", stdin);
+                  </div>
+                  <div>
+                   //freopen("out.txt", "w", stdout);
+                  </div>
+                  <div>
+                   #endif
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   Fact[0] = 1; FOR(i, 1, N) Fact[i] = Fact[i-1] * i;
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   int n; RD(n); bignum res = 1; int nn = n-2, rr = 0; DO(n){
+                  </div>
+                  <div>
+                   int d; RDD(d); if (!~d) ++rr;
+                  </div>
+                  <div>
+                   else --d, res *= C(nn, d), nn -= d;
+                  </div>
+                  <div>
+                   }
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                  <div>
+                   res *= pow(bignum(rr), nn);
+                  </div>
+                  <div>
+                   cout &lt;&lt; res &lt;&lt; endl;
+                  </div>
+                  <div>
+                   }
+                  </div>
+                 </div>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <br/>
+                <br/>
+               </div>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

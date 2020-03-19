@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 2,
+                "postTime": 1354578324,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "AE5A2可以看我的网站啊……主席有写题解…… ",
+                "capacity": 12129,
+                "poster": {
+                    "id": "291445140",
+                    "platform": 1,
+                    "name": "Seter ",
+                    "emoji": []
+                },
+                "bmp": "18c415a00142e209",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

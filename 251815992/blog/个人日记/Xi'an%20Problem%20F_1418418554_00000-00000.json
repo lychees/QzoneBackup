@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1418617040,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "马克吧，膜拜，经常来学学 ",
+                "capacity": 12148,
+                "poster": {
+                    "id": "2268226395",
+                    "platform": 1,
+                    "name": "小莫 ",
+                    "emoji": []
+                },
+                "bmp": "185095c0160e9421",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

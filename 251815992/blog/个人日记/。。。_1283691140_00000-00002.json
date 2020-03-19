@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1283695167,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "你选的是什么 ",
+                "capacity": 12157,
+                "poster": {
+                    "id": "469415244",
+                    "platform": 1,
+                    "name": "朱柯军 ",
+                    "emoji": []
+                },
+                "bmp": "18919d840000c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1283702535,
+                "effect": 1048576,
+                "replyNum": 0,
+                "content": "你要是都选了。。。  就淡定吧。。 ",
+                "capacity": 12139,
+                "poster": {
+                    "id": "443164766",
+                    "platform": 1,
+                    "name": "\"zrp\" ",
+                    "emoji": []
+                },
+                "bmp": "088094a10000c301",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1283704337,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "语言。。。 ",
+                "capacity": 12162,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            }
+        ]
+    }
+}

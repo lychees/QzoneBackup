@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1535682677,
+                "postTime": 1535682677,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "变得更弱了（头发变多了） ",
+                "capacity": 12148,
+                "poster": {
+                    "id": "446079414",
+                    "platform": 1,
+                    "name": "旺仔嚎婆婆 ",
+                    "emoji": []
+                },
+                "bmp": "38449da00000c201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 1535727126,
+                "postTime": 1535727126,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "有个招聘观点是：招进来的人水准应该比现有团队 50% 的人强 ",
+                "capacity": 12117,
+                "poster": {
+                    "id": "1921516105",
+                    "platform": 1,
+                    "name": "水绳 ",
+                    "emoji": []
+                },
+                "bmp": "88009d800202c221",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

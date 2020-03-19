@@ -1,0 +1,171 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 6,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1248938652,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[ft=,2,]岛哥又在公开聊天记录了[/ft] ",
+                "capacity": 12081,
+                "poster": {
+                    "id": "420836131",
+                    "platform": 1,
+                    "name": "doc ",
+                    "emoji": []
+                },
+                "bmp": "18d025a00000e101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "...实在想不到还有什么好办法可以.... ",
+                        "postTime": 1248938787,
+                        "id": 1248938787,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1249042314,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[ft=,2,]岛哥呀!   不能这样。。。。。。聊天记录的公开你不能一个人说了算的。。。。。[/ft] ",
+                "capacity": 12059,
+                "poster": {
+                    "id": "599172252",
+                    "platform": 1,
+                    "name": "Maverick ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00000c001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "... ",
+                        "postTime": 1249098881,
+                        "id": 1249098881,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1249146296,
+                "effect": 32,
+                "replyNum": 3,
+                "content": "[ft=,2,]好文采[/ft]\n[ft=,2,]赞一个[/ft] ",
+                "capacity": 11972,
+                "poster": {
+                    "id": "601598644",
+                    "platform": 1,
+                    "name": "金天 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00002c109",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "刚打开空间看你的留言...我妈路过..听到曾轶可的歌..说和我唱的有点像... ",
+                        "postTime": 1249197804,
+                        "id": 1249197804,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "601598644",
+                            "name": "金天 ",
+                            "platform": 1
+                        },
+                        "content": "[em]e127[/em] ",
+                        "postTime": 1249198357,
+                        "id": 1249198357,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "601598644",
+                            "name": "金天 ",
+                            "platform": 1
+                        },
+                        "content": "声音没你的甜美 ",
+                        "postTime": 1249223677,
+                        "id": 1249223677,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "postTime": 1249832565,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]const\n  nmax=500000;\ntype\n  int=longint;\n  Seg=record\n    l,r:int;\n    sum:int;\n    maxl,maxr:int;\n    max:int;\n    left,right:int;\n  end;\nvar\n  S:array[1..nmax] of int;\n  T:array[0..2*nmax] of Seg;\n  root,total:int;\n  n,m,i:int;\n  k,a,b:int;\n  sign:boolean;\nfunction maximum(a,b:int):int;\nbegin\n  if a>b then exit(a)\n         else exit(b);\nend;[/ft]\n[ft=,2,]procedure exchange(var a,b:int);\nvar c:int;\nbegin\n  c:=a;a:=b;b:=c;\nend;[/ft]\n[ft=,2,]procedure updata(var a:Seg;b,c:Seg);\nbegin\n  with a do\n  begin\n    sum:=b.sum+c.sum;\n    maxl:=maximum(b.maxl,b.sum+c.maxl);\n    maxr:=maximum(c.maxr,c.sum+b.maxr);\n    max:=maximum(b.max,c.max);\n    max:=maximum(max,b.maxr+c.maxl);\n  end;\nend;[/ft]\n[ft=,2,]procedure Build(a,b:int);\nvar now:int;\n      m:int;\nbegin\n  inc(total);now:=total;\n  with T[now] do\n  begin\n    l:=a;r:=b;\n    if a<b then\n    begin\n      m:=(a+b) shr 1;\n      left:=total+1;Build(a,m);\n      right:=total+1;Build(m+1,b);\n      updata(T[now],T[left],T[right]);\n    end\n    else begin\n      sum:=S[a];\n      maxl:=S[a];maxr:=S[a];\n      max:=S[a];\n    end;\n  end;\nend;[/ft]\n[ft=,2,]procedure modifiy(now,x,k:int);\nvar m:int;\nbegin\n  with T[now] do\n  begin\n    if l<r then\n    begin\n      m:=(l+r) shr 1;\n      if x<=m then modifiy(left,x,k);\n      if m<x  then modifiy(right,x,k);\n      updata(T[now],T[left],T[right]);\n    end\n    else begin\n      Sum:=k;\n      maxl:=k;maxr:=k;\n      max:=k;\n    end;\n  end;\nend;[/ft]\n[ft=,2,]function Segment(now,a,b:int):Seg;\nvar m:int;\nbegin\n  with T[now] do\n  begin\n    if (a=l) and (r=b) then\n      exit(T[now])\n    else begin\n      m:=(l+r) shr 1;\n      if m>=b then exit(Segment(left,a,b));\n      if m<a  then exit(Segment(right,a,b));\n      fillchar(Segment,sizeof(Segment),0);\n      Updata(Segment,Segment(left,a,m),Segment(right,m+1,b));\n    end;\n  end;\nend;[/ft]\n[ft=,2,]begin\n  readln(n,m);\n  for i:=1 to n do\n    read(S[I]);\n  Build(1,n);\n  root:=1;\n  for i:=1 to m do\n  begin\n    readln(k,a,b);\n    if k=1 then begin\n             if a>b then exchange(a,b);\n             if sign then write(' ') else sign:=true;\n             write(Segment(root,a,b).max);\n           end\n           else begin\n             S[a]:=b;\n             modifiy(root,a,b);\n           end;\n  end;\n  writeln;\n  readln(n)\nend.[/I]\n[ft=,2,]\n[/ft][/ft] ",
+                "capacity": 9858,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1249832609,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "const\n  nmax=500000;\ntype\n  int=longint;\n  Seg=record\n    l,r:int;\n    sum:int;\n    maxl,maxr:int;\n    max:int;\n    left,right:int;\n  end;\nvar\n  S:array[1..nmax] of int;\n  T:array[0..2*nmax] of Seg;\n  root,total:int;\n  n,m,i:int;\n  k,a,b:int;\n  sign:boolean;\nfunction maximum(a,b:int):int;\nbegin\n  if a>b then exit(a)\n         else exit(b);\nend;\nprocedure exchange(var a,b:int);\nvar c:int;\nbegin\n  c:=a;a:=b;b:=c;\nend;\nprocedure updata(var a:Seg;b,c:Seg);\nbegin\n  with a do\n  begin\n    sum:=b.sum+c.sum;\n    maxl:=maximum(b.maxl,b.sum+c.maxl);\n    maxr:=maximum(c.maxr,c.sum+b.maxr);\n    max:=maximum(b.max,c.max);\n    max:=maximum(max,b.maxr+c.maxl);\n  end;\nend;\nprocedure Build(a,b:int);\nvar now:int;\n      m:int;\nbegin\n  inc(total);now:=total;\n  with T[now] do\n  begin\n    l:=a;r:=b;\n    if a<b then\n    begin\n      m:=(a+b) shr 1;\n      left:=total+1;Build(a,m);\n      right:=total+1;Build(m+1,b);\n      updata(T[now],T[left],T[right]);\n    end\n    else begin\n      sum:=S[a];\n      maxl:=S[a];maxr:=S[a];\n      max:=S[a];\n    end;\n  end;\nend;\nprocedure modifiy(now,x,k:int);\nvar m:int;\nbegin\n  with T[now] do\n  begin\n    if l<r then\n    begin\n      m:=(l+r) shr 1;\n      if x<=m then modifiy(left,x,k);\n      if m<x  then modifiy(right,x,k);\n      updata(T[now],T[left],T[right]);\n    end\n    else begin\n      Sum:=k;\n      maxl:=k;maxr:=k;\n      max:=k;\n    end;\n  end;\nend;\nfunction Segment(now,a,b:int):Seg;\nvar m:int;\nbegin\n  with T[now] do\n  begin\n    if (a=l) and (r=b) then\n      exit(T[now])\n    else begin\n      m:=(l+r) shr 1;\n      if m>=b then exit(Segment(left,a,b));\n      if m<a  then exit(Segment(right,a,b));\n      fillchar(Segment,sizeof(Segment),0);\n      Updata(Segment,Segment(left,a,m),Segment(right,m+1,b));\n    end;\n  end;\nend;\nbegin\n  readln(n,m);\n  for i:=1 to n do\n    read(S[I]);\n  Build(1,n);\n  root:=1;\n  for i:=1 to m do\n  begin\n    readln(k,a,b);\n    if k=1 then begin\n             if a>b then exchange(a,b);\n             if sign then write(' ') else sign:=true;\n             write(Segment(root,a,b).max);\n           end\n           else begin\n             S[a]:=b;\n             modifiy(root,a,b);\n           end;\n  end;\n  writeln;\n  readln(n)\nend.[/I] ",
+                "capacity": 9964,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 6,
+                "postTime": 1249832711,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "Program Raoyu;\nConst MaxN=500000;\nType\n    SegmentTree=Record\n      L,R:Longint;\n      MaxL,MaxR,Max,Sum:Longint;\n      Left,Right:Longint\n    End;\nVar\n  T:Array[0..2*MaxN]of SegmentTree;\n  S:Array[1..MaxN]of Longint;\n  N,M,I,X,Y,Z,Tem,Count:Longint;\n  Flag:Boolean;\n\nFunction Big(A,B:Longint):Longint;\nBegin\n If(A>B)Then Exit(A) Else Exit(B);\nEnd;\nProcedure Update(Var A:SegmentTree;B,C:SegmentTree);\nBegin\n With A do\n Begin\n  Sum:=B.Sum+C.Sum;\n  MaxL:=Big(B.MaxL,B.Sum+C.MaxL);\n  MaxR:=Big(C.MaxR,C.Sum+B.MaxR);\n  Max:=Big(B.Max,C.Max);\n  Max:=Big(Max,B.MaxR+C.MaxL);\n End;\nEnd;\nProcedure Build(A,B:Longint);\nVar X:Longint;\nBegin\n Inc(Count);  X:=Count;\n With(T[X])do\n Begin\n  L:=A; R:=B;\n  If(A=B)Then\n  Begin\n    Sum:=S[A];\n    MaxL:=S[A];\n    MaxR:=S[A];\n    Max:=S[A];\n  End\n  Else Begin\n    Left:=Count+1;\n    Build(A,(A+B)Shr 1);\n    Right:=Count+1;\n    Build((A+B)Shr 1+1,B);\n    Update(T[X],T[Left],T[Right]);\n  End;\n End;\nEnd;\nProcedure Modify(X,Y,Z:Longint);\nVar Mid:Longint;\nBegin\n With(T[X])do\n  If(L=R)Then\n  Begin\n    Sum:=Z;\n    MaxL:=Z;\n    MaxR:=Z;\n    Max:=Z;\n  End\n  Else Begin\n    Mid:=(L+R)Shr 1;\n    If(X<=Mid)Then\n    Modify(Left,Y,Z)\n    Else\n    Modify(Right,Y,Z);\n    Update(T[X],T[Left],T[Right]);\n  End;\nEnd;\nFunction GetMax(X,A,B:Longint):SegmentTree;\nVar  Mid:Longint;\nBegin\n With(T[X])do\n  If(A=L)And(B=R)Then\n    Exit(T[X])\n  Else Begin\n    Mid:=(L+R)Shr 1;\n    If(Mid>=B)Then\n    Exit(GetMax(Left,A,B));\n    If(Mid<A)Then\n    Exit(GetMax(Right,A,B));\n    Fillchar(GetMax,Sizeof(GetMax),0);\n    Update(GetMax,GetMax(Left,A,Mid),GetMax(Right,Mid+1,B));\n  End;\nEnd;\nBegin\n Readln(N,M);\n For I:=1 to N do\n  Read(S[I]);\n Build(1,N);\n Flag:=False;\n For I:=1 to M do\n Begin\n  Readln(X,Y,Z);\n  If X=1 Then Begin\n    If(Y>Z)Then\n    Begin\n      Tem:=Y;\n      Y:=Z;\n      Z:=Tem;\n    End;\n    If Flag Then Write(' ') Else Flag:=True;\n    Write(GetMax(1,Y,Z).Max);\n  End\n  Else Begin\n    S[Y]:=Z;\n    Modify(1,Y,Z);\n  End;\n End;\n Writeln;\n readln(n);\nEnd.[/I] ",
+                "capacity": 10178,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            }
+        ]
+    }
+}

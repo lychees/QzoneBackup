@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1249799815,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]。。。？[/ft]\n[ft=,2,]这个，沙发都没人坐啊~[/ft]\n[ft=,2,]继续内测~[/ft] ",
+                "capacity": 12089,
+                "poster": {
+                    "id": "476058914",
+                    "platform": 1,
+                    "name": " ",
+                    "emoji": []
+                },
+                "bmp": "18f4052001029020",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

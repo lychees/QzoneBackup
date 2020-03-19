@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1267195608,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]你那天在宾馆的出现~把孙择浩吓了一跳~。。。[/ft] ",
+                "capacity": 12115,
+                "poster": {
+                    "id": "420836131",
+                    "platform": 1,
+                    "name": "doc ",
+                    "emoji": []
+                },
+                "bmp": "18d025a00000e101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1495903704,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "直播赶会场的时候在现场系列… ",
+                "capacity": 12144,
+                "poster": {
+                    "id": "846494540",
+                    "platform": 1,
+                    "name": "[被删两次hrz相 ",
+                    "emoji": []
+                },
+                "bmp": "1840ade4040fc209",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

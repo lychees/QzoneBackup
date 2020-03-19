@@ -1,0 +1,130 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 7,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1474201302,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "今天沈阳赛区？还是大连。 ",
+                "capacity": 12146,
+                "poster": {
+                    "id": "835485368",
+                    "platform": 1,
+                    "name": "软饭-熊熊 ",
+                    "emoji": []
+                },
+                "bmp": "18d4cde40902e201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1474201567,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "跪大腿！ ",
+                "capacity": 12160,
+                "poster": {
+                    "id": "451524137",
+                    "platform": 1,
+                    "name": "光之神圣 ",
+                    "emoji": []
+                },
+                "bmp": "18c1f4a40080c109",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1474201595,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "好好干 ",
+                "capacity": 12160,
+                "poster": {
+                    "id": "2584468854",
+                    "platform": 1,
+                    "name": "SweetLover ",
+                    "emoji": []
+                },
+                "bmp": "1850958002028101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1474203028,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "居然就入职了 ",
+                "capacity": 12138,
+                "poster": {
+                    "id": "112831313",
+                    "platform": 1,
+                    "name": "12-计-董羽飞 ",
+                    "emoji": []
+                },
+                "bmp": "38d40da00102d101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1474206355,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "恭迎岛娘 ",
+                "capacity": 12162,
+                "poster": {
+                    "id": "375243140",
+                    "platform": 1,
+                    "name": "cxlove ",
+                    "emoji": []
+                },
+                "bmp": "18c09da80100d429",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 7,
+                "postTime": 1474211337,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "恭迎岛娘 ",
+                "capacity": 12157,
+                "poster": {
+                    "id": "450978053",
+                    "platform": 1,
+                    "name": "Sd.无心插柳 ",
+                    "emoji": []
+                },
+                "bmp": "18d1d5800000c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 8,
+                "postTime": 1474266731,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "真是奇怪的选择 ",
+                "capacity": 12156,
+                "poster": {
+                    "id": "41785691",
+                    "platform": 1,
+                    "name": "iceboy ",
+                    "emoji": []
+                },
+                "bmp": "08c13d800002c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

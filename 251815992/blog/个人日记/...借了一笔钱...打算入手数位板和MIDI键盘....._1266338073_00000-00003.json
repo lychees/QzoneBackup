@@ -1,0 +1,79 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1266370869,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "… ",
+                "capacity": 12165,
+                "poster": {
+                    "id": "626003679",
+                    "platform": 1,
+                    "name": "沙了个皮 ",
+                    "emoji": []
+                },
+                "bmp": "18d48de00108e401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1266372803,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]酱油。。飘过[/ft] ",
+                "capacity": 12146,
+                "poster": {
+                    "id": "114099336",
+                    "platform": 1,
+                    "name": "光禾 ",
+                    "emoji": []
+                },
+                "bmp": "18d094a50000c401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1266373592,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "你疯了嘛 ",
+                "capacity": 12156,
+                "poster": {
+                    "id": "545534129",
+                    "platform": 1,
+                    "name": "味道很正 ",
+                    "emoji": []
+                },
+                "bmp": "18c1d5a000800401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1266374150,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "陈文昊记得不，他学美术的。。。 ",
+                "capacity": 12136,
+                "poster": {
+                    "id": "476058914",
+                    "platform": 1,
+                    "name": " ",
+                    "emoji": []
+                },
+                "bmp": "18f4052001029020",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

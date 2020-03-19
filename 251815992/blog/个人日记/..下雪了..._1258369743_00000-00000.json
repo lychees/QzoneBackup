@@ -1,0 +1,40 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1258374905,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[ft=,2,]哈哈，dota我也喜欢，现在比较喜omg[/ft] ",
+                "capacity": 12066,
+                "poster": {
+                    "id": "1284557516",
+                    "platform": 1,
+                    "name": "滨湖惠园社区公共号 ",
+                    "emoji": []
+                },
+                "bmp": "08809d2002008001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "我只好说..\n..你是不明真相的群众.. ",
+                        "postTime": 1258379466,
+                        "id": 1258379466,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

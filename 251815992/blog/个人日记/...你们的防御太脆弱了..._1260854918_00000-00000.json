@@ -1,0 +1,40 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1260968656,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[ft=,2,]........莫名其妙[/ft] ",
+                "capacity": 12098,
+                "poster": {
+                    "id": "261361845",
+                    "platform": 1,
+                    "name": "阿高 ",
+                    "emoji": []
+                },
+                "bmp": "08809ca100000101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "逃离滨湖一中.,真人版 ",
+                        "postTime": 1260971644,
+                        "id": 1260971644,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1413850132,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "orz ",
+                "capacity": 12165,
+                "poster": {
+                    "id": "329526532",
+                    "platform": 1,
+                    "name": "不足为奇 ",
+                    "emoji": []
+                },
+                "bmp": "18d19da50102c201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1413852677,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "[em]e185[/em][em]e179[/em] ",
+                "capacity": 12128,
+                "poster": {
+                    "id": "568778055",
+                    "platform": 1,
+                    "name": "123456 ",
+                    "emoji": []
+                },
+                "bmp": "18d09da00100c221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1413854174,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "@岛娘：http://www.zhihu.com/question/26113001#answer-8259219 ",
+                "capacity": 12106,
+                "poster": {
+                    "id": "489271171",
+                    "platform": 1,
+                    "name": "突然华尔兹 ",
+                    "emoji": []
+                },
+                "bmp": "18959da00000c201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1413872908,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "计算集合，模板即胜利 ",
+                "capacity": 12150,
+                "poster": {
+                    "id": "704998702",
+                    "platform": 1,
+                    "name": "北航董适 ",
+                    "emoji": []
+                },
+                "bmp": "18809d0000008001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

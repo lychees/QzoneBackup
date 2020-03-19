@@ -1,0 +1,96 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 5,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1216063202,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "[ft=#66ff66,4,楷体_gb2312]表太深奥...偶听不太懂噻...[/ft]\n[ft=#66ff66,4,楷体_gb2312]话说，前面的还不错...地球语排序正常...[/ft] ",
+                "capacity": 12039,
+                "poster": {
+                    "id": "792924905",
+                    "platform": 1,
+                    "name": "天泽圣司 ",
+                    "emoji": []
+                },
+                "bmp": "18d094a40000c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1216084276,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "[B][ft=#33ccff,5,]登高而招，臂非加长也而见者远...[/ft][/B]\n[B][ft=#33ccff,5,]你还真是感情丰富，下届的事你...你管得过来吗！[/ft][/B]\n[B][ft=#33ccff,5,]你也知道这是盛夏，还去小学教他们。[/ft][/B] ",
+                "capacity": 11981,
+                "poster": {
+                    "id": "842511959",
+                    "platform": 1,
+                    "name": "徐小耗 ",
+                    "emoji": []
+                },
+                "bmp": "18409da40000d001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1216173355,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "总不想长大....\n因为..\n所有的快乐..\n都在我们那无知的童年... ",
+                "capacity": 12106,
+                "poster": {
+                    "id": "122698324",
+                    "platform": 1,
+                    "name": "张晓晨 ",
+                    "emoji": []
+                },
+                "bmp": "18d19560010e8009",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1216212576,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "可爱的小岛！你也在不断长大，就像上次辩论会时你勇敢的站起来一样！你就是最可爱的！ ",
+                "capacity": 12085,
+                "poster": {
+                    "id": "276500942",
+                    "platform": 1,
+                    "name": "酒仙 ",
+                    "emoji": []
+                },
+                "bmp": "b8c1dda00102e229",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1217151084,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "那是什么时候的事了= =\n不过排序调用数组的确把我河蟹了- -~~ ",
+                "capacity": 12111,
+                "poster": {
+                    "id": "574712047",
+                    "platform": 1,
+                    "name": "陈志浩 ",
+                    "emoji": []
+                },
+                "bmp": "189095e4010ee101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

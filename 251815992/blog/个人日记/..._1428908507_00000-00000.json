@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1428912097,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "还行吧 ",
+                "capacity": 12164,
+                "poster": {
+                    "id": "393382242",
+                    "platform": 1,
+                    "name": "椰蓉菠萝包 ",
+                    "emoji": []
+                },
+                "bmp": "18d19d840002e221",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

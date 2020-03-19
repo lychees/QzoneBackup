@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1433580309,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "节哀。。。 ",
+                "capacity": 12160,
+                "poster": {
+                    "id": "3070414186",
+                    "platform": 1,
+                    "name": "权死 ",
+                    "emoji": []
+                },
+                "bmp": "08009d800200c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1433582196,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "多萌啊 ",
+                "capacity": 12153,
+                "poster": {
+                    "id": "1554577057",
+                    "platform": 1,
+                    "name": "其他猫做得到嘛？ ",
+                    "emoji": []
+                },
+                "bmp": "585095800202c401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1433587438,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "節哀 ",
+                "capacity": 12164,
+                "poster": {
+                    "id": "397427019",
+                    "platform": 1,
+                    "name": " ",
+                    "emoji": []
+                },
+                "bmp": "18809da40102c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

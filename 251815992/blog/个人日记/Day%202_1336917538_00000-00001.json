@@ -1,0 +1,68 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1337210553,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "QAQPKU的比賽咱也去了。。。竟然不知道島神在場。。。太囧了。。 ",
+                "capacity": 11911,
+                "poster": {
+                    "id": "190303874",
+                    "platform": 1,
+                    "name": "玉子 ",
+                    "emoji": []
+                },
+                "bmp": "18c09d6000028001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "。。。我记得我有私信你。。 ",
+                        "postTime": 1337215443,
+                        "id": 1337215443,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "190303874",
+                            "name": "玉子 ",
+                            "platform": 1
+                        },
+                        "content": "雖然看到了。。不過好像裏面沒提到。。我的聯想太弱了竟然沒想到島神來帝都幹啥。。（話說我後來才知道那一天人大有漫展？ ",
+                        "postTime": 1337215636,
+                        "id": 1337215636,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1337219886,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "求背景音乐啊 ",
+                "capacity": 12154,
+                "poster": {
+                    "id": "1185442737",
+                    "platform": 1,
+                    "name": "幻影射手 ",
+                    "emoji": []
+                },
+                "bmp": "18959d800000d401",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

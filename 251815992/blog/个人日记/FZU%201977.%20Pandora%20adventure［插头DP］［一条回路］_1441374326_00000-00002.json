@@ -1,0 +1,96 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1441374579,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "orz ",
+                "capacity": 12164,
+                "poster": {
+                    "id": "319172010",
+                    "platform": 1,
+                    "name": "furao0044 ",
+                    "emoji": []
+                },
+                "bmp": "08d0ad800000e201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1441385474,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "看我的code？ ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "704998702",
+                    "platform": 1,
+                    "name": "北航董适 ",
+                    "emoji": []
+                },
+                "bmp": "18809d0000008001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1441385597,
+                "effect": 1056,
+                "replyNum": 3,
+                "content": "http://blog.csdn.net/dslovemz/article/details/8907416 还有，去膜拜一下@{uin:121371490,nick:詹艳玲,who:1} 的逆天code ",
+                "capacity": 11760,
+                "poster": {
+                    "id": "704998702",
+                    "platform": 1,
+                    "name": "北航董适 ",
+                    "emoji": []
+                },
+                "bmp": "18809d0000008001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "114770374",
+                            "name": "lxhgww ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:704998702,nick:北航董适,who:1,auto:1} 这博客头像…… ",
+                        "postTime": 1441388244,
+                        "id": 1441388244,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "704998702",
+                            "name": "北航董适 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:704998702,nick:北航董适,who:1,auto:1} 怎么了⊙▽⊙ ",
+                        "postTime": 1441561870,
+                        "id": 1441561870,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "704998702",
+                            "name": "北航董适 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:114770374,nick:lxhgww,who:1,auto:1} 哦。。。一直没换过。就这样吧 ",
+                        "postTime": 1441561895,
+                        "id": 1441561895,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

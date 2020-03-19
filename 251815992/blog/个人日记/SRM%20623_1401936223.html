@@ -1,0 +1,762 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    SRM 623
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             SRM 623
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2014-06-04 22:43:43
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(83)	è¯è®º(3)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1401936223,
+"voteids":0,
+"pubtime":1401936223,
+"replynum":3,
+"category":"个人日记",
+"title":"SRM 623",
+"effect":8389120,
+"effect2":524294,
+"exblogtype":3,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":81177,
+"lp_style":16843520,
+"lp_flag":0,
+"lp_topvalue":0,
+"orguin":251815992,
+"orgblogid":1401936223,
+"mention_uins":[ ],
+"attach":[],"comments":[{"id":1,
+"postTime":1401936822,
+"effect":0,
+"replyNum":0,
+"content":"前排仰慕岛娘娘 ",
+"capacity":12154,
+"poster":{
+"id":"303489374",
+"platform":1,
+"name":"黄锟 ",
+"emoji":[ ]}
+,
+"bmp":"98c1d5a50000c421",
+"ismyreply":0,
+"replies":[]},
+{"id":2,
+"postTime":1401944128,
+"effect":1024,
+"replyNum":0,
+"content":"1k怎么捉。。。 ",
+"capacity":12156,
+"poster":{
+"id":"497778632",
+"platform":1,
+"name":"Ronnoc ",
+"emoji":[ ]}
+,
+"bmp":"48801d8000004001",
+"ismyreply":0,
+"replies":[]},
+{"id":3,
+"postTime":1401948214,
+"effect":0,
+"replyNum":0,
+"content":"不明觉厉~ ",
+"capacity":12155,
+"poster":{
+"id":"190371352",
+"platform":1,
+"name":"幼稚的温柔丶 ",
+"emoji":[ ]}
+,
+"bmp":"185015e10102c0a1",
+"ismyreply":0,
+"replies":[]}]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <div>
+                <br/>
+                我是傻逼。。。
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                450：
+                <br/>
+                <a href="http://acm.hdu.edu.cn/showproblem.php?pid=1176" target="_blank">
+                 http://acm.hdu.edu.cn/showproblem.php?pid=1176
+                </a>
+                <br/>
+                <a href="http://edward-mj.com/archives/1701" target="_blank">
+                 http://edward-mj.com/archives/1701
+                </a>
+                <br/>
+                <a href="http://codeforces.com/problemset/problem/76/F" target="_blank">
+                 http://codeforces.com/problemset/problem/76/F
+                </a>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                。。这场真是太，了。。。把 450 当成三围 LIS 在想。。。主要一直在想怎么求矩阵内的最值。。。。。
+                <br/>
+                。。。。忘了这个是单位权可以直接 LIS 。。。。
+                <br/>
+                ——————————————————————
+                <br/>
+                <br/>
+                。只保留原点可达的点，坐标翻转后做二维 LIS。。。。
+                <br/>
+                。。。。不得不说这个题的模型封装非常赞。。
+                <br/>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 template&lt;class T, class C&gt; int LIS(int n, const vector&lt;T&gt;&amp; a, C cmp){
+                </div>
+                <div>
+                 if (!n) return 0;
+                </div>
+                <div>
+                 vector&lt;T&gt; b; b.PB(a[0]); FOR(i, 1, n){
+                </div>
+                <div>
+                 if (cmp(b.back(), a[i])) b.PB(a[i]);
+                </div>
+                <div>
+                 else {
+                </div>
+                <div>
+                 b[lower_bound(ALL(b), a[i], cmp) - b.begin()] = a[i];
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 return b.size();
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 class CatchTheBeat {
+                </div>
+                <div>
+                 public:
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 int maxCatched(int n, int x0, int y0, int a, int b, int c, int d, int mod1, int mod2, int offset) {
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 VII I; I.resize(n); I[0] = MP(x0, y0); FOR(i, 1, n){
+                </div>
+                <div>
+                 I[i] = MP(((LL)I[i-1].fi*a+b)%mod1,((LL)I[i-1].se*c+d)%mod2);
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 int nn = 0; REP(i, n){
+                </div>
+                <div>
+                 I[i].fi -= offset; if (I[i].se &lt; abs(I[i].fi)) continue;
+                </div>
+                <div>
+                 int x = I[i].fi, y = I[i].se;
+                </div>
+                <div>
+                 I[nn++] = MP(y-x, x+y);
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 I.resize(n = nn); SRT(I); VI A; REP(i, n) A.PB(I[i].se);
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 return LIS(n, A, less_equal&lt;int&gt;());
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 return 0;
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 }
+                </div>
+                <div>
+                 };
+                </div>
+                <br/>
+                <br/>
+                <br/>
+                <div>
+                 1000：Alice 和 n-1 个 Bob玩游戏，有 n 张 Ri，开始随机打乱分给每个人。
+                 <br/>
+                 之后每个人选择一个 Bi &lt;= Ri（Alice 先选择），自己这轮的得分 50% 是 Ri+Bi，50% 是 Ri-Bi
+                 <br/>
+                 Alice 分别和 n-1 个的得分比较，高的人从低的人那里得到 1￥。
+                 <span>
+                  。。
+                  <br/>
+                  <span>
+                   <br/>
+                   <br/>
+                   <br/>
+                   ——————
+                   <br/>
+                   。先来看 2 个人单挑的情况。。。我们把答案 * 4，避免处理小数。
+                   <br/>
+                   。。设 A 为 Alice 的 Ri，a 为 Alice 的 Bi，B 为 Bob 的 Bi，b 为 Bob 的 Bi。
+                   <br/>
+                   <br/>
+                   那么不难得到 f(A, B)：
+                   <br/>
+                   <br/>
+                   4：A &gt; 2B  (4, A-a=2B-&gt;3, A-a&lt;2B-&gt;2
+                   <br/>
+                   -4： B &gt; 2A
+                  </span>
+                 </span>
+                 (-4
+                 <span>
+                  <span>
+                   <br/>
+                   0：A = B
+                  </span>
+                 </span>
+                 (0
+                 <span>
+                  <span>
+                   <br/>
+                   2： A = 2B （
+                  </span>
+                 </span>
+                 (2 , a &gt; 0 -&gt; 2,  A-a = B -&gt; 2,  A-a &lt; B, 0  a = A, 0 ...
+                 <span>
+                  <span>
+                   <br/>
+                   2： A &gt; B （0 -&gt; 2,  A-a = B, 2A-a &lt; B, 0,a=A -&gt; 0
+                   <br/>
+                   -2：A &lt; B （-4,   A+a = B, -2,  A+a &gt; B, -2 ...
+                   <br/>
+                   ————————————
+                   <br/>
+                   <br/>
+                   <br/>
+                   上面有点乱。。
+                   <br/>
+                   —————— 整理下。。。
+                   <br/>
+                   最值
+                   <br/>
+                   A &gt; 2B：4, A-a=2B, 3, A-a&lt;2B, 2            4
+                   <br/>
+                   A = 2B：2,A-a&lt;B,0                                  2
+                   <br/>
+                   A &gt; B：0, A+a=2B, 1, A+a&gt;2B, 2            2
+                   <br/>
+                   A = B：0                                                   0
+                   <br/>
+                  </span>
+                 </span>
+                 A &lt; B：-4,
+                 <span style="font-size:14px">
+                  A+a=B,
+                 </span>
+                 <span style="font-size:14px">
+                 </span>
+                 <span style="font-size:14px">
+                  -2                              -2
+                  <br/>
+                 </span>
+                </div>
+                <div>
+                 <span>
+                  <span>
+                   <br/>
+                   <br/>
+                   <br/>
+                   考虑 n 个人的情况。。。则结果截然不同。。。首先开始的 Ri 是随机打乱的。。。
+                   <br/>
+                   。因为 n-1 个 Bob 相互独立。。所以我们要枚举的是 Alice 初始得到的 Ri。。。（O(n)
+                   <br/>
+                   。。接下来是一个极大极小过程。。。Alice 首先展示 Bi。。。然后才轮到其他 n-1 Bob 个人决策。。
+                   <br/>
+                   。。。这使得 Alice 必然不能对每个 Bob 单独决策。。。因此得分肯定会受到影响。。。必须把 Alice 的 Bi 放到 f() 函数中去考虑。
+                   <br/>
+                   这样就得枚举 a 再枚举其他 n-1 个 Bob。。。复杂度 (O(n2 * A)。。。因为 A 的范围非常大。。必然超时。。
+                   <br/>
+                   <br/>
+                   <br/>
+                   。。。算法的瓶颈在于枚举 a。。。我们发现对于每个 Bob。。。本质不同的决策都是有限的。。。
+                   <br/>
+                   。。因此我们可以预处理出 Bob 的每个改变结果的决策点。。。并用扫描线记录下 delta。。。
+                   <br/>
+                   就可以在 O(nlogn) 的复杂度类完成这两个枚举了。。
+                   <br/>
+                   <br/>
+                   。。初始时设 a = 0。。我们有
+                   <br/>
+                   f(A, a, B)
+                   <br/>
+                   4: A &gt; 2B
+                   <br/>
+                   -4: A &lt; B
+                   <br/>
+                  </span>
+                 </span>
+                 2: A = 2B
+                 <br/>
+                 <span>
+                  <span>
+                   <span>
+                    0: A &gt; B
+                    <br/>
+                    <span>
+                     0:   A = B
+                     <br/>
+                     <span>
+                      <br/>
+                      ( 明显差了很多。。。）
+                      <span>
+                       <br/>
+                       接着考虑 a 的变化。。。。
+                       <br/>
+                       <br/>
+                      </span>
+                     </span>
+                    </span>
+                   </span>
+                  </span>
+                 </span>
+                 —— A = 2B，
+                 <br/>
+                 不变。。
+                 <br/>
+                 —— A = B
+                 <br/>
+                 不变。。
+                 <br/>
+                 <span>
+                  <span>
+                   <span>
+                    <span>
+                     <span>
+                      <span>
+                       <br/>
+                       。。。之后。粗略的看。
+                       <br/>
+                       。。当 A &lt; B 时。。a 的增大有利于追分。。
+                       <br/>
+                       。。而 A &gt; B 时。
+                       <br/>
+                       <br/>
+                       <br/>
+                       —— A &gt; 2B 。。
+                      </span>
+                     </span>
+                    </span>
+                   </span>
+                  </span>
+                 </span>
+                 。a 的增大将会招致变数。。
+                 <span>
+                  <span>
+                   <span>
+                    <span>
+                     <span>
+                      <span>
+                       <br/>
+                       （当 A-a = 2B 时，3
+                      </span>
+                     </span>
+                    </span>
+                   </span>
+                  </span>
+                 </span>
+                 （出乎我们意料的出现了 3 分。。和单挑情况完全不同。。）
+                 <span>
+                  <span>
+                   <span>
+                    <span>
+                     <span>
+                      <span>
+                       <br/>
+                       （当 A-a &lt; 2B 时，2
+                       <br/>
+                       <br/>
+                      </span>
+                     </span>
+                    </span>
+                   </span>
+                  </span>
+                 </span>
+                 —— A &gt; B。。。
+                 <br/>
+                 （当 A+a = 2B 时，1
+                 <br/>
+                 （当 A+a &gt; 2B 时，2
+                 <span>
+                  <span>
+                   <span>
+                    <span>
+                     <span>
+                      <span>
+                       <br/>
+                       <br/>
+                       —— A &lt; B 。。a 的增大有利于追分。
+                       <br/>
+                       （当 A+a =  B 时，2
+                       <br/>
+                       （当 A+a &gt; B 时，2
+                       <br/>
+                      </span>
+                     </span>
+                    </span>
+                   </span>
+                  </span>
+                 </span>
+                 <span>
+                  <span>
+                   <span>
+                    <span>
+                     <span>
+                      <span>
+                       <br/>
+                      </span>
+                     </span>
+                    </span>
+                   </span>
+                  </span>
+                  <br/>
+                  <span>
+                  </span>
+                 </span>
+                 <br/>
+                 <span>
+                  <span>
+                   <br/>
+                   <br/>
+                   <br/>
+                   <br/>
+                   <br/>
+                   <br/>
+                   <br/>
+                   <br/>
+                   <br/>
+                   <br/>
+                   <span>
+                    <br/>
+                    <br/>
+                   </span>
+                  </span>
+                 </span>
+                </div>
+                <br/>
+                <br/>
+                <br/>
+               </div>
+               <br/>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

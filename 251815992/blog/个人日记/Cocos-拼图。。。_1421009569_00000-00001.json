@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1421034090,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "这样玩弄妹纸。。。 ",
+                "capacity": 12150,
+                "poster": {
+                    "id": "418615910",
+                    "platform": 1,
+                    "name": "特种兵3-郭泽晖 ",
+                    "emoji": []
+                },
+                "bmp": "18c49d8800009401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1421143344,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "给我发来玩玩 ",
+                "capacity": 12152,
+                "poster": {
+                    "id": "523591643",
+                    "platform": 1,
+                    "name": "HCO-罗勇林 ",
+                    "emoji": []
+                },
+                "bmp": "98d015a41502c481",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

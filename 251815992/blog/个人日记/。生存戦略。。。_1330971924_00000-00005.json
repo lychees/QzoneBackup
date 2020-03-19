@@ -1,0 +1,160 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 6,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1330993307,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "為啥沒見什麽東方的 ",
+                "capacity": 12088,
+                "poster": {
+                    "id": "190303874",
+                    "platform": 1,
+                    "name": "玉子 ",
+                    "emoji": []
+                },
+                "bmp": "18c09d6000028001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "有一个 S 级大妖怪风见幽香。。。 ",
+                        "postTime": 1331025390,
+                        "id": 1331025390,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1331012334,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "你問的那隻是薄櫻鬼的cos。。。Ps:小哥好帥。。帶回家~ ",
+                "capacity": 12049,
+                "poster": {
+                    "id": "357372256",
+                    "platform": 1,
+                    "name": "鹿慕溪-Luciferre ",
+                    "emoji": []
+                },
+                "bmp": "1890958401008409",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "饿。。baidu 了一圈回来了。。QAQ ",
+                        "postTime": 1331025369,
+                        "id": 1331025369,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1331025276,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "小岛岛的长发没有了么。。 ",
+                "capacity": 12144,
+                "poster": {
+                    "id": "122155302",
+                    "platform": 1,
+                    "name": "木子日匀 ",
+                    "emoji": []
+                },
+                "bmp": "38d40da00102c209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1331025280,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "呜呜呜 ",
+                "capacity": 12031,
+                "poster": {
+                    "id": "122155302",
+                    "platform": 1,
+                    "name": "木子日匀 ",
+                    "emoji": []
+                },
+                "bmp": "38d40da00102c209",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "我长头发很快的。。。指甲也是。。你担心什么。。 ",
+                        "postTime": 1331025337,
+                        "id": 1331025337,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "122155302",
+                            "name": "木子日匀 ",
+                            "platform": 1
+                        },
+                        "content": "觉得小岛长发好带感嘛。。 ",
+                        "postTime": 1331025401,
+                        "id": 1331025401,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "postTime": 1331135696,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "果然是头发比较Orz了~\n仰慕shi了~ ",
+                "capacity": 12137,
+                "poster": {
+                    "id": "315209075",
+                    "platform": 1,
+                    "name": "youfu ",
+                    "emoji": []
+                },
+                "bmp": "18c095840000e101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 6,
+                "postTime": 1331381768,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "好好玩啊 ",
+                "capacity": 12162,
+                "poster": {
+                    "id": "945637290",
+                    "platform": 1,
+                    "name": "糖果 ",
+                    "emoji": []
+                },
+                "bmp": "088495800000d001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

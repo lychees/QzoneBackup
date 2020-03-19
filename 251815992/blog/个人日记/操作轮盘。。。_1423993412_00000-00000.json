@@ -1,0 +1,40 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1423997701,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "这让在家天天玩的人压力真大。。 ",
+                "capacity": 12062,
+                "poster": {
+                    "id": "565297712",
+                    "platform": 1,
+                    "name": "[CSUST]Scar ",
+                    "emoji": []
+                },
+                "bmp": "38d59da80100e421",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "978632333",
+                            "name": "特种兵-何骐 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:565297712,nick:[CSUST]Scar,who:1,auto:1}+10086 ",
+                        "postTime": 1424007478,
+                        "id": 1424007478,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

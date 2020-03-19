@@ -1,0 +1,120 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1405581911,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "为何要这样做？ ",
+                "capacity": 11923,
+                "poster": {
+                    "id": "445106687",
+                    "platform": 1,
+                    "name": "taorunz ",
+                    "emoji": []
+                },
+                "bmp": "88409da40000a101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:445106687,nick:taorunz,who:1,auto:1}好像可以直接贪心？ ",
+                        "postTime": 1405582252,
+                        "id": 1405582252,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "445106687",
+                            "name": "taorunz ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,auto:1}判定的时候把所有小于x的边找出来，只要每一个点都找到联通块之外的点配对就行了 ",
+                        "postTime": 1405582498,
+                        "id": 1405582498,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1405582054,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "感动！ ",
+                "capacity": 12081,
+                "poster": {
+                    "id": "402701292",
+                    "platform": 1,
+                    "name": "x. ",
+                    "emoji": []
+                },
+                "bmp": "185495a00102e101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:402701292,nick:x.,who:1,auto:1}Orz AK！！！！ ",
+                        "postTime": 1405582327,
+                        "id": 1405582327,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1405599793,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "我写了一个看起来复杂度应该是O(log ans*maxflow(n,n))的做法……死活TLE\n求问你这是什么复杂度的 ",
+                "capacity": 11881,
+                "poster": {
+                    "id": "892431401",
+                    "platform": 1,
+                    "name": "ydc ",
+                    "emoji": []
+                },
+                "bmp": "18c08d840002c201",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "892431401",
+                            "name": "ydc ",
+                            "platform": 1
+                        },
+                        "content": "基本上是随机数据无压力 ",
+                        "postTime": 1405599807,
+                        "id": 1405599807,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:892431401,nick:ydc,auto:1} 和你一样。。主要是 maxflow 是 O(n^2m) 。。而边分治后 m 的规模是 nlogn 的。 ",
+                        "postTime": 1405605143,
+                        "id": 1405605143,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

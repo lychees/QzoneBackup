@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1266717864,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,][B]  在无限大的棋盘上，天使和魔鬼轮流行动，天使每次可以走n步，魔鬼每次可以划去任意一个格子。对于不同的n，问魔鬼是否总有困住天使的策略，或者天使是否有策略保证不被魔鬼抓住。\n[/B]   [url=http://www.gamedesign.jp/flash/chatnoir/chatnoir.html]http://www.gamedesign.jp/flash/chatnoir/chatnoir.html[/url]\n   这个Flash游戏是否保证有解ne？ 有解，是真的，我做到了，太简单了，不到一分钟时间。[/ft] ",
+                "capacity": 11776,
+                "poster": {
+                    "id": "871490473",
+                    "platform": 1,
+                    "name": "大呆呆 ",
+                    "emoji": []
+                },
+                "bmp": "08d495e00150c181",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

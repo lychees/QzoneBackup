@@ -1,0 +1,137 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 6,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1263822385,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[ft=,2,]pig控场，我就DPS或肉，把力量属性调高点。[/ft] ",
+                "capacity": 12080,
+                "poster": {
+                    "id": "534470369",
+                    "platform": 1,
+                    "name": "张弛 ",
+                    "emoji": []
+                },
+                "bmp": "08d08ca000000428",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "534470369",
+                            "name": "张弛 ",
+                            "platform": 1
+                        },
+                        "content": "3年了，内牛满面呀 ",
+                        "postTime": 1263823692,
+                        "id": 1263823692,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1263822950,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "我也要.... ",
+                "capacity": 12156,
+                "poster": {
+                    "id": "276500942",
+                    "platform": 1,
+                    "name": "酒仙 ",
+                    "emoji": []
+                },
+                "bmp": "b8c1dda00102e229",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1263823959,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "给我数学至弄高点，语文0就行了 ",
+                "capacity": 12137,
+                "poster": {
+                    "id": "65713782",
+                    "platform": 1,
+                    "name": "blackjack ",
+                    "emoji": []
+                },
+                "bmp": "08c09d2001008001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1263824410,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "[ft=,2,]你搞笑哦，dps能游走吗？游走的叫ganker了。。。。[/ft] ",
+                "capacity": 12106,
+                "poster": {
+                    "id": "476058914",
+                    "platform": 1,
+                    "name": " ",
+                    "emoji": []
+                },
+                "bmp": "18f4052001029020",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1263826923,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "拜托同志们,这不是Dota...gank李昌年?NPC要被打还要Gank? ",
+                "capacity": 12052,
+                "poster": {
+                    "id": "276500942",
+                    "platform": 1,
+                    "name": "酒仙 ",
+                    "emoji": []
+                },
+                "bmp": "b8c1dda00102e229",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "游走的意思...在这个作品里其实就是逃命的... ",
+                        "postTime": 1263843017,
+                        "id": 1263843017,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "postTime": 1263828289,
+                "effect": 1048576,
+                "replyNum": 0,
+                "content": "我一开始就在问小岛怎么游走不是gank了。。。 ",
+                "capacity": 12127,
+                "poster": {
+                    "id": "534470369",
+                    "platform": 1,
+                    "name": "张弛 ",
+                    "emoji": []
+                },
+                "bmp": "08d08ca000000428",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

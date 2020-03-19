@@ -1,0 +1,74 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1425091319,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "字体叫什么？ ",
+                "capacity": 12055,
+                "poster": {
+                    "id": "978632333",
+                    "platform": 1,
+                    "name": "特种兵-何骐 ",
+                    "emoji": []
+                },
+                "bmp": "98c09da00002e121",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:978632333,nick:特种兵-何骐,who:1,auto:1}w忘了。。随便找的。 ",
+                        "postTime": 1425095350,
+                        "id": 1425095350,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1425123165,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "没看出违和 ",
+                "capacity": 12155,
+                "poster": {
+                    "id": "529003192",
+                    "platform": 1,
+                    "name": "【XDU】数学lover ",
+                    "emoji": []
+                },
+                "bmp": "18d19dac09828909",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1425345091,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "装字体233 ",
+                "capacity": 12159,
+                "poster": {
+                    "id": "562610498",
+                    "platform": 1,
+                    "name": "御坂拓海 ",
+                    "emoji": []
+                },
+                "bmp": "98d495a00908e001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

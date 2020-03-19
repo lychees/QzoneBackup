@@ -1,0 +1,102 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1488032075,
+                "effect": 1056,
+                "replyNum": 3,
+                "content": "反正 上海不会 再来了 ",
+                "capacity": 11867,
+                "poster": {
+                    "id": "569620205",
+                    "platform": 1,
+                    "name": " [ ccnu ] Tmono ",
+                    "emoji": []
+                },
+                "bmp": "58d08da8000ec209",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:569620205,nick: [ ccnu ] Tmono,who:1,auto:1}I don't care... ",
+                        "postTime": 1488032326,
+                        "id": 1488032326,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "751723392",
+                            "name": "wwwwodddd ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1} 所以你们一起……去合肥？还是广东？ ",
+                        "postTime": 1488034032,
+                        "id": 1488034032,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:751723392,nick:wwwwodddd,who:1,auto:1}我们过吧 ",
+                        "postTime": 1488034044,
+                        "id": 1488034044,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1488085051,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "北京，北京是不可能去的，这辈子都不会去了 ",
+                "capacity": 11960,
+                "poster": {
+                    "id": "122155302",
+                    "platform": 1,
+                    "name": "木子日匀 ",
+                    "emoji": []
+                },
+                "bmp": "38d40da00102c209",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:122155302,nick:木子日匀,who:1,auto:1}带我喝酒 ",
+                        "postTime": 1488085101,
+                        "id": 1488085101,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "122155302",
+                            "name": "木子日匀 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1}可 ",
+                        "postTime": 1488085144,
+                        "id": 1488085144,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

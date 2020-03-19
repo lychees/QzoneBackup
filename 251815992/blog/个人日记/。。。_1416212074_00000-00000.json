@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1416213032,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "这是啥？tourist前队友集锦？ ",
+                "capacity": 12142,
+                "poster": {
+                    "id": "513621014",
+                    "platform": 1,
+                    "name": "HandIeNeeded ",
+                    "emoji": []
+                },
+                "bmp": "38d01fa40000c120",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

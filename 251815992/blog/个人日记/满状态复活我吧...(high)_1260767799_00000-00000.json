@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1260805654,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "你过了？ ",
+                "capacity": 12159,
+                "poster": {
+                    "id": "534872060",
+                    "platform": 1,
+                    "name": "Cherubic ",
+                    "emoji": []
+                },
+                "bmp": "18c095a00100c421",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1419462877,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "惭愧 ",
+                "capacity": 12168,
+                "poster": {
+                    "id": "1120090148",
+                    "platform": 1,
+                    "name": "[nbu]嘟嘟洒水车 ",
+                    "emoji": []
+                },
+                "bmp": "084495a00000c421",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1419466512,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "长见识了，图书馆可以这么强大啊？ ",
+                "capacity": 12138,
+                "poster": {
+                    "id": "1101560461",
+                    "platform": 1,
+                    "name": "北华-刘雪丽 ",
+                    "emoji": []
+                },
+                "bmp": "88d015800002e101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1419475224,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "嗯……[em]e149[/em]…T_T ",
+                "capacity": 12146,
+                "poster": {
+                    "id": "273751678",
+                    "platform": 1,
+                    "name": "我的他在西八区。 ",
+                    "emoji": []
+                },
+                "bmp": "88509da00102e201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,146 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1420334178,
+                "effect": 1056,
+                "replyNum": 8,
+                "content": "B大概可以nlgm…? ",
+                "capacity": 11318,
+                "poster": {
+                    "id": "446079414",
+                    "platform": 1,
+                    "name": "旺仔嚎婆婆 ",
+                    "emoji": []
+                },
+                "bmp": "38449da00000c201",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:446079414,nick:旺仔嚎婆婆,auto:1} how？\n  ",
+                        "postTime": 1420334190,
+                        "id": 1420334190,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "446079414",
+                            "name": "旺仔嚎婆婆 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1} f[i ",
+                        "postTime": 1420334212,
+                        "id": 1420334212,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "446079414",
+                            "name": "旺仔嚎婆婆 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1} F[I]代表至少有i列为空，但是每行都不为空的方案数，这个容起来似乎就是答案… [/I]",
+                        "postTime": 1420334272,
+                        "id": 1420334272,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:446079414,nick:旺仔嚎婆婆,auto:1} 为啥会有 log m ？\n ",
+                        "postTime": 1420334299,
+                        "id": 1420334299,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "446079414",
+                            "name": "旺仔嚎婆婆 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1} q&#8198;w&#8198;q有个c（m，i）和2^m—i…好像不用log…? ",
+                        "postTime": 1420334370,
+                        "id": 1420334370,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "446079414",
+                            "name": "旺仔嚎婆婆 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1} 哦…2^（（（m-i）-1）*n） ",
+                        "postTime": 1420334417,
+                        "id": 1420334417,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:446079414,nick:旺仔嚎婆婆,auto:1} talk is cheap ... show me your code ..\n ",
+                        "postTime": 1420334449,
+                        "id": 1420334449,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "446079414",
+                            "name": "旺仔嚎婆婆 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1} 考完思修回来的qwq期末考了 ",
+                        "postTime": 1420334496,
+                        "id": 1420334496,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1420347369,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "T2的官方题解不是 O(n^4) 的吗？ ",
+                "capacity": 12057,
+                "poster": {
+                    "id": "804589463",
+                    "platform": 1,
+                    "name": "[小学组]Evensgn ",
+                    "emoji": []
+                },
+                "bmp": "98849d800802c101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "513621014",
+                            "name": "HandIeNeeded ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:804589463,nick:[小学组]Evensgn,who:1,auto:1} 是的 ",
+                        "postTime": 1420430719,
+                        "id": 1420430719,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

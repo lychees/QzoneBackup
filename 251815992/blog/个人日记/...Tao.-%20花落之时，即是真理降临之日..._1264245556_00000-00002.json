@@ -1,0 +1,107 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1264245874,
+                "effect": 32,
+                "replyNum": 4,
+                "content": "[ft=,2,]听闻你要开发游戏..[/ft]\n \n[ft=,2,]很佩服呀..[em]e121[/em][/ft]\n[ft=,2,][/ft] \n[ft=,2,]只是传闻所说那个最终BOSS是李昌年是真是假额...[/ft] ",
+                "capacity": 11766,
+                "poster": {
+                    "id": "284293874",
+                    "platform": 1,
+                    "name": "孟修竹 ",
+                    "emoji": []
+                },
+                "bmp": "08d40da80102c109",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "最终Boss是佛地魔...\n ",
+                        "postTime": 1264245955,
+                        "id": 1264245955,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "284293874",
+                            "name": "孟修竹 ",
+                            "platform": 1
+                        },
+                        "content": "...[em]e153[/em] ",
+                        "postTime": 1264245989,
+                        "id": 1264245989,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "..“李昌年”可能在本作中被设定为第六面Boss.....\n.....额...还没开始具体设定Boss拉～.. ",
+                        "postTime": 1264246181,
+                        "id": 1264246181,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "284293874",
+                            "name": "孟修竹 ",
+                            "platform": 1
+                        },
+                        "content": "..不管怎么说..想想都很好玩呀..嘿嘿..\n\n很期待哈.... ",
+                        "postTime": 1264246272,
+                        "id": 1264246272,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1264247364,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "恩恩...很期待哈...加油哈 ",
+                "capacity": 12144,
+                "poster": {
+                    "id": "596971713",
+                    "platform": 1,
+                    "name": "一路向北 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00000c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1264248453,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "恩...加油哈 ",
+                "capacity": 12157,
+                "poster": {
+                    "id": "596971713",
+                    "platform": 1,
+                    "name": "一路向北 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00000c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

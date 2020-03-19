@@ -1,0 +1,102 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1420987777,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "你是华中大的？ ",
+                "capacity": 11980,
+                "poster": {
+                    "id": "122137889",
+                    "platform": 1,
+                    "name": "'''   ''' ",
+                    "emoji": []
+                },
+                "bmp": "18c085a00100c001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "704998702",
+                            "name": "北航董适 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:122137889,nick:&#39;&#39;&#39;   &#39;&#39;&#39;,who:1,auto:1} 她是哈工大的 ",
+                        "postTime": 1421004586,
+                        "id": 1421004586,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "122137889",
+                            "name": "'''   ''' ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:704998702,nick:北航董适,who:1,auto:1}怎么hust ",
+                        "postTime": 1421021823,
+                        "id": 1421021823,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1420988053,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "这是？？ ",
+                "capacity": 12145,
+                "poster": {
+                    "id": "1783289573",
+                    "platform": 1,
+                    "name": "马里奥Bu吃红薯酱 ",
+                    "emoji": []
+                },
+                "bmp": "18509dc00f0fe101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1421026111,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "hust[em]e103[/em] ",
+                "capacity": 12147,
+                "poster": {
+                    "id": "122137889",
+                    "platform": 1,
+                    "name": "'''   ''' ",
+                    "emoji": []
+                },
+                "bmp": "18c085a00100c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1421079933,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "不错小伙 ",
+                "capacity": 12156,
+                "poster": {
+                    "id": "523591643",
+                    "platform": 1,
+                    "name": "HCO-罗勇林 ",
+                    "emoji": []
+                },
+                "bmp": "98d015a41502c481",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 2,
+                "postTime": 1473257166,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "orz ",
+                "capacity": 12160,
+                "poster": {
+                    "id": "604412059",
+                    "platform": 1,
+                    "name": "耶稣说了个Q号 ",
+                    "emoji": []
+                },
+                "bmp": "08c0952000029001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1473265087,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "学术岛 ",
+                "capacity": 12162,
+                "poster": {
+                    "id": "122155302",
+                    "platform": 1,
+                    "name": "木子日匀 ",
+                    "emoji": []
+                },
+                "bmp": "38d40da00102c209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1473307003,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "3.5是不是少了两个字[em]e141[/em] ",
+                "capacity": 12136,
+                "poster": {
+                    "id": "195795507",
+                    "platform": 1,
+                    "name": "淹死鲨鱼 ",
+                    "emoji": []
+                },
+                "bmp": "18d19da000004401",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

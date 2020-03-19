@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1217472257,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,,] ╱  ╲    /土 [/ft]\n[ft=,,]ㄥ、     〇：[/ft] \n             [B][ft=ffffff,,]ｖｖｖ　　ｖｖｖ　　ｖｖｖ[/ft][/B] \n[ft=#f49bc1,,][B]{冇伱门},,[/B][/ft][B] \n--------------------------- \n[ft=#fce1ec,,]-莪真哒恏緈諨,,[/ft] \n--------------------------- \n[ft=#f5999d,,]朋友门 ,,[/ft] \n--------------------------- \n[ft=#ef6ea8,,]-對我來說伱门諟最重要旳..[/ft] [/B] ",
+                "capacity": 11795,
+                "poster": {
+                    "id": "993189655",
+                    "platform": 1,
+                    "name": "乜許、4詯傻 ",
+                    "emoji": []
+                },
+                "bmp": "18909c0000008001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1217488707,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "我晕哦..我是懒..\n \n呵呵..\n \n那个的确是跟你学的..呵呵//\n \n人气嘛..嘿嘿..一直很高..\n \n小岛加油.当然我说的不只是空间. ",
+                "capacity": 12059,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

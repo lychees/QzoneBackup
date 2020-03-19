@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1288618880,
+                "effect": 1048576,
+                "replyNum": 0,
+                "content": "= = 总是翘课什么的，不好啊啊 ",
+                "capacity": 12143,
+                "poster": {
+                    "id": "443164766",
+                    "platform": 1,
+                    "name": "\"zrp\" ",
+                    "emoji": []
+                },
+                "bmp": "088094a10000c301",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1288651488,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "你翘课是本事呀,你上学是要交学费的,你这样等于你拿钱开玩笑,反正钱不是你挣的, ",
+                "capacity": 12098,
+                "poster": {
+                    "id": "1119392332",
+                    "platform": 1,
+                    "name": "翔哥 ",
+                    "emoji": []
+                },
+                "bmp": "08809c0002000001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

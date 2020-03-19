@@ -1,0 +1,102 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1332834901,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "小岛。。。 ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "122155302",
+                    "platform": 1,
+                    "name": "木子日匀 ",
+                    "emoji": []
+                },
+                "bmp": "38d40da00102c209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1332834984,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "编辑中。。勿回复！。。 ",
+                "capacity": 12147,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1332841614,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "-. - 你写游戏去啦？ ",
+                "capacity": 12145,
+                "poster": {
+                    "id": "8644325",
+                    "platform": 1,
+                    "name": "死月·吃圡蕾特 ",
+                    "emoji": []
+                },
+                "bmp": "18518da805128101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1333119576,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "保送生...   感谢前辈的经验教导       话说能转载么      \n我相信只要能坚持不懈的走向自己的梦想 忍耐下去一定会实现的 ",
+                "capacity": 11847,
+                "poster": {
+                    "id": "308388541",
+                    "platform": 1,
+                    "name": "◇﹏oかがみ. ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00100c009",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": " ... 转载许可 ... 巧者劳而智者忧，无能者无所求。。 所谓 “保送生” 。。。\n也许只是勉强涂饰，一时的侥幸而已吧。。。 ",
+                        "postTime": 1333123022,
+                        "id": 1333123022,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "308388541",
+                            "name": "◇﹏oかがみ. ",
+                            "platform": 1
+                        },
+                        "content": "不過還是好像很厲害的樣子... ",
+                        "postTime": 1333278263,
+                        "id": 1333278263,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

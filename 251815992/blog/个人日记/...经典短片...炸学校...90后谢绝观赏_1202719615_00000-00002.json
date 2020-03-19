@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1202723728,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "我懂得衰亡民族之所以默无声息的原由了~~~~~   这个都有人看[em]e4[/em] ",
+                "capacity": 12101,
+                "poster": {
+                    "id": "331507511",
+                    "platform": 1,
+                    "name": "何子阳 ",
+                    "emoji": []
+                },
+                "bmp": "18c195a40000c301",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1202736732,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "回楼上的~~\n \n沉默呵,沉默呵.\n \n不在沉默中爆发.就在沉默中灭亡. ",
+                "capacity": 12113,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1202738418,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "\n90前老师真的那么狠？？？？？？？？？？？ ",
+                "capacity": 12129,
+                "poster": {
+                    "id": "363297713",
+                    "platform": 1,
+                    "name": "猴子.豆子 ",
+                    "emoji": []
+                },
+                "bmp": "18d1cda00140c020",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

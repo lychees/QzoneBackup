@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1222743687,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "那段的确不对！！ ",
+                "capacity": 12156,
+                "poster": {
+                    "id": "534872060",
+                    "platform": 1,
+                    "name": "Cherubic ",
+                    "emoji": []
+                },
+                "bmp": "18c095a00100c421",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1222777289,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "拜托……小虎……\n不要拿我的这段猥琐的弱弱的程序来展示行么……\n我丢死了……\n还有哦，我后来的程序和这个不一样哦！ ",
+                "capacity": 12059,
+                "poster": {
+                    "id": "874549453",
+                    "platform": 1,
+                    "name": "参商 ",
+                    "emoji": []
+                },
+                "bmp": "38d095a001028209",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

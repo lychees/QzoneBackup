@@ -1,0 +1,830 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    D4464. 矩阵乘法（梁 盾）
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             D4464. 矩阵乘法（梁 盾）
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2014-09-28 06:17:09
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(64)	è¯è®º(3)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1411899429,
+"voteids":0,
+"pubtime":1411899429,
+"replynum":3,
+"category":"个人日记",
+"title":"D4464. 矩阵乘法（梁 盾）",
+"effect":8389120,
+"effect2":524294,
+"exblogtype":3,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":81177,
+"lp_style":16843520,
+"lp_flag":0,
+"lp_topvalue":0,
+"orguin":251815992,
+"orgblogid":1411899429,
+"mention_uins":[ ],
+"attach":[],"comments":[{"id":1,
+"postTime":1411902549,
+"effect":1024,
+"replyNum":0,
+"content":"这个题好像题目与题意完全无关… ",
+"capacity":12122,
+"poster":{
+"id":"499678267",
+"platform":1,
+"name":"向鹏达 ",
+"emoji":[ ]}
+,
+"bmp":"18d48da00040e201",
+"ismyreply":0,
+"replies":[]},
+{"id":2,
+"postTime":1411906825,
+"effect":0,
+"replyNum":0,
+"content":"没暴力快？吓傻了 ",
+"capacity":12152,
+"poster":{
+"id":"892431401",
+"platform":1,
+"name":"ydc ",
+"emoji":[ ]}
+,
+"bmp":"18c08d840002c201",
+"ismyreply":0,
+"replies":[]},
+{"id":3,
+"postTime":1411945096,
+"effect":0,
+"replyNum":0,
+"content":"为何不用O(Q(logn)^3)的方法? ",
+"capacity":12144,
+"poster":{
+"id":"420836131",
+"platform":1,
+"name":"doc ",
+"emoji":[ ]}
+,
+"bmp":"18d025a00000e101",
+"ismyreply":0,
+"replies":[]}]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <div>
+                <div>
+                 <a href="http://www.tsinsen.com/ViewGProblem.page?gpid=D4464" target="_blank">
+                  http://www.tsinsen.com/ViewGProblem.page?gpid=D4464
+                 </a>
+                 <br/>
+                 <br/>
+                 “
+                 <span style="font-size:14px">
+                  我们假设所有询问一起二分，一开始他们都会
+                 </span>
+                </div>
+                <div>
+                 二分同样的一个数值，即查询一个子矩形中，包含有多少个小于等于mid 的数，这里我们
+                </div>
+                <div>
+                 可以直接用二维树状数组进行统计。
+                </div>
+                <div>
+                 二分完成后所有节点便会兵分两路，我们直接把所有询问和矩阵中的数字分为两部分继
+                </div>
+                <div>
+                 续递归即可，这里这个算法的复杂度O(logN*logN*logQ*(Q+N2))”
+                </div>
+                <br/>
+                <br/>
+                <br/>
+                ???? 如何分析复杂度？
+                <br/>
+                <br/>
+                、
+                <br/>
+                <br/>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 //}/* .................................................................................................................................. */
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 const int N = int(5e2) + 9;
+                </div>
+                <div>
+                 int A[N][N];  VII I;
+                </div>
+                <div>
+                 int n, m;
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 bool cmp(PII a, PII b){
+                </div>
+                <div>
+                 return A[a.fi][a.se] &lt; A[b.fi][b.se];
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 int main(){
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 #ifndef ONLINE_JUDGE
+                </div>
+                <div>
+                 freopen("in.txt", "r", stdin);
+                </div>
+                <div>
+                 //freopen("out.txt", "w", stdout);
+                </div>
+                <div>
+                 #endif
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 RD(n, m); REP_2_1(i, j, n, n) RD(A[i][j]), I.PB(MP(i, j)); SRT(I, cmp);
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 DO(m){
+                </div>
+                <div>
+                 int x1, y1, x2, y2, k; RD(x1, y1, x2, y2, k);
+                </div>
+                <div>
+                 ECH(it, I){
+                </div>
+                <div>
+                 int x = it-&gt;fi, y = it-&gt;se;
+                </div>
+                <div>
+                 if (x1 &lt;= x &amp;&amp; x &lt;= x2 &amp;&amp; y1 &lt;= y &amp;&amp; y &lt;= y2){
+                </div>
+                <div>
+                 --k;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 if (!k){
+                </div>
+                <div>
+                 OT(A[x][y]);
+                </div>
+                <div>
+                 break;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 }
+                 <br/>
+                 <span>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  还没暴力快。。。？
+                 </span>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <br/>
+                <br/>
+                <br/>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 //}/* .................................................................................................................................. */
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 const int N = int(5e2) + 9;
+                </div>
+                <div>
+                 int A[N][N]; VI AA;
+                </div>
+                <div>
+                 int n, m;
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 namespace BIT{
+                </div>
+                <div>
+                 typedef int intt;
+                </div>
+                <div>
+                 int C[N][N];
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 void Add(int x, int _y, int d){
+                </div>
+                <div>
+                 for (;x&lt;=n;x+=low_bit(x))
+                </div>
+                <div>
+                 for (int y=_y;y&lt;=n;y+=low_bit(y))
+                </div>
+                <div>
+                 C[x][y] += d;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 intt Sum(int x, int _y){
+                </div>
+                <div>
+                 //cout &lt;&lt; x &lt;&lt; " " &lt;&lt; _y &lt;&lt; endl;
+                </div>
+                <div>
+                 intt res = 0; for (;x;x^=low_bit(x))
+                </div>
+                <div>
+                 for (int y=_y;y;y^=low_bit(y))
+                </div>
+                <div>
+                 res += C[x][y];
+                </div>
+                <div>
+                 //cout &lt;&lt; x &lt;&lt; " " &lt;&lt; _y &lt;&lt; endl;
+                </div>
+                <div>
+                 return res;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 void Init(){
+                </div>
+                <div>
+                 //fill(C+1, C+n+1, 0);
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 } //using namespace BIT;
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 const int M = 60009;
+                </div>
+                <div>
+                 struct query{
+                </div>
+                <div>
+                 int x1, y1, x2, y2, k;
+                </div>
+                <div>
+                 void in(){
+                </div>
+                <div>
+                 RD(x1, y1, x2, y2, k);
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 int sum(){
+                </div>
+                <div>
+                 return BIT::Sum(x2, y2) - BIT::Sum(x1-1, y2)  - BIT::Sum(x2, y1-1) + BIT::Sum(x1-1, y1-1);
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 } Q[M]; int res[M];
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 void cdq(const VI I, int l, int r){
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 if (I.empty()) return;
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 //cout &lt;&lt; l &lt;&lt; " " &lt;&lt; r &lt;&lt; endl;
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 if (l + 1 == r){
+                </div>
+                <div>
+                 ECH(i, I) res[*i] = l;
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 else{
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 int m = l + r &gt;&gt; 1;
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 REP_2_1(i, j, n, n) if (A[i][j] &lt; AA[m]){
+                </div>
+                <div>
+                 BIT::Add(i, j, 1);
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 VI Il, Ir; ECH(i, I){
+                </div>
+                <div>
+                 if (Q[*i].sum() &lt; Q[*i].k){
+                </div>
+                <div>
+                 Ir.PB(*i);
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 else{
+                </div>
+                <div>
+                 Il.PB(*i);
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 REP_2_1(i, j, n, n) if (A[i][j] &lt; AA[m]){
+                </div>
+                <div>
+                 BIT::Add(i, j, -1);
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 //Il = I;
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 cdq(Il, l, m);
+                </div>
+                <div>
+                 cdq(Ir, m, r);
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 int main(){
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 #ifndef ONLINE_JUDGE
+                </div>
+                <div>
+                 freopen("in.txt", "r", stdin);
+                </div>
+                <div>
+                 freopen("out2.txt", "w", stdout);
+                </div>
+                <div>
+                 #endif
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 RD(n, m);
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 //cout &lt;&lt; n &lt;&lt; " " &lt;&lt; m &lt;&lt; endl;
+                </div>
+                <div>
+                 REP_2_1(i, j, n, n) AA.PB(RD(A[i][j])); UNQ(AA);
+                </div>
+                <div>
+                 //cout &lt;&lt; A[n][n] &lt;&lt; endl;
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 VI I; REP(i, m){
+                </div>
+                <div>
+                 Q[i].in(), I.PB(i);
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 cdq(I, 0, SZ(AA));
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 REP(i, m) OT(AA[res[i]]);
+                </div>
+                <div>
+                 }
+                </div>
+                <br/>
+               </div>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

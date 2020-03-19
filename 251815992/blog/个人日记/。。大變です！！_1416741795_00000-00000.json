@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1416746508,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "是异变！ ",
+                "capacity": 12162,
+                "poster": {
+                    "id": "494611539",
+                    "platform": 1,
+                    "name": "KID ",
+                    "emoji": []
+                },
+                "bmp": "18d49da00100e201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

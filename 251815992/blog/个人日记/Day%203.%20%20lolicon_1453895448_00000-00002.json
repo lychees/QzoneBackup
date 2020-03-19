@@ -1,0 +1,74 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1453896826,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "都是中国人为什么要发英文邮件……… ",
+                "capacity": 11955,
+                "poster": {
+                    "id": "54853315",
+                    "platform": 1,
+                    "name": "X. ",
+                    "emoji": []
+                },
+                "bmp": "18519da00102d029",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "7334381",
+                            "name": "[alpc]ppaul ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:54853315,nick:X.,who:1,auto:1} 跟在学校碰到老乡讲普通话是一个道理。[em]e100[/em] ",
+                        "postTime": 1453951878,
+                        "id": 1453951878,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1453899602,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "为啥要跟你扯后面那些。。。 ",
+                "capacity": 12140,
+                "poster": {
+                    "id": "592824555",
+                    "platform": 1,
+                    "name": "旋风小晴天 ",
+                    "emoji": []
+                },
+                "bmp": "889195e00002c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1453902691,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "shameless.... ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "569620205",
+                    "platform": 1,
+                    "name": " [ ccnu ] Tmono ",
+                    "emoji": []
+                },
+                "bmp": "58d08da8000ec209",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

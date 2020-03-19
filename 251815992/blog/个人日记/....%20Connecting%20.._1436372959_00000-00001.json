@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1436373282,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "我一直很相信这点。另外就是觉得该发生的事儿总归会发生的。 ",
+                "capacity": 12115,
+                "poster": {
+                    "id": "908597038",
+                    "platform": 1,
+                    "name": "Vicky ",
+                    "emoji": []
+                },
+                "bmp": "3850ad800002c201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1436394603,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "fez， ",
+                "capacity": 12163,
+                "poster": {
+                    "id": "397427019",
+                    "platform": 1,
+                    "name": " ",
+                    "emoji": []
+                },
+                "bmp": "18809da40102c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

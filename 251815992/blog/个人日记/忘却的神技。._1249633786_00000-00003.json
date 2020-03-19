@@ -1,0 +1,91 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1251301721,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "梦幻…好怀念 ",
+                "capacity": 12160,
+                "poster": {
+                    "id": "534872060",
+                    "platform": 1,
+                    "name": "Cherubic ",
+                    "emoji": []
+                },
+                "bmp": "18c095a00100c421",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1252195623,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "[ft=,2,]还在玩梦幻的？[/ft] ",
+                "capacity": 12141,
+                "poster": {
+                    "id": "391255889",
+                    "platform": 1,
+                    "name": "Helloworld ",
+                    "emoji": []
+                },
+                "bmp": "08c09da40100c409",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1252810847,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[ft=,2,]我日，你竟然还在玩梦幻。。。。都游泳在。。。话说我都没游过泳。。。悲剧。。。TAT。。。下次来我们区玩呀，暴力ST求虐。。。[/ft] ",
+                "capacity": 11998,
+                "poster": {
+                    "id": "534470369",
+                    "platform": 1,
+                    "name": "张弛 ",
+                    "emoji": []
+                },
+                "bmp": "08d08ca000000428",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "..- -注意截图时间 .. ",
+                        "postTime": 1252810934,
+                        "id": 1252810934,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "postTime": 1266675598,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]小岛娘娘（忘却的神技）这一篇产生的共鸣可不小。雪精灵与小岛的对话对的多好啊。我们三人在数学上的成就都很厉害，雪精灵说得数学方面我都懂，而且造诣。。。小岛娘娘在和她对话时，我首次明显感觉到她有点自傲。在前面的日志中，他已超脱了常人境界，而这一篇却有一点不同。我想雪精灵和我一样都对小岛娘娘有着羡慕，钦佩，敬爱。。。的情感。[/ft] ",
+                "capacity": 11837,
+                "poster": {
+                    "id": "871490473",
+                    "platform": 1,
+                    "name": "大呆呆 ",
+                    "emoji": []
+                },
+                "bmp": "08d495e00150c181",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

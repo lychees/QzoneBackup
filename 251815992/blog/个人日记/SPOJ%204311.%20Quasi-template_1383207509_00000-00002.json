@@ -1,0 +1,74 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1383208854,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "我觉得还是挺难的。。。起码现场赛我不会去写！ ",
+                "capacity": 12118,
+                "poster": {
+                    "id": "403528201",
+                    "platform": 1,
+                    "name": "[scut]aa ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00042c109",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1383219529,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "really “easy” ",
+                "capacity": 12152,
+                "poster": {
+                    "id": "865319505",
+                    "platform": 1,
+                    "name": "Error202 ",
+                    "emoji": []
+                },
+                "bmp": "08c09d800000c020",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1383290321,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "上面那段是llh写的 ",
+                "capacity": 12056,
+                "poster": {
+                    "id": "10848584",
+                    "platform": 1,
+                    "name": "主席 ",
+                    "emoji": []
+                },
+                "bmp": "0880dd8000000221",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:10848584,nick:主席,auto:1} 这个我还是知道啦。0 0。。。 ",
+                        "postTime": 1383290557,
+                        "id": 1383290557,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

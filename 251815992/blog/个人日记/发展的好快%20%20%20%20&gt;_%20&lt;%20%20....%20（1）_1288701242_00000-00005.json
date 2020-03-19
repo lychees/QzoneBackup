@@ -1,0 +1,113 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 6,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1288703609,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "飞虎辛苦了。 ",
+                "capacity": 12160,
+                "poster": {
+                    "id": "229496537",
+                    "platform": 1,
+                    "name": "Kb ",
+                    "emoji": []
+                },
+                "bmp": "18d195a001028401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1288704341,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "给力的C++，是个动态规划吧？…… ",
+                "capacity": 12135,
+                "poster": {
+                    "id": "791577378",
+                    "platform": 1,
+                    "name": "Spirit ",
+                    "emoji": []
+                },
+                "bmp": "18c095a00100c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1288707854,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "楼上的，我怎么看都没看出这和DP有任何关系……\n只是……第一眼让我想到了杨辉三角……\n但是，你那频繁地给指针变量赋整数值看得我很奇怪困惑，而且，貌似你输出的只有空格和换行符………………\n望解释！\nPS：我发现我们的书写习惯很相似哎！ ",
+                "capacity": 11940,
+                "poster": {
+                    "id": "451524137",
+                    "platform": 1,
+                    "name": "光之神圣 ",
+                    "emoji": []
+                },
+                "bmp": "18c1f4a40080c109",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1288709007,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "呃……而且，貌似数组的标识符是指针常量吧？ ",
+                "capacity": 12126,
+                "poster": {
+                    "id": "451524137",
+                    "platform": 1,
+                    "name": "光之神圣 ",
+                    "emoji": []
+                },
+                "bmp": "18c1f4a40080c109",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1288713662,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "。。。。呀。。。。 ",
+                "capacity": 12154,
+                "poster": {
+                    "id": "1530491627",
+                    "platform": 1,
+                    "name": "钱冰忆 ",
+                    "emoji": []
+                },
+                "bmp": "1a519dc80210c201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 6,
+                "postTime": 1288773571,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "\n\n高考前夕...\nhttp://user.qzone.qq.com/251815992/blog/1270655162\n\n畢業。。 \n...\nhttp://user.qzone.qq.com/251815992/blog/1276061129\n\nhttp://user.qzone.qq.com/251815992/blog/1277554055 ",
+                "capacity": 11990,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            }
+        ]
+    }
+}

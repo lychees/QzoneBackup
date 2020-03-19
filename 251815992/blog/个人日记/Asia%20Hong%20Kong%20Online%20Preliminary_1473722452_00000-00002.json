@@ -1,0 +1,107 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1473724127,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "年轻人真有活力wwww ",
+                "capacity": 12155,
+                "poster": {
+                    "id": "1004999674",
+                    "platform": 1,
+                    "name": "mio ",
+                    "emoji": []
+                },
+                "bmp": "188095a40002c221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1473730473,
+                "effect": 32,
+                "replyNum": 4,
+                "content": "C题敝队用multiset的lower_bound一直T 换成set秒过。。 ",
+                "capacity": 11672,
+                "poster": {
+                    "id": "1242944835",
+                    "platform": 1,
+                    "name": "NJU-ZSC ",
+                    "emoji": []
+                },
+                "bmp": "18c08d8002024001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "779379402",
+                            "name": "若看见我，请让我滚去看书 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:1242944835,nick:NJU-ZSC,who:1,auto:1}[em]e400839[/em]为何set也可以过？不会有重复结束时间吗 ",
+                        "postTime": 1473735267,
+                        "id": 1473735267,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "1242944835",
+                            "name": "NJU-ZSC ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:779379402,nick:若看见我，请让我滚去看书,who:1,auto:1} 把时间弄成pair后面带个id就可以避免重复了 ",
+                        "postTime": 1473735340,
+                        "id": 1473735340,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "779379402",
+                            "name": "若看见我，请让我滚去看书 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:1242944835,nick:NJU-ZSC,who:1,auto:1}噢，，， ",
+                        "postTime": 1473735471,
+                        "id": 1473735471,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "709256487",
+                            "name": "[yju]纯蒟蒻 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:1242944835,nick:NJU-ZSC,auto:1} 你们是不是写了lower_bound(s.begin(),s.end()).... ",
+                        "postTime": 1473819399,
+                        "id": 1473819399,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1473771795,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "反复横跳hhhhh ",
+                "capacity": 12153,
+                "poster": {
+                    "id": "3105179337",
+                    "platform": 1,
+                    "name": "一只辣鸡 ",
+                    "emoji": []
+                },
+                "bmp": "08009d8002006201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

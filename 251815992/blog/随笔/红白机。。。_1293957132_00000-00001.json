@@ -1,0 +1,57 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1293966414,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "坐等继续 ",
+                "capacity": 12111,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "1482421777",
+                            "name": "还记得那个MJ吗 ",
+                            "platform": 1
+                        },
+                        "content": "我对岛君今年能否回家过年表示怀疑。 ",
+                        "postTime": 1294045591,
+                        "id": 1294045591,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1294031167,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]过年的时候我们来跳皮筋吧。~[/ft] ",
+                "capacity": 12132,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            }
+        ]
+    }
+}

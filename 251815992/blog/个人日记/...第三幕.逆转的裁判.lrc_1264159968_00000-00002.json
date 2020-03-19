@@ -1,0 +1,85 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1264161419,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "烈人. ",
+                "capacity": 12160,
+                "poster": {
+                    "id": "506863220",
+                    "platform": 1,
+                    "name": "幸福的/旁边 ",
+                    "emoji": []
+                },
+                "bmp": "18d195ac0142c409",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1264170241,
+                "effect": 1048576,
+                "replyNum": 0,
+                "content": "原来我注定是龙套。。。 ",
+                "capacity": 12147,
+                "poster": {
+                    "id": "534470369",
+                    "platform": 1,
+                    "name": "张弛 ",
+                    "emoji": []
+                },
+                "bmp": "08d08ca000000428",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1264370798,
+                "effect": 4194336,
+                "replyNum": 2,
+                "content": "[00:52.86]张晓晨：没用的，你们已经走到历史的夹缝中了，就让它乖乖的把你们的吞噬掉吧...哈哈哈哈...\n应该是谢月平吧。。。 ",
+                "capacity": 11987,
+                "poster": {
+                    "id": "122698324",
+                    "platform": 1,
+                    "name": "张晓晨 ",
+                    "emoji": []
+                },
+                "bmp": "18d19560010e8009",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "。。。。 ",
+                        "postTime": 1264387560,
+                        "id": 1264387560,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "122698324",
+                            "name": "张晓晨 ",
+                            "platform": 1
+                        },
+                        "content": "............. ",
+                        "postTime": 1264393353,
+                        "id": 1264393353,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

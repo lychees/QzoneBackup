@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1469112427,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "是想要谷歌全家桶了吗。。。 ",
+                "capacity": 12144,
+                "poster": {
+                    "id": "929185023",
+                    "platform": 1,
+                    "name": "[hdu]Herobs ",
+                    "emoji": []
+                },
+                "bmp": "189095a00902c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

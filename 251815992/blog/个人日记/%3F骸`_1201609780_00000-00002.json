@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1201616914,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "\n[B][ft=#ffffcc,,]怎么了啊[/ft][/B] ",
+                "capacity": 12131,
+                "poster": {
+                    "id": "241721246",
+                    "platform": 1,
+                    "name": "-Zoey-D ",
+                    "emoji": []
+                },
+                "bmp": "18d495a001008121",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1201618031,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "The tear also could not replace except spiritless any\nYour writing lets me despair\nI cannot understand you ,like    you cannot understand me\nOnly\nI cannot throw down you ",
+                "capacity": 12004,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1201695809,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "\n这孩子最近有点小病 ",
+                "capacity": 12149,
+                "poster": {
+                    "id": "770976045",
+                    "platform": 1,
+                    "name": "┈┾葬亽 ╄ ",
+                    "emoji": []
+                },
+                "bmp": "18d015a40000c209",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

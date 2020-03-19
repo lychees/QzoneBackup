@@ -1,0 +1,153 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 7,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1488651077,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "人民教师！厉害了，教教我Python吧。。。。。。。。 ",
+                "capacity": 11995,
+                "poster": {
+                    "id": "1559580331",
+                    "platform": 1,
+                    "name": "吴超尘 ",
+                    "emoji": []
+                },
+                "bmp": "08001d800002c101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "你太弱。 ",
+                        "postTime": 1488651451,
+                        "id": 1488651451,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "1559580331",
+                            "name": "吴超尘 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,auto:1} [em]e149[/em] ",
+                        "postTime": 1488651551,
+                        "id": 1488651551,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1488652363,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "不可以穿女装 不可以穿女装 不可以穿女装 可以穿女装 可以穿女装 ",
+                "capacity": 12108,
+                "poster": {
+                    "id": "446079414",
+                    "platform": 1,
+                    "name": "旺仔嚎婆婆 ",
+                    "emoji": []
+                },
+                "bmp": "38449da00000c201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1488653488,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "不可以穿女装 不可以穿女装 不可以穿女装 ",
+                "capacity": 12130,
+                "poster": {
+                    "id": "397427019",
+                    "platform": 1,
+                    "name": " ",
+                    "emoji": []
+                },
+                "bmp": "18809da40102c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1488659969,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "还没见过不穿女装的岛娘[em]e400835[/em] ",
+                "capacity": 12132,
+                "poster": {
+                    "id": "41785691",
+                    "platform": 1,
+                    "name": "iceboy ",
+                    "emoji": []
+                },
+                "bmp": "08c13d800002c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1488674995,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "岛姐姐穿女装，岛姐姐穿女装，岛姐姐穿女装 ",
+                "capacity": 12131,
+                "poster": {
+                    "id": "1554577057",
+                    "platform": 1,
+                    "name": "其他猫做得到嘛？ ",
+                    "emoji": []
+                },
+                "bmp": "585095800202c401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 6,
+                "postTime": 1488678470,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "为什么忽然变成人民教师了…… ",
+                "capacity": 12142,
+                "poster": {
+                    "id": "594837346",
+                    "platform": 1,
+                    "name": "CCG成员 ",
+                    "emoji": []
+                },
+                "bmp": "18c095a00102c481",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 7,
+                "postTime": 1488682771,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "+1s ",
+                "capacity": 12165,
+                "poster": {
+                    "id": "451524137",
+                    "platform": 1,
+                    "name": "光之神圣 ",
+                    "emoji": []
+                },
+                "bmp": "18c1f4a40080c109",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1426002290,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "…这真的是按重要度排序的吗… ",
+                "capacity": 12141,
+                "poster": {
+                    "id": "785535171",
+                    "platform": 1,
+                    "name": "Jの星愿 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a40100a201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1426008901,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "服务器肯定优先   房间这种框架搭出来还是蛮重要的 ",
+                "capacity": 12121,
+                "poster": {
+                    "id": "25241274",
+                    "platform": 1,
+                    "name": "七星瓢虫 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00000e101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

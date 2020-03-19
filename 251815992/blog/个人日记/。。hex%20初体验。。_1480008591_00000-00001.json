@@ -1,0 +1,57 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1480036226,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "。。。能交易确实不错  但是满大街奸商炒卡  甚至用恶劣的手段骗钱\n就因为是在网络不实名这些人可以不负责任的乱来  \n还有岛姐姐那张梦行者 出不出啊[em]e154[/em] ",
+                "capacity": 11875,
+                "poster": {
+                    "id": "853983504",
+                    "platform": 1,
+                    "name": "。 ",
+                    "emoji": []
+                },
+                "bmp": "18c095a00002d001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:853983504,nick:。,who:1,auto:1}梦行者感觉百搭啊。。。 ",
+                        "postTime": 1480059934,
+                        "id": 1480059934,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1480550434,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "话说。。。已经有一个软件可以模拟各种卡牌游戏的 ",
+                "capacity": 12122,
+                "poster": {
+                    "id": "25241274",
+                    "platform": 1,
+                    "name": "七星瓢虫 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00000e101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

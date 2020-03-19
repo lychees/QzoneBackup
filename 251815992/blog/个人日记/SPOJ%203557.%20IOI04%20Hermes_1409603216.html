@@ -1,0 +1,670 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    SPOJ 3557. IOI04 Hermes
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             SPOJ 3557. IOI04 Hermes
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2014-09-01 16:26:56
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(28)	è¯è®º(0)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1409603216,
+"voteids":0,
+"pubtime":1409603216,
+"replynum":0,
+"category":"个人日记",
+"title":"SPOJ 3557. IOI04 Hermes",
+"effect":8389120,
+"effect2":524294,
+"exblogtype":3,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":81177,
+"lp_style":16843520,
+"lp_flag":0,
+"lp_topvalue":0,
+"orguin":251815992,
+"orgblogid":1409603216,
+"mention_uins":[ ],
+"attach":[],"comments":[]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <div>
+                <a href="http://www.spoj.com/OI/problems/HERMES/" target="_blank">
+                 http://www.spoj.com/OI/problems/HERMES/
+                </a>
+                <br/>
+                <a href="http://acm.hdu.edu.cn/showproblem.php?pid=4837" target="_blank">
+                 http://acm.hdu.edu.cn/showproblem.php?pid=4837
+                </a>
+                （加强）
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                朴素 DP： 90 分
+                <br/>
+                <div>
+                 // 设：
+                </div>
+                <div>
+                 // fx[i][yy] 路过了前 i 个，当前坐标在 (x[i], yy) 的 xxx。。。
+                </div>
+                <div>
+                 // fy[i][xx] 路过了前 i 个，当前坐标在 (xx, y[i]) 的 xxx。。。
+                 <br/>
+                 <span>
+                  <br/>
+                 </span>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 //}/* .................................................................................................................................. */
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 const int N = int(2e4) + 9, C = 1009;
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 int fx[2][C*2], fy[2][C*2], x[N], y[N];
+                </div>
+                <div>
+                 int n;
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 int main(){
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 #ifndef ONLINE_JUDGE
+                </div>
+                <div>
+                 freopen("in.txt", "r", stdin);
+                </div>
+                <div>
+                 //freopen("out2.txt", "w", stdout);
+                </div>
+                <div>
+                 #endif
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 REP_1_C(i, RD(n)){
+                </div>
+                <div>
+                 RDD(x[i], y[i]);
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 #define fxq fx[q]
+                </div>
+                <div>
+                 #define fxp fx[p]
+                </div>
+                <div>
+                 #define fyq fy[q]
+                </div>
+                <div>
+                 #define fyp fy[p]
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 int p = 0, q = 1; REP(i, 2*C) fxp[i] = fyp[i] = abs(i - C);
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 REP_1(i, n){
+                </div>
+                <div>
+                 swap(p, q); RST(fxp, fyp);
+                </div>
+                <div>
+                 REP(yy, 2*C) fxp[yy] = min(fxq[yy]+abs(x[i]-x[i-1]), fyq[x[i]+C] + abs(yy-C-y[i-1]));
+                </div>
+                <div>
+                 REP(xx, 2*C) fyp[xx] = min(fyq[xx]+abs(y[i]-y[i-1]), fxq[y[i]+C] + abs(xx-C-x[i-1]));
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 int res = INF; REP(i, 2*C){
+                </div>
+                <div>
+                 checkMin(res, min(fxp[i], fyp[i]));
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 OT(res);
+                </div>
+                <div>
+                 }
+                 <br/>
+                 <span>
+                  <br/>
+                  <br/>
+                  复杂度 O(nc)。。。这个状态和转移相对直白。。容易想到。。。
+                  <br/>
+                  。。。考虑进一步优化。。。
+                  <br/>
+                  <br/>
+                  我们要 keep in mind 的只有一件事。。。
+                  <br/>
+                  <br/>
+                  “ 就是 dp 是可以拿数据结构紧凑地表示的。 。。。”
+                  <br/>
+                  <br/>
+                  类似的例子有：
+                  <br/>
+                  <a href="http://acm.hdu.edu.cn/showproblem.php?pid=4703" target="_blank">
+                   http://acm.hdu.edu.cn/showproblem.php?pid=4703
+                  </a>
+                  <br/>
+                  <a href="http://codeforces.com/blog/entry/6939" target="_blank">
+                   http://codeforces.com/blog/entry/6939
+                  </a>
+                  <br/>
+                  <br/>
+                  <br/>
+                  ————————————
+                  <br/>
+                  <br/>
+                 </span>
+                 fxp[yy] = min(fxq[yy]+abs(x[i]-x[i-1]), fyq[x[i]+C] + abs(yy-C-y[i-1]));
+                 <br/>
+                 <span>
+                  但是我们仍然发现右边的部分还是十分棘手。。。
+                  <br/>
+                  需要对一个线性函数函数取 min 。。。。
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                 </span>
+                 <div style="text-align:center">
+                  <span style="font-size:36px;color:rgb(255, 0, 0)">
+                   以退为进！
+                  </span>
+                 </div>
+                 <span>
+                  <br/>
+                  <br/>
+                  我们对状态进行 redesign 。。！！。。
+                  <br/>
+                 </span>
+                 <div>
+                  <span>
+                   <br/>
+                  </span>
+                  // fx[i][yy] 路过了前 i 个，当前坐标在 (x[i], yy) 的 xxx。。。
+                  <span>
+                   <span>
+                    <br/>
+                    改成。。。
+                   </span>
+                  </span>
+                 </div>
+                 <div>
+                  // fx[i][yy] 路过了前 i 个，当前坐标在 (x[i], yy) 的 xxx。。。但不允许到 x[i] 之后从 yy 上滑动。。。。。
+                 </div>
+                 <div>
+                  <br/>
+                  <br/>
+                  细心的朋友可能就要问了？这有什么用呢？。。。。。。
+                  <br/>
+                  <br/>
+                  考察转移：
+                  <br/>
+                  fx'  -&gt;  fx 。。。。
+                  <br/>
+                  。。注意到我们不会在 x[i-1] 这条直线上走。。（因为等价于在 x[i] 上走。。。）
+                  <br/>
+                  <br/>
+                  因此可以直接从
+                  <span style="font-size:14px">
+                   fxq[yy
+                  </span>
+                  <span style="font-size:14px">
+                   ] 转移。。看起来
+                  </span>
+                  <span style="font-size:14px">
+                   还是。。。
+                  </span>
+                 </div>
+                 <div>
+                  fxp[yy] = fxq[yy]+abs(x[i]-x[i-1]);
+                  <br/>
+                  <br/>
+                  <br/>
+                  fy' -&gt; fx
+                  <br/>
+                  。。注意。。。。我们的落点一定是在 (x[i], y[i-1])。。。
+                  <br/>
+                  （否则。。假设我们的落点是 (x[i], y)。。那么 y[i-1] -&gt; y 的这段位移。。同样可以放在 x[i] 上走。。。）
+                  <br/>
+                  <br/>
+                  所以这里就变成了 fx[y[i-1]] = min(fy'[xx] + |xx-x[i]| );
+                  <br/>
+                  <div>
+                   和之前的状态设计中。。对应的这则转移比较。。。
+                  </div>
+                  REP(yy, 2*C) fxp[yy] = min(fxq[yy]+abs(x[i]-x[i-1]), fyq[x[i]+C] + abs(yy-C-y[i-1]));
+                  <br/>
+                  <br/>
+                  从影响的状态是 O(n) 转移是 O(1)。。
+                  <br/>
+                  变成了影响的状态是 O(1)。。转移是 O(n)。。。
+                  <br/>
+                  <br/>
+                  <br/>
+                  而新的状态已经十分容易维护了。。。、、、
+                  <br/>
+                  <br/>
+                  fx[y[i-1]] = min(fy'[xx] + |xx-x[i]| );
+                  <br/>
+                  <br/>
+                  将绝对值拆开。。
+                  <br/>
+                  <br/>
+                  fx[y[i-1]] =  min(
+                  <br/>
+                  x[i] + min(fy'[xx]-xx) | xx &lt;= x[i],
+                  <br/>
+                  min(fy'[xx]+xx) - x[i] | xx &gt;= x[i]
+                  <br/>
+                  );
+                  <br/>
+                  <br/>
+                  树状数组即可。
+                  <br/>
+                  还是得线段树。。 = =
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <span>
+                  </span>
+                  <div style="text-align:center">
+                   <span style="color:rgb(255, 0, 0);font-size:36px">
+                    Beautiful !!!
+                   </span>
+                  </div>
+                  <span>
+                  </span>
+                  <br/>
+                  <br/>
+                  <a href="https://gist.github.com/lychees/9faa6e55fa996e7d2cb4" target="_blank">
+                   https://gist.github.com/lychees/9faa6e55fa996e7d2cb4
+                  </a>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                 </div>
+                 <span>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <br/>
+                 </span>
+                </div>
+                <br/>
+                ——————————— 后面一题：
+                <br/>
+                贪心显然是不对的。。考虑乱搞：
+                <br/>
+                官方题解：
+                <br/>
+                “
+                <br/>
+                首先对横线和竖线的坐标分别做镜像翻转，使它们的坐标分别都是单调递增的，
+                <br/>
+                并且相邻的横线和相邻的竖线的距离根原始坐标的距离保持一致。这可以在线性时间内完成，
+                <br/>
+                并且不影响答案。然后按照顺序扫描所有直线，维护从原点出发的两条移动路径。
+                <br/>
+                一条移动路径尽可能往左走，一条移动路径尽可能往右走，
+                <br/>
+                但都保持最短路并且满足规定的直线到达顺序。这两条移动路径分别是上凸曲线和下凸曲线，
+                <br/>
+                每扫描到反向不同的两条直线时就根据交叉点更新其中一条移动路径。
+                <br/>
+                扫描到最后一条直线时就可以算出最短的移动路径长度了。
+                <br/>
+                ”
+                <br/>
+                <br/>
+                <br/>
+                <span>
+                 尼玛第一句话就看不懂。
+                 <br/>
+                 <br/>
+                </span>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+               </div>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

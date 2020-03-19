@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1473506525,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "囧主席哭晕在厕所 ",
+                "capacity": 12156,
+                "poster": {
+                    "id": "253042203",
+                    "platform": 1,
+                    "name": "虚度 ",
+                    "emoji": []
+                },
+                "bmp": "0800948000024001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

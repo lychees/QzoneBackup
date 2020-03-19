@@ -1,0 +1,40 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1294052176,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[ft=,2,]我要的画……[/ft] ",
+                "capacity": 12098,
+                "poster": {
+                    "id": "784237318",
+                    "platform": 1,
+                    "name": "叙眄 ",
+                    "emoji": []
+                },
+                "bmp": "585095a00102c009",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "。。。别。。别催我嘛。。 ",
+                        "postTime": 1294060530,
+                        "id": 1294060530,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

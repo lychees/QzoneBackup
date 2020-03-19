@@ -1,0 +1,74 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1415539297,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "难哭。 ",
+                "capacity": 12054,
+                "poster": {
+                    "id": "568778055",
+                    "platform": 1,
+                    "name": "123456 ",
+                    "emoji": []
+                },
+                "bmp": "18d09da00100c221",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "1078784430",
+                            "name": "羽翼の翅膀 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:568778055,nick:123456,who:1,auto:1} 哭瞎 ",
+                        "postTime": 1415544352,
+                        "id": 1415544352,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1415540895,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "大多数不都是用的做法二嘛。。。 ",
+                "capacity": 12142,
+                "poster": {
+                    "id": "1184989240",
+                    "platform": 1,
+                    "name": "年少 ",
+                    "emoji": []
+                },
+                "bmp": "18c09da80000e401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1415792530,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "what is the time complexity of problem C? ",
+                "capacity": 12121,
+                "poster": {
+                    "id": "568143025",
+                    "platform": 1,
+                    "name": "开小臣 ",
+                    "emoji": []
+                },
+                "bmp": "184095a001000409",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

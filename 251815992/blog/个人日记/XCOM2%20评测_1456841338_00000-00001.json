@@ -1,0 +1,57 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1456845233,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "0.0文明5的终极伞兵。。（貌似是Gn K时出的？） ",
+                "capacity": 12124,
+                "poster": {
+                    "id": "451524137",
+                    "platform": 1,
+                    "name": "光之神圣 ",
+                    "emoji": []
+                },
+                "bmp": "18c1f4a40080c109",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1456846545,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "据说是hard-core slg。不过没钱买，等打折 ",
+                "capacity": 11990,
+                "poster": {
+                    "id": "3105179337",
+                    "platform": 1,
+                    "name": "一只辣鸡 ",
+                    "emoji": []
+                },
+                "bmp": "08009d8002006201",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "397427019",
+                            "name": " ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:3105179337,nick:一只辣鸡,who:1,auto:1}史上最難不過是針對鐵人模式，不開鐵人打起來還是勉勉強強的 ",
+                        "postTime": 1456863836,
+                        "id": 1456863836,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

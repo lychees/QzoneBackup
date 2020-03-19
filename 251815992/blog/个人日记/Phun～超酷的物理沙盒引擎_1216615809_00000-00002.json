@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1216628506,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "首先来踩啦！ ",
+                "capacity": 12156,
+                "poster": {
+                    "id": "352467237",
+                    "platform": 1,
+                    "name": "23MNU66 ",
+                    "emoji": []
+                },
+                "bmp": "18805ca400004109",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1216629754,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "挖！\n帅呆了！特别是变成水的那个．．\n可是如果想用的话要琢磨一会．． ",
+                "capacity": 12107,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1216740185,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "\n[url=http://www.phunland.com/wiki/Download][B]http://www.phunland.com/wiki/Download[/B][/url]\n[B]分享一下下载地址....[/B]\n[B]刚才尝试了一下做两个小球给他一个力的弹性碰撞试验...[/B] ",
+                "capacity": 11987,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            }
+        ]
+    }
+}

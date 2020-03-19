@@ -1,0 +1,161 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 6,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1205666175,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "相信与不相信以前不相信爱情，认为爱情都是虚无，都是小说家杜撰的谎言。\n不相信两情相悦，不相信执子之手。\n后来遇见了一个人，相信了爱情，相信爱情是真实的是存在的，是仿佛空气一般环绕在我们周围的，\n相信两情相悦，相信执子之手。\n再后来，也是这个人，教会我，不要那么轻易地相信爱情。\n爱情就是泡沫，五光十色是外表，破裂才是本质。\n没有你想象中的那种爱情。他说。\n于是，重新不再相信爱情。但不再那么绝对。\n爱情是存在的。但是，不可强求。\n有如鸡肋的爱情，才让人耻笑，也让人悲悯。 ",
+                "capacity": 11711,
+                "poster": {
+                    "id": "352467237",
+                    "platform": 1,
+                    "name": "23MNU66 ",
+                    "emoji": []
+                },
+                "bmp": "18805ca400004109",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1205666197,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "她 ",
+                "capacity": 12170,
+                "poster": {
+                    "id": "352467237",
+                    "platform": 1,
+                    "name": "23MNU66 ",
+                    "emoji": []
+                },
+                "bmp": "18805ca400004109",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1206703376,
+                "effect": 4194336,
+                "replyNum": 1,
+                "content": "[B][ft=#6666cc,,]盗用我版权[/ft][/B] ",
+                "capacity": 12122,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "因为我爱你呀= - ",
+                        "postTime": 0,
+                        "id": 0,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "postTime": 1206703581,
+                "effect": 4194336,
+                "replyNum": 1,
+                "content": "[B][ft=#6666cc,,]真的假的..?[/ft][/B] ",
+                "capacity": 12119,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "- -哎哟你觉得呢～ ",
+                        "postTime": 0,
+                        "id": 0,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "postTime": 1206704795,
+                "effect": 4194336,
+                "replyNum": 1,
+                "content": "[B][ft=#6666cc,,]当然是假的[/ft][/B]\n[B][/B] \n[B][ft=#6666cc,,]因为你爱的只有一个人 他[/ft][/B] ",
+                "capacity": 12053,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "...可是他心里已经有她了`` ",
+                        "postTime": 0,
+                        "id": 0,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "postTime": 1206704942,
+                "effect": 4194336,
+                "replyNum": 1,
+                "content": "[B][ft=#6666cc,,]所以你就拿我消遣~[/ft][/B] ",
+                "capacity": 12120,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "我错了 - - ",
+                        "postTime": 0,
+                        "id": 0,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

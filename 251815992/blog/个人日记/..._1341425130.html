@@ -1,0 +1,500 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    ...
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             ...
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2012-07-04 14:05:30
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(71)	è¯è®º(1)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1341425130,
+"voteids":0,
+"pubtime":1341425130,
+"replynum":1,
+"category":"个人日记",
+"title":"...",
+"effect":513,
+"effect2":524294,
+"exblogtype":0,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":0,
+"lp_style":0,
+"lp_flag":0,
+"orguin":251815992,
+"orgblogid":1341425130,
+"mention_uins":[ ],
+"attach":[],"comments":[{"id":1,
+"postTime":1341531610,
+"effect":32,
+"replyNum":1,
+"content":"我看到圖的第一反應是諏訪子= = ",
+"capacity":12051,
+"poster":{
+"id":"190303874",
+"platform":1,
+"name":"玉子 ",
+"emoji":[ ]}
+,
+"bmp":"18c09d6000028001",
+"ismyreply":0,
+"replies":[{"poster":{
+"id":"251815992",
+"name":"小岛美奈子 ",
+"platform":1}
+,
+"content":"对。。我应该用个诹访子的配色。。。（TC 又提交不能了。。\n ",
+"postTime":1341587044,
+"id":1341587044,
+"effect":0}]}]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <div>
+                <a href="http://poj.org/problemstatus?problem_id=3468" target="_blank">
+                 http://poj.org/problemstatus?problem_id=3468
+                </a>
+                <br/>
+                <a href="http://kenby.iteye.com/blog/962159" target="_blank">
+                 http://kenby.iteye.com/blog/962159
+                </a>
+                <br/>
+                <br/>
+                ..
+                <br/>
+                1000
+                <br/>
+                计数：求 n 个顶点、m 条边、其中前 k 个顶点恰好连 2 条边时形成连通图的方案数。
+                <br/>
+                （n, m &lt;= 50, k &lt;= 2
+                <br/>
+                <br/>
+                咳咳，首先写点与题目无关的。。
+                <br/>
+                目前我的开题顺序基本每场都是 1000 -&gt; 250 -&gt; 500 或者。。1000 -&gt; 500 -&gt; 250 。。。。
+                <br/>
+                。。。开 1000 的目的不在于做。。。而在于一旦房间里有人做则构造极限数据 cha 之。。（基本上成功率很高。。
+                <br/>
+                。。并且读完 1000 以后基本可以进入一个 阅读理解の胜利 的状态。。
+                <br/>
+                。同时这段时间还可以得到房间里其他人做 250 的一些情况。。从而对 250 的难度有一个大致的估计。。。
+                <br/>
+                然后再决定先开 250 还是先开 500 。。。。。（不宜超过 10 分钟。。。
+                <br/>
+                <br/>
+                。。那么开始分析题目。。首先注意到 k &lt;= 2 这个条件。。
+                <br/>
+                通常情况下意味着 当 k = 3 的时候该问题 “不可解”。。。（时间复杂度过高。。或讨论过程超过人类智慧。。。
+                <br/>
+                <br/>
+                那么 k 就只有 0、1、2 三种情况。。
+                <br/>
+                <br/>
+                以下分析 k = 0 的情况。。。
+                <br/>
+                <br/>
+                那么显然这个问题是 POJ 1737 （男人八题之一。。。
+                <br/>
+                情况的 “加细” 。。。。
+                <br/>
+                <br/>
+                （这里的 组合加细 是我个人的说法。。强调问题之间的关联。。类比。。。
+                <br/>
+                （ 组合数 是对 2^k 的加细。。。
+                <br/>
+                （ k部分拆 是对 分拆数 的加细
+                <br/>
+                （ 有k个逆序对的排列 是对 排列数 的加细。。。
+                <br/>
+                （ 第二类 Stirling 数是对 bell 数的加细。。。
+                <br/>
+                <br/>
+                <a href="http://en.wikipedia.org/wiki/Stirling_numbers_of_the_second_kind" target="_blank">
+                 http://en.wikipedia.org/wiki/Stirling_numbers_of_the_second_kind
+                </a>
+                <br/>
+                <br/>
+                <br/>
+                那么适当整理原问题的解法是对解题有帮助的。。。。
+                <br/>
+                <br/>
+                <a href="http://hi.baidu.com/%D1%C7%CB%D9%C8%BA%B5%BA/blog/item/62eb6a4f28cb893cafc3abb2.html" target="_blank">
+                 http://hi.baidu.com/%D1%C7%CB%D9%C8%BA%B5%BA/blog/item/62eb6a4f28cb893cafc3abb2.html
+                </a>
+                <br/>
+                （。。艹。。貌似 N年前我分析过了。。不过那时我的水平非常渣。。只会暴搜到 7 。。。。。
+                <br/>
+                。。。大概的 key observition 是所谓的 ”补集计数“。。。然后注意 “不重不漏".. (  。这时。。我的耳边响起了 "段明贵の叮嘱"。。。。
+                <br/>
+                <br/>
+                对于加细后情况。。思考的方法是一致的。。 只是 dp 状态和转移 分别多一个维度。。。
+                <br/>
+                <br/>
+                下面分析 k = 1 的情况。。
+                <br/>
+                那么画图分析一下大概就是这种情况。。
+                <br/>
+                res = pdt(C[n-1][2], A[n-1][m-2]);
+                <br/>
+                <br/>
+                不过这里好像还少了些什么。。也就是忘记了两条边连出的边形成了两个不联通的集合。（然后两个集合通过 0 结点联通。。。
+                <br/>
+                这种情况枚举两个集合的大小。。再枚举格子分配出去的边就行了。。
+                <br/>
+                <br/>
+                对于 k = 2 的情况推理过程类似。。不再赘述。。）
+                <br/>
+                <br/>
+                --------------
+               </div>
+               <div>
+                UPD：
+               </div>
+               <div>
+                我来填坑了。。
+               </div>
+               <div>
+                <br/>
+               </div>
+               <div>
+                首先先粗分一下。。大概主要有以下两种情况。。
+               </div>
+               <div>
+                <p style="MARGIN: 0px">
+                </p>
+                <p style="MARGIN: 0px">
+                 <img alt="图片" src="http://a3.qpic.cn/psb?/99f1ad76-e730-4e92-8bb4-893efc783d0f/LQY1DkaMcEMxS.Z8iFNCNnt*NI*AXEYGH9M6C0yn9Co%21/b/YS0wazoRjgAAYrlbdzovjwAA&amp;ek=1&amp;kp=1&amp;pt=0&amp;t=5&amp;tl=3&amp;su=083946865&amp;tm=1584576000&amp;sce=0-12-12&amp;rf=2-9" style="WIDTH: 674px; HEIGHT: 289px"/>
+                </p>
+                <p style="MARGIN: 0px">
+                 <br/>
+                </p>
+                <p style="MARGIN: 0px">
+                 <br/>
+                </p>
+                <p style="MARGIN: 0px">
+                 。。。左边这一种可以归到 f(n-1, m-1, 1) 的。。。
+                </p>
+                <p style="MARGIN: 0px">
+                 不过有两点不同：
+                </p>
+                <p style="MARGIN: 0px">
+                 1. 引出去的这两条边是可区分的。。。
+                </p>
+                <p style="MARGIN: 0px">
+                 2. 这两条边是可以连到同一个结点上的。。。。
+                </p>
+                <p style="MARGIN: 0px">
+                 <br/>
+                </p>
+                <p style="MARGIN: 0px">
+                 下面讨论右图中的情况：。。。
+                </p>
+                <p style="MARGIN: 0px">
+                 <br/>
+                </p>
+                <br/>
+               </div>
+               <div>
+                <br/>
+                <img alt="图片" src="http://a1.qpic.cn/psb?/99f1ad76-e730-4e92-8bb4-893efc783d0f/Eyo8Bu7nB4WKico3R56PLM9JsGgKrxe9i6ycX6ru0nc%21/b/YZFCAD6gSwAAYoQ4AD6ZSwAA&amp;ek=1&amp;kp=1&amp;pt=0&amp;t=5&amp;tl=3&amp;su=0227955633&amp;tm=1584576000&amp;sce=0-12-12&amp;rf=2-9" style="WIDTH: 674px; HEIGHT: 289px"/>
+               </div>
+               <div>
+                <br/>
+               </div>
+               <div>
+                <span style="LINE-HEIGHT: 1.6">
+                 左图这种 M 形的情况。。表示分成三块。。然后通关过中间一块连接起来。。
+                </span>
+                <br/>
+               </div>
+               <div>
+                。。有图分成两块。。并且至少通过一个结点连接起来。。
+               </div>
+               <div>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+               </div>
+               <a href="http://acm.hdu.edu.cn/showproblem.php?pid=3992" target="_blank">
+                http://acm.hdu.edu.cn/showproblem.php?pid=3992
+               </a>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

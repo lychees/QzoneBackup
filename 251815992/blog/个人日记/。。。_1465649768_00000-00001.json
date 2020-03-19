@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1465651458,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "干巴爹～ ",
+                "capacity": 12163,
+                "poster": {
+                    "id": "569620205",
+                    "platform": 1,
+                    "name": " [ ccnu ] Tmono ",
+                    "emoji": []
+                },
+                "bmp": "58d08da8000ec209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1465655990,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "快回来毕业[em]e400824[/em] ",
+                "capacity": 12141,
+                "poster": {
+                    "id": "503540643",
+                    "platform": 1,
+                    "name": "13-李天宝 ",
+                    "emoji": []
+                },
+                "bmp": "18c095a000008201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

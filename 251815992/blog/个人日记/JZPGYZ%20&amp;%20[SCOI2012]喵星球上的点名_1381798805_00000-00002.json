@@ -1,0 +1,97 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1381836818,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "果断支持SA  ",
+                "capacity": 12154,
+                "poster": {
+                    "id": "842008099",
+                    "platform": 1,
+                    "name": "我本冷血 ",
+                    "emoji": []
+                },
+                "bmp": "18d09d8000008201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1381890746,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "@{uin:676028103,nick:[UESTC]elfness,who:1} 让学姐身败名裂的一题 ",
+                "capacity": 11903,
+                "poster": {
+                    "id": "122155302",
+                    "platform": 1,
+                    "name": "木子日匀 ",
+                    "emoji": []
+                },
+                "bmp": "38d40da00102c209",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:122155302,nick:木子日匀,who:1,auto:1}为何这么说。？\n ",
+                        "postTime": 1381915474,
+                        "id": 1381915474,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "122155302",
+                            "name": "木子日匀 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1} 学姐本意是要卡自动机的 ",
+                        "postTime": 1381925558,
+                        "id": 1381925558,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1381893099,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "你不是SAM做的？我看不懂你代码，不过好像用了字典树啊 ",
+                "capacity": 11969,
+                "poster": {
+                    "id": "403528201",
+                    "platform": 1,
+                    "name": "[scut]aa ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00042c109",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:403528201,nick:[scut]aa,who:1,auto:1}离线先把 Text 存起来。。然后去读 Patter 。。。搞 ACM 做。。。。 ",
+                        "postTime": 1381915464,
+                        "id": 1381915464,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

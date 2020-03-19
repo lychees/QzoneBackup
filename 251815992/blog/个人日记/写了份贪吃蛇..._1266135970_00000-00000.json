@@ -1,0 +1,40 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1266137292,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "有FREE的…而且界面好漂亮… ",
+                "capacity": 12008,
+                "poster": {
+                    "id": "276500942",
+                    "platform": 1,
+                    "name": "酒仙 ",
+                    "emoji": []
+                },
+                "bmp": "b8c1dda00102e229",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "虽然..现在已经有Free Basic （以后简称FB..）\n而且我看到了FBIDE...#24...不过我还是会写Dos时代的\nQuick Basic...嗯... ",
+                        "postTime": 1266138841,
+                        "id": 1266138841,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1263860586,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "记得有些魔兽地图里看到16点力量一万多血的胖子BOSS，也看到1点血，有2秒CD的隐身和1秒CD的手里剑的忍者，所以小数据应该是可行的，再试试吧 ",
+                "capacity": 12035,
+                "poster": {
+                    "id": "65713782",
+                    "platform": 1,
+                    "name": "blackjack ",
+                    "emoji": []
+                },
+                "bmp": "08c09d2001008001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

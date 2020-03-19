@@ -1,0 +1,40 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1422367112,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "换头像了。 ",
+                "capacity": 12052,
+                "poster": {
+                    "id": "568778055",
+                    "platform": 1,
+                    "name": "123456 ",
+                    "emoji": []
+                },
+                "bmp": "18d09da00100c221",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:568778055,nick:123456,who:1,auto:1}mac QQ 太傻逼。。明天换回来。。。 ",
+                        "postTime": 1422367159,
+                        "id": 1422367159,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

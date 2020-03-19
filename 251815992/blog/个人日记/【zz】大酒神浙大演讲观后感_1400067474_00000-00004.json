@@ -1,0 +1,96 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 5,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1400071765,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "“……觉得失败就像砍掉你一条腿一样……”瞬间笑了、 ",
+                "capacity": 12121,
+                "poster": {
+                    "id": "903336279",
+                    "platform": 1,
+                    "name": "偏疾 ",
+                    "emoji": []
+                },
+                "bmp": "58d49d800002a201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1400097461,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "不得不转。 ",
+                "capacity": 12155,
+                "poster": {
+                    "id": "251870949",
+                    "platform": 1,
+                    "name": "赵林娇 ",
+                    "emoji": []
+                },
+                "bmp": "18c095a10002c209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1400111215,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "……… ",
+                "capacity": 12161,
+                "poster": {
+                    "id": "534634115",
+                    "platform": 1,
+                    "name": "cwj ",
+                    "emoji": []
+                },
+                "bmp": "18c1950000000001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1400143000,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "你打dota……？ ",
+                "capacity": 12155,
+                "poster": {
+                    "id": "751723392",
+                    "platform": 1,
+                    "name": "wwwwodddd ",
+                    "emoji": []
+                },
+                "bmp": "18c095a80000c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1408296882,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "dotaer！ ",
+                "capacity": 12156,
+                "poster": {
+                    "id": "635468167",
+                    "platform": 1,
+                    "name": "『梦中寻梦』 ",
+                    "emoji": []
+                },
+                "bmp": "18509d800102c209",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

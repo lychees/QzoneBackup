@@ -1,0 +1,656 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+   <meta content="zh-cn" http-equiv="Content-Language"/>
+   <title>
+    ... 拓扑排序。
+   </title>
+   <base href="//qzs.qzone.qq.com/"/>
+  </meta>
+ </head>
+ <body>
+  <div class="bg_mode bg">
+   <div class="box_ml bor">
+    <div class="mode_gb">
+     <div class="mode_gb_title bg2">
+      <div class="bg_mode_gb_title">
+       <h3>
+        日志
+       </h3>
+      </div>
+      <div class="mode_gb_other">
+       <p>
+        <a class="c_tx" href="javascript:void(0)" id="returnListArea" rel="returnBlogList" title="返回日志列表">
+         返回日志列表
+        </a>
+       </p>
+      </div>
+     </div>
+     <div class="mode_gb_cont">
+      <div class="blog_app" id="app_mod">
+       <div class="blog_header">
+        <div class="blog_title">
+         <div class="blog_tit_cont clearfix" id="title">
+          <strong>
+           <span>
+            <span class="blog_tit_detail">
+             ... 拓扑排序。
+            </span>
+           </span>
+          </strong>
+          <span class="tit_other_info" style="display:inline;">
+           <span class="c_tx3" id="pubTime">
+            2013-11-07 16:04:15
+           </span>
+           <span class="c_tx3" id="readNum">
+            éè¯»(49)	è¯è®º(0)
+           </span>
+           <span class="c_tx3" id="quoteInfo">
+           </span>
+          </span>
+         </div>
+        </div>
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="upperInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan3" rel="prevBlog">
+           </a>
+          </span>
+          |
+          <span>
+           <a class="c_tx" href="javascript:;" id="navigatorSpan1" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div id="topHintArea">
+       </div>
+       <script type="text/javascript">
+        var g_oBlogData =  {"data":{
+"blogid":1383858255,
+"voteids":0,
+"pubtime":1383858255,
+"replynum":0,
+"category":"个人日记",
+"title":"... 拓扑排序。",
+"effect":8389120,
+"effect2":524294,
+"exblogtype":3,
+"sus_flag":false,
+"friendrelation":[],
+"lp_type":0,
+"lp_id":81177,
+"lp_style":16843520,
+"lp_flag":0,
+"lp_topvalue":0,
+"orguin":251815992,
+"orgblogid":1383858255,
+"mention_uins":[ ],
+"attach":[],"comments":[]}};
+       </script>
+       <div class="blog_cont">
+        <div class="blog_cont_details" id="veryContent" style="height:auto!important">
+         <table cellpadding="0" cellspacing="0" id="blogContentTable" style="table-layout:fixed;width:100%;position:relative">
+          <tr>
+           <td style="word-wrap:break-word" valign="top">
+            <div id="blogContainer" style="position:relative; overflow:hidden; height:100%;">
+             <div id="blogDetailDiv" style="font-size:14px;">
+              <div class="blog_details_20120222">
+               <div>
+                <div>
+                 如何用 dfs 方法判断拓扑排序唯一？
+                 <br/>
+                 ——  如果得到的拓扑排序序列的相邻两项全都是真实存在的边。
+                 <br/>
+                 ——————————————————————————
+                 <br/>
+                 <a href="http://acm.hust.edu.cn/vjudge/problem/viewSource.action?id=1720235" target="_blank">
+                  http://acm.hust.edu.cn/vjudge/problem/viewSource.action?id=1720235
+                 </a>
+                 <br/>
+                 <a href="http://codeforces.com/gym/100274/submission/5027654" target="_blank">
+                  http://codeforces.com/gym/100274/submission/5027654
+                 </a>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 ——————————————————————————
+                 <br/>
+                 <a href="http://sevenkplus.com/?p=9" target="_blank">
+                 </a>
+                 <a href="http://sevenkplus.com/?p=9" style="font-size:14px" target="_blank">
+                  http://sevenkplus.com/?p=9
+                 </a>
+                 <span style="font-size:14px;color:rgb(0, 0, 0)">
+                 </span>
+                 <br/>
+                 <a href="https://www.facebook.com/hackercup/problems.php?pid=413074315443326&amp;round=499927843385312" target="_blank">
+                  https://www.facebook.com/hackercup/problems.php?pid=413074315443326&amp;round=499927843385312
+                 </a>
+                 <br/>
+                 <br/>
+                 <br/>
+                 给定一棵树，
+                 <span>
+                  边的方向表示关联结点的大小关系。
+                 </span>
+                 <span>
+                  结点的标号是
+                 </span>
+                 <span>
+                  排列。
+                 </span>
+                </div>
+                <div>
+                 。。。问有多少种合法的标号方案。。
+                 <br/>
+                 <br/>
+                 O(n^3)
+                 <br/>
+                 <span>
+                  树状背包 + 组合 DP + 部分和
+                  <br/>
+                  <span>
+                   <br/>
+                   <br/>
+                   f[u][i]: 表示以 u 为根的子树中，小于 u 的点有 i 个的方案数。
+                   <br/>
+                  </span>
+                 </span>
+                 <span>
+                  <span>
+                   <br/>
+                   。初始 f[u][0] = 1。。。我们枚举每一个孩子。。做树形分组背包。。
+                   <br/>
+                  </span>
+                 </span>
+                 考虑新加入一组物品 v 。。。
+                 <span>
+                  <span>
+                   设 fu 缓存上一层 f[u] 的值。。
+                  </span>
+                 </span>
+                 。枚举背包容量 i 和物品容量 j 。
+                 <br/>
+                 <span>
+                  <br/>
+                 </span>
+                 <span>
+                  组合数的部分。。
+                 </span>
+                 <span>
+                  <br/>
+                 </span>
+                 <span>
+                  对于容量 i 以内的物品。。有 j 个是从 v 处更新的。。（ Binom(i, j)
+                 </span>
+                </div>
+                <div>
+                 <span>
+                  对于容量 i 以外的物品。。有 sz[v]  - j 是从 v 处更新的。。（Binom (sz[u]-1-i, sz[v]-j)
+                 </span>
+                 。。。
+                 <br/>
+                 <span>
+                  <span>
+                   。。。另外 fu[i-j] 也是常量。。。
+                  </span>
+                 </span>
+                 <span>
+                  把这部分记作一个转移因子。 b。。。
+                 </span>
+                 <span>
+                  <span>
+                   <br/>
+                   <br/>
+                  </span>
+                 </span>
+                 <span>
+                  <span>
+                   。。考虑 u &lt; v ：
+                   <br/>
+                   。。。则 f[v][j..sz[v]) 都可以提供容量为 j 的物品。。。。
+                   <br/>
+                   <br/>
+                  </span>
+                 </span>
+                 <span>
+                  若 u &gt; v：
+                  <br/>
+                  <span>
+                   。。。。。 v 本身（包括所有小于等于 j 的数都）必然被添加进 u 中。。因此 j 至少是 1。。
+                   <br/>
+                   。。此时只有 f[v][0..j)。。才可以提供容量为 j 的物品。。。
+                   <br/>
+                   <br/>
+                   <br/>
+                  </span>
+                 </span>
+                 <br/>
+                 <span>
+                  //}/* .................................................................................................................................. */
+                 </span>
+                 <br/>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 const int N = 1009;
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 Int Fact[N], Factt[N]; Int Binom(int n, int m){
+                </div>
+                <div>
+                 return Fact[n] * Factt[m] * Factt[n-m];
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 bool le[N][N]; VI adj[N];
+                </div>
+                <div>
+                 Int f[N][N], fu[N]; int sz[N];
+                </div>
+                <div>
+                 int n;
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 <div>
+                  #define v (*it)
+                 </div>
+                 <div>
+                  #define b (fu[i-j]*Binom(i,j)*Binom(sz[u]-1-i,sz[v]-j))
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  void dfs(int u, int p = -1) {
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  sz[u] = 1; ECH(it, adj[u]) if (v != p){
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  dfs(v, u), sz[u] += sz[v];
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  }
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  <span style="white-space:pre">
+                  </span>
+                  REP(i, sz[u]) f[u][i] = fu[i] = 0; sz[u] = f[u][0] = 1;
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  ECH(it, adj[u]) if (v != p){
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  REP(i, sz[u]) fu[i] = f[u][i], f[u][i] = 0; sz[u] += sz[v];
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  if (le[u][v]){
+                 </div>
+                 <div>
+                  REP(i, sz[u]) REP(j, min(sz[v], i+1))
+                 </div>
+                 <div>
+                  f[u][i] += (f[v][sz[v]] - f[v][j]) * b;
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  else{
+                 </div>
+                 <div>
+                  REP(i, sz[u]) REP_1(j, min(sz[v], i))
+                 </div>
+                 <div>
+                  f[u][i] += f[v][j] * b;
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  }
+                 </div>
+                 <div>
+                  <br/>
+                 </div>
+                 <div>
+                  DWN_1(i, sz[u], 1) f[u][i] = f[u][i-1]; f[u][0] = 0; REP_1(i, sz[u]) f[u][i] += f[u][i-1];
+                 </div>
+                 <div>
+                  }
+                 </div>
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 int main() {
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 Fact[0] = 1; REP_1(i, N-1) Fact[i] = Fact[i-1] * i; Factt[N-1] = _I(Fact[N-1]); DWN(i, N, 1) Factt[i-1] = Factt[i] * i;
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 //freopen("in.txt", "r", stdin);
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 freopen("permutations.txt","r",stdin);
+                </div>
+                <div>
+                 <span style="white-space:pre">
+                 </span>
+                 freopen("out2.txt","w",stdout);
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 Rush{
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 REP_C(i, RD(n)) CLR(adj[i]);
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 int x, y; char c; DO(n-1){
+                </div>
+                <div>
+                 RD(x), RC(c), RD(y);
+                </div>
+                <div>
+                 le[x][y] = c == '&lt;';
+                </div>
+                <div>
+                 le[y][x] = c == '&gt;';
+                </div>
+                <div>
+                 adj[x].PB(y), adj[y].PB(x);
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 <br/>
+                </div>
+                <div>
+                 dfs(0); OT(f[0][n]);
+                </div>
+                <div>
+                 }
+                </div>
+                <div>
+                 }
+                </div>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+               </div>
+              </div>
+             </div>
+            </div>
+            <img id="paperPicArea1" src="/ac/b.gif" style="position:relative;display:none;top:auto;"/>
+           </td>
+          </tr>
+         </table>
+         <div class="clear" id="paperBottom">
+         </div>
+        </div>
+        <div class="attachment_list bgr2 none" id="attachList">
+        </div>
+       </div>
+       <div class="blog_footer">
+        <div class="operate_toolbar">
+         <div class="mod_interactive">
+          <ul id="footerInteractive">
+          </ul>
+         </div>
+         <div class="mod_links">
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan4" rel="prevBlog">
+           </a>
+          </span>
+          <span>
+           <a class="c_tx" href="javascript:void(0)" id="navigatorSpan2" rel="nextBlog">
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="mod_tags c_tx3">
+         <span class="none" id="categorySpan">
+         </span>
+         <span class="none" id="rightSettingSpan">
+         </span>
+         <span class="none" id="contentAuthorSpan">
+         </span>
+         <span class="blog_tags none" id="tagsSpan">
+         </span>
+        </div>
+        <div class="mod_links c_tx3 none" id="mentionDiv">
+        </div>
+        <div class="mod_signature">
+         <div class="tit">
+          <h4>
+           签名档
+          </h4>
+          <a class="c_tx none" href="javascript:void(0)" onclick="InfoManager.modifySignature();return false;" title="">
+          </a>
+         </div>
+         <div class="bor3 cont" id="signatureDIV">
+         </div>
+         <div class="bor3 cont edit" id="modifySigDiv" style="display:none;">
+          <div class="editor">
+          </div>
+          <p class="btn">
+           <button class="bt_tx2" type="button">
+            发表
+           </button>
+           <a class="c_tx" href="javascript:void(0)" title="取消">
+            取消
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="mod_related_info bbor3" id="recentBlogDIV" style="display:none">
+         <div class="mod_title">
+          <h4>
+           我的热评日志
+          </h4>
+          <span class="mod_arr" id="ctrl_arr" onclick="InfoScheduler.hideShowRecentBlog(this);return false;">
+          </span>
+         </div>
+         <div class="mod_list">
+          <ul id="recentBlogList" style="display:none;">
+          </ul>
+         </div>
+        </div>
+        <div class="mod_visitor" id="visitorArea" style="display:none">
+        </div>
+        <div id="commentListContainer">
+        </div>
+       </div>
+       <div class="op_more bg bor2 op_extend none" id="shareList" style="top:0px;left:0px;">
+        <a class="c_tx drop_list" href="javascript:void(0)" id="shareListTitle" onclick="return false;">
+         <span class="icon icon_share">
+         </span>
+         <span class="adjust">
+          分享
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul id="shareListContainer">
+         <li class="bg6_hover none" id="shareBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="shareBlogBtn" onclick="return false;">
+           分享到空间
+          </a>
+         </li>
+         <li class="bg6_hover none" id="tweetBlogContainer">
+          <a class="c_tx" href="javascript:void(0)" id="tweetBlogBtn" onclick="return false;">
+           转播到微博
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="op_more op_extend op_drop none" id="modifyList" style="top:0px;left:0px;">
+        <a class="c_tx bg bor2 drop_list" href="javascript:void(0)" id="modifyListTitle" onclick="return false;">
+         <span class="adjust" id="ModifyListAreaDesc">
+          更多
+         </span>
+         <span class="mod_arr">
+         </span>
+        </a>
+        <ul class="bg bor2">
+         <li class="none" id="editBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="editBlogBtn" onclick="return false;">
+           编辑
+          </a>
+         </li>
+         <li class="none" id="deleteBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="deleteBlogBtn" onclick="return false;">
+           删除
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="complaintBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="complaintBlogBtn" onclick="return false;">
+           举报
+          </a>
+         </li>
+         <li class="none" id="useLetterPagerBtn">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" onclick="return false;">
+           使用该信纸
+          </a>
+          <hr class="bbor2"/>
+         </li>
+         <li class="" id="modSizeBtn">
+          <div class="mod_size">
+           <span class="size_tip">
+            字体：
+           </span>
+           <span class="c_tx2 bg6_hover" id="bigFonts" onclick="return false;">
+            大
+           </span>
+           <span class="c_tx2 bg6 current" id="midFonts" onclick="return false;">
+            中
+           </span>
+           <span class="c_tx2 bg6_hover" id="smallFonts" onclick="return false;">
+            小
+           </span>
+          </div>
+          <hr class="bbor2"/>
+         </li>
+         <li class="none" id="setBlogRightBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogRightBtn" onclick="return false;">
+           权限设置
+          </a>
+         </li>
+         <li class="none" id="setBlogCateBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setBlogCateBtn" onclick="return false;">
+           修改分类
+          </a>
+         </li>
+         <li class="none" id="setRecommendBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setRecommendBlogBtn" onclick="return false;">
+           推荐日志
+          </a>
+         </li>
+         <li class="none" id="setTopBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setTopBlogBtn" onclick="return false;">
+          </a>
+         </li>
+         <li class="none" id="setPrivateBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="setPrivateBlogBtn" onclick="return false;">
+           转为私密日志
+          </a>
+         </li>
+         <li class="none" id="appealBlogBtnContainer">
+          <a class="c_tx bg6_hover" href="javascript:void(0)" id="appealtBlogBtn" onclick="return false;">
+           申诉
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="bor2 bg3 panel_copy qzblog_copyurl_class none" id="qzblog_copyurl_tip">
+        <p>
+         <label for="copyUrlInput">
+          日志地址:
+         </label>
+         <input checked="checked" class="bor textinput mod_copyaddress_txt" id="copyUrlInput" readonly="readonly" type="text" value=""/>
+        </p>
+        <p class="tips">
+         请用Ctrl+C复制后贴给好友。
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

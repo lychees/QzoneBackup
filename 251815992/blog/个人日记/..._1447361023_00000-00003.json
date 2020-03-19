@@ -1,0 +1,79 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1447432113,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "66666，看到剧透的部分就关了。 ",
+                "capacity": 12139,
+                "poster": {
+                    "id": "451524137",
+                    "platform": 1,
+                    "name": "光之神圣 ",
+                    "emoji": []
+                },
+                "bmp": "18c1f4a40080c109",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1447433108,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "快去训练[em]e400855[/em] ",
+                "capacity": 12132,
+                "poster": {
+                    "id": "368586905",
+                    "platform": 1,
+                    "name": "[HIT] For_the_Love ",
+                    "emoji": []
+                },
+                "bmp": "18d09d800000c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1447440618,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "剛剛打完序章 ",
+                "capacity": 12156,
+                "poster": {
+                    "id": "397427019",
+                    "platform": 1,
+                    "name": " ",
+                    "emoji": []
+                },
+                "bmp": "18809da40102c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1447499728,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "想起来高中语文你写过一篇作文是不是就是星际的…… ",
+                "capacity": 12120,
+                "poster": {
+                    "id": "314040241",
+                    "platform": 1,
+                    "name": "好大的风 ",
+                    "emoji": []
+                },
+                "bmp": "18d054a50000c101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

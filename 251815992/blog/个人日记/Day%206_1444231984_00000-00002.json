@@ -1,0 +1,74 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1444234096,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "姐姐加油 ",
+                "capacity": 12162,
+                "poster": {
+                    "id": "524874055",
+                    "platform": 1,
+                    "name": "[HXX]张一天 ",
+                    "emoji": []
+                },
+                "bmp": "d8d09da00100c121",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1444234377,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "H暴搜就可以 ",
+                "capacity": 12025,
+                "poster": {
+                    "id": "450978053",
+                    "platform": 1,
+                    "name": "Sd.无心插柳 ",
+                    "emoji": []
+                },
+                "bmp": "18d1d5800000c001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "513621014",
+                            "name": "HandIeNeeded ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:450978053,nick:Sd.无心插柳,who:1,auto:1} H似乎还可以二分之后枚举pair，然后dp一下 ",
+                        "postTime": 1444237788,
+                        "id": 1444237788,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1444235043,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "D其实还没有来的急考虑到梦幻岛宝珠（。。\nH题窝本来想装压……赛后想了想dfs其实不会超过四层很靠谱。。 ",
+                "capacity": 12055,
+                "poster": {
+                    "id": "446079414",
+                    "platform": 1,
+                    "name": "旺仔嚎婆婆 ",
+                    "emoji": []
+                },
+                "bmp": "38449da00000c201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

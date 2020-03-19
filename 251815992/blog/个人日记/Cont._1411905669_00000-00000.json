@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1411922337,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "请问这是哪里的题目 ",
+                "capacity": 12150,
+                "poster": {
+                    "id": "2779318301",
+                    "platform": 1,
+                    "name": "正交基 ",
+                    "emoji": []
+                },
+                "bmp": "08009d8002004101",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

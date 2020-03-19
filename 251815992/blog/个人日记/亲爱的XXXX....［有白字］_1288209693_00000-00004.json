@@ -1,0 +1,96 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 5,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1288209880,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "... 写岛后半段一段就哔裂了。。\n。。。。。暂时就这样。。考虑打印几张图寄回去？。。\n。。。目前不能确定画室在南区还是在东区。。。我直接寄到五中一定无误。。。！\n\n就是这样。＃ ",
+                "capacity": 12002,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1288245270,
+                "effect": 1048576,
+                "replyNum": 0,
+                "content": "孤独的人啊。。 ",
+                "capacity": 12157,
+                "poster": {
+                    "id": "443164766",
+                    "platform": 1,
+                    "name": "\"zrp\" ",
+                    "emoji": []
+                },
+                "bmp": "088094a10000c301",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1288245859,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "呜呜呜呜。。。 ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1288349452,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "关于。。。。。。。。。。。。\nSZL ＋ 2   ZXR ＋ 4  YHY ＋ 10\n。。。。 ",
+                "capacity": 12098,
+                "poster": {
+                    "id": "784237318",
+                    "platform": 1,
+                    "name": "叙眄 ",
+                    "emoji": []
+                },
+                "bmp": "585095a00102c009",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1288349477,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "原来他还是可以让你开心的…… ",
+                "capacity": 12138,
+                "poster": {
+                    "id": "784237318",
+                    "platform": 1,
+                    "name": "叙眄 ",
+                    "emoji": []
+                },
+                "bmp": "585095a00102c009",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

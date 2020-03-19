@@ -1,0 +1,80 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1404012871,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "额表是数组没清空完全，样例就没过，以为自己错了，没敢交的SB在这里。 ",
+                "capacity": 12022,
+                "poster": {
+                    "id": "513621014",
+                    "platform": 1,
+                    "name": "HandIeNeeded ",
+                    "emoji": []
+                },
+                "bmp": "38d01fa40000c120",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "704998702",
+                            "name": "北航董适 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:513621014,nick:HandIeNeeded,who:1,auto:1} 233 ",
+                        "postTime": 1404023762,
+                        "id": 1404023762,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1404023757,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "快仰慕我 ",
+                "capacity": 11998,
+                "poster": {
+                    "id": "704998702",
+                    "platform": 1,
+                    "name": "北航董适 ",
+                    "emoji": []
+                },
+                "bmp": "18809d0000008001",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:704998702,nick:北航董适,who:1,auto:1}弱逼。 ",
+                        "postTime": 1404023829,
+                        "id": 1404023829,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "704998702",
+                            "name": "北航董适 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1} 233 ",
+                        "postTime": 1404023872,
+                        "id": 1404023872,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

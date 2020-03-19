@@ -1,0 +1,79 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1197165621,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "\n这照片上的人好象你 ",
+                "capacity": 12154,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1197170839,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "\n...... ",
+                "capacity": 12160,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1197175924,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "顶啊 ",
+                "capacity": 12163,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1197177170,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "好我顶 怎么就我一个人 你把老梅也拉来顶呀呵呵 ",
+                "capacity": 12129,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

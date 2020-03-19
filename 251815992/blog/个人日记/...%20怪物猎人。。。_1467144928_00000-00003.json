@@ -1,0 +1,102 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1467163569,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "幸福的小音 ",
+                "capacity": 12161,
+                "poster": {
+                    "id": "569620205",
+                    "platform": 1,
+                    "name": " [ ccnu ] Tmono ",
+                    "emoji": []
+                },
+                "bmp": "58d08da8000ec209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1467163712,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "唔。。。误火车神马的，还有大站转车和飞机票的选项 ",
+                "capacity": 11924,
+                "poster": {
+                    "id": "569620205",
+                    "platform": 1,
+                    "name": " [ ccnu ] Tmono ",
+                    "emoji": []
+                },
+                "bmp": "58d08da8000ec209",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:569620205,nick: [ ccnu ] Tmono,who:1,auto:1}穷啊。 ",
+                        "postTime": 1467176280,
+                        "id": 1467176280,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "569620205",
+                            "name": " [ ccnu ] Tmono ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1} 感觉住一晚。。。其实也差不多了 ",
+                        "postTime": 1467177853,
+                        "id": 1467177853,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1467171840,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "幸福的小音 ",
+                "capacity": 12086,
+                "poster": {
+                    "id": "9304893",
+                    "platform": 1,
+                    "name": "绿色夹克泪 ",
+                    "emoji": []
+                },
+                "bmp": "08900dc00012c121",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1467196103,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "幸福的小音，羡慕 ",
+                "capacity": 12151,
+                "poster": {
+                    "id": "854003762",
+                    "platform": 1,
+                    "name": "i am billy king ",
+                    "emoji": []
+                },
+                "bmp": "18b11da80002e201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

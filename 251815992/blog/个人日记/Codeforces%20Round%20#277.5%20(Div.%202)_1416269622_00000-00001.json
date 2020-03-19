@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1416271201,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "类似floyed。。。难道不是从每个点暴力走两步嘛。。。 ",
+                "capacity": 12122,
+                "poster": {
+                    "id": "1184989240",
+                    "platform": 1,
+                    "name": "年少 ",
+                    "emoji": []
+                },
+                "bmp": "18c09da80000e401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1416271707,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "求岛娘时间复杂度 ",
+                "capacity": 12152,
+                "poster": {
+                    "id": "892431401",
+                    "platform": 1,
+                    "name": "ydc ",
+                    "emoji": []
+                },
+                "bmp": "18c08d840002c201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

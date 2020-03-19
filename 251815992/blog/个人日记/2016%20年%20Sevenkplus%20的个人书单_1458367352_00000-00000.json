@@ -1,0 +1,51 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1458370766,
+                "effect": 32,
+                "replyNum": 2,
+                "content": "讲道理，能把2-3本教科书翻出来并全部看完、全部完成习题，已经不错了。 ",
+                "capacity": 11921,
+                "poster": {
+                    "id": "3105179337",
+                    "platform": 1,
+                    "name": "一只辣鸡 ",
+                    "emoji": []
+                },
+                "bmp": "08009d8002006201",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "3105179337",
+                            "name": "一只辣鸡 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:3105179337,nick:一只辣鸡,auto:1} 看书不做题等于没看 ",
+                        "postTime": 1458370777,
+                        "id": 1458370777,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:3105179337,nick:一只辣鸡,who:1,auto:1} [em]e105[/em] ",
+                        "postTime": 1458371741,
+                        "id": 1458371741,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

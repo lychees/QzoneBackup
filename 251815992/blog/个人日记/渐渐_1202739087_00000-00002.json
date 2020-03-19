@@ -1,0 +1,74 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1202746590,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "[B][ft=#6600ff,,]何必自责.每个人都没有错.[/ft][/B]\n[B][ft=#6600ff,,]我怎么感觉其中有一段是我博客里的.低调低调.小c一直很低调的.呵呵.[/ft][/B]\n[B][ft=#6600ff,,]可以看出来.,你已经在长大了.成长免不了痛苦和矛盾.那就去坦然面对吧.[/ft][/B]\n[B][/B] \n[B][ft=#6600ff,,]懂的享受孤单便懂得享受生命.但是生命不等于孤单.[/ft][/B]\n[B][/B] \n[B][ft=#6600ff,,]好好享受一个人的寂寞.会很幸福的.[/ft][/B] ",
+                "capacity": 11791,
+                "poster": {
+                    "id": "347956886",
+                    "platform": 1,
+                    "name": "小c ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1202877488,
+                "effect": 4194304,
+                "replyNum": 0,
+                "content": "\n咳....放轻松....一切都会好的....\n \n \n至少还有朋友在后面支持你....鼓励你....\n \n \n \n谢谢你的留言..\n \n \n \n \n                                                                                         Sese  来过.. ",
+                "capacity": 11964,
+                "poster": {
+                    "id": "383688575",
+                    "platform": 1,
+                    "name": "Dan13 ",
+                    "emoji": []
+                },
+                "bmp": "08809c0001008001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1202961575,
+                "effect": 4194336,
+                "replyNum": 1,
+                "content": "[M][B]谁都没有错[/B][/M]\n[M][B]错的是这个世界[/B][/M]\n[M] [/M]\n ",
+                "capacity": 12078,
+                "poster": {
+                    "id": "173324507",
+                    "platform": 1,
+                    "name": "Groot ",
+                    "emoji": []
+                },
+                "bmp": "18d015a00102a201",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "真的吗～？\n哎...我不信... ",
+                        "postTime": 0,
+                        "id": 0,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

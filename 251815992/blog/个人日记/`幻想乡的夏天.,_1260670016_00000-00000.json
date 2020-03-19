@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1260681710,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]LOLI~~[/ft] ",
+                "capacity": 12147,
+                "poster": {
+                    "id": "372884622",
+                    "platform": 1,
+                    "name": "笨 ",
+                    "emoji": []
+                },
+                "bmp": "38d095a00100c109",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

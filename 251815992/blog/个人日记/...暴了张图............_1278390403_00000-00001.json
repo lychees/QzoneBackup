@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1278390879,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "感觉更像卖火柴的小女孩在夏天得到一个奇怪苗条的有点化的冰激凌。。。紫色也就可以解释了。。。 ",
+                "capacity": 12084,
+                "poster": {
+                    "id": "87974035",
+                    "platform": 1,
+                    "name": "Be ",
+                    "emoji": []
+                },
+                "bmp": "0894d4a00040e101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1278397334,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "完啦完啦，你可能要被人拉去KP啦。惨啦[em]e154[/em] ",
+                "capacity": 12119,
+                "poster": {
+                    "id": "1411496857",
+                    "platform": 1,
+                    "name": "shitou ",
+                    "emoji": []
+                },
+                "bmp": "18d195a002008201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

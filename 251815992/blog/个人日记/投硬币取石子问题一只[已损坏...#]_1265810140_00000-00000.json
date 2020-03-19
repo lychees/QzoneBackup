@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1265857265,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "大哥，这种题还要无穷级数？A，B两个人掷硬币，设A赢得概率为P，则有P=0.5+0.5*0.5P，解出P ",
+                "capacity": 12081,
+                "poster": {
+                    "id": "65713782",
+                    "platform": 1,
+                    "name": "blackjack ",
+                    "emoji": []
+                },
+                "bmp": "08c09d2001008001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

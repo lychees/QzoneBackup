@@ -1,0 +1,51 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1278641205,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "结尾很喜感…… ",
+                "capacity": 12091,
+                "poster": {
+                    "id": "87974035",
+                    "platform": 1,
+                    "name": "Be ",
+                    "emoji": []
+                },
+                "bmp": "0894d4a00040e101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "人家困了嘛。。。 ",
+                        "postTime": 1278649576,
+                        "id": 1278649576,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "87974035",
+                            "name": "Be ",
+                            "platform": 1
+                        },
+                        "content": "[em]e113[/em] ",
+                        "postTime": 1278652749,
+                        "id": 1278652749,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

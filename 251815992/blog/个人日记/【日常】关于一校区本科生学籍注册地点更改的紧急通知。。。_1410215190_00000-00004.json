@@ -1,0 +1,96 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 5,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1410228048,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "... Orz ... ",
+                "capacity": 12157,
+                "poster": {
+                    "id": "568778055",
+                    "platform": 1,
+                    "name": "123456 ",
+                    "emoji": []
+                },
+                "bmp": "18d09da00100c221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1410237589,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "…保安！ ",
+                "capacity": 12149,
+                "poster": {
+                    "id": "122155302",
+                    "platform": 1,
+                    "name": "木子日匀 ",
+                    "emoji": []
+                },
+                "bmp": "38d40da00102c209",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1410239537,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "医生！医生！ ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "935099327",
+                    "platform": 1,
+                    "name": "不愿透露姓名的 ",
+                    "emoji": []
+                },
+                "bmp": "08c09d2000000001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1410241259,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "“ 我今年的目标就是拿个金 ”[em]e185[/em][em]e185[/em]小岛神想赢 谁人能及？！ ",
+                "capacity": 12091,
+                "poster": {
+                    "id": "568778055",
+                    "platform": 1,
+                    "name": "123456 ",
+                    "emoji": []
+                },
+                "bmp": "18d09da00100c221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1410577793,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "真心赞 ",
+                "capacity": 12163,
+                "poster": {
+                    "id": "1758704182",
+                    "platform": 1,
+                    "name": "Swellow ",
+                    "emoji": []
+                },
+                "bmp": "08809d800200c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

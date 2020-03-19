@@ -1,0 +1,91 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1435263890,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "赞配图 ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "723197313",
+                    "platform": 1,
+                    "name": "北京-邵成 ",
+                    "emoji": []
+                },
+                "bmp": "08c0158000008101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1435268755,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "竟 然玩 了 ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "397427019",
+                    "platform": 1,
+                    "name": " ",
+                    "emoji": []
+                },
+                "bmp": "18809da40102c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1435274345,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "那段日子真的很有趣啊。。。历史的眼泪。。。然而我也从中走出来了，今年的卷子。。。班里大神跪一片，自招什么的名额大幅缩水，都哭了。。。 ",
+                "capacity": 12036,
+                "poster": {
+                    "id": "471084932",
+                    "platform": 1,
+                    "name": "无姓之人 ",
+                    "emoji": []
+                },
+                "bmp": "18d095e4010ed001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1435274601,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "学霸威武。。。据说今年自主竞赛没看好。。。另外很怀念岛娘代课的日子 ",
+                "capacity": 11996,
+                "poster": {
+                    "id": "574712047",
+                    "platform": 1,
+                    "name": "陈志浩 ",
+                    "emoji": []
+                },
+                "bmp": "189095e4010ee101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:574712047,nick:陈志浩,who:1,auto:1}ls 才是学霸！） ",
+                        "postTime": 1435275043,
+                        "id": 1435275043,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

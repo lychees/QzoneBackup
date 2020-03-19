@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1292078445,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]就你一逃学逆子,还讲团队之士气,不出三天,你就大难临头了。还若干年以后再看这遍文章呢,我能让你过好这个年吗?真脑残一个,[/ft] ",
+                "capacity": 12041,
+                "poster": {
+                    "id": "1084081420",
+                    "platform": 1,
+                    "name": "安徽老虎 ",
+                    "emoji": []
+                },
+                "bmp": "88419da00000c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1292146081,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]可以 边学边干啊[/ft] ",
+                "capacity": 12140,
+                "poster": {
+                    "id": "464953161",
+                    "platform": 1,
+                    "name": " 伊人若梦 ",
+                    "emoji": []
+                },
+                "bmp": "08d195a00100c201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1292248376,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]代沟很正常，不过你的这个问题好像不仅仅是代沟的问题了。[/ft] ",
+                "capacity": 12105,
+                "poster": {
+                    "id": "944511827",
+                    "platform": 1,
+                    "name": "慧缘 ",
+                    "emoji": []
+                },
+                "bmp": "18c195a00000c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

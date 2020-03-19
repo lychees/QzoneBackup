@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1278121182,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "应为上班比赛没能看，看了新闻也知道，比赛最后的惊心动魄！球迷的我们一起庆祝吧… ",
+                "capacity": 12087,
+                "poster": {
+                    "id": "357640258",
+                    "platform": 1,
+                    "name": "、西北的风 ",
+                    "emoji": []
+                },
+                "bmp": "185095600140a089",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

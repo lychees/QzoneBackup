@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1498868764,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "岛老师又要去日本了Orz ",
+                "capacity": 12152,
+                "poster": {
+                    "id": "854198141",
+                    "platform": 1,
+                    "name": "xzq ",
+                    "emoji": []
+                },
+                "bmp": "08c19c8000000401",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

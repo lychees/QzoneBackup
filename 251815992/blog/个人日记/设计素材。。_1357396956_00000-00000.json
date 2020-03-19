@@ -1,0 +1,40 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1357458286,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "你的日记是用什么软件写的? ",
+                "capacity": 12081,
+                "poster": {
+                    "id": "469415244",
+                    "platform": 1,
+                    "name": "朱柯军 ",
+                    "emoji": []
+                },
+                "bmp": "18919d840000c101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "不知道。。这不是我的。。=w=。 ",
+                        "postTime": 1357470626,
+                        "id": 1357470626,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

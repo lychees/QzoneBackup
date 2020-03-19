@@ -1,0 +1,91 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1411259262,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "我看百科中对 ACRush有这样的一句描述 “经常以一人单挑一个队”。所以呢。。。不沮丧。。。不绝望。 ",
+                "capacity": 11996,
+                "poster": {
+                    "id": "568778055",
+                    "platform": 1,
+                    "name": "123456 ",
+                    "emoji": []
+                },
+                "bmp": "18d09da00100c221",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:568778055,nick:123456,who:1} kiding ",
+                        "postTime": 1411259294,
+                        "id": 1411259294,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1411259864,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "好熟悉的名字。。 ",
+                "capacity": 12152,
+                "poster": {
+                    "id": "278762954",
+                    "platform": 1,
+                    "name": "叶落有痕 ",
+                    "emoji": []
+                },
+                "bmp": "d8d18fac0000c109",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1411264602,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "[em]e153[/em] ",
+                "capacity": 12142,
+                "poster": {
+                    "id": "112831313",
+                    "platform": 1,
+                    "name": "12-计-董羽飞 ",
+                    "emoji": []
+                },
+                "bmp": "38d40da00102d101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1411284477,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "小岛最近感慨蛮多呀[em]e100[/em] ",
+                "capacity": 12136,
+                "poster": {
+                    "id": "455037117",
+                    "platform": 1,
+                    "name": "【&LC】↑ ",
+                    "emoji": []
+                },
+                "bmp": "98d495e000428201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1433403560,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "没看懂啊。。。贴全没 ",
+                "capacity": 12150,
+                "poster": {
+                    "id": "929185023",
+                    "platform": 1,
+                    "name": "[hdu]Herobs ",
+                    "emoji": []
+                },
+                "bmp": "189095a00902c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1433416374,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "你用了啥CDN么。。 ",
+                "capacity": 12151,
+                "poster": {
+                    "id": "10848584",
+                    "platform": 1,
+                    "name": "主席 ",
+                    "emoji": []
+                },
+                "bmp": "0880dd8000000221",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

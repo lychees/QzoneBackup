@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1410229274,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "表示概率没学好。。。 ",
+                "capacity": 12148,
+                "poster": {
+                    "id": "291109949",
+                    "platform": 1,
+                    "name": "复活也有 ",
+                    "emoji": []
+                },
+                "bmp": "18d19d800000c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1481822068,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "。 ",
+                "capacity": 12159,
+                "poster": {
+                    "id": "1044698087",
+                    "platform": 1,
+                    "name": "喵~ ",
+                    "emoji": []
+                },
+                "bmp": "08009c8002004001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

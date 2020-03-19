@@ -1,0 +1,187 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 7,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1439800644,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "因为微软和IHG集团长期合作 有协议价 ",
+                "capacity": 12134,
+                "poster": {
+                    "id": "190730860",
+                    "platform": 1,
+                    "name": "策划-sorma ",
+                    "emoji": []
+                },
+                "bmp": "08c095880002d401",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1439801086,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "今年APIO CTSC也是在燕山大酒店…… ",
+                "capacity": 12041,
+                "poster": {
+                    "id": "916506409",
+                    "platform": 1,
+                    "name": "时光机 ",
+                    "emoji": []
+                },
+                "bmp": "18c59da00102c101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "892431401",
+                            "name": "ydc ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:916506409,nick:时光机,who:1,auto:1}每年APIO都是 ",
+                        "postTime": 1439801697,
+                        "id": 1439801697,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "postTime": 1439812041,
+                "effect": 32,
+                "replyNum": 4,
+                "content": "活动地址。。不来丹棱街么 ",
+                "capacity": 11703,
+                "poster": {
+                    "id": "350734839",
+                    "platform": 1,
+                    "name": "Moonlight ",
+                    "emoji": []
+                },
+                "bmp": "18c095a00002c109",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:350734839,nick:Moonlight,who:1,auto:1}媛姐也在微软吗。。。。 ",
+                        "postTime": 1439813537,
+                        "id": 1439813537,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "350734839",
+                            "name": "Moonlight ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,auto:1} 对呀对呀，我在实习[em]e103[/em]今天就听说mentor们这周要面试，估计你们会遇到，哈哈。。 ",
+                        "postTime": 1439813594,
+                        "id": 1439813594,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:350734839,nick:Moonlight,auto:1} 我已经是身经百战了。。。 ",
+                        "postTime": 1439814124,
+                        "id": 1439814124,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "350734839",
+                            "name": "Moonlight ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,auto:1} 赞收割机！ ",
+                        "postTime": 1439814513,
+                        "id": 1439814513,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "postTime": 1439819939,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "收割机牛逼 ",
+                "capacity": 12159,
+                "poster": {
+                    "id": "1559580331",
+                    "platform": 1,
+                    "name": "吴超尘 ",
+                    "emoji": []
+                },
+                "bmp": "08001d800002c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1439827404,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "口怕 ",
+                "capacity": 12164,
+                "poster": {
+                    "id": "397427019",
+                    "platform": 1,
+                    "name": " ",
+                    "emoji": []
+                },
+                "bmp": "18809da40102c001",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 6,
+                "postTime": 1439844111,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "面试得怎么样 ",
+                "capacity": 12152,
+                "poster": {
+                    "id": "419172261",
+                    "platform": 1,
+                    "name": "雪鸦 ",
+                    "emoji": []
+                },
+                "bmp": "98809da04000d409",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 7,
+                "postTime": 1439855864,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "我也想去！ ",
+                "capacity": 12158,
+                "poster": {
+                    "id": "529520158",
+                    "platform": 1,
+                    "name": "雪人墙 ",
+                    "emoji": []
+                },
+                "bmp": "18d08da00802c001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

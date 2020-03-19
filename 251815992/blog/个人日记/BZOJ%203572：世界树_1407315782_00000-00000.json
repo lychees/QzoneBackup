@@ -1,0 +1,40 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1407322570,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "虚树可以做codeforces 219 D以及WC 2014的紫荆花之恋 ",
+                "capacity": 12034,
+                "poster": {
+                    "id": "892431401",
+                    "platform": 1,
+                    "name": "ydc ",
+                    "emoji": []
+                },
+                "bmp": "18c08d840002c201",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:892431401,nick:ydc,who:1,auto:1}谢谢。 ",
+                        "postTime": 1407419941,
+                        "id": 1407419941,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

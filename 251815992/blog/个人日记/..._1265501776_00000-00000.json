@@ -1,0 +1,40 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1265559022,
+                "effect": 32,
+                "replyNum": 1,
+                "content": "[ft=,2,]话说是要做一个什么样的图？[/ft] ",
+                "capacity": 12102,
+                "poster": {
+                    "id": "610551633",
+                    "platform": 1,
+                    "name": "3767 ",
+                    "emoji": []
+                },
+                "bmp": "18d495a00102d101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "生存.. ",
+                        "postTime": 1265563432,
+                        "id": 1265563432,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

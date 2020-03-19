@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1334282854,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "Orz ",
+                "capacity": 12165,
+                "poster": {
+                    "id": "278762954",
+                    "platform": 1,
+                    "name": "叶落有痕 ",
+                    "emoji": []
+                },
+                "bmp": "d8d18fac0000c109",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1334288984,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "后天来做我们校赛吧蛤蛤蛤蛤 ",
+                "capacity": 12142,
+                "poster": {
+                    "id": "122155302",
+                    "platform": 1,
+                    "name": "木子日匀 ",
+                    "emoji": []
+                },
+                "bmp": "38d40da00102c209",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

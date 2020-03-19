@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1421408168,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "开头挺好的，越写越打油诗了---... ",
+                "capacity": 12135,
+                "poster": {
+                    "id": "1503502660",
+                    "platform": 1,
+                    "name": "云白山青[em]e257417[/em] ",
+                    "emoji": []
+                },
+                "bmp": "1880958002006201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

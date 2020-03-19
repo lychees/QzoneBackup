@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 3,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1338861921,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "Orz ",
+                "capacity": 12167,
+                "poster": {
+                    "id": "464715987",
+                    "platform": 1,
+                    "name": "ac_von ",
+                    "emoji": []
+                },
+                "bmp": "18d0d5800100e409",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1338865792,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "orz ",
+                "capacity": 12149,
+                "poster": {
+                    "id": "375243140",
+                    "platform": 1,
+                    "name": "cxlove ",
+                    "emoji": []
+                },
+                "bmp": "18c09da80100d429",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1338870937,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "碉堡了。 ",
+                "capacity": 12160,
+                "poster": {
+                    "id": "451524137",
+                    "platform": 1,
+                    "name": "光之神圣 ",
+                    "emoji": []
+                },
+                "bmp": "18c1f4a40080c109",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

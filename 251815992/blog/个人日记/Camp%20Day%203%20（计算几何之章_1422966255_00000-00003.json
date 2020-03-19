@@ -1,0 +1,79 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1422973796,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "日常一赞... ",
+                "capacity": 12161,
+                "poster": {
+                    "id": "286830682",
+                    "platform": 1,
+                    "name": "MetTheSoul ",
+                    "emoji": []
+                },
+                "bmp": "08d49de0000c8221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1422973875,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "你们交29发好可怕... ",
+                "capacity": 12153,
+                "poster": {
+                    "id": "286830682",
+                    "platform": 1,
+                    "name": "MetTheSoul ",
+                    "emoji": []
+                },
+                "bmp": "08d49de0000c8221",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1422980567,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "压力好大的样子 ",
+                "capacity": 12155,
+                "poster": {
+                    "id": "785535171",
+                    "platform": 1,
+                    "name": "Jの星愿 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a40100a201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1422985840,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "抄我木板挂精度了？ ",
+                "capacity": 12152,
+                "poster": {
+                    "id": "704998702",
+                    "platform": 1,
+                    "name": "北航董适 ",
+                    "emoji": []
+                },
+                "bmp": "18809d0000008001",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

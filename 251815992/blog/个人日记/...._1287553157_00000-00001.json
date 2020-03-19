@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1287564131,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "给你钱,不是让你这样花的,不信你就试试,老爸会在飞机场,等候你,并让你试试你这次飞回勇气的代价,并永远不会给你一毛钱,气死我了,你这个屁孩 ",
+                "capacity": 12038,
+                "poster": {
+                    "id": "1084081420",
+                    "platform": 1,
+                    "name": "安徽老虎 ",
+                    "emoji": []
+                },
+                "bmp": "88419da00000c101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 2,
+                "postTime": 1287580202,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "。。。 ",
+                "capacity": 12166,
+                "poster": {
+                    "id": "251815992",
+                    "platform": 1,
+                    "name": "小岛美奈子 ",
+                    "emoji": []
+                },
+                "bmp": "18d18da40002c001",
+                "ismyreply": 1,
+                "replies": []
+            }
+        ]
+    }
+}

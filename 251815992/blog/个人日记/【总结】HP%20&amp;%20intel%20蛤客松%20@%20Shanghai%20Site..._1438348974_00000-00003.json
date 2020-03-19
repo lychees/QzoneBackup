@@ -1,0 +1,79 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 4,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1438349911,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "西兰花教表示不服 ",
+                "capacity": 12152,
+                "poster": {
+                    "id": "25241274",
+                    "platform": 1,
+                    "name": "七星瓢虫 ",
+                    "emoji": []
+                },
+                "bmp": "18d095a00000e101",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "postTime": 1438350190,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "团结后宫！！ ",
+                "capacity": 12106,
+                "poster": {
+                    "id": "624050143",
+                    "platform": 1,
+                    "name": "倪亦帅 ",
+                    "emoji": []
+                },
+                "bmp": "18d48da80002c201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 4,
+                "postTime": 1438353307,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "前排仰慕冠军岛。么么哒 ",
+                "capacity": 12148,
+                "poster": {
+                    "id": "3105179337",
+                    "platform": 1,
+                    "name": "一只辣鸡 ",
+                    "emoji": []
+                },
+                "bmp": "08009d8002006201",
+                "ismyreply": 0,
+                "replies": []
+            },
+            {
+                "id": 5,
+                "postTime": 1438356367,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "像角色扮演游戏一样 ",
+                "capacity": 12149,
+                "poster": {
+                    "id": "1242256806",
+                    "platform": 1,
+                    "name": "无锡-美术-林可 ",
+                    "emoji": []
+                },
+                "bmp": "18408da00002e201",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

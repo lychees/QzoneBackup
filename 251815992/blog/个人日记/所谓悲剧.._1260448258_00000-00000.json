@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1260697018,
+                "effect": 0,
+                "replyNum": 0,
+                "content": "[ft=,2,]孩子...[/ft]\n[ft=,2,]不住校就是好呵呵[/ft] ",
+                "capacity": 12122,
+                "poster": {
+                    "id": "1303552653",
+                    "platform": 1,
+                    "name": "赫敏·格兰杰 ",
+                    "emoji": []
+                },
+                "bmp": "18909da00608c209",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}

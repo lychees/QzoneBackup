@@ -1,0 +1,80 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 2,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1386634214,
+                "effect": 1056,
+                "replyNum": 2,
+                "content": "这题有啥渊源 ",
+                "capacity": 11974,
+                "poster": {
+                    "id": "593572013",
+                    "platform": 1,
+                    "name": "wuyiqi ",
+                    "emoji": []
+                },
+                "bmp": "98d095800000c101",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "251815992",
+                            "name": "小岛美奈子 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:593572013,nick:wuyiqi,who:1,auto:1}就是我只能嘴巴 AC。 ",
+                        "postTime": 1386655094,
+                        "id": 1386655094,
+                        "effect": 0
+                    },
+                    {
+                        "poster": {
+                            "id": "593572013",
+                            "name": "wuyiqi ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:251815992,nick:小岛美奈子,who:1,auto:1} 长春的题？ ",
+                        "postTime": 1386655258,
+                        "id": 1386655258,
+                        "effect": 0
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "postTime": 1386719898,
+                "effect": 1056,
+                "replyNum": 1,
+                "content": "@{uin:121371490,nick:詹艳玲,who:1} 可以看看 ",
+                "capacity": 11924,
+                "poster": {
+                    "id": "276224245",
+                    "platform": 1,
+                    "name": "北冥之鱼 ",
+                    "emoji": []
+                },
+                "bmp": "18d015a000008401",
+                "ismyreply": 0,
+                "replies": [
+                    {
+                        "poster": {
+                            "id": "121371490",
+                            "name": "詹艳玲 ",
+                            "platform": 1
+                        },
+                        "content": "@{uin:276224245,nick:北冥之鱼,who:1,auto:1}看起来好厉害，不过没看懂诶。。。。我之前那个方法内存占用好像略大的说[em]e103[/em] ",
+                        "postTime": 1386733919,
+                        "id": 1386733919,
+                        "effect": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

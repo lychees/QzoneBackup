@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 1,
+        "comments": [
+            {
+                "id": 1,
+                "postTime": 1464970477,
+                "effect": 1024,
+                "replyNum": 0,
+                "content": "毒吸的有点多 ",
+                "capacity": 12155,
+                "poster": {
+                    "id": "1009321558",
+                    "platform": 1,
+                    "name": "0 o'clock ",
+                    "emoji": []
+                },
+                "bmp": "18519da80102c981",
+                "ismyreply": 0,
+                "replies": []
+            }
+        ]
+    }
+}
