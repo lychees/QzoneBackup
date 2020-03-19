@@ -1,0 +1,456 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 415,
+        "auditNum": 54,
+        "auditON": true,
+        "authorInfo": {
+            "msg": "[B]... ：“我的世界下起了小雪...”[/B]",
+            "htmlMsg": "<span style=\"font-weight:bold;\">...&nbsp;：“我的世界下起了小雪...”</span><wbr  />",
+            "sign": ""
+        },
+        "commentList": [
+            {
+                "id": "256",
+                "secret": 0,
+                "pasterid": "",
+                "bmp": "18d015a00102a221",
+                "pubtime": "2009-10-03 20:05:51",
+                "modifytime": 0,
+                "effect": 0,
+                "type": 0,
+                "uin": 347956886,
+                "nickname": "小c",
+                "capacity": 5929,
+                "htmlContent": "很长时间没来了。。。岛儿要加油<br  />我也要加油",
+                "ubbContent": "很长时间没来了。。。岛儿要加油\n我也要加油",
+                "signature": "",
+                "replyList": []
+            },
+            {
+                "id": "255",
+                "secret": 0,
+                "pasterid": "",
+                "bmp": "585095a00102c209",
+                "pubtime": "2009-09-28 19:08:54",
+                "modifytime": 0,
+                "effect": 32,
+                "type": 0,
+                "uin": 784237318,
+                "nickname": "叙眄",
+                "capacity": 5680,
+                "htmlContent": "小岛<br  />我想问你<br  />你是谁啊？<br  />为什么你的头像是我小学同学的呢？",
+                "ubbContent": "小岛\n我想问你\n你是谁啊？\n为什么你的头像是我小学同学的呢？",
+                "signature": "",
+                "replyList": [
+                    {
+                        "content": "你不用知道我是谁...\n况且我是谁也不重要...",
+                        "uin": 251815992,
+                        "time": 1254315760,
+                        "nick": "小岛美奈子"
+                    },
+                    {
+                        "content": "晕死",
+                        "uin": 784237318,
+                        "time": 1254316200,
+                        "nick": "叙眄"
+                    },
+                    {
+                        "content": "私聊...",
+                        "uin": 251815992,
+                        "time": 1254322844,
+                        "nick": "小岛美奈子"
+                    },
+                    {
+                        "content": "你认识税子龙吧",
+                        "uin": 784237318,
+                        "time": 1254356638,
+                        "nick": "叙眄"
+                    },
+                    {
+                        "content": "恩..这件事情比较的复杂～",
+                        "uin": 251815992,
+                        "time": 1254358341,
+                        "nick": "小岛美奈子"
+                    },
+                    {
+                        "content": "……",
+                        "uin": 784237318,
+                        "time": 1254388888,
+                        "nick": "叙眄"
+                    }
+                ]
+            },
+            {
+                "id": "254",
+                "secret": 0,
+                "pasterid": "",
+                "bmp": "189095a00102c001",
+                "pubtime": "2009-08-13 19:28:18",
+                "modifytime": 0,
+                "effect": 0,
+                "type": 0,
+                "uin": 101334078,
+                "nickname": ",",
+                "capacity": 5925,
+                "htmlContent": "<div style=\"text-align:right;\"><span style=\"line-height:1.8em;filter: glow(color=#9966ff,strength=3);text-shadow:1px 0 4px #9966ff,0 1px 4px #9966ff,0 -1px 4px #9966ff,-1px 0 4px #9966ff;color:#ffffff;display:inline-block;\">来过、、</span><wbr  /></div>",
+                "ubbContent": "[R][ffg,#9966FF,#FFFFFF]来过、、[/ft][/R]",
+                "signature": "",
+                "replyList": []
+            },
+            {
+                "id": "253",
+                "secret": 0,
+                "pasterid": "",
+                "bmp": " 8d40da80102c109",
+                "pubtime": "2009-08-11 17:26:36",
+                "modifytime": 0,
+                "effect": 0,
+                "type": 0,
+                "uin": 284293874,
+                "nickname": "孟修竹",
+                "capacity": 5935,
+                "htmlContent": "路过，踩踩.....&nbsp;&nbsp;O(∩_∩)O~",
+                "ubbContent": "路过，踩踩.....  O(∩_∩)O~",
+                "signature": "",
+                "replyList": []
+            },
+            {
+                "id": "252",
+                "secret": 0,
+                "pasterid": "",
+                "bmp": "18c09da04000c001",
+                "pubtime": "2009-08-08 20:13:03",
+                "modifytime": 0,
+                "effect": 0,
+                "type": 0,
+                "uin": 315593370,
+                "nickname": "大魔导师会让你挂科",
+                "capacity": 5959,
+                "htmlContent": "踩",
+                "ubbContent": "踩",
+                "signature": "",
+                "replyList": []
+            },
+            {
+                "id": "251",
+                "secret": 0,
+                "pasterid": "",
+                "bmp": "18d015a00102a221",
+                "pubtime": "2009-08-02 23:57:59",
+                "modifytime": 0,
+                "effect": 32,
+                "type": 0,
+                "uin": 347956886,
+                "nickname": "小c",
+                "capacity": 5790,
+                "htmlContent": "<span style=\"font-weight:bold;\">&quot;一个人的时候,如果下起了雨.&nbsp;</span><wbr  /><br  /><span style=\"font-weight:bold;\">也会学你把伞..丢到一边..&quot;</span><wbr  /><br  />",
+                "ubbContent": "[B]\"一个人的时候,如果下起了雨. [/B]\n[B]也会学你把伞..丢到一边..\"[/B]\n",
+                "signature": "",
+                "replyList": [
+                    {
+                        "content": "\"人山有人海..别错过那..一个..等待..\n试一试去爱,伤害也比悲哀来de爽快...\"",
+                        "uin": 251815992,
+                        "time": 1249295026,
+                        "nick": "小岛美奈子"
+                    }
+                ]
+            },
+            {
+                "id": "250",
+                "secret": 0,
+                "pasterid": "",
+                "bmp": " 8c09d880102c201",
+                "pubtime": "2009-07-30 12:23:55",
+                "modifytime": 0,
+                "effect": 4195360,
+                "type": 0,
+                "uin": 406243511,
+                "nickname": "TheRoadToYou",
+                "capacity": 5910,
+                "htmlContent": "你的魔兽水平怎么样？",
+                "ubbContent": "你的魔兽水平怎么样？",
+                "signature": "",
+                "replyList": [
+                    {
+                        "content": "........我弱de荒..",
+                        "uin": 251815992,
+                        "time": 1248928820,
+                        "nick": "小岛美奈子"
+                    }
+                ]
+            },
+            {
+                "id": "249",
+                "secret": 0,
+                "pasterid": "",
+                "bmp": "18d015a00102a221",
+                "pubtime": "2009-07-29 16:26:30",
+                "modifytime": 0,
+                "effect": 32,
+                "type": 0,
+                "uin": 347956886,
+                "nickname": "小c",
+                "capacity": 5872,
+                "htmlContent": "……最近我不在&nbsp;帮我看好我院子&nbsp;多给我偷点别人的&nbsp;及时把我的果实摘下来<br  />听到了没。",
+                "ubbContent": "……最近我不在 帮我看好我院子 多给我偷点别人的 及时把我的果实摘下来\n听到了没。",
+                "signature": "",
+                "replyList": [
+                    {
+                        "content": ".",
+                        "uin": 251815992,
+                        "time": 1248909842,
+                        "nick": "小岛美奈子"
+                    }
+                ]
+            },
+            {
+                "id": "248",
+                "secret": 0,
+                "pasterid": "",
+                "bmp": "18d18da40002c001",
+                "pubtime": "2009-07-29 08:35:08",
+                "modifytime": 0,
+                "effect": 0,
+                "type": 0,
+                "uin": 251815992,
+                "nickname": "小岛美奈子",
+                "capacity": 5942,
+                "htmlContent": "<span style=\"font-weight:bold;\">怎么踩的人那么少..！</span><wbr  />",
+                "ubbContent": "[B]怎么踩的人那么少..！[/B]",
+                "signature": "",
+                "replyList": []
+            },
+            {
+                "id": "247",
+                "secret": 0,
+                "pasterid": "",
+                "bmp": " 8c09d880102c201",
+                "pubtime": "2009-07-26 10:16:32",
+                "modifytime": 0,
+                "effect": 32,
+                "type": 0,
+                "uin": 406243511,
+                "nickname": "TheRoadToYou",
+                "capacity": 5930,
+                "htmlContent": "踩踩，要回踩哦！",
+                "ubbContent": "踩踩，要回踩哦！",
+                "signature": "",
+                "replyList": [
+                    {
+                        "content": "恩",
+                        "uin": 251815992,
+                        "time": 1248620664,
+                        "nick": "小岛美奈子"
+                    }
+                ]
+            },
+            {
+                "id": "246",
+                "secret": 0,
+                "pasterid": "",
+                "bmp": "18d015a00102a221",
+                "pubtime": "2009-07-15 15:45:35",
+                "modifytime": 0,
+                "effect": 32,
+                "type": 0,
+                "uin": 347956886,
+                "nickname": "小c",
+                "capacity": 5922,
+                "htmlContent": "你空间变诡异了。。",
+                "ubbContent": "你空间变诡异了。。",
+                "signature": "",
+                "replyList": [
+                    {
+                        "content": "...等我嘛～",
+                        "uin": 251815992,
+                        "time": 1247644022,
+                        "nick": "小岛美奈子"
+                    }
+                ]
+            },
+            {
+                "id": "245",
+                "secret": 0,
+                "pasterid": "",
+                "bmp": "18d015a00102a201",
+                "pubtime": "2009-07-06 09:31:25",
+                "modifytime": 0,
+                "effect": 0,
+                "type": 0,
+                "uin": 173324507,
+                "nickname": "Groot",
+                "capacity": 5951,
+                "htmlContent": "<span style=\"font-weight:bold;\">~~~</span><wbr  />",
+                "ubbContent": "[B]~~~[/B]",
+                "signature": "",
+                "replyList": []
+            },
+            {
+                "id": "244",
+                "secret": 0,
+                "pasterid": "",
+                "bmp": " 8d40da80102c109",
+                "pubtime": "2009-07-01 09:40:00",
+                "modifytime": 0,
+                "effect": 0,
+                "type": 0,
+                "uin": 284293874,
+                "nickname": "孟修竹",
+                "capacity": 5944,
+                "htmlContent": "悄悄地我又走过了..",
+                "ubbContent": "悄悄地我又走过了..",
+                "signature": "",
+                "replyList": []
+            },
+            {
+                "id": "243",
+                "secret": 0,
+                "pasterid": "",
+                "bmp": " 8d40da80102c109",
+                "pubtime": "2009-06-06 22:25:00",
+                "modifytime": 0,
+                "effect": 0,
+                "type": 0,
+                "uin": 284293874,
+                "nickname": "孟修竹",
+                "capacity": 5948,
+                "htmlContent": "恩，参观完毕。",
+                "ubbContent": "恩，参观完毕。",
+                "signature": "",
+                "replyList": []
+            },
+            {
+                "id": "242",
+                "secret": 0,
+                "pasterid": "",
+                "bmp": "18d015a00102a221",
+                "pubtime": "2009-05-09 16:13:50",
+                "modifytime": 0,
+                "effect": 32,
+                "type": 0,
+                "uin": 347956886,
+                "nickname": "小c",
+                "capacity": 5931,
+                "htmlContent": "......我钻出来了",
+                "ubbContent": "......我钻出来了",
+                "signature": "",
+                "replyList": [
+                    {
+                        "content": "- -~",
+                        "uin": 251815992,
+                        "time": 1241861392,
+                        "nick": "小岛美奈子"
+                    }
+                ]
+            },
+            {
+                "id": "241",
+                "secret": 0,
+                "pasterid": "",
+                "bmp": " 89015e00004d409",
+                "pubtime": "2009-04-30 23:04:30",
+                "modifytime": 0,
+                "effect": 4195328,
+                "type": 0,
+                "uin": 641996383,
+                "nickname": "V.C.",
+                "capacity": 5954,
+                "htmlContent": "原来46的~",
+                "ubbContent": "原来46的~",
+                "signature": "",
+                "replyList": []
+            },
+            {
+                "id": "240",
+                "secret": 0,
+                "pasterid": "",
+                "bmp": "18d015a00102a201",
+                "pubtime": "2009-04-30 21:35:37",
+                "modifytime": 0,
+                "effect": 0,
+                "type": 0,
+                "uin": 173324507,
+                "nickname": "Groot",
+                "capacity": 5935,
+                "htmlContent": "<span style=\"font-weight:bold;\">节日快乐<br  />劳动最光荣</span><wbr  />",
+                "ubbContent": "[B]节日快乐\n劳动最光荣[/B]",
+                "signature": "",
+                "replyList": []
+            },
+            {
+                "id": "239",
+                "secret": 0,
+                "pasterid": "",
+                "bmp": "18d015a00102a201",
+                "pubtime": "2009-04-30 21:35:08",
+                "modifytime": 0,
+                "effect": 0,
+                "type": 0,
+                "uin": 173324507,
+                "nickname": "Groot",
+                "capacity": 5928,
+                "htmlContent": "<span style=\"font-weight:bold;\">节日快乐</span><wbr  /><br  /><span style=\"font-weight:bold;\">劳动最光荣</span><wbr  />",
+                "ubbContent": "[B]节日快乐[/B]\n[B]劳动最光荣[/B]",
+                "signature": "",
+                "replyList": []
+            },
+            {
+                "id": "238",
+                "secret": 0,
+                "pasterid": "",
+                "bmp": "18d495a001008121",
+                "pubtime": "2009-04-30 21:19:53",
+                "modifytime": 0,
+                "effect": 0,
+                "type": 0,
+                "uin": 241721246,
+                "nickname": "-Zoey-D",
+                "capacity": 5947,
+                "htmlContent": "我老妈说你好可爱&nbsp;=]<br  />",
+                "ubbContent": "我老妈说你好可爱 =]\n",
+                "signature": "",
+                "replyList": []
+            },
+            {
+                "id": "237",
+                "secret": 0,
+                "pasterid": "",
+                "bmp": "18805ca400004109",
+                "pubtime": "2009-04-24 17:39:34",
+                "modifytime": 0,
+                "effect": 32,
+                "type": 0,
+                "uin": 352467237,
+                "nickname": "23MNU66",
+                "capacity": 5834,
+                "htmlContent": "唐唐，在实验班要加油啊！",
+                "ubbContent": "唐唐，在实验班要加油啊！",
+                "signature": "",
+                "replyList": [
+                    {
+                        "content": "..“糖糖要保暖...” ...#24",
+                        "uin": 251815992,
+                        "time": 1240651425,
+                        "nick": "小岛美奈子"
+                    },
+                    {
+                        "content": "啊？",
+                        "uin": 352467237,
+                        "time": 1240744321,
+                        "nick": "23MNU66"
+                    },
+                    {
+                        "content": "嗯..我收到了～",
+                        "uin": 251815992,
+                        "time": 1241087149,
+                        "nick": "小岛美奈子"
+                    }
+                ]
+            }
+        ]
+    }
+}

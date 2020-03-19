@@ -1,0 +1,461 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "total": 415,
+        "auditNum": 54,
+        "auditON": true,
+        "authorInfo": {
+            "msg": "[B]... ：“我的世界下起了小雪...”[/B]",
+            "htmlMsg": "<span style=\"font-weight:bold;\">...&nbsp;：“我的世界下起了小雪...”</span><wbr  />",
+            "sign": ""
+        },
+        "commentList": [
+            {
+                "id": "276",
+                "secret": 0,
+                "pasterid": "",
+                "bmp": "18d095a00100e281",
+                "pubtime": "2009-12-12 20:45:36",
+                "modifytime": 0,
+                "effect": 32,
+                "type": 0,
+                "uin": 495363310,
+                "nickname": "李勃",
+                "capacity": 5887,
+                "htmlContent": "真的不想踩",
+                "ubbContent": "真的不想踩",
+                "signature": "",
+                "replyList": [
+                    {
+                        "content": "不想踩下次就不要踩了...我对你们三个很有意见！...",
+                        "uin": 251815992,
+                        "time": 1260626657,
+                        "nick": "小岛美奈子"
+                    }
+                ]
+            },
+            {
+                "id": "275",
+                "secret": 0,
+                "pasterid": "",
+                "bmp": " 8c5150000008001",
+                "pubtime": "2009-12-12 18:43:59",
+                "modifytime": 0,
+                "effect": 0,
+                "type": 0,
+                "uin": 158810125,
+                "nickname": "乐的小二哥",
+                "capacity": 5925,
+                "htmlContent": "飘过&nbsp;<br  />路过<br  />走过<br  />留过<br  />&nbsp;<br  />&nbsp;<br  />说不好&nbsp;还要念过",
+                "ubbContent": "飘过 \n路过\n走过\n留过\n \n \n说不好 还要念过",
+                "signature": "",
+                "replyList": []
+            },
+            {
+                "id": "274",
+                "secret": 0,
+                "pasterid": "",
+                "bmp": " 8d40da80102c109",
+                "pubtime": "2009-12-12 18:17:58",
+                "modifytime": 0,
+                "effect": 32,
+                "type": 0,
+                "uin": 284293874,
+                "nickname": "孟修竹",
+                "capacity": 5882,
+                "htmlContent": "...&nbsp;&nbsp;<br  />&nbsp;<br  />&nbsp;&nbsp;Mo&nbsp;MO&nbsp;&nbsp;..&nbsp;&nbsp;轻轻地飘来.<br  />&nbsp;<br  />再重重地飘走..",
+                "ubbContent": "...  \n \n  Mo MO  ..  轻轻地飘来.\n \n再重重地飘走..",
+                "signature": "",
+                "replyList": [
+                    {
+                        "content": ".保佑我...Momo.",
+                        "uin": 251815992,
+                        "time": 1260613861,
+                        "nick": "小岛美奈子"
+                    }
+                ]
+            },
+            {
+                "id": "273",
+                "secret": 0,
+                "pasterid": "",
+                "bmp": "18d00da40102d109",
+                "pubtime": "2009-12-07 18:09:59",
+                "modifytime": 0,
+                "effect": 0,
+                "type": 0,
+                "uin": 583029995,
+                "nickname": "UCSB门将死忠！",
+                "capacity": 5919,
+                "htmlContent": "想到最近生物题目上老好出现的一种东西：X反转........",
+                "ubbContent": "想到最近生物题目上老好出现的一种东西：X反转........",
+                "signature": "",
+                "replyList": []
+            },
+            {
+                "id": "272",
+                "secret": 0,
+                "pasterid": "",
+                "bmp": "18d195a00100c001",
+                "pubtime": "2009-12-06 13:32:21",
+                "modifytime": 0,
+                "effect": 0,
+                "type": 0,
+                "uin": 923809093,
+                "nickname": "S。",
+                "capacity": 5947,
+                "htmlContent": "来过...........",
+                "ubbContent": "来过...........",
+                "signature": "",
+                "replyList": []
+            },
+            {
+                "id": "271",
+                "secret": 0,
+                "pasterid": "",
+                "bmp": "18f4052001029020",
+                "pubtime": "2009-12-05 22:17:11",
+                "modifytime": 0,
+                "effect": 32,
+                "type": 0,
+                "uin": 476058914,
+                "nickname": "",
+                "capacity": 5465,
+                "htmlContent": "你在一中待的连性别都变了？<br  />&nbsp;<br  />&nbsp;<br  />明天就看你的叻",
+                "ubbContent": "你在一中待的连性别都变了？\n \n \n明天就看你的叻",
+                "signature": "",
+                "replyList": [
+                    {
+                        "content": "...那个不是我啊..",
+                        "uin": 251815992,
+                        "time": 1260023461,
+                        "nick": "小岛美奈子"
+                    },
+                    {
+                        "content": "那哪个是你？",
+                        "uin": 476058914,
+                        "time": 1260024223,
+                        "nick": ""
+                    },
+                    {
+                        "content": "明天来我家的可是你？",
+                        "uin": 476058914,
+                        "time": 1260024380,
+                        "nick": ""
+                    },
+                    {
+                        "content": "。。。是我的主人",
+                        "uin": 251815992,
+                        "time": 1260024762,
+                        "nick": "小岛美奈子"
+                    },
+                    {
+                        "content": "......\n可又是什么小说看多了?...\n明早几点来?",
+                        "uin": 476058914,
+                        "time": 1260026669,
+                        "nick": ""
+                    },
+                    {
+                        "content": "。。。\n",
+                        "uin": 251815992,
+                        "time": 1260073208,
+                        "nick": "小岛美奈子"
+                    },
+                    {
+                        "content": "很好，就是耳机没声音。。。不过我很满意了，谢谢~",
+                        "uin": 476058914,
+                        "time": 1260073291,
+                        "nick": ""
+                    },
+                    {
+                        "content": "wo zai mai yige ermai...#\n...Ps:zenme dajia de erji dou you wenti...\n",
+                        "uin": 251815992,
+                        "time": 1260074705,
+                        "nick": "小岛美奈子"
+                    },
+                    {
+                        "content": "你的输入法也出问题了？",
+                        "uin": 476058914,
+                        "time": 1260075492,
+                        "nick": ""
+                    }
+                ]
+            },
+            {
+                "id": "270",
+                "secret": 0,
+                "pasterid": "",
+                "bmp": "184015a00140d421",
+                "pubtime": "2009-11-28 15:39:28",
+                "modifytime": 0,
+                "effect": 4195328,
+                "type": 0,
+                "uin": 414211691,
+                "nickname": "红豆熬的汤",
+                "capacity": 5915,
+                "htmlContent": "小帅哥QQ级别怪高的哈..........IBM/SONY/APPLE专卖",
+                "ubbContent": "小帅哥QQ级别怪高的哈..........IBM/SONY/APPLE专卖",
+                "signature": "",
+                "replyList": []
+            },
+            {
+                "id": "269",
+                "secret": 0,
+                "pasterid": "",
+                "bmp": "18509da00100e209",
+                "pubtime": "2009-11-23 14:21:22",
+                "modifytime": 0,
+                "effect": 0,
+                "type": 0,
+                "uin": 530600414,
+                "nickname": "汐铃",
+                "capacity": 5933,
+                "htmlContent": "很喜欢、很喜欢、这里的、背景音乐、、",
+                "ubbContent": "很喜欢、很喜欢、这里的、背景音乐、、",
+                "signature": "",
+                "replyList": []
+            },
+            {
+                "id": "268",
+                "secret": 0,
+                "pasterid": "",
+                "bmp": "18909da00608c209",
+                "pubtime": "2009-11-22 18:18:31",
+                "modifytime": 0,
+                "effect": 0,
+                "type": 0,
+                "uin": 1303552653,
+                "nickname": "赫敏·格兰杰",
+                "capacity": 5946,
+                "htmlContent": "这儿有一个未知生物额...",
+                "ubbContent": "这儿有一个未知生物额...",
+                "signature": "",
+                "replyList": []
+            },
+            {
+                "id": "267",
+                "secret": 0,
+                "pasterid": "",
+                "bmp": "38c595a10102e101",
+                "pubtime": "2009-11-17 12:45:25",
+                "modifytime": 0,
+                "effect": 0,
+                "type": 0,
+                "uin": 82382557,
+                "nickname": "薛玲",
+                "capacity": 5944,
+                "htmlContent": "<div style=\"text-align:right;\"><img src=\"/qzone/em/e176.gif\"  /><wbr  /></div>",
+                "ubbContent": "[R][em]e176[/em][/R]",
+                "signature": "",
+                "replyList": []
+            },
+            {
+                "id": "266",
+                "secret": 0,
+                "pasterid": "",
+                "bmp": "585095a00102c209",
+                "pubtime": "2009-11-16 16:42:01",
+                "modifytime": 0,
+                "effect": 32,
+                "type": 0,
+                "uin": 784237318,
+                "nickname": "叙眄",
+                "capacity": 5772,
+                "htmlContent": "小岛<br  />你骗人拉<br  />你使---------哥哥<br  />&nbsp;<br  />还有<br  />你说<br  />小税暗恋我<br  />嘿嘿<br  />小税已经生气拉<br  />&nbsp;<br  />嘎嘎<br  />飘走喽~~",
+                "ubbContent": "小岛\n你骗人拉\n你使---------哥哥\n \n还有\n你说\n小税暗恋我\n嘿嘿\n小税已经生气拉\n \n嘎嘎\n飘走喽~~",
+                "signature": "",
+                "replyList": [
+                    {
+                        "content": "..我是姐姐..",
+                        "uin": 251815992,
+                        "time": 1258369249,
+                        "nick": "小岛美奈子"
+                    },
+                    {
+                        "content": "骗人…………\n不是你骗我\n就是税骗我\n…………",
+                        "uin": 784237318,
+                        "time": 1258442743,
+                        "nick": "叙眄"
+                    }
+                ]
+            },
+            {
+                "id": "265",
+                "secret": 0,
+                "pasterid": "",
+                "bmp": "58d015a40102e109",
+                "pubtime": "2009-11-14 23:34:31",
+                "modifytime": 0,
+                "effect": 0,
+                "type": 0,
+                "uin": 872840416,
+                "nickname": "王羽",
+                "capacity": 5943,
+                "htmlContent": "虎哥，我来踩踩啦！",
+                "ubbContent": "虎哥，我来踩踩啦！",
+                "signature": "",
+                "replyList": []
+            },
+            {
+                "id": "264",
+                "secret": 0,
+                "pasterid": "",
+                "bmp": "18409da40000d001",
+                "pubtime": "2009-11-14 22:22:24",
+                "modifytime": 0,
+                "effect": 0,
+                "type": 0,
+                "uin": 842511959,
+                "nickname": "徐小耗",
+                "capacity": 5927,
+                "htmlContent": "被逼着踩俩脚<img src=\"/qzone/em/e150.gif\"  /><wbr  /><img src=\"/qzone/em/e140.gif\"  /><wbr  />",
+                "ubbContent": "被逼着踩俩脚[em]e150[/em][em]e140[/em]",
+                "signature": "",
+                "replyList": []
+            },
+            {
+                "id": "263",
+                "secret": 0,
+                "pasterid": "",
+                "bmp": "18d195a000028209",
+                "pubtime": "2009-11-12 20:30:53",
+                "modifytime": 0,
+                "effect": 32,
+                "type": 0,
+                "uin": 474697421,
+                "nickname": "朱明琪",
+                "capacity": 5893,
+                "htmlContent": "。。。。甩葱歌。。",
+                "ubbContent": "。。。。甩葱歌。。",
+                "signature": "",
+                "replyList": [
+                    {
+                        "content": "...我以前都不知道这首歌...\n差点Out了...",
+                        "uin": 251815992,
+                        "time": 1258088162,
+                        "nick": "小岛美奈子"
+                    }
+                ]
+            },
+            {
+                "id": "262",
+                "secret": 0,
+                "pasterid": "",
+                "bmp": "18d015a00102a221",
+                "pubtime": "2009-10-30 01:40:13",
+                "modifytime": 0,
+                "effect": 0,
+                "type": 0,
+                "uin": 347956886,
+                "nickname": "小c",
+                "capacity": 5895,
+                "htmlContent": "“太委屈。。“<br  />姑娘啊，你怎么这样傻。<br  />小伙子呀，你怎么也这样傻。<br  />。。",
+                "ubbContent": "“太委屈。。“\n姑娘啊，你怎么这样傻。\n小伙子呀，你怎么也这样傻。\n。。",
+                "signature": "",
+                "replyList": []
+            },
+            {
+                "id": "261",
+                "secret": 0,
+                "pasterid": "",
+                "bmp": " 8d40da80102c109",
+                "pubtime": "2009-10-10 21:17:07",
+                "modifytime": 0,
+                "effect": 0,
+                "type": 0,
+                "uin": 284293874,
+                "nickname": "孟修竹",
+                "capacity": 5869,
+                "htmlContent": "我做跑堂好多年...<br  />&nbsp;<br  />今日金盆洗手了...<br  />&nbsp;<br  />&nbsp;<br  />&nbsp;<br  />“放纵的爱也会让天空划满伤痕...”<br  />&nbsp;<br  />好悲伤的歌子....",
+                "ubbContent": "我做跑堂好多年...\n \n今日金盆洗手了...\n \n \n \n“放纵的爱也会让天空划满伤痕...”\n \n好悲伤的歌子....",
+                "signature": "",
+                "replyList": []
+            },
+            {
+                "id": "260",
+                "secret": 0,
+                "pasterid": "",
+                "bmp": "18119da00040e201",
+                "pubtime": "2009-10-04 18:21:34",
+                "modifytime": 0,
+                "effect": 4194336,
+                "type": 0,
+                "uin": 402694961,
+                "nickname": "Liu！",
+                "capacity": 5869,
+                "htmlContent": "既来之，岂有不睬之理？？<img src=\"/qzone/em/e112.gif\"  /><wbr  /><br  />&nbsp;<br  />&nbsp;<br  /><img src=\"/qzone/em/e192.gif\"  /><wbr  />",
+                "ubbContent": "既来之，岂有不睬之理？？[em]e112[/em]\n \n \n[em]e192[/em]",
+                "signature": "",
+                "replyList": [
+                    {
+                        "content": "嗯.那我回一下好了..~",
+                        "uin": 251815992,
+                        "time": 1255167026,
+                        "nick": "小岛美奈子"
+                    }
+                ]
+            },
+            {
+                "id": "259",
+                "secret": 0,
+                "pasterid": "",
+                "bmp": "18119da00040e201",
+                "pubtime": "2009-10-04 18:21:30",
+                "modifytime": 0,
+                "effect": 4194304,
+                "type": 0,
+                "uin": 402694961,
+                "nickname": "Liu！",
+                "capacity": 5908,
+                "htmlContent": "既来之，岂有不睬之理？？<img src=\"/qzone/em/e112.gif\"  /><wbr  /><br  />&nbsp;<br  />&nbsp;<br  /><img src=\"/qzone/em/e192.gif\"  /><wbr  />",
+                "ubbContent": "既来之，岂有不睬之理？？[em]e112[/em]\n \n \n[em]e192[/em]",
+                "signature": "",
+                "replyList": []
+            },
+            {
+                "id": "258",
+                "secret": 0,
+                "pasterid": "",
+                "bmp": "18d195a00100c001",
+                "pubtime": "2009-10-04 10:32:31",
+                "modifytime": 0,
+                "effect": 0,
+                "type": 0,
+                "uin": 923809093,
+                "nickname": "S。",
+                "capacity": 5948,
+                "htmlContent": "师傅<br  />来看看你",
+                "ubbContent": "师傅\n来看看你",
+                "signature": "",
+                "replyList": []
+            },
+            {
+                "id": "257",
+                "secret": 0,
+                "pasterid": "",
+                "bmp": "98d095a401028389",
+                "pubtime": "2009-10-04 08:54:46",
+                "modifytime": 0,
+                "effect": 32,
+                "type": 0,
+                "uin": 365146117,
+                "nickname": "伟建",
+                "capacity": 5887,
+                "htmlContent": "<span style=\"line-height:1.8em;filter: glow(color=#000099,strength=3);text-shadow:1px 0 4px #000099,0 1px 4px #000099,0 -1px 4px #000099,-1px 0 4px #000099;color:#ffffff;display:inline-block;\">兄弟~&nbsp;给屏酱油噻~<img src=\"/qzone/em/e113.gif\"  /><wbr  /><br  /></span><wbr  />",
+                "ubbContent": "[ffg,#000099,#FFFFFF]兄弟~ 给屏酱油噻~[em]e113[/em]\n[/ft]",
+                "signature": "",
+                "replyList": [
+                    {
+                        "content": "..",
+                        "uin": 251815992,
+                        "time": 1254617733,
+                        "nick": "小岛美奈子"
+                    }
+                ]
+            }
+        ]
+    }
+}

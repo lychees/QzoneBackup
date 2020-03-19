@@ -1,0 +1,84 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "first": 1,
+        "isfriend": 1,
+        "last": 1,
+        "limit": 0,
+        "photos": [
+            {
+                "albumId": "b5425c10-43c2-4b20-ae13-1c10e0ae267a",
+                "batchId": "0",
+                "browser": 0,
+                "cmtTotal": 0,
+                "desc": "",
+                "desctype": "text",
+                "faceList": null,
+                "height": 407,
+                "is_video": false,
+                "is_weixin_mode": 0,
+                "lbs": {
+                    "id": "",
+                    "idname": "",
+                    "name": "",
+                    "pos_x": "",
+                    "pos_y": ""
+                },
+                "likeTotal": 0,
+                "lloc": "MzKb1lwtgk3SuYNGrWsCkXpSUAsc1CYAAA!!",
+                "name": "start",
+                "ownerName": "小岛美奈子",
+                "ownerUin": 251815992,
+                "photocubage": 97227,
+                "phototype": 1,
+                "picKey": "MzKb1lwtgk3SuYNGrWsCkXpSUAsc1CYAAA!!",
+                "picmark_flag": 0,
+                "platformId": 0,
+                "platformSubId": 0,
+                "pre": "http://b42.photo.store.qq.com/psu?/b5425c10-43c2-4b20-ae13-1c10e0ae267a/2AE.Z3k7MEqMUkkDVWYe*MemxT8pAdPWa1MJEA8sDu0!/a/YZQBGxlIYAAAYlJQCxzUJgAA&a=42&b=47&bo=ngKXAQAAAAABFDk!",
+                "raw_upload": 0,
+                "shootGeo": {
+                    "id": "",
+                    "idname": "",
+                    "name": "",
+                    "pos_x": "",
+                    "pos_y": ""
+                },
+                "shootTime": 0,
+                "shorturl": "",
+                "topicId": "b5425c10-43c2-4b20-ae13-1c10e0ae267a",
+                "topicName": "校友相册",
+                "uploadTime": "2010-06-26 20:01:31",
+                "url": "http://b47.photo.store.qq.com/psu?/b5425c10-43c2-4b20-ae13-1c10e0ae267a/2AE.Z3k7MEqMUkkDVWYe*MemxT8pAdPWa1MJEA8sDu0!/b/YZQBGxlIYAAAYlJQCxzUJgAA&a=42&b=47&bo=ngKXAQAAAAABFDk!",
+                "width": 670,
+                "yurl": 0
+            }
+        ],
+        "picPosInPage": 0,
+        "picPosInTotal": 0,
+        "picTotal": 1,
+        "showMode": 1,
+        "single": {
+            "likeTotal": 0
+        },
+        "t": "",
+        "topic": {
+            "bitmap": "11000000",
+            "desc": "校友相册",
+            "descType": "text",
+            "index": "0",
+            "is_share_album": 0,
+            "loginName": "小岛美奈子",
+            "ownerName": "小岛美奈子",
+            "ownerUin": 251815992,
+            "priv": 3,
+            "pypriv": 3,
+            "share_album_owner": 0,
+            "topicId": "b5425c10-43c2-4b20-ae13-1c10e0ae267a",
+            "topicName": "校友相册"
+        }
+    }
+}
